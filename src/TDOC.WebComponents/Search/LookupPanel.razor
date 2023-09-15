@@ -1,0 +1,24 @@
+﻿@using TDOC.WebComponents.TextBox
+
+<!-- Master SearchBoxPanel -->
+<SearchBoxPanel Identifier="@Identifier"
+                Text="@MasterText"
+                Enabled="Enabled"
+                CaptionText="@CaptionText"
+                Required="Required"
+                ShowSearchButton="ShowSearchButton"
+                CaptionIsHyperlink="CaptionIsHyperlink"
+                AfterCaptionHyperlinkClicked="AfterCaptionHyperlinkClicked"
+                DataChangedNotificationMode="DataChangedNotificationMode"
+                Height="Height"
+                NullText="@NullText" />
+<!-- Slave TdTextBox -->
+@if (ShowSlave)
+{
+    <div class="pt-12px">
+        <TdTextBox Text="@SlaveText"
+                   ReadOnly="true"
+                   TabIndex="-1"
+                   Height="Height" />
+    </div>
+}

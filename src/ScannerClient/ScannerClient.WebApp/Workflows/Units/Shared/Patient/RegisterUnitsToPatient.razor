@@ -1,0 +1,25 @@
+﻿@inherits Fluxor.Blazor.Web.Components.FluxorComponent
+
+<div class="col-4 px-24px pt-24px">
+  <div>@_tdTablesLocalizer[$"{nameof(PatientModel)}.{nameof(PatientModel.KeyId)}"]</div>
+  <div class="row">
+    <div class="col-9">
+      <div class="input-group">
+        <TdTextBox Identifier="@($"{nameof(RegisterUnitsToPatient)}PatientId")" 
+                   NullText=@_sharedLocalizer["patientIdNullText"] 
+                   Text="@_workflowState.Value.CurrentPatient?.Id"
+                   BindValueMode="BindValueMode.OnLostFocus" />
+        <TdButton Identifier="@($"{nameof(RegisterUnitsToPatient)}Search")" 
+                  Type="TdButtonType.Secondary" 
+                  IconUrl="@($"{ContentUrls.ResourceImg}search/searchWhite.svg")" 
+                  OnClick="DoSearch" />
+      </div>
+    </div>
+    <div class="col pl-24px">
+      <TdButton Identifier="@($"{nameof(RegisterUnitsToPatient)}Clear")" 
+                Type="TdButtonType.Tertiary" 
+                IconUrl="@($"{ContentUrls.ResourceImg}others/clear.svg")" 
+                OnClick="DoClear"/>
+    </div>
+  </div>
+</div>

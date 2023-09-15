@@ -1,0 +1,1847 @@
+<?xml version="1.0" encoding="utf-8"?><root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActualProgramCheck.Off">
+    <value>Выкл.</value>
+  </data>
+  <data name="ActualProgramCheck.WarningPrompt">
+    <value>Предупреждение и подтверждение</value>
+  </data>
+  <data name="ActualProgramCheck.Error">
+    <value>Ошибка - Одобрение заблокировано</value>
+  </data>
+  <data name="ApprovalType.No">
+    <value>нет</value>
+  </data>
+  <data name="ApprovalType.Yes">
+    <value>Да</value>
+  </data>
+  <data name="ApprovalType.Visual">
+    <value>Визуальный</value>
+  </data>
+  <data name="ApprovalType.Unit">
+    <value>Продукты</value>
+  </data>
+  <data name="ApprovalType.UnitVisual">
+    <value>Визуальные продукты</value>
+  </data>
+  <data name="BatchUnitStatus.OK">
+    <value>OK</value>
+  </data>
+  <data name="BatchUnitStatus.BatchFailed">
+    <value>Партия неудачна</value>
+  </data>
+  <data name="BatchUnitStatus.UnitFailed">
+    <value>Unit failed</value>
+  </data>
+  <data name="CountDatStatus.Open">
+    <value>Открыть</value>
+  </data>
+  <data name="CountDatStatus.Completed">
+    <value>Завершено</value>
+  </data>
+  <data name="CountDatStatus.Suspended">
+    <value>Suspended</value>
+  </data>
+  <data name="CountDatUsersUserRole.EnteringData">
+    <value>Entering data</value>
+  </data>
+  <data name="CountDatUsersUserRole.Responsible">
+    <value>Responsible</value>
+  </data>
+  <data name="CustNameDisplay.Name">
+    <value>Название</value>
+  </data>
+  <data name="CustNameDisplay.ShortName">
+    <value>Корот. имя</value>
+  </data>
+  <data name="CustNameDisplay.Number">
+    <value>Номер</value>
+  </data>
+  <data name="CustOrderBookingMode.Default">
+    <value>По умолч.</value>
+  </data>
+  <data name="CustOrderBookingMode.Disabled">
+    <value>Не доступен</value>
+  </data>
+  <data name="CustOrderBookingMode.Manual">
+    <value>Вручную</value>
+  </data>
+  <data name="CustOrderBookingMode.Automation">
+    <value>Автоматический</value>
+  </data>
+  <data name="CustPreDispatchMode.UseFacSetting">
+    <value>Использовать заводские настройки</value>
+  </data>
+  <data name="CustPreDispatchMode.Always">
+    <value>Всегда</value>
+  </data>
+  <data name="CustPreDispatchMode.Never">
+    <value>Никогда</value>
+  </data>
+  <data name="DecNonDispItemStockOnPack.Off">
+    <value>Выкл.</value>
+  </data>
+  <data name="DecNonDispItemStockOnPack.Prompt">
+    <value>Подсказка  </value>
+  </data>
+  <data name="DecNonDispItemStockOnPack.On">
+    <value>Вкл.</value>
+  </data>
+  <data name="DeltaScanMode.Delta">
+    <value>Дельта</value>
+  </data>
+  <data name="DeltaScanMode.Total">
+    <value>Всего</value>
+  </data>
+  <data name="DoctorUsage.NotSet">
+    <value>Не требуется</value>
+  </data>
+  <data name="DoctorUsage.Needed">
+    <value>использовать умолчания, если ничего не выбрано</value>
+  </data>
+  <data name="DoctorUsage.Required">
+    <value>Должен быть указан</value>
+  </data>
+  <data name="DryerProcessStatus.Normal">
+    <value>Обычный</value>
+  </data>
+  <data name="DryerProcessStatus.OK">
+    <value>OK</value>
+  </data>
+  <data name="DryerProcessStatus.Error">
+    <value>Ошибка</value>
+  </data>
+  <data name="FacOrderBookingMode.Disabled">
+    <value>Не доступен</value>
+  </data>
+  <data name="FacOrderBookingMode.Manual">
+    <value>Вручную</value>
+  </data>
+  <data name="FacOrderBookingMode.Automation">
+    <value>Автоматически</value>
+  </data>
+  <data name="FactoryDefProdTraceType.ProductSerial">
+    <value>Серийный номер </value>
+  </data>
+  <data name="FactoryDefProdTraceType.Product">
+    <value>№ регламента</value>
+  </data>
+  <data name="FactoryRestrictionMode.Default">
+    <value>По умолч.</value>
+  </data>
+  <data name="FactoryRestrictionMode.On">
+    <value>Вкл.</value>
+  </data>
+  <data name="FactoryRestrictionMode.Warning">
+    <value>Предупреждение</value>
+  </data>
+  <data name="FactoryRestrictionMode.Off">
+    <value>Выкл.</value>
+  </data>
+  <data name="FastTrackCodeType.General">
+    <value>Общий</value>
+  </data>
+  <data name="FastTrackCodeType.AdHoc">
+    <value>Ad-hoc</value>
+  </data>
+  <data name="FastTrackCodeType.TemplateOnly">
+    <value>Только группировка</value>
+  </data>
+  <data name="FastTrackCreatorType.System">
+    <value>Система</value>
+  </data>
+  <data name="FastTrackCreatorType.JobServer">
+    <value>Job Server</value>
+  </data>
+  <data name="FastTrackCreatorType.FacUser">
+    <value>Сотрудник департамента</value>
+  </data>
+  <data name="FastTrackCreatorType.CustUser">
+    <value>пользователь Подразделения</value>
+  </data>
+  <data name="FastTrackDisplayMode.UserSetting">
+    <value>Настройки пользователя</value>
+  </data>
+  <data name="FastTrackDisplayMode.ForcePrompt">
+    <value>Force prompt</value>
+  </data>
+  <data name="FastTrackDisplayMode.ForceNoPrompt">
+    <value>Force no prompt</value>
+  </data>
+  <data name="FastTrackDisplayMode.ForceNoPromptOrInfo">
+    <value>Force no prompt or info</value>
+  </data>
+  <data name="FastTrackEndType.Normal">
+    <value>Обычный</value>
+  </data>
+  <data name="FastTrackEndType.NormalNewUnitHas">
+    <value>Обычный (новый продукт такой же)</value>
+  </data>
+  <data name="FastTrackEndType.ToRepair">
+    <value>Отослано в ремонт</value>
+  </data>
+  <data name="FastTrackEndType.Expired">
+    <value>Просроченный</value>
+  </data>
+  <data name="FastTrackEndType.Cancelled">
+    <value>Отмененный</value>
+  </data>
+  <data name="FastTrackInvoiceType.None">
+    <value>&lt;Пусто&gt;</value>
+  </data>
+  <data name="FastTrackInvoiceType.Factory">
+    <value>ЦСО</value>
+  </data>
+  <data name="FastTrackInvoiceType.Customer">
+    <value>Подразделение</value>
+  </data>
+  <data name="FastTrackStatus.Assigned">
+    <value>Присвоенный</value>
+  </data>
+  <data name="FastTrackStatus.Started">
+    <value>Начат</value>
+  </data>
+  <data name="FastTrackStatus.Ended">
+    <value>Завершен</value>
+  </data>
+  <data name="HandlingStepResult.OK">
+    <value>Прошло</value>
+  </data>
+  <data name="HandlingStepResult.FailedStop">
+    <value>Не удалось</value>
+  </data>
+  <data name="HandlingStepResult.OKCleared">
+    <value>Прошло (Очищенно)</value>
+  </data>
+  <data name="HandlingStepResult.FailedStartOver">
+    <value>Не удалось (старт еще)</value>
+  </data>
+  <data name="IdentArticleLineUsage.Enabled">
+    <value>Use system default</value>
+  </data>
+  <data name="IdentArticleLineUsage.Disabled">
+    <value>Да</value>
+  </data>
+  <data name="InActAction.Created">
+    <value>Создан</value>
+  </data>
+  <data name="InActAction.InBatch">
+    <value>в партии</value>
+  </data>
+  <data name="InActAction.Pending">
+    <value>Ожидание</value>
+  </data>
+  <data name="InActAction.InIncubator">
+    <value>в инкубаторе</value>
+  </data>
+  <data name="InActAction.StepResult">
+    <value>Результат шага</value>
+  </data>
+  <data name="InActAction.BatchUnblocked">
+    <value>Партия разблокирована</value>
+  </data>
+  <data name="InActAction.DispatchUnblocked">
+    <value>Отгрузка разблокирована</value>
+  </data>
+  <data name="InActAction.Approved">
+    <value>Одобрен</value>
+  </data>
+  <data name="InActAction.Disapproved">
+    <value>Не одобрен</value>
+  </data>
+  <data name="InActAction.Cancelled">
+    <value>Отмененный</value>
+  </data>
+  <data name="InActAction.InWell">
+    <value>In well</value>
+  </data>
+  <data name="InActAction.OutWell">
+    <value>Out well</value>
+  </data>
+  <data name="InActAction.BatchRemoved">
+    <value>Removed from batch</value>
+  </data>
+  <data name="InActAction.BatchAssigned">
+    <value>Batch assigned</value>
+  </data>
+  <data name="InActResult.Unknown">
+    <value>Неизвест.</value>
+  </data>
+  <data name="InActResult.Approved">
+    <value>Одобрен</value>
+  </data>
+  <data name="InActResult.Disapproved">
+    <value>Не одобрен</value>
+  </data>
+  <data name="IncNonDispItemStockOnPack.Off">
+    <value>Выкл.</value>
+  </data>
+  <data name="IncNonDispItemStockOnPack.Prompt">
+    <value>Подсказка  </value>
+  </data>
+  <data name="IncNonDispItemStockOnPack.On">
+    <value>Вкл.</value>
+  </data>
+  <data name="IncuBatchLogResult.Pending">
+    <value>Не завершенный</value>
+  </data>
+  <data name="IncuBatchLogResult.Passed">
+    <value>Прошло</value>
+  </data>
+  <data name="IncuBatchLogResult.Failed">
+    <value>Не удалось</value>
+  </data>
+  <data name="IncuBatchLogResult.Warning">
+    <value>Предупреждение</value>
+  </data>
+  <data name="IncuBatchLogResult.Discontinued">
+    <value>Discontinued</value>
+  </data>
+  <data name="IncuBatchLogResult.Error">
+    <value>Ошибка</value>
+  </data>
+  <data name="IncuBatchLogResult.DataError">
+    <value>Data error</value>
+  </data>
+  <data name="IncuBatchLogStatus.Unknown">
+    <value>Not yet available</value>
+  </data>
+  <data name="IncuBatchLogStatus.Manual">
+    <value>No data logging</value>
+  </data>
+  <data name="IncuBatchLogStatus.Processing">
+    <value>Обработка</value>
+  </data>
+  <data name="IncuBatchLogStatus.Done">
+    <value>Сделано</value>
+  </data>
+  <data name="IndicStatus.Created">
+    <value>Создан</value>
+  </data>
+  <data name="IndicStatus.InBatch">
+    <value>в партии</value>
+  </data>
+  <data name="IndicStatus.Pending">
+    <value>Ожидание</value>
+  </data>
+  <data name="IndicStatus.Approved">
+    <value>Одобрен</value>
+  </data>
+  <data name="IndicStatus.Disapproved">
+    <value>Не одобрен</value>
+  </data>
+  <data name="IndicStatus.Cancelled">
+    <value>Отмененный</value>
+  </data>
+  <data name="InTypResultType.Immediate">
+    <value>Немедленно</value>
+  </data>
+  <data name="InTypResultType.Delayed">
+    <value>Отложено</value>
+  </data>
+  <data name="InTypResultType.Combined">
+    <value>Combined</value>
+  </data>
+  <data name="ItemAltPricingMode.None">
+    <value>&lt;Пусто&gt;</value>
+  </data>
+  <data name="ItemAltPricingMode.SalesPrice">
+    <value>Цена продажи</value>
+  </data>
+  <data name="ItemAltPricingMode.UsagePrice">
+    <value>Цена пользования</value>
+  </data>
+  <data name="ItemAltPricingMode.CostPrice">
+    <value>Стоимость</value>
+  </data>
+  <data name="ItemDifficultyMode.Default">
+    <value>По умолч.</value>
+  </data>
+  <data name="ItemDifficultyMode.Fixed">
+    <value>Фиксированный</value>
+  </data>
+  <data name="ItemDifficultyMode.Sum">
+    <value>Сумма</value>
+  </data>
+  <data name="ItemDifficultyMode.Max">
+    <value>Макс.</value>
+  </data>
+  <data name="ItemDifficultyMode.Count">
+    <value>Кол-во</value>
+  </data>
+  <data name="ItemInstrumentType.Instrument">
+    <value>Изделие</value>
+  </data>
+  <data name="ItemInstrumentType.Endoscope">
+    <value>Эндоскоп</value>
+  </data>
+  <data name="ItemInstrumentType.ButtonValve">
+    <value>Button valve</value>
+  </data>
+  <data name="ItemPricingMode.SalesPrice">
+    <value>Цена продажи</value>
+  </data>
+  <data name="ItemPricingMode.UsagePrice">
+    <value>Цена пользования</value>
+  </data>
+  <data name="ItemPricingMode.CostPrice">
+    <value>Стоимость</value>
+  </data>
+  <data name="ItemPricingType.Normal">
+    <value></value>
+  </data>
+  <data name="ItemPricingType.TimeBased">
+    <value></value>
+  </data>
+  <data name="ItemReservationMode.NotRequired">
+    <value>Не требуется</value>
+  </data>
+  <data name="ItemReservationMode.Enabled">
+    <value>Доступно</value>
+  </data>
+  <data name="ItemTraceType.Item">
+    <value>Изделие</value>
+  </data>
+  <data name="ItemTraceType.SerialItem">
+    <value>Сер. номера</value>
+  </data>
+  <data name="ItemTraceType.LOT">
+    <value>Номера партии</value>
+  </data>
+  <data name="LogEntryType.System">
+    <value>Система</value>
+  </data>
+  <data name="LogEntryType.Information">
+    <value>Информация</value>
+  </data>
+  <data name="LogEntryType.Message">
+    <value>Сообщение</value>
+  </data>
+  <data name="LogEntryType.Warning">
+    <value>Предупреждение</value>
+  </data>
+  <data name="LogEntryType.Error">
+    <value>Ошибка</value>
+  </data>
+  <data name="LogEntryType.Debug">
+    <value>отладить</value>
+  </data>
+  <data name="LogBatchContent.Disabled">
+    <value>Не доступен</value>
+  </data>
+  <data name="LogBatchContent.Enabled">
+    <value>Доступно</value>
+  </data>
+  <data name="LogBatchRegMode.Off">
+    <value>Выкл.</value>
+  </data>
+  <data name="LogBatchRegMode.On">
+    <value>Вкл.</value>
+  </data>
+  <data name="MachConsStatus.OnStock">
+    <value>На складе</value>
+  </data>
+  <data name="MachConsStatus.InUse">
+    <value>Используется</value>
+  </data>
+  <data name="MachConsStatus.Used">
+    <value>Использованный</value>
+  </data>
+  <data name="MachConsStatus.Missing">
+    <value>Отсутствует</value>
+  </data>
+  <data name="MachLogTypes.TDOC">
+    <value>Ошибка TDOC </value>
+  </data>
+  <data name="MachLogTypes.MachineError">
+    <value>Машинная ошибка </value>
+  </data>
+  <data name="MachLogTypes.MachineWarning">
+    <value>Предупреждение машины</value>
+  </data>
+  <data name="MachTypeRuleIntervalType.Day">
+    <value>Каждый х  день</value>
+  </data>
+  <data name="MachTypeRuleIntervalType.Batch">
+    <value>Каждая х партия</value>
+  </data>
+  <data name="MachTypeRuleIntervalType.FirstDailyRunAfter">
+    <value>First daily run after</value>
+  </data>
+  <data name="MachTypeRuleIntervalType.FirstWeeklyRunAfter">
+    <value>First weekly run after</value>
+  </data>
+  <data name="MachTypeRuleIntervalType.FirstMonthlyRunAfter">
+    <value>First monthly run after</value>
+  </data>
+  <data name="ManualEndoDryingMode.NotAllowed">
+    <value>Не разрешено</value>
+  </data>
+  <data name="ManualEndoDryingMode.Allowed">
+    <value>Допустимо</value>
+  </data>
+  <data name="ManualEndoDryingMode.Assumed">
+    <value>Assumed</value>
+  </data>
+  <data name="McRuleResult.OK">
+    <value>OK</value>
+  </data>
+  <data name="McRuleResult.Prevented">
+    <value>Prevented</value>
+  </data>
+  <data name="McRuleResult.Forced">
+    <value>Принудительный</value>
+  </data>
+  <data name="McRuleResult.Error">
+    <value>Ошибка</value>
+  </data>
+  <data name="OperationDataActionType.Created">
+    <value>Создан</value>
+  </data>
+  <data name="OperationDataActionType.Cancelled">
+    <value>Отмененный</value>
+  </data>
+  <data name="OperationDataActionType.Planned">
+    <value>Запланировано</value>
+  </data>
+  <data name="OperationDataActionType.Accepted">
+    <value>Принятый</value>
+  </data>
+  <data name="OperationDataActionType.Started">
+    <value>Начат</value>
+  </data>
+  <data name="OperationDataActionType.Done">
+    <value>Сделано</value>
+  </data>
+  <data name="OperationDataActionType.PrefListToOrderAuto">
+    <value>Pref. list order created (auto)</value>
+  </data>
+  <data name="OperationDataActionType.PrefListToOrderManual">
+    <value>Pref. list order created (manual)</value>
+  </data>
+  <data name="OperationDataActionType.PrefListOrderUpdated">
+    <value>Pref. list order updated</value>
+  </data>
+  <data name="OperationDataActionType.OrderCancelled">
+    <value>Заказ отменен</value>
+  </data>
+  <data name="OperationDataActionType.Exported">
+    <value>Экспортировано</value>
+  </data>
+  <data name="OperationDataActionType.Imported">
+    <value>Импортировано</value>
+  </data>
+  <data name="OperationDataActionType.PickInfoImport">
+    <value>Picking information imported</value>
+  </data>
+  <data name="OperationDataActionType.BookingForced">
+    <value>Принудительное резервирование</value>
+  </data>
+  <data name="OperationDataActionType.BookingUnForced">
+    <value>Booking unforced</value>
+  </data>
+  <data name="OperationDataActionType.ReservChangedDueToForce">
+    <value>Reserv. changed due to force</value>
+  </data>
+  <data name="OperationDataActionType.PreCount">
+    <value>Operation count (pre)</value>
+  </data>
+  <data name="OperationDataActionType.PerCount">
+    <value>Operation count (per)</value>
+  </data>
+  <data name="OperationDataActionType.PostCount">
+    <value>Operation count (post)</value>
+  </data>
+  <data name="OperationDataActionType.MergeRemove">
+    <value>Data moved to operation</value>
+  </data>
+  <data name="OperationDataActionType.MergeReceive">
+    <value>Data received from operation</value>
+  </data>
+  <data name="OperationDataActionType.EmergencyCaseCartAdded">
+    <value>Emergency case cart bound</value>
+  </data>
+  <data name="OperationDataActionType.PatVeriOK">
+    <value>Patient verified</value>
+  </data>
+  <data name="OperationDataActionType.PatVeriFailed">
+    <value>Patient verification failed</value>
+  </data>
+  <data name="OperationDataActionType.PatVeriSkip">
+    <value>Patient verification skipped</value>
+  </data>
+  <data name="OperationDataActionType.PatVeriPostpone">
+    <value>Patient verification postponed</value>
+  </data>
+  <data name="OperationDataActionType.OrderReturnRequested">
+    <value>Order return requested</value>
+  </data>
+  <data name="OperationDataActionType.OrderReordered">
+    <value>Order reordered</value>
+  </data>
+  <data name="OperationDataActionType.OrderCopyCreatedAuto">
+    <value>Order copy created (auto)</value>
+  </data>
+  <data name="OperationDataActionType.OrderCopyCreatedManual">
+    <value>Order copy created (manual)</value>
+  </data>
+  <data name="OperationTypeType.Elective">
+    <value>Создан</value>
+  </data>
+  <data name="OperationTypeType.Emergency">
+    <value>Отмененный</value>
+  </data>
+  <data name="OPProcedureTypeMode.Fixed">
+    <value>Исправлено</value>
+  </data>
+  <data name="OPProcedureTypeMode.AutoOPType">
+    <value>Автоматически из типа операции</value>
+  </data>
+  <data name="OPProcedureTypeMode.AutoDisabled">
+    <value></value>
+  </data>
+  <data name="OPStaffMode.Fixed">
+    <value>Исправлено</value>
+  </data>
+  <data name="OPStaffMode.AutoProcType">
+    <value>Автоматически из типа процедуры</value>
+  </data>
+  <data name="OrderActionType.Created">
+    <value>Создан</value>
+  </data>
+  <data name="OrderActionType.Cancelled">
+    <value>Отмененный</value>
+  </data>
+  <data name="OrderActionType.Sent">
+    <value>Отослан</value>
+  </data>
+  <data name="OrderActionType.Accepted">
+    <value>Принятый</value>
+  </data>
+  <data name="OrderActionType.PickStart">
+    <value>Получение начато</value>
+  </data>
+  <data name="OrderActionType.Delivered">
+    <value>Доставлен</value>
+  </data>
+  <data name="OrderActionType.Received">
+    <value>Получил</value>
+  </data>
+  <data name="OrderActionType.Done">
+    <value>Сделано</value>
+  </data>
+  <data name="OrderActionType.PrintPicklist">
+    <value>Pick list printed or viewed</value>
+  </data>
+  <data name="OrderActionType.PrintDevNote">
+    <value>Delivery note printed or viewed</value>
+  </data>
+  <data name="OrderActionType.PrintRetNote">
+    <value>Return note printed or viewed</value>
+  </data>
+  <data name="OrderActionType.PrintPurchaseOrder">
+    <value>Purchase order printed or viewed</value>
+  </data>
+  <data name="OrderActionType.Exported">
+    <value>Экспортировано</value>
+  </data>
+  <data name="OrderActionType.Imported">
+    <value>Импортировано</value>
+  </data>
+  <data name="OrderActionType.ReqDevTimeChange">
+    <value>Запрошенное время доставки изменено</value>
+  </data>
+  <data name="OrderActionType.PickInfoImport">
+    <value></value>
+  </data>
+  <data name="OrderActionType.BookingModeActive">
+    <value>Режим резервирования активен</value>
+  </data>
+  <data name="OrderActionType.BookingModeInActive">
+    <value>Режим резервирования нет активен</value>
+  </data>
+  <data name="OrderActionType.BookingForced">
+    <value>Принудительное резервирование</value>
+  </data>
+  <data name="OrderActionType.BookingUnForced">
+    <value>Booking unforced</value>
+  </data>
+  <data name="OrderActionType.ReservChangedDueToForce">
+    <value>Reserv. changed due to force</value>
+  </data>
+  <data name="OrderActionType.AttachToOperation">
+    <value>Прилагается к операции</value>
+  </data>
+  <data name="OrderActionType.DetachFromOperation">
+    <value>Отсоединен от операции</value>
+  </data>
+  <data name="OrderActionType.BindItemsToOperation">
+    <value>Позиции привязанные к операции</value>
+  </data>
+  <data name="OrderActionType.BindUnitsToOperation">
+    <value>Продукты, привязанные к операции</value>
+  </data>
+  <data name="OrderActionType.UnbindItemsFromOperation">
+    <value>Позиции отвязанные от опреации</value>
+  </data>
+  <data name="OrderActionType.UnbindUnitsFromOperation">
+    <value>Продукты отвязаны от операции</value>
+  </data>
+  <data name="OrderActionType.ReturnRequested">
+    <value>Return requested</value>
+  </data>
+  <data name="OrderActionType.Reordered">
+    <value>Reordered</value>
+  </data>
+  <data name="OrderBookingMode.Undetermined">
+    <value>Не определено</value>
+  </data>
+  <data name="OrderBookingMode.Disabled">
+    <value>Не доступен</value>
+  </data>
+  <data name="OrderBookingMode.Inactive">
+    <value>Неактивные</value>
+  </data>
+  <data name="OrderBookingMode.Active">
+    <value>Активный</value>
+  </data>
+  <data name="OrderBookingStatus.Undetermined">
+    <value>Не определено</value>
+  </data>
+  <data name="OrderBookingStatus.Ok">
+    <value>OK</value>
+  </data>
+  <data name="OrderBookingStatus.Warning">
+    <value>Предупреждение</value>
+  </data>
+  <data name="OrderBookingStatus.Error">
+    <value>Ошибка</value>
+  </data>
+  <data name="OrderOrgStatus.None">
+    <value>&lt;Пусто&gt;</value>
+  </data>
+  <data name="OrderOrgStatus.Template">
+    <value>Шаблон</value>
+  </data>
+  <data name="OrderOrgStatus.Open">
+    <value>Открыть</value>
+  </data>
+  <data name="OrderOrgStatus.Sent">
+    <value>Отослан</value>
+  </data>
+  <data name="OrderOrgStatus.Received">
+    <value>Получен</value>
+  </data>
+  <data name="OrderOrgStatus.Done">
+    <value>Сделано</value>
+  </data>
+  <data name="OrderOrgStatus.Cancelled">
+    <value>Отмененный</value>
+  </data>
+  <data name="OrderSuppPickPriority.Normal">
+    <value>Обычный</value>
+  </data>
+  <data name="OrderSuppPickPriority.PickNow">
+    <value>Сейчас</value>
+  </data>
+  <data name="OrderSuppPickPriority.PickNowForced">
+    <value>Now (forced)</value>
+  </data>
+  <data name="OrderSuppPriority.Normal">
+    <value>Обычный</value>
+  </data>
+  <data name="OrderSuppPriority.FastTrack">
+    <value>Fast tracked</value>
+  </data>
+  <data name="OrderSuppPriority.Emergency">
+    <value>Acute</value>
+  </data>
+  <data name="OrderSuppStatus.None">
+    <value>&lt;Пусто&gt;</value>
+  </data>
+  <data name="OrderSuppStatus.Template">
+    <value>Шаблон</value>
+  </data>
+  <data name="OrderSuppStatus.Order">
+    <value>Новый</value>
+  </data>
+  <data name="OrderSuppStatus.Accepted">
+    <value>Принятый</value>
+  </data>
+  <data name="OrderSuppStatus.Picked">
+    <value>Отбор запущен  </value>
+  </data>
+  <data name="OrderSuppStatus.Delivered">
+    <value>Доставлен</value>
+  </data>
+  <data name="OrderSuppStatus.Cancelled">
+    <value>Отмененный</value>
+  </data>
+  <data name="OrderType.None">
+    <value>&lt;Пусто&gt;</value>
+  </data>
+  <data name="OrderType.Order">
+    <value>Заказ</value>
+  </data>
+  <data name="OrderType.ReturnOrder">
+    <value>Заказ на возврат</value>
+  </data>
+  <data name="OrderType.OrderCorr">
+    <value>Изделие</value>
+  </data>
+  <data name="PackingUsedFor.All">
+    <value>Все инструменты</value>
+  </data>
+  <data name="PackingUsedFor.Endoscopes">
+    <value>Эндоскопы</value>
+  </data>
+  <data name="PatientAgeUsage.NotSet">
+    <value>Как указано</value>
+  </data>
+  <data name="PatientAgeUsage.Needed">
+    <value>использовать умолчания, если ничего не выбрано</value>
+  </data>
+  <data name="PatientAgeUsage.Required">
+    <value>Должен быть указан</value>
+  </data>
+  <data name="PatientGenderUsage.NotSet">
+    <value>Как указано</value>
+  </data>
+  <data name="PatientGenderUsage.Needed">
+    <value>использовать умолчания, если ничего не выбрано</value>
+  </data>
+  <data name="PatientGenderUsage.Required">
+    <value>Должен быть указан</value>
+  </data>
+  <data name="PIPLogEntrySubType.None">
+    <value>&lt;Пусто&gt;</value>
+  </data>
+  <data name="PIPLogEntrySubType.SystemData">
+    <value>Системные данные</value>
+  </data>
+  <data name="PIPLogEntrySubType.User">
+    <value>Пользов.</value>
+  </data>
+  <data name="PIPLogEntrySubType.UserProfile">
+    <value>Профиль пользователя</value>
+  </data>
+  <data name="PIPLogEntrySubType.PatientLookup">
+    <value>Пациенты</value>
+  </data>
+  <data name="PIPLogEntrySubType.OperationLookup">
+    <value>Даные операции </value>
+  </data>
+  <data name="PIPLogEntrySubType.Patients">
+    <value>Пациенты</value>
+  </data>
+  <data name="PIPLogEntrySubType.Operations">
+    <value>Операции</value>
+  </data>
+  <data name="PIPLogEntrySubType.Units">
+    <value>Продукты</value>
+  </data>
+  <data name="PIPLogEntrySubType.Orders">
+    <value>Заказы</value>
+  </data>
+  <data name="PIPLogEntrySubType.LOTLookup">
+    <value>List of LOT information</value>
+  </data>
+  <data name="PIPLogEntryType.PIPSettings">
+    <value>Patient information privacy settings change</value>
+  </data>
+  <data name="PIPLogEntryType.DirectLookup">
+    <value>Direct lookup</value>
+  </data>
+  <data name="PIPLogEntryType.SuccSearch">
+    <value>Successful search</value>
+  </data>
+  <data name="PIPLogEntryType.UnSuccSearch">
+    <value>Unsuccessful search</value>
+  </data>
+  <data name="PIPLogEntryType.PIPLogOpened">
+    <value>Patient information access log opened</value>
+  </data>
+  <data name="PIPLogEntryType.PIPLogSearching">
+    <value>Search in Patient information access log</value>
+  </data>
+  <data name="PIPLogEntryType.SchedOperations">
+    <value>Scheduled operations</value>
+  </data>
+  <data name="PrDrv.None">
+    <value>&lt;Пусто&gt;</value>
+  </data>
+  <data name="PrDrv.Windows">
+    <value>Окна</value>
+  </data>
+  <data name="PrDrv.Epson_Obsolete">
+    <value></value>
+  </data>
+  <data name="PrDrv.Zebra">
+    <value>Зебра</value>
+  </data>
+  <data name="PrefListOrderCreateMode.Immediate">
+    <value>Немедленно</value>
+  </data>
+  <data name="PrefListOrderCreateMode.TimeBased">
+    <value>Точно в срок</value>
+  </data>
+  <data name="PrefListOrderCreateMode.Manual">
+    <value>Вручную</value>
+  </data>
+  <data name="PrefLnModifier.None">
+    <value>&lt;Пусто&gt;</value>
+  </data>
+  <data name="PrefLnModifier.Absolute">
+    <value>Absolute</value>
+  </data>
+  <data name="PrefLnModifier.Add">
+    <value>Добавить</value>
+  </data>
+  <data name="PrefLnModifier.Subtract">
+    <value>Subtract</value>
+  </data>
+  <data name="PrefLnModifier.Highest">
+    <value>Высший</value>
+  </data>
+  <data name="PrefLnModifier.Lowest">
+    <value>Lowest</value>
+  </data>
+  <data name="ProcessStatus.Done">
+    <value>Сделано</value>
+  </data>
+  <data name="ProcessStatus.Running">
+    <value>Работа </value>
+  </data>
+  <data name="ProcessStatus.Initiated">
+    <value>Инициирован</value>
+  </data>
+  <data name="ProcessStatus.Ending">
+    <value>Завершение</value>
+  </data>
+  <data name="ProcessType.None">
+    <value>&lt;Пусто&gt;</value>
+  </data>
+  <data name="ProcessType.Pack">
+    <value>Упаковать</value>
+  </data>
+  <data name="ProcessType.SteriPostBatch">
+    <value>Одобрение стерилизации</value>
+  </data>
+  <data name="ProcessType.Out">
+    <value>Отправить </value>
+  </data>
+  <data name="ProcessType.Return">
+    <value>Вернуться</value>
+  </data>
+  <data name="ProcessType.Prepare">
+    <value>Подготовка</value>
+  </data>
+  <data name="ProcessType.Wrap">
+    <value>Завернуть</value>
+  </data>
+  <data name="ProcessType.LitePro">
+    <value>Светлая этикетка</value>
+  </data>
+  <data name="ProcessType.SteriPreBatch">
+    <value>Формирование партии для загрузки в стерилизатор</value>
+  </data>
+  <data name="ProcessType.Flash">
+    <value>Flash batch</value>
+  </data>
+  <data name="ProcessType.Location">
+    <value>Местоположение</value>
+  </data>
+  <data name="ProcessType.WashPreBatch">
+    <value>Формирование партии для загрузки моечной машины</value>
+  </data>
+  <data name="ProcessType.WashPostBatch">
+    <value>Одобрение мойки</value>
+  </data>
+  <data name="ProcessType.OpenUsed">
+    <value>Открыть/использован</value>
+  </data>
+  <data name="ProcessType.Operation">
+    <value>Операция</value>
+  </data>
+  <data name="ProcessType.Order">
+    <value>Заказ</value>
+  </data>
+  <data name="ProcessType.Inventory">
+    <value>Инвентаризация</value>
+  </data>
+  <data name="ProcessType.OrderPick">
+    <value>Сбор заказа</value>
+  </data>
+  <data name="ProcessType.Industry">
+    <value>Индустрия</value>
+  </data>
+  <data name="ProcessType.PreDisPreBatch">
+    <value>Pre batch (Predisinfection)</value>
+  </data>
+  <data name="ProcessType.LoadQueue">
+    <value>Очеред загрузок</value>
+  </data>
+  <data name="ProcessType.PurchaseOrder">
+    <value>Заказ на покупку</value>
+  </data>
+  <data name="ProcessType.EndoscopePreBatch">
+    <value>Формирование партии (мойка Эндоскопов)</value>
+  </data>
+  <data name="ProcessType.WashCheck">
+    <value>Проба</value>
+  </data>
+  <data name="ProcessType.ExtBatchInfo">
+    <value>Ext. batch info</value>
+  </data>
+  <data name="ProcessType.EndoCleanAndTest">
+    <value>Чистка и тест эндоскопа</value>
+  </data>
+  <data name="ProcessType.Transport">
+    <value>Транспорт</value>
+  </data>
+  <data name="ProcessType.Workflow">
+    <value>Workflow</value>
+  </data>
+  <data name="ProcessType.Incubator">
+    <value>Incubation</value>
+  </data>
+  <data name="ProcessType.ReturnWF">
+    <value>Прием продуктов</value>
+  </data>
+  <data name="ProcessType.WashPreBatchWF">
+    <value>Create wash batch</value>
+  </data>
+  <data name="ProcessType.SteriPreBatchWF">
+    <value>Create sterilizer batch</value>
+  </data>
+  <data name="ProcessType.PackWF">
+    <value>Pack units</value>
+  </data>
+  <data name="ProcessType.OutWF">
+    <value>Отгрузить Подразделению</value>
+  </data>
+  <data name="ProcessType.Last">
+    <value></value>
+  </data>
+  <data name="ProdDispatchRestriction.Default">
+    <value>По умолч.</value>
+  </data>
+  <data name="ProdDispatchRestriction.None">
+    <value>&lt;Пусто&gt;</value>
+  </data>
+  <data name="ProdDispatchRestriction.CustomerOrSite">
+    <value>Клиент или Филиал</value>
+  </data>
+  <data name="ProdDispatchRestriction.CustomerElseSite">
+    <value>Подразделение или Филиал</value>
+  </data>
+  <data name="ProdDispatchRestriction.CustomerOnly">
+    <value>Только Клиент</value>
+  </data>
+  <data name="ProdReservationMode.NotRequired">
+    <value>Не требуется</value>
+  </data>
+  <data name="ProdReservationMode.Enabled">
+    <value>Доступно</value>
+  </data>
+  <data name="ProductDifficultyMode.UseItemValue">
+    <value>Use item value</value>
+  </data>
+  <data name="ProductDifficultyMode.Fixed">
+    <value>Фиксированный</value>
+  </data>
+  <data name="ProductReturnState.Normal">
+    <value>Обычный</value>
+  </data>
+  <data name="ProductReturnState.PreProcessed">
+    <value>Прошло ПСО</value>
+  </data>
+  <data name="ProductReturnState.PrePacked">
+    <value>Упаковано</value>
+  </data>
+  <data name="ProductStockControlMode.Simple">
+    <value>Обычный</value>
+  </data>
+  <data name="ProductStockControlMode.Basic">
+    <value>Расширенный (Полный)</value>
+  </data>
+  <data name="ProductStockControlMode.Advanced">
+    <value></value>
+  </data>
+  <data name="ProductStorageType.Factory">
+    <value>ЦСО</value>
+  </data>
+  <data name="ProductStorageType.Transit">
+    <value>Transit</value>
+  </data>
+  <data name="ProductTraceType.Product">
+    <value>№ регламента</value>
+  </data>
+  <data name="ProductTraceType.ProductSerial">
+    <value>Серийный номер </value>
+  </data>
+  <data name="ProductTraceType.Both">
+    <value>По Сер. №№ и № регламента</value>
+  </data>
+  <data name="ProductType.Trays">
+    <value>Лоток</value>
+  </data>
+  <data name="ProductType.SinglePacks">
+    <value>Единичная упаковка</value>
+  </data>
+  <data name="ProductType.Endoscopes">
+    <value>Эндоскоп</value>
+  </data>
+  <data name="ProgramCheckInitiated.Allowed">
+    <value>Допустимо</value>
+  </data>
+  <data name="ProgramCheckInitiated.Required">
+    <value>Требуемый</value>
+  </data>
+  <data name="QuestionInputType.Boolean">
+    <value>Да/нет</value>
+  </data>
+  <data name="QuestionInputType.Integer">
+    <value>Номер</value>
+  </data>
+  <data name="QuestionInputType.Text">
+    <value>Текст</value>
+  </data>
+  <data name="QuestionInputType.List">
+    <value>Список</value>
+  </data>
+  <data name="RepairInvState.None">
+    <value>&lt;Пусто&gt;</value>
+  </data>
+  <data name="RepairInvState.Block">
+    <value>Закблокировано</value>
+  </data>
+  <data name="RepairInvState.Done">
+    <value>Сделано</value>
+  </data>
+  <data name="RepairMode.AskUser">
+    <value>Спросить пользователя</value>
+  </data>
+  <data name="RepairMode.UsingCust">
+    <value>использование подразделения</value>
+  </data>
+  <data name="RepairMode.Owner">
+    <value>Владелец</value>
+  </data>
+  <data name="RepairMode.Factory">
+    <value>ЦСО</value>
+  </data>
+  <data name="RepairOrigin.Item">
+    <value>Изделие</value>
+  </data>
+  <data name="RepairOrigin.Product">
+    <value>Регламент</value>
+  </data>
+  <data name="RepairOrigin.Serial">
+    <value>Серийный</value>
+  </data>
+  <data name="RepairOrigin.Unit">
+    <value>Продукт</value>
+  </data>
+  <data name="RepairOrigin.Tag">
+    <value>Метка </value>
+  </data>
+  <data name="RepairStatus.Sent">
+    <value>Отослан</value>
+  </data>
+  <data name="RepairStatus.Received">
+    <value>Получено</value>
+  </data>
+  <data name="RepairStatus.Done">
+    <value>Сделано</value>
+  </data>
+  <data name="RepairStatus.Cancelled">
+    <value>Отмененный</value>
+  </data>
+  <data name="RepairStatus.Requested">
+    <value>Requested</value>
+  </data>
+  <data name="RpTypCommentOption.NotAllowed">
+    <value>Не разрешено</value>
+  </data>
+  <data name="RpTypCommentOption.Allowed">
+    <value>Допустимо</value>
+  </data>
+  <data name="RpTypCommentOption.Required">
+    <value>Требуемый</value>
+  </data>
+  <data name="RpTypCustInvMode.NoInvoice">
+    <value>Нет инвойса</value>
+  </data>
+  <data name="RpTypCustInvMode.Invoice">
+    <value>Счет</value>
+  </data>
+  <data name="RpTypCustInvMode.NoEdit">
+    <value>Счет, без редактирования</value>
+  </data>
+  <data name="RpTypCustInvMode.Hidden">
+    <value>Счет, без отображения</value>
+  </data>
+  <data name="RpTypFacInvMode.NoInvoice">
+    <value>Нет инвойса</value>
+  </data>
+  <data name="RpTypFacInvMode.Invoice">
+    <value>Счет</value>
+  </data>
+  <data name="RpTypFacInvMode.NoEdit">
+    <value>Счет, без редактирования</value>
+  </data>
+  <data name="RpTypFacInvMode.Hidden">
+    <value>Счет, без отображения</value>
+  </data>
+  <data name="RpTypSuppMode.AllowChange">
+    <value>Допустить изменения</value>
+  </data>
+  <data name="RpTypSuppMode.Fixed">
+    <value>Фиксированное</value>
+  </data>
+  <data name="RpTypType.Standard">
+    <value>Стандартный</value>
+  </data>
+  <data name="RpTypType.Quick">
+    <value>Быстрый ремонт</value>
+  </data>
+  <data name="RpTypType.Discard">
+    <value>Discard</value>
+  </data>
+  <data name="ScanUIStartMode.Default">
+    <value>По умолч.</value>
+  </data>
+  <data name="ScanUIStartMode.Layers">
+    <value>Layer mode</value>
+  </data>
+  <data name="ScanUIStartMode.Grid">
+    <value>Режим таблицы/сетки</value>
+  </data>
+  <data name="SexType.None">
+    <value>Неизвест.</value>
+  </data>
+  <data name="SexType.Male">
+    <value>Муж.</value>
+  </data>
+  <data name="SexType.Female">
+    <value>Жен.</value>
+  </data>
+  <data name="SexType.Other">
+    <value>Другое</value>
+  </data>
+  <data name="StdCommentFreeTextOption.NotAllowed">
+    <value>Не разрешено</value>
+  </data>
+  <data name="StdCommentFreeTextOption.Allowed">
+    <value>Допустимо</value>
+  </data>
+  <data name="StdCommentFreeTextOption.Required">
+    <value>Требуемый</value>
+  </data>
+  <data name="StockBackOrderMode.Never">
+    <value>Никогда</value>
+  </data>
+  <data name="StockBackOrderMode.Always">
+    <value>Всегда</value>
+  </data>
+  <data name="StockBackOrderMode.Ask">
+    <value>Спросить</value>
+  </data>
+  <data name="StockBackOrderMode.WhenSet">
+    <value>When indicated (Exact)</value>
+  </data>
+  <data name="StockBackOrderMode.WhenSetAuto">
+    <value>When indicated (All)</value>
+  </data>
+  <data name="StockOrderInMode.Auto">
+    <value>Автоматическое завершение</value>
+  </data>
+  <data name="StockOrderInMode.Receive">
+    <value>Автоматический прием</value>
+  </data>
+  <data name="StockOrderInMode.Manual">
+    <value>Прием вручную</value>
+  </data>
+  <data name="StockPrnMode.Never">
+    <value>Никогда</value>
+  </data>
+  <data name="StockPrnMode.Always">
+    <value>Всегда</value>
+  </data>
+  <data name="StockPrnMode.Ask">
+    <value>Спросить</value>
+  </data>
+  <data name="TagType.Basket">
+    <value>Корзина</value>
+  </data>
+  <data name="TagType.SteriLoad">
+    <value>Загрузить</value>
+  </data>
+  <data name="TagType.PrepTag">
+    <value>Подготовка</value>
+  </data>
+  <data name="TagType.Bundle">
+    <value>Сверток</value>
+  </data>
+  <data name="TagType.Wash">
+    <value>Мойка</value>
+  </data>
+  <data name="TagType.WashLoad">
+    <value>Загрузка на мойку</value>
+  </data>
+  <data name="TagType.Transport">
+    <value>Транспорт</value>
+  </data>
+  <data name="TagType.Split">
+    <value>Разделить</value>
+  </data>
+  <data name="TagType.CaseCart">
+    <value>Транспортная тележка</value>
+  </data>
+  <data name="TagType.TransportBox">
+    <value>Transport box</value>
+  </data>
+  <data name="TagType.InstrumentContainer">
+    <value>Instrument container</value>
+  </data>
+  <data name="TransmitKind.SMS">
+    <value>Короткий шаблон</value>
+  </data>
+  <data name="TransmitKind.Internal">
+    <value>Длинный шаблон</value>
+  </data>
+  <data name="TrigBehaviour.RoundBased">
+    <value>Rounds</value>
+  </data>
+  <data name="TrigBehaviour.Time">
+    <value>Intervals</value>
+  </data>
+  <data name="TrigBehaviour.InitialDaysThenRounds">
+    <value>Interval then rounds</value>
+  </data>
+  <data name="TrigBehaviour.RoundMaxTime">
+    <value>Rounds or intervals</value>
+  </data>
+  <data name="TrigBehaviour.Everytime">
+    <value>Everytime</value>
+  </data>
+  <data name="TrigExecutionPhase.Before">
+    <value>Before</value>
+  </data>
+  <data name="TrigExecutionPhase.During">
+    <value>During</value>
+  </data>
+  <data name="TrigExecutionPhase.After">
+    <value>After</value>
+  </data>
+  <data name="TrigPostponeAbility.No">
+    <value>нет</value>
+  </data>
+  <data name="TrigPostponeAbility.YesAllUsers">
+    <value>Да</value>
+  </data>
+  <data name="TrigPostponeAbility.UserDefined">
+    <value>User-defined</value>
+  </data>
+  <data name="UILocaAvailability.Default">
+    <value>По умолч.</value>
+  </data>
+  <data name="UILocaAvailability.Visible">
+    <value>Видимый</value>
+  </data>
+  <data name="UILocaAvailability.Advanced">
+    <value>Видимый (дополнительно)</value>
+  </data>
+  <data name="UILocaAvailability.Hidden">
+    <value>Скрытый</value>
+  </data>
+  <data name="WellStatus.Unknown">
+    <value>Неизвест.</value>
+  </data>
+  <data name="WellStatus.Empty">
+    <value>Пустой</value>
+  </data>
+  <data name="WellStatus.Init">
+    <value>Инициирование</value>
+  </data>
+  <data name="WellStatus.Processing">
+    <value>Обработка</value>
+  </data>
+  <data name="WellStatus.Negative">
+    <value>Negative</value>
+  </data>
+  <data name="WellStatus.Positive">
+    <value>Positive</value>
+  </data>
+  <data name="WellStatus.Result">
+    <value>Ошибка</value>
+  </data>
+  <data name="WellStatus.Error">
+    <value>Предупреждение</value>
+  </data>
+  <data name="WellStatus.Warning">
+    <value></value>
+  </data>
+  <data name="ReservationState.Undetermined">
+    <value>Не определено</value>
+  </data>
+  <data name="ReservationState.OKOriginal">
+    <value>OK</value>
+  </data>
+  <data name="ReservationState.OKIdentical">
+    <value>OK</value>
+  </data>
+  <data name="ReservationState.OKAlternative">
+    <value>OK</value>
+  </data>
+  <data name="ReservationState.OKIdenticalForAlternative">
+    <value>OK</value>
+  </data>
+  <data name="ReservationState.WarningOriginal">
+    <value>Предупреждение</value>
+  </data>
+  <data name="ReservationState.WarningIdentical">
+    <value>Предупреждение</value>
+  </data>
+  <data name="ReservationState.WarningAlternative">
+    <value>Предупреждение</value>
+  </data>
+  <data name="ReservationState.WarningIdenticalForAlternative">
+    <value>Предупреждение</value>
+  </data>
+  <data name="ReservationState.Error">
+    <value>Ошибка</value>
+  </data>
+  <data name="TriggerResult.RAccept">
+    <value>Принять</value>
+  </data>
+  <data name="TriggerResult.RReject">
+    <value>Reject</value>
+  </data>
+  <data name="TriggerResult.ROverride">
+    <value>Override</value>
+  </data>
+  <data name="TriggerResult.RPostpone">
+    <value>Postpone</value>
+  </data>
+  <data name="TriggerResult.RSilent">
+    <value>Silent</value>
+  </data>
+  <data name="FacDeductItemsFromStockInOpType.On">
+    <value>Вкл.</value>
+  </data>
+  <data name="FacDeductItemsFromStockInOpType.Off">
+    <value>Выкл.</value>
+  </data>
+  <data name="OrderSuppPickMode.Normal">
+    <value>Обычный</value>
+  </data>
+  <data name="OrderSuppPickMode.FullAuto">
+    <value>Fully automated</value>
+  </data>
+  <data name="OrderSuppPickMode.EjectOnly">
+    <value>Eject from stock</value>
+  </data>
+  <data name="PickJobStatus.Forecast">
+    <value>Forecast</value>
+  </data>
+  <data name="PickJobStatus.Requested">
+    <value>Requested</value>
+  </data>
+  <data name="PickJobStatus.Attempted">
+    <value>Checked/Attempted</value>
+  </data>
+  <data name="PickJobStatus.Committed">
+    <value>Committed</value>
+  </data>
+  <data name="PickJobStatus.Completed">
+    <value>Завершено</value>
+  </data>
+  <data name="PickJobStatus.Closed">
+    <value>Closed</value>
+  </data>
+  <data name="PickJobStatus.Cancelled">
+    <value>Отмененный</value>
+  </data>
+  <data name="PickJobActionType.NewForecast">
+    <value>Forecast</value>
+  </data>
+  <data name="PickJobActionType.Requested">
+    <value>Requested</value>
+  </data>
+  <data name="PickJobActionType.Attempted">
+    <value>Attempted</value>
+  </data>
+  <data name="PickJobActionType.Committed">
+    <value>Committed</value>
+  </data>
+  <data name="PickJobActionType.Completed">
+    <value>Завершено</value>
+  </data>
+  <data name="PickJobActionType.Closed">
+    <value>Closed</value>
+  </data>
+  <data name="PickJobActionType.Cancelled">
+    <value>Отмененный</value>
+  </data>
+  <data name="ItemSalesRestriction.None">
+    <value>&lt;Пусто&gt;</value>
+  </data>
+  <data name="ItemSalesRestriction.Blocked">
+    <value>Закблокировано</value>
+  </data>
+  <data name="TrigActivity.None">
+    <value>Ничего</value>
+  </data>
+  <data name="TrigActivity.Pack">
+    <value>Упаковать</value>
+  </data>
+  <data name="TrigActivity.Return">
+    <value>Вернуться</value>
+  </data>
+  <data name="TrigActivity.Wrap">
+    <value>Завернуть</value>
+  </data>
+  <data name="TrigActivity.WasherBatchRegistration">
+    <value>Washer batch registration</value>
+  </data>
+  <data name="TrigActivity.WasherBatchApproval">
+    <value>Washer batch approval</value>
+  </data>
+  <data name="TrigActivity.SterilizerBatchRegistration">
+    <value>Sterilizer batch registration</value>
+  </data>
+  <data name="TrigActivity.SterilizerBatchApproval">
+    <value>Sterilizer batch approval</value>
+  </data>
+  <data name="TrigActivity.RegisterLocation">
+    <value>Местоположение</value>
+  </data>
+  <data name="TrigActivity.OperationRegistration">
+    <value>Операция</value>
+  </data>
+  <data name="TrigActivity.Pick">
+    <value>Принять</value>
+  </data>
+  <data name="TrigActivity.Dispatch">
+    <value>Отправить </value>
+  </data>
+  <data name="TrigActivity.UpdateInventory">
+    <value>Инвентаризация</value>
+  </data>
+  <data name="TrigActivity.PredisinfectionBatchRegistration">
+    <value>Pre-disinfection batch registration</value>
+  </data>
+  <data name="TrigActivity.EndoscopeWasherBatchRegistration">
+    <value>Endoscope washer batch registration</value>
+  </data>
+  <data name="TrigActivity.EndoCleanAndTest">
+    <value>Чистка и тест эндоскопа</value>
+  </data>
+  <data name="TrigActivity.EndoscopeWasherBatchApproval">
+    <value>Endoscope washer batch approval</value>
+  </data>
+  <data name="TrigActivity.StartTransport">
+    <value>Транспорт</value>
+  </data>
+  <data name="TrigActivity.PatientRegistration">
+    <value>Patient registration</value>
+  </data>
+  <data name="ReservationStatus.Active">
+    <value>Активный</value>
+  </data>
+  <data name="ReservationStatus.Completed">
+    <value>Завершено</value>
+  </data>
+  <data name="ReservationStatus.Failed">
+    <value>Не удалось</value>
+  </data>
+  <data name="ReservationStatus.Cancelled">
+    <value>Отмененный</value>
+  </data>
+  <data name="ProductLoanerType.NonLoaner">
+    <value></value>
+  </data>
+  <data name="ProductLoanerType.GenericLoaner">
+    <value></value>
+  </data>
+  <data name="ProductLoanerType.ExternalLoaner">
+    <value></value>
+  </data>
+  <data name="ProductLoanerType.LoanerTemplate">
+    <value></value>
+  </data>
+  <data name="LoanerSerialNameChangeMode.Always">
+    <value></value>
+  </data>
+  <data name="LoanerSerialNameChangeMode.AtFirst">
+    <value></value>
+  </data>
+  <data name="LoanerSerialNameChangeMode.Never">
+    <value></value>
+  </data>
+  <data name="LoanerAutoCheckOutMode.Off">
+    <value></value>
+  </data>
+  <data name="LoanerAutoCheckOutMode.AfterWash">
+    <value></value>
+  </data>
+  <data name="LoanerAutoCheckOutMode.AfterReturn">
+    <value></value>
+  </data>
+  <data name="UnitStatus.None">
+    <value></value>
+  </data>
+  <data name="UnitStatus.Init">
+    <value>Инициирован</value>
+  </data>
+  <data name="UnitStatus.Started">
+    <value>Начат</value>
+  </data>
+  <data name="UnitStatus.Rinsed">
+    <value>Rinsed</value>
+  </data>
+  <data name="UnitStatus.Washed">
+    <value>Помыто</value>
+  </data>
+  <data name="UnitStatus.Prep">
+    <value>Подготовленный</value>
+  </data>
+  <data name="UnitStatus.Packed">
+    <value>Упаковано</value>
+  </data>
+  <data name="UnitStatus.Stock">
+    <value>На складе</value>
+  </data>
+  <data name="UnitStatus.Dispatched">
+    <value>Отправлен</value>
+  </data>
+  <data name="UnitStatus.Opened">
+    <value>Открыто</value>
+  </data>
+  <data name="UnitStatus.Used">
+    <value>Использованный</value>
+  </data>
+  <data name="UnitStatus.Precleaned">
+    <value>Pre-cleaned</value>
+  </data>
+  <data name="UnitStatus.Returned">
+    <value>Принято</value>
+  </data>
+  <data name="UnitStatus.ErrorReg">
+    <value>Отмененный</value>
+  </data>
+  <data name="UnitStatus.Last">
+    <value></value>
+  </data>
+  <data name="EndoscopeUnitStatus.None">
+    <value></value>
+  </data>
+  <data name="EndoscopeUnitStatus.Init">
+    <value>Инициирован</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Started">
+    <value>Начат</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Rinsed">
+    <value>Rinsed</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Washed">
+    <value>Помыто</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Prep">
+    <value>Инициирован</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Packed">
+    <value>Помыто</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Stock">
+    <value>Обработан</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Dispatched">
+    <value>Отправлен</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Opened">
+    <value>Открыто</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Used">
+    <value>Использованный</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Precleaned">
+    <value>Pre-cleaned</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Returned">
+    <value>Принято</value>
+  </data>
+  <data name="EndoscopeUnitStatus.ErrorReg">
+    <value>Отмененный</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Last">
+    <value></value>
+  </data>
+  <data name="OperationStatus.Planned">
+    <value>Спланированный</value>
+  </data>
+  <data name="OperationStatus.Accepted">
+    <value>Принятый</value>
+  </data>
+  <data name="OperationStatus.Started">
+    <value>Начат</value>
+  </data>
+  <data name="OperationStatus.Done">
+    <value>Сделано</value>
+  </data>
+  <data name="OperationStatus.Cancelled">
+    <value>Отмененный</value>
+  </data>
+  <data name="ObjectStatus.Normal">
+    <value>Обычный</value>
+  </data>
+  <data name="ObjectStatus.Dying">
+    <value>пропустить </value>
+  </data>
+  <data name="ObjectStatus.Dead">
+    <value>Изъятый</value>
+  </data>
+  <data name="MachineType.FirstMachineType">
+    <value>Стерилизатор</value>
+  </data>
+  <data name="MachineType.Sterilizer">
+    <value>Стерилизатор</value>
+  </data>
+  <data name="MachineType.Washer">
+    <value>Моечная машина</value>
+  </data>
+  <data name="MachineType.PreDis">
+    <value>Дезинфектор</value>
+  </data>
+  <data name="MachineType.EndoWasher">
+    <value>Моечная машина для эндоскопов</value>
+  </data>
+  <data name="MachineType.Incubator">
+    <value>Инкубатор</value>
+  </data>
+  <data name="MachineType.EndoDryer">
+    <value>Камера сушки эндоскопа</value>
+  </data>
+  <data name="MachineType.LastMachineType">
+    <value>Камера сушки эндоскопа</value>
+  </data>
+</root>

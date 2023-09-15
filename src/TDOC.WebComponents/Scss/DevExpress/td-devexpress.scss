@@ -1,0 +1,178 @@
+﻿@import "../iws-variables";
+@import "../td-variables";
+@import "../Bootstrap/Custom/mixins/buttons";
+
+/* begin: override DxDataGrid */
+.grid-header-template:empty {
+    display: none;
+}
+
+.dxbs-fixed-header-content > a,
+.dxbs-fixed-header-content > span {
+    font-weight: 700;
+}
+
+.td-grid.dxbs-gridview {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.td-grid.dxbs-gridview > .card {
+    display: flex;
+    width: 100%;
+}
+
+.td-grid.dxbs-gridview > .card > .dxbs-grid-vsd {
+    flex: 1 1 auto;
+    width: auto;
+}
+
+.td-grid.dxbs-gridview > .card > div:not(.dxbs-grid-vsd) {
+    flex: 1 0 auto;
+}
+
+.td-grid th {
+    color: white;
+    background-color: $color-midnight;
+}
+
+.dxbs-grid-header-container {
+    background-color: $color-midnight;
+}
+
+.dxbs-sort-order-indicator .dx-image {
+    background-image: url(#{$grid-sort-icon-url}) !important;
+    background-position: center;
+    background-size: cover;
+    width: 16px !important;
+    height: 16px !important;
+    color: transparent;
+}
+
+.td-grid th span {
+    color: white;
+}
+.td-grid table th:last-child {
+    border-right: none;
+}
+.td-grid table tr > td:not(:first-child) {
+    border-left: none;
+}
+
+.td-grid table tr > td:not(:last-child) {
+    border-right: none;
+}
+
+.td-grid-row:nth-child(even) {
+    background-color: $color-snow;
+}
+
+.td-grid .table-active { /* Selected row */
+    background-color: $color-ocean !important;
+    font-weight: bold;
+}
+
+.td-grid .text-ommited {
+    color : $color-cliff;
+}
+
+.td-grid .card {
+    border: none;
+}
+
+tr.dxbs-empty-data-row > td {
+    border-bottom: 0;
+}
+
+.dxbs-grid-header-container > table.dxbs-table {
+    height: $grid-row-height;
+}
+
+.td-grid-row {
+    height: $grid-row-height;
+    line-height: 22px;
+}
+
+.td-grid-row-selectable {
+    @extend .td-grid-row;
+    cursor: pointer;
+}
+
+/* end: override DxDataGrid */
+
+/* begin: override DxTreeView */
+.td-snackbar .nav-pills .nav-pills {
+    margin: 0 !important;
+}
+/* end: override DxTreeView */
+
+/* begin: TdButton with override of Bootstrap's "btn-primary" style & DevExpress's DxButton styling */
+/* Keep styles here until DevExpress fixes usage of isolated styles */
+.td-btn-positive {
+    @include td-button-variant($color-grass, $color-grass, $color-grass-dark);
+}
+
+.td-btn-negative {
+    @include td-button-variant($color-signal-red, $color-signal-red, $color-signal-red-dark);
+}
+
+.td-btn-secondary {
+    @include td-button-variant($color-midnight, $color-midnight, $color-midnight-dark);
+}
+
+.td-btn-tertiary {
+    @include td-button-variant($white, $color-midnight, $color-snow, $color-midnight, $color-midnight);
+    color: $color-getinge-blue !important;
+}
+
+.td-btn-tertiary-ocean {
+    @include td-button-variant($white, $color-midnight, $color-snow, $color-midnight, $color-ocean);
+}
+
+.td-btn-darkmode {
+    @include td-button-variant($color-getinge-blue, $white, $color-midnight, $color-midnight, $color-midnight);
+}
+/* end: TdButton */
+
+/* begin: override DxListBox */
+.td-listbox {
+    border: 0;
+}
+
+.dxbs-listbox-active:not(tr):before {
+    background-color: transparent;
+}
+
+.td-listbox .custom-control-label::before {
+    border-color: $color-midnight;
+    width: 22px !important;
+    height: 22px !important;
+}
+
+.dxbs-checkbox.custom-control.custom-checkbox.custom-control-label::before, .custom-control-input:focus:not(:checked)~ .custom-control-label::before {
+    border-color: $color-midnight;
+}
+
+.custom-control-input:checked~ .custom-control-label::before, .custom-control-input:not(:disabled):active~ .custom-control-label::before {
+    background-color: $color-midnight;
+    border-color: $color-midnight;
+}
+
+.td-listbox .custom-control-label::after {
+    width: 100%;
+    height: 100%;
+}
+
+.dxbs-listbox-item {
+    height: 40px;
+}
+
+.td-listbox .custom-checkbox {
+    margin-top: -4px;
+}
+
+.td-listbox li:nth-child(even) {
+    background-color: $color-snow !important;
+}
+/* end: override DxListBox */

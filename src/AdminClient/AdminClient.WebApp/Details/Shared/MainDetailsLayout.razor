@@ -1,0 +1,111 @@
+﻿@layout MainLayout
+@inherits MainLayout
+
+@using AdminClient.WebApp.Details.Shared.CreateNewEntity
+@using TDOC.WebComponents.NoData
+@using TDOC.WebComponents.Search.Enumerations
+@using TDOC.WebComponents.Shared.Enumerations
+
+<div class="row h-100">
+    <TdSplitter Identifier="@SplitterIdentifier" 
+                Whereabouts="PanelWhereabouts.Left"
+                ObtainComponentState="_desktopDataService.GetComponentStateAsync"
+                SaveComponentState="_desktopDataService.SetComponentStateAsync">
+        <LeftSideFragment>
+            <div id="@detailsLeftSearchPanelIdentifier">
+                <SideSearchPanel Identifier="@SideSearchPanelIdentifier"
+                                 Whereabouts="PanelWhereabouts.Left"
+                                 ShowMainSearchBox="false"
+                                 SearchPanelTitle="@MainEntitySearchTitle"
+                                 GridDetailsList="searchGridDetailsList"
+                                 GridStructureRequested="GetGridStructureAsync"
+                                 DataRequested="_searchService.SearchAsync"
+                                 ObtainComponentState="_desktopDataService.GetComponentStateAsync"
+                                 SaveComponentState="_desktopDataService.SetComponentStateAsync"
+                                 BusyContentHeight="MainBlockBusyHeight"
+                                 ExecuteSearchAfterRowSelect="false"
+                                 SearchPanelTitleFontSize="StylingVariables.DefaultSideSearchPanelTitleFontSize"
+                                 ExpandButtonType="SearchPanelExpandButtonType.Stretched"
+                                 SearchPanelTabsHeight="StylingVariables.DefaultTabHeight"
+                                 MediaDetails="searchMediaDetails" />
+            </div>
+        </LeftSideFragment>
+        <RightSideFragment>
+            <div class="row">
+                <div class="col">
+                    <CreateNewEntityPopup @ref="refCreateNewEntityPopup"
+                                          Title="@CreateNewEntityTitle"
+                                          AfterSaveAndNewClicked="@(async () => await SaveAndCreateNewAsync())"
+                                          AfterSaveClicked="SaveNew"
+                                          FocusElementId="@CreateNewEntityFocusElementId">
+                        <BodyFragment>
+                            @CreateNewEntityFragment
+                        </BodyFragment>
+                    </CreateNewEntityPopup>
+                    @if (BaseData == null)
+                    {
+                        <NoDataPanel Details="noDataDetails" />
+                    }
+                    else
+                    {
+                        <div id="@detailsHeaderIdentifier" class="row pt-12px px-12px details-header-block">
+                            <div class="col">
+                                <div class="row font-size-19 font-weight-bold font-color-getinge-blue pb-12px">
+                                    <div id="@detailsBaseDataTitleIdentifier" class="col text-truncate">@BaseDataTitle</div>
+                                </div>
+                                <div class="row">
+                                    <ToolbarButtonsPanel Identifier="detailsToolbarButtons" Buttons="ToolbarButtons" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row overflow-auto">
+                            <div class="col">
+                                <div id="@detailsTopBlockIdentifier" class="row pt-12px pb-18px">
+                                    <div class="col-4 px-12px">
+                                        @TopLeftFragment
+                                    </div>
+                                    <div class="col-4 px-12px">
+                                        @TopCenterFragment
+                                    </div>
+                                    <div class="col-4 px-12px d-flex align-items-center justify-content-center">
+                                        <img class="media-icon-size cursor-pointer" src="@mainEntityMediaIconUrl" @onclick="ShowMedia" />
+                                    </div>
+                                </div>
+                                <div class="row" style="@dynamicDetailsBlockHeightCssStyle">
+                                    <div class="col">
+                                        @Body
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                    <div id="@detailsFooterIdentifier" class="row p-12px align-items-center details-footer-block">
+                        <div>
+                            <TdButton Identifier="CreateNew"
+                                      Type="TdButtonType.Tertiary"
+                                      Text="@TdSharedLocalizer["new"]"
+                                      TextSize="StylingVariables.DefaultFontSize"
+                                      Height="StylingVariables.DefaultButtonHeight"
+                                      MinWidth="StylingVariables.DefaultButtonMinWidth"
+                                      OnClick="CreateNew" />
+                        </div>
+                        <div class="col pr-24px font-color-granit d-flex justify-content-end">
+                            @mainEntityCreatedModifiedText
+                        </div>
+                        <OkCancelButtonsPanel ButtonOkIdentifier="SaveChanges"
+                                              ButtonCancelIdentifier="CancelChanges"
+                                              ButtonOkText="@TdSharedLocalizer["save"]"
+                                              ButtonCancelText="@TdSharedLocalizer["cancel"]"
+                                              ButtonOkClicked="SaveChanges"
+                                              ButtonCancelClicked="CancelChanges"
+                                              ButtonsHeight="StylingVariables.DefaultButtonHeight"
+                                              ButtonsMinWidth="StylingVariables.DefaultButtonMinWidth"
+                                              ButtonsTextSize="StylingVariables.DefaultFontSize"
+                                              ButtonOkEnabled="ButtonOkIsEnabled"
+                                              ButtonCancelEnabled="CheckMainEntityModified()" />
+                    </div>
+                </div>
+            </div>
+        </RightSideFragment>
+    </TdSplitter>
+</div>

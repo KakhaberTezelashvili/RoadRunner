@@ -1,0 +1,44 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:24020",
+      "sslPort": 44335
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "commandLineArgs": "--pathbase=/admin-client",
+      "launchBrowser": true,
+      "launchUrl": "https://localhost:44335/admin-client",
+      "inspectUri": "{wsProtocol}://{url.hostname}:{url.port}/admin-client/_framework/debug/ws-proxy?browser={browserInspectUri}",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "AdminClient.WebApp": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "commandLineArgs": "--pathbase=/admin-client",
+      "launchBrowser": true,
+      "launchUrl": "https://localhost:5601/admin-client",
+      "inspectUri": "{wsProtocol}://{url.hostname}:{url.port}/admin-client/_framework/debug/ws-proxy?browser={browserInspectUri}",
+      "applicationUrl": "https://localhost:5601;http://localhost:5600",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "commandLineArgs": "--pathbase=/admin-client",
+      "launchBrowser": true,
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/admin-client",
+      "publishAllPorts": true,
+      "useSSL": true,
+      "httpPort": 5600,
+      "sslPort": 5601
+    }
+  }
+}

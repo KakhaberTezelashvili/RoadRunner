@@ -1,0 +1,19 @@
+﻿<div class="d-flex justify-content-end">
+    @if (Buttons != null)
+    {
+        foreach (var button in Buttons)
+        {
+            <div class="pl-12px">
+                <TdButton Identifier="@button.Identifier" 
+                          Enabled="button.Enabled"
+                          TextSize="button.TextSize"
+                          Text="@button.Text" 
+                          Type="button.Type"
+                          Height="button.Height"
+                          MinWidth="button.MinWidth"
+                          CssStyle="padding: 12px;"
+                          OnClick="button.OnClick"  />
+            </div>
+        }
+    }
+</div>

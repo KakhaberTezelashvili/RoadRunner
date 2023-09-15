@@ -1,0 +1,14 @@
+﻿@if (Details != null)
+{
+    <div id="@Details.Identifier" class="row align-items-center" @onclick="@Details.ItemClicked">
+        @if (!string.IsNullOrEmpty(Details.IconUrl))
+        {
+            <div class="pr-12px">
+                <img class="icon-size-16" src="@Details.IconUrl" />
+            </div>
+        }
+        <div class="col">
+            @Details.Text
+        </div>
+    </div>
+}

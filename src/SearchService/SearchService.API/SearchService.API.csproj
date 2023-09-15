@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup Label="Globals">
+		<SccProjectName>SAK</SccProjectName>
+		<SccProvider>SAK</SccProvider>
+		<SccAuxPath>SAK</SccAuxPath>
+		<SccLocalPath>SAK</SccLocalPath>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UserSecretsId>72afb330-660f-44ef-8fbd-6ea99d832158</UserSecretsId>
+		<IncludeSymbolsInSingleFile>true</IncludeSymbolsInSingleFile>
+		<IsTransformWebConfigDisabled>true</IsTransformWebConfigDisabled>
+		<AssemblyName>SearchService.API</AssemblyName>
+		<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+		<DockerfileContext>..\..</DockerfileContext>
+		<DockerfileFile>Docker\Dockerfile.Development</DockerfileFile>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<DocumentationFile>SearchService.API.xml</DocumentationFile>
+		<NoWarn>1701;1702;1591</NoWarn>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<DocumentationFile>SearchService.API.xml</DocumentationFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Content Update="appsettings.*json" CopyToPublishDirectory="Always" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.14.0" />
+		<PackageReference Include="Scrutor" Version="3.3.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\SearchService.Infrastructure\SearchService.Infrastructure.csproj" />
+	</ItemGroup>
+
+</Project>

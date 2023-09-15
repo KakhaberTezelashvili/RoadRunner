@@ -1,0 +1,164 @@
+@inherits DetailsBaseComponent
+
+@using MasterDataService.Shared.Constants.Media
+@using System.ComponentModel.DataAnnotations
+@using TDOC.Common.Utilities
+@using TDOC.WebComponents.Shared.Enumerations
+
+<MainDetailsLayout @ref="RefMainDetailsLayout" 
+                   MainEntityName="@MainEntityName"
+                   MainEntityKeyFieldName="@MainEntityKeyFieldName"
+                   MainEntityIdFieldName="@MainEntityIdFieldName"
+                   MainEntityStatusFieldName="@MainEntityStatusFieldName"
+                   MainEntitySearchTitle="@MainEntitySearchTitle"
+                   MainEntityTitle="@MainEntityTitle"
+                   SideSearchPanelIdentifier="@SideSearchPanelIdentifier"
+                   SplitterIdentifier="@SplitterIdentifier"
+                   BaseDataTitle="@BaseDataTitle"
+                   MediaSeriesLinkType="@MediaSeriesLinks.Item"
+                   DefaultMediaIconUrl="@DefaultMediaIconUrl"
+                   BaseData="currentItem" 
+                   ToolbarButtons="ToolbarButtons"
+                   CreateNewEntityTitle="@_itemsLocalizer["newSingleItem"]"
+                   AfterNoDataInitialized="InitializeNoData"
+                   AfterCreateNewClicked="@(async () => await CreateNewAsync())"
+                   AfterSaveAndCreateNewClicked="@(async () => await SaveAndCreateNewAsync())"
+                   AfterSaveNewClicked="@(async () => await SaveNewAsync())"
+                   AfterSaveClicked="@(async () => await SaveChangesAsync())"
+                   CheckMainEntityModified="CheckMainEntityModified"
+                   AfterSideSearchPanelRowSelected="@(async (keyId) => await ObtainDataAsync(keyId))"
+                   AfterCancelClicked="@(async () => await CancelChangesAsync())"
+                   CreateNewEntityFocusElementId="@createNewFieldItemIdentifier"
+                   GetMediaMainEntityKeyId="GetMediaMainEntityKeyId">
+    <CreateNewEntityFragment>
+        <!-- Item -->
+        <TdTextBox @ref="RefCreateNewFieldId"
+                   Identifier="@createNewFieldItemIdentifier"
+                   CaptionText="@TdTablesLocalizer[$"{nameof(ItemModel)}.{nameof(ItemModel.Item)}"]"
+                   Required="true"
+                   ObtainRequiredValidationText="ObtainRequiredFieldValidationText"
+                   DataChangedNotificationMode="CreateNewDataChangedNotificationMode"
+                   MaxLength="AttributeUtilities.GetAttributeFrom<MaxLengthAttribute>(itemAddArgs, nameof(itemAddArgs.Item))?.Length"
+                   @bind-Text="itemAddArgs.Item"
+                   Height="StylingVariables.DefaultTextBoxHeight" />
+        <!-- Name -->
+        <div class="pt-12px">
+            <TdTextBox @ref="refCreateNewFieldText"
+                       Identifier="@($"CreateNew{nameof(ItemModel)}{nameof(ItemModel.Text)}")"
+                       CaptionText="@TdTablesLocalizer[$"{nameof(ItemModel)}.{nameof(ItemModel.Text)}"]"
+                       Required="true"
+                       ObtainRequiredValidationText="ObtainRequiredFieldValidationText"
+                       DataChangedNotificationMode="CreateNewDataChangedNotificationMode"
+                       Height="StylingVariables.DefaultTextBoxHeight"
+                       MaxLength="AttributeUtilities.GetAttributeFrom<MaxLengthAttribute>(itemAddArgs, nameof(itemAddArgs.Text))?.Length"
+                       @bind-Text="itemAddArgs.Text" />
+        </div>
+    </CreateNewEntityFragment>
+    <TopLeftFragment>
+        <!-- Item -->
+        <TdTextBox @ref="RefMainEntityFieldId"
+                   CaptionText="@TdTablesLocalizer[$"{nameof(ItemModel)}.{nameof(ItemModel.Item)}"]"
+                   Identifier="@($"{nameof(ItemModel)}{nameof(ItemModel.Item)}")"
+                   Required="true"
+                   ObtainRequiredValidationText="ObtainRequiredFieldValidationText"
+                   Text="@BaseDataId"
+                   TextChanged="MainEntityIdChanged"
+                   MaxLength="AttributeUtilities.GetAttributeFrom<MaxLengthAttribute>(currentItem, nameof(currentItem.Item))?.Length"
+                   OnFocusOut="ValidateMainEntityFields"
+                   DataChangedNotificationMode="EntityChangedNotificationMode"
+                   Height="StylingVariables.DefaultTextBoxHeight" />
+        <!-- Name -->
+        <div class="pt-12px">
+            <TdTextBox @ref="refMainEntityFieldText"
+                       CaptionText="@TdTablesLocalizer[$"{nameof(ItemModel)}.{nameof(ItemModel.Text)}"]"
+                       Identifier="@($"{nameof(ItemModel)}{nameof(ItemModel.Text)}")"
+                       Required="true"
+                       ObtainRequiredValidationText="ObtainRequiredFieldValidationText"
+                       MaxLength="AttributeUtilities.GetAttributeFrom<MaxLengthAttribute>(currentItem, nameof(currentItem.Text))?.Length"
+                       OnFocusOut="ValidateMainEntityFields"
+                       Text="@currentItem.Text"
+                       TextChanged="ItemTextChanged"
+                       DataChangedNotificationMode="EntityChangedNotificationMode"
+                       Height="StylingVariables.DefaultTextBoxHeight" />
+        </div>
+        <!-- Local name -->
+        <div class="pt-12px">
+            <TdTextBox CaptionText="@TdTablesLocalizer[$"{nameof(ItemModel)}.{nameof(ItemModel.HospitalDescription)}"]"
+                       Identifier="@($"{nameof(ItemModel)}{nameof(ItemModel.HospitalDescription)}")"
+                       @bind-Text="@currentItem.LocalName"
+                       DataChangedNotificationMode="EntityChangedNotificationMode"
+                       Height="StylingVariables.DefaultTextBoxHeight" />
+        </div>
+    </TopLeftFragment>
+    <Body>
+        <TdTabs ActiveTabIndex="0">
+            <TdTabTemplate TabTitle="@TdSharedLocalizer["general"]" TabHeight="StylingVariables.DefaultTabHeight" TabTitleIsBold="true">
+                <DisplayTemplate>
+                    <div class="row">
+                        <div class="col-4 p-12px">
+                            <GroupHeader Text="@TdSharedLocalizer["details"]" />
+                            <!-- Status -->
+                            <div class="pt-6px">
+                                @if (currentItem != null)
+                                {
+                                    <TdComboBox CaptionText="@TdTablesLocalizer[$"{nameof(ItemModel)}.{nameof(ItemModel.Status)}"]"
+                                            Height="StylingVariables.DefaultTextBoxHeight"
+                                            TData="KeyValuePair<ObjectStatus, string>"
+                                            TextFieldName="Value"
+                                            ValueFieldName="Key"
+                                            TValue="ObjectStatus"
+                                            @bind-Value="currentItem.Status"
+                                            DataChangedNotificationMode="EntityChangedNotificationMode"
+                                            Data="MainEntityStatuses" />
+                                }
+                            </div>
+                            <!-- Item group -->
+                            <div class="pt-12px">
+                                <LookupPanel CaptionText="@TdTablesLocalizer[$"{nameof(ItemModel)}.{nameof(ItemModel.ItGrpKeyId)}"]"
+                                             MasterText="@currentItem?.ItemGroup?.Name"
+                                             ShowSlave="false"
+                                             Height="StylingVariables.DefaultTextBoxHeight" />
+                            </div>
+                        </div>
+                        <div class="col-4 p-12px">
+                            <GroupHeader Text="@TdTablesLocalizer[$"{nameof(ItemModel)}.{nameof(ItemModel.SuppKeyId)}"]" />
+                            <!-- Supplier -->
+                            <div class="pt-6px">
+                                <LookupPanel CaptionText="@TdTablesLocalizer[$"{nameof(ItemModel)}.{nameof(ItemModel.SuppKeyId)}"]"
+                                             Height="StylingVariables.DefaultTextBoxHeight"
+                                             MasterText="@currentItem?.Supplier?.Supplier"
+                                             SlaveText="@currentItem?.Supplier?.Name" />
+                            </div>
+                            <!-- Supplier no. -->
+                            <div class="pt-12px">
+                                <TdTextBox CaptionText="@TdTablesLocalizer[$"{nameof(ItemModel)}.{nameof(ItemModel.SupplierNo)}"]"
+                                           Identifier="@($"{nameof(ItemModel)}{nameof(ItemModel.SupplierNo)}")"
+                                           @bind-Text="@currentItem.SupplierNo"
+                                           DataChangedNotificationMode="EntityChangedNotificationMode"
+                                           Height="StylingVariables.DefaultTextBoxHeight" />
+                            </div>
+                            <div class="pt-18px">
+                                <GroupHeader Text="@TdTablesLocalizer[$"{nameof(ItemModel)}.{nameof(ItemModel.ManuKeyId)}"]" />
+                            </div>
+                            <!-- Manufacturer -->
+                            <div class="pt-6px">
+                                <LookupPanel CaptionText="@TdTablesLocalizer[$"{nameof(ItemModel)}.{nameof(ItemModel.ManuKeyId)}"]"
+                                             Height="StylingVariables.DefaultTextBoxHeight"
+                                             MasterText="@currentItem?.Manufacturer?.Supplier"
+                                             SlaveText="@currentItem?.Manufacturer?.Name" />
+                            </div>
+                            <!-- Manufacturer no. -->
+                            <div class="pt-12px">
+                                <TdTextBox CaptionText="@TdTablesLocalizer[$"{nameof(ItemModel)}.{nameof(ItemModel.ManufactorNo)}"]"
+                                           Identifier="@($"{nameof(ItemModel)}{nameof(ItemModel.ManufactorNo)}")"
+                                           @bind-Text="@currentItem.ManufacturerNo"
+                                           DataChangedNotificationMode="EntityChangedNotificationMode"
+                                           Height="StylingVariables.DefaultTextBoxHeight" />
+                            </div>
+                        </div>
+                    </div>
+                </DisplayTemplate>
+            </TdTabTemplate>
+        </TdTabs>
+    </Body>
+</MainDetailsLayout>

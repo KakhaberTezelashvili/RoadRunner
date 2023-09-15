@@ -1,0 +1,18 @@
+﻿@if (Details != null)
+{
+    <div id="@(Identifier)Item@(Details.KeyId)" class="row @mainCssClass px-12px align-items-center" @onclick="OnItemClicked">
+        <div class="col @dataDisabledCssClass">
+            <div class="row">
+                <div class="col font-size-19 font-weight-bold text-truncate d-block">
+                    @Details.Title
+                </div>
+                <div class="pl-12px @collapseExpandBlockCssClass">
+                    <img class="icon-size-32" src="@Details.CollapseExpandIcon" />
+                </div>
+            </div>
+            <div class="row text-truncate d-block">
+                @Details.Description
+            </div>
+        </div>
+    </div>
+}

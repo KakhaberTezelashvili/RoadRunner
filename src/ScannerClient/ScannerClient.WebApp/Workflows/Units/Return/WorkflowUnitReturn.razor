@@ -1,0 +1,46 @@
+﻿@layout WorkflowReturnPackLayout
+@inherits WorkflowBaseComponent
+
+<EditUnitPatientPopup @ref="refEditCommonPatientPopup" AfterEditDone="EditCommonPatientDoneAsync" RegisterAsCommonPatient="true" />
+
+<div class="d-flex flex-row pb-12px py-6px">
+    <div>
+        <TdToolbarButton Identifier="EditError" 
+                         Text="@SharedLocalizer["editError"]" 
+                         IconUrl="@($"{ContentUrls.ResourceImg}others/error.svg")" 
+                         OnClick="DisplayEditErrorPopup" />
+        <SearchPopup @ref="refErrorSearchPopup"
+                     GridDetails="errorGridDetails"
+                     SearchPanelNullText="@SharedLocalizer["filterErrors"]"
+                     SearchPanelTitle="@string.Concat(SharedLocalizer["selectErrorForUnit"], " ", UnitKeyId)"
+                     Title="@SharedLocalizer["selectError"]"
+                     GridStructureRequested="@(async (string identifier, string mainTable) => 
+                                             await GridService.GetGridStructureAsync(identifier, mainTable, TdTablesLocalizer, TdExceptionalColumnsLocalizer))"
+                     DataRequested="SearchService.SearchAsync"
+                     Buttons="searchPopupButtons" />
+    </div>
+    @*<div class="pl-12px">
+          <TdToolbarButton Identifier="EditPatient" Text="@Localizer["editPatient"]" IconUrl="@($"{ContentUrls.ResourceImg}patients/patient.svg")" OnClick="DisplayEditPatientPopupAsync" />
+          <EditUnitPatientPopup @ref="refEditUnitPatientPopup" Arguments="PatientArgs" AfterEditDone="EditPatientDoneAsync" RegisterAsCommonPatient="false" />
+        </div>*@
+</div>
+<UnitDetailsPanel Column1Width="59"
+                  Column2Width="82"
+                  Column3Width="85"
+                  Data="details"
+                  Fragment2Caption="@TdTablesLocalizer[$"{nameof(UnitModel)}.{nameof(UnitModel.Error)}"]"
+                  Fragment3Caption="@TdTablesLocalizer[$"{nameof(OperationDataModel)}.{nameof(OperationDataModel.PatKeyId)}"]">
+    <Fragment1Value>
+        <div class="col text-truncate">@details.UnitKeyId</div>
+    </Fragment1Value>
+    <Fragment2Value>
+        <div class="col text-truncate">
+            <HighlightContent @ref="refHighlightErrorContent">@((MarkupString)errorDetailsText)</HighlightContent>
+        </div>
+    </Fragment2Value>
+    <Fragment3Value>
+        <div class="col text-truncate">
+            <HighlightContent @ref="refHighlightPatientContent">@details.Patient</HighlightContent>
+        </div>
+    </Fragment3Value>
+</UnitDetailsPanel>

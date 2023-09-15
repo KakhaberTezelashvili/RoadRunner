@@ -1,0 +1,16 @@
+/* DevExtreme themes */
+@import "../lib/devextreme/css/dx.common.min.css";
+@import "../lib/devextreme/css/dx.light.custom.min.css";
+@import "../css/generated/td-devextreme.min.css";
+@import "../css/generated/td-resizable.min.css";
+/* Swiper themes */
+@import "../lib/swiper/css/swiper-bundle.min.css";
+/* Bootstrap themes */
+@import "../css/generated/td-bootstrap.min.css";
+/* DevExpress.Blazor themes */
+/*TODO: @import "_content/DevExpress.Blazor/dx-blazor.css";*/
+@import "../css/generated/td-devexpress.min.css";
+/* Skeleton themes */
+@import "../css/generated/skeleton.min.css";
+/* Base themes */
+@import "../css/generated/td-base.min.css";

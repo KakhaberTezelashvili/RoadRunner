@@ -1,0 +1,43 @@
+﻿@using ScannerClient.WebApp.Core.Models.Lots
+
+<TdPopup @ref="refEditLotPopup"
+         Title="@_sharedLocalizer["editLOT"]" 
+         Visible="visible"
+         Width="popupDimensions.Width"
+         Height="popupDimensions.Height"
+         PopupResizing="OnPopupResizing">
+    <BodyTemplate>
+        <SearchBoxPanel SearchHint="@($"{_sharedLocalizer["selectLOTNumsForUnit"]} {UnitKeyId}")" />
+        <TdDataGrid Identifier="@GridIdentifiers.EditUnitLotInformationGrid.ToString()" 
+                    TItem="UnitLotData" 
+                    Data="data" 
+                    GridStructure="gridStructure" 
+                    PageSize="0"
+                    ScrollableHeight="availableGridHeight">
+            <TdDataGridColumnTemplate TItem="UnitLotData" Field="@nameof(UnitLotData.KeyId)">
+                <DisplayTemplate Context="item">
+                    <TdCheckBox Checked="item.Linked" CheckedChanged="@((bool value) => LotChecked(value, item))" />
+                </DisplayTemplate>
+            </TdDataGridColumnTemplate>
+            <TdDataGridColumnTemplate TItem="UnitLotData" Field="@nameof(UnitLotData.ExpirationDate)">
+                <DisplayTemplate Context="item">
+                    @item.ExpirationDate?.ToShortDateString()
+                </DisplayTemplate>
+            </TdDataGridColumnTemplate>
+            <TdDataGridColumnTemplate TItem="UnitLotData" Field="@nameof(UnitLotData.ItemText)">
+                <DisplayTemplate Context="item">
+                    @item.ItemItem @item.ItemText
+                </DisplayTemplate>
+            </TdDataGridColumnTemplate>
+        </TdDataGrid>
+    </BodyTemplate>
+    <FooterTemplate>
+        <OkCancelButtonsPanel ButtonOkIdentifier="@($"{nameof(EditUnitLotPopup)}Ok")"
+                              ButtonCancelIdentifier="@($"{nameof(EditUnitLotPopup)}Cancel")"
+                              ButtonOkText="@_tdSharedLocalizer["ok"]" 
+                              ButtonCancelText="@_tdSharedLocalizer["cancel"]"
+                              ButtonOkClicked="UpdateUnitLotsAsync" 
+                              ButtonCancelClicked="CancelEditingUnitLotsAsync"
+                              ButtonOkEnabled="dataChanged" />
+    </FooterTemplate>
+</TdPopup>

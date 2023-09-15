@@ -1,0 +1,22 @@
+﻿@import "../Scss/iws-variables";
+
+.progress-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: $color-white-10pct;
+    z-index: 9999;
+}
+
+.progress-container {
+    position: fixed;
+    top: 50%;
+}
+
+.progress-line {
+    position: fixed;
+    height: 4px;
+    left: 37.5%;
+}

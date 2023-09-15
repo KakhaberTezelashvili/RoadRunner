@@ -1,0 +1,11 @@
+﻿@import "../Scss/iws-variables";
+
+.toolbar-button:hover {
+    background-color: $color-snow;
+    outline: none;
+}
+
+.toolbar-button-border {
+  border: 1px solid $color-snow;
+  padding: 0px 15px 0px 15px;
+}

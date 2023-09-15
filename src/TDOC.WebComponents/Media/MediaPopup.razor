@@ -1,0 +1,26 @@
+﻿@using TDOC.WebComponents.Button
+@using TDOC.WebComponents.Popup
+@using TDOC.WebComponents.Shared.Constants
+
+<TdPopup Title="@Title" 
+         Visible="visible" 
+         Width="popupDimensions.Width" 
+         Height="popupDimensions.Height"
+         PopupResizing="PopupResizing"
+         PopupShown="PopupShownAsync"
+         FooterHeight="StylingVariables.MediaPopupFooterHeight">
+    <BodyTemplate>
+        <MediaViewer SwiperId="@SwiperId" 
+                     KeyId="KeyId" 
+                     LinkType="@LinkType"
+                     ObtainMediaData="ObtainMediaData"
+                     GetEntryList="GetEntryList"
+                     IsPopup="true"
+                     ContainerHeight="containerHeight" />
+    </BodyTemplate>
+    <FooterTemplate>
+        <OkCancelButtonsPanel ButtonCancelIdentifier="@($"{nameof(MediaPopup)}Cancel")"
+                              ButtonCancelText="@ButtonCancelText"
+                              ButtonCancelClicked="CancelMediaPopup" />
+    </FooterTemplate>
+</TdPopup>

@@ -1,0 +1,40 @@
+﻿@import "../Scss/iws-variables";
+
+.login-page {
+    background-color: $color-getinge-blue;
+    color: $color-white;
+}
+
+.row-t-doc-brand {
+    padding-bottom: 21px;
+}
+
+.t-doc-logo {
+    height: 80px;
+    width: 80px;
+    margin-top: 8px;
+}
+
+.t-doc-brand-name {
+    font-size: 110px;
+    padding-left: 20px;
+    line-height: 80px;
+}
+
+.control-caption {
+    line-height: 17px;
+    margin-bottom: 3px;
+}
+
+.row-log-in {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.login-panel {
+    margin: auto;
+}
+
+.login-panel-input {
+    width: 320px;
+}

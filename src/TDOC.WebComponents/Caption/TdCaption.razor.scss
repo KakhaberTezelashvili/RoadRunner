@@ -1,0 +1,7 @@
+﻿@import "../Scss/iws-variables";
+
+::deep .required::after {
+    content: "*";
+    font-weight: bold;
+    color: $color-poppy;
+}

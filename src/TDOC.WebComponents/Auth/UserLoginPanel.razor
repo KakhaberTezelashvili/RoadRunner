@@ -1,0 +1,22 @@
+﻿@using TDOC.WebComponents.Button
+@using TDOC.WebComponents.Button.Enumerations
+
+<div class="d-flex">
+    <div id="userData" class="user-data row align-items-center pr-12px">
+        <div class="col pr-12px font-size-12 text-white text-nowrap text-right">
+            <div>
+                @UserInitials
+            </div>
+            <div>
+                @UserName
+            </div>
+        </div>
+        <div class="col user-profile-picture-container">
+            <img src="@UserIcon" class="user-profile-picture" />
+        </div>
+    </div>
+    <TdButton Text="@LogoutButtonText" 
+              Type="TdButtonType.Darkmode" 
+              MinWidth="120" 
+              OnClick="UserLogout" />
+</div>

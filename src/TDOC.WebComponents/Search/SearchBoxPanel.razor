@@ -1,0 +1,40 @@
+﻿@using TDOC.WebComponents.Caption
+@using TDOC.WebComponents.TextBox
+@using TDOC.WebComponents.Button
+
+@if (IsSearchTitleVisible())
+{
+    <div class="row pb-2px">
+        <TdCaption Enabled="Enabled" 
+                   Required="Required" 
+                   Text="@CaptionText"
+                   IsHyperlink="CaptionIsHyperlink" 
+                   AfterHyperlinkClicked="AfterCaptionHyperlinkClicked" />
+    </div>
+}
+<div class="row">
+    <!-- SearchBox -->
+    <div class="col">
+        <TdTextBox Identifier="@Identifier"
+                   NullText="@NullText"
+                   Text="@Text"
+                   Height="Height"
+                   ShowClearButton="@ShowClearButton"
+                   OnKeyUp="@(eventArgs => RequestSearch(eventArgs.Key))"
+                   TextChanged="TextChanged"
+                   Enabled="Enabled"
+                   DataChangedNotificationMode="DataChangedNotificationMode" />
+    </div>
+    <!-- Search button -->
+    @if (ShowSearchButton)
+    {
+        <TdButton Identifier="@($"{nameof(SearchBoxPanel)}Search")"
+                  Enabled="Enabled"
+                  OnClick="@(() => ExecuteSearchAfterDelay(noDelay, true))"
+                  Height="Height"
+                  Width="Height"
+                  MinWidth="Height"
+                  TabIndex="-1"
+                  IconUrl="@($"{ContentUrls.ResourceImg}search/searchWhite.svg")" />
+    }
+</div>

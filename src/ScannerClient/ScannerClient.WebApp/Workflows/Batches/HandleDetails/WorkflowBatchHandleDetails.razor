@@ -1,0 +1,39 @@
+﻿@layout WorkflowLayout
+@inherits WorkflowBaseComponent
+
+@using ScannerClient.WebApp.Core
+@using ScannerClient.WebApp.Workflows.Services
+
+@if (WorkflowState.Value.CurrentWorkflow != null)
+{
+    <div class="row flex-nowrap @WorkflowHelper.GetWorkflowMainBlockHeight(Navigation, WorkflowState.Value.CurrentWorkflow.Process)">
+        <div class="batch-handle-details-left-side-block px-24px pt-24px">
+            <BatchDetailsPanel Data="@batchDetails"></BatchDetailsPanel>
+        </div>
+        <div class="col pt-24px">
+            <div class="row px-24px">
+                <div class="col" style="@CssStyleMainContentHeight">
+                    <FlexibleGrid @ref="refBatchGrid"
+                                  AllowSelectionMode="false"
+                                  RequestDataAfterRowSelected="false"
+                                  ScrollableHeight="-BusyContentHeight()"
+                                  GridDetails="batchGridDetails"
+                                  GridStructureRequested="GetGridStructureAsync"
+                                  DataRequested="SearchService.SelectAsync" />
+                </div>
+            </div>
+            <div class="row d-flex justify-content-end p-24px">
+                <ButtonsPanel Buttons="buttons" />
+            </div>
+            <SearchPopup @ref="refErrorSearchPopup"
+                         GridDetails="errorGridDetails"
+                         SearchPanelNullText="@SharedLocalizer["searchForError"]"
+                         SearchPanelTitle="@($"{WorkflowsLocalizer["selectErrorForBatchDisapprove"]} {BatchKeyId}")"
+                         Title="@WorkflowsLocalizer["disapproveBatch"]"
+                         GridStructureRequested="@(async (string identifier, string mainTable) => 
+                                                 await GridService.GetGridStructureAsync(identifier, mainTable, TdTablesLocalizer, TdExceptionalColumnsLocalizer))"
+                         DataRequested="SearchService.SearchAsync"
+                         Buttons="errorSearchPopupButtons" />
+        </div>
+    </div>
+}

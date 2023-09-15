@@ -1,0 +1,54 @@
+﻿.font-weight-bold {
+  font-family: 'Segoe UI Bold', 'Segoe UI Regular', 'Segoe UI', sans-serif
+}
+
+.modal-footer {
+  border: 0;
+}
+
+/* begin: paddings */
+.px-12 {
+  padding-left: .75rem !important;
+  padding-right: .75rem !important;
+}
+/* end: paddings */
+
+/* begin: naviagtion */
+.dxbs-tabs>.nav {
+  /* space to the left of the first tab */
+  padding-left: 12px;
+}
+
+.nav-tabs {
+
+  .nav-link {
+    height: 40px;
+    display: flex;
+    padding: 0;
+    margin-bottom: 0;
+    background-color: $color-mist;
+    border-bottom-color: $nav-tabs-border-color;
+    color: $color-night-rider;
+
+    @include hover-focus() {
+      background-color: $color-midnight-pale;
+    }
+
+    &.active {
+      background-color: $nav-tabs-link-active-bg;
+      position: relative;
+      border-bottom: 0;
+      top: 1px;
+    }
+    /* tab title text color when pressed and hold for non-active tab*/
+    &:active:not(.active) {
+      color: $white;
+    }
+  }
+}
+
+.nav-item {
+  /* 1px space between the tabs */
+  margin-left: 1px;
+}
+/* end: naviagtion */

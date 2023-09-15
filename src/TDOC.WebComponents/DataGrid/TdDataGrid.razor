@@ -1,0 +1,141 @@
+﻿@using TDOC.Common.Data.Models.Grids
+@using TDOC.WebComponents.LoadingIndicator
+@using TDOC.WebComponents.NoData
+@using TDOC.WebComponents.Utilities
+
+@typeparam TItem
+
+<div class="row" style="height: @(availableContentHeight)px">
+    @if (DataLoading || GridStructure == null)
+    {
+        <div class="col">
+            <LoadingGridSkeleton/>
+        </div>
+    }
+    else
+    {
+        <div class="col">
+            <div id="@gridRowIdentifier" class="row">
+                <CascadingValue Value="this" IsFixed="true">
+                    @ChildContent
+                    <DxDataGrid @key="keyGrid"
+                                Id="@Identifier"
+                                CssClass="td-grid"
+                                DataRowCssClass="@(AllowSelectionMode ? "td-grid-row-selectable" : "td-grid-row")"
+                                T="TItem"
+                                CustomData="LoadCustomDataAsync"
+                                KeyFieldName="@KeyFieldName"
+                                ShowDetailRow="ShowDetailRow"
+                                ShowPager="ShowPager"
+                                PageSize="PageSize"
+                                PagerPageSizeSelectorVisible="PagerPageSizeSelectorVisible"
+                                PagerNavigationMode="PagerNavigationMode.NumericButtons"
+                                VerticalScrollBarMode="ScrollBarMode.Auto"
+                                VerticalScrollableHeight="availableGridHeight"
+                                ColumnResizeMode="@(Enabled ? DataGridColumnResizeMode.NextColumn : DataGridColumnResizeMode.Disabled)"
+                                AllowColumnDragDrop="@(Enabled && AllowColumnDragDrop)"
+                                SelectionMode="@(Enabled ? selectionMode : DataGridSelectionMode.None)"
+                                LayoutRestoring="GridLayoutRestoring"
+                                LayoutChanged="GridLayoutChanged"
+                                RowClick="OnRowClick"                                
+                                SingleSelectedDataRow="SingleSelectedDataRow">
+                        <HeaderTemplate>
+                            @if (AllowColumnChooser)
+                            {
+                                <DxToolbar>
+                                    <DxDataGridColumnChooserToolbarItem Alignment="ToolbarItemAlignment.Right" />
+                                </DxToolbar>
+                            }
+                        </HeaderTemplate>
+                        <Columns>
+                            @foreach (GridColumnConfiguration columnConfig in GridStructure.ColumnsConfigurations)
+                            {
+                                <DxDataGridColumn Field="@columnConfig.DataField" 
+                                                  Caption="@columnConfig.DisplayName"
+                                                  Visible="columnConfig.Visible" 
+                                                  VisibleIndex="columnConfig.VisibleIndex"
+                                                  Width="@columnConfig.Width" 
+                                                  AllowSort="@(columnConfig.AllowSort && Enabled)"
+                                                  SortOrder="ConvertSortOrder(columnConfig.SortOrder)">
+                                    <DisplayTemplate Context="item">
+                                        @{
+                                            TdDataGridColumnTemplate<TItem> columnTemplate = columnTemplates.Find(template => template.Field == columnConfig.DataField);
+                                            if (columnTemplate == null || columnTemplate.DisplayTemplate == null)
+                                            {
+                                                <span class="@(IsDataOmitted(item) ? "text-ommited" : "")">
+                                                    @((MarkupString)(columnConfig.Highlight
+                                                        ? HighlightSearchText(PrepareDataToDisplay(item, columnConfig))
+                                                        : PrepareDataToDisplay(item, columnConfig)))
+                                                </span>
+                                            }
+                                            else
+                                            {
+                                                    @columnTemplate.DisplayTemplate((TItem)item)
+                                            }
+                                        }
+                                    </DisplayTemplate>
+                                </DxDataGridColumn>
+                            }
+                        </Columns>
+                        <!-- todo: implement MasterDetails -->
+                        <!--<DetailRowTemplate Context="dataItem">
+                            <DxTabs>
+                                <DxTabPage Text="Sales">
+                                    <div class="p-12px">
+                                        <DxDataGrid DataAsync="async (cancellationToken) => {
+                                                    var allSales = await SalesViewerDataProvider.GetSales(cancellationToken);
+                                                    return allSales.Where(x => x.ProductId == dataItem.Id);
+                                                    }"
+                                                    ShowDetailRow="true"
+                                                    SelectionMode="DataGridSelectionMode.None"
+                                                    PageSize="10"
+                                                    LayoutRestoring="@GetDetailsGridLayoutRestoringDelegate(dataItem)"
+                                                    LayoutChanged="@GetDetailsGridLayoutChangedDelegate(dataItem)">
+                                            <Columns>
+                                                <DxDataGridDateEditColumn Field="@nameof(Sale.SaleDate)" />
+                                                <DxDataGridSpinEditColumn Field="@nameof(Sale.Units)" />
+                                                <DxDataGridSpinEditColumn Field="@nameof(Sale.TotalCost)" DisplayFormat="c" />
+                                                <DxDataGridSpinEditColumn Field="@nameof(Sale.Discount)" DisplayFormat="c" />
+                                            </Columns>
+                                            <DetailRowTemplate Context="subDataItem">
+                                                <b>Sale id:</b>
+                                                <p>
+                                                    @subDataItem.Id
+                                                </p>
+                                            </DetailRowTemplate>
+                                        </DxDataGrid>
+                                    </div>
+                                </DxTabPage>
+                                <DxTabPage Text="Plant Info">
+                                    <div class="p-12px">
+                                        <b>Name:</b>
+                                        <p>
+                                            Name_@dataItem.PlantId
+                                        </p>
+                                        <b>Address:</b>
+                                        <p>
+                                            Address_@dataItem.PlSntId
+                                        </p>
+                                        <b>Zip:</b>
+                                        <p>
+                                            Zip_@dataItem.PlantId
+                                        </p>
+                                    </div>
+                                </DxTabPage>
+                            </DxTabs>
+                        </DetailRowTemplate>-->
+                    </DxDataGrid>
+                </CascadingValue>
+            </div>
+            <div class="row justify-content-center @DomUtilities.ShowHideCssClass(ShowNoDataDetails())">
+                <NoDataPanel Details="NoDataDetails"></NoDataPanel>
+            </div>
+            @if (ShowSummary())
+            {
+                <div id="@gridSummaryIdentifier" class="row font-weight-bold pt-12px d-flex justify-content-end">
+                    @($"{Summary.TotalCaption}: {Summary.TotalValue()}")
+                </div>
+            }
+        </div>
+    }
+</div>

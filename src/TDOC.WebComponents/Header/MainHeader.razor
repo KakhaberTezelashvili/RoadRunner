@@ -1,0 +1,34 @@
+﻿@using TDOC.Common.Data.Auth.Constants
+@using TDOC.WebComponents.Auth
+@using TDOC.WebComponents.Button
+@using TDOC.WebComponents.Notification
+@using TDOC.WebComponents.Popup
+
+@inherits Fluxor.Blazor.Web.Components.FluxorComponent
+
+<div id="@Identifier" class="header-block @CssClass w-100 background-color-getinge-blue text-white">
+    <div class="row d-flex justify-content-between h-100">
+        <div class="header-edge-column d-flex align-items-center">
+            <img class="icon-size-24" src="@LogoIconUrl" />
+            <div class="pl-12px">
+                <ButtonsPanel Buttons="NavigationButtons" />
+            </div>
+        </div>
+        <div class="d-flex align-items-center">
+            @CenterFragment
+        </div>
+        <div class="system-notifications-position position-absolute">
+            <TdSnackbar @ref="refNotifications" Type="NotificationType" AfterExpand="NotificationAfterExpand" />
+        </div>
+        <div class="d-flex justify-content-end align-items-center">
+            @RightFragment
+        </div>
+    </div>
+</div>
+<TdToast />
+<ConfirmationPopup ButtonFontSize="ConfirmationPopupButtonFontSize"
+                   ButtonHeight="ConfirmationPopupButtonHeight"
+                   ButtonMinWidth="ConfirmationPopupButtonMinWidth"
+                   Width="ConfirmationPopupWidth"
+                   Height="ConfirmationPopupHeight"
+                   IconSize="ConfirmationPopupIconSize" />

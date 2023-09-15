@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>AdminWeb</title>
+    <base href="/admin-client/" />
+    <!-- DevExpress.Blazor themes -->
+    <link href="_content/DevExpress.Blazor/dx-blazor.css" rel="stylesheet" />
+    <!-- TDOC.WebComponents libraries and themes -->
+    <link href="_content/TDOC.WebComponents/output/bundle.min.css" rel="stylesheet" />
+    <!-- AdminClient.WebApp themes -->
+    <link href="css/generated/app-base.min.css" rel="stylesheet" />
+    <link href="AdminClient.WebApp.styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="app">
+        <div class="text-center">
+            <img class="loading-image" src="_content/TDOC.Resources/img/loaders/loader.gif" />
+        </div>
+    </div>
+
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
+    </div>
+
+    <!-- TDoc webcomponent library bundle -->
+    <script src="_content/TDOC.WebComponents/js/generated/bundle.min.js"></script>
+    <!-- Authentication library -->
+    <script src="_content/Microsoft.AspNetCore.Components.WebAssembly.Authentication/AuthenticationService.js"></script>
+    <!-- Blazor library -->
+    <script src="_framework/blazor.webassembly.js"></script>
+    <!-- Fluxor library -->
+    <script src="_content/Fluxor.Blazor.Web/scripts/index.js"></script>
+    <!-- Devextreme library -->
+    <script src="_content/TDOC.WebComponents/lib/devextreme/js/dx.custom.min.js"></script>
+    <!-- Swiper library -->
+    <script src="_content/TDOC.WebComponents/lib/swiper/js/swiper-bundle.min.js"></script>
+</body>
+
+</html>

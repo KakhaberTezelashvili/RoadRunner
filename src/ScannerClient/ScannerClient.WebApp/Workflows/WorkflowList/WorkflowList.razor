@@ -1,0 +1,26 @@
+﻿@layout WorkflowLayout
+@inherits WorkflowBaseComponent
+
+<div id="@HtmlElementIdentifiers.WorkflowListBlock.FirstCharToLowerCase()" class="row h-100 align-items-center background-color-snow">
+    <div class="col-sm-12">
+        <div class="row workflow-blocks d-flex align-items-center justify-content-center">
+            @for (int i = 0; i < firstRowItems; i++)
+            {
+                string splitterClass = "";
+                if (i == firstRowItems - 1)
+                    splitterClass = " workflow-splitter-invisible";
+
+                var workflow = WorkflowState.Value.Workflows[i];
+                <WorkflowItem Workflow="workflow"></WorkflowItem>
+                <div class="@($"workflow-splitter{splitterClass}")"></div>
+            }
+            <div class="workflow-blocks-new-row"></div>
+            @for (int i = firstRowItems; i < WorkflowState.Value.Workflows.Count; i++)
+            {
+                var workflow = WorkflowState.Value.Workflows[i];
+                <WorkflowItem Workflow="workflow"></WorkflowItem>
+                <div class="workflow-splitter"></div>
+            }
+        </div>
+    </div>
+</div>

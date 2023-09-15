@@ -1,0 +1,1847 @@
+<?xml version="1.0" encoding="utf-8"?><root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActualProgramCheck.Off">
+    <value>Κλειστό</value>
+  </data>
+  <data name="ActualProgramCheck.WarningPrompt">
+    <value>Προειδοποίηση και επιβεβαίωση</value>
+  </data>
+  <data name="ActualProgramCheck.Error">
+    <value>Σφάλμα - Εμπλοκή έγκρισης</value>
+  </data>
+  <data name="ApprovalType.No">
+    <value>Όχι</value>
+  </data>
+  <data name="ApprovalType.Yes">
+    <value>Ναι</value>
+  </data>
+  <data name="ApprovalType.Visual">
+    <value>Visual</value>
+  </data>
+  <data name="ApprovalType.Unit">
+    <value>Μονάδες</value>
+  </data>
+  <data name="ApprovalType.UnitVisual">
+    <value>Μονάδες Visual</value>
+  </data>
+  <data name="BatchUnitStatus.OK">
+    <value>Εντάξει</value>
+  </data>
+  <data name="BatchUnitStatus.BatchFailed">
+    <value>Αποτυχία παρτίδας</value>
+  </data>
+  <data name="BatchUnitStatus.UnitFailed">
+    <value>Μονάδα απέτυχε</value>
+  </data>
+  <data name="CountDatStatus.Open">
+    <value>Ανοιχτό</value>
+  </data>
+  <data name="CountDatStatus.Completed">
+    <value>Ολοκληρώθηκε</value>
+  </data>
+  <data name="CountDatStatus.Suspended">
+    <value>Suspended</value>
+  </data>
+  <data name="CountDatUsersUserRole.EnteringData">
+    <value>Entering data</value>
+  </data>
+  <data name="CountDatUsersUserRole.Responsible">
+    <value>Responsible</value>
+  </data>
+  <data name="CustNameDisplay.Name">
+    <value>Όνομα</value>
+  </data>
+  <data name="CustNameDisplay.ShortName">
+    <value>Σύντομη ονομασία </value>
+  </data>
+  <data name="CustNameDisplay.Number">
+    <value>Αριθμός</value>
+  </data>
+  <data name="CustOrderBookingMode.Default">
+    <value>Προεπιλογή</value>
+  </data>
+  <data name="CustOrderBookingMode.Disabled">
+    <value>Απενεργοποιήθηκε</value>
+  </data>
+  <data name="CustOrderBookingMode.Manual">
+    <value>Εγχειρίδιο</value>
+  </data>
+  <data name="CustOrderBookingMode.Automation">
+    <value>Αυτόματο</value>
+  </data>
+  <data name="CustPreDispatchMode.UseFacSetting">
+    <value>Χρήση εργοστασιακών ρυθμίσεων</value>
+  </data>
+  <data name="CustPreDispatchMode.Always">
+    <value>Πάντα</value>
+  </data>
+  <data name="CustPreDispatchMode.Never">
+    <value>Ποτέ</value>
+  </data>
+  <data name="DecNonDispItemStockOnPack.Off">
+    <value>Κλειστό</value>
+  </data>
+  <data name="DecNonDispItemStockOnPack.Prompt">
+    <value>Υποβολή</value>
+  </data>
+  <data name="DecNonDispItemStockOnPack.On">
+    <value>Ανοιχτό</value>
+  </data>
+  <data name="DeltaScanMode.Delta">
+    <value>Delta</value>
+  </data>
+  <data name="DeltaScanMode.Total">
+    <value>Σύνολο</value>
+  </data>
+  <data name="DoctorUsage.NotSet">
+    <value>Δεν απαιτείται</value>
+  </data>
+  <data name="DoctorUsage.Needed">
+    <value>Χρήση προεπιλογής εάν δεν διευκρινίζεται</value>
+  </data>
+  <data name="DoctorUsage.Required">
+    <value>Πρέπει να καθοριστεί</value>
+  </data>
+  <data name="DryerProcessStatus.Normal">
+    <value>Κανονικό</value>
+  </data>
+  <data name="DryerProcessStatus.OK">
+    <value>Εντάξει</value>
+  </data>
+  <data name="DryerProcessStatus.Error">
+    <value>Σφάλμα</value>
+  </data>
+  <data name="FacOrderBookingMode.Disabled">
+    <value>Απενεργοποιήθηκε</value>
+  </data>
+  <data name="FacOrderBookingMode.Manual">
+    <value>Εγχειρίδιο</value>
+  </data>
+  <data name="FacOrderBookingMode.Automation">
+    <value>Αυτόματο</value>
+  </data>
+  <data name="FactoryDefProdTraceType.ProductSerial">
+    <value>Σειριακός αριθμός</value>
+  </data>
+  <data name="FactoryDefProdTraceType.Product">
+    <value>Αριθμός προϊόντος</value>
+  </data>
+  <data name="FactoryRestrictionMode.Default">
+    <value>Προεπιλογή</value>
+  </data>
+  <data name="FactoryRestrictionMode.On">
+    <value>Ανοιχτό</value>
+  </data>
+  <data name="FactoryRestrictionMode.Warning">
+    <value>Προειδοποίηση</value>
+  </data>
+  <data name="FactoryRestrictionMode.Off">
+    <value>Κλειστό</value>
+  </data>
+  <data name="FastTrackCodeType.General">
+    <value>Γενικά</value>
+  </data>
+  <data name="FastTrackCodeType.AdHoc">
+    <value>Ad-hoc</value>
+  </data>
+  <data name="FastTrackCodeType.TemplateOnly">
+    <value>Ομάδα μόνο</value>
+  </data>
+  <data name="FastTrackCreatorType.System">
+    <value>Σύστημα</value>
+  </data>
+  <data name="FastTrackCreatorType.JobServer">
+    <value>Διακομιστής Εργασίας</value>
+  </data>
+  <data name="FastTrackCreatorType.FacUser">
+    <value>Χρήστης εργοστασίου</value>
+  </data>
+  <data name="FastTrackCreatorType.CustUser">
+    <value>Χρήστης πελάτη</value>
+  </data>
+  <data name="FastTrackDisplayMode.UserSetting">
+    <value>Ρύθμιση χρήστη</value>
+  </data>
+  <data name="FastTrackDisplayMode.ForcePrompt">
+    <value>Αναγκαστικό μήνυμα</value>
+  </data>
+  <data name="FastTrackDisplayMode.ForceNoPrompt">
+    <value>Αναγκαστικά χωρίς μήνυμα</value>
+  </data>
+  <data name="FastTrackDisplayMode.ForceNoPromptOrInfo">
+    <value>Force no prompt or info</value>
+  </data>
+  <data name="FastTrackEndType.Normal">
+    <value>Κανονικό</value>
+  </data>
+  <data name="FastTrackEndType.NormalNewUnitHas">
+    <value>Κανονικό ( η νεα μονάδα περέχει τα ίδια)</value>
+  </data>
+  <data name="FastTrackEndType.ToRepair">
+    <value>Αποστολή για επισκευή</value>
+  </data>
+  <data name="FastTrackEndType.Expired">
+    <value>Έληξε</value>
+  </data>
+  <data name="FastTrackEndType.Cancelled">
+    <value>Ακυρώθηκε</value>
+  </data>
+  <data name="FastTrackInvoiceType.None">
+    <value>Κανένα</value>
+  </data>
+  <data name="FastTrackInvoiceType.Factory">
+    <value>Εργοστάσιο</value>
+  </data>
+  <data name="FastTrackInvoiceType.Customer">
+    <value>Πελάτης</value>
+  </data>
+  <data name="FastTrackStatus.Assigned">
+    <value>Ανατέθηκε</value>
+  </data>
+  <data name="FastTrackStatus.Started">
+    <value>Άρχισε</value>
+  </data>
+  <data name="FastTrackStatus.Ended">
+    <value>Τελείωσε</value>
+  </data>
+  <data name="HandlingStepResult.OK">
+    <value>Περασμένο</value>
+  </data>
+  <data name="HandlingStepResult.FailedStop">
+    <value>Απέτυχε</value>
+  </data>
+  <data name="HandlingStepResult.OKCleared">
+    <value>Περασμένο(καθαρισμένο)</value>
+  </data>
+  <data name="HandlingStepResult.FailedStartOver">
+    <value>Απέτυχε (Ξεκινήστε από την αρχή)</value>
+  </data>
+  <data name="IdentArticleLineUsage.Enabled">
+    <value>Use system default</value>
+  </data>
+  <data name="IdentArticleLineUsage.Disabled">
+    <value>Ναι</value>
+  </data>
+  <data name="InActAction.Created">
+    <value>Δημιουργήθηκε</value>
+  </data>
+  <data name="InActAction.InBatch">
+    <value>Σε παρτίδα</value>
+  </data>
+  <data name="InActAction.Pending">
+    <value>Εν αναμονή</value>
+  </data>
+  <data name="InActAction.InIncubator">
+    <value>Σε επωαστήρα</value>
+  </data>
+  <data name="InActAction.StepResult">
+    <value>Αποτέλεσμα βήματος</value>
+  </data>
+  <data name="InActAction.BatchUnblocked">
+    <value>Απεμπλοκή Παρτίδας</value>
+  </data>
+  <data name="InActAction.DispatchUnblocked">
+    <value>Απεμπλοκή αποστολής</value>
+  </data>
+  <data name="InActAction.Approved">
+    <value>Εγκεκριμένο</value>
+  </data>
+  <data name="InActAction.Disapproved">
+    <value>Απορρίφθηκε</value>
+  </data>
+  <data name="InActAction.Cancelled">
+    <value>Ακυρώθηκε</value>
+  </data>
+  <data name="InActAction.InWell">
+    <value>In well</value>
+  </data>
+  <data name="InActAction.OutWell">
+    <value>Out well</value>
+  </data>
+  <data name="InActAction.BatchRemoved">
+    <value>Removed from batch</value>
+  </data>
+  <data name="InActAction.BatchAssigned">
+    <value>Batch assigned</value>
+  </data>
+  <data name="InActResult.Unknown">
+    <value>Άγνωστο</value>
+  </data>
+  <data name="InActResult.Approved">
+    <value>Εγκεκριμένο</value>
+  </data>
+  <data name="InActResult.Disapproved">
+    <value>Απορρίφθηκε</value>
+  </data>
+  <data name="IncNonDispItemStockOnPack.Off">
+    <value>Κλειστό</value>
+  </data>
+  <data name="IncNonDispItemStockOnPack.Prompt">
+    <value>Υποβολή</value>
+  </data>
+  <data name="IncNonDispItemStockOnPack.On">
+    <value>Ανοιχτό</value>
+  </data>
+  <data name="IncuBatchLogResult.Pending">
+    <value>Εν αναμονή</value>
+  </data>
+  <data name="IncuBatchLogResult.Passed">
+    <value>Περασμένο</value>
+  </data>
+  <data name="IncuBatchLogResult.Failed">
+    <value>Απέτυχε</value>
+  </data>
+  <data name="IncuBatchLogResult.Warning">
+    <value>Προειδοποίηση</value>
+  </data>
+  <data name="IncuBatchLogResult.Discontinued">
+    <value>Discontinued</value>
+  </data>
+  <data name="IncuBatchLogResult.Error">
+    <value>Σφάλμα</value>
+  </data>
+  <data name="IncuBatchLogResult.DataError">
+    <value>Data error</value>
+  </data>
+  <data name="IncuBatchLogStatus.Unknown">
+    <value>Not yet available</value>
+  </data>
+  <data name="IncuBatchLogStatus.Manual">
+    <value>No data logging</value>
+  </data>
+  <data name="IncuBatchLogStatus.Processing">
+    <value>Επεξεργασία </value>
+  </data>
+  <data name="IncuBatchLogStatus.Done">
+    <value>Έγινε</value>
+  </data>
+  <data name="IndicStatus.Created">
+    <value>Δημιουργήθηκε</value>
+  </data>
+  <data name="IndicStatus.InBatch">
+    <value>Σε παρτίδα</value>
+  </data>
+  <data name="IndicStatus.Pending">
+    <value>Εν αναμονή</value>
+  </data>
+  <data name="IndicStatus.Approved">
+    <value>Εγκεκριμένο</value>
+  </data>
+  <data name="IndicStatus.Disapproved">
+    <value>Απορρίφθηκε</value>
+  </data>
+  <data name="IndicStatus.Cancelled">
+    <value>Ακυρώθηκε</value>
+  </data>
+  <data name="InTypResultType.Immediate">
+    <value>Άμεσα</value>
+  </data>
+  <data name="InTypResultType.Delayed">
+    <value>Καθυστέρησε</value>
+  </data>
+  <data name="InTypResultType.Combined">
+    <value>Combined</value>
+  </data>
+  <data name="ItemAltPricingMode.None">
+    <value>Κανένα</value>
+  </data>
+  <data name="ItemAltPricingMode.SalesPrice">
+    <value>Τιμή  πώλησης</value>
+  </data>
+  <data name="ItemAltPricingMode.UsagePrice">
+    <value>Τιμή χρήσης</value>
+  </data>
+  <data name="ItemAltPricingMode.CostPrice">
+    <value>Τιμή κόστους</value>
+  </data>
+  <data name="ItemDifficultyMode.Default">
+    <value>Προεπιλογή</value>
+  </data>
+  <data name="ItemDifficultyMode.Fixed">
+    <value>Επιδιορθώθηκε</value>
+  </data>
+  <data name="ItemDifficultyMode.Sum">
+    <value>Συν.</value>
+  </data>
+  <data name="ItemDifficultyMode.Max">
+    <value>Mεγ.</value>
+  </data>
+  <data name="ItemDifficultyMode.Count">
+    <value>Αρίθμηση</value>
+  </data>
+  <data name="ItemInstrumentType.Instrument">
+    <value>Αντικείμενο</value>
+  </data>
+  <data name="ItemInstrumentType.Endoscope">
+    <value>Ενδοσκόπιο</value>
+  </data>
+  <data name="ItemInstrumentType.ButtonValve">
+    <value>Button valve</value>
+  </data>
+  <data name="ItemPricingMode.SalesPrice">
+    <value>Τιμή  πώλησης</value>
+  </data>
+  <data name="ItemPricingMode.UsagePrice">
+    <value>Τιμή χρήσης</value>
+  </data>
+  <data name="ItemPricingMode.CostPrice">
+    <value>Τιμή κόστους</value>
+  </data>
+  <data name="ItemPricingType.Normal">
+    <value></value>
+  </data>
+  <data name="ItemPricingType.TimeBased">
+    <value></value>
+  </data>
+  <data name="ItemReservationMode.NotRequired">
+    <value>Δεν απαιτείται</value>
+  </data>
+  <data name="ItemReservationMode.Enabled">
+    <value>Ενεργοποιήθηκε</value>
+  </data>
+  <data name="ItemTraceType.Item">
+    <value>Αντικείμενο</value>
+  </data>
+  <data name="ItemTraceType.SerialItem">
+    <value>Σειριακοί αριθμοί</value>
+  </data>
+  <data name="ItemTraceType.LOT">
+    <value>LOT αριθμοί:</value>
+  </data>
+  <data name="LogEntryType.System">
+    <value>Σύστημα</value>
+  </data>
+  <data name="LogEntryType.Information">
+    <value>Πληροφορίες</value>
+  </data>
+  <data name="LogEntryType.Message">
+    <value>Μήνυμα</value>
+  </data>
+  <data name="LogEntryType.Warning">
+    <value>Προειδοποίηση</value>
+  </data>
+  <data name="LogEntryType.Error">
+    <value>Σφάλμα</value>
+  </data>
+  <data name="LogEntryType.Debug">
+    <value>Εντοπισμός σφαλμάτων</value>
+  </data>
+  <data name="LogBatchContent.Disabled">
+    <value>Απενεργοποιήθηκε</value>
+  </data>
+  <data name="LogBatchContent.Enabled">
+    <value>Ενεργοποιήθηκε</value>
+  </data>
+  <data name="LogBatchRegMode.Off">
+    <value>Κλειστό</value>
+  </data>
+  <data name="LogBatchRegMode.On">
+    <value>Ανοιχτό</value>
+  </data>
+  <data name="MachConsStatus.OnStock">
+    <value>Από παρακαταθήκη</value>
+  </data>
+  <data name="MachConsStatus.InUse">
+    <value>Σε χρήση</value>
+  </data>
+  <data name="MachConsStatus.Used">
+    <value>Χρησημοποιημένο</value>
+  </data>
+  <data name="MachConsStatus.Missing">
+    <value>Λείπουν</value>
+  </data>
+  <data name="MachLogTypes.TDOC">
+    <value>T-DOC Σφάλμα</value>
+  </data>
+  <data name="MachLogTypes.MachineError">
+    <value>Σφάλμα μηχανήματος</value>
+  </data>
+  <data name="MachLogTypes.MachineWarning">
+    <value>Προειδοποίηση Μηχανήματος</value>
+  </data>
+  <data name="MachTypeRuleIntervalType.Day">
+    <value>Κάθε x ημέρα</value>
+  </data>
+  <data name="MachTypeRuleIntervalType.Batch">
+    <value>Κάθε x παρτίδα</value>
+  </data>
+  <data name="MachTypeRuleIntervalType.FirstDailyRunAfter">
+    <value>Πρώτη ημερήσια εκτέλεση μετά</value>
+  </data>
+  <data name="MachTypeRuleIntervalType.FirstWeeklyRunAfter">
+    <value>Πρώτο εβδομαδιαία εκτέλεση μετά</value>
+  </data>
+  <data name="MachTypeRuleIntervalType.FirstMonthlyRunAfter">
+    <value>Πρώτη μηνιαία εκτέλεση μετά</value>
+  </data>
+  <data name="ManualEndoDryingMode.NotAllowed">
+    <value>Δεν επιτρέπεται</value>
+  </data>
+  <data name="ManualEndoDryingMode.Allowed">
+    <value>Επιτρέπεται</value>
+  </data>
+  <data name="ManualEndoDryingMode.Assumed">
+    <value>Υποτιθέμενο</value>
+  </data>
+  <data name="McRuleResult.OK">
+    <value>Εντάξει</value>
+  </data>
+  <data name="McRuleResult.Prevented">
+    <value>Αποτράπηκε</value>
+  </data>
+  <data name="McRuleResult.Forced">
+    <value>Αναγκάστηκε</value>
+  </data>
+  <data name="McRuleResult.Error">
+    <value>Σφάλμα</value>
+  </data>
+  <data name="OperationDataActionType.Created">
+    <value>Δημιουργήθηκε</value>
+  </data>
+  <data name="OperationDataActionType.Cancelled">
+    <value>Ακυρώθηκε</value>
+  </data>
+  <data name="OperationDataActionType.Planned">
+    <value>Προγραμματισμένη</value>
+  </data>
+  <data name="OperationDataActionType.Accepted">
+    <value>Αποδεκτό</value>
+  </data>
+  <data name="OperationDataActionType.Started">
+    <value>Άρχισε</value>
+  </data>
+  <data name="OperationDataActionType.Done">
+    <value>Έγινε</value>
+  </data>
+  <data name="OperationDataActionType.PrefListToOrderAuto">
+    <value>Προτ.λίστα  δημιουργήθηκε(για auto)</value>
+  </data>
+  <data name="OperationDataActionType.PrefListToOrderManual">
+    <value>Προτ.λίστα  δημιουργήθηκε(για χειροκίνητα)</value>
+  </data>
+  <data name="OperationDataActionType.PrefListOrderUpdated">
+    <value>Προτ.λίστα για ενημέρωση</value>
+  </data>
+  <data name="OperationDataActionType.OrderCancelled">
+    <value>Η παραγγελία ακυρώθηκε</value>
+  </data>
+  <data name="OperationDataActionType.Exported">
+    <value>Έχει εξαχθεί</value>
+  </data>
+  <data name="OperationDataActionType.Imported">
+    <value>Εισαγόμενα</value>
+  </data>
+  <data name="OperationDataActionType.PickInfoImport">
+    <value>Διάλεξε συμαντικές πληροφορίες</value>
+  </data>
+  <data name="OperationDataActionType.BookingForced">
+    <value>Αναγκαστική κράτηση</value>
+  </data>
+  <data name="OperationDataActionType.BookingUnForced">
+    <value>Αβίαστες Κρατήσεις</value>
+  </data>
+  <data name="OperationDataActionType.ReservChangedDueToForce">
+    <value>Κράτηση.έχει  αλλάξει λόγω της δύναμης</value>
+  </data>
+  <data name="OperationDataActionType.PreCount">
+    <value>Operation count (pre)</value>
+  </data>
+  <data name="OperationDataActionType.PerCount">
+    <value>Operation count (per)</value>
+  </data>
+  <data name="OperationDataActionType.PostCount">
+    <value>Operation count (post)</value>
+  </data>
+  <data name="OperationDataActionType.MergeRemove">
+    <value>Data moved to operation</value>
+  </data>
+  <data name="OperationDataActionType.MergeReceive">
+    <value>Data received from operation</value>
+  </data>
+  <data name="OperationDataActionType.EmergencyCaseCartAdded">
+    <value>Emergency case cart bound</value>
+  </data>
+  <data name="OperationDataActionType.PatVeriOK">
+    <value>Patient verified</value>
+  </data>
+  <data name="OperationDataActionType.PatVeriFailed">
+    <value>Patient verification failed</value>
+  </data>
+  <data name="OperationDataActionType.PatVeriSkip">
+    <value>Patient verification skipped</value>
+  </data>
+  <data name="OperationDataActionType.PatVeriPostpone">
+    <value>Patient verification postponed</value>
+  </data>
+  <data name="OperationDataActionType.OrderReturnRequested">
+    <value>Order return requested</value>
+  </data>
+  <data name="OperationDataActionType.OrderReordered">
+    <value>Order reordered</value>
+  </data>
+  <data name="OperationDataActionType.OrderCopyCreatedAuto">
+    <value>Order copy created (auto)</value>
+  </data>
+  <data name="OperationDataActionType.OrderCopyCreatedManual">
+    <value>Order copy created (manual)</value>
+  </data>
+  <data name="OperationTypeType.Elective">
+    <value>Δημιουργήθηκε</value>
+  </data>
+  <data name="OperationTypeType.Emergency">
+    <value>Ακυρώθηκε</value>
+  </data>
+  <data name="OPProcedureTypeMode.Fixed">
+    <value>Επιδιορθώθηκε</value>
+  </data>
+  <data name="OPProcedureTypeMode.AutoOPType">
+    <value>Αυτόματα από τον τύπο επέμβασης</value>
+  </data>
+  <data name="OPProcedureTypeMode.AutoDisabled">
+    <value></value>
+  </data>
+  <data name="OPStaffMode.Fixed">
+    <value>Επιδιορθώθηκε</value>
+  </data>
+  <data name="OPStaffMode.AutoProcType">
+    <value>Αυτόματα από τον τύπο διαδικασίας</value>
+  </data>
+  <data name="OrderActionType.Created">
+    <value>Δημιουργήθηκε</value>
+  </data>
+  <data name="OrderActionType.Cancelled">
+    <value>Ακυρώθηκε</value>
+  </data>
+  <data name="OrderActionType.Sent">
+    <value>Αποστολή</value>
+  </data>
+  <data name="OrderActionType.Accepted">
+    <value>Αποδεκτό</value>
+  </data>
+  <data name="OrderActionType.PickStart">
+    <value>Διάλεξε εκκίνηση</value>
+  </data>
+  <data name="OrderActionType.Delivered">
+    <value>Παραδόθηκε</value>
+  </data>
+  <data name="OrderActionType.Received">
+    <value>Ελήφθη</value>
+  </data>
+  <data name="OrderActionType.Done">
+    <value>Έγινε</value>
+  </data>
+  <data name="OrderActionType.PrintPicklist">
+    <value>Pick list printed or viewed</value>
+  </data>
+  <data name="OrderActionType.PrintDevNote">
+    <value>Delivery note printed or viewed</value>
+  </data>
+  <data name="OrderActionType.PrintRetNote">
+    <value>Return note printed or viewed</value>
+  </data>
+  <data name="OrderActionType.PrintPurchaseOrder">
+    <value>Purchase order printed or viewed</value>
+  </data>
+  <data name="OrderActionType.Exported">
+    <value>Έχει εξαχθεί</value>
+  </data>
+  <data name="OrderActionType.Imported">
+    <value>Εισαγόμενα</value>
+  </data>
+  <data name="OrderActionType.ReqDevTimeChange">
+    <value>Ο απαιτούμενοσ χρόνος παράδοσης άλλαξε</value>
+  </data>
+  <data name="OrderActionType.PickInfoImport">
+    <value></value>
+  </data>
+  <data name="OrderActionType.BookingModeActive">
+    <value>Κατάσταση κράτησης ενεργή</value>
+  </data>
+  <data name="OrderActionType.BookingModeInActive">
+    <value>Κατάσταση κράτησης ανενεργή</value>
+  </data>
+  <data name="OrderActionType.BookingForced">
+    <value>Αναγκαστική κράτηση</value>
+  </data>
+  <data name="OrderActionType.BookingUnForced">
+    <value>Αβίαστες Κρατήσεις</value>
+  </data>
+  <data name="OrderActionType.ReservChangedDueToForce">
+    <value>Κράτηση.έχει  αλλάξει λόγω της δύναμης</value>
+  </data>
+  <data name="OrderActionType.AttachToOperation">
+    <value>Attached to operation</value>
+  </data>
+  <data name="OrderActionType.DetachFromOperation">
+    <value>Detached from operation</value>
+  </data>
+  <data name="OrderActionType.BindItemsToOperation">
+    <value>Items bound to operation</value>
+  </data>
+  <data name="OrderActionType.BindUnitsToOperation">
+    <value>Units bound to operation</value>
+  </data>
+  <data name="OrderActionType.UnbindItemsFromOperation">
+    <value>Items unbound from operation</value>
+  </data>
+  <data name="OrderActionType.UnbindUnitsFromOperation">
+    <value>Units unbound from operation</value>
+  </data>
+  <data name="OrderActionType.ReturnRequested">
+    <value>Return requested</value>
+  </data>
+  <data name="OrderActionType.Reordered">
+    <value>Reordered</value>
+  </data>
+  <data name="OrderBookingMode.Undetermined">
+    <value>Δεν είναι προσδιωρισμένο</value>
+  </data>
+  <data name="OrderBookingMode.Disabled">
+    <value>Απενεργοποιήθηκε</value>
+  </data>
+  <data name="OrderBookingMode.Inactive">
+    <value>Ανενεργό</value>
+  </data>
+  <data name="OrderBookingMode.Active">
+    <value>Ενεργό</value>
+  </data>
+  <data name="OrderBookingStatus.Undetermined">
+    <value>Δεν είναι προσδιωρισμένο</value>
+  </data>
+  <data name="OrderBookingStatus.Ok">
+    <value>Εντάξει</value>
+  </data>
+  <data name="OrderBookingStatus.Warning">
+    <value>Προειδοποίηση</value>
+  </data>
+  <data name="OrderBookingStatus.Error">
+    <value>Σφάλμα</value>
+  </data>
+  <data name="OrderOrgStatus.None">
+    <value>Κανένα</value>
+  </data>
+  <data name="OrderOrgStatus.Template">
+    <value>Πρότυπο</value>
+  </data>
+  <data name="OrderOrgStatus.Open">
+    <value>Ανοιχτό</value>
+  </data>
+  <data name="OrderOrgStatus.Sent">
+    <value>Αποστολή</value>
+  </data>
+  <data name="OrderOrgStatus.Received">
+    <value>Ελήφθη</value>
+  </data>
+  <data name="OrderOrgStatus.Done">
+    <value>Έγινε</value>
+  </data>
+  <data name="OrderOrgStatus.Cancelled">
+    <value>Ακυρώθηκε</value>
+  </data>
+  <data name="OrderSuppPickPriority.Normal">
+    <value>Κανονικό</value>
+  </data>
+  <data name="OrderSuppPickPriority.PickNow">
+    <value>Τώρα</value>
+  </data>
+  <data name="OrderSuppPickPriority.PickNowForced">
+    <value>Now (forced)</value>
+  </data>
+  <data name="OrderSuppPriority.Normal">
+    <value>Κανονικό</value>
+  </data>
+  <data name="OrderSuppPriority.FastTrack">
+    <value>Fast tracked</value>
+  </data>
+  <data name="OrderSuppPriority.Emergency">
+    <value>Acute</value>
+  </data>
+  <data name="OrderSuppStatus.None">
+    <value>Κανένα</value>
+  </data>
+  <data name="OrderSuppStatus.Template">
+    <value>Πρότυπο</value>
+  </data>
+  <data name="OrderSuppStatus.Order">
+    <value>Νέο</value>
+  </data>
+  <data name="OrderSuppStatus.Accepted">
+    <value>Αποδεκτό</value>
+  </data>
+  <data name="OrderSuppStatus.Picked">
+    <value>Επιλογή ξεκίνησε</value>
+  </data>
+  <data name="OrderSuppStatus.Delivered">
+    <value>Παραδόθηκε</value>
+  </data>
+  <data name="OrderSuppStatus.Cancelled">
+    <value>Ακυρώθηκε</value>
+  </data>
+  <data name="OrderType.None">
+    <value>Κανένα</value>
+  </data>
+  <data name="OrderType.Order">
+    <value>Παραγγελία </value>
+  </data>
+  <data name="OrderType.ReturnOrder">
+    <value>Επιστροφή προκειμένου</value>
+  </data>
+  <data name="OrderType.OrderCorr">
+    <value>Διόρθ. Απογραφής</value>
+  </data>
+  <data name="PackingUsedFor.All">
+    <value>Όλα τα όργανα</value>
+  </data>
+  <data name="PackingUsedFor.Endoscopes">
+    <value>Ενδοσκόπια</value>
+  </data>
+  <data name="PatientAgeUsage.NotSet">
+    <value>Όπως διευκρινίζεται</value>
+  </data>
+  <data name="PatientAgeUsage.Needed">
+    <value>Χρήση προεπιλογής εάν δεν διευκρινίζεται</value>
+  </data>
+  <data name="PatientAgeUsage.Required">
+    <value>Πρέπει να καθοριστεί</value>
+  </data>
+  <data name="PatientGenderUsage.NotSet">
+    <value>Όπως διευκρινίζεται</value>
+  </data>
+  <data name="PatientGenderUsage.Needed">
+    <value>Χρήση προεπιλογής εάν δεν διευκρινίζεται</value>
+  </data>
+  <data name="PatientGenderUsage.Required">
+    <value>Πρέπει να καθοριστεί</value>
+  </data>
+  <data name="PIPLogEntrySubType.None">
+    <value>Κανένα</value>
+  </data>
+  <data name="PIPLogEntrySubType.SystemData">
+    <value>Δεδομένα συστήματος</value>
+  </data>
+  <data name="PIPLogEntrySubType.User">
+    <value>Χρήστης</value>
+  </data>
+  <data name="PIPLogEntrySubType.UserProfile">
+    <value>Προφίλ χρήστη</value>
+  </data>
+  <data name="PIPLogEntrySubType.PatientLookup">
+    <value>Ασθενείς</value>
+  </data>
+  <data name="PIPLogEntrySubType.OperationLookup">
+    <value>Δεδομενα λειτουργίας</value>
+  </data>
+  <data name="PIPLogEntrySubType.Patients">
+    <value>Ασθενείς</value>
+  </data>
+  <data name="PIPLogEntrySubType.Operations">
+    <value>Χειρουργεία</value>
+  </data>
+  <data name="PIPLogEntrySubType.Units">
+    <value>Μονάδες</value>
+  </data>
+  <data name="PIPLogEntrySubType.Orders">
+    <value>Παραγγελίες</value>
+  </data>
+  <data name="PIPLogEntrySubType.LOTLookup">
+    <value>List of LOT information</value>
+  </data>
+  <data name="PIPLogEntryType.PIPSettings">
+    <value>Patient information privacy settings change</value>
+  </data>
+  <data name="PIPLogEntryType.DirectLookup">
+    <value>Direct lookup</value>
+  </data>
+  <data name="PIPLogEntryType.SuccSearch">
+    <value>Successful search</value>
+  </data>
+  <data name="PIPLogEntryType.UnSuccSearch">
+    <value>Unsuccessful search</value>
+  </data>
+  <data name="PIPLogEntryType.PIPLogOpened">
+    <value>Patient information access log opened</value>
+  </data>
+  <data name="PIPLogEntryType.PIPLogSearching">
+    <value>Search in Patient information access log</value>
+  </data>
+  <data name="PIPLogEntryType.SchedOperations">
+    <value>Scheduled operations</value>
+  </data>
+  <data name="PrDrv.None">
+    <value>Κανένα</value>
+  </data>
+  <data name="PrDrv.Windows">
+    <value>τα Windows</value>
+  </data>
+  <data name="PrDrv.Epson_Obsolete">
+    <value></value>
+  </data>
+  <data name="PrDrv.Zebra">
+    <value>Zebra</value>
+  </data>
+  <data name="PrefListOrderCreateMode.Immediate">
+    <value>Άμεσα</value>
+  </data>
+  <data name="PrefListOrderCreateMode.TimeBased">
+    <value>Πάνω στην ώρα</value>
+  </data>
+  <data name="PrefListOrderCreateMode.Manual">
+    <value>Εγχειρίδιο</value>
+  </data>
+  <data name="PrefLnModifier.None">
+    <value>Κανένα</value>
+  </data>
+  <data name="PrefLnModifier.Absolute">
+    <value>Απόλυτα</value>
+  </data>
+  <data name="PrefLnModifier.Add">
+    <value>Προσθήκη</value>
+  </data>
+  <data name="PrefLnModifier.Subtract">
+    <value>Αφαίρεση</value>
+  </data>
+  <data name="PrefLnModifier.Highest">
+    <value>Υψηλότερη</value>
+  </data>
+  <data name="PrefLnModifier.Lowest">
+    <value>Xαμηλότερο</value>
+  </data>
+  <data name="ProcessStatus.Done">
+    <value>Έγινε</value>
+  </data>
+  <data name="ProcessStatus.Running">
+    <value>Εκτέλεση</value>
+  </data>
+  <data name="ProcessStatus.Initiated">
+    <value>Ξεκίνησε</value>
+  </data>
+  <data name="ProcessStatus.Ending">
+    <value>Τελειώνει</value>
+  </data>
+  <data name="ProcessType.None">
+    <value>Κανένα</value>
+  </data>
+  <data name="ProcessType.Pack">
+    <value>Πακέτο</value>
+  </data>
+  <data name="ProcessType.SteriPostBatch">
+    <value>Post batch (Κλίβανος)</value>
+  </data>
+  <data name="ProcessType.Out">
+    <value>Αποστολή</value>
+  </data>
+  <data name="ProcessType.Return">
+    <value>Επιστροφή</value>
+  </data>
+  <data name="ProcessType.Prepare">
+    <value>Ετοιμάστε</value>
+  </data>
+  <data name="ProcessType.Wrap">
+    <value>τυλίξτε</value>
+  </data>
+  <data name="ProcessType.LitePro">
+    <value>Ελαφριά Ετικέτα</value>
+  </data>
+  <data name="ProcessType.SteriPreBatch">
+    <value>Προ παρτίδα (Κλίβανος)</value>
+  </data>
+  <data name="ProcessType.Flash">
+    <value>Ταχεία παρτίδα</value>
+  </data>
+  <data name="ProcessType.Location">
+    <value>Τοποθεσία</value>
+  </data>
+  <data name="ProcessType.WashPreBatch">
+    <value>Προ παρτίδα (Πλυντήριο)</value>
+  </data>
+  <data name="ProcessType.WashPostBatch">
+    <value>Post batch (Πλυντήριο)</value>
+  </data>
+  <data name="ProcessType.OpenUsed">
+    <value>Ανοιγμα/Χρήσιμοποιήθηκε</value>
+  </data>
+  <data name="ProcessType.Operation">
+    <value>Λειτουργία</value>
+  </data>
+  <data name="ProcessType.Order">
+    <value>Παραγγελία </value>
+  </data>
+  <data name="ProcessType.Inventory">
+    <value>Απογραφή</value>
+  </data>
+  <data name="ProcessType.OrderPick">
+    <value>Περισυλλογή Παραγγελιών</value>
+  </data>
+  <data name="ProcessType.Industry">
+    <value>Βιομηχανία</value>
+  </data>
+  <data name="ProcessType.PreDisPreBatch">
+    <value>Προ παρτίδα (Predisinfection)</value>
+  </data>
+  <data name="ProcessType.LoadQueue">
+    <value>Φορτώστε λίστα</value>
+  </data>
+  <data name="ProcessType.PurchaseOrder">
+    <value>Παραγγελία αγοράς</value>
+  </data>
+  <data name="ProcessType.EndoscopePreBatch">
+    <value>Προ παρτίδα (πλυντήριο ενδοσκόπιου)</value>
+  </data>
+  <data name="ProcessType.WashCheck">
+    <value>Ελέγχος πλύσης</value>
+  </data>
+  <data name="ProcessType.ExtBatchInfo">
+    <value>Εκτ. πληροφορίες παρτίδας</value>
+  </data>
+  <data name="ProcessType.EndoCleanAndTest">
+    <value>Καθαρισμός και δοκιμή ενδο</value>
+  </data>
+  <data name="ProcessType.Transport">
+    <value>Μεταφορά</value>
+  </data>
+  <data name="ProcessType.Workflow">
+    <value>Workflow</value>
+  </data>
+  <data name="ProcessType.Incubator">
+    <value>Incubation</value>
+  </data>
+  <data name="ProcessType.ReturnWF">
+    <value>Επιστροφή στις μονάδες</value>
+  </data>
+  <data name="ProcessType.WashPreBatchWF">
+    <value>Create wash batch</value>
+  </data>
+  <data name="ProcessType.SteriPreBatchWF">
+    <value>Create sterilizer batch</value>
+  </data>
+  <data name="ProcessType.PackWF">
+    <value>Pack units</value>
+  </data>
+  <data name="ProcessType.OutWF">
+    <value>Dispatch to customer</value>
+  </data>
+  <data name="ProcessType.Last">
+    <value></value>
+  </data>
+  <data name="ProdDispatchRestriction.Default">
+    <value>Προεπιλογή</value>
+  </data>
+  <data name="ProdDispatchRestriction.None">
+    <value>Κανένα</value>
+  </data>
+  <data name="ProdDispatchRestriction.CustomerOrSite">
+    <value>Πελάτης ή Τοποθεσία</value>
+  </data>
+  <data name="ProdDispatchRestriction.CustomerElseSite">
+    <value>Πελάτης αλλιώς Τοποθεσία</value>
+  </data>
+  <data name="ProdDispatchRestriction.CustomerOnly">
+    <value>Πελάτης μόνο</value>
+  </data>
+  <data name="ProdReservationMode.NotRequired">
+    <value>Δεν απαιτείται</value>
+  </data>
+  <data name="ProdReservationMode.Enabled">
+    <value>Ενεργοποιήθηκε</value>
+  </data>
+  <data name="ProductDifficultyMode.UseItemValue">
+    <value>Use item value</value>
+  </data>
+  <data name="ProductDifficultyMode.Fixed">
+    <value>Επιδιορθώθηκε</value>
+  </data>
+  <data name="ProductReturnState.Normal">
+    <value>Κανονικό</value>
+  </data>
+  <data name="ProductReturnState.PreProcessed">
+    <value>Προ-επεξεργασία</value>
+  </data>
+  <data name="ProductReturnState.PrePacked">
+    <value>Προ-συσκευασία</value>
+  </data>
+  <data name="ProductStockControlMode.Simple">
+    <value>Κανονικό</value>
+  </data>
+  <data name="ProductStockControlMode.Basic">
+    <value>Για προχωρημένους (Πλήρες)</value>
+  </data>
+  <data name="ProductStockControlMode.Advanced">
+    <value></value>
+  </data>
+  <data name="ProductStorageType.Factory">
+    <value>Εργοστάσιο</value>
+  </data>
+  <data name="ProductStorageType.Transit">
+    <value>Transit</value>
+  </data>
+  <data name="ProductTraceType.Product">
+    <value>Αριθμός προϊόντος</value>
+  </data>
+  <data name="ProductTraceType.ProductSerial">
+    <value>Σειριακός αριθμός</value>
+  </data>
+  <data name="ProductTraceType.Both">
+    <value>Και τα δύο, σειριακό αριθμό και τον αριθμό προϊόντος</value>
+  </data>
+  <data name="ProductType.Trays">
+    <value>Δίσκος</value>
+  </data>
+  <data name="ProductType.SinglePacks">
+    <value>Μεμονωμένο πακέτο</value>
+  </data>
+  <data name="ProductType.Endoscopes">
+    <value>Ενδοσκόπιο</value>
+  </data>
+  <data name="ProgramCheckInitiated.Allowed">
+    <value>Επιτρέπεται</value>
+  </data>
+  <data name="ProgramCheckInitiated.Required">
+    <value>Απαιτούμενα</value>
+  </data>
+  <data name="QuestionInputType.Boolean">
+    <value>Ναι/Όχι</value>
+  </data>
+  <data name="QuestionInputType.Integer">
+    <value>Αριθμός</value>
+  </data>
+  <data name="QuestionInputType.Text">
+    <value>Κείμενο</value>
+  </data>
+  <data name="QuestionInputType.List">
+    <value>Λίστα</value>
+  </data>
+  <data name="RepairInvState.None">
+    <value>Κανένα</value>
+  </data>
+  <data name="RepairInvState.Block">
+    <value>Αποκλεισμένο</value>
+  </data>
+  <data name="RepairInvState.Done">
+    <value>Έγινε</value>
+  </data>
+  <data name="RepairMode.AskUser">
+    <value>Ερώτηση χρήστη</value>
+  </data>
+  <data name="RepairMode.UsingCust">
+    <value>Χρησιμοποιώντας τον πελάτη</value>
+  </data>
+  <data name="RepairMode.Owner">
+    <value>Ιδιοκτήτης</value>
+  </data>
+  <data name="RepairMode.Factory">
+    <value>Εργοστάσιο</value>
+  </data>
+  <data name="RepairOrigin.Item">
+    <value>Αντικείμενο</value>
+  </data>
+  <data name="RepairOrigin.Product">
+    <value>Προϊον</value>
+  </data>
+  <data name="RepairOrigin.Serial">
+    <value>Σειριακό</value>
+  </data>
+  <data name="RepairOrigin.Unit">
+    <value>Μονάδα</value>
+  </data>
+  <data name="RepairOrigin.Tag">
+    <value>Ετικέτα</value>
+  </data>
+  <data name="RepairStatus.Sent">
+    <value>Αποστολή</value>
+  </data>
+  <data name="RepairStatus.Received">
+    <value>Ελήφθη</value>
+  </data>
+  <data name="RepairStatus.Done">
+    <value>Έγινε</value>
+  </data>
+  <data name="RepairStatus.Cancelled">
+    <value>Ακυρώθηκε</value>
+  </data>
+  <data name="RepairStatus.Requested">
+    <value>Requested</value>
+  </data>
+  <data name="RpTypCommentOption.NotAllowed">
+    <value>Δεν επιτρέπεται</value>
+  </data>
+  <data name="RpTypCommentOption.Allowed">
+    <value>Επιτρέπεται</value>
+  </data>
+  <data name="RpTypCommentOption.Required">
+    <value>Απαιτούμενα</value>
+  </data>
+  <data name="RpTypCustInvMode.NoInvoice">
+    <value>Κανένα τιμολόγιο</value>
+  </data>
+  <data name="RpTypCustInvMode.Invoice">
+    <value>Τιμολόγιο</value>
+  </data>
+  <data name="RpTypCustInvMode.NoEdit">
+    <value>Τιμολόγιση, όχι επεξεργασία</value>
+  </data>
+  <data name="RpTypCustInvMode.Hidden">
+    <value>Τιμολόγιση, όχι εμφάνιση</value>
+  </data>
+  <data name="RpTypFacInvMode.NoInvoice">
+    <value>Κανένα τιμολόγιο</value>
+  </data>
+  <data name="RpTypFacInvMode.Invoice">
+    <value>Τιμολόγιο</value>
+  </data>
+  <data name="RpTypFacInvMode.NoEdit">
+    <value>Τιμολόγιση, όχι επεξεργασία</value>
+  </data>
+  <data name="RpTypFacInvMode.Hidden">
+    <value>Τιμολόγιση, όχι εμφάνιση</value>
+  </data>
+  <data name="RpTypSuppMode.AllowChange">
+    <value>Επιτρέψτε αλλαγή</value>
+  </data>
+  <data name="RpTypSuppMode.Fixed">
+    <value>Επιδιορθώθηκε</value>
+  </data>
+  <data name="RpTypType.Standard">
+    <value>Πρότυπο</value>
+  </data>
+  <data name="RpTypType.Quick">
+    <value>Γρήγρη επισκευή</value>
+  </data>
+  <data name="RpTypType.Discard">
+    <value>Discard</value>
+  </data>
+  <data name="ScanUIStartMode.Default">
+    <value>Προεπιλογή</value>
+  </data>
+  <data name="ScanUIStartMode.Layers">
+    <value>Layer mode</value>
+  </data>
+  <data name="ScanUIStartMode.Grid">
+    <value>Πίνακας/λειτουργία πλέγματος</value>
+  </data>
+  <data name="SexType.None">
+    <value>Άγνωστο</value>
+  </data>
+  <data name="SexType.Male">
+    <value>Άντρας</value>
+  </data>
+  <data name="SexType.Female">
+    <value>Θηλυκό</value>
+  </data>
+  <data name="SexType.Other">
+    <value>Άλλο</value>
+  </data>
+  <data name="StdCommentFreeTextOption.NotAllowed">
+    <value>Δεν επιτρέπεται</value>
+  </data>
+  <data name="StdCommentFreeTextOption.Allowed">
+    <value>Επιτρέπεται</value>
+  </data>
+  <data name="StdCommentFreeTextOption.Required">
+    <value>Απαιτούμενα</value>
+  </data>
+  <data name="StockBackOrderMode.Never">
+    <value>Ποτέ</value>
+  </data>
+  <data name="StockBackOrderMode.Always">
+    <value>Πάντα</value>
+  </data>
+  <data name="StockBackOrderMode.Ask">
+    <value>Ρωτήστε</value>
+  </data>
+  <data name="StockBackOrderMode.WhenSet">
+    <value>Όταν αναφέρεται (Ακριβής)</value>
+  </data>
+  <data name="StockBackOrderMode.WhenSetAuto">
+    <value>Όταν αναφέρεται (All)</value>
+  </data>
+  <data name="StockOrderInMode.Auto">
+    <value>Αυτόματη συμπλήρωση</value>
+  </data>
+  <data name="StockOrderInMode.Receive">
+    <value>Αυτόματη παραλαβή</value>
+  </data>
+  <data name="StockOrderInMode.Manual">
+    <value>Υποδοχή εγχειριδίου</value>
+  </data>
+  <data name="StockPrnMode.Never">
+    <value>Ποτέ</value>
+  </data>
+  <data name="StockPrnMode.Always">
+    <value>Πάντα</value>
+  </data>
+  <data name="StockPrnMode.Ask">
+    <value>Ρωτήστε</value>
+  </data>
+  <data name="TagType.Basket">
+    <value>Καλάθι</value>
+  </data>
+  <data name="TagType.SteriLoad">
+    <value>Φορτίο</value>
+  </data>
+  <data name="TagType.PrepTag">
+    <value>Ετοιμάστε</value>
+  </data>
+  <data name="TagType.Bundle">
+    <value>Δέσμη</value>
+  </data>
+  <data name="TagType.Wash">
+    <value>Πλύση</value>
+  </data>
+  <data name="TagType.WashLoad">
+    <value>Πλύση φορτίου</value>
+  </data>
+  <data name="TagType.Transport">
+    <value>Μεταφορά</value>
+  </data>
+  <data name="TagType.Split">
+    <value>Διαίρεση</value>
+  </data>
+  <data name="TagType.CaseCart">
+    <value>Case cart</value>
+  </data>
+  <data name="TagType.TransportBox">
+    <value>Transport box</value>
+  </data>
+  <data name="TagType.InstrumentContainer">
+    <value>Instrument container</value>
+  </data>
+  <data name="TransmitKind.SMS">
+    <value>Σύντομο πρότυπο </value>
+  </data>
+  <data name="TransmitKind.Internal">
+    <value>Μακρύ Πρότυπο</value>
+  </data>
+  <data name="TrigBehaviour.RoundBased">
+    <value>Rounds</value>
+  </data>
+  <data name="TrigBehaviour.Time">
+    <value>Intervals</value>
+  </data>
+  <data name="TrigBehaviour.InitialDaysThenRounds">
+    <value>Interval then rounds</value>
+  </data>
+  <data name="TrigBehaviour.RoundMaxTime">
+    <value>Rounds or intervals</value>
+  </data>
+  <data name="TrigBehaviour.Everytime">
+    <value>Everytime</value>
+  </data>
+  <data name="TrigExecutionPhase.Before">
+    <value>Before</value>
+  </data>
+  <data name="TrigExecutionPhase.During">
+    <value>During</value>
+  </data>
+  <data name="TrigExecutionPhase.After">
+    <value>After</value>
+  </data>
+  <data name="TrigPostponeAbility.No">
+    <value>Όχι</value>
+  </data>
+  <data name="TrigPostponeAbility.YesAllUsers">
+    <value>Ναι</value>
+  </data>
+  <data name="TrigPostponeAbility.UserDefined">
+    <value>User-defined</value>
+  </data>
+  <data name="UILocaAvailability.Default">
+    <value>Προεπιλογή</value>
+  </data>
+  <data name="UILocaAvailability.Visible">
+    <value>Ορατός</value>
+  </data>
+  <data name="UILocaAvailability.Advanced">
+    <value>Ορατό (Για προχορημένους)</value>
+  </data>
+  <data name="UILocaAvailability.Hidden">
+    <value>Κρυφό</value>
+  </data>
+  <data name="WellStatus.Unknown">
+    <value>Άγνωστο</value>
+  </data>
+  <data name="WellStatus.Empty">
+    <value>Κενό</value>
+  </data>
+  <data name="WellStatus.Init">
+    <value>Γίνεται προετοιμασία</value>
+  </data>
+  <data name="WellStatus.Processing">
+    <value>Επεξεργασία </value>
+  </data>
+  <data name="WellStatus.Negative">
+    <value>Negative</value>
+  </data>
+  <data name="WellStatus.Positive">
+    <value>Positive</value>
+  </data>
+  <data name="WellStatus.Result">
+    <value>Σφάλμα</value>
+  </data>
+  <data name="WellStatus.Error">
+    <value>Προειδοποίηση</value>
+  </data>
+  <data name="WellStatus.Warning">
+    <value></value>
+  </data>
+  <data name="ReservationState.Undetermined">
+    <value>Δεν είναι προσδιωρισμένο</value>
+  </data>
+  <data name="ReservationState.OKOriginal">
+    <value>Εντάξει</value>
+  </data>
+  <data name="ReservationState.OKIdentical">
+    <value>Εντάξει</value>
+  </data>
+  <data name="ReservationState.OKAlternative">
+    <value>Εντάξει</value>
+  </data>
+  <data name="ReservationState.OKIdenticalForAlternative">
+    <value>Εντάξει</value>
+  </data>
+  <data name="ReservationState.WarningOriginal">
+    <value>Προειδοποίηση</value>
+  </data>
+  <data name="ReservationState.WarningIdentical">
+    <value>Προειδοποίηση</value>
+  </data>
+  <data name="ReservationState.WarningAlternative">
+    <value>Προειδοποίηση</value>
+  </data>
+  <data name="ReservationState.WarningIdenticalForAlternative">
+    <value>Προειδοποίηση</value>
+  </data>
+  <data name="ReservationState.Error">
+    <value>Σφάλμα</value>
+  </data>
+  <data name="TriggerResult.RAccept">
+    <value>Αποδοχή</value>
+  </data>
+  <data name="TriggerResult.RReject">
+    <value>Reject</value>
+  </data>
+  <data name="TriggerResult.ROverride">
+    <value>Override</value>
+  </data>
+  <data name="TriggerResult.RPostpone">
+    <value>Postpone</value>
+  </data>
+  <data name="TriggerResult.RSilent">
+    <value>Silent</value>
+  </data>
+  <data name="FacDeductItemsFromStockInOpType.On">
+    <value>Ανοιχτό</value>
+  </data>
+  <data name="FacDeductItemsFromStockInOpType.Off">
+    <value>Κλειστό</value>
+  </data>
+  <data name="OrderSuppPickMode.Normal">
+    <value>Κανονικό</value>
+  </data>
+  <data name="OrderSuppPickMode.FullAuto">
+    <value>Fully automated</value>
+  </data>
+  <data name="OrderSuppPickMode.EjectOnly">
+    <value>Eject from stock</value>
+  </data>
+  <data name="PickJobStatus.Forecast">
+    <value>Forecast</value>
+  </data>
+  <data name="PickJobStatus.Requested">
+    <value>Requested</value>
+  </data>
+  <data name="PickJobStatus.Attempted">
+    <value>Checked/Attempted</value>
+  </data>
+  <data name="PickJobStatus.Committed">
+    <value>Committed</value>
+  </data>
+  <data name="PickJobStatus.Completed">
+    <value>Ολοκληρώθηκε</value>
+  </data>
+  <data name="PickJobStatus.Closed">
+    <value>Closed</value>
+  </data>
+  <data name="PickJobStatus.Cancelled">
+    <value>Ακυρώθηκε</value>
+  </data>
+  <data name="PickJobActionType.NewForecast">
+    <value>Forecast created</value>
+  </data>
+  <data name="PickJobActionType.Requested">
+    <value>Requested</value>
+  </data>
+  <data name="PickJobActionType.Attempted">
+    <value>Checked/Attempted</value>
+  </data>
+  <data name="PickJobActionType.Committed">
+    <value>Committed</value>
+  </data>
+  <data name="PickJobActionType.Completed">
+    <value>Ολοκληρώθηκε</value>
+  </data>
+  <data name="PickJobActionType.Closed">
+    <value>Closed</value>
+  </data>
+  <data name="PickJobActionType.Cancelled">
+    <value>Ακυρώθηκε</value>
+  </data>
+  <data name="ItemSalesRestriction.None">
+    <value>Κανένα</value>
+  </data>
+  <data name="ItemSalesRestriction.Blocked">
+    <value>Αποκλεισμένο</value>
+  </data>
+  <data name="TrigActivity.None">
+    <value>Τίποτα</value>
+  </data>
+  <data name="TrigActivity.Pack">
+    <value>Πακέτο</value>
+  </data>
+  <data name="TrigActivity.Return">
+    <value>Επιστροφή</value>
+  </data>
+  <data name="TrigActivity.Wrap">
+    <value>τυλίξτε</value>
+  </data>
+  <data name="TrigActivity.WasherBatchRegistration">
+    <value>Washer batch registration</value>
+  </data>
+  <data name="TrigActivity.WasherBatchApproval">
+    <value>Washer batch approval</value>
+  </data>
+  <data name="TrigActivity.SterilizerBatchRegistration">
+    <value>Sterilizer batch registration</value>
+  </data>
+  <data name="TrigActivity.SterilizerBatchApproval">
+    <value>Sterilizer batch approval</value>
+  </data>
+  <data name="TrigActivity.RegisterLocation">
+    <value>Τοποθεσία</value>
+  </data>
+  <data name="TrigActivity.OperationRegistration">
+    <value>Λειτουργία</value>
+  </data>
+  <data name="TrigActivity.Pick">
+    <value>Επιλογή</value>
+  </data>
+  <data name="TrigActivity.Dispatch">
+    <value>Αποστολή</value>
+  </data>
+  <data name="TrigActivity.UpdateInventory">
+    <value>Απογραφή</value>
+  </data>
+  <data name="TrigActivity.PredisinfectionBatchRegistration">
+    <value>Pre-disinfection batch registration</value>
+  </data>
+  <data name="TrigActivity.EndoscopeWasherBatchRegistration">
+    <value>Endoscope washer batch registration</value>
+  </data>
+  <data name="TrigActivity.EndoCleanAndTest">
+    <value>Καθαρισμός και δοκιμή ενδο</value>
+  </data>
+  <data name="TrigActivity.EndoscopeWasherBatchApproval">
+    <value>Endoscope washer batch approval</value>
+  </data>
+  <data name="TrigActivity.StartTransport">
+    <value>Μεταφορά</value>
+  </data>
+  <data name="TrigActivity.PatientRegistration">
+    <value>Patient registration</value>
+  </data>
+  <data name="ReservationStatus.Active">
+    <value>Ενεργό</value>
+  </data>
+  <data name="ReservationStatus.Completed">
+    <value>Ολοκληρώθηκε</value>
+  </data>
+  <data name="ReservationStatus.Failed">
+    <value>Απέτυχε</value>
+  </data>
+  <data name="ReservationStatus.Cancelled">
+    <value>Ακυρώθηκε</value>
+  </data>
+  <data name="ProductLoanerType.NonLoaner">
+    <value></value>
+  </data>
+  <data name="ProductLoanerType.GenericLoaner">
+    <value></value>
+  </data>
+  <data name="ProductLoanerType.ExternalLoaner">
+    <value></value>
+  </data>
+  <data name="ProductLoanerType.LoanerTemplate">
+    <value></value>
+  </data>
+  <data name="LoanerSerialNameChangeMode.Always">
+    <value></value>
+  </data>
+  <data name="LoanerSerialNameChangeMode.AtFirst">
+    <value></value>
+  </data>
+  <data name="LoanerSerialNameChangeMode.Never">
+    <value></value>
+  </data>
+  <data name="LoanerAutoCheckOutMode.Off">
+    <value></value>
+  </data>
+  <data name="LoanerAutoCheckOutMode.AfterWash">
+    <value></value>
+  </data>
+  <data name="LoanerAutoCheckOutMode.AfterReturn">
+    <value></value>
+  </data>
+  <data name="UnitStatus.None">
+    <value></value>
+  </data>
+  <data name="UnitStatus.Init">
+    <value>Ξεκίνησε</value>
+  </data>
+  <data name="UnitStatus.Started">
+    <value>Άρχισε</value>
+  </data>
+  <data name="UnitStatus.Rinsed">
+    <value>Rinsed</value>
+  </data>
+  <data name="UnitStatus.Washed">
+    <value>Τα πλυμένα</value>
+  </data>
+  <data name="UnitStatus.Prep">
+    <value>Προετοιμασία</value>
+  </data>
+  <data name="UnitStatus.Packed">
+    <value>Πακετάρισμα</value>
+  </data>
+  <data name="UnitStatus.Stock">
+    <value>Από παρακαταθήκη</value>
+  </data>
+  <data name="UnitStatus.Dispatched">
+    <value>Αποσταλεί</value>
+  </data>
+  <data name="UnitStatus.Opened">
+    <value>Ανοιχτό</value>
+  </data>
+  <data name="UnitStatus.Used">
+    <value>Χρησημοποιημένο</value>
+  </data>
+  <data name="UnitStatus.Precleaned">
+    <value>Pre-cleaned</value>
+  </data>
+  <data name="UnitStatus.Returned">
+    <value>Επιστρεφόμενο</value>
+  </data>
+  <data name="UnitStatus.ErrorReg">
+    <value>Ακυρώθηκε</value>
+  </data>
+  <data name="UnitStatus.Last">
+    <value></value>
+  </data>
+  <data name="EndoscopeUnitStatus.None">
+    <value></value>
+  </data>
+  <data name="EndoscopeUnitStatus.Init">
+    <value>Ξεκίνησε</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Started">
+    <value>Άρχισε</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Rinsed">
+    <value>Rinsed</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Washed">
+    <value>Τα πλυμένα</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Prep">
+    <value>Ξεκίνησε</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Packed">
+    <value>Τα πλυμένα</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Stock">
+    <value>Επαναεπεξεργασμένο</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Dispatched">
+    <value>Αποσταλεί</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Opened">
+    <value>Ανοιχτό</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Used">
+    <value>Χρησημοποιημένο</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Precleaned">
+    <value>Pre-cleaned</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Returned">
+    <value>Επιστρεφόμενο</value>
+  </data>
+  <data name="EndoscopeUnitStatus.ErrorReg">
+    <value>Ακυρώθηκε</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Last">
+    <value></value>
+  </data>
+  <data name="OperationStatus.Planned">
+    <value>Προγραμματισμένη</value>
+  </data>
+  <data name="OperationStatus.Accepted">
+    <value>Αποδεκτό</value>
+  </data>
+  <data name="OperationStatus.Started">
+    <value>Άρχισε</value>
+  </data>
+  <data name="OperationStatus.Done">
+    <value>Έγινε</value>
+  </data>
+  <data name="OperationStatus.Cancelled">
+    <value>Ακυρώθηκε</value>
+  </data>
+  <data name="ObjectStatus.Normal">
+    <value>Κανονικό</value>
+  </data>
+  <data name="ObjectStatus.Dying">
+    <value>Για να παραλειφθεί</value>
+  </data>
+  <data name="ObjectStatus.Dead">
+    <value>Παραλείπω</value>
+  </data>
+  <data name="MachineType.FirstMachineType">
+    <value>Κλίβανος</value>
+  </data>
+  <data name="MachineType.Sterilizer">
+    <value>Κλίβανος</value>
+  </data>
+  <data name="MachineType.Washer">
+    <value>Πλυντήριο</value>
+  </data>
+  <data name="MachineType.PreDis">
+    <value>Προ-απολυμαντής</value>
+  </data>
+  <data name="MachineType.EndoWasher">
+    <value>Πλυντήριο ενδοσκοπίου</value>
+  </data>
+  <data name="MachineType.Incubator">
+    <value>επωαστήρας</value>
+  </data>
+  <data name="MachineType.EndoDryer">
+    <value>Καμπίνα στεγνώματος ενδοσκοπίου</value>
+  </data>
+  <data name="MachineType.LastMachineType">
+    <value>Καμπίνα στεγνώματος ενδοσκοπίου</value>
+  </data>
+</root>

@@ -1,0 +1,34 @@
+parameters:
+- name: listOfImages
+  type: object
+  default:
+  - name: unknown
+
+steps:
+  - task: Docker@2
+    displayName: Login to ACR
+    inputs:
+      command: login
+      containerRegistry: 'crDHSTDocDevRoadrunnerTest'
+
+  - ${{ each Image in parameters.listOfImages }}:
+    - task: Bash@3
+      displayName: Docker pull ${{ Image.name }}
+      inputs:
+        targetType: 'inline'
+        script: docker pull crdhstdocdevroadrunnertest.azurecr.io/${{ Image.name }}:$(resources.pipeline.CI.runID)
+
+    - task: Bash@3
+      displayName: Docker tag ${{ Image.name }} with demo
+      inputs:
+        targetType: 'inline'
+        script: docker tag crdhstdocdevroadrunnertest.azurecr.io/${{ Image.name }}:$(resources.pipeline.CI.runID) crdhstdocdevroadrunnertest.azurecr.io/${{ Image.name }}:demo
+
+    - task: Docker@2
+      displayName: Docker push ${{ Image.name }}:demo
+      inputs:
+        containerRegistry: 'crDHSTDocDevRoadrunnerTest'
+        command: 'push'
+        repository: ${{ Image.name }}
+        tags: |
+            demo

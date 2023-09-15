@@ -1,0 +1,5216 @@
+<?xml version="1.0" encoding="utf-8"?><root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ProductModel.Created">
+    <value></value>
+  </data>
+  <data name="ProductModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="ProductModel.Modified">
+    <value></value>
+  </data>
+  <data name="ProductModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="ProductModel.AltNumber">
+    <value>Nr. Alternativ</value>
+  </data>
+  <data name="ProductModel.AvgOnSiteStoreTime">
+    <value>Timp mediu de stocare pe amplasament</value>
+  </data>
+  <data name="ProductModel.AvgOpDuration">
+    <value>Durata medie operatie</value>
+  </data>
+  <data name="ProductModel.Barcode">
+    <value>Coduri de bare</value>
+  </data>
+  <data name="ProductModel.BillingNum">
+    <value>Nr. facturare</value>
+  </data>
+  <data name="ProductModel.CntpsKeyId">
+    <value>Counting point group</value>
+  </data>
+  <data name="ProductModel.Color">
+    <value>Culoare</value>
+  </data>
+  <data name="ProductModel.Contamination">
+    <value>Risc de contaminare</value>
+  </data>
+  <data name="ProductModel.CuSiteKeyId">
+    <value>Amplasament client</value>
+  </data>
+  <data name="ProductModel.CustKeyId">
+    <value>Client</value>
+  </data>
+  <data name="ProductModel.Difficulty">
+    <value>Complexitate</value>
+  </data>
+  <data name="ProductModel.DifficultyMode">
+    <value>Complexity mode</value>
+  </data>
+  <data name="ProductModel.DispatchRestrict">
+    <value>Expediaza restrictie</value>
+  </data>
+  <data name="ProductModel.Endodryingmethod">
+    <value>Metoda uscare endoscop</value>
+  </data>
+  <data name="ProductModel.EndoWashPrGrKeyId">
+    <value>Program spalare endoscop</value>
+  </data>
+  <data name="ProductModel.ExternalType">
+    <value>Tip extern</value>
+  </data>
+  <data name="ProductModel.ExtLoanerId">
+    <value>External loaner ID</value>
+  </data>
+  <data name="ProductModel.FacKeyId">
+    <value>Fabrica</value>
+  </data>
+  <data name="ProductModel.FactorySterilized">
+    <value>Fabrica Sterilizata</value>
+  </data>
+  <data name="ProductModel.FixedPrice">
+    <value>Pret fixat</value>
+  </data>
+  <data name="ProductModel.FTCoKeyId">
+    <value>Cod circuit rapid</value>
+  </data>
+  <data name="ProductModel.FTPlKeyId">
+    <value>Plan circuit rapid</value>
+  </data>
+  <data name="ProductModel.FTTmpKeyId">
+    <value>Grup circuit rapid</value>
+  </data>
+  <data name="ProductModel.GTIN">
+    <value>GTIN</value>
+  </data>
+  <data name="ProductModel.HandlingTime">
+    <value>Timp manipulare</value>
+  </data>
+  <data name="ProductModel.HaTKeyId">
+    <value>Handling type</value>
+  </data>
+  <data name="ProductModel.InArtKeyId">
+    <value>Identical</value>
+  </data>
+  <data name="ProductModel.ItemKeyId">
+    <value>Articol</value>
+  </data>
+  <data name="ProductModel.KeyId">
+    <value>ID Produs</value>
+  </data>
+  <data name="ProductModel.LMProKeyId">
+    <value>Loaner management profile</value>
+  </data>
+  <data name="ProductModel.Loaner">
+    <value>Credit produs</value>
+  </data>
+  <data name="ProductModel.LoanerType">
+    <value>Loaner type</value>
+  </data>
+  <data name="ProductModel.PackKeyId">
+    <value>Material impachetare</value>
+  </data>
+  <data name="ProductModel.PackOnScreen">
+    <value>Pachet pe ecran</value>
+  </data>
+  <data name="ProductModel.Predis">
+    <value>Pre-Dezinfectare</value>
+  </data>
+  <data name="ProductModel.PricingType">
+    <value>Tip stabilire pret</value>
+  </data>
+  <data name="ProductModel.PriGrKeyId">
+    <value>Grup pret</value>
+  </data>
+  <data name="ProductModel.PrintLabel">
+    <value>Tipareste eticheta  </value>
+  </data>
+  <data name="ProductModel.PrintList">
+    <value>Tipareste lista  </value>
+  </data>
+  <data name="ProductModel.Product">
+    <value>Produs</value>
+  </data>
+  <data name="ProductModel.Remark">
+    <value>Remarca</value>
+  </data>
+  <data name="ProductModel.ReqStockCount">
+    <value>Cerere numarare stoc</value>
+  </data>
+  <data name="ProductModel.ReservationMode">
+    <value>Mod rezervare</value>
+  </data>
+  <data name="ProductModel.Serialmask">
+    <value>Masca numar serial</value>
+  </data>
+  <data name="ProductModel.Status">
+    <value>Statut</value>
+  </data>
+  <data name="ProductModel.SteriPrgrKeyId">
+    <value>Grup program sterilizator</value>
+  </data>
+  <data name="ProductModel.SteriVolume">
+    <value>Volum sterilizator</value>
+  </data>
+  <data name="ProductModel.StockPlacement">
+    <value>Plasament Stoc</value>
+  </data>
+  <data name="ProductModel.StorageType">
+    <value>Storage</value>
+  </data>
+  <data name="ProductModel.TotalCount">
+    <value>Numaratoare totala</value>
+  </data>
+  <data name="ProductModel.Traceability">
+    <value>Trasabilitate</value>
+  </data>
+  <data name="ProductModel.TraceType">
+    <value>Tip urmarire</value>
+  </data>
+  <data name="ProductModel.TRGrpKeyId">
+    <value>Expire time group</value>
+  </data>
+  <data name="ProductModel.Type">
+    <value>Tip</value>
+  </data>
+  <data name="ProductModel.UserField01">
+    <value>Camp utilizator 1</value>
+  </data>
+  <data name="ProductModel.UserField02">
+    <value>Camp utilizator 2</value>
+  </data>
+  <data name="ProductModel.UserField03">
+    <value>Camp utilizator 3</value>
+  </data>
+  <data name="ProductModel.UserField04">
+    <value>Camp utilizator 4</value>
+  </data>
+  <data name="ProductModel.UserField05">
+    <value>Camp utilizator 5</value>
+  </data>
+  <data name="ProductModel.UserField06">
+    <value>Camp utilizator 6</value>
+  </data>
+  <data name="ProductModel.UserField07">
+    <value>Camp utilizator 7</value>
+  </data>
+  <data name="ProductModel.UserField08">
+    <value>Camp utilizator 8</value>
+  </data>
+  <data name="ProductModel.UserField09">
+    <value>Camp utilizator 9</value>
+  </data>
+  <data name="ProductModel.UserField10">
+    <value>Camp utilizator 10</value>
+  </data>
+  <data name="ProductModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="ProductModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="ProductModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="ProductModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="ProductModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="ProductModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="ProductModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="ProductModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="ProductModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="ProductModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="ProductModel.WasherVolume">
+    <value>Volum masina spalat</value>
+  </data>
+  <data name="ProductModel.WashPrgrKeyId">
+    <value>Grup program spalare</value>
+  </data>
+  <data name="ProductModel.Weight">
+    <value>Greutate</value>
+  </data>
+  <data name="ProductModel.WeightDeltaCalcMode">
+    <value>Mod calculare delta greutate</value>
+  </data>
+  <data name="ProductModel.Weightdeltaunit">
+    <value>Unitate delta greutate</value>
+  </data>
+  <data name="ProductModel.WeightDeltaValue">
+    <value>Valoare delta unitate</value>
+  </data>
+  <data name="ProductModel.WeightDisposable">
+    <value>Greutate disponibila</value>
+  </data>
+  <data name="ProductModel.WeightMode">
+    <value>Mod cantarire</value>
+  </data>
+  <data name="ProductModel.WeightNonDisposable">
+    <value>Greutate indisponibila</value>
+  </data>
+  <data name="ProductModel.WeightUsageEnabled">
+    <value>Utilizeaza greutati</value>
+  </data>
+  <data name="ProductModel.WPlanKeyId">
+    <value>Plan cantarire</value>
+  </data>
+  <data name="UserModel.Created">
+    <value></value>
+  </data>
+  <data name="UserModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="UserModel.Modified">
+    <value></value>
+  </data>
+  <data name="UserModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="UserModel.Barcode">
+    <value>Coduri de bare</value>
+  </data>
+  <data name="UserModel.ChangePassword">
+    <value>Trebuie schimbata parola</value>
+  </data>
+  <data name="UserModel.Email">
+    <value>email</value>
+  </data>
+  <data name="UserModel.FacKeyId">
+    <value>Fabrica</value>
+  </data>
+  <data name="UserModel.FailedLogins">
+    <value>Logari esuate</value>
+  </data>
+  <data name="UserModel.Initials">
+    <value>Initiale</value>
+  </data>
+  <data name="UserModel.KeyId">
+    <value>ID Utilizator</value>
+  </data>
+  <data name="UserModel.MobileNumber">
+    <value>Numar mobil</value>
+  </data>
+  <data name="UserModel.Name">
+    <value>Nume</value>
+  </data>
+  <data name="UserModel.Password">
+    <value>Parola</value>
+  </data>
+  <data name="UserModel.PasswordChanged">
+    <value>Ultima modificare parola</value>
+  </data>
+  <data name="UserModel.PasswordHistory">
+    <value>Istoric parola</value>
+  </data>
+  <data name="UserModel.PasswordSettings">
+    <value>Password settings</value>
+  </data>
+  <data name="UserModel.ProfileKeyId">
+    <value>Grup</value>
+  </data>
+  <data name="UserModel.PublicPWSalt">
+    <value>Public</value>
+  </data>
+  <data name="UserModel.Status">
+    <value>Statut</value>
+  </data>
+  <data name="UserModel.UserField01">
+    <value>Camp utilizator 1</value>
+  </data>
+  <data name="UserModel.UserField02">
+    <value>Camp utilizator 2</value>
+  </data>
+  <data name="UserModel.UserField03">
+    <value>Camp utilizator 3</value>
+  </data>
+  <data name="UserModel.UserField04">
+    <value>Camp utilizator 4</value>
+  </data>
+  <data name="UserModel.UserField05">
+    <value>Camp utilizator 5</value>
+  </data>
+  <data name="UserModel.UserField06">
+    <value>Camp utilizator 6</value>
+  </data>
+  <data name="UserModel.UserField07">
+    <value>Camp utilizator 7</value>
+  </data>
+  <data name="UserModel.UserField08">
+    <value>Camp utilizator 8</value>
+  </data>
+  <data name="UserModel.UserField09">
+    <value>Camp utilizator 9</value>
+  </data>
+  <data name="UserModel.UserField10">
+    <value>Camp utilizator 10</value>
+  </data>
+  <data name="UserModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="UserModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="UserModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="UserModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="UserModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="UserModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="UserModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="UserModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="UserModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="UserModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="CountingPointSetModel.Created">
+    <value></value>
+  </data>
+  <data name="CountingPointSetModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="CountingPointSetModel.Modified">
+    <value></value>
+  </data>
+  <data name="CountingPointSetModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="CountingPointSetModel.Id">
+    <value>ID</value>
+  </data>
+  <data name="CountingPointSetModel.KeyId">
+    <value>Counting point group ID</value>
+  </data>
+  <data name="CountingPointSetModel.Name">
+    <value>Nume</value>
+  </data>
+  <data name="CountingPointSetModel.Remark">
+    <value>Remarca</value>
+  </data>
+  <data name="CountingPointSetModel.Status">
+    <value>Statut</value>
+  </data>
+  <data name="CustSiteModel.Created">
+    <value></value>
+  </data>
+  <data name="CustSiteModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="CustSiteModel.Modified">
+    <value></value>
+  </data>
+  <data name="CustSiteModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="CustSiteModel.AvgOnSiteStoreTime">
+    <value>Timp mediu de stocare pe amplasament</value>
+  </data>
+  <data name="CustSiteModel.AvgOpDuration">
+    <value>Durata medie operatie</value>
+  </data>
+  <data name="CustSiteModel.CntpsKeyId">
+    <value>Counting point group</value>
+  </data>
+  <data name="CustSiteModel.DelGLN">
+    <value>Delivery GLN</value>
+  </data>
+  <data name="CustSiteModel.DelPKeyId">
+    <value>Transit product delivery plan</value>
+  </data>
+  <data name="CustSiteModel.Descr">
+    <value>Descriere</value>
+  </data>
+  <data name="CustSiteModel.GLN">
+    <value>Customer site GLN</value>
+  </data>
+  <data name="CustSiteModel.IntPickTime">
+    <value>Ora locala de selectare</value>
+  </data>
+  <data name="CustSiteModel.IntTransTimeArrive">
+    <value>Ora locala sosire transport</value>
+  </data>
+  <data name="CustSiteModel.IntTransTimeDepart">
+    <value>Ora locala plecare transport</value>
+  </data>
+  <data name="CustSiteModel.KeyId">
+    <value>ID Amplasament Client</value>
+  </data>
+  <data name="CustSiteModel.MinOrderLeadTime">
+    <value>Min. ordering time before operation</value>
+  </data>
+  <data name="CustSiteModel.Name">
+    <value>Nume</value>
+  </data>
+  <data name="CustSiteModel.Site">
+    <value>Amplasament client</value>
+  </data>
+  <data name="CustSiteModel.UserField01">
+    <value>Camp utilizator 1</value>
+  </data>
+  <data name="CustSiteModel.UserField02">
+    <value>Camp utilizator 2</value>
+  </data>
+  <data name="CustSiteModel.UserField03">
+    <value>Camp utilizator 3</value>
+  </data>
+  <data name="CustSiteModel.UserField04">
+    <value>Camp utilizator 4</value>
+  </data>
+  <data name="CustSiteModel.UserField05">
+    <value>Camp utilizator 5</value>
+  </data>
+  <data name="CustSiteModel.UserField06">
+    <value>Camp utilizator 6</value>
+  </data>
+  <data name="CustSiteModel.UserField07">
+    <value>Camp utilizator 7</value>
+  </data>
+  <data name="CustSiteModel.UserField08">
+    <value>Camp utilizator 8</value>
+  </data>
+  <data name="CustSiteModel.UserField09">
+    <value>Camp utilizator 9</value>
+  </data>
+  <data name="CustSiteModel.UserField10">
+    <value>Camp utilizator 10</value>
+  </data>
+  <data name="CustSiteModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="CustSiteModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="CustSiteModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="CustSiteModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="CustSiteModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="CustSiteModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="CustSiteModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="CustSiteModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="CustSiteModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="CustSiteModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="CustomerModel.Created">
+    <value></value>
+  </data>
+  <data name="CustomerModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="CustomerModel.Modified">
+    <value></value>
+  </data>
+  <data name="CustomerModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="CustomerModel.Account">
+    <value>Cont</value>
+  </data>
+  <data name="CustomerModel.Address1">
+    <value>Strada</value>
+  </data>
+  <data name="CustomerModel.Address2">
+    <value>Strada (2)</value>
+  </data>
+  <data name="CustomerModel.AllowNonECCContent">
+    <value>Delivery of other goods in emergency case carts</value>
+  </data>
+  <data name="CustomerModel.ArrivedLGrpKeyId">
+    <value>Arrived location group</value>
+  </data>
+  <data name="CustomerModel.AvailablelgrpKeyId">
+    <value>Available location group</value>
+  </data>
+  <data name="CustomerModel.AvgOnSiteStoreTime">
+    <value>Timp mediu de stocare pe amplasament</value>
+  </data>
+  <data name="CustomerModel.AvgOpDuration">
+    <value>Durata medie operatie</value>
+  </data>
+  <data name="CustomerModel.Barcode">
+    <value>Coduri de bare</value>
+  </data>
+  <data name="CustomerModel.CalKeyId">
+    <value>Calendar</value>
+  </data>
+  <data name="CustomerModel.CanOrder">
+    <value>Se pot trimite ordinele</value>
+  </data>
+  <data name="CustomerModel.ChargeOptions">
+    <value>Optiuni factura</value>
+  </data>
+  <data name="CustomerModel.City">
+    <value>Cod postal/Oras</value>
+  </data>
+  <data name="CustomerModel.CntpsKeyId">
+    <value>Counting point group</value>
+  </data>
+  <data name="CustomerModel.Color">
+    <value>Culoare</value>
+  </data>
+  <data name="CustomerModel.Country">
+    <value>Tara</value>
+  </data>
+  <data name="CustomerModel.CuSiteKeyId">
+    <value>Amplasament client</value>
+  </data>
+  <data name="CustomerModel.Customer">
+    <value>Client</value>
+  </data>
+  <data name="CustomerModel.DefStokKeyId">
+    <value>Stoc implicit</value>
+  </data>
+  <data name="CustomerModel.DelAddress1">
+    <value>Del. Strada</value>
+  </data>
+  <data name="CustomerModel.DelAddress2">
+    <value>Del. Strada (2)</value>
+  </data>
+  <data name="CustomerModel.DelCity">
+    <value>Del. Cod/Oras</value>
+  </data>
+  <data name="CustomerModel.DelCountry">
+    <value>Del. Tara</value>
+  </data>
+  <data name="CustomerModel.DelEmail">
+    <value>Del. email</value>
+  </data>
+  <data name="CustomerModel.DelFax">
+    <value>Del. Fax</value>
+  </data>
+  <data name="CustomerModel.DelGln">
+    <value>Delivery GLN</value>
+  </data>
+  <data name="CustomerModel.DeliveryNote">
+    <value>Nota Livrare</value>
+  </data>
+  <data name="CustomerModel.DelPKeyId">
+    <value>Transit product delivery plan</value>
+  </data>
+  <data name="CustomerModel.DelTelephone">
+    <value>Del. Telefon</value>
+  </data>
+  <data name="CustomerModel.Email">
+    <value>email</value>
+  </data>
+  <data name="CustomerModel.EndoSETime">
+    <value>Ora Expirare Endo Std.</value>
+  </data>
+  <data name="CustomerModel.External">
+    <value>Extern</value>
+  </data>
+  <data name="CustomerModel.FacKeyId">
+    <value>Fabrica</value>
+  </data>
+  <data name="CustomerModel.Fax">
+    <value>Fax</value>
+  </data>
+  <data name="CustomerModel.Flags1">
+    <value>Optiuni</value>
+  </data>
+  <data name="CustomerModel.Gln">
+    <value>GLN</value>
+  </data>
+  <data name="CustomerModel.IntPickTime">
+    <value>Ora locala de selectare</value>
+  </data>
+  <data name="CustomerModel.IntTransTimeArrive">
+    <value>Ora locala sosire transport</value>
+  </data>
+  <data name="CustomerModel.IntTransTimeDepart">
+    <value>Ora locala plecare transport</value>
+  </data>
+  <data name="CustomerModel.InvoiceCustKeyId">
+    <value>Client Factura</value>
+  </data>
+  <data name="CustomerModel.InvoiceRebate">
+    <value>Corectie factura (%)</value>
+  </data>
+  <data name="CustomerModel.KeyId">
+    <value>ID Client</value>
+  </data>
+  <data name="CustomerModel.LineRebate">
+    <value>Corectie linie (%)</value>
+  </data>
+  <data name="CustomerModel.MinOrderLeadTime">
+    <value>Min. ordering time before operation</value>
+  </data>
+  <data name="CustomerModel.Name">
+    <value>Nume</value>
+  </data>
+  <data name="CustomerModel.OrderBookingMode">
+    <value>Mod rezervare comanda</value>
+  </data>
+  <data name="CustomerModel.PreDispatchMode">
+    <value>Pre-expediere</value>
+  </data>
+  <data name="CustomerModel.Remark">
+    <value>Remarca</value>
+  </data>
+  <data name="CustomerModel.Reordermode">
+    <value>Re-comanda la returnare</value>
+  </data>
+  <data name="CustomerModel.ShortName">
+    <value>Nume Scurt</value>
+  </data>
+  <data name="CustomerModel.Status">
+    <value>Statut</value>
+  </data>
+  <data name="CustomerModel.StGrKeyId">
+    <value>Grup stoc</value>
+  </data>
+  <data name="CustomerModel.TagsSurvive">
+    <value>Supravietuire marcaj</value>
+  </data>
+  <data name="CustomerModel.Telephone">
+    <value>Telefon</value>
+  </data>
+  <data name="CustomerModel.Traceability">
+    <value>Trasabilitate</value>
+  </data>
+  <data name="CustomerModel.UserField01">
+    <value>Camp utilizator 1</value>
+  </data>
+  <data name="CustomerModel.UserField02">
+    <value>Camp utilizator 2</value>
+  </data>
+  <data name="CustomerModel.UserField03">
+    <value>Camp utilizator 3</value>
+  </data>
+  <data name="CustomerModel.UserField04">
+    <value>Camp utilizator 4</value>
+  </data>
+  <data name="CustomerModel.UserField05">
+    <value>Camp utilizator 5</value>
+  </data>
+  <data name="CustomerModel.UserField06">
+    <value>Camp utilizator 6</value>
+  </data>
+  <data name="CustomerModel.UserField07">
+    <value>Camp utilizator 7</value>
+  </data>
+  <data name="CustomerModel.UserField08">
+    <value>Camp utilizator 8</value>
+  </data>
+  <data name="CustomerModel.UserField09">
+    <value>Camp utilizator 9</value>
+  </data>
+  <data name="CustomerModel.UserField10">
+    <value>Camp utilizator 10</value>
+  </data>
+  <data name="CustomerModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="CustomerModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="CustomerModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="CustomerModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="CustomerModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="CustomerModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="CustomerModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="CustomerModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="CustomerModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="CustomerModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="CustomerModel.WebPassword">
+    <value>Parola Web/FTP</value>
+  </data>
+  <data name="CustomerModel.WebSite">
+    <value>Website</value>
+  </data>
+  <data name="CustomerModel.WebUser">
+    <value>Utilizator Web/FTP</value>
+  </data>
+  <data name="EndoDryingMethodsModel.KeyId">
+    <value>ID Metoda uscare endoscop</value>
+  </data>
+  <data name="EndoDryingMethodsModel.Method">
+    <value>Metoda</value>
+  </data>
+  <data name="EndoDryingMethodsModel.Name">
+    <value>Nume</value>
+  </data>
+  <data name="ProgramGroupModel.Color">
+    <value>Culoare</value>
+  </data>
+  <data name="ProgramGroupModel.KeyId">
+    <value>ID Grup program</value>
+  </data>
+  <data name="ProgramGroupModel.Name">
+    <value>Nume</value>
+  </data>
+  <data name="ProgramGroupModel.Remark">
+    <value>Remarca</value>
+  </data>
+  <data name="ProgramGroupModel.Type">
+    <value>Tip</value>
+  </data>
+  <data name="FactoryModel.Created">
+    <value></value>
+  </data>
+  <data name="FactoryModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="FactoryModel.Modified">
+    <value></value>
+  </data>
+  <data name="FactoryModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="FactoryModel.Address1">
+    <value>Strada</value>
+  </data>
+  <data name="FactoryModel.Address2">
+    <value>Strada (2)</value>
+  </data>
+  <data name="FactoryModel.AllowSkipCleanAndTest">
+    <value>Allow skip clean and test</value>
+  </data>
+  <data name="FactoryModel.AllowSkipDispatch">
+    <value>Allow skip dispatch</value>
+  </data>
+  <data name="FactoryModel.AllowSkipReturn">
+    <value>Allow skip return</value>
+  </data>
+  <data name="FactoryModel.AutoPlayVideos">
+    <value>Autoplay videos</value>
+  </data>
+  <data name="FactoryModel.Bioid">
+    <value>IC BIO</value>
+  </data>
+  <data name="FactoryModel.CalKeyId">
+    <value>Calendar</value>
+  </data>
+  <data name="FactoryModel.ChargeUsage">
+    <value>Utilizare sarja completa pe returnare cu eroare</value>
+  </data>
+  <data name="FactoryModel.City">
+    <value>Cod postal/Oras</value>
+  </data>
+  <data name="FactoryModel.CntpsKeyId">
+    <value>Counting point group</value>
+  </data>
+  <data name="FactoryModel.Country">
+    <value>Tara</value>
+  </data>
+  <data name="FactoryModel.CrossRefVendorKeyId">
+    <value>Furnizor preferat</value>
+  </data>
+  <data name="FactoryModel.CustNameDisplay">
+    <value>Utilizeaza numele scurt clienti</value>
+  </data>
+  <data name="FactoryModel.CustOrdAcceptMode">
+    <value>Customer order acceptance handling</value>
+  </data>
+  <data name="FactoryModel.DecItemStockOnPack">
+    <value>Micsoareaza stoc articol pe pachet</value>
+  </data>
+  <data name="FactoryModel.DeductItemsFromStock">
+    <value>Deduct items from stock in Operation</value>
+  </data>
+  <data name="FactoryModel.DefAdminLocaKeyId">
+    <value>Default Admin location</value>
+  </data>
+  <data name="FactoryModel.DefAvgOnSiteStoreTime">
+    <value>Medie Implicita de timp stocare pe amplasament</value>
+  </data>
+  <data name="FactoryModel.DefAvgOpDuration">
+    <value>Durata medie operatie implicita</value>
+  </data>
+  <data name="FactoryModel.DefDispatchRestrict">
+    <value>Restrictie expediere implicita</value>
+  </data>
+  <data name="FactoryModel.DefItemShelvingTime">
+    <value>Timp de raft articol implicit</value>
+  </data>
+  <data name="FactoryModel.DefItemStokKeyId">
+    <value>Stoc articol implicit</value>
+  </data>
+  <data name="FactoryModel.DefMESPickingCapacity">
+    <value>Hourly picking capacity</value>
+  </data>
+  <data name="FactoryModel.DefMESResvStokKeyId">
+    <value>Automated reserved stock</value>
+  </data>
+  <data name="FactoryModel.DefMESStokKeyId">
+    <value>Automated picking stock</value>
+  </data>
+  <data name="FactoryModel.DefOrdSuppStokKeyId">
+    <value>Default customer order stock</value>
+  </data>
+  <data name="FactoryModel.DefProdTraceType">
+    <value>Tip urmarire produs implicit</value>
+  </data>
+  <data name="FactoryModel.DefProductStokKeyId">
+    <value>Stoc produs implicit</value>
+  </data>
+  <data name="FactoryModel.DefSerialDispRestrict">
+    <value>Restrictie de expediere Serial implicita</value>
+  </data>
+  <data name="FactoryModel.DefSuppCalKeyId">
+    <value>Calendar Furnizor implicit</value>
+  </data>
+  <data name="FactoryModel.DefSuppOrderDelTime">
+    <value>Timp livrare comanda Furnizor implicit</value>
+  </data>
+  <data name="FactoryModel.DefSuppOrderHandlTime">
+    <value>Timp manipulare comanda Furnizor implicit</value>
+  </data>
+  <data name="FactoryModel.DefSuppOrderRampTime">
+    <value>Timp rampa comanda Furnizor implicit</value>
+  </data>
+  <data name="FactoryModel.DefSuppOrderTransTime">
+    <value>Timp transport comanda Furnizor implicit</value>
+  </data>
+  <data name="FactoryModel.DefWPlanKeyId">
+    <value>Plan Cantarire implicit</value>
+  </data>
+  <data name="FactoryModel.DelAddress1">
+    <value>Del. Strada</value>
+  </data>
+  <data name="FactoryModel.DelAddress2">
+    <value>Del. Strada (2)</value>
+  </data>
+  <data name="FactoryModel.DelCity">
+    <value>Del. Cod/Oras</value>
+  </data>
+  <data name="FactoryModel.DelCountry">
+    <value>Del. Tara</value>
+  </data>
+  <data name="FactoryModel.DelEmail">
+    <value>Del. email</value>
+  </data>
+  <data name="FactoryModel.DelFax">
+    <value>Del. Fax</value>
+  </data>
+  <data name="FactoryModel.DelPKeyId">
+    <value>Transit product delivery plan</value>
+  </data>
+  <data name="FactoryModel.DeltaScanMode">
+    <value>Mod scanare Delta</value>
+  </data>
+  <data name="FactoryModel.DelTelephone">
+    <value>Del. Telefon</value>
+  </data>
+  <data name="FactoryModel.DropItemSuppOpOrders">
+    <value>Arunca Furnizor pe comenzi OP</value>
+  </data>
+  <data name="FactoryModel.Email">
+    <value>email</value>
+  </data>
+  <data name="FactoryModel.EndoCycleToCab">
+    <value>Ciclu pemtru timp cabinet</value>
+  </data>
+  <data name="FactoryModel.EndoDefCabKeyId">
+    <value>Cabinet implicit</value>
+  </data>
+  <data name="FactoryModel.EndoDefFSPlKeyId">
+    <value>Plasament stoc implicit</value>
+  </data>
+  <data name="FactoryModel.Endodryingmode">
+    <value>Manual drying</value>
+  </data>
+  <data name="FactoryModel.EndoHaTKeyId">
+    <value>Handling type</value>
+  </data>
+  <data name="FactoryModel.EndoSETime">
+    <value>Ora Expirare Endo Std.</value>
+  </data>
+  <data name="FactoryModel.EndoShelfDelay">
+    <value>Timp intarziere raft endo</value>
+  </data>
+  <data name="FactoryModel.EndoShelfRelTime">
+    <value>Timp rel. intarziere raft endo</value>
+  </data>
+  <data name="FactoryModel.EquipmentUsage">
+    <value>Utilizeaza echipament</value>
+  </data>
+  <data name="FactoryModel.Expiretype">
+    <value>Tip expirare</value>
+  </data>
+  <data name="FactoryModel.Facrestrictmode">
+    <value>Mod restrictionare fabrica</value>
+  </data>
+  <data name="FactoryModel.Factory">
+    <value>Fabrica</value>
+  </data>
+  <data name="FactoryModel.Fax">
+    <value>Fax</value>
+  </data>
+  <data name="FactoryModel.FixedPrices">
+    <value>Utilizeaza preturile fixate</value>
+  </data>
+  <data name="FactoryModel.Flags1">
+    <value>Optiuni 1</value>
+  </data>
+  <data name="FactoryModel.Flags2">
+    <value>Optiuni 2</value>
+  </data>
+  <data name="FactoryModel.FTMaxCodeDuration">
+    <value>Expirare cod circuit rapid</value>
+  </data>
+  <data name="FactoryModel.FTMaxPlanDuration">
+    <value>Expirare plan circuit rapid</value>
+  </data>
+  <data name="FactoryModel.FTPlKeyId">
+    <value>Plan circuit rapid</value>
+  </data>
+  <data name="FactoryModel.GuestprofKeyId">
+    <value>Profil utilizator ospete</value>
+  </data>
+  <data name="FactoryModel.HourCosts">
+    <value>Costuri ora</value>
+  </data>
+  <data name="FactoryModel.IncItemStockOnPack">
+    <value>Mareste stocul articolului pe pachet</value>
+  </data>
+  <data name="FactoryModel.IndicApproveLocaKeyId">
+    <value>Locatie Indicator Aprobat</value>
+  </data>
+  <data name="FactoryModel.IndicDisappLocaKeyId">
+    <value>Locatie Indicator Respins</value>
+  </data>
+  <data name="FactoryModel.IndicPendingLocaKeyId">
+    <value>Locatie indicator in Asteptare</value>
+  </data>
+  <data name="FactoryModel.InvoiceLocktime">
+    <value>Data blocare factura</value>
+  </data>
+  <data name="FactoryModel.ItemAltPriceMode">
+    <value>Mod stabilire pret articol alt.</value>
+  </data>
+  <data name="FactoryModel.ItemDispAltPriceMode">
+    <value>Mod de stabilire pret articol disponibil alternativ</value>
+  </data>
+  <data name="FactoryModel.ItemDispPriceMode">
+    <value>Mod evaluare pret artocol disponibil</value>
+  </data>
+  <data name="FactoryModel.ItemPriceMode">
+    <value>Mod stabilire pret articol</value>
+  </data>
+  <data name="FactoryModel.KeyId">
+    <value>ID Fabrica</value>
+  </data>
+  <data name="FactoryModel.LoadnumberUsage">
+    <value>Utilizare numar incarcatura</value>
+  </data>
+  <data name="FactoryModel.MinOrderLeadTime">
+    <value>Min. ordering time before operation</value>
+  </data>
+  <data name="FactoryModel.MinOrderLeadTimeMode">
+    <value>Time mode</value>
+  </data>
+  <data name="FactoryModel.MoneyRounding">
+    <value>Rotunjire</value>
+  </data>
+  <data name="FactoryModel.Name">
+    <value>Nume</value>
+  </data>
+  <data name="FactoryModel.OrderBookingMode">
+    <value>Mod rezervare comanda</value>
+  </data>
+  <data name="FactoryModel.PreDispatch">
+    <value>Pre-expediere</value>
+  </data>
+  <data name="FactoryModel.RefNo">
+    <value>Nr. ref.</value>
+  </data>
+  <data name="FactoryModel.Remark">
+    <value>Remarca</value>
+  </data>
+  <data name="FactoryModel.RepairError">
+    <value>Eroare reparatie</value>
+  </data>
+  <data name="FactoryModel.Repairmode">
+    <value>Mod reparatie</value>
+  </data>
+  <data name="FactoryModel.SBFTAllStocks">
+    <value>All stocks</value>
+  </data>
+  <data name="FactoryModel.SBFTBlockStartedOp">
+    <value>Exclude started operations</value>
+  </data>
+  <data name="FactoryModel.SBFTDispatchedLGrpKeyId">
+    <value>Limit locations for dispatched units</value>
+  </data>
+  <data name="FactoryModel.SBFTEscFTCoKeyId">
+    <value>2nd Fast Track code</value>
+  </data>
+  <data name="FactoryModel.SBFTEscTime">
+    <value>Assign 2nd FT code after</value>
+  </data>
+  <data name="FactoryModel.SBFTFTCoKeyId">
+    <value>1st Fast Track code</value>
+  </data>
+  <data name="FactoryModel.SBFTMaxDelTime">
+    <value>Max time</value>
+  </data>
+  <data name="FactoryModel.SBFTMinDelTime">
+    <value>Min. time</value>
+  </data>
+  <data name="FactoryModel.SBFTMode">
+    <value>Enable Stock based fast tracking</value>
+  </data>
+  <data name="FactoryModel.SBFTOrdersFilter">
+    <value>Include</value>
+  </data>
+  <data name="FactoryModel.SealCount">
+    <value>Numar de sigilari</value>
+  </data>
+  <data name="FactoryModel.SealPrint">
+    <value>Imprima sigilarea</value>
+  </data>
+  <data name="FactoryModel.Setweightusage">
+    <value>Utilizare greutate</value>
+  </data>
+  <data name="FactoryModel.Shortname">
+    <value>Nume scurt</value>
+  </data>
+  <data name="FactoryModel.Status">
+    <value>Statut</value>
+  </data>
+  <data name="FactoryModel.StgrKeyId">
+    <value>Grup stoc</value>
+  </data>
+  <data name="FactoryModel.SUAMatchConditions">
+    <value>Match conditions</value>
+  </data>
+  <data name="FactoryModel.SUAMaxUserComplexity">
+    <value>Max. User complexity</value>
+  </data>
+  <data name="FactoryModel.SUAMinProdComplexity">
+    <value>Min. Product complexity</value>
+  </data>
+  <data name="FactoryModel.SUAReqProdType">
+    <value>Required for products</value>
+  </data>
+  <data name="FactoryModel.Telephone">
+    <value>Telefon</value>
+  </data>
+  <data name="FactoryModel.TraceStokKeyId">
+    <value>Stoc urmaribil</value>
+  </data>
+  <data name="FactoryModel.TransitStokKeyId">
+    <value>Stoc de tranzit</value>
+  </data>
+  <data name="FactoryModel.TRGrpKeyId">
+    <value>Expire time group</value>
+  </data>
+  <data name="FactoryModel.Type">
+    <value>Tip</value>
+  </data>
+  <data name="FactoryModel.UserField01">
+    <value>Camp utilizator 1</value>
+  </data>
+  <data name="FactoryModel.UserField02">
+    <value>Camp utilizator 2</value>
+  </data>
+  <data name="FactoryModel.UserField03">
+    <value>Camp utilizator 3</value>
+  </data>
+  <data name="FactoryModel.UserField04">
+    <value>Camp utilizator 4</value>
+  </data>
+  <data name="FactoryModel.UserField05">
+    <value>Camp utilizator 5</value>
+  </data>
+  <data name="FactoryModel.UserField06">
+    <value>Camp utilizator 6</value>
+  </data>
+  <data name="FactoryModel.UserField07">
+    <value>Camp utilizator 7</value>
+  </data>
+  <data name="FactoryModel.UserField08">
+    <value>Camp utilizator 8</value>
+  </data>
+  <data name="FactoryModel.UserField09">
+    <value>Camp utilizator 9</value>
+  </data>
+  <data name="FactoryModel.UserField10">
+    <value>Camp utilizator 10</value>
+  </data>
+  <data name="FactoryModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="FactoryModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="FactoryModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="FactoryModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="FactoryModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="FactoryModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="FactoryModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="FactoryModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="FactoryModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="FactoryModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="FactoryModel.UIStartMode">
+    <value>Scaner UI mod start</value>
+  </data>
+  <data name="FactoryModel.UseColorFields">
+    <value>Utilizeaza campurile color</value>
+  </data>
+  <data name="FactoryModel.Usedispstockonpack">
+    <value>Utilizeaza stocul disponibil la impachetare</value>
+  </data>
+  <data name="FactoryModel.UseNTLogin">
+    <value>Utilizeaza logare NT</value>
+  </data>
+  <data name="FactoryModel.Webitemlocatorcolumns">
+    <value>Item locator display fields</value>
+  </data>
+  <data name="FactoryModel.WebLocaKeyId">
+    <value>Operation location</value>
+  </data>
+  <data name="FactoryModel.WebOrderInitStatus">
+    <value>Initial state for orders received from Web</value>
+  </data>
+  <data name="FactoryModel.Webprodlocatorcolumns">
+    <value>Product locator display fields</value>
+  </data>
+  <data name="FactoryModel.Website">
+    <value>Website</value>
+  </data>
+  <data name="FastTrackCodeModel.Created">
+    <value></value>
+  </data>
+  <data name="FastTrackCodeModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="FastTrackCodeModel.Modified">
+    <value></value>
+  </data>
+  <data name="FastTrackCodeModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="FastTrackCodeModel.Code">
+    <value>Cod</value>
+  </data>
+  <data name="FastTrackCodeModel.Descr">
+    <value>Descriere</value>
+  </data>
+  <data name="FastTrackCodeModel.DisplayMode">
+    <value>Afiseaza mod</value>
+  </data>
+  <data name="FastTrackCodeModel.EndLoGrpKeyId">
+    <value>Final grup locatie</value>
+  </data>
+  <data name="FastTrackCodeModel.EndStatus">
+    <value>Statut final</value>
+  </data>
+  <data name="FastTrackCodeModel.EndTime">
+    <value>Timp final</value>
+  </data>
+  <data name="FastTrackCodeModel.InvoiceItemKeyId">
+    <value>Articol factura</value>
+  </data>
+  <data name="FastTrackCodeModel.InvoicePrice">
+    <value>Pret factura</value>
+  </data>
+  <data name="FastTrackCodeModel.InvoiceTo">
+    <value>Factura pentru</value>
+  </data>
+  <data name="FastTrackCodeModel.InvoiceWithUnit">
+    <value>Factura cu unitate</value>
+  </data>
+  <data name="FastTrackCodeModel.KeyId">
+    <value>ID Cod circuit rapid</value>
+  </data>
+  <data name="FastTrackCodeModel.Name">
+    <value>Nume</value>
+  </data>
+  <data name="FastTrackCodeModel.Priority">
+    <value>Prioritate</value>
+  </data>
+  <data name="FastTrackCodeModel.StartLoGrpKeyId">
+    <value>Grup locatie start</value>
+  </data>
+  <data name="FastTrackCodeModel.StartStatus">
+    <value>Statut start</value>
+  </data>
+  <data name="FastTrackCodeModel.StartTime">
+    <value>Ora start</value>
+  </data>
+  <data name="FastTrackCodeModel.Status">
+    <value>Statut</value>
+  </data>
+  <data name="FastTrackCodeModel.Type">
+    <value>Tip</value>
+  </data>
+  <data name="FastTrackCodeModel.Weekdays">
+    <value>Weekdays</value>
+  </data>
+  <data name="FastTrackPlanModel.Created">
+    <value></value>
+  </data>
+  <data name="FastTrackPlanModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="FastTrackPlanModel.Modified">
+    <value></value>
+  </data>
+  <data name="FastTrackPlanModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="FastTrackPlanModel.Descr">
+    <value>Descriere</value>
+  </data>
+  <data name="FastTrackPlanModel.DisplayMode">
+    <value>Afiseaza mod</value>
+  </data>
+  <data name="FastTrackPlanModel.InvoiceItemKeyId">
+    <value>Articol factura</value>
+  </data>
+  <data name="FastTrackPlanModel.InvoicePrice">
+    <value>Pret</value>
+  </data>
+  <data name="FastTrackPlanModel.InvoiceTo">
+    <value>Factura pentru</value>
+  </data>
+  <data name="FastTrackPlanModel.InvoiceWithUnit">
+    <value>Factura cu unitate</value>
+  </data>
+  <data name="FastTrackPlanModel.KeyId">
+    <value>ID Plan circuit rapid</value>
+  </data>
+  <data name="FastTrackPlanModel.Name">
+    <value>Nume</value>
+  </data>
+  <data name="FastTrackPlanModel.Plan">
+    <value>Plan</value>
+  </data>
+  <data name="FastTrackPlanModel.Priority">
+    <value>Prioritate</value>
+  </data>
+  <data name="FastTrackPlanModel.Status">
+    <value>Statut</value>
+  </data>
+  <data name="FastTrackPlanModel.WorkhourMode">
+    <value>Mod ora lucru</value>
+  </data>
+  <data name="FastTrackTemplateModel.Created">
+    <value></value>
+  </data>
+  <data name="FastTrackTemplateModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="FastTrackTemplateModel.Modified">
+    <value></value>
+  </data>
+  <data name="FastTrackTemplateModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="FastTrackTemplateModel.Descr">
+    <value>Descriere</value>
+  </data>
+  <data name="FastTrackTemplateModel.KeyId">
+    <value>ID Sablon circuit rapid</value>
+  </data>
+  <data name="FastTrackTemplateModel.Name">
+    <value>Nume</value>
+  </data>
+  <data name="FastTrackTemplateModel.Template">
+    <value>Sablon</value>
+  </data>
+  <data name="HandlingTypesModel.Created">
+    <value></value>
+  </data>
+  <data name="HandlingTypesModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="HandlingTypesModel.Modified">
+    <value></value>
+  </data>
+  <data name="HandlingTypesModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="HandlingTypesModel.Id">
+    <value>Handling type</value>
+  </data>
+  <data name="HandlingTypesModel.KeyId">
+    <value>Handling type ID</value>
+  </data>
+  <data name="HandlingTypesModel.Name">
+    <value>Nume</value>
+  </data>
+  <data name="HandlingTypesModel.Remark">
+    <value>Remarks</value>
+  </data>
+  <data name="IdenticalArticleGroupModel.Forcealtarticles">
+    <value>Force all articles</value>
+  </data>
+  <data name="IdenticalArticleGroupModel.KeyId">
+    <value>Identical article group ID</value>
+  </data>
+  <data name="IdenticalArticleGroupModel.Name">
+    <value>Common name</value>
+  </data>
+  <data name="IdenticalArticleGroupModel.Type">
+    <value>Tip</value>
+  </data>
+  <data name="ItemModel.Created">
+    <value></value>
+  </data>
+  <data name="ItemModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="ItemModel.Modified">
+    <value></value>
+  </data>
+  <data name="ItemModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="ItemModel.Barcode">
+    <value>Coduri de bare</value>
+  </data>
+  <data name="ItemModel.CatKeyId">
+    <value>ID Catalog</value>
+  </data>
+  <data name="ItemModel.Color">
+    <value>Culoare</value>
+  </data>
+  <data name="ItemModel.Composite">
+    <value>Compozit</value>
+  </data>
+  <data name="ItemModel.Contamination">
+    <value>Probabilitate de contaminare</value>
+  </data>
+  <data name="ItemModel.Costprice">
+    <value>Pret cost</value>
+  </data>
+  <data name="ItemModel.Difficulty">
+    <value>Complexitate</value>
+  </data>
+  <data name="ItemModel.DifficultyMode">
+    <value>Complexity mode</value>
+  </data>
+  <data name="ItemModel.DiscardLevel">
+    <value>Discard level</value>
+  </data>
+  <data name="ItemModel.Disposable">
+    <value>Disponibil</value>
+  </data>
+  <data name="ItemModel.DispPrice">
+    <value>Pret disponibil</value>
+  </data>
+  <data name="ItemModel.ExternalText">
+    <value>Text extern</value>
+  </data>
+  <data name="ItemModel.ExternalType">
+    <value>Tip extern</value>
+  </data>
+  <data name="ItemModel.FacKeyId">
+    <value>Fabrica</value>
+  </data>
+  <data name="ItemModel.HospitalDescription">
+    <value>Nume localitate</value>
+  </data>
+  <data name="ItemModel.InArtKeyId">
+    <value>Identical</value>
+  </data>
+  <data name="ItemModel.Info">
+    <value>Remarca</value>
+  </data>
+  <data name="ItemModel.Item">
+    <value>Articol</value>
+  </data>
+  <data name="ItemModel.ItGrpKeyId">
+    <value>Grup</value>
+  </data>
+  <data name="ItemModel.ItspcKeyId">
+    <value>Specialitate</value>
+  </data>
+  <data name="ItemModel.KeyId">
+    <value>ID Articol</value>
+  </data>
+  <data name="ItemModel.Length">
+    <value>Lungime</value>
+  </data>
+  <data name="ItemModel.Lifespan">
+    <value>Durata de viata</value>
+  </data>
+  <data name="ItemModel.ManufactorNo">
+    <value>Nr. Prod.</value>
+  </data>
+  <data name="ItemModel.ManuKeyId">
+    <value>Producator</value>
+  </data>
+  <data name="ItemModel.Material">
+    <value>Material</value>
+  </data>
+  <data name="ItemModel.MaterialsNum">
+    <value>Nr. Perech.</value>
+  </data>
+  <data name="ItemModel.MaxPressure">
+    <value>Presiune max.</value>
+  </data>
+  <data name="ItemModel.MaxTemp">
+    <value>Temp. max.</value>
+  </data>
+  <data name="ItemModel.OrderLeadTime">
+    <value>Order lead time</value>
+  </data>
+  <data name="ItemModel.OrderMinCount">
+    <value>Numaratoare min. comanda </value>
+  </data>
+  <data name="ItemModel.OrderStdCount">
+    <value>Dimensiune pachet comanda</value>
+  </data>
+  <data name="ItemModel.OrderstduomKeyId">
+    <value>Masura pachet comanda</value>
+  </data>
+  <data name="ItemModel.OtherMinCount">
+    <value>Numaratoare min comanda int.</value>
+  </data>
+  <data name="ItemModel.OtherUnitCount">
+    <value>Dimensiune pachet comanda int.</value>
+  </data>
+  <data name="ItemModel.OtheruomKeyId">
+    <value>Masura pachet comanda int.</value>
+  </data>
+  <data name="ItemModel.RepairVendorKeyId">
+    <value>Furnizor reparatie</value>
+  </data>
+  <data name="ItemModel.ReservationMode">
+    <value>Mod rezervare</value>
+  </data>
+  <data name="ItemModel.SalesMinCount">
+    <value>Numaratoare min. vanzari</value>
+  </data>
+  <data name="ItemModel.SalesPrCode">
+    <value>Cod Pret Vanzare</value>
+  </data>
+  <data name="ItemModel.SalesPrice">
+    <value>Pret Vanzare</value>
+  </data>
+  <data name="ItemModel.SalesRestriction">
+    <value>Sales restriction</value>
+  </data>
+  <data name="ItemModel.SalesUnitCount">
+    <value>Dimensiune pachet vanzari</value>
+  </data>
+  <data name="ItemModel.SalesuomKeyId">
+    <value>Masura pachet vanzari</value>
+  </data>
+  <data name="ItemModel.Serialmask">
+    <value>Masca numar serial</value>
+  </data>
+  <data name="ItemModel.ShelvingTime">
+    <value>Timp de depozitare</value>
+  </data>
+  <data name="ItemModel.SplitCount">
+    <value>Numarul de marcaje pentru spalare</value>
+  </data>
+  <data name="ItemModel.Status">
+    <value>Statut</value>
+  </data>
+  <data name="ItemModel.SterilizationType">
+    <value>Tip sterilizare</value>
+  </data>
+  <data name="ItemModel.SuppKeyId">
+    <value>Furnizor</value>
+  </data>
+  <data name="ItemModel.SupplierNo">
+    <value>Nr. Furnizor</value>
+  </data>
+  <data name="ItemModel.TagTKeyId">
+    <value>Tip Marcaj</value>
+  </data>
+  <data name="ItemModel.Text">
+    <value>Nume</value>
+  </data>
+  <data name="ItemModel.Tip">
+    <value>Sfat</value>
+  </data>
+  <data name="ItemModel.Totalcostprice">
+    <value>Total cost price</value>
+  </data>
+  <data name="ItemModel.Totalsalesprice">
+    <value>Total sales price</value>
+  </data>
+  <data name="ItemModel.Totalusageprice">
+    <value>Total usage price</value>
+  </data>
+  <data name="ItemModel.TraceType">
+    <value>Urmarire prin</value>
+  </data>
+  <data name="ItemModel.Type">
+    <value>Tip</value>
+  </data>
+  <data name="ItemModel.UserField01">
+    <value>Camp utilizator 1</value>
+  </data>
+  <data name="ItemModel.UserField02">
+    <value>Camp utilizator 2</value>
+  </data>
+  <data name="ItemModel.UserField03">
+    <value>Camp utilizator 3</value>
+  </data>
+  <data name="ItemModel.UserField04">
+    <value>Camp utilizator 4</value>
+  </data>
+  <data name="ItemModel.UserField05">
+    <value>Camp utilizator 5</value>
+  </data>
+  <data name="ItemModel.UserField06">
+    <value>Camp utilizator 6</value>
+  </data>
+  <data name="ItemModel.UserField07">
+    <value>Camp utilizator 7</value>
+  </data>
+  <data name="ItemModel.UserField08">
+    <value>Camp utilizator 8</value>
+  </data>
+  <data name="ItemModel.UserField09">
+    <value>Camp utilizator 9</value>
+  </data>
+  <data name="ItemModel.UserField10">
+    <value>Camp utilizator 10</value>
+  </data>
+  <data name="ItemModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="ItemModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="ItemModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="ItemModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="ItemModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="ItemModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="ItemModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="ItemModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="ItemModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="ItemModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="ItemModel.Unitcount">
+    <value>Numaratoare unitate</value>
+  </data>
+  <data name="ItemModel.UomKeyId">
+    <value>Masura unitate</value>
+  </data>
+  <data name="ItemModel.UsagePrCode">
+    <value>Cod Pret Utilizare</value>
+  </data>
+  <data name="ItemModel.UsagePrice">
+    <value>Pret Utilizare</value>
+  </data>
+  <data name="ItemModel.Warrenty">
+    <value>Garantie</value>
+  </data>
+  <data name="ItemModel.Weight">
+    <value>Greutate</value>
+  </data>
+  <data name="ItemModel.WeightMode">
+    <value>Mod cantarire</value>
+  </data>
+  <data name="ItemModel.Width">
+    <value>Latime</value>
+  </data>
+  <data name="PackingModel.Created">
+    <value></value>
+  </data>
+  <data name="PackingModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="PackingModel.Modified">
+    <value></value>
+  </data>
+  <data name="PackingModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="PackingModel.Color">
+    <value>Culoare</value>
+  </data>
+  <data name="PackingModel.Description">
+    <value>Descriere</value>
+  </data>
+  <data name="PackingModel.FacKeyId">
+    <value>Fabrica</value>
+  </data>
+  <data name="PackingModel.FixedTime">
+    <value>Timp fixat</value>
+  </data>
+  <data name="PackingModel.ItemKeyId">
+    <value>Articol</value>
+  </data>
+  <data name="PackingModel.KeyId">
+    <value>ID Impachetare</value>
+  </data>
+  <data name="PackingModel.Packing">
+    <value>Impachetare</value>
+  </data>
+  <data name="PackingModel.RelativeTime">
+    <value>Timp relativ</value>
+  </data>
+  <data name="PackingModel.SealCount">
+    <value>Numar de sigilari</value>
+  </data>
+  <data name="PackingModel.SealPrint">
+    <value>Imprima sigilarea</value>
+  </data>
+  <data name="PackingModel.SeprgKeyId">
+    <value>Program sigilare</value>
+  </data>
+  <data name="PackingModel.ShelfLife">
+    <value>Termen de valabilitate</value>
+  </data>
+  <data name="PackingModel.Status">
+    <value>Statut</value>
+  </data>
+  <data name="PackingModel.TagTKeyId">
+    <value>Tip Marcaj</value>
+  </data>
+  <data name="PackingModel.Tracetype">
+    <value>Include in pack list</value>
+  </data>
+  <data name="PackingModel.UsedFor">
+    <value>Uitilizat pentru</value>
+  </data>
+  <data name="PackingModel.Volume">
+    <value>Volum</value>
+  </data>
+  <data name="PackingModel.Weight">
+    <value>Greutate</value>
+  </data>
+  <data name="PackingModel.WeightDisposable">
+    <value>Greutate disponibila</value>
+  </data>
+  <data name="PackingModel.WeightMode">
+    <value>Mod cantarire</value>
+  </data>
+  <data name="PackingModel.WeightNonDisposable">
+    <value>Greutate indisponibila</value>
+  </data>
+  <data name="PriceGroupModel.Created">
+    <value></value>
+  </data>
+  <data name="PriceGroupModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="PriceGroupModel.Modified">
+    <value></value>
+  </data>
+  <data name="PriceGroupModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="PriceGroupModel.Descr">
+    <value>Remarca</value>
+  </data>
+  <data name="PriceGroupModel.KeyId">
+    <value>ID Grup pret</value>
+  </data>
+  <data name="PriceGroupModel.Name">
+    <value>Nume</value>
+  </data>
+  <data name="PriceGroupModel.Price">
+    <value>Pret</value>
+  </data>
+  <data name="PriceGroupModel.PriceGroup">
+    <value>Grup pret</value>
+  </data>
+  <data name="TimeRuleGroupModel.Created">
+    <value></value>
+  </data>
+  <data name="TimeRuleGroupModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="TimeRuleGroupModel.Modified">
+    <value></value>
+  </data>
+  <data name="TimeRuleGroupModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="TimeRuleGroupModel.FacKeyId">
+    <value>Fabrica</value>
+  </data>
+  <data name="TimeRuleGroupModel.Id">
+    <value>ID</value>
+  </data>
+  <data name="TimeRuleGroupModel.KeyId">
+    <value>Expire time group ID</value>
+  </data>
+  <data name="TimeRuleGroupModel.Name">
+    <value>Nume</value>
+  </data>
+  <data name="TimeRuleGroupModel.Remark">
+    <value>Remarks</value>
+  </data>
+  <data name="WeightPlanModel.Created">
+    <value></value>
+  </data>
+  <data name="WeightPlanModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="WeightPlanModel.Modified">
+    <value></value>
+  </data>
+  <data name="WeightPlanModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="WeightPlanModel.Descr">
+    <value>Descriere</value>
+  </data>
+  <data name="WeightPlanModel.KeyId">
+    <value>ID Plan cantarire</value>
+  </data>
+  <data name="WeightPlanModel.Name">
+    <value>Nume</value>
+  </data>
+  <data name="WeightPlanModel.WeightPlan">
+    <value>Plan cantarire</value>
+  </data>
+  <data name="ProfileModel.Created">
+    <value></value>
+  </data>
+  <data name="ProfileModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="ProfileModel.Modified">
+    <value></value>
+  </data>
+  <data name="ProfileModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="ProfileModel.AncestorKeyId">
+    <value>Grup utilizator</value>
+  </data>
+  <data name="ProfileModel.KeyId">
+    <value>ID Profil</value>
+  </data>
+  <data name="ProfileModel.Name">
+    <value>Nume</value>
+  </data>
+  <data name="ProfileModel.Profile">
+    <value>Profil</value>
+  </data>
+  <data name="ProfileModel.Type">
+    <value>Tip</value>
+  </data>
+  <data name="ProfileModel.UpdateRequired">
+    <value>Update required</value>
+  </data>
+  <data name="CalendarModel.Created">
+    <value></value>
+  </data>
+  <data name="CalendarModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="CalendarModel.Modified">
+    <value></value>
+  </data>
+  <data name="CalendarModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="CalendarModel.KeyId">
+    <value>ID Calendar</value>
+  </data>
+  <data name="CalendarModel.Name">
+    <value>Nume</value>
+  </data>
+  <data name="CalendarModel.ParentCalKeyId">
+    <value>Sursa</value>
+  </data>
+  <data name="StocksModel.AllowItems">
+    <value>Articole permise</value>
+  </data>
+  <data name="StocksModel.AllowNegCount">
+    <value>Numarare neg. stoc permisa</value>
+  </data>
+  <data name="StocksModel.AllowProducts">
+    <value>Produse permise</value>
+  </data>
+  <data name="StocksModel.AutomationMode">
+    <value>Automation mode</value>
+  </data>
+  <data name="StocksModel.AutoReorder">
+    <value>Re-comanda automata</value>
+  </data>
+  <data name="StocksModel.Barcode">
+    <value>Coduri de bare</value>
+  </data>
+  <data name="StocksModel.BOInMode">
+    <value>Comanda in asteptate mod-In</value>
+  </data>
+  <data name="StocksModel.BOOutMode">
+    <value>Comanda in asteptate mod-Out</value>
+  </data>
+  <data name="StocksModel.DefIdentLineUsage">
+    <value>Use identical articles</value>
+  </data>
+  <data name="StocksModel.Descr">
+    <value>Descriere</value>
+  </data>
+  <data name="StocksModel.DropItemSuppOnSugg">
+    <value>Arunca articol sup. pe sugestii</value>
+  </data>
+  <data name="StocksModel.EmgCTKeyId">
+    <value>Emergency case cart type</value>
+  </data>
+  <data name="StocksModel.FacKeyId">
+    <value>Fabrica</value>
+  </data>
+  <data name="StocksModel.IsTracestock">
+    <value>Stoc Urmarire Fabrica</value>
+  </data>
+  <data name="StocksModel.IsTransitStock">
+    <value>Stoc Tranzit Fabrica</value>
+  </data>
+  <data name="StocksModel.KeyId">
+    <value>ID Stoc</value>
+  </data>
+  <data name="StocksModel.LocaKeyId">
+    <value>Locatie</value>
+  </data>
+  <data name="StocksModel.Name">
+    <value>Nume</value>
+  </data>
+  <data name="StocksModel.OpTKeyId">
+    <value>Tip operatie</value>
+  </data>
+  <data name="StocksModel.OrderInMode">
+    <value>Receptie comanda cumparare</value>
+  </data>
+  <data name="StocksModel.PlacementMask">
+    <value>Masca plasament</value>
+  </data>
+  <data name="StocksModel.PrnBackOrder">
+    <value>Comenzi inapoi</value>
+  </data>
+  <data name="StocksModel.PrnCompletedOrder">
+    <value>Comenzi terminate</value>
+  </data>
+  <data name="StocksModel.PrnConfirmation">
+    <value>Confirmare comanda</value>
+  </data>
+  <data name="StocksModel.PrnDelivery">
+    <value>Nota livrare</value>
+  </data>
+  <data name="StocksModel.PrnPicklist">
+    <value>Lista selectie</value>
+  </data>
+  <data name="StocksModel.PrnReceivedOrder">
+    <value>Comenzi receptionate</value>
+  </data>
+  <data name="StocksModel.PrnSentOrder">
+    <value>Comanda trimisa</value>
+  </data>
+  <data name="StocksModel.RefCustKeyId">
+    <value>Proprietar (Client)</value>
+  </data>
+  <data name="StocksModel.RefFacKeyId">
+    <value>Proprietar (Fabrica)</value>
+  </data>
+  <data name="StocksModel.RefSuppKeyId">
+    <value>Proprietar (Furnizor)</value>
+  </data>
+  <data name="StocksModel.Status">
+    <value>Statut</value>
+  </data>
+  <data name="StocksModel.Stock">
+    <value>Stoc</value>
+  </data>
+  <data name="StocksModel.SuppRefFacKeyId">
+    <value>Furnizor (Fabrica)</value>
+  </data>
+  <data name="StocksModel.SuppRefSuppKeyId">
+    <value>Furnizor (Furnizor)</value>
+  </data>
+  <data name="StocksModel.Type">
+    <value>Tip</value>
+  </data>
+  <data name="StocksModel.UserField01">
+    <value>Camp utilizator 1</value>
+  </data>
+  <data name="StocksModel.UserField02">
+    <value>Camp utilizator 2</value>
+  </data>
+  <data name="StocksModel.UserField03">
+    <value>Camp utilizator 3</value>
+  </data>
+  <data name="StocksModel.UserField04">
+    <value>Camp utilizator 4</value>
+  </data>
+  <data name="StocksModel.UserField05">
+    <value>Camp utilizator 5</value>
+  </data>
+  <data name="StocksModel.UserField06">
+    <value>Camp utilizator 6</value>
+  </data>
+  <data name="StocksModel.UserField07">
+    <value>Camp utilizator 7</value>
+  </data>
+  <data name="StocksModel.UserField08">
+    <value>Camp utilizator 8</value>
+  </data>
+  <data name="StocksModel.UserField09">
+    <value>Camp utilizator 9</value>
+  </data>
+  <data name="StocksModel.UserField10">
+    <value>Camp utilizator 10</value>
+  </data>
+  <data name="StocksModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="StocksModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="StocksModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="StocksModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="StocksModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="StocksModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="StocksModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="StocksModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="StocksModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="StocksModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="StockGroupModel.Created">
+    <value></value>
+  </data>
+  <data name="StockGroupModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="StockGroupModel.Modified">
+    <value></value>
+  </data>
+  <data name="StockGroupModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="StockGroupModel.Descr">
+    <value>Descriere</value>
+  </data>
+  <data name="StockGroupModel.KeyId">
+    <value>ID Grup stoc</value>
+  </data>
+  <data name="StockGroupModel.Name">
+    <value>Nume</value>
+  </data>
+  <data name="StockGroupModel.StockGroup">
+    <value>Grup stoc</value>
+  </data>
+  <data name="ProcessModel.ApproveTime">
+    <value>Aprobat</value>
+  </data>
+  <data name="ProcessModel.ApproveUserKeyId">
+    <value>Aprobat de</value>
+  </data>
+  <data name="ProcessModel.Batch">
+    <value>Lot</value>
+  </data>
+  <data name="ProcessModel.Charge">
+    <value>Ciclu</value>
+  </data>
+  <data name="ProcessModel.DisapproveUserKeyId">
+    <value>Respins de</value>
+  </data>
+  <data name="ProcessModel.EndTime">
+    <value>Finalizat</value>
+  </data>
+  <data name="ProcessModel.Envhumidity">
+    <value>Umiditate mediu</value>
+  </data>
+  <data name="ProcessModel.Envpressure">
+    <value>Presiune mediu</value>
+  </data>
+  <data name="ProcessModel.Envtemp">
+    <value>Temp. mediu</value>
+  </data>
+  <data name="ProcessModel.Error">
+    <value>Eroare Sistem</value>
+  </data>
+  <data name="ProcessModel.ExternalBatchNo">
+    <value>Nr. lot extern</value>
+  </data>
+  <data name="ProcessModel.InitiateTime">
+    <value>Initializat</value>
+  </data>
+  <data name="ProcessModel.InitiatorUserKeyId">
+    <value>Initiator</value>
+  </data>
+  <data name="ProcessModel.LoadNumber">
+    <value>Numar Incarcatura</value>
+  </data>
+  <data name="ProcessModel.MachKeyId">
+    <value>Masina</value>
+  </data>
+  <data name="ProcessModel.NativeError">
+    <value>Eroare masina</value>
+  </data>
+  <data name="ProcessModel.NativeErrortext">
+    <value>Text masina</value>
+  </data>
+  <data name="ProcessModel.ProgKeyId">
+    <value>Program</value>
+  </data>
+  <data name="ProcessModel.ScanRefPreKeyId">
+    <value>Reteta scanata</value>
+  </data>
+  <data name="ProcessModel.ScanRefProgKeyId">
+    <value>Program scanat</value>
+  </data>
+  <data name="ProcessModel.SecondApproveComment">
+    <value>Comentariu</value>
+  </data>
+  <data name="ProcessModel.SecondApproveUserKeyId">
+    <value>Second approval</value>
+  </data>
+  <data name="ProcessModel.StartTime">
+    <value>Pornit</value>
+  </data>
+  <data name="ProcessModel.StartTime2">
+    <value>Pornit 2</value>
+  </data>
+  <data name="ProcessModel.Status">
+    <value>Statut</value>
+  </data>
+  <data name="ProcessModel.Type">
+    <value>Tip</value>
+  </data>
+  <data name="SupplierModel.Created">
+    <value></value>
+  </data>
+  <data name="SupplierModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="SupplierModel.Modified">
+    <value></value>
+  </data>
+  <data name="SupplierModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="SupplierModel.Acceptorders">
+    <value>Accepta ordine de cumparare</value>
+  </data>
+  <data name="SupplierModel.Address1">
+    <value>Adresa</value>
+  </data>
+  <data name="SupplierModel.Address2">
+    <value>Adresa (2)</value>
+  </data>
+  <data name="SupplierModel.Barcode">
+    <value>Coduri de bare</value>
+  </data>
+  <data name="SupplierModel.CalKeyId">
+    <value>Calendar</value>
+  </data>
+  <data name="SupplierModel.City">
+    <value>Cod postal/Oras</value>
+  </data>
+  <data name="SupplierModel.Country">
+    <value>Tara</value>
+  </data>
+  <data name="SupplierModel.Email">
+    <value>email</value>
+  </data>
+  <data name="SupplierModel.FacKeyId">
+    <value>Fabrica</value>
+  </data>
+  <data name="SupplierModel.Fax">
+    <value>Fax</value>
+  </data>
+  <data name="SupplierModel.Flags1">
+    <value>Optiuni</value>
+  </data>
+  <data name="SupplierModel.Internal">
+    <value>Intern</value>
+  </data>
+  <data name="SupplierModel.KeyId">
+    <value>ID Furnizor</value>
+  </data>
+  <data name="SupplierModel.Name">
+    <value>Nume</value>
+  </data>
+  <data name="SupplierModel.OrderDelTime">
+    <value>Ora livrare comanda</value>
+  </data>
+  <data name="SupplierModel.OrderHandlingTime">
+    <value>Timp manipulare comanda</value>
+  </data>
+  <data name="SupplierModel.OrderRampTime">
+    <value>Timp rampa comanda</value>
+  </data>
+  <data name="SupplierModel.OrderTransmitTime">
+    <value>Ora transmisie comanda</value>
+  </data>
+  <data name="SupplierModel.OwnCustNumber">
+    <value>Numar propriu</value>
+  </data>
+  <data name="SupplierModel.Remark">
+    <value>Remarca</value>
+  </data>
+  <data name="SupplierModel.RepairVendorKeyId">
+    <value>Furnizor reparatie</value>
+  </data>
+  <data name="SupplierModel.Status">
+    <value>Statut</value>
+  </data>
+  <data name="SupplierModel.Supplier">
+    <value>Furnizor</value>
+  </data>
+  <data name="SupplierModel.Telephone">
+    <value>Telefon</value>
+  </data>
+  <data name="SupplierModel.Type">
+    <value>Tip</value>
+  </data>
+  <data name="SupplierModel.UserField01">
+    <value>Camp utilizator 1</value>
+  </data>
+  <data name="SupplierModel.UserField02">
+    <value>Camp utilizator 2</value>
+  </data>
+  <data name="SupplierModel.UserField03">
+    <value>Camp utilizator 3</value>
+  </data>
+  <data name="SupplierModel.UserField04">
+    <value>Camp utilizator 4</value>
+  </data>
+  <data name="SupplierModel.UserField05">
+    <value>Camp utilizator 5</value>
+  </data>
+  <data name="SupplierModel.UserField06">
+    <value>Camp utilizator 6</value>
+  </data>
+  <data name="SupplierModel.UserField07">
+    <value>Camp utilizator 7</value>
+  </data>
+  <data name="SupplierModel.UserField08">
+    <value>Camp utilizator 8</value>
+  </data>
+  <data name="SupplierModel.UserField09">
+    <value>Camp utilizator 9</value>
+  </data>
+  <data name="SupplierModel.UserField10">
+    <value>Camp utilizator 10</value>
+  </data>
+  <data name="SupplierModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="SupplierModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="SupplierModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="SupplierModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="SupplierModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="SupplierModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="SupplierModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="SupplierModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="SupplierModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="SupplierModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="SupplierModel.WebPassword">
+    <value>Parola Web/FTP</value>
+  </data>
+  <data name="SupplierModel.WebSite">
+    <value>Web Site</value>
+  </data>
+  <data name="SupplierModel.WebUser">
+    <value>Utilizator Web/FTP</value>
+  </data>
+  <data name="LocationModel.Created">
+    <value></value>
+  </data>
+  <data name="LocationModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="LocationModel.Modified">
+    <value></value>
+  </data>
+  <data name="LocationModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="LocationModel.AutoStokKeyId">
+    <value>Stoc consumabile</value>
+  </data>
+  <data name="LocationModel.Barcode">
+    <value>Coduri de bare</value>
+  </data>
+  <data name="LocationModel.DefUserKeyId">
+    <value>Utilizator implicit</value>
+  </data>
+  <data name="LocationModel.Descr">
+    <value>Descriere</value>
+  </data>
+  <data name="LocationModel.Direction">
+    <value>Directie</value>
+  </data>
+  <data name="LocationModel.FacKeyId">
+    <value>Fabrica</value>
+  </data>
+  <data name="LocationModel.Flags">
+    <value>Steaguri</value>
+  </data>
+  <data name="LocationModel.IdlemacroKeyId">
+    <value>Idle macro</value>
+  </data>
+  <data name="LocationModel.Idlemacrotime">
+    <value>Idle macro time</value>
+  </data>
+  <data name="LocationModel.Info">
+    <value>Info</value>
+  </data>
+  <data name="LocationModel.IsMaster">
+    <value>Este Locatia Conducatoare</value>
+  </data>
+  <data name="LocationModel.KeyId">
+    <value>ID Locatie</value>
+  </data>
+  <data name="LocationModel.MacroKeyId">
+    <value>Macro</value>
+  </data>
+  <data name="LocationModel.MasterLocaKeyId">
+    <value>Locatie Conducator</value>
+  </data>
+  <data name="LocationModel.MesConfig">
+    <value>MES configuration</value>
+  </data>
+  <data name="LocationModel.Name">
+    <value>Nume</value>
+  </data>
+  <data name="LocationModel.Process">
+    <value>Proces</value>
+  </data>
+  <data name="LocationModel.ProcessOpt">
+    <value>Optiuni proces</value>
+  </data>
+  <data name="LocationModel.Status">
+    <value>Statut</value>
+  </data>
+  <data name="LocationModel.StokKeyId">
+    <value>Stoc</value>
+  </data>
+  <data name="LocationModel.SubProcess">
+    <value>Subprocess</value>
+  </data>
+  <data name="LocationModel.Tag">
+    <value>Marcaj</value>
+  </data>
+  <data name="LocationModel.UIAvailability">
+    <value>Utizabilitate</value>
+  </data>
+  <data name="LocationModel.UiLdKeyId">
+    <value>UI Strat</value>
+  </data>
+  <data name="LocationModel.UIStartMode">
+    <value>Scaner UI mod start</value>
+  </data>
+  <data name="FixedStockPlacementsModel.KeyId">
+    <value>ID Plasament stoc fixat</value>
+  </data>
+  <data name="FixedStockPlacementsModel.Name">
+    <value>Nume</value>
+  </data>
+  <data name="FixedStockPlacementsModel.Placement">
+    <value>Plasament</value>
+  </data>
+  <data name="FixedStockPlacementsModel.StokKeyId">
+    <value>Stoc</value>
+  </data>
+  <data name="TextModel.Created">
+    <value></value>
+  </data>
+  <data name="TextModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="TextModel.Modified">
+    <value></value>
+  </data>
+  <data name="TextModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="TextModel.Data">
+    <value>Date</value>
+  </data>
+  <data name="TextModel.FloatOption">
+    <value>Valoare</value>
+  </data>
+  <data name="TextModel.KeyId">
+    <value>Text ID</value>
+  </data>
+  <data name="TextModel.Memo">
+    <value>Descriere</value>
+  </data>
+  <data name="TextModel.Number">
+    <value>Nr.</value>
+  </data>
+  <data name="TextModel.Option">
+    <value>Optiune</value>
+  </data>
+  <data name="TextModel.SysOption">
+    <value>Optiune Sis</value>
+  </data>
+  <data name="TextModel.Text">
+    <value>Text</value>
+  </data>
+  <data name="TextModel.Type">
+    <value>Tip</value>
+  </data>
+  <data name="LocationGroupModel.Created">
+    <value></value>
+  </data>
+  <data name="LocationGroupModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="LocationGroupModel.Modified">
+    <value></value>
+  </data>
+  <data name="LocationGroupModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="LocationGroupModel.Descr">
+    <value>Descriere</value>
+  </data>
+  <data name="LocationGroupModel.KeyId">
+    <value>ID Grup locatie</value>
+  </data>
+  <data name="LocationGroupModel.LocationGroup">
+    <value>Grup locatie</value>
+  </data>
+  <data name="LocationGroupModel.Name">
+    <value>Nume</value>
+  </data>
+  <data name="LocationGroupModel.Vicinity">
+    <value>Vicinity</value>
+  </data>
+  <data name="CatalogModel.Created">
+    <value></value>
+  </data>
+  <data name="CatalogModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="CatalogModel.Modified">
+    <value></value>
+  </data>
+  <data name="CatalogModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="CatalogModel.CatalogNo">
+    <value>Nr. Catalog</value>
+  </data>
+  <data name="CatalogModel.CostPrice">
+    <value>Pret cost</value>
+  </data>
+  <data name="CatalogModel.Disposable">
+    <value>Disponibil</value>
+  </data>
+  <data name="CatalogModel.ItGrpKeyId">
+    <value>Grup articol</value>
+  </data>
+  <data name="CatalogModel.ItspcKeyId">
+    <value>Specialitate</value>
+  </data>
+  <data name="CatalogModel.KeyId">
+    <value>ID Catalog</value>
+  </data>
+  <data name="CatalogModel.Length">
+    <value>Lungime</value>
+  </data>
+  <data name="CatalogModel.LifeSpan">
+    <value>Durata de viata</value>
+  </data>
+  <data name="CatalogModel.ManufactorNo">
+    <value>Nr. Prod.</value>
+  </data>
+  <data name="CatalogModel.ManuKeyId">
+    <value>Producator</value>
+  </data>
+  <data name="CatalogModel.Material">
+    <value>Material</value>
+  </data>
+  <data name="CatalogModel.MaterialsNum">
+    <value>Nr. Perech.</value>
+  </data>
+  <data name="CatalogModel.MaxPressure">
+    <value>Presiune max.</value>
+  </data>
+  <data name="CatalogModel.MaxTemp">
+    <value>Temp. max.</value>
+  </data>
+  <data name="CatalogModel.OrderMinCount">
+    <value>Numaratoare min. comanda </value>
+  </data>
+  <data name="CatalogModel.OrderStdCount">
+    <value>Dimensiune pachet comanda</value>
+  </data>
+  <data name="CatalogModel.OrderstduomKeyId">
+    <value>Masura pachet comanda</value>
+  </data>
+  <data name="CatalogModel.OtherUnitCount">
+    <value>Numaratoare unitate alt.</value>
+  </data>
+  <data name="CatalogModel.OtheruomKeyId">
+    <value>Masura unitate alt.</value>
+  </data>
+  <data name="CatalogModel.RepairVendorKeyId">
+    <value>Furnizor reparatie</value>
+  </data>
+  <data name="CatalogModel.SterilizationType">
+    <value>Tip sterilizare</value>
+  </data>
+  <data name="CatalogModel.SuppKeyId">
+    <value>Furnizor</value>
+  </data>
+  <data name="CatalogModel.Text">
+    <value>Nume</value>
+  </data>
+  <data name="CatalogModel.Tip">
+    <value>Sfat</value>
+  </data>
+  <data name="CatalogModel.UnitCount">
+    <value>Numaratoare unitate</value>
+  </data>
+  <data name="CatalogModel.UomKeyId">
+    <value>Masura unitate</value>
+  </data>
+  <data name="CatalogModel.Warranty">
+    <value>Garantie</value>
+  </data>
+  <data name="CatalogModel.Weight">
+    <value>Cantarire </value>
+  </data>
+  <data name="CatalogModel.Width">
+    <value>Latime</value>
+  </data>
+  <data name="ItemGroupModel.Descr">
+    <value>Descriere</value>
+  </data>
+  <data name="ItemGroupModel.FacKeyId">
+    <value>Fabrica</value>
+  </data>
+  <data name="ItemGroupModel.ItemGroup">
+    <value>Grup articol</value>
+  </data>
+  <data name="ItemGroupModel.KeyId">
+    <value>ID Grup articol</value>
+  </data>
+  <data name="ItemGroupModel.Name">
+    <value>Nume</value>
+  </data>
+  <data name="ItemGroupModel.PricingType">
+    <value>Tip stabilire pret</value>
+  </data>
+  <data name="ItemSpecialtyModel.Descr">
+    <value>Descriere</value>
+  </data>
+  <data name="ItemSpecialtyModel.FacKeyId">
+    <value>Fabrica</value>
+  </data>
+  <data name="ItemSpecialtyModel.KeyId">
+    <value>ID Specialitate</value>
+  </data>
+  <data name="ItemSpecialtyModel.Name">
+    <value>Nume</value>
+  </data>
+  <data name="ItemSpecialtyModel.Specialty">
+    <value>Specialitate</value>
+  </data>
+  <data name="ItemUOMModel.Descr">
+    <value>Descriere</value>
+  </data>
+  <data name="ItemUOMModel.KeyId">
+    <value>ID Unitate de masura</value>
+  </data>
+  <data name="ItemUOMModel.Name">
+    <value>Nume</value>
+  </data>
+  <data name="ItemUOMModel.Uom">
+    <value>Unitate de masura</value>
+  </data>
+  <data name="TagTypeModel.Created">
+    <value></value>
+  </data>
+  <data name="TagTypeModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="TagTypeModel.Modified">
+    <value></value>
+  </data>
+  <data name="TagTypeModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="TagTypeModel.Descr">
+    <value>Remarks</value>
+  </data>
+  <data name="TagTypeModel.Height">
+    <value>Inaltime</value>
+  </data>
+  <data name="TagTypeModel.HeightCapacity">
+    <value>Height capacity</value>
+  </data>
+  <data name="TagTypeModel.HoldsItems">
+    <value>Holds items</value>
+  </data>
+  <data name="TagTypeModel.InTTGKeyId">
+    <value>Identical tag type group</value>
+  </data>
+  <data name="TagTypeModel.KeyId">
+    <value>Tag type ID</value>
+  </data>
+  <data name="TagTypeModel.Name">
+    <value>Nume</value>
+  </data>
+  <data name="TagTypeModel.SuppKeyId">
+    <value>Furnizor reparatie</value>
+  </data>
+  <data name="TagTypeModel.SysType">
+    <value>Tip sistem</value>
+  </data>
+  <data name="TagTypeModel.Type">
+    <value>Tip</value>
+  </data>
+  <data name="TagTypeModel.UserField01">
+    <value>Camp utilizator 1</value>
+  </data>
+  <data name="TagTypeModel.UserField02">
+    <value>Camp utilizator 2</value>
+  </data>
+  <data name="TagTypeModel.UserField03">
+    <value>Camp utilizator 3</value>
+  </data>
+  <data name="TagTypeModel.UserField04">
+    <value>Camp utilizator 4</value>
+  </data>
+  <data name="TagTypeModel.UserField05">
+    <value>Camp utilizator 5</value>
+  </data>
+  <data name="TagTypeModel.UserField06">
+    <value>Camp utilizator 6</value>
+  </data>
+  <data name="TagTypeModel.UserField07">
+    <value>Camp utilizator 7</value>
+  </data>
+  <data name="TagTypeModel.UserField08">
+    <value>Camp utilizator 8</value>
+  </data>
+  <data name="TagTypeModel.UserField09">
+    <value>Camp utilizator 9</value>
+  </data>
+  <data name="TagTypeModel.UserField10">
+    <value>Camp utilizator 10</value>
+  </data>
+  <data name="TagTypeModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="TagTypeModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="TagTypeModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="TagTypeModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="TagTypeModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="TagTypeModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="TagTypeModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="TagTypeModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="TagTypeModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="TagTypeModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="TagTypeModel.Width">
+    <value>Latime</value>
+  </data>
+  <data name="TagTypeModel.WidthCapacity">
+    <value>Width capacity</value>
+  </data>
+  <data name="SealerProgramModel.Created">
+    <value></value>
+  </data>
+  <data name="SealerProgramModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="SealerProgramModel.Modified">
+    <value></value>
+  </data>
+  <data name="SealerProgramModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="SealerProgramModel.KeyId">
+    <value>ID Program sigilare</value>
+  </data>
+  <data name="SealerProgramModel.Name">
+    <value>Nume</value>
+  </data>
+  <data name="SealerProgramModel.Pres">
+    <value>Presiune</value>
+  </data>
+  <data name="SealerProgramModel.Program">
+    <value>Program</value>
+  </data>
+  <data name="SealerProgramModel.Temp">
+    <value>Temperatura</value>
+  </data>
+  <data name="EmgCaseCartTypeModel.Created">
+    <value></value>
+  </data>
+  <data name="EmgCaseCartTypeModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="EmgCaseCartTypeModel.Modified">
+    <value></value>
+  </data>
+  <data name="EmgCaseCartTypeModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="EmgCaseCartTypeModel.CuSiteKeyId">
+    <value>Amplasament client</value>
+  </data>
+  <data name="EmgCaseCartTypeModel.Descr">
+    <value>Remarca</value>
+  </data>
+  <data name="EmgCaseCartTypeModel.Id">
+    <value>Tip</value>
+  </data>
+  <data name="EmgCaseCartTypeModel.KeyId">
+    <value>ID Cheie</value>
+  </data>
+  <data name="EmgCaseCartTypeModel.Name">
+    <value>Nume</value>
+  </data>
+  <data name="EmgCaseCartTypeModel.OptKeyId">
+    <value>Tip operatie</value>
+  </data>
+  <data name="OperationTypeModel.Created">
+    <value></value>
+  </data>
+  <data name="OperationTypeModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="OperationTypeModel.Modified">
+    <value></value>
+  </data>
+  <data name="OperationTypeModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="OperationTypeModel.AssDoctorCount">
+    <value>Numaratoare doctor asistent</value>
+  </data>
+  <data name="OperationTypeModel.Cleanup">
+    <value>Curatire</value>
+  </data>
+  <data name="OperationTypeModel.CntpsKeyId">
+    <value>Counting point group</value>
+  </data>
+  <data name="OperationTypeModel.Code">
+    <value>Cod</value>
+  </data>
+  <data name="OperationTypeModel.DefcustKeyId">
+    <value>Client standard</value>
+  </data>
+  <data name="OperationTypeModel.DefcuststokKeyId">
+    <value>Stoc client standard</value>
+  </data>
+  <data name="OperationTypeModel.DefroomKeyId">
+    <value>Sala</value>
+  </data>
+  <data name="OperationTypeModel.Desc">
+    <value>Descriere</value>
+  </data>
+  <data name="OperationTypeModel.Duration">
+    <value>Durata</value>
+  </data>
+  <data name="OperationTypeModel.KeyId">
+    <value>ID Tip operatie</value>
+  </data>
+  <data name="OperationTypeModel.MinOrderLeadTime">
+    <value>Min. ordering time before operation</value>
+  </data>
+  <data name="OperationTypeModel.Name">
+    <value>Nume</value>
+  </data>
+  <data name="OperationTypeModel.PatAgeUsage">
+    <value>Utilizare varsta pacient  </value>
+  </data>
+  <data name="OperationTypeModel.PatGenderUsage">
+    <value>Utilizare sex pacient</value>
+  </data>
+  <data name="OperationTypeModel.Prepare">
+    <value>Pregatire</value>
+  </data>
+  <data name="OperationTypeModel.Status">
+    <value>Statut</value>
+  </data>
+  <data name="OperationTypeModel.Type">
+    <value>Template type</value>
+  </data>
+  <data name="OperationTypeModel.UserField01">
+    <value>Camp utilizator 1</value>
+  </data>
+  <data name="OperationTypeModel.UserField02">
+    <value>Camp utilizator 2</value>
+  </data>
+  <data name="OperationTypeModel.UserField03">
+    <value>Camp utilizator 3</value>
+  </data>
+  <data name="OperationTypeModel.UserField04">
+    <value>Camp utilizator 4</value>
+  </data>
+  <data name="OperationTypeModel.UserField05">
+    <value>Camp utilizator 5</value>
+  </data>
+  <data name="OperationTypeModel.UserField06">
+    <value>Camp utilizator 6</value>
+  </data>
+  <data name="OperationTypeModel.UserField07">
+    <value>Camp utilizator 7</value>
+  </data>
+  <data name="OperationTypeModel.UserField08">
+    <value>Camp utilizator 8</value>
+  </data>
+  <data name="OperationTypeModel.UserField09">
+    <value>Camp utilizator 9</value>
+  </data>
+  <data name="OperationTypeModel.UserField10">
+    <value>Camp utilizator 10</value>
+  </data>
+  <data name="OperationTypeModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="OperationTypeModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="OperationTypeModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="OperationTypeModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="OperationTypeModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="OperationTypeModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="OperationTypeModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="OperationTypeModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="OperationTypeModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="OperationTypeModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="MachineModel.Created">
+    <value></value>
+  </data>
+  <data name="MachineModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="MachineModel.Modified">
+    <value></value>
+  </data>
+  <data name="MachineModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="MachineModel.ActualProgramCheck">
+    <value>Verifica programul scanat/actual</value>
+  </data>
+  <data name="MachineModel.AgsKeyId">
+    <value>AGS</value>
+  </data>
+  <data name="MachineModel.Alertdelay">
+    <value>Intarziere alerta</value>
+  </data>
+  <data name="MachineModel.AllowBatch">
+    <value>Permite reg. lot</value>
+  </data>
+  <data name="MachineModel.AllowDataExport">
+    <value>Permite export date</value>
+  </data>
+  <data name="MachineModel.AllowLog">
+    <value>Permite logare date</value>
+  </data>
+  <data name="MachineModel.Barcode">
+    <value>Cod de bare</value>
+  </data>
+  <data name="MachineModel.Chargenummode">
+    <value>Numarare sarja</value>
+  </data>
+  <data name="MachineModel.ConfData">
+    <value>Date configuratie</value>
+  </data>
+  <data name="MachineModel.CycleCount">
+    <value>Numaratoare ciclu</value>
+  </data>
+  <data name="MachineModel.DefProgFromModel">
+    <value>Use Machine model setting</value>
+  </data>
+  <data name="MachineModel.DefProgKeyId">
+    <value>Program</value>
+  </data>
+  <data name="MachineModel.DestApproveLocaKeyId">
+    <value>Approval destination</value>
+  </data>
+  <data name="MachineModel.DestDisapproveLocaKeyId">
+    <value>Disapproval destination</value>
+  </data>
+  <data name="MachineModel.DestEndErrorLocaKeyId">
+    <value>Process end error destination</value>
+  </data>
+  <data name="MachineModel.DestEndLocaKeyId">
+    <value>Process end destination</value>
+  </data>
+  <data name="MachineModel.Info">
+    <value>Info</value>
+  </data>
+  <data name="MachineModel.InitBatchCount">
+    <value>Loturi max. initiate</value>
+  </data>
+  <data name="MachineModel.KeyId">
+    <value>ID Masina</value>
+  </data>
+  <data name="MachineModel.LastCycleCount">
+    <value>Ultima Numaratoare Ciclu</value>
+  </data>
+  <data name="MachineModel.LastMinutesOn">
+    <value>Ultima Pornire Minute</value>
+  </data>
+  <data name="MachineModel.LastMinutesRun">
+    <value>Ultima Rulare Minute</value>
+  </data>
+  <data name="MachineModel.LoadOnStart">
+    <value>Use Load tag</value>
+  </data>
+  <data name="MachineModel.LogBatchContent">
+    <value>Continut jurnal lot</value>
+  </data>
+  <data name="MachineModel.McTypKeyId">
+    <value>Model</value>
+  </data>
+  <data name="MachineModel.MinutesOn">
+    <value>Pornire minute</value>
+  </data>
+  <data name="MachineModel.MinutesRun">
+    <value>Rulare minute</value>
+  </data>
+  <data name="MachineModel.Name">
+    <value>Nume</value>
+  </data>
+  <data name="MachineModel.Prescan">
+    <value>Pre Scanare</value>
+  </data>
+  <data name="MachineModel.PrintLabelApprove">
+    <value>Tiparire eticheta aprobata</value>
+  </data>
+  <data name="MachineModel.PrintLabelDisappr">
+    <value>Tiparire eticheta respinsa</value>
+  </data>
+  <data name="MachineModel.PrintLabelEnd">
+    <value>Tiparire eticheta finalizata</value>
+  </data>
+  <data name="MachineModel.PrintLabelInit">
+    <value>Tiparire eticheta initiata</value>
+  </data>
+  <data name="MachineModel.PrintLabelStart">
+    <value>Tiparire eticheta pornita</value>
+  </data>
+  <data name="MachineModel.PrintLabelStickers">
+    <value>Tipareste autocolante eticheta</value>
+  </data>
+  <data name="MachineModel.PrintListApprove">
+    <value>Tiparire lista aprobata</value>
+  </data>
+  <data name="MachineModel.PrintListDisappr">
+    <value>Tiparire lista respinsa</value>
+  </data>
+  <data name="MachineModel.PrintListEnd">
+    <value>Tiparire lista finalizata</value>
+  </data>
+  <data name="MachineModel.PrintListInit">
+    <value>Tiparire lista initiata</value>
+  </data>
+  <data name="MachineModel.PrintListStart">
+    <value>Tiparire lista pornita</value>
+  </data>
+  <data name="MachineModel.PrintNativePdf">
+    <value>Print native PDF</value>
+  </data>
+  <data name="MachineModel.RefNum">
+    <value>Nr. ref.</value>
+  </data>
+  <data name="MachineModel.SerialNo">
+    <value>Nr. serial </value>
+  </data>
+  <data name="MachineModel.ShiftToHours">
+    <value>Internal data</value>
+  </data>
+  <data name="MachineModel.Text">
+    <value>Text</value>
+  </data>
+  <data name="MachineModel.Updateinterval">
+    <value>Interval actualizare date</value>
+  </data>
+  <data name="MachineModel.Warnemptybatch">
+    <value>Avertizati de lot gol</value>
+  </data>
+  <data name="ProgramModel.Created">
+    <value></value>
+  </data>
+  <data name="ProgramModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="ProgramModel.Modified">
+    <value></value>
+  </data>
+  <data name="ProgramModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="ProgramModel.Approval">
+    <value>Aprobare</value>
+  </data>
+  <data name="ProgramModel.Barcode">
+    <value>Cod de bare</value>
+  </data>
+  <data name="ProgramModel.CheckInitiated">
+    <value>Initializare manuala</value>
+  </data>
+  <data name="ProgramModel.ConsumCost">
+    <value>Consum</value>
+  </data>
+  <data name="ProgramModel.DeprecCost">
+    <value>Depreciere</value>
+  </data>
+  <data name="ProgramModel.Description">
+    <value>Descriere</value>
+  </data>
+  <data name="ProgramModel.Duration">
+    <value>Durata ciclu</value>
+  </data>
+  <data name="ProgramModel.ExtLogRequired">
+    <value>Jurnal extern necesar</value>
+  </data>
+  <data name="ProgramModel.FilterDeltaP">
+    <value>Pres. Filtru delta</value>
+  </data>
+  <data name="ProgramModel.FilterDeltaT">
+    <value>Temp. Filtru delta</value>
+  </data>
+  <data name="ProgramModel.FilterTime1">
+    <value>Timp filtru 1</value>
+  </data>
+  <data name="ProgramModel.FilterTime2">
+    <value>Timp filtru 2</value>
+  </data>
+  <data name="ProgramModel.InternalParams">
+    <value>Parametri interni</value>
+  </data>
+  <data name="ProgramModel.KeyId">
+    <value>ID Program</value>
+  </data>
+  <data name="ProgramModel.LogRef">
+    <value>Jurnal referinta</value>
+  </data>
+  <data name="ProgramModel.MaxTemp">
+    <value>Temp. max.</value>
+  </data>
+  <data name="ProgramModel.McTypKeyId">
+    <value>Model masina</value>
+  </data>
+  <data name="ProgramModel.Name">
+    <value>Nume</value>
+  </data>
+  <data name="ProgramModel.Password">
+    <value>Parola</value>
+  </data>
+  <data name="ProgramModel.PreHiPres">
+    <value>Pre Pres. Sup.</value>
+  </data>
+  <data name="ProgramModel.PreHiTemp">
+    <value>Pre Temp Sup</value>
+  </data>
+  <data name="ProgramModel.PreLowPres">
+    <value>Pre Pres Inf.</value>
+  </data>
+  <data name="ProgramModel.PreLowTemp">
+    <value>Pre Temp Inf.</value>
+  </data>
+  <data name="ProgramModel.PrePulses">
+    <value>Prepulsuri</value>
+  </data>
+  <data name="ProgramModel.Price">
+    <value>Pret</value>
+  </data>
+  <data name="ProgramModel.Program">
+    <value>Program</value>
+  </data>
+  <data name="ProgramModel.QSetKeyId">
+    <value>Set intrebari</value>
+  </data>
+  <data name="ProgramModel.ReportName">
+    <value>Report name</value>
+  </data>
+  <data name="ProgramModel.ScanNum">
+    <value>Nr. intern</value>
+  </data>
+  <data name="ProgramModel.SecondUserApproval">
+    <value>Second approval required</value>
+  </data>
+  <data name="ProgramModel.SterilePres">
+    <value>Presiune expunere</value>
+  </data>
+  <data name="ProgramModel.SterileSeconds">
+    <value>Timp expunere</value>
+  </data>
+  <data name="ProgramModel.SterileTemp">
+    <value>Temp. expunere</value>
+  </data>
+  <data name="ProgramModel.Type">
+    <value>Tip</value>
+  </data>
+  <data name="ProgramModel.UtilityCost">
+    <value>Utilitate</value>
+  </data>
+  <data name="ProgramModel.Validate">
+    <value>Valideaza</value>
+  </data>
+  <data name="ProgramRecipeModel.Created">
+    <value></value>
+  </data>
+  <data name="ProgramRecipeModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="ProgramRecipeModel.Modified">
+    <value></value>
+  </data>
+  <data name="ProgramRecipeModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="ProgramRecipeModel.Approval">
+    <value>Aprobare</value>
+  </data>
+  <data name="ProgramRecipeModel.Description">
+    <value>Descriere</value>
+  </data>
+  <data name="ProgramRecipeModel.Duration">
+    <value>Durata</value>
+  </data>
+  <data name="ProgramRecipeModel.KeyId">
+    <value>ID Reteta program</value>
+  </data>
+  <data name="ProgramRecipeModel.Leqfilling">
+    <value>Completare</value>
+  </data>
+  <data name="ProgramRecipeModel.LeqKeyId">
+    <value>Echipament incarcare</value>
+  </data>
+  <data name="ProgramRecipeModel.LogRef">
+    <value>Jurnal referinta</value>
+  </data>
+  <data name="ProgramRecipeModel.Maxgravity">
+    <value>Gravitate max.</value>
+  </data>
+  <data name="ProgramRecipeModel.MaxTemp">
+    <value>Temp. max.</value>
+  </data>
+  <data name="ProgramRecipeModel.Mingravity">
+    <value>Gravitate min.</value>
+  </data>
+  <data name="ProgramRecipeModel.Name">
+    <value>Nume</value>
+  </data>
+  <data name="ProgramRecipeModel.Origin">
+    <value>Origine</value>
+  </data>
+  <data name="ProgramRecipeModel.Original">
+    <value>Original</value>
+  </data>
+  <data name="ProgramRecipeModel.Posttreat">
+    <value>Post tratament</value>
+  </data>
+  <data name="ProgramRecipeModel.PreHiPres">
+    <value>Pre Pres. Sup.</value>
+  </data>
+  <data name="ProgramRecipeModel.PreHiTemp">
+    <value>Pre Temp Sup</value>
+  </data>
+  <data name="ProgramRecipeModel.PreLowPres">
+    <value>Pre Pres Inf.</value>
+  </data>
+  <data name="ProgramRecipeModel.PreLowTemp">
+    <value>Pre Temp Inf.</value>
+  </data>
+  <data name="ProgramRecipeModel.PrePulses">
+    <value>Prepulsuri</value>
+  </data>
+  <data name="ProgramRecipeModel.Pretreat">
+    <value>Pre tratament</value>
+  </data>
+  <data name="ProgramRecipeModel.ProgKeyId">
+    <value>Program</value>
+  </data>
+  <data name="ProgramRecipeModel.Reloadtime">
+    <value>Timp reincarcare</value>
+  </data>
+  <data name="ProgramRecipeModel.Runcount">
+    <value>Numarare rulare</value>
+  </data>
+  <data name="ProgramRecipeModel.SterilePres">
+    <value>Presiune expunere</value>
+  </data>
+  <data name="ProgramRecipeModel.SterileSeconds">
+    <value>Timp expunere</value>
+  </data>
+  <data name="ProgramRecipeModel.SterileTemp">
+    <value>Temp. expunere</value>
+  </data>
+  <data name="ProgramRecipeModel.Validate">
+    <value>Valideaza</value>
+  </data>
+  <data name="MacroModel.Created">
+    <value></value>
+  </data>
+  <data name="MacroModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="MacroModel.Modified">
+    <value></value>
+  </data>
+  <data name="MacroModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="MacroModel.Barcode">
+    <value>Cod de bare</value>
+  </data>
+  <data name="MacroModel.Data">
+    <value>Date</value>
+  </data>
+  <data name="MacroModel.KeyId">
+    <value>Macro ID</value>
+  </data>
+  <data name="MacroModel.Macro">
+    <value>Macro</value>
+  </data>
+  <data name="MacroModel.Name">
+    <value>Nume</value>
+  </data>
+  <data name="MacroModel.Remark">
+    <value>Remarca</value>
+  </data>
+  <data name="UILayerDefModel.Created">
+    <value></value>
+  </data>
+  <data name="UILayerDefModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="UILayerDefModel.Modified">
+    <value></value>
+  </data>
+  <data name="UILayerDefModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="UILayerDefModel.Classname">
+    <value>Nume clasa</value>
+  </data>
+  <data name="UILayerDefModel.Default">
+    <value>Implicit</value>
+  </data>
+  <data name="UILayerDefModel.DefSys">
+    <value>Definitie sistem</value>
+  </data>
+  <data name="UILayerDefModel.DefUsr">
+    <value>Definitie utilizator</value>
+  </data>
+  <data name="UILayerDefModel.Descr">
+    <value>Descriere</value>
+  </data>
+  <data name="UILayerDefModel.Enabled">
+    <value>Activat</value>
+  </data>
+  <data name="UILayerDefModel.KeyId">
+    <value>ID UI Strat</value>
+  </data>
+  <data name="UILayerDefModel.Name">
+    <value>Nume</value>
+  </data>
+  <data name="UILayerDefModel.SysId">
+    <value>ID Sistem</value>
+  </data>
+  <data name="UILayerDefModel.SysType">
+    <value>Tip sistem</value>
+  </data>
+  <data name="UILayerDefModel.VCLDefSys">
+    <value>Definitie sistem VCL</value>
+  </data>
+  <data name="UILayerDefModel.VCLDefUsr">
+    <value>Definitie utilzator VCL</value>
+  </data>
+  <data name="UILayerDefModel.Version">
+    <value>Versiune</value>
+  </data>
+  <data name="IdenticalTagTypeGroupModel.KeyId">
+    <value>ID</value>
+  </data>
+  <data name="IdenticalTagTypeGroupModel.TagType">
+    <value>Tip Marcaj</value>
+  </data>
+  <data name="RoomModel.ArrivedLGrpKeyId">
+    <value>Arrived location group</value>
+  </data>
+  <data name="RoomModel.AvailableLGrpKeyId">
+    <value>Available location group</value>
+  </data>
+  <data name="RoomModel.Barcode">
+    <value>Cod de bare</value>
+  </data>
+  <data name="RoomModel.BlockOrderCreation">
+    <value>Block operation-based orders</value>
+  </data>
+  <data name="RoomModel.CalKeyId">
+    <value>Calendar</value>
+  </data>
+  <data name="RoomModel.DelGln">
+    <value>Delivery GLN</value>
+  </data>
+  <data name="RoomModel.Desc">
+    <value>Descriere</value>
+  </data>
+  <data name="RoomModel.Gln">
+    <value>GLN</value>
+  </data>
+  <data name="RoomModel.Id">
+    <value>ID</value>
+  </data>
+  <data name="RoomModel.KeyId">
+    <value>ID Sala</value>
+  </data>
+  <data name="RoomModel.Name">
+    <value>Nume</value>
+  </data>
+  <data name="RoomModel.Status">
+    <value>Statut</value>
+  </data>
+  <data name="RoomModel.StGrKeyId">
+    <value>Grup stoc</value>
+  </data>
+  <data name="RoomModel.StokKeyId">
+    <value>Stoc</value>
+  </data>
+  <data name="RoomModel.UserField01">
+    <value>Camp utilizator 1</value>
+  </data>
+  <data name="RoomModel.UserField02">
+    <value>Camp utilizator 2</value>
+  </data>
+  <data name="RoomModel.UserField03">
+    <value>Camp utilizator 3</value>
+  </data>
+  <data name="RoomModel.UserField04">
+    <value>Camp utilizator 4</value>
+  </data>
+  <data name="RoomModel.UserField05">
+    <value>Camp utilizator 5</value>
+  </data>
+  <data name="RoomModel.UserField06">
+    <value>Camp utilizator 6</value>
+  </data>
+  <data name="RoomModel.UserField07">
+    <value>Camp utilizator 7</value>
+  </data>
+  <data name="RoomModel.UserField08">
+    <value>Camp utilizator 8</value>
+  </data>
+  <data name="RoomModel.UserField09">
+    <value>Camp utilizator 9</value>
+  </data>
+  <data name="RoomModel.UserField10">
+    <value>Camp utilizator 10</value>
+  </data>
+  <data name="RoomModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="RoomModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="RoomModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="RoomModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="RoomModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="RoomModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="RoomModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="RoomModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="RoomModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="RoomModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="AGSModel.Created">
+    <value></value>
+  </data>
+  <data name="AGSModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="AGSModel.Modified">
+    <value></value>
+  </data>
+  <data name="AGSModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="AGSModel.Barcode">
+    <value>Cod de bare</value>
+  </data>
+  <data name="AGSModel.Info">
+    <value>Info</value>
+  </data>
+  <data name="AGSModel.KeyId">
+    <value>ID AGS</value>
+  </data>
+  <data name="AGSModel.MasterQueueKeyId">
+    <value>Coada conducatoare</value>
+  </data>
+  <data name="AGSModel.Maxloads">
+    <value>Numar max. de incarcari</value>
+  </data>
+  <data name="AGSModel.Name">
+    <value>Nume</value>
+  </data>
+  <data name="AGSModel.RefNum">
+    <value>Nr. ref. (fisier ini)</value>
+  </data>
+  <data name="AGSModel.Text">
+    <value>Text</value>
+  </data>
+  <data name="MachineTypeModel.Created">
+    <value></value>
+  </data>
+  <data name="MachineTypeModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="MachineTypeModel.Modified">
+    <value></value>
+  </data>
+  <data name="MachineTypeModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="MachineTypeModel.AbsolutePressure">
+    <value>Presiune Absoluta</value>
+  </data>
+  <data name="MachineTypeModel.AutoCreatedIndic">
+    <value>Auto created indicators</value>
+  </data>
+  <data name="MachineTypeModel.BasketDepth">
+    <value>Adancime Cos</value>
+  </data>
+  <data name="MachineTypeModel.BasketFits">
+    <value>Numaratoare Cos</value>
+  </data>
+  <data name="MachineTypeModel.BasketHeight">
+    <value>Inaltime Cos</value>
+  </data>
+  <data name="MachineTypeModel.BasketWidth">
+    <value>Latime Cos</value>
+  </data>
+  <data name="MachineTypeModel.CanAutoCreateBI">
+    <value>Can auto create biological indicators</value>
+  </data>
+  <data name="MachineTypeModel.CBIUsageMode">
+    <value>Control indicator required</value>
+  </data>
+  <data name="MachineTypeModel.DefProgKeyId">
+    <value>Default program selection</value>
+  </data>
+  <data name="MachineTypeModel.FixedTime">
+    <value>Timp fixat</value>
+  </data>
+  <data name="MachineTypeModel.IncubatorType">
+    <value>Batch data incubator</value>
+  </data>
+  <data name="MachineTypeModel.KeyId">
+    <value>ID Tip masina</value>
+  </data>
+  <data name="MachineTypeModel.LoadOnStart">
+    <value>Use Load tag</value>
+  </data>
+  <data name="MachineTypeModel.LogBatchRegError">
+    <value>Eroare registrare lot</value>
+  </data>
+  <data name="MachineTypeModel.LogBatchRegMode">
+    <value>Mod registrare lot</value>
+  </data>
+  <data name="MachineTypeModel.ManuKeyId">
+    <value>Producator</value>
+  </data>
+  <data name="MachineTypeModel.MaxEndo">
+    <value>Max endoscopes</value>
+  </data>
+  <data name="MachineTypeModel.MaxLoadCount">
+    <value>Numaratoare max. incarcare</value>
+  </data>
+  <data name="MachineTypeModel.MaxPerPlacement">
+    <value>Max. scopes per placement</value>
+  </data>
+  <data name="MachineTypeModel.MaxPres">
+    <value>Presiune max.</value>
+  </data>
+  <data name="MachineTypeModel.MaxTemp">
+    <value>Temp. max.</value>
+  </data>
+  <data name="MachineTypeModel.MinPres">
+    <value>Presiune min.</value>
+  </data>
+  <data name="MachineTypeModel.MinTemp">
+    <value>Temp. min.</value>
+  </data>
+  <data name="MachineTypeModel.Name">
+    <value>Nume</value>
+  </data>
+  <data name="MachineTypeModel.NonEndo">
+    <value>Non endoscopes</value>
+  </data>
+  <data name="MachineTypeModel.PlacementCount">
+    <value>Numar de plasamente</value>
+  </data>
+  <data name="MachineTypeModel.PlacementMode">
+    <value>Placement configuration</value>
+  </data>
+  <data name="MachineTypeModel.PlacementUsgMode">
+    <value>Mod utilizare plasament</value>
+  </data>
+  <data name="MachineTypeModel.PressureDecimals">
+    <value>P. zecimale</value>
+  </data>
+  <data name="MachineTypeModel.PressureLogarithmic">
+    <value>Logarithmic scale</value>
+  </data>
+  <data name="MachineTypeModel.PressureType">
+    <value>Presiune</value>
+  </data>
+  <data name="MachineTypeModel.Queuelength">
+    <value>Lungime coada</value>
+  </data>
+  <data name="MachineTypeModel.RelativeTime">
+    <value>Timp relativ</value>
+  </data>
+  <data name="MachineTypeModel.RepairVendorKeyId">
+    <value>Furnizor reparatie</value>
+  </data>
+  <data name="MachineTypeModel.Reportflags">
+    <value>Optiuni Raport</value>
+  </data>
+  <data name="MachineTypeModel.StandardError">
+    <value>Eroare standard</value>
+  </data>
+  <data name="MachineTypeModel.SuppKeyId">
+    <value>Furnizor</value>
+  </data>
+  <data name="MachineTypeModel.TechError">
+    <value>Technical error</value>
+  </data>
+  <data name="MachineTypeModel.TempDecimals">
+    <value>T. zecimale</value>
+  </data>
+  <data name="MachineTypeModel.TempType">
+    <value>Temperatura</value>
+  </data>
+  <data name="MachineTypeModel.Text">
+    <value>Text</value>
+  </data>
+  <data name="MachineTypeModel.Type">
+    <value>Tip</value>
+  </data>
+  <data name="MachineTypeModel.UseMAP">
+    <value>Utilizeaza MAP</value>
+  </data>
+  <data name="MachineTypeModel.UseRecipe">
+    <value>Utilizeaza retete</value>
+  </data>
+  <data name="MachineTypeModel.Volume">
+    <value>Volum</value>
+  </data>
+  <data name="QuestionSetModel.Created">
+    <value></value>
+  </data>
+  <data name="QuestionSetModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="QuestionSetModel.Modified">
+    <value></value>
+  </data>
+  <data name="QuestionSetModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="QuestionSetModel.KeyId">
+    <value>ID Set intrebari</value>
+  </data>
+  <data name="QuestionSetModel.Name">
+    <value>Nume</value>
+  </data>
+  <data name="QuestionSetModel.Remark">
+    <value>Remarca</value>
+  </data>
+  <data name="QuestionSetModel.Set">
+    <value>Set intrebari</value>
+  </data>
+  <data name="LoadingEquipmentModel.Created">
+    <value></value>
+  </data>
+  <data name="LoadingEquipmentModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="LoadingEquipmentModel.Modified">
+    <value></value>
+  </data>
+  <data name="LoadingEquipmentModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="LoadingEquipmentModel.Area">
+    <value>Zona</value>
+  </data>
+  <data name="LoadingEquipmentModel.Depth">
+    <value>Adancime</value>
+  </data>
+  <data name="LoadingEquipmentModel.Descr">
+    <value>Descriere</value>
+  </data>
+  <data name="LoadingEquipmentModel.Height">
+    <value>Inaltime</value>
+  </data>
+  <data name="LoadingEquipmentModel.KeyId">
+    <value>ID Echipament incarcare</value>
+  </data>
+  <data name="LoadingEquipmentModel.Name">
+    <value>Nume</value>
+  </data>
+  <data name="LoadingEquipmentModel.Width">
+    <value>Latime</value>
+  </data>
+  <data name="UnitModel.Basket">
+    <value>Cos</value>
+  </data>
+  <data name="UnitModel.Batch">
+    <value>Lot</value>
+  </data>
+  <data name="UnitModel.Created">
+    <value>Creat</value>
+  </data>
+  <data name="UnitModel.CustKeyId">
+    <value>Client</value>
+  </data>
+  <data name="UnitModel.DryingStokKeyId">
+    <value>Stoc uscare</value>
+  </data>
+  <data name="UnitModel.Error">
+    <value>Eroare</value>
+  </data>
+  <data name="UnitModel.Expire">
+    <value>Data expirate</value>
+  </data>
+  <data name="UnitModel.FacKeyId">
+    <value>Fabrica</value>
+  </data>
+  <data name="UnitModel.LMProKeyId">
+    <value>Loaner management profile</value>
+  </data>
+  <data name="UnitModel.LocaKeyId">
+    <value>Locatie</value>
+  </data>
+  <data name="UnitModel.LocaTime">
+    <value>Ora locatie</value>
+  </data>
+  <data name="UnitModel.NextUnit">
+    <value>Urmatoarea Unitate</value>
+  </data>
+  <data name="UnitModel.OpDKeyId">
+    <value>Operatie</value>
+  </data>
+  <data name="UnitModel.PackUserKeyId">
+    <value>Impachetat de</value>
+  </data>
+  <data name="UnitModel.PrevUnit">
+    <value>Unitate Anter.</value>
+  </data>
+  <data name="UnitModel.Price">
+    <value>Pret</value>
+  </data>
+  <data name="UnitModel.PriceHandling">
+    <value>Pret manipulare</value>
+  </data>
+  <data name="UnitModel.PricePack">
+    <value>Pret impachetare</value>
+  </data>
+  <data name="UnitModel.PriceSteri">
+    <value>Pret sterilizare</value>
+  </data>
+  <data name="UnitModel.PriceUsage">
+    <value>Pret utilizare</value>
+  </data>
+  <data name="UnitModel.PriceWash">
+    <value>Pret spalare/dezinf.</value>
+  </data>
+  <data name="UnitModel.PriGrKeyId">
+    <value>Grup pret</value>
+  </data>
+  <data name="UnitModel.ProdKeyId">
+    <value>Produs</value>
+  </data>
+  <data name="UnitModel.ReqReturnReg">
+    <value>Returnare necesara</value>
+  </data>
+  <data name="UnitModel.RoomKeyId">
+    <value>Sala</value>
+  </data>
+  <data name="UnitModel.SeriKeyId">
+    <value>Nr. serial </value>
+  </data>
+  <data name="UnitModel.Status">
+    <value>Statut</value>
+  </data>
+  <data name="UnitModel.StokKeyId">
+    <value>Stoc</value>
+  </data>
+  <data name="UnitModel.Unit">
+    <value>Unitate</value>
+  </data>
+  <data name="UnitModel.UsageCounter">
+    <value>Numarator utilizare</value>
+  </data>
+  <data name="UnitModel.WorkingTime">
+    <value>Timp Pachet Utilizat</value>
+  </data>
+  <data name="TagsModel.Created">
+    <value></value>
+  </data>
+  <data name="TagsModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="TagsModel.Auto">
+    <value>Marcaj automat</value>
+  </data>
+  <data name="TagsModel.Barcode">
+    <value>Cod de bare</value>
+  </data>
+  <data name="TagsModel.KeyId">
+    <value>ID Marcaj</value>
+  </data>
+  <data name="TagsModel.LocaKeyId">
+    <value>Locatia curenta</value>
+  </data>
+  <data name="TagsModel.LocaTime">
+    <value>Ora locatie</value>
+  </data>
+  <data name="TagsModel.Name">
+    <value>Nume</value>
+  </data>
+  <data name="TagsModel.No">
+    <value>Nr.</value>
+  </data>
+  <data name="TagsModel.ProcBatch">
+    <value>Lot alocat</value>
+  </data>
+  <data name="TagsModel.Status">
+    <value>Statut</value>
+  </data>
+  <data name="TagsModel.StokKeyId">
+    <value>Stoc</value>
+  </data>
+  <data name="TagsModel.TagTKeyId">
+    <value>Tip Marcaj</value>
+  </data>
+  <data name="TagsModel.Type">
+    <value>Tip</value>
+  </data>
+  <data name="OperationDataModel.Created">
+    <value></value>
+  </data>
+  <data name="OperationDataModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="OperationDataModel.Modified">
+    <value></value>
+  </data>
+  <data name="OperationDataModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="OperationDataModel.ActualEndTime">
+    <value>Timp de final actual</value>
+  </data>
+  <data name="OperationDataModel.ActualStartTime">
+    <value>Timp de start actual</value>
+  </data>
+  <data name="OperationDataModel.BookingForce">
+    <value>Rezervare fortata</value>
+  </data>
+  <data name="OperationDataModel.BookingStatus">
+    <value>Statut rezervare</value>
+  </data>
+  <data name="OperationDataModel.CustKeyId">
+    <value>Client</value>
+  </data>
+  <data name="OperationDataModel.CustStokKeyId">
+    <value>Stoc client</value>
+  </data>
+  <data name="OperationDataModel.DoctKeyId">
+    <value>Doctor</value>
+  </data>
+  <data name="OperationDataModel.EndTime">
+    <value>Timp final</value>
+  </data>
+  <data name="OperationDataModel.Ident">
+    <value>Operatie</value>
+  </data>
+  <data name="OperationDataModel.IncompleteOrder">
+    <value>Incomplete order</value>
+  </data>
+  <data name="OperationDataModel.KeyId">
+    <value>ID Operatie</value>
+  </data>
+  <data name="OperationDataModel.Name">
+    <value>Nume</value>
+  </data>
+  <data name="OperationDataModel.OptKeyId">
+    <value>Tip operatie</value>
+  </data>
+  <data name="OperationDataModel.OrdersNeedUpdate">
+    <value>Order update pending</value>
+  </data>
+  <data name="OperationDataModel.PatAge">
+    <value>Varsta pacient</value>
+  </data>
+  <data name="OperationDataModel.PatGender">
+    <value>Sex pacient</value>
+  </data>
+  <data name="OperationDataModel.PatKeyId">
+    <value>Pacient</value>
+  </data>
+  <data name="OperationDataModel.PatWeight">
+    <value>Greutate</value>
+  </data>
+  <data name="OperationDataModel.PrefListDelShortage">
+    <value>Preference list delievered shortage</value>
+  </data>
+  <data name="OperationDataModel.PrefListOrderMode">
+    <value>Mod comanda</value>
+  </data>
+  <data name="OperationDataModel.Remark">
+    <value>Remarca</value>
+  </data>
+  <data name="OperationDataModel.RoomKeyId">
+    <value>Sala</value>
+  </data>
+  <data name="OperationDataModel.StartTime">
+    <value>Ora start</value>
+  </data>
+  <data name="OperationDataModel.StartTimeModified">
+    <value>Start time modified</value>
+  </data>
+  <data name="OperationDataModel.Status">
+    <value>Statut</value>
+  </data>
+  <data name="OperationDataModel.SuppFacKeyId">
+    <value>Livrare fabrica</value>
+  </data>
+  <data name="SerialModel.Created">
+    <value></value>
+  </data>
+  <data name="SerialModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="SerialModel.Modified">
+    <value></value>
+  </data>
+  <data name="SerialModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="SerialModel.Barcode">
+    <value>Coduri de bare</value>
+  </data>
+  <data name="SerialModel.DispatchRestrict">
+    <value>Expediaza restrictie</value>
+  </data>
+  <data name="SerialModel.ExtLoanerId">
+    <value>External loaner ID</value>
+  </data>
+  <data name="SerialModel.ExtName">
+    <value>External name</value>
+  </data>
+  <data name="SerialModel.FTCoKeyId">
+    <value>Cod circuit rapid</value>
+  </data>
+  <data name="SerialModel.FTPlKeyId">
+    <value>Plan circuit rapid</value>
+  </data>
+  <data name="SerialModel.FTTmpKeyId">
+    <value>Grup circuit rapid</value>
+  </data>
+  <data name="SerialModel.HatKeyId">
+    <value>Handling type</value>
+  </data>
+  <data name="SerialModel.KeyId">
+    <value>ID Nr. serial</value>
+  </data>
+  <data name="SerialModel.LMProKeyId">
+    <value>Loaner management profile</value>
+  </data>
+  <data name="SerialModel.LocaKeyId">
+    <value>Locatie</value>
+  </data>
+  <data name="SerialModel.Manufactserialnumber">
+    <value>Nr. serial manu.</value>
+  </data>
+  <data name="SerialModel.Name">
+    <value>Nume</value>
+  </data>
+  <data name="SerialModel.OwnerCuSiteKeyId">
+    <value>Proprietar (Amplasament client)</value>
+  </data>
+  <data name="SerialModel.OwnerCustKeyId">
+    <value>Proprietar (Client)</value>
+  </data>
+  <data name="SerialModel.OwnerFacKeyId">
+    <value>Proprietar (Fabrica)</value>
+  </data>
+  <data name="SerialModel.OwnerSuppKeyId">
+    <value>Proprietar (Furnizor)</value>
+  </data>
+  <data name="SerialModel.PackKeyId">
+    <value>Material impachetare</value>
+  </data>
+  <data name="SerialModel.PurchaseDate">
+    <value>Data cumparare</value>
+  </data>
+  <data name="SerialModel.PurchaseOrdNo">
+    <value>Comanda cumparare nr.</value>
+  </data>
+  <data name="SerialModel.PurchasePrice">
+    <value>Pret cumparare</value>
+  </data>
+  <data name="SerialModel.PurchaseTime">
+    <value>Data cumparare</value>
+  </data>
+  <data name="SerialModel.RefItemKeyId">
+    <value>Articol</value>
+  </data>
+  <data name="SerialModel.RefPReKeyId">
+    <value>Reteta program</value>
+  </data>
+  <data name="SerialModel.RefProdKeyId">
+    <value>Produs</value>
+  </data>
+  <data name="SerialModel.RefProgKeyId">
+    <value>Program</value>
+  </data>
+  <data name="SerialModel.Remark">
+    <value>Remarca</value>
+  </data>
+  <data name="SerialModel.SerialNo">
+    <value>Nr. serial </value>
+  </data>
+  <data name="SerialModel.Status">
+    <value>Statut</value>
+  </data>
+  <data name="SerialModel.Stockplacement">
+    <value>Plasament</value>
+  </data>
+  <data name="SerialModel.StokKeyId">
+    <value>Stoc</value>
+  </data>
+  <data name="SerialModel.SuppKeyId">
+    <value>Furnizor</value>
+  </data>
+  <data name="SerialModel.TRGrpKeyId">
+    <value>Expire time group</value>
+  </data>
+  <data name="SerialModel.UserField01">
+    <value>Camp utilizator 1</value>
+  </data>
+  <data name="SerialModel.UserField02">
+    <value>Camp utilizator 2</value>
+  </data>
+  <data name="SerialModel.UserField03">
+    <value>Camp utilizator 3</value>
+  </data>
+  <data name="SerialModel.UserField04">
+    <value>Camp utilizator 4</value>
+  </data>
+  <data name="SerialModel.UserField05">
+    <value>Camp utilizator 5</value>
+  </data>
+  <data name="SerialModel.UserField06">
+    <value>Camp utilizator 6</value>
+  </data>
+  <data name="SerialModel.UserField07">
+    <value>Camp utilizator 7</value>
+  </data>
+  <data name="SerialModel.UserField08">
+    <value>Camp utilizator 8</value>
+  </data>
+  <data name="SerialModel.UserField09">
+    <value>Camp utilizator 9</value>
+  </data>
+  <data name="SerialModel.UserField10">
+    <value>Camp utilizator 10</value>
+  </data>
+  <data name="SerialModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="SerialModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="SerialModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="SerialModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="SerialModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="SerialModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="SerialModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="SerialModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="SerialModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="SerialModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="SerialModel.UnitUnit">
+    <value>Unitate</value>
+  </data>
+  <data name="SerialModel.UsageCount">
+    <value>Numaratoare utilizare</value>
+  </data>
+  <data name="SerialModel.Weight">
+    <value>Greutate</value>
+  </data>
+  <data name="DoctorModel.Created">
+    <value></value>
+  </data>
+  <data name="DoctorModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="DoctorModel.Modified">
+    <value></value>
+  </data>
+  <data name="DoctorModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="DoctorModel.Barcode">
+    <value>Cod de bare</value>
+  </data>
+  <data name="DoctorModel.CalKeyId">
+    <value>Calendar</value>
+  </data>
+  <data name="DoctorModel.Initials">
+    <value>Initiale</value>
+  </data>
+  <data name="DoctorModel.KeyId">
+    <value>ID Doctor</value>
+  </data>
+  <data name="DoctorModel.Name">
+    <value>Nume</value>
+  </data>
+  <data name="DoctorModel.Status">
+    <value>Statut</value>
+  </data>
+  <data name="DoctorModel.UserField01">
+    <value>Camp utilizator 1</value>
+  </data>
+  <data name="DoctorModel.UserField02">
+    <value>Camp utilizator 2</value>
+  </data>
+  <data name="DoctorModel.UserField03">
+    <value>Camp utilizator 3</value>
+  </data>
+  <data name="DoctorModel.UserField04">
+    <value>Camp utilizator 4</value>
+  </data>
+  <data name="DoctorModel.UserField05">
+    <value>Camp utilizator 5</value>
+  </data>
+  <data name="DoctorModel.UserField06">
+    <value>Camp utilizator 6</value>
+  </data>
+  <data name="DoctorModel.UserField07">
+    <value>Camp utilizator 7</value>
+  </data>
+  <data name="DoctorModel.UserField08">
+    <value>Camp utilizator 8</value>
+  </data>
+  <data name="DoctorModel.UserField09">
+    <value>Camp utilizator 9</value>
+  </data>
+  <data name="DoctorModel.UserField10">
+    <value>Camp utilizator 10</value>
+  </data>
+  <data name="DoctorModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="DoctorModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="DoctorModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="DoctorModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="DoctorModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="DoctorModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="DoctorModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="DoctorModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="DoctorModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="DoctorModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="PatientModel.Created">
+    <value></value>
+  </data>
+  <data name="PatientModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="PatientModel.Modified">
+    <value></value>
+  </data>
+  <data name="PatientModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="PatientModel.BarCode">
+    <value>Coduri de bare</value>
+  </data>
+  <data name="PatientModel.Birthday">
+    <value>Zi de nastere</value>
+  </data>
+  <data name="PatientModel.Code1">
+    <value>Cod 1</value>
+  </data>
+  <data name="PatientModel.Code2">
+    <value>Cod 2</value>
+  </data>
+  <data name="PatientModel.Code3">
+    <value>Cod 3</value>
+  </data>
+  <data name="PatientModel.Id">
+    <value>ID</value>
+  </data>
+  <data name="PatientModel.KeyId">
+    <value>ID Pacient</value>
+  </data>
+  <data name="PatientModel.Name">
+    <value>Nume</value>
+  </data>
+  <data name="PatientModel.Sex">
+    <value>Gen</value>
+  </data>
+  <data name="PatientModel.Status">
+    <value>Statut</value>
+  </data>
+  <data name="PatientModel.UserField01">
+    <value>Camp utilizator 1</value>
+  </data>
+  <data name="PatientModel.UserField02">
+    <value>Camp utilizator 2</value>
+  </data>
+  <data name="PatientModel.UserField03">
+    <value>Camp utilizator 3</value>
+  </data>
+  <data name="PatientModel.UserField04">
+    <value>Camp utilizator 4</value>
+  </data>
+  <data name="PatientModel.UserField05">
+    <value>Camp utilizator 5</value>
+  </data>
+  <data name="PatientModel.UserField06">
+    <value>Camp utilizator 6</value>
+  </data>
+  <data name="PatientModel.UserField07">
+    <value>Camp utilizator 7</value>
+  </data>
+  <data name="PatientModel.UserField08">
+    <value>Camp utilizator 8</value>
+  </data>
+  <data name="PatientModel.UserField09">
+    <value>Camp utilizator 9</value>
+  </data>
+  <data name="PatientModel.UserField10">
+    <value>Camp utilizator 10</value>
+  </data>
+  <data name="PatientModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="PatientModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="PatientModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="PatientModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="PatientModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="PatientModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="PatientModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="PatientModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="PatientModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="PatientModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="PatientModel.Weight">
+    <value>Greutate</value>
+  </data>
+  <data name="OrderModel.AutoCreated">
+    <value>Auto creat</value>
+  </data>
+  <data name="OrderModel.BookingFirstOk">
+    <value>Prima rezervare OK</value>
+  </data>
+  <data name="OrderModel.BookingMode">
+    <value>Mod rezervare</value>
+  </data>
+  <data name="OrderModel.BookingPriority">
+    <value>Booking priority</value>
+  </data>
+  <data name="OrderModel.BookingStatus">
+    <value>Statut rezervare</value>
+  </data>
+  <data name="OrderModel.CreatedAppType">
+    <value>Origin application</value>
+  </data>
+  <data name="OrderModel.CreatedForOpDPrefList">
+    <value>Created for OP preference list</value>
+  </data>
+  <data name="OrderModel.CreatedJobKeyId">
+    <value>Origin job</value>
+  </data>
+  <data name="OrderModel.CreatedLocaKeyId">
+    <value>Origin location</value>
+  </data>
+  <data name="OrderModel.CreatedLSId">
+    <value>Origin computer</value>
+  </data>
+  <data name="OrderModel.CreatedUserKeyId">
+    <value>Creat de</value>
+  </data>
+  <data name="OrderModel.DelIncomplete">
+    <value>Delivery incomplete</value>
+  </data>
+  <data name="OrderModel.ExpDelTime">
+    <value>Exp. del. time</value>
+  </data>
+  <data name="OrderModel.Flags">
+    <value>Optiuni</value>
+  </data>
+  <data name="OrderModel.KeyId">
+    <value>ID Comanda</value>
+  </data>
+  <data name="OrderModel.LockMode">
+    <value>Lock mode</value>
+  </data>
+  <data name="OrderModel.NextOrdKeyId">
+    <value>Urmatoarea comanda</value>
+  </data>
+  <data name="OrderModel.OrdTpKeyId">
+    <value>Sablon comanda</value>
+  </data>
+  <data name="OrderModel.OrgAccount">
+    <value>Org. cont</value>
+  </data>
+  <data name="OrderModel.OrgExternalId">
+    <value>ID org. externa</value>
+  </data>
+  <data name="OrderModel.OrgInvoiceDirect">
+    <value>Org. factura directa</value>
+  </data>
+  <data name="OrderModel.OrgInvRefCustKeyId">
+    <value>Client factura</value>
+  </data>
+  <data name="OrderModel.OrgInvRefFacKeyId">
+    <value>Fabrica factura</value>
+  </data>
+  <data name="OrderModel.OrgInvRefSuppKeyId">
+    <value>Furnizor factura</value>
+  </data>
+  <data name="OrderModel.OrgRefCustKeyId">
+    <value>Org. client</value>
+  </data>
+  <data name="OrderModel.OrgRefFacKeyId">
+    <value>Org. fabrica</value>
+  </data>
+  <data name="OrderModel.OrgRefNo">
+    <value>Org. Ref.</value>
+  </data>
+  <data name="OrderModel.OrgRefSuppKeyId">
+    <value>Org. furnizor</value>
+  </data>
+  <data name="OrderModel.OrgRefText">
+    <value>Org. ref. text</value>
+  </data>
+  <data name="OrderModel.OrgRefText2">
+    <value>Org. ref. text 2</value>
+  </data>
+  <data name="OrderModel.OrgRemark">
+    <value>Org. remarca</value>
+  </data>
+  <data name="OrderModel.OrgStatus">
+    <value>Org. Statut</value>
+  </data>
+  <data name="OrderModel.OrgStokKeyId">
+    <value>Org. stoc</value>
+  </data>
+  <data name="OrderModel.OrgTime">
+    <value>Org. Ora</value>
+  </data>
+  <data name="OrderModel.OrgUserKeyId">
+    <value>Org. Utilizator</value>
+  </data>
+  <data name="OrderModel.PrevOrdKeyId">
+    <value>Comanda anterioara</value>
+  </data>
+  <data name="OrderModel.RefOpDKeyId">
+    <value>Creator (Operatie)</value>
+  </data>
+  <data name="OrderModel.RefOpTKeyId">
+    <value>Tip operatie</value>
+  </data>
+  <data name="OrderModel.Reordered">
+    <value>Reordered</value>
+  </data>
+  <data name="OrderModel.ReqDelTime">
+    <value>Timp necesar livrare</value>
+  </data>
+  <data name="OrderModel.ReqDelTimeEstimated">
+    <value></value>
+  </data>
+  <data name="OrderModel.ReturnReq">
+    <value>Return requested</value>
+  </data>
+  <data name="OrderModel.SplitOrdKeyId">
+    <value>Comanda divizare</value>
+  </data>
+  <data name="OrderModel.SuppPickMode">
+    <value>Supp. pick mode</value>
+  </data>
+  <data name="OrderModel.SuppPickPriority">
+    <value>Picking priority</value>
+  </data>
+  <data name="OrderModel.SuppPriority">
+    <value>Supplier priority</value>
+  </data>
+  <data name="OrderModel.SuppRefCustKeyId">
+    <value>Clioent fur.</value>
+  </data>
+  <data name="OrderModel.SuppRefFacKeyId">
+    <value>Fabrica fur.</value>
+  </data>
+  <data name="OrderModel.SuppRefNo">
+    <value>Ref. Fur.</value>
+  </data>
+  <data name="OrderModel.SuppRefSuppKeyId">
+    <value>Furnizor fur.</value>
+  </data>
+  <data name="OrderModel.SuppRefText">
+    <value>Text ref. fur.</value>
+  </data>
+  <data name="OrderModel.SuppRefText2">
+    <value>Text ref. fur. 2</value>
+  </data>
+  <data name="OrderModel.SuppRemark">
+    <value>Remarca fur.</value>
+  </data>
+  <data name="OrderModel.SuppStatus">
+    <value>Statut Fur.</value>
+  </data>
+  <data name="OrderModel.SuppStokKeyId">
+    <value>Stoc fur.</value>
+  </data>
+  <data name="OrderModel.SuppTime">
+    <value>Ora fur.</value>
+  </data>
+  <data name="OrderModel.SuppUserKeyId">
+    <value>Utilizator fur.</value>
+  </data>
+  <data name="OrderModel.SyncToOperation">
+    <value>Synchronize with operation</value>
+  </data>
+  <data name="OrderModel.Tag">
+    <value>Marcaj transport</value>
+  </data>
+  <data name="OrderModel.Type">
+    <value>Tip</value>
+  </data>
+  <data name="OrderModel.UnlockStokKeyId">
+    <value>Unlock destination stock</value>
+  </data>
+  <data name="JobModel.ConfigData">
+    <value>Date config.</value>
+  </data>
+  <data name="JobModel.Description">
+    <value>Descriere</value>
+  </data>
+  <data name="JobModel.Disabled">
+    <value>Dezactivat</value>
+  </data>
+  <data name="JobModel.DisplayIndex">
+    <value>Afiseaza index</value>
+  </data>
+  <data name="JobModel.IESysKeyId">
+    <value>Sistem interfata</value>
+  </data>
+  <data name="JobModel.JGrpKeyId">
+    <value>Grup post</value>
+  </data>
+  <data name="JobModel.KeyId">
+    <value>ID Post</value>
+  </data>
+  <data name="JobModel.LastPackageId">
+    <value>ID Ultima impachetare</value>
+  </data>
+  <data name="JobModel.MasterjobKeyId">
+    <value>Post conducator</value>
+  </data>
+  <data name="JobModel.Moveable">
+    <value>Movable</value>
+  </data>
+  <data name="JobModel.Name">
+    <value>Nume</value>
+  </data>
+  <data name="JobModel.Schedule">
+    <value>Orar</value>
+  </data>
+  <data name="JobModel.SysConfigData">
+    <value>Date configuratie sistem</value>
+  </data>
+  <data name="JobModel.SysName">
+    <value>Nume sistem</value>
+  </data>
+  <data name="JobModel.TypeId">
+    <value>ID Tip</value>
+  </data>
+  <data name="OrderTemplateModel.Created">
+    <value></value>
+  </data>
+  <data name="OrderTemplateModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="OrderTemplateModel.Modified">
+    <value></value>
+  </data>
+  <data name="OrderTemplateModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="OrderTemplateModel.KeyId">
+    <value>ID Sablon comanda</value>
+  </data>
+  <data name="OrderTemplateModel.Name">
+    <value>Nume</value>
+  </data>
+  <data name="OrderTemplateModel.OrgInvoiceDirect">
+    <value>Direct factura</value>
+  </data>
+  <data name="OrderTemplateModel.OrgRefCustKeyId">
+    <value>Org. client</value>
+  </data>
+  <data name="OrderTemplateModel.OrgRefFacKeyId">
+    <value>Org. fabrica</value>
+  </data>
+  <data name="OrderTemplateModel.OrgRefSuppKeyId">
+    <value>Org. furnizor</value>
+  </data>
+  <data name="OrderTemplateModel.OrgRefText">
+    <value>Org. ref. text</value>
+  </data>
+  <data name="OrderTemplateModel.OrgRefText2">
+    <value>Org. ref. text 2</value>
+  </data>
+  <data name="OrderTemplateModel.OrgRemark">
+    <value>Org. remarca</value>
+  </data>
+  <data name="OrderTemplateModel.OrgStokKeyId">
+    <value>Org. stoc</value>
+  </data>
+  <data name="OrderTemplateModel.OTpTKeyId">
+    <value>Tip</value>
+  </data>
+  <data name="OrderTemplateModel.RefOpTKeyId">
+    <value>Proprietar (Tip operatie)</value>
+  </data>
+  <data name="OrderTemplateModel.RefProTKeyId">
+    <value>Proprietar (Tip operatie)</value>
+  </data>
+  <data name="OrderTemplateModel.SuppRefFacKeyId">
+    <value>Fabrica fur.</value>
+  </data>
+  <data name="OrderTemplateModel.SuppRefSuppKeyId">
+    <value>Furnizor fur.</value>
+  </data>
+  <data name="OrderTemplateModel.SuppRefText">
+    <value>Text ref. fur.</value>
+  </data>
+  <data name="OrderTemplateModel.SuppRefText2">
+    <value>Text ref. sup. 2</value>
+  </data>
+  <data name="OrderTemplateModel.SuppRemark">
+    <value>Remarca fur.</value>
+  </data>
+  <data name="OrderTemplateModel.SuppStokKeyId">
+    <value>Stoc fur.</value>
+  </data>
+  <data name="OrderTemplateModel.Template">
+    <value>Sablon</value>
+  </data>
+  <data name="InterfaceSystemsModel.Description">
+    <value>Descriere</value>
+  </data>
+  <data name="InterfaceSystemsModel.Id">
+    <value>ID Sistem</value>
+  </data>
+  <data name="InterfaceSystemsModel.KeyId">
+    <value>ID Sistem interfata</value>
+  </data>
+  <data name="InterfaceSystemsModel.Name">
+    <value>Nume</value>
+  </data>
+  <data name="JobGroupModel.Description">
+    <value>Descriere</value>
+  </data>
+  <data name="JobGroupModel.Disabled">
+    <value>Dezactivat</value>
+  </data>
+  <data name="JobGroupModel.DisplayIndex">
+    <value>Afiseaza index</value>
+  </data>
+  <data name="JobGroupModel.FoJSrvKeyId">
+    <value>Fail over Job server</value>
+  </data>
+  <data name="JobGroupModel.FoStop">
+    <value>Stop</value>
+  </data>
+  <data name="JobGroupModel.JobType">
+    <value>Job type</value>
+  </data>
+  <data name="JobGroupModel.JSrvKeyId">
+    <value>Job server</value>
+  </data>
+  <data name="JobGroupModel.KeyId">
+    <value>Job group ID</value>
+  </data>
+  <data name="JobGroupModel.Name">
+    <value>Nume</value>
+  </data>
+  <data name="JobGroupModel.SysId">
+    <value>ID Sistem</value>
+  </data>
+  <data name="JobGroupModel.SysName">
+    <value>Nume sistem</value>
+  </data>
+  <data name="JobGroupModel.Type">
+    <value>Tip</value>
+  </data>
+  <data name="OrderTemplateTypeModel.Created">
+    <value></value>
+  </data>
+  <data name="OrderTemplateTypeModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="OrderTemplateTypeModel.Modified">
+    <value></value>
+  </data>
+  <data name="OrderTemplateTypeModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="OrderTemplateTypeModel.KeyId">
+    <value>ID Tip sablon</value>
+  </data>
+  <data name="OrderTemplateTypeModel.Name">
+    <value>Nume</value>
+  </data>
+  <data name="OrderTemplateTypeModel.Remark">
+    <value>Remarca</value>
+  </data>
+  <data name="OrderTemplateTypeModel.Type">
+    <value>Tip</value>
+  </data>
+  <data name="JobServerModel.ConfigData">
+    <value>Date configuratie</value>
+  </data>
+  <data name="JobServerModel.Description">
+    <value>Descriere</value>
+  </data>
+  <data name="JobServerModel.HeartBeat">
+    <value>Last heartbeat</value>
+  </data>
+  <data name="JobServerModel.KeyId">
+    <value>ID Server Post</value>
+  </data>
+  <data name="JobServerModel.LinkStatId">
+    <value>ID Statii legatura</value>
+  </data>
+  <data name="JobServerModel.Name">
+    <value>Nume</value>
+  </data>
+  <data name="CompositeModel.AltRefKeyId">
+    <value>Articol alternativ</value>
+  </data>
+  <data name="CompositeModel.CompItemKeyId">
+    <value>Articol Compozit</value>
+  </data>
+  <data name="CompositeModel.Count">
+    <value>Numaratoare</value>
+  </data>
+  <data name="CompositeModel.CriticalCount">
+    <value>Critic</value>
+  </data>
+  <data name="CompositeModel.HasAlternative">
+    <value>Has alternative</value>
+  </data>
+  <data name="CompositeModel.IdentLineUsage">
+    <value>Identical line usage</value>
+  </data>
+  <data name="CompositeModel.Key">
+    <value>Cheie</value>
+  </data>
+  <data name="CompositeModel.Placement">
+    <value>Plasament</value>
+  </data>
+  <data name="CompositeModel.Position">
+    <value>Poz</value>
+  </data>
+  <data name="CompositeModel.RefItemKeyId">
+    <value>Articol</value>
+  </data>
+  <data name="CompositeModel.RefTextKeyId">
+    <value>Text</value>
+  </data>
+  <data name="CompositeModel.SplitTagNo">
+    <value>Grup marcaj</value>
+  </data>
+  <data name="CompositeModel.Text">
+    <value>Text</value>
+  </data>
+  <data name="TagContentModel.AutoInc">
+    <value>Cheie</value>
+  </data>
+  <data name="TagContentModel.ChildTagsKeyId">
+    <value>Marcaj Copil</value>
+  </data>
+  <data name="TagContentModel.ChPlKeyId">
+    <value>Plasament camera</value>
+  </data>
+  <data name="TagContentModel.IndicIndicator">
+    <value>Indicator</value>
+  </data>
+  <data name="TagContentModel.ItemCount">
+    <value>Numarare Articol</value>
+  </data>
+  <data name="TagContentModel.ItemKeyId">
+    <value>Articol</value>
+  </data>
+  <data name="TagContentModel.LocaKeyId">
+    <value>Locatie</value>
+  </data>
+  <data name="TagContentModel.LotInKeyId">
+    <value>Informatii LOT</value>
+  </data>
+  <data name="TagContentModel.OLnKey">
+    <value>Linie comanda</value>
+  </data>
+  <data name="TagContentModel.SeriKeyId">
+    <value>Numar serial</value>
+  </data>
+  <data name="TagContentModel.SplitUnit">
+    <value>Unitate divizare</value>
+  </data>
+  <data name="TagContentModel.TagsKeyId">
+    <value>Marcaj</value>
+  </data>
+  <data name="TagContentModel.Time">
+    <value>Timp</value>
+  </data>
+  <data name="TagContentModel.UnitUnit">
+    <value>Unitate</value>
+  </data>
+  <data name="EventModel.Created">
+    <value></value>
+  </data>
+  <data name="EventModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="EventModel.Modified">
+    <value></value>
+  </data>
+  <data name="EventModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="EventModel.Event">
+    <value>Eveniment</value>
+  </data>
+  <data name="EventModel.Eventsystype">
+    <value>Tip sistem</value>
+  </data>
+  <data name="EventModel.Eventtype">
+    <value>Tip eveniment</value>
+  </data>
+  <data name="EventModel.Info">
+    <value>Info</value>
+  </data>
+  <data name="EventModel.KeyId">
+    <value>ID Eveniment</value>
+  </data>
+  <data name="EventModel.PloKeyId">
+    <value>Pozitie/Locatie</value>
+  </data>
+  <data name="EventModel.RefKeyId">
+    <value>Bazat pe</value>
+  </data>
+  <data name="EventModel.Sysdata">
+    <value>Date sistem</value>
+  </data>
+  <data name="EventModel.System">
+    <value>Sistem</value>
+  </data>
+  <data name="EventModel.Time">
+    <value>Event time</value>
+  </data>
+  <data name="EventModel.Type">
+    <value>Tip</value>
+  </data>
+  <data name="StockModel.AutoCreated">
+    <value>Autocreat</value>
+  </data>
+  <data name="StockModel.DesiredCount">
+    <value>Norm.</value>
+  </data>
+  <data name="StockModel.Identlineusage">
+    <value>Identical line usage</value>
+  </data>
+  <data name="StockModel.InventoryActive">
+    <value>Inv. activ</value>
+  </data>
+  <data name="StockModel.InventoryCount">
+    <value>Numarare Inv.</value>
+  </data>
+  <data name="StockModel.InventoryPhysCount">
+    <value>Actual</value>
+  </data>
+  <data name="StockModel.InventoryPhysTime">
+    <value>Actual time</value>
+  </data>
+  <data name="StockModel.InventoryPhysUserKeyId">
+    <value>Utilizator</value>
+  </data>
+  <data name="StockModel.InventoryTime">
+    <value>Ultimul inventar</value>
+  </data>
+  <data name="StockModel.InventoryUserKeyId">
+    <value>Inv. user</value>
+  </data>
+  <data name="StockModel.MaxCount">
+    <value>Max.</value>
+  </data>
+  <data name="StockModel.MinCount">
+    <value>Min.</value>
+  </data>
+  <data name="StockModel.MonthUsage">
+    <value>Utilizare luna</value>
+  </data>
+  <data name="StockModel.OnStock">
+    <value>Pe stoc</value>
+  </data>
+  <data name="StockModel.OrderedCount">
+    <value>Cmd.</value>
+  </data>
+  <data name="StockModel.Pickhere">
+    <value>Selectie</value>
+  </data>
+  <data name="StockModel.Placement">
+    <value>Plasament</value>
+  </data>
+  <data name="StockModel.ProductionCount">
+    <value>Numaratoare prod.</value>
+  </data>
+  <data name="StockModel.RefItemKeyId">
+    <value>Articol (Element)</value>
+  </data>
+  <data name="StockModel.RefProdKeyId">
+    <value>Articol (Produs)</value>
+  </data>
+  <data name="StockModel.ReservedCount">
+    <value>Rezervat</value>
+  </data>
+  <data name="StockModel.StokKeyId">
+    <value>Stoc</value>
+  </data>
+  <data name="StockModel.SuppOrderMinCount">
+    <value>Dimensiune min. comanda</value>
+  </data>
+  <data name="StockModel.SuppOrderStdCount">
+    <value>Dimensiune pachet comanda</value>
+  </data>
+  <data name="StockModel.SuppRefFacKeyId">
+    <value>Fabrica fur.</value>
+  </data>
+  <data name="StockModel.SuppRefSuppKeyId">
+    <value>Furnizor fur.</value>
+  </data>
+  <data name="ProductModel">
+    <value>Produse</value>
+  </data>
+  <data name="UserModel">
+    <value>Utilizatori</value>
+  </data>
+  <data name="CountingPointSetModel">
+    <value>Counting point groups</value>
+  </data>
+  <data name="CustSiteModel">
+    <value>Amplasamente client</value>
+  </data>
+  <data name="CustomerModel">
+    <value>Clienti</value>
+  </data>
+  <data name="EndoDryingMethodsModel">
+    <value>Metode uscare endoscop</value>
+  </data>
+  <data name="ProgramGroupModel">
+    <value>Grupuri program</value>
+  </data>
+  <data name="FactoryModel">
+    <value>Fabrici</value>
+  </data>
+  <data name="FastTrackCodeModel">
+    <value>Coduri circuit rapid</value>
+  </data>
+  <data name="FastTrackPlanModel">
+    <value>Planuri circuit rapid</value>
+  </data>
+  <data name="FastTrackTemplateModel">
+    <value>Fast track groups</value>
+  </data>
+  <data name="HandlingTypesModel">
+    <value>Handling types</value>
+  </data>
+  <data name="IdenticalArticleGroupModel">
+    <value>Identical article groups</value>
+  </data>
+  <data name="ItemModel">
+    <value>Articole </value>
+  </data>
+  <data name="PackingModel">
+    <value>Impachetari</value>
+  </data>
+  <data name="PriceGroupModel">
+    <value>Grupuri pret</value>
+  </data>
+  <data name="TimeRuleGroupModel">
+    <value>Expire time group</value>
+  </data>
+  <data name="WeightPlanModel">
+    <value>Planuri cantarire</value>
+  </data>
+  <data name="ProfileModel">
+    <value>Profiluri utilizator</value>
+  </data>
+  <data name="CalendarModel">
+    <value>Calendar</value>
+  </data>
+  <data name="StocksModel">
+    <value>Stocuri</value>
+  </data>
+  <data name="StockGroupModel">
+    <value>Grupuri stoc</value>
+  </data>
+  <data name="ProcessModel">
+    <value>Procese</value>
+  </data>
+  <data name="SupplierModel">
+    <value>Furnizori</value>
+  </data>
+  <data name="LocationModel">
+    <value>Locatii</value>
+  </data>
+  <data name="FixedStockPlacementsModel">
+    <value>Plasamente stoc fixat</value>
+  </data>
+  <data name="TextModel">
+    <value>Text</value>
+  </data>
+  <data name="LocationGroupModel">
+    <value>Grupuri locatie</value>
+  </data>
+  <data name="CatalogModel">
+    <value>Catalog</value>
+  </data>
+  <data name="ItemGroupModel">
+    <value>Grupuri articol</value>
+  </data>
+  <data name="ItemSpecialtyModel">
+    <value>Specialitati articol</value>
+  </data>
+  <data name="ItemUOMModel">
+    <value>Unitati de masura</value>
+  </data>
+  <data name="TagTypeModel">
+    <value>Tag types</value>
+  </data>
+  <data name="SealerProgramModel">
+    <value>Programe sigilare</value>
+  </data>
+  <data name="EmgCaseCartTypeModel">
+    <value>Emergency case cart type</value>
+  </data>
+  <data name="OperationTypeModel">
+    <value>Tipuri operatii</value>
+  </data>
+  <data name="MachineModel">
+    <value>Masini</value>
+  </data>
+  <data name="ProgramModel">
+    <value>Programe</value>
+  </data>
+  <data name="ProgramRecipeModel">
+    <value>Retete program</value>
+  </data>
+  <data name="MacroModel">
+    <value>Macrocomenzi scaner</value>
+  </data>
+  <data name="UILayerDefModel">
+    <value>UI Definitii strat</value>
+  </data>
+  <data name="IdenticalTagTypeGroupModel">
+    <value>Identical tag type group</value>
+  </data>
+  <data name="RoomModel">
+    <value>Sali</value>
+  </data>
+  <data name="AGSModel">
+    <value>AGS</value>
+  </data>
+  <data name="MachineTypeModel">
+    <value>Modele masina</value>
+  </data>
+  <data name="QuestionSetModel">
+    <value>Seturi intrebari</value>
+  </data>
+  <data name="LoadingEquipmentModel">
+    <value>Echipament incarcare</value>
+  </data>
+  <data name="UnitModel">
+    <value>Unitati</value>
+  </data>
+  <data name="TagsModel">
+    <value>Marcaje</value>
+  </data>
+  <data name="OperationDataModel">
+    <value>Date operatie</value>
+  </data>
+  <data name="SerialModel">
+    <value>Numere seriale</value>
+  </data>
+  <data name="DoctorModel">
+    <value>Doctori</value>
+  </data>
+  <data name="PatientModel">
+    <value>Pacienti</value>
+  </data>
+  <data name="OrderModel">
+    <value>Comenzi</value>
+  </data>
+  <data name="JobModel">
+    <value>Posturi</value>
+  </data>
+  <data name="OrderTemplateModel">
+    <value>Sabloane comanda</value>
+  </data>
+  <data name="InterfaceSystemsModel">
+    <value>Sisteme interfata</value>
+  </data>
+  <data name="JobGroupModel">
+    <value>Grupuri Post</value>
+  </data>
+  <data name="OrderTemplateTypeModel">
+    <value>Tipuri sablon comanda</value>
+  </data>
+  <data name="JobServerModel">
+    <value>Servere post</value>
+  </data>
+  <data name="CompositeModel">
+    <value>Liste compozite</value>
+  </data>
+  <data name="TagContentModel">
+    <value>Continut Marcat</value>
+  </data>
+  <data name="EventModel">
+    <value>Evenimente</value>
+  </data>
+  <data name="StockModel">
+    <value>Definitie stoc</value>
+  </data>
+</root>

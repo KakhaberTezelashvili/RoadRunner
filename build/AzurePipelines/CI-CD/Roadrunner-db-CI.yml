@@ -1,0 +1,64 @@
+trigger: none
+resources:
+  repositories:
+    - repository: Roadrunner_testing
+      name: TDOC/RoadrunnerTesting
+      type: git
+      ref: main
+      trigger:
+        branches:
+          include:
+          - main
+        paths:
+          include:
+          - Testing/DBBACKUP.BAK
+stages:
+# ##############################
+# # Build and Push Image Stage #
+# ##############################
+- stage: BuildPushImage
+  variables:
+  - group: pipeline-secrets
+  - group: roadrunner
+  jobs:
+  - job: Build_roadrunner_db
+    displayName: Build & Push Image - Roadrunner-db
+    timeoutInMinutes: 20
+    steps:
+      - checkout: self
+      - checkout: Roadrunner_testing
+      - task: CopyFiles@2
+        displayName: 'Copy New DB-backup'
+        inputs:
+          SourceFolder: '$(System.DefaultWorkingDirectory)/RoadrunnerTesting/Testing'
+          Contents: |
+            DBBACKUP.BAK
+          TargetFolder: '$(System.DefaultWorkingDirectory)/Roadrunner/build/LocalInstaller/'
+      
+      - task: Docker@2
+        displayName: Login to ACR
+        inputs:
+          command: login
+          containerRegistry: 'crDHSTDocDevRoadrunnerTest'
+
+      - task: Docker@2
+        displayName: BUILD image Roadrunner-db
+        inputs:
+          containerRegistry: 'crDHSTDocDevRoadrunnerTest'
+          command: 'build'
+          buildContext: ./
+          repository: roadrunner-db
+          Dockerfile: $(System.DefaultWorkingDirectory)/Roadrunner/build/LocalInstaller/Dockerfile
+          tags: |
+              $(Build.BuildId)
+              latest
+
+      - task: Docker@2
+        displayName: PUSH image Roadrunner-db
+        inputs:
+          containerRegistry: 'crDHSTDocDevRoadrunnerTest'
+          command: 'push'
+          repository: roadrunner-db
+          tags: |
+              $(Build.BuildId)
+              latest

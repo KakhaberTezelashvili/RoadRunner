@@ -1,0 +1,54 @@
+parameters:
+- name: appAlias
+  type: string
+  default: unknown
+
+- name: dockerFile
+  type: string
+  default: unknown
+
+- name: imageName
+  type: string
+  default: unknown
+
+steps:
+  - checkout: self
+
+  - task: Docker@2
+    displayName: Login to ACR
+    inputs:
+      command: login
+      containerRegistry: 'crDHSTDocDevRoadrunnerTest'
+
+  - task: Docker@2
+    displayName: BUILD image (${{ parameters.appAlias }})
+    inputs:
+      containerRegistry: 'crDHSTDocDevRoadrunnerTest'
+      command: 'build'
+      buildContext: ./
+      repository: ${{ parameters.imageName }}
+      Dockerfile: ${{ parameters.dockerFile }}
+      arguments: |
+          --build-arg PAT=$(Packaging.FullAccess.User.Token) 
+          --build-arg USERNAME=$(Packaging.FullAccess.User.Name) 
+          --build-arg DEPAT=$(Devexpress.FullAccess.User.Token) 
+          --build-arg DEUSERNAME=$(Devexpress.FullAccess.User.Name
+      tags: |
+          $(Build.BuildId)
+          latest
+
+  - task: Docker@2
+    condition: |
+      and
+      (
+      ne(variables['Build.Reason'], 'PullRequest'), 
+      eq(variables['Build.SourceBranch'], 'refs/heads/master')
+      )
+    displayName: PUSH image (${{ parameters.appAlias }})
+    inputs:
+      containerRegistry: 'crDHSTDocDevRoadrunnerTest'
+      command: 'push'
+      repository: ${{ parameters.imageName }}
+      tags: |
+          $(Build.BuildId)
+          latest

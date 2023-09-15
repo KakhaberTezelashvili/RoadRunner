@@ -1,0 +1,16 @@
+﻿<div id="toolbarButton@(Identifier)" 
+     class="toolbar-button align-items-center d-flex justify-content-center cursor-pointer @(extraCssClass)"
+     style="@extraCssStyle"
+     @onclick="OnClick">
+    <div class="text-center">
+        <div>
+            <img class="icon-size-24" src="@IconUrl" />
+        </div>
+        @if (!string.IsNullOrEmpty(Text))
+        {
+            <div class="font-size-12">
+                @Text
+            </div>
+        }
+    </div>
+</div>

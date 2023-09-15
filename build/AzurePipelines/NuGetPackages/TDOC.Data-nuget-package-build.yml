@@ -1,0 +1,18 @@
+# Building, packaging and pushing into repository NuGet package for TDOC.Data project.
+
+trigger:
+  batch: true
+  branches:
+    include:
+    - master
+  paths:
+    include:
+    - Domain/TDOC.Data
+pool:
+  vmImage: 'windows-2022'
+extends:
+  template: /AzurePipelines/Templates/build-pack-push-nuget-template.yml
+  parameters:
+    nugetAlias: 'TDOC.Data'
+    solution: 'Domain/TDOC.Data/TDOC.Data.csproj'
+    patchVersion: 7

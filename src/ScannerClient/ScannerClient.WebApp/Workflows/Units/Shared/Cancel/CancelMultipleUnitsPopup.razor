@@ -1,0 +1,37 @@
+﻿@using TDOC.WebComponents.Button
+
+<TdPopup Title="@_sharedLocalizer["cancelMultipleUnits"]"
+         Visible="visible"
+         Width="popupDimensions.Width"
+         Height="popupDimensions.Height"
+         PopupResizing="PopupResizing">
+    <BodyTemplate>
+        <div class="row">
+            @_sharedLocalizer["selectUnitsToCancel"]
+        </div>
+        <div class="row">
+            @UnitName
+        </div>
+        <div class="row selectable-list-box-header">
+            <TdCheckBox Checked="allSelected" CheckedChanged="ToggleAll" />
+        </div>
+        <div class="row">
+            <TdSelectableListBox @ref="refSelectableListBox" Height="listBoxHeight" Items="items" SelectedItemsChanged="SelectedItemsChanged" />
+        </div>
+        <div class="row pt-24px">
+            @selectedUnitsSummary
+        </div>
+        <div class="row">
+            @_sharedLocalizer["cancelSelectedUnits"]
+        </div>
+    </BodyTemplate>
+    <FooterTemplate>
+        <OkCancelButtonsPanel ButtonOkIdentifier="@($"{nameof(CancelMultipleUnitsPopup)}Ok")"
+                              ButtonCancelIdentifier="@($"{nameof(CancelMultipleUnitsPopup)}Cancel")"
+                              ButtonOkEnabled="ButtonOkEnabled()"
+                              ButtonOkText="@_tdSharedLocalizer["yes"]"
+                              ButtonCancelText="@_tdSharedLocalizer["no"]"
+                              ButtonOkClicked="ButtonOkClickedAsync"
+                              ButtonCancelClicked="HidePopup" />
+    </FooterTemplate>
+</TdPopup>

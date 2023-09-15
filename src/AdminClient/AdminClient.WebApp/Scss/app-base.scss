@@ -1,0 +1,72 @@
+﻿@import "td-variables";
+
+html, body {
+    font-size: $font-size;
+}
+
+/* begin: "main content" */
+@mixin main-block-height($h-main-header: $height-main-header, $h-main-menu: $height-main-menu, $h-main-footer: $height-main-footer) {
+    height: calc(100vh - #{$h-main-header} - #{$h-main-menu} - #{$h-main-footer});
+}
+
+.main-content-block {
+    @include main-block-height();
+}
+
+.embedded-main-content-block {
+    /* MainHeader and TdMenu are hidden */
+    @include main-block-height(0px, 0px, 0px);
+}
+/* end: "main content" */
+
+/* begin: override DevExpress components */
+
+/* begin: override DxDataGrid */
+.dxbs-grid-header-container > table.dxbs-table {
+    height: $grid-row-height;
+}
+
+.td-grid-row, .td-grid-row-selectable {
+    height: $grid-row-height;
+}
+/* end: override DxDataGrid */
+
+/* begin: override td-textbox */
+.td-textbox-input {
+    font-size: $font-size;
+}
+/* end: override td-textbox */
+
+/* begin: override td-combobox */
+.td-combobox-input {
+    font-size: $font-size;
+}
+/* end: override td-combobox */
+
+/* end: override DevExpress components */
+
+/* begin: override DevExtreme components */
+
+/* begin: override td-dx-popup */
+.dx-popup-title.dx-toolbar {
+    min-height: 40px;
+}
+
+.dx-popup-title.dx-toolbar .dx-toolbar-items-container{
+    height: 26px;
+}
+
+.dx-popup-title {
+    font-size: $font-size;
+}
+
+.dx-popup-content {
+    font-size: $font-size;
+}
+
+.dx-popup-title.dx-toolbar .dx-toolbar-label {
+    font-size: $font-size;
+}
+/* end: override td-dx-popup */
+
+/* end: override DevExtreme components*/

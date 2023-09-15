@@ -1,0 +1,10 @@
+﻿global using MediatR;
+global using Microsoft.AspNetCore.Components;
+global using Microsoft.Extensions.Localization;
+global using TDOC.Common.Client.Exceptions;
+global using TDOC.Common.Data.Enumerations;
+global using TDOC.Common.Data.Models.Errors;
+global using TDOC.Common.Data.Models.Grids;
+global using TDOC.Data.Models;
+global using TDOC.ModelToDbMapper;
+global using TDOC.ModelToDbMapper.Models;

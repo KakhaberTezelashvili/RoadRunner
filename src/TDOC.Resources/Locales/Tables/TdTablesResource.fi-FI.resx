@@ -1,0 +1,5216 @@
+<?xml version="1.0" encoding="utf-8"?><root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ProductModel.Created">
+    <value></value>
+  </data>
+  <data name="ProductModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="ProductModel.Modified">
+    <value></value>
+  </data>
+  <data name="ProductModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="ProductModel.AltNumber">
+    <value>Vaihtoehtoinen nro</value>
+  </data>
+  <data name="ProductModel.AvgOnSiteStoreTime">
+    <value>Keskim. varastointiaika asiakkaalla</value>
+  </data>
+  <data name="ProductModel.AvgOpDuration">
+    <value>Keskim. leikkauskesto</value>
+  </data>
+  <data name="ProductModel.Barcode">
+    <value>Viivakoodit</value>
+  </data>
+  <data name="ProductModel.BillingNum">
+    <value>Laskutusnro</value>
+  </data>
+  <data name="ProductModel.CntpsKeyId">
+    <value>Laskentapiste ryhmä</value>
+  </data>
+  <data name="ProductModel.Color">
+    <value>Väri</value>
+  </data>
+  <data name="ProductModel.Contamination">
+    <value>Kontaminaatioriski</value>
+  </data>
+  <data name="ProductModel.CuSiteKeyId">
+    <value>Asiakasryhmä</value>
+  </data>
+  <data name="ProductModel.CustKeyId">
+    <value>Asiakas</value>
+  </data>
+  <data name="ProductModel.Difficulty">
+    <value>Vaikeusaste</value>
+  </data>
+  <data name="ProductModel.DifficultyMode">
+    <value>Vaikeusastetila</value>
+  </data>
+  <data name="ProductModel.DispatchRestrict">
+    <value>Lähetyksen rajoitus</value>
+  </data>
+  <data name="ProductModel.Endodryingmethod">
+    <value>Endoskoopin kuivausmenetelmät</value>
+  </data>
+  <data name="ProductModel.EndoWashPrGrKeyId">
+    <value>Endoskooppipesukoneen ohjelma</value>
+  </data>
+  <data name="ProductModel.ExternalType">
+    <value>Ulkoinen tyyppi</value>
+  </data>
+  <data name="ProductModel.ExtLoanerId">
+    <value>Ulkoinen lainatunnus</value>
+  </data>
+  <data name="ProductModel.FacKeyId">
+    <value>Tuotantoyksikkö</value>
+  </data>
+  <data name="ProductModel.FactorySterilized">
+    <value>Tuotantoyksikkösteriloitu</value>
+  </data>
+  <data name="ProductModel.FixedPrice">
+    <value>Kiinteä hinta</value>
+  </data>
+  <data name="ProductModel.FTCoKeyId">
+    <value>Kiirekoodi</value>
+  </data>
+  <data name="ProductModel.FTPlKeyId">
+    <value>Kiiresuunnitelma</value>
+  </data>
+  <data name="ProductModel.FTTmpKeyId">
+    <value>Kiireryhmä</value>
+  </data>
+  <data name="ProductModel.GTIN">
+    <value>GTIN</value>
+  </data>
+  <data name="ProductModel.HandlingTime">
+    <value>Käsittelyaika</value>
+  </data>
+  <data name="ProductModel.HaTKeyId">
+    <value>Käsittelytyyppi</value>
+  </data>
+  <data name="ProductModel.InArtKeyId">
+    <value>Identtinen</value>
+  </data>
+  <data name="ProductModel.ItemKeyId">
+    <value>Nimike</value>
+  </data>
+  <data name="ProductModel.KeyId">
+    <value>Tuotetunnus</value>
+  </data>
+  <data name="ProductModel.LMProKeyId">
+    <value>Lainahallintaprofiili</value>
+  </data>
+  <data name="ProductModel.Loaner">
+    <value>Lainatuote</value>
+  </data>
+  <data name="ProductModel.LoanerType">
+    <value>Lainatyyppi</value>
+  </data>
+  <data name="ProductModel.PackKeyId">
+    <value>Pakkausmateriaali</value>
+  </data>
+  <data name="ProductModel.PackOnScreen">
+    <value>Pakkaus näytöllä</value>
+  </data>
+  <data name="ProductModel.Predis">
+    <value>Esidesinfektio</value>
+  </data>
+  <data name="ProductModel.PricingType">
+    <value>Hinnoittelutyyppi</value>
+  </data>
+  <data name="ProductModel.PriGrKeyId">
+    <value>Hintaryhmä</value>
+  </data>
+  <data name="ProductModel.PrintLabel">
+    <value>Tulosta etiketti</value>
+  </data>
+  <data name="ProductModel.PrintList">
+    <value>Tulosta luettelo</value>
+  </data>
+  <data name="ProductModel.Product">
+    <value>Tuote</value>
+  </data>
+  <data name="ProductModel.Remark">
+    <value>Huomautus</value>
+  </data>
+  <data name="ProductModel.ReqStockCount">
+    <value>Pyyd. varastomäärä</value>
+  </data>
+  <data name="ProductModel.ReservationMode">
+    <value>Varaus muoto</value>
+  </data>
+  <data name="ProductModel.Serialmask">
+    <value>Sarjanumeromaski</value>
+  </data>
+  <data name="ProductModel.Status">
+    <value>Tila</value>
+  </data>
+  <data name="ProductModel.SteriPrgrKeyId">
+    <value>Sterilointiohjelmaryhmä</value>
+  </data>
+  <data name="ProductModel.SteriVolume">
+    <value>Määrä steriloinnissa</value>
+  </data>
+  <data name="ProductModel.StockPlacement">
+    <value>Varastosijainti</value>
+  </data>
+  <data name="ProductModel.StorageType">
+    <value>Varastointi</value>
+  </data>
+  <data name="ProductModel.TotalCount">
+    <value>Yhteismäärä</value>
+  </data>
+  <data name="ProductModel.Traceability">
+    <value>Jäljitettävyys</value>
+  </data>
+  <data name="ProductModel.TraceType">
+    <value>Jäljitystyyppi</value>
+  </data>
+  <data name="ProductModel.TRGrpKeyId">
+    <value>Vanhenemisaikaryhmä</value>
+  </data>
+  <data name="ProductModel.Type">
+    <value>Tyyppi</value>
+  </data>
+  <data name="ProductModel.UserField01">
+    <value>Käyttäjäkenttä 1</value>
+  </data>
+  <data name="ProductModel.UserField02">
+    <value>Käyttäjäkenttä 2</value>
+  </data>
+  <data name="ProductModel.UserField03">
+    <value>Käyttäjäkenttä 3</value>
+  </data>
+  <data name="ProductModel.UserField04">
+    <value>Käyttäjäkenttä 4</value>
+  </data>
+  <data name="ProductModel.UserField05">
+    <value>Käyttäjäkenttä 5</value>
+  </data>
+  <data name="ProductModel.UserField06">
+    <value>Käyttäjäkenttä 6</value>
+  </data>
+  <data name="ProductModel.UserField07">
+    <value>Käyttäjäkenttä 7</value>
+  </data>
+  <data name="ProductModel.UserField08">
+    <value>Käyttäjäkenttä 8</value>
+  </data>
+  <data name="ProductModel.UserField09">
+    <value>Käyttäjäkenttä 9</value>
+  </data>
+  <data name="ProductModel.UserField10">
+    <value>Käyttäjäkenttä 10</value>
+  </data>
+  <data name="ProductModel.UserField11">
+    <value>Käyttäjäkenttä 11</value>
+  </data>
+  <data name="ProductModel.UserField12">
+    <value>Käyttäjäkenttä 12</value>
+  </data>
+  <data name="ProductModel.UserField13">
+    <value>Käyttäjäkenttä 13</value>
+  </data>
+  <data name="ProductModel.UserField14">
+    <value>Käyttäjäkenttä 14</value>
+  </data>
+  <data name="ProductModel.UserField15">
+    <value>Käyttäjäkenttä 15</value>
+  </data>
+  <data name="ProductModel.UserField16">
+    <value>Käyttäjäkenttä 16</value>
+  </data>
+  <data name="ProductModel.UserField17">
+    <value>Käyttäjäkenttä 17</value>
+  </data>
+  <data name="ProductModel.UserField18">
+    <value>Käyttäjäkenttä 18</value>
+  </data>
+  <data name="ProductModel.UserField19">
+    <value>Käyttäjäkenttä 19</value>
+  </data>
+  <data name="ProductModel.UserField20">
+    <value>Käyttäjäkenttä 20</value>
+  </data>
+  <data name="ProductModel.WasherVolume">
+    <value>Määrä pesussa</value>
+  </data>
+  <data name="ProductModel.WashPrgrKeyId">
+    <value>Pesuohjelmaryhmä</value>
+  </data>
+  <data name="ProductModel.Weight">
+    <value>Paino</value>
+  </data>
+  <data name="ProductModel.WeightDeltaCalcMode">
+    <value>Punnitus deltalaskennan muoto</value>
+  </data>
+  <data name="ProductModel.Weightdeltaunit">
+    <value>Punnitus delta yksikkö</value>
+  </data>
+  <data name="ProductModel.WeightDeltaValue">
+    <value>Punnitus delta arvo</value>
+  </data>
+  <data name="ProductModel.WeightDisposable">
+    <value>Kertakäyttöisten paino</value>
+  </data>
+  <data name="ProductModel.WeightMode">
+    <value>Paino muoto</value>
+  </data>
+  <data name="ProductModel.WeightNonDisposable">
+    <value>Monikäyttöisten paino</value>
+  </data>
+  <data name="ProductModel.WeightUsageEnabled">
+    <value>Käytä punnituksia</value>
+  </data>
+  <data name="ProductModel.WPlanKeyId">
+    <value>Punnitus</value>
+  </data>
+  <data name="UserModel.Created">
+    <value></value>
+  </data>
+  <data name="UserModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="UserModel.Modified">
+    <value></value>
+  </data>
+  <data name="UserModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="UserModel.Barcode">
+    <value>Viivakoodit</value>
+  </data>
+  <data name="UserModel.ChangePassword">
+    <value>Täytyy muuttaa salasana</value>
+  </data>
+  <data name="UserModel.Email">
+    <value>Sähköposti</value>
+  </data>
+  <data name="UserModel.FacKeyId">
+    <value>Tuotantoyksikkö</value>
+  </data>
+  <data name="UserModel.FailedLogins">
+    <value>Epäonnistuneet kirjautumiset</value>
+  </data>
+  <data name="UserModel.Initials">
+    <value>Nimikirjaimet</value>
+  </data>
+  <data name="UserModel.KeyId">
+    <value>Käyttäjätunnus</value>
+  </data>
+  <data name="UserModel.MobileNumber">
+    <value>Kännykkä nro</value>
+  </data>
+  <data name="UserModel.Name">
+    <value>Nimi</value>
+  </data>
+  <data name="UserModel.Password">
+    <value>Salasana</value>
+  </data>
+  <data name="UserModel.PasswordChanged">
+    <value>Viimeisin salasanamuutos</value>
+  </data>
+  <data name="UserModel.PasswordHistory">
+    <value>Salasanahistoria</value>
+  </data>
+  <data name="UserModel.PasswordSettings">
+    <value>Salasana-asetukset</value>
+  </data>
+  <data name="UserModel.ProfileKeyId">
+    <value>Ryhmä</value>
+  </data>
+  <data name="UserModel.PublicPWSalt">
+    <value>Julkinen</value>
+  </data>
+  <data name="UserModel.Status">
+    <value>Tila</value>
+  </data>
+  <data name="UserModel.UserField01">
+    <value>Käyttäjäkenttä 1</value>
+  </data>
+  <data name="UserModel.UserField02">
+    <value>Käyttäjäkenttä 2</value>
+  </data>
+  <data name="UserModel.UserField03">
+    <value>Käyttäjäkenttä 3</value>
+  </data>
+  <data name="UserModel.UserField04">
+    <value>Käyttäjäkenttä 4</value>
+  </data>
+  <data name="UserModel.UserField05">
+    <value>Käyttäjäkenttä 5</value>
+  </data>
+  <data name="UserModel.UserField06">
+    <value>Käyttäjäkenttä 6</value>
+  </data>
+  <data name="UserModel.UserField07">
+    <value>Käyttäjäkenttä 7</value>
+  </data>
+  <data name="UserModel.UserField08">
+    <value>Käyttäjäkenttä 8</value>
+  </data>
+  <data name="UserModel.UserField09">
+    <value>Käyttäjäkenttä 9</value>
+  </data>
+  <data name="UserModel.UserField10">
+    <value>Käyttäjäkenttä 10</value>
+  </data>
+  <data name="UserModel.UserField11">
+    <value>Käyttäjäkenttä 11</value>
+  </data>
+  <data name="UserModel.UserField12">
+    <value>Käyttäjäkenttä 12</value>
+  </data>
+  <data name="UserModel.UserField13">
+    <value>Käyttäjäkenttä 13</value>
+  </data>
+  <data name="UserModel.UserField14">
+    <value>Käyttäjäkenttä 14</value>
+  </data>
+  <data name="UserModel.UserField15">
+    <value>Käyttäjäkenttä 15</value>
+  </data>
+  <data name="UserModel.UserField16">
+    <value>Käyttäjäkenttä 16</value>
+  </data>
+  <data name="UserModel.UserField17">
+    <value>Käyttäjäkenttä 17</value>
+  </data>
+  <data name="UserModel.UserField18">
+    <value>Käyttäjäkenttä 18</value>
+  </data>
+  <data name="UserModel.UserField19">
+    <value>Käyttäjäkenttä 19</value>
+  </data>
+  <data name="UserModel.UserField20">
+    <value>Käyttäjäkenttä 20</value>
+  </data>
+  <data name="CountingPointSetModel.Created">
+    <value></value>
+  </data>
+  <data name="CountingPointSetModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="CountingPointSetModel.Modified">
+    <value></value>
+  </data>
+  <data name="CountingPointSetModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="CountingPointSetModel.Id">
+    <value>Tunnus</value>
+  </data>
+  <data name="CountingPointSetModel.KeyId">
+    <value>Laskentapiste ryhmätunnus</value>
+  </data>
+  <data name="CountingPointSetModel.Name">
+    <value>Nimi</value>
+  </data>
+  <data name="CountingPointSetModel.Remark">
+    <value>Huomautus</value>
+  </data>
+  <data name="CountingPointSetModel.Status">
+    <value>Tila</value>
+  </data>
+  <data name="CustSiteModel.Created">
+    <value></value>
+  </data>
+  <data name="CustSiteModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="CustSiteModel.Modified">
+    <value></value>
+  </data>
+  <data name="CustSiteModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="CustSiteModel.AvgOnSiteStoreTime">
+    <value>Keskim. varastointiaika asiakkaalla</value>
+  </data>
+  <data name="CustSiteModel.AvgOpDuration">
+    <value>Keskim. leikkauskesto</value>
+  </data>
+  <data name="CustSiteModel.CntpsKeyId">
+    <value>Laskentapiste ryhmä</value>
+  </data>
+  <data name="CustSiteModel.DelGLN">
+    <value>Toimitus GLN</value>
+  </data>
+  <data name="CustSiteModel.DelPKeyId">
+    <value>Kauttakulkutuotteen toimitussuunnitelma</value>
+  </data>
+  <data name="CustSiteModel.Descr">
+    <value>Huomautus</value>
+  </data>
+  <data name="CustSiteModel.GLN">
+    <value>Asiakasryhmä GLN</value>
+  </data>
+  <data name="CustSiteModel.IntPickTime">
+    <value>Paikallinen keräysaika</value>
+  </data>
+  <data name="CustSiteModel.IntTransTimeArrive">
+    <value>Paikall. saapuvakuljetusaika</value>
+  </data>
+  <data name="CustSiteModel.IntTransTimeDepart">
+    <value>Paikall. lähteväkuljetusaika</value>
+  </data>
+  <data name="CustSiteModel.KeyId">
+    <value>Asiakasryhmätunnus</value>
+  </data>
+  <data name="CustSiteModel.MinOrderLeadTime">
+    <value>Min. tilausaika ennen leikkausta</value>
+  </data>
+  <data name="CustSiteModel.Name">
+    <value>Nimi</value>
+  </data>
+  <data name="CustSiteModel.Site">
+    <value>Asiakasryhmä</value>
+  </data>
+  <data name="CustSiteModel.UserField01">
+    <value>Käyttäjäkenttä 1</value>
+  </data>
+  <data name="CustSiteModel.UserField02">
+    <value>Käyttäjäkenttä 2</value>
+  </data>
+  <data name="CustSiteModel.UserField03">
+    <value>Käyttäjäkenttä 3</value>
+  </data>
+  <data name="CustSiteModel.UserField04">
+    <value>Käyttäjäkenttä 4</value>
+  </data>
+  <data name="CustSiteModel.UserField05">
+    <value>Käyttäjäkenttä 5</value>
+  </data>
+  <data name="CustSiteModel.UserField06">
+    <value>Käyttäjäkenttä 6</value>
+  </data>
+  <data name="CustSiteModel.UserField07">
+    <value>Käyttäjäkenttä 7</value>
+  </data>
+  <data name="CustSiteModel.UserField08">
+    <value>Käyttäjäkenttä 8</value>
+  </data>
+  <data name="CustSiteModel.UserField09">
+    <value>Käyttäjäkenttä 9</value>
+  </data>
+  <data name="CustSiteModel.UserField10">
+    <value>Käyttäjäkenttä 10</value>
+  </data>
+  <data name="CustSiteModel.UserField11">
+    <value>Käyttäjäkenttä 11</value>
+  </data>
+  <data name="CustSiteModel.UserField12">
+    <value>Käyttäjäkenttä 12</value>
+  </data>
+  <data name="CustSiteModel.UserField13">
+    <value>Käyttäjäkenttä 13</value>
+  </data>
+  <data name="CustSiteModel.UserField14">
+    <value>Käyttäjäkenttä 14</value>
+  </data>
+  <data name="CustSiteModel.UserField15">
+    <value>Käyttäjäkenttä 15</value>
+  </data>
+  <data name="CustSiteModel.UserField16">
+    <value>Käyttäjäkenttä 16</value>
+  </data>
+  <data name="CustSiteModel.UserField17">
+    <value>Käyttäjäkenttä 17</value>
+  </data>
+  <data name="CustSiteModel.UserField18">
+    <value>Käyttäjäkenttä 18</value>
+  </data>
+  <data name="CustSiteModel.UserField19">
+    <value>Käyttäjäkenttä 19</value>
+  </data>
+  <data name="CustSiteModel.UserField20">
+    <value>Käyttäjäkenttä 20</value>
+  </data>
+  <data name="CustomerModel.Created">
+    <value></value>
+  </data>
+  <data name="CustomerModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="CustomerModel.Modified">
+    <value></value>
+  </data>
+  <data name="CustomerModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="CustomerModel.Account">
+    <value>Tili</value>
+  </data>
+  <data name="CustomerModel.Address1">
+    <value>Katuosoite</value>
+  </data>
+  <data name="CustomerModel.Address2">
+    <value>Katuosoite 2</value>
+  </data>
+  <data name="CustomerModel.AllowNonECCContent">
+    <value>Muiden hätätoimenpidevaunun tarvikkeiden toimitus</value>
+  </data>
+  <data name="CustomerModel.ArrivedLGrpKeyId">
+    <value>Saapuneiden paikkatietoryhmä</value>
+  </data>
+  <data name="CustomerModel.AvailablelgrpKeyId">
+    <value>Käytettävissä oleva paikkatietoryhmä</value>
+  </data>
+  <data name="CustomerModel.AvgOnSiteStoreTime">
+    <value>Keskim. varastointiaika asiakkaalla</value>
+  </data>
+  <data name="CustomerModel.AvgOpDuration">
+    <value>Keskim. leikkauskesto</value>
+  </data>
+  <data name="CustomerModel.Barcode">
+    <value>Viivakoodit</value>
+  </data>
+  <data name="CustomerModel.CalKeyId">
+    <value>Kalenteri</value>
+  </data>
+  <data name="CustomerModel.CanOrder">
+    <value>Voi lähettää tilauksia</value>
+  </data>
+  <data name="CustomerModel.ChargeOptions">
+    <value>Laskutusasetukset</value>
+  </data>
+  <data name="CustomerModel.City">
+    <value>Postinro/-toimipaikka</value>
+  </data>
+  <data name="CustomerModel.CntpsKeyId">
+    <value>Laskentapiste ryhmä</value>
+  </data>
+  <data name="CustomerModel.Color">
+    <value>Väri</value>
+  </data>
+  <data name="CustomerModel.Country">
+    <value>Maa</value>
+  </data>
+  <data name="CustomerModel.CuSiteKeyId">
+    <value>Asiakasryhmä</value>
+  </data>
+  <data name="CustomerModel.Customer">
+    <value>Asiakas</value>
+  </data>
+  <data name="CustomerModel.DefStokKeyId">
+    <value>Oletusvarasto</value>
+  </data>
+  <data name="CustomerModel.DelAddress1">
+    <value>Toim. osoite</value>
+  </data>
+  <data name="CustomerModel.DelAddress2">
+    <value>Toim. osoite 2</value>
+  </data>
+  <data name="CustomerModel.DelCity">
+    <value>Toim. postinro &amp; tmp</value>
+  </data>
+  <data name="CustomerModel.DelCountry">
+    <value>Toim. maa</value>
+  </data>
+  <data name="CustomerModel.DelEmail">
+    <value>Toim. s-posti</value>
+  </data>
+  <data name="CustomerModel.DelFax">
+    <value>Toim. faksi</value>
+  </data>
+  <data name="CustomerModel.DelGln">
+    <value>Toimitus GLN</value>
+  </data>
+  <data name="CustomerModel.DeliveryNote">
+    <value>Lähetysluettelo</value>
+  </data>
+  <data name="CustomerModel.DelPKeyId">
+    <value>Kauttakulkutuotteen toimitussuunnitelma</value>
+  </data>
+  <data name="CustomerModel.DelTelephone">
+    <value>Toim. puh.</value>
+  </data>
+  <data name="CustomerModel.Email">
+    <value>Sähköposti</value>
+  </data>
+  <data name="CustomerModel.EndoSETime">
+    <value>Endo vakio vanh.aika</value>
+  </data>
+  <data name="CustomerModel.External">
+    <value>Ulkoinen</value>
+  </data>
+  <data name="CustomerModel.FacKeyId">
+    <value>Tuotantoyksikkö</value>
+  </data>
+  <data name="CustomerModel.Fax">
+    <value>Faksi</value>
+  </data>
+  <data name="CustomerModel.Flags1">
+    <value>Asetukset</value>
+  </data>
+  <data name="CustomerModel.Gln">
+    <value>GLN</value>
+  </data>
+  <data name="CustomerModel.IntPickTime">
+    <value>Paikallinen keräysaika</value>
+  </data>
+  <data name="CustomerModel.IntTransTimeArrive">
+    <value>Paikall. saapuvakuljetusaika</value>
+  </data>
+  <data name="CustomerModel.IntTransTimeDepart">
+    <value>Paikall. lähteväkuljetusaika</value>
+  </data>
+  <data name="CustomerModel.InvoiceCustKeyId">
+    <value>Laskutusasiakas</value>
+  </data>
+  <data name="CustomerModel.InvoiceRebate">
+    <value>Laskukorjaus (%)</value>
+  </data>
+  <data name="CustomerModel.KeyId">
+    <value>Asiakastunnus</value>
+  </data>
+  <data name="CustomerModel.LineRebate">
+    <value>Rivikorjaus (%)</value>
+  </data>
+  <data name="CustomerModel.MinOrderLeadTime">
+    <value>Min. tilausaika ennen leikkausta</value>
+  </data>
+  <data name="CustomerModel.Name">
+    <value>Nimi</value>
+  </data>
+  <data name="CustomerModel.OrderBookingMode">
+    <value>Tilauksen varaustila</value>
+  </data>
+  <data name="CustomerModel.PreDispatchMode">
+    <value>Esilähetys</value>
+  </data>
+  <data name="CustomerModel.Remark">
+    <value>Huomautus</value>
+  </data>
+  <data name="CustomerModel.Reordermode">
+    <value>Uudelleentilaus palautuksessa</value>
+  </data>
+  <data name="CustomerModel.ShortName">
+    <value>Lyhyt nimi</value>
+  </data>
+  <data name="CustomerModel.Status">
+    <value>Tila</value>
+  </data>
+  <data name="CustomerModel.StGrKeyId">
+    <value>Varastoryhmä</value>
+  </data>
+  <data name="CustomerModel.TagsSurvive">
+    <value>Liput selviytyvät</value>
+  </data>
+  <data name="CustomerModel.Telephone">
+    <value>Puhelin</value>
+  </data>
+  <data name="CustomerModel.Traceability">
+    <value>Jäljitettävyys</value>
+  </data>
+  <data name="CustomerModel.UserField01">
+    <value>Käyttäjäkenttä 1</value>
+  </data>
+  <data name="CustomerModel.UserField02">
+    <value>Käyttäjäkenttä 2</value>
+  </data>
+  <data name="CustomerModel.UserField03">
+    <value>Käyttäjäkenttä 3</value>
+  </data>
+  <data name="CustomerModel.UserField04">
+    <value>Käyttäjäkenttä 4</value>
+  </data>
+  <data name="CustomerModel.UserField05">
+    <value>Käyttäjäkenttä 5</value>
+  </data>
+  <data name="CustomerModel.UserField06">
+    <value>Käyttäjäkenttä 6</value>
+  </data>
+  <data name="CustomerModel.UserField07">
+    <value>Käyttäjäkenttä 7</value>
+  </data>
+  <data name="CustomerModel.UserField08">
+    <value>Käyttäjäkenttä 8</value>
+  </data>
+  <data name="CustomerModel.UserField09">
+    <value>Käyttäjäkenttä 9</value>
+  </data>
+  <data name="CustomerModel.UserField10">
+    <value>Käyttäjäkenttä 10</value>
+  </data>
+  <data name="CustomerModel.UserField11">
+    <value>Käyttäjäkenttä 11</value>
+  </data>
+  <data name="CustomerModel.UserField12">
+    <value>Käyttäjäkenttä 12</value>
+  </data>
+  <data name="CustomerModel.UserField13">
+    <value>Käyttäjäkenttä 13</value>
+  </data>
+  <data name="CustomerModel.UserField14">
+    <value>Käyttäjäkenttä 14</value>
+  </data>
+  <data name="CustomerModel.UserField15">
+    <value>Käyttäjäkenttä 15</value>
+  </data>
+  <data name="CustomerModel.UserField16">
+    <value>Käyttäjäkenttä 16</value>
+  </data>
+  <data name="CustomerModel.UserField17">
+    <value>Käyttäjäkenttä 17</value>
+  </data>
+  <data name="CustomerModel.UserField18">
+    <value>Käyttäjäkenttä 18</value>
+  </data>
+  <data name="CustomerModel.UserField19">
+    <value>Käyttäjäkenttä 19</value>
+  </data>
+  <data name="CustomerModel.UserField20">
+    <value>Käyttäjäkenttä 20</value>
+  </data>
+  <data name="CustomerModel.WebPassword">
+    <value>Web/FTP salasana</value>
+  </data>
+  <data name="CustomerModel.WebSite">
+    <value>Web sivusto</value>
+  </data>
+  <data name="CustomerModel.WebUser">
+    <value>Web/FTP käyttäjä</value>
+  </data>
+  <data name="EndoDryingMethodsModel.KeyId">
+    <value>Endoskoopin kuivausmenetelmätunnus</value>
+  </data>
+  <data name="EndoDryingMethodsModel.Method">
+    <value>Menetelmä</value>
+  </data>
+  <data name="EndoDryingMethodsModel.Name">
+    <value>Nimi</value>
+  </data>
+  <data name="ProgramGroupModel.Color">
+    <value>Väri</value>
+  </data>
+  <data name="ProgramGroupModel.KeyId">
+    <value>Ohjelmaryhmätunnus</value>
+  </data>
+  <data name="ProgramGroupModel.Name">
+    <value>Nimi</value>
+  </data>
+  <data name="ProgramGroupModel.Remark">
+    <value>Huomautus</value>
+  </data>
+  <data name="ProgramGroupModel.Type">
+    <value>Tyyppi</value>
+  </data>
+  <data name="FactoryModel.Created">
+    <value></value>
+  </data>
+  <data name="FactoryModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="FactoryModel.Modified">
+    <value></value>
+  </data>
+  <data name="FactoryModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="FactoryModel.Address1">
+    <value>Katuosoite</value>
+  </data>
+  <data name="FactoryModel.Address2">
+    <value>Katuosoite 2</value>
+  </data>
+  <data name="FactoryModel.AllowSkipCleanAndTest">
+    <value>Salli esikäsittelyn ohitus</value>
+  </data>
+  <data name="FactoryModel.AllowSkipDispatch">
+    <value>Salli lähetyksen ohitus</value>
+  </data>
+  <data name="FactoryModel.AllowSkipReturn">
+    <value>Salli palautuksen ohitus</value>
+  </data>
+  <data name="FactoryModel.AutoPlayVideos">
+    <value>Näytä videot automaattisesti</value>
+  </data>
+  <data name="FactoryModel.Bioid">
+    <value>BIO ID</value>
+  </data>
+  <data name="FactoryModel.CalKeyId">
+    <value>Kalenteri</value>
+  </data>
+  <data name="FactoryModel.ChargeUsage">
+    <value>Veloita "Käyttö", kun palautetaan virheellä</value>
+  </data>
+  <data name="FactoryModel.City">
+    <value>Postinro/-toimipaikka</value>
+  </data>
+  <data name="FactoryModel.CntpsKeyId">
+    <value>Laskentapiste ryhmä</value>
+  </data>
+  <data name="FactoryModel.Country">
+    <value>Maa</value>
+  </data>
+  <data name="FactoryModel.CrossRefVendorKeyId">
+    <value>Ensisijainen toimittaja</value>
+  </data>
+  <data name="FactoryModel.CustNameDisplay">
+    <value>Käytä asiakkaan lyhytnimeä</value>
+  </data>
+  <data name="FactoryModel.CustOrdAcceptMode">
+    <value>Asiakastilauksen hyväksynnän käsittely</value>
+  </data>
+  <data name="FactoryModel.DecItemStockOnPack">
+    <value>Vähennä nimikevarastosta pakkauksessa</value>
+  </data>
+  <data name="FactoryModel.DeductItemsFromStock">
+    <value>Vähennä nimikkeet leikkausvarastosta</value>
+  </data>
+  <data name="FactoryModel.DefAdminLocaKeyId">
+    <value>Oletus Admin paikkatieto</value>
+  </data>
+  <data name="FactoryModel.DefAvgOnSiteStoreTime">
+    <value>Oletus keskim. varastointi asiakkaalla</value>
+  </data>
+  <data name="FactoryModel.DefAvgOpDuration">
+    <value>Oletus keskim. leikkauksen kesto</value>
+  </data>
+  <data name="FactoryModel.DefDispatchRestrict">
+    <value>Oletuslähetyksenrajoitus</value>
+  </data>
+  <data name="FactoryModel.DefItemShelvingTime">
+    <value>Nimikkeen oletushyllytysaika</value>
+  </data>
+  <data name="FactoryModel.DefItemStokKeyId">
+    <value>Oletusnimikevarasto</value>
+  </data>
+  <data name="FactoryModel.DefMESPickingCapacity">
+    <value>Tuntikohtainen keräilykapasiteetti</value>
+  </data>
+  <data name="FactoryModel.DefMESResvStokKeyId">
+    <value>Automatisoitu varausvarasto</value>
+  </data>
+  <data name="FactoryModel.DefMESStokKeyId">
+    <value>Automatisoitu keräilyvarasto</value>
+  </data>
+  <data name="FactoryModel.DefOrdSuppStokKeyId">
+    <value>Oletus asiakastilausvarasto</value>
+  </data>
+  <data name="FactoryModel.DefProdTraceType">
+    <value>Oletus jäljitystyyppi tuotteelle</value>
+  </data>
+  <data name="FactoryModel.DefProductStokKeyId">
+    <value>Oletus tuotevarasto</value>
+  </data>
+  <data name="FactoryModel.DefSerialDispRestrict">
+    <value>Oletus sarjanron lähetyksen rajoitus</value>
+  </data>
+  <data name="FactoryModel.DefSuppCalKeyId">
+    <value>Toimittajan oletuskalenteri</value>
+  </data>
+  <data name="FactoryModel.DefSuppOrderDelTime">
+    <value>Toimittajan oletustoimitusaika</value>
+  </data>
+  <data name="FactoryModel.DefSuppOrderHandlTime">
+    <value>Toimittajan oletuskäsittelyaika</value>
+  </data>
+  <data name="FactoryModel.DefSuppOrderRampTime">
+    <value>Toimittajan oletusramppiaika</value>
+  </data>
+  <data name="FactoryModel.DefSuppOrderTransTime">
+    <value>Toimittajan oletuskuljetusaika</value>
+  </data>
+  <data name="FactoryModel.DefWPlanKeyId">
+    <value>Oletus punnitus</value>
+  </data>
+  <data name="FactoryModel.DelAddress1">
+    <value>Toim. osoite</value>
+  </data>
+  <data name="FactoryModel.DelAddress2">
+    <value>Toim. osoite 2</value>
+  </data>
+  <data name="FactoryModel.DelCity">
+    <value>Toim. postinro &amp; tmp</value>
+  </data>
+  <data name="FactoryModel.DelCountry">
+    <value>Toim. maa</value>
+  </data>
+  <data name="FactoryModel.DelEmail">
+    <value>Toim. s-posti</value>
+  </data>
+  <data name="FactoryModel.DelFax">
+    <value>Toim. faksi</value>
+  </data>
+  <data name="FactoryModel.DelPKeyId">
+    <value>Kauttakulkutuotteen toimitussuunnitelma</value>
+  </data>
+  <data name="FactoryModel.DeltaScanMode">
+    <value>Deltaskannaustila</value>
+  </data>
+  <data name="FactoryModel.DelTelephone">
+    <value>Toim. puh.</value>
+  </data>
+  <data name="FactoryModel.DropItemSuppOpOrders">
+    <value>Älä käytä toimittajaa leikkaus tilauksissa</value>
+  </data>
+  <data name="FactoryModel.Email">
+    <value>Sähköposti</value>
+  </data>
+  <data name="FactoryModel.EndoCycleToCab">
+    <value>Aika ajosta kaappiin</value>
+  </data>
+  <data name="FactoryModel.EndoDefCabKeyId">
+    <value>Oletuskaappi</value>
+  </data>
+  <data name="FactoryModel.EndoDefFSPlKeyId">
+    <value>Oletus varastosijainti</value>
+  </data>
+  <data name="FactoryModel.Endodryingmode">
+    <value>Manuaalinen kuivaus</value>
+  </data>
+  <data name="FactoryModel.EndoHaTKeyId">
+    <value>Käsittelytyyppi</value>
+  </data>
+  <data name="FactoryModel.EndoSETime">
+    <value>Endo vakio vanh.aika</value>
+  </data>
+  <data name="FactoryModel.EndoShelfDelay">
+    <value>Endo hyllyviive aika</value>
+  </data>
+  <data name="FactoryModel.EndoShelfRelTime">
+    <value>Endo suhteellinen hyllyviive aika</value>
+  </data>
+  <data name="FactoryModel.EquipmentUsage">
+    <value>Käytä välineistötietoa</value>
+  </data>
+  <data name="FactoryModel.Expiretype">
+    <value>Vanhenemistyyppi</value>
+  </data>
+  <data name="FactoryModel.Facrestrictmode">
+    <value>Tuotantoyksikkörajoitustila</value>
+  </data>
+  <data name="FactoryModel.Factory">
+    <value>Tuotantoyksikkö</value>
+  </data>
+  <data name="FactoryModel.Fax">
+    <value>Faksi</value>
+  </data>
+  <data name="FactoryModel.FixedPrices">
+    <value>Käytä kiinteitä hintoja</value>
+  </data>
+  <data name="FactoryModel.Flags1">
+    <value>Asetukset 1</value>
+  </data>
+  <data name="FactoryModel.Flags2">
+    <value>Asetukset 2</value>
+  </data>
+  <data name="FactoryModel.FTMaxCodeDuration">
+    <value>Kiirekoodin päättyminen</value>
+  </data>
+  <data name="FactoryModel.FTMaxPlanDuration">
+    <value>Kiiresuunnitelman päättyminen</value>
+  </data>
+  <data name="FactoryModel.FTPlKeyId">
+    <value>Kiiresuunnitelma</value>
+  </data>
+  <data name="FactoryModel.GuestprofKeyId">
+    <value>Vieraan käyttäjäprofiili</value>
+  </data>
+  <data name="FactoryModel.HourCosts">
+    <value>Tuntikustannukset</value>
+  </data>
+  <data name="FactoryModel.IncItemStockOnPack">
+    <value>Lisää nimikevarastoon pakkauksessa</value>
+  </data>
+  <data name="FactoryModel.IndicApproveLocaKeyId">
+    <value>Indikaattorin hyväksyntä paikkatieto</value>
+  </data>
+  <data name="FactoryModel.IndicDisappLocaKeyId">
+    <value>Indikaattorin hylkäys paikkatieto</value>
+  </data>
+  <data name="FactoryModel.IndicPendingLocaKeyId">
+    <value>Indikaattorin odotuspaikkatieto</value>
+  </data>
+  <data name="FactoryModel.InvoiceLocktime">
+    <value>Laskun lukituspvm</value>
+  </data>
+  <data name="FactoryModel.ItemAltPriceMode">
+    <value>Vaiht. nimike hinnoittelu tila</value>
+  </data>
+  <data name="FactoryModel.ItemDispAltPriceMode">
+    <value>Vaiht. kertakäytt. nimikkeen hinnoittelu tila</value>
+  </data>
+  <data name="FactoryModel.ItemDispPriceMode">
+    <value>Kertakäyttöisten nimikkeiden hinnoittelu tila</value>
+  </data>
+  <data name="FactoryModel.ItemPriceMode">
+    <value>Nimike hinnoittelu tila</value>
+  </data>
+  <data name="FactoryModel.KeyId">
+    <value>Tuotantoyksikkötunnus</value>
+  </data>
+  <data name="FactoryModel.LoadnumberUsage">
+    <value>Kuormanumeron käyttö</value>
+  </data>
+  <data name="FactoryModel.MinOrderLeadTime">
+    <value>Min. tilausaika ennen leikkausta</value>
+  </data>
+  <data name="FactoryModel.MinOrderLeadTimeMode">
+    <value>Aikatila</value>
+  </data>
+  <data name="FactoryModel.MoneyRounding">
+    <value>Pyöristys</value>
+  </data>
+  <data name="FactoryModel.Name">
+    <value>Nimi</value>
+  </data>
+  <data name="FactoryModel.OrderBookingMode">
+    <value>Tilauksen varaustila</value>
+  </data>
+  <data name="FactoryModel.PreDispatch">
+    <value>Esilähetys</value>
+  </data>
+  <data name="FactoryModel.RefNo">
+    <value>Viitenro</value>
+  </data>
+  <data name="FactoryModel.Remark">
+    <value>Huomautus</value>
+  </data>
+  <data name="FactoryModel.RepairError">
+    <value>Korjausvirhe</value>
+  </data>
+  <data name="FactoryModel.Repairmode">
+    <value>Korjaustila</value>
+  </data>
+  <data name="FactoryModel.SBFTAllStocks">
+    <value>Kaikki varastot</value>
+  </data>
+  <data name="FactoryModel.SBFTBlockStartedOp">
+    <value>Jätä pois aloitetut leikkaukset</value>
+  </data>
+  <data name="FactoryModel.SBFTDispatchedLGrpKeyId">
+    <value>Lähetetty-tila paikkatiedot yksiköille</value>
+  </data>
+  <data name="FactoryModel.SBFTEscFTCoKeyId">
+    <value>2. kiirehdintäkoodi</value>
+  </data>
+  <data name="FactoryModel.SBFTEscTime">
+    <value>Liitä toinen kiirehdintäkoodi jälkeen</value>
+  </data>
+  <data name="FactoryModel.SBFTFTCoKeyId">
+    <value>1. kiirehdintäkoodi</value>
+  </data>
+  <data name="FactoryModel.SBFTMaxDelTime">
+    <value>Maksimiaika</value>
+  </data>
+  <data name="FactoryModel.SBFTMinDelTime">
+    <value>Minimiaika</value>
+  </data>
+  <data name="FactoryModel.SBFTMode">
+    <value>Salli varastoperusteinen kiirehdintä</value>
+  </data>
+  <data name="FactoryModel.SBFTOrdersFilter">
+    <value>Sisällytä</value>
+  </data>
+  <data name="FactoryModel.SealCount">
+    <value>Saumausten määrä</value>
+  </data>
+  <data name="FactoryModel.SealPrint">
+    <value>Saumaajatulostus</value>
+  </data>
+  <data name="FactoryModel.Setweightusage">
+    <value>Punnitusten käyttö</value>
+  </data>
+  <data name="FactoryModel.Shortname">
+    <value>Lyhyt nimi</value>
+  </data>
+  <data name="FactoryModel.Status">
+    <value>Tila</value>
+  </data>
+  <data name="FactoryModel.StgrKeyId">
+    <value>Varastoryhmä</value>
+  </data>
+  <data name="FactoryModel.SUAMatchConditions">
+    <value>Sovita olosuhteet</value>
+  </data>
+  <data name="FactoryModel.SUAMaxUserComplexity">
+    <value>Maksimi käyttäjämonimutkaisuus</value>
+  </data>
+  <data name="FactoryModel.SUAMinProdComplexity">
+    <value>Minimi tuote monimutkaisuus</value>
+  </data>
+  <data name="FactoryModel.SUAReqProdType">
+    <value>Vaaditaa tuotetyypeille</value>
+  </data>
+  <data name="FactoryModel.Telephone">
+    <value>Puhelin</value>
+  </data>
+  <data name="FactoryModel.TraceStokKeyId">
+    <value>Jäljitysvarasto</value>
+  </data>
+  <data name="FactoryModel.TransitStokKeyId">
+    <value>Kuljetusvarasto</value>
+  </data>
+  <data name="FactoryModel.TRGrpKeyId">
+    <value>Vanhenemisaikaryhmä</value>
+  </data>
+  <data name="FactoryModel.Type">
+    <value>Tyyppi</value>
+  </data>
+  <data name="FactoryModel.UserField01">
+    <value>Käyttäjäkenttä 1</value>
+  </data>
+  <data name="FactoryModel.UserField02">
+    <value>Käyttäjäkenttä 2</value>
+  </data>
+  <data name="FactoryModel.UserField03">
+    <value>Käyttäjäkenttä 3</value>
+  </data>
+  <data name="FactoryModel.UserField04">
+    <value>Käyttäjäkenttä 4</value>
+  </data>
+  <data name="FactoryModel.UserField05">
+    <value>Käyttäjäkenttä 5</value>
+  </data>
+  <data name="FactoryModel.UserField06">
+    <value>Käyttäjäkenttä 6</value>
+  </data>
+  <data name="FactoryModel.UserField07">
+    <value>Käyttäjäkenttä 7</value>
+  </data>
+  <data name="FactoryModel.UserField08">
+    <value>Käyttäjäkenttä 8</value>
+  </data>
+  <data name="FactoryModel.UserField09">
+    <value>Käyttäjäkenttä 9</value>
+  </data>
+  <data name="FactoryModel.UserField10">
+    <value>Käyttäjäkenttä 10</value>
+  </data>
+  <data name="FactoryModel.UserField11">
+    <value>Käyttäjäkenttä 11</value>
+  </data>
+  <data name="FactoryModel.UserField12">
+    <value>Käyttäjäkenttä 12</value>
+  </data>
+  <data name="FactoryModel.UserField13">
+    <value>Käyttäjäkenttä 13</value>
+  </data>
+  <data name="FactoryModel.UserField14">
+    <value>Käyttäjäkenttä 14</value>
+  </data>
+  <data name="FactoryModel.UserField15">
+    <value>Käyttäjäkenttä 15</value>
+  </data>
+  <data name="FactoryModel.UserField16">
+    <value>Käyttäjäkenttä 16</value>
+  </data>
+  <data name="FactoryModel.UserField17">
+    <value>Käyttäjäkenttä 17</value>
+  </data>
+  <data name="FactoryModel.UserField18">
+    <value>Käyttäjäkenttä 18</value>
+  </data>
+  <data name="FactoryModel.UserField19">
+    <value>Käyttäjäkenttä 19</value>
+  </data>
+  <data name="FactoryModel.UserField20">
+    <value>Käyttäjäkenttä 20</value>
+  </data>
+  <data name="FactoryModel.UIStartMode">
+    <value>Skanneri käyttöliittymä aloitusmuoto</value>
+  </data>
+  <data name="FactoryModel.UseColorFields">
+    <value>Käytä värikenttiä</value>
+  </data>
+  <data name="FactoryModel.Usedispstockonpack">
+    <value>Käytä kertakäyttövarastoa kun pakataan</value>
+  </data>
+  <data name="FactoryModel.UseNTLogin">
+    <value>Käytä NT-kirjausta</value>
+  </data>
+  <data name="FactoryModel.Webitemlocatorcolumns">
+    <value>Nimikepaikantimen kentät</value>
+  </data>
+  <data name="FactoryModel.WebLocaKeyId">
+    <value>Leikkauspaikkatieto</value>
+  </data>
+  <data name="FactoryModel.WebOrderInitStatus">
+    <value>Tilausten tila kun vastaanotettu webistä</value>
+  </data>
+  <data name="FactoryModel.Webprodlocatorcolumns">
+    <value>Tuotepaikantimen kentät</value>
+  </data>
+  <data name="FactoryModel.Website">
+    <value>Web sivusto</value>
+  </data>
+  <data name="FastTrackCodeModel.Created">
+    <value></value>
+  </data>
+  <data name="FastTrackCodeModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="FastTrackCodeModel.Modified">
+    <value></value>
+  </data>
+  <data name="FastTrackCodeModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="FastTrackCodeModel.Code">
+    <value>Koodi</value>
+  </data>
+  <data name="FastTrackCodeModel.Descr">
+    <value>Huomautus</value>
+  </data>
+  <data name="FastTrackCodeModel.DisplayMode">
+    <value>Esiintulo</value>
+  </data>
+  <data name="FastTrackCodeModel.EndLoGrpKeyId">
+    <value>Lopetus paikkat.ryhmä</value>
+  </data>
+  <data name="FastTrackCodeModel.EndStatus">
+    <value>Lopetus tila</value>
+  </data>
+  <data name="FastTrackCodeModel.EndTime">
+    <value>Lopetusaika</value>
+  </data>
+  <data name="FastTrackCodeModel.InvoiceItemKeyId">
+    <value>Laskutus nimike</value>
+  </data>
+  <data name="FastTrackCodeModel.InvoicePrice">
+    <value>Laskutus hinta</value>
+  </data>
+  <data name="FastTrackCodeModel.InvoiceTo">
+    <value>Laskutetaan</value>
+  </data>
+  <data name="FastTrackCodeModel.InvoiceWithUnit">
+    <value>Laskuta yksikön kanssa</value>
+  </data>
+  <data name="FastTrackCodeModel.KeyId">
+    <value>Kiirekooditunnus</value>
+  </data>
+  <data name="FastTrackCodeModel.Name">
+    <value>Nimi</value>
+  </data>
+  <data name="FastTrackCodeModel.Priority">
+    <value>Prioriteetti</value>
+  </data>
+  <data name="FastTrackCodeModel.StartLoGrpKeyId">
+    <value>Aloitus paikkat.ryhmä</value>
+  </data>
+  <data name="FastTrackCodeModel.StartStatus">
+    <value>Aloitustila</value>
+  </data>
+  <data name="FastTrackCodeModel.StartTime">
+    <value>Aloitusaika</value>
+  </data>
+  <data name="FastTrackCodeModel.Status">
+    <value>Tila</value>
+  </data>
+  <data name="FastTrackCodeModel.Type">
+    <value>Tyyppi</value>
+  </data>
+  <data name="FastTrackCodeModel.Weekdays">
+    <value>Viikonpäivät</value>
+  </data>
+  <data name="FastTrackPlanModel.Created">
+    <value></value>
+  </data>
+  <data name="FastTrackPlanModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="FastTrackPlanModel.Modified">
+    <value></value>
+  </data>
+  <data name="FastTrackPlanModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="FastTrackPlanModel.Descr">
+    <value>Huomautus</value>
+  </data>
+  <data name="FastTrackPlanModel.DisplayMode">
+    <value>Esiintulo</value>
+  </data>
+  <data name="FastTrackPlanModel.InvoiceItemKeyId">
+    <value>Laskutus nimike</value>
+  </data>
+  <data name="FastTrackPlanModel.InvoicePrice">
+    <value>Hinta</value>
+  </data>
+  <data name="FastTrackPlanModel.InvoiceTo">
+    <value>Laskutetaan</value>
+  </data>
+  <data name="FastTrackPlanModel.InvoiceWithUnit">
+    <value>Laskuta yksikön kanssa</value>
+  </data>
+  <data name="FastTrackPlanModel.KeyId">
+    <value>Kiiresuunnitelmatunnus</value>
+  </data>
+  <data name="FastTrackPlanModel.Name">
+    <value>Nimi</value>
+  </data>
+  <data name="FastTrackPlanModel.Plan">
+    <value>Sunnitelma</value>
+  </data>
+  <data name="FastTrackPlanModel.Priority">
+    <value>Prioriteetti</value>
+  </data>
+  <data name="FastTrackPlanModel.Status">
+    <value>Tila</value>
+  </data>
+  <data name="FastTrackPlanModel.WorkhourMode">
+    <value>Työtunti tila</value>
+  </data>
+  <data name="FastTrackTemplateModel.Created">
+    <value></value>
+  </data>
+  <data name="FastTrackTemplateModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="FastTrackTemplateModel.Modified">
+    <value></value>
+  </data>
+  <data name="FastTrackTemplateModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="FastTrackTemplateModel.Descr">
+    <value>Huomautus</value>
+  </data>
+  <data name="FastTrackTemplateModel.KeyId">
+    <value>Kiiremallitunnus</value>
+  </data>
+  <data name="FastTrackTemplateModel.Name">
+    <value>Nimi</value>
+  </data>
+  <data name="FastTrackTemplateModel.Template">
+    <value>Malli</value>
+  </data>
+  <data name="HandlingTypesModel.Created">
+    <value></value>
+  </data>
+  <data name="HandlingTypesModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="HandlingTypesModel.Modified">
+    <value></value>
+  </data>
+  <data name="HandlingTypesModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="HandlingTypesModel.Id">
+    <value>Käsittelytyyppi</value>
+  </data>
+  <data name="HandlingTypesModel.KeyId">
+    <value>Käsittelytyyppitunnus</value>
+  </data>
+  <data name="HandlingTypesModel.Name">
+    <value>Nimi</value>
+  </data>
+  <data name="HandlingTypesModel.Remark">
+    <value>Huomautukset</value>
+  </data>
+  <data name="IdenticalArticleGroupModel.Forcealtarticles">
+    <value>Pakota kaikki artikkelit</value>
+  </data>
+  <data name="IdenticalArticleGroupModel.KeyId">
+    <value>Identtisten artikkelien ryhmätunnus</value>
+  </data>
+  <data name="IdenticalArticleGroupModel.Name">
+    <value>Yleinen nimi</value>
+  </data>
+  <data name="IdenticalArticleGroupModel.Type">
+    <value>Tyyppi</value>
+  </data>
+  <data name="ItemModel.Created">
+    <value></value>
+  </data>
+  <data name="ItemModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="ItemModel.Modified">
+    <value></value>
+  </data>
+  <data name="ItemModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="ItemModel.Barcode">
+    <value>Viivakoodit</value>
+  </data>
+  <data name="ItemModel.CatKeyId">
+    <value>Luettelotunnus</value>
+  </data>
+  <data name="ItemModel.Color">
+    <value>Väri</value>
+  </data>
+  <data name="ItemModel.Composite">
+    <value>Yhdistetty</value>
+  </data>
+  <data name="ItemModel.Contamination">
+    <value>Kontaminaation todennäköisyys</value>
+  </data>
+  <data name="ItemModel.Costprice">
+    <value>Kustannus</value>
+  </data>
+  <data name="ItemModel.Difficulty">
+    <value>Vaikeusaste</value>
+  </data>
+  <data name="ItemModel.DifficultyMode">
+    <value>Vaikeusastetila</value>
+  </data>
+  <data name="ItemModel.DiscardLevel">
+    <value>Hylkäystaso</value>
+  </data>
+  <data name="ItemModel.Disposable">
+    <value>Kertakäyttöinen</value>
+  </data>
+  <data name="ItemModel.DispPrice">
+    <value>Kertakäyttöinen hinta</value>
+  </data>
+  <data name="ItemModel.ExternalText">
+    <value>Ulkoinen teksti</value>
+  </data>
+  <data name="ItemModel.ExternalType">
+    <value>Ulkoinen tyyppi</value>
+  </data>
+  <data name="ItemModel.FacKeyId">
+    <value>Tuotantoyksikkö</value>
+  </data>
+  <data name="ItemModel.HospitalDescription">
+    <value>Paikallinen nimi</value>
+  </data>
+  <data name="ItemModel.InArtKeyId">
+    <value>Identtinen</value>
+  </data>
+  <data name="ItemModel.Info">
+    <value>Huomautus</value>
+  </data>
+  <data name="ItemModel.Item">
+    <value>Nimike</value>
+  </data>
+  <data name="ItemModel.ItGrpKeyId">
+    <value>Ryhmä</value>
+  </data>
+  <data name="ItemModel.ItspcKeyId">
+    <value>Erikoisala</value>
+  </data>
+  <data name="ItemModel.KeyId">
+    <value>Nimiketunnus</value>
+  </data>
+  <data name="ItemModel.Length">
+    <value>Pituus</value>
+  </data>
+  <data name="ItemModel.Lifespan">
+    <value>Elinaika</value>
+  </data>
+  <data name="ItemModel.ManufactorNo">
+    <value>Valm. nro</value>
+  </data>
+  <data name="ItemModel.ManuKeyId">
+    <value>Valmistaja</value>
+  </data>
+  <data name="ItemModel.Material">
+    <value>Materiaali</value>
+  </data>
+  <data name="ItemModel.MaterialsNum">
+    <value>Mat. nro</value>
+  </data>
+  <data name="ItemModel.MaxPressure">
+    <value>Maksimi paine</value>
+  </data>
+  <data name="ItemModel.MaxTemp">
+    <value>Maksimi lämpö</value>
+  </data>
+  <data name="ItemModel.OrderLeadTime">
+    <value>Tilauksen toimitusaika</value>
+  </data>
+  <data name="ItemModel.OrderMinCount">
+    <value>Pienin tilausmäärä</value>
+  </data>
+  <data name="ItemModel.OrderStdCount">
+    <value>Tilaus pakkauskoko</value>
+  </data>
+  <data name="ItemModel.OrderstduomKeyId">
+    <value>Tilaus pakkausmitat</value>
+  </data>
+  <data name="ItemModel.OtherMinCount">
+    <value>Pienin sisäinen tilausmäärä</value>
+  </data>
+  <data name="ItemModel.OtherUnitCount">
+    <value>Sisäinen tilauspakkauskoko</value>
+  </data>
+  <data name="ItemModel.OtheruomKeyId">
+    <value>Sisäinen tilauspakkausmitta</value>
+  </data>
+  <data name="ItemModel.RepairVendorKeyId">
+    <value>Korjaaja</value>
+  </data>
+  <data name="ItemModel.ReservationMode">
+    <value>Varaus muoto</value>
+  </data>
+  <data name="ItemModel.SalesMinCount">
+    <value>Pienin myyntimäärä</value>
+  </data>
+  <data name="ItemModel.SalesPrCode">
+    <value>Myyntihintakoodi</value>
+  </data>
+  <data name="ItemModel.SalesPrice">
+    <value>Myyntihinta</value>
+  </data>
+  <data name="ItemModel.SalesRestriction">
+    <value>Myyntirajoitus</value>
+  </data>
+  <data name="ItemModel.SalesUnitCount">
+    <value>Myyntipakkauskoko</value>
+  </data>
+  <data name="ItemModel.SalesuomKeyId">
+    <value>Myyntipakkausmitta</value>
+  </data>
+  <data name="ItemModel.Serialmask">
+    <value>Sarjanumeromaski</value>
+  </data>
+  <data name="ItemModel.ShelvingTime">
+    <value>Hyllytys aika</value>
+  </data>
+  <data name="ItemModel.SplitCount">
+    <value>Lippujen määrä pesuun</value>
+  </data>
+  <data name="ItemModel.Status">
+    <value>Tila</value>
+  </data>
+  <data name="ItemModel.SterilizationType">
+    <value>Sterilointityyppi</value>
+  </data>
+  <data name="ItemModel.SuppKeyId">
+    <value>Toimittaja</value>
+  </data>
+  <data name="ItemModel.SupplierNo">
+    <value>Toimittajanumero</value>
+  </data>
+  <data name="ItemModel.TagTKeyId">
+    <value>Lipputyyppi</value>
+  </data>
+  <data name="ItemModel.Text">
+    <value>Nimi</value>
+  </data>
+  <data name="ItemModel.Tip">
+    <value>Kärki</value>
+  </data>
+  <data name="ItemModel.Totalcostprice">
+    <value>Kustannushinta yhteensä</value>
+  </data>
+  <data name="ItemModel.Totalsalesprice">
+    <value>Myyntihinta yhteensä</value>
+  </data>
+  <data name="ItemModel.Totalusageprice">
+    <value>Käyttöhinta yhteensä</value>
+  </data>
+  <data name="ItemModel.TraceType">
+    <value>Jäljitys</value>
+  </data>
+  <data name="ItemModel.Type">
+    <value>Tyyppi</value>
+  </data>
+  <data name="ItemModel.UserField01">
+    <value>Käyttäjäkenttä 1</value>
+  </data>
+  <data name="ItemModel.UserField02">
+    <value>Käyttäjäkenttä 2</value>
+  </data>
+  <data name="ItemModel.UserField03">
+    <value>Käyttäjäkenttä 3</value>
+  </data>
+  <data name="ItemModel.UserField04">
+    <value>Käyttäjäkenttä 4</value>
+  </data>
+  <data name="ItemModel.UserField05">
+    <value>Käyttäjäkenttä 5</value>
+  </data>
+  <data name="ItemModel.UserField06">
+    <value>Käyttäjäkenttä 6</value>
+  </data>
+  <data name="ItemModel.UserField07">
+    <value>Käyttäjäkenttä 7</value>
+  </data>
+  <data name="ItemModel.UserField08">
+    <value>Käyttäjäkenttä 8</value>
+  </data>
+  <data name="ItemModel.UserField09">
+    <value>Käyttäjäkenttä 9</value>
+  </data>
+  <data name="ItemModel.UserField10">
+    <value>Käyttäjäkenttä 10</value>
+  </data>
+  <data name="ItemModel.UserField11">
+    <value>Käyttäjäkenttä 11</value>
+  </data>
+  <data name="ItemModel.UserField12">
+    <value>Käyttäjäkenttä 12</value>
+  </data>
+  <data name="ItemModel.UserField13">
+    <value>Käyttäjäkenttä 13</value>
+  </data>
+  <data name="ItemModel.UserField14">
+    <value>Käyttäjäkenttä 14</value>
+  </data>
+  <data name="ItemModel.UserField15">
+    <value>Käyttäjäkenttä 15</value>
+  </data>
+  <data name="ItemModel.UserField16">
+    <value>Käyttäjäkenttä 16</value>
+  </data>
+  <data name="ItemModel.UserField17">
+    <value>Käyttäjäkenttä 17</value>
+  </data>
+  <data name="ItemModel.UserField18">
+    <value>Käyttäjäkenttä 18</value>
+  </data>
+  <data name="ItemModel.UserField19">
+    <value>Käyttäjäkenttä 19</value>
+  </data>
+  <data name="ItemModel.UserField20">
+    <value>Käyttäjäkenttä 20</value>
+  </data>
+  <data name="ItemModel.Unitcount">
+    <value>Yksikkömäärä</value>
+  </data>
+  <data name="ItemModel.UomKeyId">
+    <value>Yksikkömitta</value>
+  </data>
+  <data name="ItemModel.UsagePrCode">
+    <value>Käyttöhintakoodi</value>
+  </data>
+  <data name="ItemModel.UsagePrice">
+    <value>Käyttöhinta</value>
+  </data>
+  <data name="ItemModel.Warrenty">
+    <value>Takuu</value>
+  </data>
+  <data name="ItemModel.Weight">
+    <value>Paino</value>
+  </data>
+  <data name="ItemModel.WeightMode">
+    <value>Paino muoto</value>
+  </data>
+  <data name="ItemModel.Width">
+    <value>Leveys</value>
+  </data>
+  <data name="PackingModel.Created">
+    <value></value>
+  </data>
+  <data name="PackingModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="PackingModel.Modified">
+    <value></value>
+  </data>
+  <data name="PackingModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="PackingModel.Color">
+    <value>Väri</value>
+  </data>
+  <data name="PackingModel.Description">
+    <value>Huomautus</value>
+  </data>
+  <data name="PackingModel.FacKeyId">
+    <value>Tuotantoyksikkö</value>
+  </data>
+  <data name="PackingModel.FixedTime">
+    <value>Kiinteä aika</value>
+  </data>
+  <data name="PackingModel.ItemKeyId">
+    <value>Nimike</value>
+  </data>
+  <data name="PackingModel.KeyId">
+    <value>Pakkaustunnus</value>
+  </data>
+  <data name="PackingModel.Packing">
+    <value>Pakkaus</value>
+  </data>
+  <data name="PackingModel.RelativeTime">
+    <value>Suhteellinen aika</value>
+  </data>
+  <data name="PackingModel.SealCount">
+    <value>Saumausten määrä</value>
+  </data>
+  <data name="PackingModel.SealPrint">
+    <value>Saumaajatulostus</value>
+  </data>
+  <data name="PackingModel.SeprgKeyId">
+    <value>Saumaajaohjelma</value>
+  </data>
+  <data name="PackingModel.ShelfLife">
+    <value>Varastointiaika</value>
+  </data>
+  <data name="PackingModel.Status">
+    <value>Tila</value>
+  </data>
+  <data name="PackingModel.TagTKeyId">
+    <value>Lipputyyppi</value>
+  </data>
+  <data name="PackingModel.Tracetype">
+    <value>Sisällytä pakkauslistaan</value>
+  </data>
+  <data name="PackingModel.UsedFor">
+    <value>Käytetty:</value>
+  </data>
+  <data name="PackingModel.Volume">
+    <value>Tilavuus</value>
+  </data>
+  <data name="PackingModel.Weight">
+    <value>Paino</value>
+  </data>
+  <data name="PackingModel.WeightDisposable">
+    <value>Kertakäyttöisten paino</value>
+  </data>
+  <data name="PackingModel.WeightMode">
+    <value>Paino muoto</value>
+  </data>
+  <data name="PackingModel.WeightNonDisposable">
+    <value>Monikäyttöisten paino</value>
+  </data>
+  <data name="PriceGroupModel.Created">
+    <value></value>
+  </data>
+  <data name="PriceGroupModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="PriceGroupModel.Modified">
+    <value></value>
+  </data>
+  <data name="PriceGroupModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="PriceGroupModel.Descr">
+    <value>Huomautus</value>
+  </data>
+  <data name="PriceGroupModel.KeyId">
+    <value>Hintaryhmätunnus</value>
+  </data>
+  <data name="PriceGroupModel.Name">
+    <value>Nimi</value>
+  </data>
+  <data name="PriceGroupModel.Price">
+    <value>Hinta</value>
+  </data>
+  <data name="PriceGroupModel.PriceGroup">
+    <value>Hintaryhmä</value>
+  </data>
+  <data name="TimeRuleGroupModel.Created">
+    <value></value>
+  </data>
+  <data name="TimeRuleGroupModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="TimeRuleGroupModel.Modified">
+    <value></value>
+  </data>
+  <data name="TimeRuleGroupModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="TimeRuleGroupModel.FacKeyId">
+    <value>Tuotantoyksikkö</value>
+  </data>
+  <data name="TimeRuleGroupModel.Id">
+    <value>Tunnus</value>
+  </data>
+  <data name="TimeRuleGroupModel.KeyId">
+    <value>Vanhenemisaikaryhmätunnus</value>
+  </data>
+  <data name="TimeRuleGroupModel.Name">
+    <value>Nimi</value>
+  </data>
+  <data name="TimeRuleGroupModel.Remark">
+    <value>Huomautukset</value>
+  </data>
+  <data name="WeightPlanModel.Created">
+    <value></value>
+  </data>
+  <data name="WeightPlanModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="WeightPlanModel.Modified">
+    <value></value>
+  </data>
+  <data name="WeightPlanModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="WeightPlanModel.Descr">
+    <value>Huomautus</value>
+  </data>
+  <data name="WeightPlanModel.KeyId">
+    <value>Punnitustunnus</value>
+  </data>
+  <data name="WeightPlanModel.Name">
+    <value>Nimi</value>
+  </data>
+  <data name="WeightPlanModel.WeightPlan">
+    <value>Punnitus</value>
+  </data>
+  <data name="ProfileModel.Created">
+    <value></value>
+  </data>
+  <data name="ProfileModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="ProfileModel.Modified">
+    <value></value>
+  </data>
+  <data name="ProfileModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="ProfileModel.AncestorKeyId">
+    <value>Käyttäjäryhmä</value>
+  </data>
+  <data name="ProfileModel.KeyId">
+    <value>Profiilitunnus</value>
+  </data>
+  <data name="ProfileModel.Name">
+    <value>Nimi</value>
+  </data>
+  <data name="ProfileModel.Profile">
+    <value>Profiili</value>
+  </data>
+  <data name="ProfileModel.Type">
+    <value>Tyyppi</value>
+  </data>
+  <data name="ProfileModel.UpdateRequired">
+    <value>Päivitys vaaditaan</value>
+  </data>
+  <data name="CalendarModel.Created">
+    <value></value>
+  </data>
+  <data name="CalendarModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="CalendarModel.Modified">
+    <value></value>
+  </data>
+  <data name="CalendarModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="CalendarModel.KeyId">
+    <value>Kalenteri tunnus</value>
+  </data>
+  <data name="CalendarModel.Name">
+    <value>Nimi</value>
+  </data>
+  <data name="CalendarModel.ParentCalKeyId">
+    <value>Lähde</value>
+  </data>
+  <data name="StocksModel.AllowItems">
+    <value>Nimikkeet sallittu</value>
+  </data>
+  <data name="StocksModel.AllowNegCount">
+    <value>Neg. varastomäärä sallittu</value>
+  </data>
+  <data name="StocksModel.AllowProducts">
+    <value>Tuotteet sallittu</value>
+  </data>
+  <data name="StocksModel.AutomationMode">
+    <value>Automaatiotila</value>
+  </data>
+  <data name="StocksModel.AutoReorder">
+    <value>Automaattinen uudelleentilaus</value>
+  </data>
+  <data name="StocksModel.Barcode">
+    <value>Viivakoodit</value>
+  </data>
+  <data name="StocksModel.BOInMode">
+    <value>Jälkitilaus sisään-tila</value>
+  </data>
+  <data name="StocksModel.BOOutMode">
+    <value>Jälkitilaus ulos -tila</value>
+  </data>
+  <data name="StocksModel.DefIdentLineUsage">
+    <value>Käytä identtisiä artikkeleita</value>
+  </data>
+  <data name="StocksModel.Descr">
+    <value>Huomautus</value>
+  </data>
+  <data name="StocksModel.DropItemSuppOnSugg">
+    <value>Älä käytä nimikkeen toimitt. tilausehdotuksissa</value>
+  </data>
+  <data name="StocksModel.EmgCTKeyId">
+    <value>Hätätoimenpidevaunutyyppi</value>
+  </data>
+  <data name="StocksModel.FacKeyId">
+    <value>Tuotantoyksikkö</value>
+  </data>
+  <data name="StocksModel.IsTracestock">
+    <value>Tuotantoyksikkö jäljitysvarasto</value>
+  </data>
+  <data name="StocksModel.IsTransitStock">
+    <value>Tuotantoyksikkö kuljetusvarasto</value>
+  </data>
+  <data name="StocksModel.KeyId">
+    <value>Varastotunnus</value>
+  </data>
+  <data name="StocksModel.LocaKeyId">
+    <value>Paikkatieto</value>
+  </data>
+  <data name="StocksModel.Name">
+    <value>Nimi</value>
+  </data>
+  <data name="StocksModel.OpTKeyId">
+    <value>Leikkaustyyppi</value>
+  </data>
+  <data name="StocksModel.OrderInMode">
+    <value>Ostotilauksen vastaanotto</value>
+  </data>
+  <data name="StocksModel.PlacementMask">
+    <value>Sijaintimaski</value>
+  </data>
+  <data name="StocksModel.PrnBackOrder">
+    <value>Jälkitilaukset</value>
+  </data>
+  <data name="StocksModel.PrnCompletedOrder">
+    <value>Valmiit tilaukset</value>
+  </data>
+  <data name="StocksModel.PrnConfirmation">
+    <value>Tilausvahvistus</value>
+  </data>
+  <data name="StocksModel.PrnDelivery">
+    <value>Lähetysluettelo</value>
+  </data>
+  <data name="StocksModel.PrnPicklist">
+    <value>Keräilylista</value>
+  </data>
+  <data name="StocksModel.PrnReceivedOrder">
+    <value>Vastaanotetut tilaukset</value>
+  </data>
+  <data name="StocksModel.PrnSentOrder">
+    <value>Lähetetty tilaus</value>
+  </data>
+  <data name="StocksModel.RefCustKeyId">
+    <value>Omistaja (asiakas)</value>
+  </data>
+  <data name="StocksModel.RefFacKeyId">
+    <value>Omistaja (tuotantoyksikkö)</value>
+  </data>
+  <data name="StocksModel.RefSuppKeyId">
+    <value>Omistaja (toimittaja)</value>
+  </data>
+  <data name="StocksModel.Status">
+    <value>Tila</value>
+  </data>
+  <data name="StocksModel.Stock">
+    <value>Varasto</value>
+  </data>
+  <data name="StocksModel.SuppRefFacKeyId">
+    <value>Toimittaja (tuotantoyksikkö)</value>
+  </data>
+  <data name="StocksModel.SuppRefSuppKeyId">
+    <value>Toimittaja (toimittaja)</value>
+  </data>
+  <data name="StocksModel.Type">
+    <value>Tyyppi</value>
+  </data>
+  <data name="StocksModel.UserField01">
+    <value>Käyttäjäkenttä 1</value>
+  </data>
+  <data name="StocksModel.UserField02">
+    <value>Käyttäjäkenttä 2</value>
+  </data>
+  <data name="StocksModel.UserField03">
+    <value>Käyttäjäkenttä 3</value>
+  </data>
+  <data name="StocksModel.UserField04">
+    <value>Käyttäjäkenttä 4</value>
+  </data>
+  <data name="StocksModel.UserField05">
+    <value>Käyttäjäkenttä 5</value>
+  </data>
+  <data name="StocksModel.UserField06">
+    <value>Käyttäjäkenttä 6</value>
+  </data>
+  <data name="StocksModel.UserField07">
+    <value>Käyttäjäkenttä 7</value>
+  </data>
+  <data name="StocksModel.UserField08">
+    <value>Käyttäjäkenttä 8</value>
+  </data>
+  <data name="StocksModel.UserField09">
+    <value>Käyttäjäkenttä 9</value>
+  </data>
+  <data name="StocksModel.UserField10">
+    <value>Käyttäjäkenttä 10</value>
+  </data>
+  <data name="StocksModel.UserField11">
+    <value>Käyttäjäkenttä 11</value>
+  </data>
+  <data name="StocksModel.UserField12">
+    <value>Käyttäjäkenttä 12</value>
+  </data>
+  <data name="StocksModel.UserField13">
+    <value>Käyttäjäkenttä 13</value>
+  </data>
+  <data name="StocksModel.UserField14">
+    <value>Käyttäjäkenttä 14</value>
+  </data>
+  <data name="StocksModel.UserField15">
+    <value>Käyttäjäkenttä 15</value>
+  </data>
+  <data name="StocksModel.UserField16">
+    <value>Käyttäjäkenttä 16</value>
+  </data>
+  <data name="StocksModel.UserField17">
+    <value>Käyttäjäkenttä 17</value>
+  </data>
+  <data name="StocksModel.UserField18">
+    <value>Käyttäjäkenttä 18</value>
+  </data>
+  <data name="StocksModel.UserField19">
+    <value>Käyttäjäkenttä 19</value>
+  </data>
+  <data name="StocksModel.UserField20">
+    <value>Käyttäjäkenttä 20</value>
+  </data>
+  <data name="StockGroupModel.Created">
+    <value></value>
+  </data>
+  <data name="StockGroupModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="StockGroupModel.Modified">
+    <value></value>
+  </data>
+  <data name="StockGroupModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="StockGroupModel.Descr">
+    <value>Huomautus</value>
+  </data>
+  <data name="StockGroupModel.KeyId">
+    <value>Varastoryhmä tunnus</value>
+  </data>
+  <data name="StockGroupModel.Name">
+    <value>Nimi</value>
+  </data>
+  <data name="StockGroupModel.StockGroup">
+    <value>Varastoryhmä</value>
+  </data>
+  <data name="ProcessModel.ApproveTime">
+    <value>Hyväksytty</value>
+  </data>
+  <data name="ProcessModel.ApproveUserKeyId">
+    <value>Hyväksynyt</value>
+  </data>
+  <data name="ProcessModel.Batch">
+    <value>Erä</value>
+  </data>
+  <data name="ProcessModel.Charge">
+    <value>Ajo</value>
+  </data>
+  <data name="ProcessModel.DisapproveUserKeyId">
+    <value>Hylännyt</value>
+  </data>
+  <data name="ProcessModel.EndTime">
+    <value>Päättynyt</value>
+  </data>
+  <data name="ProcessModel.Envhumidity">
+    <value>Ymp. kosteus</value>
+  </data>
+  <data name="ProcessModel.Envpressure">
+    <value>Ymp. paine</value>
+  </data>
+  <data name="ProcessModel.Envtemp">
+    <value>Ymp. lämpötila</value>
+  </data>
+  <data name="ProcessModel.Error">
+    <value>T-DOC virhe</value>
+  </data>
+  <data name="ProcessModel.ExternalBatchNo">
+    <value>Ulkoinen eränro</value>
+  </data>
+  <data name="ProcessModel.InitiateTime">
+    <value>Osoitettu</value>
+  </data>
+  <data name="ProcessModel.InitiatorUserKeyId">
+    <value>Osoittaja</value>
+  </data>
+  <data name="ProcessModel.LoadNumber">
+    <value>Kuormanumero</value>
+  </data>
+  <data name="ProcessModel.MachKeyId">
+    <value>Kone</value>
+  </data>
+  <data name="ProcessModel.NativeError">
+    <value>Konevirhe</value>
+  </data>
+  <data name="ProcessModel.NativeErrortext">
+    <value>Koneteksti</value>
+  </data>
+  <data name="ProcessModel.ProgKeyId">
+    <value>Ohjelma</value>
+  </data>
+  <data name="ProcessModel.ScanRefPreKeyId">
+    <value>Skannattu resepti</value>
+  </data>
+  <data name="ProcessModel.ScanRefProgKeyId">
+    <value>Skannattu ohjelma</value>
+  </data>
+  <data name="ProcessModel.SecondApproveComment">
+    <value>Kommentti</value>
+  </data>
+  <data name="ProcessModel.SecondApproveUserKeyId">
+    <value>Toinen hyväksyntä</value>
+  </data>
+  <data name="ProcessModel.StartTime">
+    <value>Aloitettu</value>
+  </data>
+  <data name="ProcessModel.StartTime2">
+    <value>Käynnistetty 2</value>
+  </data>
+  <data name="ProcessModel.Status">
+    <value>Tila</value>
+  </data>
+  <data name="ProcessModel.Type">
+    <value>Tyyppi</value>
+  </data>
+  <data name="SupplierModel.Created">
+    <value></value>
+  </data>
+  <data name="SupplierModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="SupplierModel.Modified">
+    <value></value>
+  </data>
+  <data name="SupplierModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="SupplierModel.Acceptorders">
+    <value>Hyväksyy ostotilaukset</value>
+  </data>
+  <data name="SupplierModel.Address1">
+    <value>Osoite</value>
+  </data>
+  <data name="SupplierModel.Address2">
+    <value>Osoite (2)</value>
+  </data>
+  <data name="SupplierModel.Barcode">
+    <value>Viivakoodit</value>
+  </data>
+  <data name="SupplierModel.CalKeyId">
+    <value>Kalenteri</value>
+  </data>
+  <data name="SupplierModel.City">
+    <value>Postinro/-toimipaikka</value>
+  </data>
+  <data name="SupplierModel.Country">
+    <value>Maa</value>
+  </data>
+  <data name="SupplierModel.Email">
+    <value>Sähköposti</value>
+  </data>
+  <data name="SupplierModel.FacKeyId">
+    <value>Tuotantoyksikkö</value>
+  </data>
+  <data name="SupplierModel.Fax">
+    <value>Faksi</value>
+  </data>
+  <data name="SupplierModel.Flags1">
+    <value>Asetukset</value>
+  </data>
+  <data name="SupplierModel.Internal">
+    <value>Sisäinen</value>
+  </data>
+  <data name="SupplierModel.KeyId">
+    <value>Toimittajatunnus</value>
+  </data>
+  <data name="SupplierModel.Name">
+    <value>Nimi</value>
+  </data>
+  <data name="SupplierModel.OrderDelTime">
+    <value>Tilauksen toimitusaika</value>
+  </data>
+  <data name="SupplierModel.OrderHandlingTime">
+    <value>Tilauksen käsittelyaika</value>
+  </data>
+  <data name="SupplierModel.OrderRampTime">
+    <value>Tilauksen ramppiaika</value>
+  </data>
+  <data name="SupplierModel.OrderTransmitTime">
+    <value>Tilauksen välitys aika</value>
+  </data>
+  <data name="SupplierModel.OwnCustNumber">
+    <value>Oma numero</value>
+  </data>
+  <data name="SupplierModel.Remark">
+    <value>Huomautus</value>
+  </data>
+  <data name="SupplierModel.RepairVendorKeyId">
+    <value>Korjaaja</value>
+  </data>
+  <data name="SupplierModel.Status">
+    <value>Tila</value>
+  </data>
+  <data name="SupplierModel.Supplier">
+    <value>Toimittaja</value>
+  </data>
+  <data name="SupplierModel.Telephone">
+    <value>Puhelin</value>
+  </data>
+  <data name="SupplierModel.Type">
+    <value>Tyyppi</value>
+  </data>
+  <data name="SupplierModel.UserField01">
+    <value>Käyttäjäkenttä 1</value>
+  </data>
+  <data name="SupplierModel.UserField02">
+    <value>Käyttäjäkenttä 2</value>
+  </data>
+  <data name="SupplierModel.UserField03">
+    <value>Käyttäjäkenttä 3</value>
+  </data>
+  <data name="SupplierModel.UserField04">
+    <value>Käyttäjäkenttä 4</value>
+  </data>
+  <data name="SupplierModel.UserField05">
+    <value>Käyttäjäkenttä 5</value>
+  </data>
+  <data name="SupplierModel.UserField06">
+    <value>Käyttäjäkenttä 6</value>
+  </data>
+  <data name="SupplierModel.UserField07">
+    <value>Käyttäjäkenttä 7</value>
+  </data>
+  <data name="SupplierModel.UserField08">
+    <value>Käyttäjäkenttä 8</value>
+  </data>
+  <data name="SupplierModel.UserField09">
+    <value>Käyttäjäkenttä 9</value>
+  </data>
+  <data name="SupplierModel.UserField10">
+    <value>Käyttäjäkenttä 10</value>
+  </data>
+  <data name="SupplierModel.UserField11">
+    <value>Käyttäjäkenttä 11</value>
+  </data>
+  <data name="SupplierModel.UserField12">
+    <value>Käyttäjäkenttä 12</value>
+  </data>
+  <data name="SupplierModel.UserField13">
+    <value>Käyttäjäkenttä 13</value>
+  </data>
+  <data name="SupplierModel.UserField14">
+    <value>Käyttäjäkenttä 14</value>
+  </data>
+  <data name="SupplierModel.UserField15">
+    <value>Käyttäjäkenttä 15</value>
+  </data>
+  <data name="SupplierModel.UserField16">
+    <value>Käyttäjäkenttä 16</value>
+  </data>
+  <data name="SupplierModel.UserField17">
+    <value>Käyttäjäkenttä 17</value>
+  </data>
+  <data name="SupplierModel.UserField18">
+    <value>Käyttäjäkenttä 18</value>
+  </data>
+  <data name="SupplierModel.UserField19">
+    <value>Käyttäjäkenttä 19</value>
+  </data>
+  <data name="SupplierModel.UserField20">
+    <value>Käyttäjäkenttä 20</value>
+  </data>
+  <data name="SupplierModel.WebPassword">
+    <value>Web/FTP salasana</value>
+  </data>
+  <data name="SupplierModel.WebSite">
+    <value>Web-sivusto</value>
+  </data>
+  <data name="SupplierModel.WebUser">
+    <value>Web/FTP käyttäjä</value>
+  </data>
+  <data name="LocationModel.Created">
+    <value></value>
+  </data>
+  <data name="LocationModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="LocationModel.Modified">
+    <value></value>
+  </data>
+  <data name="LocationModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="LocationModel.AutoStokKeyId">
+    <value>Kulutustarvikevarasto</value>
+  </data>
+  <data name="LocationModel.Barcode">
+    <value>Viivakoodit</value>
+  </data>
+  <data name="LocationModel.DefUserKeyId">
+    <value>Oletuskäyttäjä</value>
+  </data>
+  <data name="LocationModel.Descr">
+    <value>Huomautus</value>
+  </data>
+  <data name="LocationModel.Direction">
+    <value>Suunta</value>
+  </data>
+  <data name="LocationModel.FacKeyId">
+    <value>Tuotantoyksikkö</value>
+  </data>
+  <data name="LocationModel.Flags">
+    <value>Liput</value>
+  </data>
+  <data name="LocationModel.IdlemacroKeyId">
+    <value>Makron valmiustila</value>
+  </data>
+  <data name="LocationModel.Idlemacrotime">
+    <value>Makron valmiustila-aika</value>
+  </data>
+  <data name="LocationModel.Info">
+    <value>Info</value>
+  </data>
+  <data name="LocationModel.IsMaster">
+    <value>On pääpaikkatieto</value>
+  </data>
+  <data name="LocationModel.KeyId">
+    <value>Paikkatiedon tunnus</value>
+  </data>
+  <data name="LocationModel.MacroKeyId">
+    <value>Makro</value>
+  </data>
+  <data name="LocationModel.MasterLocaKeyId">
+    <value>Pääpaikkatieto</value>
+  </data>
+  <data name="LocationModel.MesConfig">
+    <value>MES konfiguraatio</value>
+  </data>
+  <data name="LocationModel.Name">
+    <value>Nimi</value>
+  </data>
+  <data name="LocationModel.Process">
+    <value>Prosessi</value>
+  </data>
+  <data name="LocationModel.ProcessOpt">
+    <value>Prosessi asetukset</value>
+  </data>
+  <data name="LocationModel.Status">
+    <value>Tila</value>
+  </data>
+  <data name="LocationModel.StokKeyId">
+    <value>Varasto</value>
+  </data>
+  <data name="LocationModel.SubProcess">
+    <value>Aliprosessi</value>
+  </data>
+  <data name="LocationModel.Tag">
+    <value>Lippu</value>
+  </data>
+  <data name="LocationModel.UIAvailability">
+    <value>Näkyvyys</value>
+  </data>
+  <data name="LocationModel.UiLdKeyId">
+    <value>Käyttöliittymä osio</value>
+  </data>
+  <data name="LocationModel.UIStartMode">
+    <value>Skanneri käyttöliittymä aloitusmuoto</value>
+  </data>
+  <data name="FixedStockPlacementsModel.KeyId">
+    <value>Määrätty varastosijaintitunnus</value>
+  </data>
+  <data name="FixedStockPlacementsModel.Name">
+    <value>Nimi</value>
+  </data>
+  <data name="FixedStockPlacementsModel.Placement">
+    <value>Sijainti</value>
+  </data>
+  <data name="FixedStockPlacementsModel.StokKeyId">
+    <value>Varasto</value>
+  </data>
+  <data name="TextModel.Created">
+    <value></value>
+  </data>
+  <data name="TextModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="TextModel.Modified">
+    <value></value>
+  </data>
+  <data name="TextModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="TextModel.Data">
+    <value>Tieto</value>
+  </data>
+  <data name="TextModel.FloatOption">
+    <value>Arvo</value>
+  </data>
+  <data name="TextModel.KeyId">
+    <value>Tekstitunnus</value>
+  </data>
+  <data name="TextModel.Memo">
+    <value>Huomautus</value>
+  </data>
+  <data name="TextModel.Number">
+    <value>Nro</value>
+  </data>
+  <data name="TextModel.Option">
+    <value>Asetus</value>
+  </data>
+  <data name="TextModel.SysOption">
+    <value>Järj. asetus</value>
+  </data>
+  <data name="TextModel.Text">
+    <value>Teksti</value>
+  </data>
+  <data name="TextModel.Type">
+    <value>Tyyppi</value>
+  </data>
+  <data name="LocationGroupModel.Created">
+    <value></value>
+  </data>
+  <data name="LocationGroupModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="LocationGroupModel.Modified">
+    <value></value>
+  </data>
+  <data name="LocationGroupModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="LocationGroupModel.Descr">
+    <value>Huomautus</value>
+  </data>
+  <data name="LocationGroupModel.KeyId">
+    <value>Paikkatietoryhmän tunnus</value>
+  </data>
+  <data name="LocationGroupModel.LocationGroup">
+    <value>Paikkatietoryhmä</value>
+  </data>
+  <data name="LocationGroupModel.Name">
+    <value>Nimi</value>
+  </data>
+  <data name="LocationGroupModel.Vicinity">
+    <value>Läheisyys</value>
+  </data>
+  <data name="CatalogModel.Created">
+    <value></value>
+  </data>
+  <data name="CatalogModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="CatalogModel.Modified">
+    <value></value>
+  </data>
+  <data name="CatalogModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="CatalogModel.CatalogNo">
+    <value>Luettelo nro</value>
+  </data>
+  <data name="CatalogModel.CostPrice">
+    <value>Kustannus</value>
+  </data>
+  <data name="CatalogModel.Disposable">
+    <value>Kertakäyttöinen</value>
+  </data>
+  <data name="CatalogModel.ItGrpKeyId">
+    <value>Nimikeryhmä</value>
+  </data>
+  <data name="CatalogModel.ItspcKeyId">
+    <value>Erikoisala</value>
+  </data>
+  <data name="CatalogModel.KeyId">
+    <value>Luettelotunnus</value>
+  </data>
+  <data name="CatalogModel.Length">
+    <value>Pituus</value>
+  </data>
+  <data name="CatalogModel.LifeSpan">
+    <value>Elinaika</value>
+  </data>
+  <data name="CatalogModel.ManufactorNo">
+    <value>Valm. nro</value>
+  </data>
+  <data name="CatalogModel.ManuKeyId">
+    <value>Valmistaja</value>
+  </data>
+  <data name="CatalogModel.Material">
+    <value>Materiaali</value>
+  </data>
+  <data name="CatalogModel.MaterialsNum">
+    <value>Mat. nro</value>
+  </data>
+  <data name="CatalogModel.MaxPressure">
+    <value>Maksimi paine</value>
+  </data>
+  <data name="CatalogModel.MaxTemp">
+    <value>Maksimi lämpö</value>
+  </data>
+  <data name="CatalogModel.OrderMinCount">
+    <value>Pienin tilausmäärä</value>
+  </data>
+  <data name="CatalogModel.OrderStdCount">
+    <value>Tilaus pakkauskoko</value>
+  </data>
+  <data name="CatalogModel.OrderstduomKeyId">
+    <value>Tilaus pakkausmitat</value>
+  </data>
+  <data name="CatalogModel.OtherUnitCount">
+    <value>Vaiht. yksikkömäärä</value>
+  </data>
+  <data name="CatalogModel.OtheruomKeyId">
+    <value>Vaiht. yksikkömitta</value>
+  </data>
+  <data name="CatalogModel.RepairVendorKeyId">
+    <value>Korjaaja</value>
+  </data>
+  <data name="CatalogModel.SterilizationType">
+    <value>Sterilointityyppi</value>
+  </data>
+  <data name="CatalogModel.SuppKeyId">
+    <value>Toimittaja</value>
+  </data>
+  <data name="CatalogModel.Text">
+    <value>Nimi</value>
+  </data>
+  <data name="CatalogModel.Tip">
+    <value>Kärki</value>
+  </data>
+  <data name="CatalogModel.UnitCount">
+    <value>Yksikkömäärä</value>
+  </data>
+  <data name="CatalogModel.UomKeyId">
+    <value>Yksikkömitta</value>
+  </data>
+  <data name="CatalogModel.Warranty">
+    <value>Takuu</value>
+  </data>
+  <data name="CatalogModel.Weight">
+    <value>Paino</value>
+  </data>
+  <data name="CatalogModel.Width">
+    <value>Leveys</value>
+  </data>
+  <data name="ItemGroupModel.Descr">
+    <value>Huomautus</value>
+  </data>
+  <data name="ItemGroupModel.FacKeyId">
+    <value>Tuotantoyksikkö</value>
+  </data>
+  <data name="ItemGroupModel.ItemGroup">
+    <value>Nimikeryhmä</value>
+  </data>
+  <data name="ItemGroupModel.KeyId">
+    <value>Nimikeryhmän tunnus</value>
+  </data>
+  <data name="ItemGroupModel.Name">
+    <value>Nimi</value>
+  </data>
+  <data name="ItemGroupModel.PricingType">
+    <value>Hinnoittelutyyppi</value>
+  </data>
+  <data name="ItemSpecialtyModel.Descr">
+    <value>Huomautus</value>
+  </data>
+  <data name="ItemSpecialtyModel.FacKeyId">
+    <value>Tuotantoyksikkö</value>
+  </data>
+  <data name="ItemSpecialtyModel.KeyId">
+    <value>Erikoisalan tunnus</value>
+  </data>
+  <data name="ItemSpecialtyModel.Name">
+    <value>Nimi</value>
+  </data>
+  <data name="ItemSpecialtyModel.Specialty">
+    <value>Erikoisala</value>
+  </data>
+  <data name="ItemUOMModel.Descr">
+    <value>Huomautus</value>
+  </data>
+  <data name="ItemUOMModel.KeyId">
+    <value>Mittayksikkö tunnus</value>
+  </data>
+  <data name="ItemUOMModel.Name">
+    <value>Nimi</value>
+  </data>
+  <data name="ItemUOMModel.Uom">
+    <value>Mittayksikkö</value>
+  </data>
+  <data name="TagTypeModel.Created">
+    <value></value>
+  </data>
+  <data name="TagTypeModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="TagTypeModel.Modified">
+    <value></value>
+  </data>
+  <data name="TagTypeModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="TagTypeModel.Descr">
+    <value>Huomautukset</value>
+  </data>
+  <data name="TagTypeModel.Height">
+    <value>Korkeus</value>
+  </data>
+  <data name="TagTypeModel.HeightCapacity">
+    <value>Korkeuskapasiteetti</value>
+  </data>
+  <data name="TagTypeModel.HoldsItems">
+    <value>Sisältää nimikkeitä</value>
+  </data>
+  <data name="TagTypeModel.InTTGKeyId">
+    <value>Identtinen lipputyyppiryhmä</value>
+  </data>
+  <data name="TagTypeModel.KeyId">
+    <value>Lipputyyppitunnus</value>
+  </data>
+  <data name="TagTypeModel.Name">
+    <value>Nimi</value>
+  </data>
+  <data name="TagTypeModel.SuppKeyId">
+    <value>Korjaaja</value>
+  </data>
+  <data name="TagTypeModel.SysType">
+    <value>Järjestelmätyyppi</value>
+  </data>
+  <data name="TagTypeModel.Type">
+    <value>Tyyppi</value>
+  </data>
+  <data name="TagTypeModel.UserField01">
+    <value>Käyttäjäkenttä 1</value>
+  </data>
+  <data name="TagTypeModel.UserField02">
+    <value>Käyttäjäkenttä 2</value>
+  </data>
+  <data name="TagTypeModel.UserField03">
+    <value>Käyttäjäkenttä 3</value>
+  </data>
+  <data name="TagTypeModel.UserField04">
+    <value>Käyttäjäkenttä 4</value>
+  </data>
+  <data name="TagTypeModel.UserField05">
+    <value>Käyttäjäkenttä 5</value>
+  </data>
+  <data name="TagTypeModel.UserField06">
+    <value>Käyttäjäkenttä 6</value>
+  </data>
+  <data name="TagTypeModel.UserField07">
+    <value>Käyttäjäkenttä 7</value>
+  </data>
+  <data name="TagTypeModel.UserField08">
+    <value>Käyttäjäkenttä 8</value>
+  </data>
+  <data name="TagTypeModel.UserField09">
+    <value>Käyttäjäkenttä 9</value>
+  </data>
+  <data name="TagTypeModel.UserField10">
+    <value>Käyttäjäkenttä 10</value>
+  </data>
+  <data name="TagTypeModel.UserField11">
+    <value>Käyttäjäkenttä 11</value>
+  </data>
+  <data name="TagTypeModel.UserField12">
+    <value>Käyttäjäkenttä 12</value>
+  </data>
+  <data name="TagTypeModel.UserField13">
+    <value>Käyttäjäkenttä 13</value>
+  </data>
+  <data name="TagTypeModel.UserField14">
+    <value>Käyttäjäkenttä 14</value>
+  </data>
+  <data name="TagTypeModel.UserField15">
+    <value>Käyttäjäkenttä 15</value>
+  </data>
+  <data name="TagTypeModel.UserField16">
+    <value>Käyttäjäkenttä 16</value>
+  </data>
+  <data name="TagTypeModel.UserField17">
+    <value>Käyttäjäkenttä 17</value>
+  </data>
+  <data name="TagTypeModel.UserField18">
+    <value>Käyttäjäkenttä 18</value>
+  </data>
+  <data name="TagTypeModel.UserField19">
+    <value>Käyttäjäkenttä 19</value>
+  </data>
+  <data name="TagTypeModel.UserField20">
+    <value>Käyttäjäkenttä 20</value>
+  </data>
+  <data name="TagTypeModel.Width">
+    <value>Leveys</value>
+  </data>
+  <data name="TagTypeModel.WidthCapacity">
+    <value>Leveyskapasiteetti</value>
+  </data>
+  <data name="SealerProgramModel.Created">
+    <value></value>
+  </data>
+  <data name="SealerProgramModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="SealerProgramModel.Modified">
+    <value></value>
+  </data>
+  <data name="SealerProgramModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="SealerProgramModel.KeyId">
+    <value>Saumaajaohjelmatunnus</value>
+  </data>
+  <data name="SealerProgramModel.Name">
+    <value>Nimi</value>
+  </data>
+  <data name="SealerProgramModel.Pres">
+    <value>Paine</value>
+  </data>
+  <data name="SealerProgramModel.Program">
+    <value>Ohjelma</value>
+  </data>
+  <data name="SealerProgramModel.Temp">
+    <value>Lämpötila</value>
+  </data>
+  <data name="EmgCaseCartTypeModel.Created">
+    <value></value>
+  </data>
+  <data name="EmgCaseCartTypeModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="EmgCaseCartTypeModel.Modified">
+    <value></value>
+  </data>
+  <data name="EmgCaseCartTypeModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="EmgCaseCartTypeModel.CuSiteKeyId">
+    <value>Asiakasryhmä</value>
+  </data>
+  <data name="EmgCaseCartTypeModel.Descr">
+    <value>Huomautus</value>
+  </data>
+  <data name="EmgCaseCartTypeModel.Id">
+    <value>Tyyppi</value>
+  </data>
+  <data name="EmgCaseCartTypeModel.KeyId">
+    <value>Avaintunnus</value>
+  </data>
+  <data name="EmgCaseCartTypeModel.Name">
+    <value>Nimi</value>
+  </data>
+  <data name="EmgCaseCartTypeModel.OptKeyId">
+    <value>Leikkaustyyppi</value>
+  </data>
+  <data name="OperationTypeModel.Created">
+    <value></value>
+  </data>
+  <data name="OperationTypeModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="OperationTypeModel.Modified">
+    <value></value>
+  </data>
+  <data name="OperationTypeModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="OperationTypeModel.AssDoctorCount">
+    <value>Avustava lääkäri määrä</value>
+  </data>
+  <data name="OperationTypeModel.Cleanup">
+    <value>Puhdistus</value>
+  </data>
+  <data name="OperationTypeModel.CntpsKeyId">
+    <value>Laskentapiste ryhmä</value>
+  </data>
+  <data name="OperationTypeModel.Code">
+    <value>Koodi</value>
+  </data>
+  <data name="OperationTypeModel.DefcustKeyId">
+    <value>Vakioasiakas</value>
+  </data>
+  <data name="OperationTypeModel.DefcuststokKeyId">
+    <value>Vakioasiakasvarasto</value>
+  </data>
+  <data name="OperationTypeModel.DefroomKeyId">
+    <value>Sali</value>
+  </data>
+  <data name="OperationTypeModel.Desc">
+    <value>Huomautus</value>
+  </data>
+  <data name="OperationTypeModel.Duration">
+    <value>Kesto</value>
+  </data>
+  <data name="OperationTypeModel.KeyId">
+    <value>Leikkaustyypin tunnus</value>
+  </data>
+  <data name="OperationTypeModel.MinOrderLeadTime">
+    <value>Min. tilausaika ennen leikkausta</value>
+  </data>
+  <data name="OperationTypeModel.Name">
+    <value>Nimi</value>
+  </data>
+  <data name="OperationTypeModel.PatAgeUsage">
+    <value>Potilaan iän käyttö</value>
+  </data>
+  <data name="OperationTypeModel.PatGenderUsage">
+    <value>Potilaan sukupuolen käyttö</value>
+  </data>
+  <data name="OperationTypeModel.Prepare">
+    <value>Valmistus</value>
+  </data>
+  <data name="OperationTypeModel.Status">
+    <value>Tila</value>
+  </data>
+  <data name="OperationTypeModel.Type">
+    <value>Mallityyppi</value>
+  </data>
+  <data name="OperationTypeModel.UserField01">
+    <value>Käyttäjäkenttä 1</value>
+  </data>
+  <data name="OperationTypeModel.UserField02">
+    <value>Käyttäjäkenttä 2</value>
+  </data>
+  <data name="OperationTypeModel.UserField03">
+    <value>Käyttäjäkenttä 3</value>
+  </data>
+  <data name="OperationTypeModel.UserField04">
+    <value>Käyttäjäkenttä 4</value>
+  </data>
+  <data name="OperationTypeModel.UserField05">
+    <value>Käyttäjäkenttä 5</value>
+  </data>
+  <data name="OperationTypeModel.UserField06">
+    <value>Käyttäjäkenttä 6</value>
+  </data>
+  <data name="OperationTypeModel.UserField07">
+    <value>Käyttäjäkenttä 7</value>
+  </data>
+  <data name="OperationTypeModel.UserField08">
+    <value>Käyttäjäkenttä 8</value>
+  </data>
+  <data name="OperationTypeModel.UserField09">
+    <value>Käyttäjäkenttä 9</value>
+  </data>
+  <data name="OperationTypeModel.UserField10">
+    <value>Käyttäjäkenttä 10</value>
+  </data>
+  <data name="OperationTypeModel.UserField11">
+    <value>Käyttäjäkenttä 11</value>
+  </data>
+  <data name="OperationTypeModel.UserField12">
+    <value>Käyttäjäkenttä 12</value>
+  </data>
+  <data name="OperationTypeModel.UserField13">
+    <value>Käyttäjäkenttä 13</value>
+  </data>
+  <data name="OperationTypeModel.UserField14">
+    <value>Käyttäjäkenttä 14</value>
+  </data>
+  <data name="OperationTypeModel.UserField15">
+    <value>Käyttäjäkenttä 15</value>
+  </data>
+  <data name="OperationTypeModel.UserField16">
+    <value>Käyttäjäkenttä 16</value>
+  </data>
+  <data name="OperationTypeModel.UserField17">
+    <value>Käyttäjäkenttä 17</value>
+  </data>
+  <data name="OperationTypeModel.UserField18">
+    <value>Käyttäjäkenttä 18</value>
+  </data>
+  <data name="OperationTypeModel.UserField19">
+    <value>Käyttäjäkenttä 19</value>
+  </data>
+  <data name="OperationTypeModel.UserField20">
+    <value>Käyttäjäkenttä 20</value>
+  </data>
+  <data name="MachineModel.Created">
+    <value></value>
+  </data>
+  <data name="MachineModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="MachineModel.Modified">
+    <value></value>
+  </data>
+  <data name="MachineModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="MachineModel.ActualProgramCheck">
+    <value>Tarkista skannattu/todellinen ohjelma</value>
+  </data>
+  <data name="MachineModel.AgsKeyId">
+    <value>AGS</value>
+  </data>
+  <data name="MachineModel.Alertdelay">
+    <value>Hälytysviive</value>
+  </data>
+  <data name="MachineModel.AllowBatch">
+    <value>Salli erärekisteröinti</value>
+  </data>
+  <data name="MachineModel.AllowDataExport">
+    <value>Salli tiedon vienti</value>
+  </data>
+  <data name="MachineModel.AllowLog">
+    <value>Salli tietojen kerääminen lokiin</value>
+  </data>
+  <data name="MachineModel.Barcode">
+    <value>Viivakoodi</value>
+  </data>
+  <data name="MachineModel.Chargenummode">
+    <value>Ajonumerointi</value>
+  </data>
+  <data name="MachineModel.ConfData">
+    <value>Konfiguraatio tieto</value>
+  </data>
+  <data name="MachineModel.CycleCount">
+    <value>Ajomäärä</value>
+  </data>
+  <data name="MachineModel.DefProgFromModel">
+    <value>Käytä Konemalliasetuksia</value>
+  </data>
+  <data name="MachineModel.DefProgKeyId">
+    <value>Ohjelma</value>
+  </data>
+  <data name="MachineModel.DestApproveLocaKeyId">
+    <value>Hyväksynnän kohdepaikkatieto</value>
+  </data>
+  <data name="MachineModel.DestDisapproveLocaKeyId">
+    <value>Hylkäyksen kohdepaikkatieto</value>
+  </data>
+  <data name="MachineModel.DestEndErrorLocaKeyId">
+    <value>Prosessivirheen kohdepaikkatieto</value>
+  </data>
+  <data name="MachineModel.DestEndLocaKeyId">
+    <value>Prosessin päättymisen kohdepaikkatieto</value>
+  </data>
+  <data name="MachineModel.Info">
+    <value>Info</value>
+  </data>
+  <data name="MachineModel.InitBatchCount">
+    <value>Maksimi osoitettuja eriä</value>
+  </data>
+  <data name="MachineModel.KeyId">
+    <value>Konetunnus</value>
+  </data>
+  <data name="MachineModel.LastCycleCount">
+    <value>Viimeisin ajonumero</value>
+  </data>
+  <data name="MachineModel.LastMinutesOn">
+    <value>Viimeiset päälläolominuutit</value>
+  </data>
+  <data name="MachineModel.LastMinutesRun">
+    <value>Viimeiset ajominuutit</value>
+  </data>
+  <data name="MachineModel.LoadOnStart">
+    <value>Käytä Kuomalippua</value>
+  </data>
+  <data name="MachineModel.LogBatchContent">
+    <value>Kirjaa erän sisältö</value>
+  </data>
+  <data name="MachineModel.McTypKeyId">
+    <value>Malli</value>
+  </data>
+  <data name="MachineModel.MinutesOn">
+    <value>Päälläolominuutit</value>
+  </data>
+  <data name="MachineModel.MinutesRun">
+    <value>Ajominuutit</value>
+  </data>
+  <data name="MachineModel.Name">
+    <value>Nimi</value>
+  </data>
+  <data name="MachineModel.Prescan">
+    <value>Esiskannaus</value>
+  </data>
+  <data name="MachineModel.PrintLabelApprove">
+    <value>Tulosta etiketti hyväksytty</value>
+  </data>
+  <data name="MachineModel.PrintLabelDisappr">
+    <value>Tulosta etiketti hylätty</value>
+  </data>
+  <data name="MachineModel.PrintLabelEnd">
+    <value>Tulosta etiketti päättynyt</value>
+  </data>
+  <data name="MachineModel.PrintLabelInit">
+    <value>Tulosta etiketti osoitettu</value>
+  </data>
+  <data name="MachineModel.PrintLabelStart">
+    <value>Tulosta etiketti aloitettu</value>
+  </data>
+  <data name="MachineModel.PrintLabelStickers">
+    <value>Tulosta etiketti tarrat</value>
+  </data>
+  <data name="MachineModel.PrintListApprove">
+    <value>Tulosta luettelo hyväksytty</value>
+  </data>
+  <data name="MachineModel.PrintListDisappr">
+    <value>Tulosta luettelo hylätty</value>
+  </data>
+  <data name="MachineModel.PrintListEnd">
+    <value>Tulosta luettelo päättynyt</value>
+  </data>
+  <data name="MachineModel.PrintListInit">
+    <value>Tulosta luettelo osoitettu</value>
+  </data>
+  <data name="MachineModel.PrintListStart">
+    <value>Tulosta luettelo aloitettu</value>
+  </data>
+  <data name="MachineModel.PrintNativePdf">
+    <value>Tulosta alkuperäinen PDF</value>
+  </data>
+  <data name="MachineModel.RefNum">
+    <value>Viitenro</value>
+  </data>
+  <data name="MachineModel.SerialNo">
+    <value>Sarjanro</value>
+  </data>
+  <data name="MachineModel.ShiftToHours">
+    <value>Sisäinen tieto</value>
+  </data>
+  <data name="MachineModel.Text">
+    <value>Teksti</value>
+  </data>
+  <data name="MachineModel.Updateinterval">
+    <value>Tietojen päivitysväli</value>
+  </data>
+  <data name="MachineModel.Warnemptybatch">
+    <value>Varoittaa tyhjästä erästä</value>
+  </data>
+  <data name="ProgramModel.Created">
+    <value></value>
+  </data>
+  <data name="ProgramModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="ProgramModel.Modified">
+    <value></value>
+  </data>
+  <data name="ProgramModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="ProgramModel.Approval">
+    <value>Hyväksyntä</value>
+  </data>
+  <data name="ProgramModel.Barcode">
+    <value>Viivakoodi</value>
+  </data>
+  <data name="ProgramModel.CheckInitiated">
+    <value>Manuaalinen osoitus</value>
+  </data>
+  <data name="ProgramModel.ConsumCost">
+    <value>Kulutus</value>
+  </data>
+  <data name="ProgramModel.DeprecCost">
+    <value>Kuoletus</value>
+  </data>
+  <data name="ProgramModel.Description">
+    <value>Huomautus</value>
+  </data>
+  <data name="ProgramModel.Duration">
+    <value>Kierroskesto</value>
+  </data>
+  <data name="ProgramModel.ExtLogRequired">
+    <value>Ulkoinen loki vaaditaan</value>
+  </data>
+  <data name="ProgramModel.FilterDeltaP">
+    <value>Suodatin delta paine</value>
+  </data>
+  <data name="ProgramModel.FilterDeltaT">
+    <value>Suodatin delta lämpöt.</value>
+  </data>
+  <data name="ProgramModel.FilterTime1">
+    <value>Suodatusaika 1</value>
+  </data>
+  <data name="ProgramModel.FilterTime2">
+    <value>Suodatusaika 2</value>
+  </data>
+  <data name="ProgramModel.InternalParams">
+    <value>Sisäiset parametrit</value>
+  </data>
+  <data name="ProgramModel.KeyId">
+    <value>Ohjelmatunnus</value>
+  </data>
+  <data name="ProgramModel.LogRef">
+    <value>Viiteloki</value>
+  </data>
+  <data name="ProgramModel.MaxTemp">
+    <value>Maksimi lämpö</value>
+  </data>
+  <data name="ProgramModel.McTypKeyId">
+    <value>Konemalli</value>
+  </data>
+  <data name="ProgramModel.Name">
+    <value>Nimi</value>
+  </data>
+  <data name="ProgramModel.Password">
+    <value>Salasana</value>
+  </data>
+  <data name="ProgramModel.PreHiPres">
+    <value>Korkein esipaine</value>
+  </data>
+  <data name="ProgramModel.PreHiTemp">
+    <value>Korkein esilämpö</value>
+  </data>
+  <data name="ProgramModel.PreLowPres">
+    <value>Matalin esipaine</value>
+  </data>
+  <data name="ProgramModel.PreLowTemp">
+    <value>Matalin esilämpö</value>
+  </data>
+  <data name="ProgramModel.PrePulses">
+    <value>Esityhjiöt</value>
+  </data>
+  <data name="ProgramModel.Price">
+    <value>Hinta</value>
+  </data>
+  <data name="ProgramModel.Program">
+    <value>Ohjelma</value>
+  </data>
+  <data name="ProgramModel.QSetKeyId">
+    <value>Kysymyssarja</value>
+  </data>
+  <data name="ProgramModel.ReportName">
+    <value>Raporttinimi</value>
+  </data>
+  <data name="ProgramModel.ScanNum">
+    <value>Sisäinen nro</value>
+  </data>
+  <data name="ProgramModel.SecondUserApproval">
+    <value>Toinen hyväksyntä vaaditaan</value>
+  </data>
+  <data name="ProgramModel.SterilePres">
+    <value>Vaikutuspaine</value>
+  </data>
+  <data name="ProgramModel.SterileSeconds">
+    <value>Vaikutusaika</value>
+  </data>
+  <data name="ProgramModel.SterileTemp">
+    <value>Vaikutuslämpö</value>
+  </data>
+  <data name="ProgramModel.Type">
+    <value>Tyyppi</value>
+  </data>
+  <data name="ProgramModel.UtilityCost">
+    <value>Aputoiminto</value>
+  </data>
+  <data name="ProgramModel.Validate">
+    <value>Validoitu</value>
+  </data>
+  <data name="ProgramRecipeModel.Created">
+    <value></value>
+  </data>
+  <data name="ProgramRecipeModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="ProgramRecipeModel.Modified">
+    <value></value>
+  </data>
+  <data name="ProgramRecipeModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="ProgramRecipeModel.Approval">
+    <value>Hyväksyntä</value>
+  </data>
+  <data name="ProgramRecipeModel.Description">
+    <value>Huomautus</value>
+  </data>
+  <data name="ProgramRecipeModel.Duration">
+    <value>Kesto</value>
+  </data>
+  <data name="ProgramRecipeModel.KeyId">
+    <value>Ohjelmareseptitunnus</value>
+  </data>
+  <data name="ProgramRecipeModel.Leqfilling">
+    <value>Täyttö</value>
+  </data>
+  <data name="ProgramRecipeModel.LeqKeyId">
+    <value>Kuormalaitteisto</value>
+  </data>
+  <data name="ProgramRecipeModel.LogRef">
+    <value>Viiteloki</value>
+  </data>
+  <data name="ProgramRecipeModel.Maxgravity">
+    <value>Maksimi gravitaatio</value>
+  </data>
+  <data name="ProgramRecipeModel.MaxTemp">
+    <value>Maksimi lämpö</value>
+  </data>
+  <data name="ProgramRecipeModel.Mingravity">
+    <value>Min. gravitaatio</value>
+  </data>
+  <data name="ProgramRecipeModel.Name">
+    <value>Nimi</value>
+  </data>
+  <data name="ProgramRecipeModel.Origin">
+    <value>Alkuperä</value>
+  </data>
+  <data name="ProgramRecipeModel.Original">
+    <value>Alkuperäinen</value>
+  </data>
+  <data name="ProgramRecipeModel.Posttreat">
+    <value>Jälkikäsittely</value>
+  </data>
+  <data name="ProgramRecipeModel.PreHiPres">
+    <value>Korkein esipaine</value>
+  </data>
+  <data name="ProgramRecipeModel.PreHiTemp">
+    <value>Korkein esilämpö</value>
+  </data>
+  <data name="ProgramRecipeModel.PreLowPres">
+    <value>Matalin esipaine</value>
+  </data>
+  <data name="ProgramRecipeModel.PreLowTemp">
+    <value>Matalin esilämpö</value>
+  </data>
+  <data name="ProgramRecipeModel.PrePulses">
+    <value>Esityhjiöt</value>
+  </data>
+  <data name="ProgramRecipeModel.Pretreat">
+    <value>Esikäsittely</value>
+  </data>
+  <data name="ProgramRecipeModel.ProgKeyId">
+    <value>Ohjelma</value>
+  </data>
+  <data name="ProgramRecipeModel.Reloadtime">
+    <value>Uudelleenlataa aika</value>
+  </data>
+  <data name="ProgramRecipeModel.Runcount">
+    <value>Ajolaskin</value>
+  </data>
+  <data name="ProgramRecipeModel.SterilePres">
+    <value>Vaikutuspaine</value>
+  </data>
+  <data name="ProgramRecipeModel.SterileSeconds">
+    <value>Vaikutusaika</value>
+  </data>
+  <data name="ProgramRecipeModel.SterileTemp">
+    <value>Vaikutuslämpö</value>
+  </data>
+  <data name="ProgramRecipeModel.Validate">
+    <value>Validoitu</value>
+  </data>
+  <data name="MacroModel.Created">
+    <value></value>
+  </data>
+  <data name="MacroModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="MacroModel.Modified">
+    <value></value>
+  </data>
+  <data name="MacroModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="MacroModel.Barcode">
+    <value>Viivakoodi</value>
+  </data>
+  <data name="MacroModel.Data">
+    <value>Tieto</value>
+  </data>
+  <data name="MacroModel.KeyId">
+    <value>Makrotunnus</value>
+  </data>
+  <data name="MacroModel.Macro">
+    <value>Makro</value>
+  </data>
+  <data name="MacroModel.Name">
+    <value>Nimi</value>
+  </data>
+  <data name="MacroModel.Remark">
+    <value>Huomautus</value>
+  </data>
+  <data name="UILayerDefModel.Created">
+    <value></value>
+  </data>
+  <data name="UILayerDefModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="UILayerDefModel.Modified">
+    <value></value>
+  </data>
+  <data name="UILayerDefModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="UILayerDefModel.Classname">
+    <value>Luokkanimi</value>
+  </data>
+  <data name="UILayerDefModel.Default">
+    <value>Oletus</value>
+  </data>
+  <data name="UILayerDefModel.DefSys">
+    <value>Järjestelmä määritelmä</value>
+  </data>
+  <data name="UILayerDefModel.DefUsr">
+    <value>Käyttäjä määritys</value>
+  </data>
+  <data name="UILayerDefModel.Descr">
+    <value>Huomautus</value>
+  </data>
+  <data name="UILayerDefModel.Enabled">
+    <value>Käytössä</value>
+  </data>
+  <data name="UILayerDefModel.KeyId">
+    <value>Käyttöliittymä osiotunnus</value>
+  </data>
+  <data name="UILayerDefModel.Name">
+    <value>Nimi</value>
+  </data>
+  <data name="UILayerDefModel.SysId">
+    <value>Järjestelmätunnus</value>
+  </data>
+  <data name="UILayerDefModel.SysType">
+    <value>Järjestelmätyyppi</value>
+  </data>
+  <data name="UILayerDefModel.VCLDefSys">
+    <value>System VCL definition</value>
+  </data>
+  <data name="UILayerDefModel.VCLDefUsr">
+    <value>User VCL definition</value>
+  </data>
+  <data name="UILayerDefModel.Version">
+    <value>Versio</value>
+  </data>
+  <data name="IdenticalTagTypeGroupModel.KeyId">
+    <value>Tunnus</value>
+  </data>
+  <data name="IdenticalTagTypeGroupModel.TagType">
+    <value>Lipputyyppi</value>
+  </data>
+  <data name="RoomModel.ArrivedLGrpKeyId">
+    <value>Saapuneiden paikkatietoryhmä</value>
+  </data>
+  <data name="RoomModel.AvailableLGrpKeyId">
+    <value>Käytettävissä oleva paikkatietoryhmä</value>
+  </data>
+  <data name="RoomModel.Barcode">
+    <value>Viivakoodi</value>
+  </data>
+  <data name="RoomModel.BlockOrderCreation">
+    <value>Estä leikkauspohjaiset tilaukset</value>
+  </data>
+  <data name="RoomModel.CalKeyId">
+    <value>Kalenteri</value>
+  </data>
+  <data name="RoomModel.DelGln">
+    <value>Toimitus GLN</value>
+  </data>
+  <data name="RoomModel.Desc">
+    <value>Huomautus</value>
+  </data>
+  <data name="RoomModel.Gln">
+    <value>GLN</value>
+  </data>
+  <data name="RoomModel.Id">
+    <value>Tunnus</value>
+  </data>
+  <data name="RoomModel.KeyId">
+    <value>Sali tunnus</value>
+  </data>
+  <data name="RoomModel.Name">
+    <value>Nimi</value>
+  </data>
+  <data name="RoomModel.Status">
+    <value>Tila</value>
+  </data>
+  <data name="RoomModel.StGrKeyId">
+    <value>Varastoryhmä</value>
+  </data>
+  <data name="RoomModel.StokKeyId">
+    <value>Varasto</value>
+  </data>
+  <data name="RoomModel.UserField01">
+    <value>Käyttäjäkenttä 1</value>
+  </data>
+  <data name="RoomModel.UserField02">
+    <value>Käyttäjäkenttä 2</value>
+  </data>
+  <data name="RoomModel.UserField03">
+    <value>Käyttäjäkenttä 3</value>
+  </data>
+  <data name="RoomModel.UserField04">
+    <value>Käyttäjäkenttä 4</value>
+  </data>
+  <data name="RoomModel.UserField05">
+    <value>Käyttäjäkenttä 5</value>
+  </data>
+  <data name="RoomModel.UserField06">
+    <value>Käyttäjäkenttä 6</value>
+  </data>
+  <data name="RoomModel.UserField07">
+    <value>Käyttäjäkenttä 7</value>
+  </data>
+  <data name="RoomModel.UserField08">
+    <value>Käyttäjäkenttä 8</value>
+  </data>
+  <data name="RoomModel.UserField09">
+    <value>Käyttäjäkenttä 9</value>
+  </data>
+  <data name="RoomModel.UserField10">
+    <value>Käyttäjäkenttä 10</value>
+  </data>
+  <data name="RoomModel.UserField11">
+    <value>Käyttäjäkenttä 11</value>
+  </data>
+  <data name="RoomModel.UserField12">
+    <value>Käyttäjäkenttä 12</value>
+  </data>
+  <data name="RoomModel.UserField13">
+    <value>Käyttäjäkenttä 13</value>
+  </data>
+  <data name="RoomModel.UserField14">
+    <value>Käyttäjäkenttä 14</value>
+  </data>
+  <data name="RoomModel.UserField15">
+    <value>Käyttäjäkenttä 15</value>
+  </data>
+  <data name="RoomModel.UserField16">
+    <value>Käyttäjäkenttä 16</value>
+  </data>
+  <data name="RoomModel.UserField17">
+    <value>Käyttäjäkenttä 17</value>
+  </data>
+  <data name="RoomModel.UserField18">
+    <value>Käyttäjäkenttä 18</value>
+  </data>
+  <data name="RoomModel.UserField19">
+    <value>Käyttäjäkenttä 19</value>
+  </data>
+  <data name="RoomModel.UserField20">
+    <value>Käyttäjäkenttä 20</value>
+  </data>
+  <data name="AGSModel.Created">
+    <value></value>
+  </data>
+  <data name="AGSModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="AGSModel.Modified">
+    <value></value>
+  </data>
+  <data name="AGSModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="AGSModel.Barcode">
+    <value>Viivakoodi</value>
+  </data>
+  <data name="AGSModel.Info">
+    <value>Info</value>
+  </data>
+  <data name="AGSModel.KeyId">
+    <value>AGS tunnus</value>
+  </data>
+  <data name="AGSModel.MasterQueueKeyId">
+    <value>Pääjono</value>
+  </data>
+  <data name="AGSModel.Maxloads">
+    <value>Maksimimäärä kuormia</value>
+  </data>
+  <data name="AGSModel.Name">
+    <value>Nimi</value>
+  </data>
+  <data name="AGSModel.RefNum">
+    <value>Viitenro (ini tiedosto)</value>
+  </data>
+  <data name="AGSModel.Text">
+    <value>Teksti</value>
+  </data>
+  <data name="MachineTypeModel.Created">
+    <value></value>
+  </data>
+  <data name="MachineTypeModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="MachineTypeModel.Modified">
+    <value></value>
+  </data>
+  <data name="MachineTypeModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="MachineTypeModel.AbsolutePressure">
+    <value>Todellinen paine</value>
+  </data>
+  <data name="MachineTypeModel.AutoCreatedIndic">
+    <value>Automaattisesti luodut indikaattorit</value>
+  </data>
+  <data name="MachineTypeModel.BasketDepth">
+    <value>Korin syvyys</value>
+  </data>
+  <data name="MachineTypeModel.BasketFits">
+    <value>Korimäärä</value>
+  </data>
+  <data name="MachineTypeModel.BasketHeight">
+    <value>Korin korkeus</value>
+  </data>
+  <data name="MachineTypeModel.BasketWidth">
+    <value>Korin leveys</value>
+  </data>
+  <data name="MachineTypeModel.CanAutoCreateBI">
+    <value>Voi luoda biologisia indikaattoreita automaattisesti</value>
+  </data>
+  <data name="MachineTypeModel.CBIUsageMode">
+    <value>Kontrolli-indikaattori vaaditaan</value>
+  </data>
+  <data name="MachineTypeModel.DefProgKeyId">
+    <value>Oletusohjelman valinta</value>
+  </data>
+  <data name="MachineTypeModel.FixedTime">
+    <value>Kiinteä aika</value>
+  </data>
+  <data name="MachineTypeModel.IncubatorType">
+    <value>Erätiedot inkubaattori</value>
+  </data>
+  <data name="MachineTypeModel.KeyId">
+    <value>Konetyyppitunnus</value>
+  </data>
+  <data name="MachineTypeModel.LoadOnStart">
+    <value>Käytä Kuomalippua</value>
+  </data>
+  <data name="MachineTypeModel.LogBatchRegError">
+    <value>Erärekisteröintivirhe</value>
+  </data>
+  <data name="MachineTypeModel.LogBatchRegMode">
+    <value>Erärekisteröintitila</value>
+  </data>
+  <data name="MachineTypeModel.ManuKeyId">
+    <value>Valmistaja</value>
+  </data>
+  <data name="MachineTypeModel.MaxEndo">
+    <value>Maksimi endoskooppeja</value>
+  </data>
+  <data name="MachineTypeModel.MaxLoadCount">
+    <value>Maksimi kuormamäärä</value>
+  </data>
+  <data name="MachineTypeModel.MaxPerPlacement">
+    <value>Maksimi skooppeja per sijainti</value>
+  </data>
+  <data name="MachineTypeModel.MaxPres">
+    <value>Maksimi paine</value>
+  </data>
+  <data name="MachineTypeModel.MaxTemp">
+    <value>Maksimi lämpö</value>
+  </data>
+  <data name="MachineTypeModel.MinPres">
+    <value>Minimi paine</value>
+  </data>
+  <data name="MachineTypeModel.MinTemp">
+    <value>Minimi lämpö</value>
+  </data>
+  <data name="MachineTypeModel.Name">
+    <value>Nimi</value>
+  </data>
+  <data name="MachineTypeModel.NonEndo">
+    <value>Ei-endoskoopit</value>
+  </data>
+  <data name="MachineTypeModel.PlacementCount">
+    <value>Sijaintien määrä</value>
+  </data>
+  <data name="MachineTypeModel.PlacementMode">
+    <value>Sijainnin konfiguraatio</value>
+  </data>
+  <data name="MachineTypeModel.PlacementUsgMode">
+    <value>Sijaintien käyttö muoto</value>
+  </data>
+  <data name="MachineTypeModel.PressureDecimals">
+    <value>Painedesimaalit</value>
+  </data>
+  <data name="MachineTypeModel.PressureLogarithmic">
+    <value>Logaritminen asteikko</value>
+  </data>
+  <data name="MachineTypeModel.PressureType">
+    <value>Paine</value>
+  </data>
+  <data name="MachineTypeModel.Queuelength">
+    <value>Jonon pituus</value>
+  </data>
+  <data name="MachineTypeModel.RelativeTime">
+    <value>Suhteellinen aika</value>
+  </data>
+  <data name="MachineTypeModel.RepairVendorKeyId">
+    <value>Korjaaja</value>
+  </data>
+  <data name="MachineTypeModel.Reportflags">
+    <value>Raporttiasetukset</value>
+  </data>
+  <data name="MachineTypeModel.StandardError">
+    <value>Vakiovirhe</value>
+  </data>
+  <data name="MachineTypeModel.SuppKeyId">
+    <value>Toimittaja</value>
+  </data>
+  <data name="MachineTypeModel.TechError">
+    <value>Tekninen virhe</value>
+  </data>
+  <data name="MachineTypeModel.TempDecimals">
+    <value>L. desimaalit</value>
+  </data>
+  <data name="MachineTypeModel.TempType">
+    <value>Lämpötila</value>
+  </data>
+  <data name="MachineTypeModel.Text">
+    <value>Teksti</value>
+  </data>
+  <data name="MachineTypeModel.Type">
+    <value>Tyyppi</value>
+  </data>
+  <data name="MachineTypeModel.UseMAP">
+    <value>Käytä mitattua ka. painetta</value>
+  </data>
+  <data name="MachineTypeModel.UseRecipe">
+    <value>Käytä reseptejä</value>
+  </data>
+  <data name="MachineTypeModel.Volume">
+    <value>Tilavuus</value>
+  </data>
+  <data name="QuestionSetModel.Created">
+    <value></value>
+  </data>
+  <data name="QuestionSetModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="QuestionSetModel.Modified">
+    <value></value>
+  </data>
+  <data name="QuestionSetModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="QuestionSetModel.KeyId">
+    <value>Kysymyssarjatunnus</value>
+  </data>
+  <data name="QuestionSetModel.Name">
+    <value>Nimi</value>
+  </data>
+  <data name="QuestionSetModel.Remark">
+    <value>Huomautus</value>
+  </data>
+  <data name="QuestionSetModel.Set">
+    <value>Kysymyssarja</value>
+  </data>
+  <data name="LoadingEquipmentModel.Created">
+    <value></value>
+  </data>
+  <data name="LoadingEquipmentModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="LoadingEquipmentModel.Modified">
+    <value></value>
+  </data>
+  <data name="LoadingEquipmentModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="LoadingEquipmentModel.Area">
+    <value>Alue</value>
+  </data>
+  <data name="LoadingEquipmentModel.Depth">
+    <value>Syvyys</value>
+  </data>
+  <data name="LoadingEquipmentModel.Descr">
+    <value>Huomautus</value>
+  </data>
+  <data name="LoadingEquipmentModel.Height">
+    <value>Korkeus</value>
+  </data>
+  <data name="LoadingEquipmentModel.KeyId">
+    <value>Kuormalaitteiston tunnus</value>
+  </data>
+  <data name="LoadingEquipmentModel.Name">
+    <value>Nimi</value>
+  </data>
+  <data name="LoadingEquipmentModel.Width">
+    <value>Leveys</value>
+  </data>
+  <data name="UnitModel.Basket">
+    <value>Kori</value>
+  </data>
+  <data name="UnitModel.Batch">
+    <value>Erä</value>
+  </data>
+  <data name="UnitModel.Created">
+    <value>Luotu</value>
+  </data>
+  <data name="UnitModel.CustKeyId">
+    <value>Asiakas</value>
+  </data>
+  <data name="UnitModel.DryingStokKeyId">
+    <value>Kuivausvarasto</value>
+  </data>
+  <data name="UnitModel.Error">
+    <value>Virhe</value>
+  </data>
+  <data name="UnitModel.Expire">
+    <value>Vanhenemispvm</value>
+  </data>
+  <data name="UnitModel.FacKeyId">
+    <value>Tuotantoyksikkö</value>
+  </data>
+  <data name="UnitModel.LMProKeyId">
+    <value>Lainahallintaprofiili</value>
+  </data>
+  <data name="UnitModel.LocaKeyId">
+    <value>Paikkatieto</value>
+  </data>
+  <data name="UnitModel.LocaTime">
+    <value>Paikkatieto aika</value>
+  </data>
+  <data name="UnitModel.NextUnit">
+    <value>Seuraava yksikkö</value>
+  </data>
+  <data name="UnitModel.OpDKeyId">
+    <value>Leikkaus</value>
+  </data>
+  <data name="UnitModel.PackUserKeyId">
+    <value>Pakkaaja</value>
+  </data>
+  <data name="UnitModel.PrevUnit">
+    <value>Edell. yksikkö</value>
+  </data>
+  <data name="UnitModel.Price">
+    <value>Hinta</value>
+  </data>
+  <data name="UnitModel.PriceHandling">
+    <value>Käsittelyhinta</value>
+  </data>
+  <data name="UnitModel.PricePack">
+    <value>Pakkaus hinta</value>
+  </data>
+  <data name="UnitModel.PriceSteri">
+    <value>Sterilointihinta</value>
+  </data>
+  <data name="UnitModel.PriceUsage">
+    <value>Käyttöhinta</value>
+  </data>
+  <data name="UnitModel.PriceWash">
+    <value>Pesu/desinf. hinta</value>
+  </data>
+  <data name="UnitModel.PriGrKeyId">
+    <value>Hintaryhmä</value>
+  </data>
+  <data name="UnitModel.ProdKeyId">
+    <value>Tuote</value>
+  </data>
+  <data name="UnitModel.ReqReturnReg">
+    <value>Palautus vaaditaan</value>
+  </data>
+  <data name="UnitModel.RoomKeyId">
+    <value>Sali</value>
+  </data>
+  <data name="UnitModel.SeriKeyId">
+    <value>Sarjanro</value>
+  </data>
+  <data name="UnitModel.Status">
+    <value>Tila</value>
+  </data>
+  <data name="UnitModel.StokKeyId">
+    <value>Varasto</value>
+  </data>
+  <data name="UnitModel.Unit">
+    <value>Yksikkö</value>
+  </data>
+  <data name="UnitModel.UsageCounter">
+    <value>Käyttölaskuri</value>
+  </data>
+  <data name="UnitModel.WorkingTime">
+    <value>Käytetty pakkausaika</value>
+  </data>
+  <data name="TagsModel.Created">
+    <value></value>
+  </data>
+  <data name="TagsModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="TagsModel.Auto">
+    <value>Automaattinen lippu</value>
+  </data>
+  <data name="TagsModel.Barcode">
+    <value>Viivakoodi</value>
+  </data>
+  <data name="TagsModel.KeyId">
+    <value>Lipputunnus</value>
+  </data>
+  <data name="TagsModel.LocaKeyId">
+    <value>Nykyinen paikkatieto</value>
+  </data>
+  <data name="TagsModel.LocaTime">
+    <value>Paikkatieto aika</value>
+  </data>
+  <data name="TagsModel.Name">
+    <value>Nimi</value>
+  </data>
+  <data name="TagsModel.No">
+    <value>Nro</value>
+  </data>
+  <data name="TagsModel.ProcBatch">
+    <value>Liitetty erä</value>
+  </data>
+  <data name="TagsModel.Status">
+    <value>Tila</value>
+  </data>
+  <data name="TagsModel.StokKeyId">
+    <value>Varasto</value>
+  </data>
+  <data name="TagsModel.TagTKeyId">
+    <value>Lipputyyppi</value>
+  </data>
+  <data name="TagsModel.Type">
+    <value>Tyyppi</value>
+  </data>
+  <data name="OperationDataModel.Created">
+    <value></value>
+  </data>
+  <data name="OperationDataModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="OperationDataModel.Modified">
+    <value></value>
+  </data>
+  <data name="OperationDataModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="OperationDataModel.ActualEndTime">
+    <value>Todellinen päättymisaika</value>
+  </data>
+  <data name="OperationDataModel.ActualStartTime">
+    <value>Todellinen aloitusaika</value>
+  </data>
+  <data name="OperationDataModel.BookingForce">
+    <value>Varaus pakotettu</value>
+  </data>
+  <data name="OperationDataModel.BookingStatus">
+    <value>Varaustila</value>
+  </data>
+  <data name="OperationDataModel.CustKeyId">
+    <value>Asiakas</value>
+  </data>
+  <data name="OperationDataModel.CustStokKeyId">
+    <value>Asiakasvarasto</value>
+  </data>
+  <data name="OperationDataModel.DoctKeyId">
+    <value>Lääkäri</value>
+  </data>
+  <data name="OperationDataModel.EndTime">
+    <value>Lopetusaika</value>
+  </data>
+  <data name="OperationDataModel.Ident">
+    <value>Leikkaus</value>
+  </data>
+  <data name="OperationDataModel.IncompleteOrder">
+    <value>Epätäydellinen tilaus</value>
+  </data>
+  <data name="OperationDataModel.KeyId">
+    <value>Leikkaustunnus</value>
+  </data>
+  <data name="OperationDataModel.Name">
+    <value>Nimi</value>
+  </data>
+  <data name="OperationDataModel.OptKeyId">
+    <value>Leikkaustyyppi</value>
+  </data>
+  <data name="OperationDataModel.OrdersNeedUpdate">
+    <value>Tilauksen päivitys odottaa</value>
+  </data>
+  <data name="OperationDataModel.PatAge">
+    <value>Potilaan ikä</value>
+  </data>
+  <data name="OperationDataModel.PatGender">
+    <value>Sukupuoli</value>
+  </data>
+  <data name="OperationDataModel.PatKeyId">
+    <value>Potilas</value>
+  </data>
+  <data name="OperationDataModel.PatWeight">
+    <value>Paino</value>
+  </data>
+  <data name="OperationDataModel.PrefListDelShortage">
+    <value>Tarvikelista toimitettu vajaana</value>
+  </data>
+  <data name="OperationDataModel.PrefListOrderMode">
+    <value>Tilaus tila</value>
+  </data>
+  <data name="OperationDataModel.Remark">
+    <value>Huomautus</value>
+  </data>
+  <data name="OperationDataModel.RoomKeyId">
+    <value>Sali</value>
+  </data>
+  <data name="OperationDataModel.StartTime">
+    <value>Aloitusaika</value>
+  </data>
+  <data name="OperationDataModel.StartTimeModified">
+    <value>Aloitusaikaa muokattu</value>
+  </data>
+  <data name="OperationDataModel.Status">
+    <value>Tila</value>
+  </data>
+  <data name="OperationDataModel.SuppFacKeyId">
+    <value>Toimittava tuotantoyksikkö</value>
+  </data>
+  <data name="SerialModel.Created">
+    <value></value>
+  </data>
+  <data name="SerialModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="SerialModel.Modified">
+    <value></value>
+  </data>
+  <data name="SerialModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="SerialModel.Barcode">
+    <value>Viivakoodit</value>
+  </data>
+  <data name="SerialModel.DispatchRestrict">
+    <value>Lähetyksen rajoitus</value>
+  </data>
+  <data name="SerialModel.ExtLoanerId">
+    <value>Ulkoinen lainatunnus</value>
+  </data>
+  <data name="SerialModel.ExtName">
+    <value>Ulkoinen nimi</value>
+  </data>
+  <data name="SerialModel.FTCoKeyId">
+    <value>Kiirekoodi</value>
+  </data>
+  <data name="SerialModel.FTPlKeyId">
+    <value>Kiiresuunnitelma</value>
+  </data>
+  <data name="SerialModel.FTTmpKeyId">
+    <value>Kiireryhmä</value>
+  </data>
+  <data name="SerialModel.HatKeyId">
+    <value>Käsittelytyyppi</value>
+  </data>
+  <data name="SerialModel.KeyId">
+    <value>Sarjanumerotunnus</value>
+  </data>
+  <data name="SerialModel.LMProKeyId">
+    <value>Lainahallintaprofiili</value>
+  </data>
+  <data name="SerialModel.LocaKeyId">
+    <value>Paikkatieto</value>
+  </data>
+  <data name="SerialModel.Manufactserialnumber">
+    <value>Valm. sarjanro</value>
+  </data>
+  <data name="SerialModel.Name">
+    <value>Nimi</value>
+  </data>
+  <data name="SerialModel.OwnerCuSiteKeyId">
+    <value>Omistaja (asiakasryhmä)</value>
+  </data>
+  <data name="SerialModel.OwnerCustKeyId">
+    <value>Omistaja (asiakas)</value>
+  </data>
+  <data name="SerialModel.OwnerFacKeyId">
+    <value>Omistaja (tuotantoyksikkö)</value>
+  </data>
+  <data name="SerialModel.OwnerSuppKeyId">
+    <value>Omistaja (toimittaja)</value>
+  </data>
+  <data name="SerialModel.PackKeyId">
+    <value>Pakkausmateriaali</value>
+  </data>
+  <data name="SerialModel.PurchaseDate">
+    <value>Ostopvm</value>
+  </data>
+  <data name="SerialModel.PurchaseOrdNo">
+    <value>Ostotilausnro</value>
+  </data>
+  <data name="SerialModel.PurchasePrice">
+    <value>Ostohinta</value>
+  </data>
+  <data name="SerialModel.PurchaseTime">
+    <value>Ostopvm</value>
+  </data>
+  <data name="SerialModel.RefItemKeyId">
+    <value>Nimike</value>
+  </data>
+  <data name="SerialModel.RefPReKeyId">
+    <value>Ohjelmaresepti</value>
+  </data>
+  <data name="SerialModel.RefProdKeyId">
+    <value>Tuote</value>
+  </data>
+  <data name="SerialModel.RefProgKeyId">
+    <value>Ohjelma</value>
+  </data>
+  <data name="SerialModel.Remark">
+    <value>Huomautus</value>
+  </data>
+  <data name="SerialModel.SerialNo">
+    <value>Sarjanro</value>
+  </data>
+  <data name="SerialModel.Status">
+    <value>Tila</value>
+  </data>
+  <data name="SerialModel.Stockplacement">
+    <value>Varastosijainti</value>
+  </data>
+  <data name="SerialModel.StokKeyId">
+    <value>Varasto</value>
+  </data>
+  <data name="SerialModel.SuppKeyId">
+    <value>Toimittaja</value>
+  </data>
+  <data name="SerialModel.TRGrpKeyId">
+    <value>Vanhenemisaikaryhmä</value>
+  </data>
+  <data name="SerialModel.UserField01">
+    <value>Käyttäjäkenttä 1</value>
+  </data>
+  <data name="SerialModel.UserField02">
+    <value>Käyttäjäkenttä 2</value>
+  </data>
+  <data name="SerialModel.UserField03">
+    <value>Käyttäjäkenttä 3</value>
+  </data>
+  <data name="SerialModel.UserField04">
+    <value>Käyttäjäkenttä 4</value>
+  </data>
+  <data name="SerialModel.UserField05">
+    <value>Käyttäjäkenttä 5</value>
+  </data>
+  <data name="SerialModel.UserField06">
+    <value>Käyttäjäkenttä 6</value>
+  </data>
+  <data name="SerialModel.UserField07">
+    <value>Käyttäjäkenttä 7</value>
+  </data>
+  <data name="SerialModel.UserField08">
+    <value>Käyttäjäkenttä 8</value>
+  </data>
+  <data name="SerialModel.UserField09">
+    <value>Käyttäjäkenttä 9</value>
+  </data>
+  <data name="SerialModel.UserField10">
+    <value>Käyttäjäkenttä 10</value>
+  </data>
+  <data name="SerialModel.UserField11">
+    <value>Käyttäjäkenttä 11</value>
+  </data>
+  <data name="SerialModel.UserField12">
+    <value>Käyttäjäkenttä 12</value>
+  </data>
+  <data name="SerialModel.UserField13">
+    <value>Käyttäjäkenttä 13</value>
+  </data>
+  <data name="SerialModel.UserField14">
+    <value>Käyttäjäkenttä 14</value>
+  </data>
+  <data name="SerialModel.UserField15">
+    <value>Käyttäjäkenttä 15</value>
+  </data>
+  <data name="SerialModel.UserField16">
+    <value>Käyttäjäkenttä 16</value>
+  </data>
+  <data name="SerialModel.UserField17">
+    <value>Käyttäjäkenttä 17</value>
+  </data>
+  <data name="SerialModel.UserField18">
+    <value>Käyttäjäkenttä 18</value>
+  </data>
+  <data name="SerialModel.UserField19">
+    <value>Käyttäjäkenttä 19</value>
+  </data>
+  <data name="SerialModel.UserField20">
+    <value>Käyttäjäkenttä 20</value>
+  </data>
+  <data name="SerialModel.UnitUnit">
+    <value>Yksikkö</value>
+  </data>
+  <data name="SerialModel.UsageCount">
+    <value>Käyttömäärä</value>
+  </data>
+  <data name="SerialModel.Weight">
+    <value>Paino</value>
+  </data>
+  <data name="DoctorModel.Created">
+    <value></value>
+  </data>
+  <data name="DoctorModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="DoctorModel.Modified">
+    <value></value>
+  </data>
+  <data name="DoctorModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="DoctorModel.Barcode">
+    <value>Viivakoodi</value>
+  </data>
+  <data name="DoctorModel.CalKeyId">
+    <value>Kalenteri</value>
+  </data>
+  <data name="DoctorModel.Initials">
+    <value>Nimikirjaimet</value>
+  </data>
+  <data name="DoctorModel.KeyId">
+    <value>Lääkäritunnus</value>
+  </data>
+  <data name="DoctorModel.Name">
+    <value>Nimi</value>
+  </data>
+  <data name="DoctorModel.Status">
+    <value>Tila</value>
+  </data>
+  <data name="DoctorModel.UserField01">
+    <value>Käyttäjäkenttä 1</value>
+  </data>
+  <data name="DoctorModel.UserField02">
+    <value>Käyttäjäkenttä 2</value>
+  </data>
+  <data name="DoctorModel.UserField03">
+    <value>Käyttäjäkenttä 3</value>
+  </data>
+  <data name="DoctorModel.UserField04">
+    <value>Käyttäjäkenttä 4</value>
+  </data>
+  <data name="DoctorModel.UserField05">
+    <value>Käyttäjäkenttä 5</value>
+  </data>
+  <data name="DoctorModel.UserField06">
+    <value>Käyttäjäkenttä 6</value>
+  </data>
+  <data name="DoctorModel.UserField07">
+    <value>Käyttäjäkenttä 7</value>
+  </data>
+  <data name="DoctorModel.UserField08">
+    <value>Käyttäjäkenttä 8</value>
+  </data>
+  <data name="DoctorModel.UserField09">
+    <value>Käyttäjäkenttä 9</value>
+  </data>
+  <data name="DoctorModel.UserField10">
+    <value>Käyttäjäkenttä 10</value>
+  </data>
+  <data name="DoctorModel.UserField11">
+    <value>Käyttäjäkenttä 11</value>
+  </data>
+  <data name="DoctorModel.UserField12">
+    <value>Käyttäjäkenttä 12</value>
+  </data>
+  <data name="DoctorModel.UserField13">
+    <value>Käyttäjäkenttä 13</value>
+  </data>
+  <data name="DoctorModel.UserField14">
+    <value>Käyttäjäkenttä 14</value>
+  </data>
+  <data name="DoctorModel.UserField15">
+    <value>Käyttäjäkenttä 15</value>
+  </data>
+  <data name="DoctorModel.UserField16">
+    <value>Käyttäjäkenttä 16</value>
+  </data>
+  <data name="DoctorModel.UserField17">
+    <value>Käyttäjäkenttä 17</value>
+  </data>
+  <data name="DoctorModel.UserField18">
+    <value>Käyttäjäkenttä 18</value>
+  </data>
+  <data name="DoctorModel.UserField19">
+    <value>Käyttäjäkenttä 19</value>
+  </data>
+  <data name="DoctorModel.UserField20">
+    <value>Käyttäjäkenttä 20</value>
+  </data>
+  <data name="PatientModel.Created">
+    <value></value>
+  </data>
+  <data name="PatientModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="PatientModel.Modified">
+    <value></value>
+  </data>
+  <data name="PatientModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="PatientModel.BarCode">
+    <value>Viivakoodit</value>
+  </data>
+  <data name="PatientModel.Birthday">
+    <value>Syntymäpäivä</value>
+  </data>
+  <data name="PatientModel.Code1">
+    <value>Koodi 1</value>
+  </data>
+  <data name="PatientModel.Code2">
+    <value>Koodi 2</value>
+  </data>
+  <data name="PatientModel.Code3">
+    <value>Koodi 3</value>
+  </data>
+  <data name="PatientModel.Id">
+    <value>Tunnus</value>
+  </data>
+  <data name="PatientModel.KeyId">
+    <value>Potilastunnus</value>
+  </data>
+  <data name="PatientModel.Name">
+    <value>Nimi</value>
+  </data>
+  <data name="PatientModel.Sex">
+    <value>Sukupuoli</value>
+  </data>
+  <data name="PatientModel.Status">
+    <value>Tila</value>
+  </data>
+  <data name="PatientModel.UserField01">
+    <value>Käyttäjäkenttä 1</value>
+  </data>
+  <data name="PatientModel.UserField02">
+    <value>Käyttäjäkenttä 2</value>
+  </data>
+  <data name="PatientModel.UserField03">
+    <value>Käyttäjäkenttä 3</value>
+  </data>
+  <data name="PatientModel.UserField04">
+    <value>Käyttäjäkenttä 4</value>
+  </data>
+  <data name="PatientModel.UserField05">
+    <value>Käyttäjäkenttä 5</value>
+  </data>
+  <data name="PatientModel.UserField06">
+    <value>Käyttäjäkenttä 6</value>
+  </data>
+  <data name="PatientModel.UserField07">
+    <value>Käyttäjäkenttä 7</value>
+  </data>
+  <data name="PatientModel.UserField08">
+    <value>Käyttäjäkenttä 8</value>
+  </data>
+  <data name="PatientModel.UserField09">
+    <value>Käyttäjäkenttä 9</value>
+  </data>
+  <data name="PatientModel.UserField10">
+    <value>Käyttäjäkenttä 10</value>
+  </data>
+  <data name="PatientModel.UserField11">
+    <value>Käyttäjäkenttä 11</value>
+  </data>
+  <data name="PatientModel.UserField12">
+    <value>Käyttäjäkenttä 12</value>
+  </data>
+  <data name="PatientModel.UserField13">
+    <value>Käyttäjäkenttä 13</value>
+  </data>
+  <data name="PatientModel.UserField14">
+    <value>Käyttäjäkenttä 14</value>
+  </data>
+  <data name="PatientModel.UserField15">
+    <value>Käyttäjäkenttä 15</value>
+  </data>
+  <data name="PatientModel.UserField16">
+    <value>Käyttäjäkenttä 16</value>
+  </data>
+  <data name="PatientModel.UserField17">
+    <value>Käyttäjäkenttä 17</value>
+  </data>
+  <data name="PatientModel.UserField18">
+    <value>Käyttäjäkenttä 18</value>
+  </data>
+  <data name="PatientModel.UserField19">
+    <value>Käyttäjäkenttä 19</value>
+  </data>
+  <data name="PatientModel.UserField20">
+    <value>Käyttäjäkenttä 20</value>
+  </data>
+  <data name="PatientModel.Weight">
+    <value>Paino</value>
+  </data>
+  <data name="OrderModel.AutoCreated">
+    <value>Automaattisesti luotu</value>
+  </data>
+  <data name="OrderModel.BookingFirstOk">
+    <value>Ensimmäinen varaus OK</value>
+  </data>
+  <data name="OrderModel.BookingMode">
+    <value>Varausmuoto</value>
+  </data>
+  <data name="OrderModel.BookingPriority">
+    <value>Varausprioriteetti</value>
+  </data>
+  <data name="OrderModel.BookingStatus">
+    <value>Varaustila</value>
+  </data>
+  <data name="OrderModel.CreatedAppType">
+    <value>Tilaaja sovellus</value>
+  </data>
+  <data name="OrderModel.CreatedForOpDPrefList">
+    <value>Luotu leikkaustarvikelistaa varten</value>
+  </data>
+  <data name="OrderModel.CreatedJobKeyId">
+    <value>Tilaaja työ</value>
+  </data>
+  <data name="OrderModel.CreatedLocaKeyId">
+    <value>Tilaus paikkatieto</value>
+  </data>
+  <data name="OrderModel.CreatedLSId">
+    <value>Alkuperäinen tietokone</value>
+  </data>
+  <data name="OrderModel.CreatedUserKeyId">
+    <value>Luonut</value>
+  </data>
+  <data name="OrderModel.DelIncomplete">
+    <value>Toimitus epätäydellinen</value>
+  </data>
+  <data name="OrderModel.ExpDelTime">
+    <value>Odotettu toim.aika</value>
+  </data>
+  <data name="OrderModel.Flags">
+    <value>Asetukset</value>
+  </data>
+  <data name="OrderModel.KeyId">
+    <value>Tilaustunnus</value>
+  </data>
+  <data name="OrderModel.LockMode">
+    <value>Lukitustila</value>
+  </data>
+  <data name="OrderModel.NextOrdKeyId">
+    <value>Seuraava tilaus</value>
+  </data>
+  <data name="OrderModel.OrdTpKeyId">
+    <value>Tilausmalli</value>
+  </data>
+  <data name="OrderModel.OrgAccount">
+    <value>Tilaajan tili</value>
+  </data>
+  <data name="OrderModel.OrgExternalId">
+    <value>Til. ulkoinen tunnus</value>
+  </data>
+  <data name="OrderModel.OrgInvoiceDirect">
+    <value>Til. lasku suoraan</value>
+  </data>
+  <data name="OrderModel.OrgInvRefCustKeyId">
+    <value>Laskutusasiakas</value>
+  </data>
+  <data name="OrderModel.OrgInvRefFacKeyId">
+    <value>Laskutustuotantoyksikkö</value>
+  </data>
+  <data name="OrderModel.OrgInvRefSuppKeyId">
+    <value>Laskutustoimittaja</value>
+  </data>
+  <data name="OrderModel.OrgRefCustKeyId">
+    <value>Til. asiakas</value>
+  </data>
+  <data name="OrderModel.OrgRefFacKeyId">
+    <value>Til. tuotantoyksikkö</value>
+  </data>
+  <data name="OrderModel.OrgRefNo">
+    <value>Til. viite</value>
+  </data>
+  <data name="OrderModel.OrgRefSuppKeyId">
+    <value>Til. toimittaja</value>
+  </data>
+  <data name="OrderModel.OrgRefText">
+    <value>Til. viiteteksti</value>
+  </data>
+  <data name="OrderModel.OrgRefText2">
+    <value>Til. viiteteksti 2</value>
+  </data>
+  <data name="OrderModel.OrgRemark">
+    <value>Til. huomautus</value>
+  </data>
+  <data name="OrderModel.OrgStatus">
+    <value>Til. tila</value>
+  </data>
+  <data name="OrderModel.OrgStokKeyId">
+    <value>Til. varasto</value>
+  </data>
+  <data name="OrderModel.OrgTime">
+    <value>Til. aika</value>
+  </data>
+  <data name="OrderModel.OrgUserKeyId">
+    <value>Til. käyttäjä</value>
+  </data>
+  <data name="OrderModel.PrevOrdKeyId">
+    <value>Edellinen tilaus</value>
+  </data>
+  <data name="OrderModel.RefOpDKeyId">
+    <value>Luoja (leikkaus)</value>
+  </data>
+  <data name="OrderModel.RefOpTKeyId">
+    <value>Leikkaustyyppi</value>
+  </data>
+  <data name="OrderModel.Reordered">
+    <value>Tilattu uudelleen</value>
+  </data>
+  <data name="OrderModel.ReqDelTime">
+    <value>Pyyd. toim.aika</value>
+  </data>
+  <data name="OrderModel.ReqDelTimeEstimated">
+    <value></value>
+  </data>
+  <data name="OrderModel.ReturnReq">
+    <value>Palautus pyydetty</value>
+  </data>
+  <data name="OrderModel.SplitOrdKeyId">
+    <value>Jaa tilaus</value>
+  </data>
+  <data name="OrderModel.SuppPickMode">
+    <value>Toim. keräilytila</value>
+  </data>
+  <data name="OrderModel.SuppPickPriority">
+    <value>Keräilyn prioriteetti</value>
+  </data>
+  <data name="OrderModel.SuppPriority">
+    <value>Toimittajan prioriteetti</value>
+  </data>
+  <data name="OrderModel.SuppRefCustKeyId">
+    <value>Toim. asiakas</value>
+  </data>
+  <data name="OrderModel.SuppRefFacKeyId">
+    <value>Toim. tuotantoyksikkö</value>
+  </data>
+  <data name="OrderModel.SuppRefNo">
+    <value>Toim. viite</value>
+  </data>
+  <data name="OrderModel.SuppRefSuppKeyId">
+    <value>Toim. toimittaja</value>
+  </data>
+  <data name="OrderModel.SuppRefText">
+    <value>Toim. viiteteksti</value>
+  </data>
+  <data name="OrderModel.SuppRefText2">
+    <value>Toim. viiteteksti 2</value>
+  </data>
+  <data name="OrderModel.SuppRemark">
+    <value>Toim. huomautus</value>
+  </data>
+  <data name="OrderModel.SuppStatus">
+    <value>Toim. tila</value>
+  </data>
+  <data name="OrderModel.SuppStokKeyId">
+    <value>Toim. varasto</value>
+  </data>
+  <data name="OrderModel.SuppTime">
+    <value>Toim. aika</value>
+  </data>
+  <data name="OrderModel.SuppUserKeyId">
+    <value>Toim. käyttäjä</value>
+  </data>
+  <data name="OrderModel.SyncToOperation">
+    <value>Synkronoi leikkauksen kanssa</value>
+  </data>
+  <data name="OrderModel.Tag">
+    <value>Kuljetuslippu</value>
+  </data>
+  <data name="OrderModel.Type">
+    <value>Tyyppi</value>
+  </data>
+  <data name="OrderModel.UnlockStokKeyId">
+    <value>Avaa kohdevarasto</value>
+  </data>
+  <data name="JobModel.ConfigData">
+    <value>Konfig. tieto</value>
+  </data>
+  <data name="JobModel.Description">
+    <value>Huomautus</value>
+  </data>
+  <data name="JobModel.Disabled">
+    <value>Ei käytössä</value>
+  </data>
+  <data name="JobModel.DisplayIndex">
+    <value>Näyttö indeksi</value>
+  </data>
+  <data name="JobModel.IESysKeyId">
+    <value>Liittymä järjestelmä</value>
+  </data>
+  <data name="JobModel.JGrpKeyId">
+    <value>Työ ryhmä</value>
+  </data>
+  <data name="JobModel.KeyId">
+    <value>Työ tunnus</value>
+  </data>
+  <data name="JobModel.LastPackageId">
+    <value>Viimeisin pakkaustunnus</value>
+  </data>
+  <data name="JobModel.MasterjobKeyId">
+    <value>Pää työ</value>
+  </data>
+  <data name="JobModel.Moveable">
+    <value>Siirrettävä</value>
+  </data>
+  <data name="JobModel.Name">
+    <value>Nimi</value>
+  </data>
+  <data name="JobModel.Schedule">
+    <value>Aikataulu</value>
+  </data>
+  <data name="JobModel.SysConfigData">
+    <value>Järjestelmä konfigurointi tieto</value>
+  </data>
+  <data name="JobModel.SysName">
+    <value>Järjestelmä nimi</value>
+  </data>
+  <data name="JobModel.TypeId">
+    <value>Tyyppitunnus</value>
+  </data>
+  <data name="OrderTemplateModel.Created">
+    <value></value>
+  </data>
+  <data name="OrderTemplateModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="OrderTemplateModel.Modified">
+    <value></value>
+  </data>
+  <data name="OrderTemplateModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="OrderTemplateModel.KeyId">
+    <value>Tilausmallitunnus</value>
+  </data>
+  <data name="OrderTemplateModel.Name">
+    <value>Nimi</value>
+  </data>
+  <data name="OrderTemplateModel.OrgInvoiceDirect">
+    <value>Laskuta suoraan</value>
+  </data>
+  <data name="OrderTemplateModel.OrgRefCustKeyId">
+    <value>Til. asiakas</value>
+  </data>
+  <data name="OrderTemplateModel.OrgRefFacKeyId">
+    <value>Til. tuotantoyksikkö</value>
+  </data>
+  <data name="OrderTemplateModel.OrgRefSuppKeyId">
+    <value>Til. toimittaja</value>
+  </data>
+  <data name="OrderTemplateModel.OrgRefText">
+    <value>Til. viiteteksti</value>
+  </data>
+  <data name="OrderTemplateModel.OrgRefText2">
+    <value>Til. viiteteksti 2</value>
+  </data>
+  <data name="OrderTemplateModel.OrgRemark">
+    <value>Til. huomautus</value>
+  </data>
+  <data name="OrderTemplateModel.OrgStokKeyId">
+    <value>Til. varasto</value>
+  </data>
+  <data name="OrderTemplateModel.OTpTKeyId">
+    <value>Tyyppi</value>
+  </data>
+  <data name="OrderTemplateModel.RefOpTKeyId">
+    <value>Omistaja (leikkaustyyppi)</value>
+  </data>
+  <data name="OrderTemplateModel.RefProTKeyId">
+    <value>Omistaja (toimenpidetyyppi)</value>
+  </data>
+  <data name="OrderTemplateModel.SuppRefFacKeyId">
+    <value>Toim. tuotantoyksikkö</value>
+  </data>
+  <data name="OrderTemplateModel.SuppRefSuppKeyId">
+    <value>Toim. toimittaja</value>
+  </data>
+  <data name="OrderTemplateModel.SuppRefText">
+    <value>Toim. viiteteksti</value>
+  </data>
+  <data name="OrderTemplateModel.SuppRefText2">
+    <value>Toim. viiteteksti 2</value>
+  </data>
+  <data name="OrderTemplateModel.SuppRemark">
+    <value>Toim. huomautus</value>
+  </data>
+  <data name="OrderTemplateModel.SuppStokKeyId">
+    <value>Toim. varasto</value>
+  </data>
+  <data name="OrderTemplateModel.Template">
+    <value>Malli</value>
+  </data>
+  <data name="InterfaceSystemsModel.Description">
+    <value>Huomautus</value>
+  </data>
+  <data name="InterfaceSystemsModel.Id">
+    <value>Järjestelmätunnus</value>
+  </data>
+  <data name="InterfaceSystemsModel.KeyId">
+    <value>Liittymä järjestelmä tunnus</value>
+  </data>
+  <data name="InterfaceSystemsModel.Name">
+    <value>Nimi</value>
+  </data>
+  <data name="JobGroupModel.Description">
+    <value>Huomautus</value>
+  </data>
+  <data name="JobGroupModel.Disabled">
+    <value>Ei käytössä</value>
+  </data>
+  <data name="JobGroupModel.DisplayIndex">
+    <value>Näyttö indeksi</value>
+  </data>
+  <data name="JobGroupModel.FoJSrvKeyId">
+    <value>Fail over Job server</value>
+  </data>
+  <data name="JobGroupModel.FoStop">
+    <value>Pysäytä</value>
+  </data>
+  <data name="JobGroupModel.JobType">
+    <value>Työ tyyppi</value>
+  </data>
+  <data name="JobGroupModel.JSrvKeyId">
+    <value>Työpalvelin</value>
+  </data>
+  <data name="JobGroupModel.KeyId">
+    <value>Työ ryhmätunnus</value>
+  </data>
+  <data name="JobGroupModel.Name">
+    <value>Nimi</value>
+  </data>
+  <data name="JobGroupModel.SysId">
+    <value>Järjestelmätunnus</value>
+  </data>
+  <data name="JobGroupModel.SysName">
+    <value>Järjestelmä nimi</value>
+  </data>
+  <data name="JobGroupModel.Type">
+    <value>Tyyppi</value>
+  </data>
+  <data name="OrderTemplateTypeModel.Created">
+    <value></value>
+  </data>
+  <data name="OrderTemplateTypeModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="OrderTemplateTypeModel.Modified">
+    <value></value>
+  </data>
+  <data name="OrderTemplateTypeModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="OrderTemplateTypeModel.KeyId">
+    <value>Mallityyppitunnus</value>
+  </data>
+  <data name="OrderTemplateTypeModel.Name">
+    <value>Nimi</value>
+  </data>
+  <data name="OrderTemplateTypeModel.Remark">
+    <value>Huomautus</value>
+  </data>
+  <data name="OrderTemplateTypeModel.Type">
+    <value>Tyyppi</value>
+  </data>
+  <data name="JobServerModel.ConfigData">
+    <value>Konfiguraatio tieto</value>
+  </data>
+  <data name="JobServerModel.Description">
+    <value>Huomautus</value>
+  </data>
+  <data name="JobServerModel.HeartBeat">
+    <value>Viimeinen syke</value>
+  </data>
+  <data name="JobServerModel.KeyId">
+    <value>Työ palvelin tunnus</value>
+  </data>
+  <data name="JobServerModel.LinkStatId">
+    <value>Linkkiasematunnus</value>
+  </data>
+  <data name="JobServerModel.Name">
+    <value>Nimi</value>
+  </data>
+  <data name="CompositeModel.AltRefKeyId">
+    <value>Vaihtoehtoinen nimike</value>
+  </data>
+  <data name="CompositeModel.CompItemKeyId">
+    <value>Yhdistetty nimike</value>
+  </data>
+  <data name="CompositeModel.Count">
+    <value>Määrä</value>
+  </data>
+  <data name="CompositeModel.CriticalCount">
+    <value>Kriittinen</value>
+  </data>
+  <data name="CompositeModel.HasAlternative">
+    <value>On vaihtoehtoinen</value>
+  </data>
+  <data name="CompositeModel.IdentLineUsage">
+    <value>Identtinen rivikäyttö</value>
+  </data>
+  <data name="CompositeModel.Key">
+    <value>Avain</value>
+  </data>
+  <data name="CompositeModel.Placement">
+    <value>Sijainti</value>
+  </data>
+  <data name="CompositeModel.Position">
+    <value>Sij.</value>
+  </data>
+  <data name="CompositeModel.RefItemKeyId">
+    <value>Nimike</value>
+  </data>
+  <data name="CompositeModel.RefTextKeyId">
+    <value>Teksti</value>
+  </data>
+  <data name="CompositeModel.SplitTagNo">
+    <value>Lippuryhmä</value>
+  </data>
+  <data name="CompositeModel.Text">
+    <value>Teksti</value>
+  </data>
+  <data name="TagContentModel.AutoInc">
+    <value>Avain</value>
+  </data>
+  <data name="TagContentModel.ChildTagsKeyId">
+    <value>Ala lippu</value>
+  </data>
+  <data name="TagContentModel.ChPlKeyId">
+    <value>Sijainti laitteessa</value>
+  </data>
+  <data name="TagContentModel.IndicIndicator">
+    <value>Indikaattori</value>
+  </data>
+  <data name="TagContentModel.ItemCount">
+    <value>Nimikemäärä</value>
+  </data>
+  <data name="TagContentModel.ItemKeyId">
+    <value>Nimike</value>
+  </data>
+  <data name="TagContentModel.LocaKeyId">
+    <value>Paikkatieto</value>
+  </data>
+  <data name="TagContentModel.LotInKeyId">
+    <value>LOT informaatio</value>
+  </data>
+  <data name="TagContentModel.OLnKey">
+    <value>Tilausrivi</value>
+  </data>
+  <data name="TagContentModel.SeriKeyId">
+    <value>Sarjanumero</value>
+  </data>
+  <data name="TagContentModel.SplitUnit">
+    <value>Jaa yksikkö</value>
+  </data>
+  <data name="TagContentModel.TagsKeyId">
+    <value>Lippu</value>
+  </data>
+  <data name="TagContentModel.Time">
+    <value>Aika</value>
+  </data>
+  <data name="TagContentModel.UnitUnit">
+    <value>Yksikkö</value>
+  </data>
+  <data name="EventModel.Created">
+    <value></value>
+  </data>
+  <data name="EventModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="EventModel.Modified">
+    <value></value>
+  </data>
+  <data name="EventModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="EventModel.Event">
+    <value>Tapahtuma</value>
+  </data>
+  <data name="EventModel.Eventsystype">
+    <value>Järjestelmätyyppi</value>
+  </data>
+  <data name="EventModel.Eventtype">
+    <value>Tapahtumatyyppi</value>
+  </data>
+  <data name="EventModel.Info">
+    <value>Info</value>
+  </data>
+  <data name="EventModel.KeyId">
+    <value>Tapahtumatunnus</value>
+  </data>
+  <data name="EventModel.PloKeyId">
+    <value>Sijainti/paikkatieto</value>
+  </data>
+  <data name="EventModel.RefKeyId">
+    <value>Perustuu</value>
+  </data>
+  <data name="EventModel.Sysdata">
+    <value>Järjestelmätiedot</value>
+  </data>
+  <data name="EventModel.System">
+    <value>Järjestelmä</value>
+  </data>
+  <data name="EventModel.Time">
+    <value>Tapahtuma-aika</value>
+  </data>
+  <data name="EventModel.Type">
+    <value>Tyyppi</value>
+  </data>
+  <data name="StockModel.AutoCreated">
+    <value>Automaattisesti luotu</value>
+  </data>
+  <data name="StockModel.DesiredCount">
+    <value>Norm.</value>
+  </data>
+  <data name="StockModel.Identlineusage">
+    <value>Identtinen rivikäyttö</value>
+  </data>
+  <data name="StockModel.InventoryActive">
+    <value>Invent. aktiivinen</value>
+  </data>
+  <data name="StockModel.InventoryCount">
+    <value>Invent. määrä</value>
+  </data>
+  <data name="StockModel.InventoryPhysCount">
+    <value>Todellinen</value>
+  </data>
+  <data name="StockModel.InventoryPhysTime">
+    <value>Todellinen aika</value>
+  </data>
+  <data name="StockModel.InventoryPhysUserKeyId">
+    <value>Käyttäjä</value>
+  </data>
+  <data name="StockModel.InventoryTime">
+    <value>Viimeisin inventaario</value>
+  </data>
+  <data name="StockModel.InventoryUserKeyId">
+    <value>Inv. käyttäjä</value>
+  </data>
+  <data name="StockModel.MaxCount">
+    <value>Maks.</value>
+  </data>
+  <data name="StockModel.MinCount">
+    <value>Min.</value>
+  </data>
+  <data name="StockModel.MonthUsage">
+    <value>Käyttö kuukaudessa</value>
+  </data>
+  <data name="StockModel.OnStock">
+    <value>Varastossa</value>
+  </data>
+  <data name="StockModel.OrderedCount">
+    <value>Til.</value>
+  </data>
+  <data name="StockModel.Pickhere">
+    <value>Keräys</value>
+  </data>
+  <data name="StockModel.Placement">
+    <value>Sijainti</value>
+  </data>
+  <data name="StockModel.ProductionCount">
+    <value>Tuotemäärä</value>
+  </data>
+  <data name="StockModel.RefItemKeyId">
+    <value>Artikkeli (nimike)</value>
+  </data>
+  <data name="StockModel.RefProdKeyId">
+    <value>Artikkeli (tuote)</value>
+  </data>
+  <data name="StockModel.ReservedCount">
+    <value>Varattu</value>
+  </data>
+  <data name="StockModel.StokKeyId">
+    <value>Varasto</value>
+  </data>
+  <data name="StockModel.SuppOrderMinCount">
+    <value>Pienin tilauskoko</value>
+  </data>
+  <data name="StockModel.SuppOrderStdCount">
+    <value>Tilaus pakkauskoko</value>
+  </data>
+  <data name="StockModel.SuppRefFacKeyId">
+    <value>Toim. tuotantoyksikkö</value>
+  </data>
+  <data name="StockModel.SuppRefSuppKeyId">
+    <value>Toim. toimittaja</value>
+  </data>
+  <data name="ProductModel">
+    <value>Tuotteet</value>
+  </data>
+  <data name="UserModel">
+    <value>Käyttäjät</value>
+  </data>
+  <data name="CountingPointSetModel">
+    <value>Laskentapiste ryhmät</value>
+  </data>
+  <data name="CustSiteModel">
+    <value>Asiakasryhmät</value>
+  </data>
+  <data name="CustomerModel">
+    <value>Asiakkaat</value>
+  </data>
+  <data name="EndoDryingMethodsModel">
+    <value>Endoskoopin kuivausmetodit</value>
+  </data>
+  <data name="ProgramGroupModel">
+    <value>Ohjelmaryhmät</value>
+  </data>
+  <data name="FactoryModel">
+    <value>Tuotantoyksiköt</value>
+  </data>
+  <data name="FastTrackCodeModel">
+    <value>Kiirekoodit</value>
+  </data>
+  <data name="FastTrackPlanModel">
+    <value>Kiiresuunnitelmat</value>
+  </data>
+  <data name="FastTrackTemplateModel">
+    <value>Kiirehdintäryhmät</value>
+  </data>
+  <data name="HandlingTypesModel">
+    <value>Käsittelytyypit</value>
+  </data>
+  <data name="IdenticalArticleGroupModel">
+    <value>Identtisten artikkelien ryhmät</value>
+  </data>
+  <data name="ItemModel">
+    <value>Nimikkeet</value>
+  </data>
+  <data name="PackingModel">
+    <value>Pakkaukset</value>
+  </data>
+  <data name="PriceGroupModel">
+    <value>Hintaryhmät</value>
+  </data>
+  <data name="TimeRuleGroupModel">
+    <value>Vanhenemisaikaryhmä</value>
+  </data>
+  <data name="WeightPlanModel">
+    <value>Punnitukset</value>
+  </data>
+  <data name="ProfileModel">
+    <value>Käyttäjäprofiilit</value>
+  </data>
+  <data name="CalendarModel">
+    <value>Kalenteri</value>
+  </data>
+  <data name="StocksModel">
+    <value>Varastot</value>
+  </data>
+  <data name="StockGroupModel">
+    <value>Varastoryhmät</value>
+  </data>
+  <data name="ProcessModel">
+    <value>Prosessit</value>
+  </data>
+  <data name="SupplierModel">
+    <value>Toimittajat</value>
+  </data>
+  <data name="LocationModel">
+    <value>Paikkatiedot</value>
+  </data>
+  <data name="FixedStockPlacementsModel">
+    <value>Määrätyt varastosijainnit</value>
+  </data>
+  <data name="TextModel">
+    <value>Teksti</value>
+  </data>
+  <data name="LocationGroupModel">
+    <value>Paikkatietoryhmät</value>
+  </data>
+  <data name="CatalogModel">
+    <value>Luettelo</value>
+  </data>
+  <data name="ItemGroupModel">
+    <value>Nimikeryhmät</value>
+  </data>
+  <data name="ItemSpecialtyModel">
+    <value>Nimike erikoisalat</value>
+  </data>
+  <data name="ItemUOMModel">
+    <value>Mittayksiköt</value>
+  </data>
+  <data name="TagTypeModel">
+    <value>Lipputyypit</value>
+  </data>
+  <data name="SealerProgramModel">
+    <value>Saumaajaohjelmat</value>
+  </data>
+  <data name="EmgCaseCartTypeModel">
+    <value>Hätätoimenpidevaunutyyppi</value>
+  </data>
+  <data name="OperationTypeModel">
+    <value>Leikkaustyypit</value>
+  </data>
+  <data name="MachineModel">
+    <value>Koneet</value>
+  </data>
+  <data name="ProgramModel">
+    <value>Ohjelmat</value>
+  </data>
+  <data name="ProgramRecipeModel">
+    <value>Ohjelmareseptit</value>
+  </data>
+  <data name="MacroModel">
+    <value>Skannerimakrot</value>
+  </data>
+  <data name="UILayerDefModel">
+    <value>Käyttöliittymä osio määritteet</value>
+  </data>
+  <data name="IdenticalTagTypeGroupModel">
+    <value>Identtinen lipputyyppiryhmä</value>
+  </data>
+  <data name="RoomModel">
+    <value>Salit</value>
+  </data>
+  <data name="AGSModel">
+    <value>AGS</value>
+  </data>
+  <data name="MachineTypeModel">
+    <value>Konemallit</value>
+  </data>
+  <data name="QuestionSetModel">
+    <value>Kysymyssarjat</value>
+  </data>
+  <data name="LoadingEquipmentModel">
+    <value>Kuormauslaitteisto</value>
+  </data>
+  <data name="UnitModel">
+    <value>Yksiköt</value>
+  </data>
+  <data name="TagsModel">
+    <value>Liput</value>
+  </data>
+  <data name="OperationDataModel">
+    <value>Leikkaustiedot</value>
+  </data>
+  <data name="SerialModel">
+    <value>Sarjanumerot</value>
+  </data>
+  <data name="DoctorModel">
+    <value>Lääkärit</value>
+  </data>
+  <data name="PatientModel">
+    <value>Potilaat</value>
+  </data>
+  <data name="OrderModel">
+    <value>Tilaukset</value>
+  </data>
+  <data name="JobModel">
+    <value>Työt</value>
+  </data>
+  <data name="OrderTemplateModel">
+    <value>Tilausmallit</value>
+  </data>
+  <data name="InterfaceSystemsModel">
+    <value>Liittymä järjestelmät</value>
+  </data>
+  <data name="JobGroupModel">
+    <value>Työ ryhmät</value>
+  </data>
+  <data name="OrderTemplateTypeModel">
+    <value>Tilausmallityypit</value>
+  </data>
+  <data name="JobServerModel">
+    <value>Työ palvelimet</value>
+  </data>
+  <data name="CompositeModel">
+    <value>Yhdistetyt luettelot</value>
+  </data>
+  <data name="TagContentModel">
+    <value>Lipun sisältö</value>
+  </data>
+  <data name="EventModel">
+    <value>Tapahtumat</value>
+  </data>
+  <data name="StockModel">
+    <value>Varaston määritys</value>
+  </data>
+</root>

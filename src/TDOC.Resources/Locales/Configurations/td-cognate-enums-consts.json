@@ -1,0 +1,58 @@
+{
+  "UnitStatus": {
+    "None": "UnitStatus.0",
+    "Init": "UnitStatus.1",
+    "Started": "UnitStatus.3",
+    "Rinsed": "UnitStatus.7",
+    "Washed": "UnitStatus.8",
+    "Prep": "UnitStatus.10",
+    "Packed": "UnitStatus.20",
+    "Stock": "UnitStatus.40",
+    "Dispatched": "UnitStatus.70",
+    "Opened": "UnitStatus.72",
+    "Used": "UnitStatus.74",
+    "Precleaned": "UnitStatus.76",
+    "Returned": "UnitStatus.80",
+    "ErrorReg": "UnitStatus.95",
+    "Last": "UnitStatus.100"
+  },
+  "EndoscopeUnitStatus": {
+    "None": "UnitStatus.0",
+    "Init": "UnitStatus.1",
+    "Started": "UnitStatus.3",
+    "Rinsed": "UnitStatus.7",
+    "Washed": "UnitStatus.8",
+    "Prep": "UnitStatus_Endo.10",
+    "Packed": "UnitStatus_Endo.20",
+    "Stock": "UnitStatus_Endo.40",
+    "Dispatched": "UnitStatus.70",
+    "Opened": "UnitStatus.72",
+    "Used": "UnitStatus.74",
+    "Precleaned": "UnitStatus.76",
+    "Returned": "UnitStatus.80",
+    "ErrorReg": "UnitStatus.95",
+    "Last": "UnitStatus.100"
+  },
+  "OperationStatus": {
+    "Planned": "OpDStatus.10",
+    "Accepted": "OpDStatus.20",
+    "Started": "OpDStatus.30",
+    "Done": "OpDStatus.40",
+    "Cancelled": "OpDStatus.50"
+  },
+  "ObjectStatus": {
+    "Normal": "ItemStatus.10",
+    "Dying": "ItemStatus.50",
+    "Dead": "ItemStatus.90"
+  },
+  "MachineType": {
+    "FirstMachineType": "McTypType.0",
+    "Sterilizer": "McTypType.0",
+    "Washer": "McTypType.1",
+    "PreDis": "McTypType.2",
+    "EndoWasher": "McTypType.3",
+    "Incubator": "McTypType.4",
+    "EndoDryer": "McTypType.5",
+    "LastMachineType": "McTypType.5"
+  }
+}

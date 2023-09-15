@@ -1,0 +1,30 @@
+﻿@import "../../Scss/iws-variables";
+@import "../../Scss/td-variables";
+
+.workflow-splitter {
+    background-color: $color-oat;
+    height: 196px;
+    width: 4px;
+}
+
+// Second row appears if width is 1769px or less.
+@media only screen and (max-width: 1769px) {
+
+    .workflow-blocks {
+        width: 1080px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .workflow-splitter-invisible {
+        visibility: hidden;
+    }
+
+    .workflow-blocks-new-row {
+        flex-basis: 100%;
+    }
+}
+
+.workflow-blocks div.workflow-splitter:last-child {
+    display: none;
+}

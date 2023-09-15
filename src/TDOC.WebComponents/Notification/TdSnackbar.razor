@@ -1,0 +1,23 @@
+﻿@using TDOC.WebComponents.Notification.Models
+
+@if (notifications.Count > 0)
+{
+    @if (notifications.Count == 1 && notifications[0].Notifications == null)
+    {
+        <NotificationPanel Details="notifications[0]"></NotificationPanel>
+    }
+    else
+    {
+        <DxTreeView @ref="refTreeView"
+                    @key="keyTreeView"
+                    Data="notifications"
+                    CssClass="td-snackbar"
+                    ChildrenExpression="dataItem => ((NotificationDetails)dataItem).Notifications"
+                    AfterExpand="NotificationsAfterExpand"
+                    AfterCollapse="NotificationsAfterCollapse">
+            <NodeTemplate>
+                <NotificationPanel Details="(NotificationDetails)context.DataItem"></NotificationPanel>
+            </NodeTemplate>
+        </DxTreeView>
+    }
+}

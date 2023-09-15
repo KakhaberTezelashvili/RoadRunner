@@ -1,0 +1,40 @@
+﻿@import "td-variables";
+
+/* begin: "main content" */
+@mixin main-block-height($h-main-header: $height-main-header) {
+    height: calc(100vh - #{$h-main-header});
+}
+
+.main-content-block {
+    @include main-block-height();
+}
+
+.embedded-main-content-block {
+    /* MainHeader is hidden */
+    @include main-block-height(0px);
+}
+/* end: "main content" */
+
+/* begin: "workflow" shared */
+@mixin calc-workflow-main-block-height($h-main-header: $height-main-header, $h-extra: 0%) {
+    height: calc(100vh - #{$h-main-header} - #{$height-workflow-header} - #{$h-extra});
+}
+
+.workflow-main-block-height {
+    @include calc-workflow-main-block-height();
+}
+
+.embedded-workflow-main-block-height {
+    // MainHeader is hidden
+    @include calc-workflow-main-block-height(0%);
+}
+
+.workflow-main-batch-block-height {
+    @include calc-workflow-main-block-height($height-main-header, $padding-top-24 + $height-grid-title + $height-grid-header + $padding-top-24 + $height-ok-cancel-buttons-panel);
+}
+
+.embedded-workflow-main-batch-block-height {
+    // MainHeader is hidden
+    @include calc-workflow-main-block-height(0%, $padding-top-24 + $height-grid-title + $height-grid-header + $padding-top-24 + $height-ok-cancel-buttons-panel);
+}
+/* end: "workflow" shared */

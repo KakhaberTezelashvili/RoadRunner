@@ -1,0 +1,43 @@
+﻿@import "../Scss/iws-variables";
+@import "../Scss/td-variables.scss";
+
+::deep .td-textbox-input {
+    color: $color-black;
+    border: 1px solid $color-midnight;
+}
+
+::deep .td-textbox-input-invalid {
+    border: 3px solid $color-poppy;
+}
+
+::deep .td-textbox-input:read-only {
+    background-color: $color-snow;
+    border: 1px solid $color-oat;
+}
+
+::deep .td-textbox-input:read-only:focus {
+    border: 1px solid $color-oat;
+}
+
+::deep .td-textbox-input:disabled {
+    background-color: $color-snow;
+}
+
+::deep .td-textbox-input:focus {
+    border: 2px solid $color-ocean;
+}
+
+::deep .dxbs-editor-clear-btn {
+    width: $size-td-textbox-clear-btn;
+    height: $size-td-textbox-clear-btn;
+}
+
+::deep .dx-image {
+    width: $size-td-textbox-clear-icon !important;
+    height: $size-td-textbox-clear-icon !important;
+    background-image: url("../TDOC.Resources/img/others/clear.svg")
+}
+
+::deep .dx-image use {
+    visibility: hidden;
+}

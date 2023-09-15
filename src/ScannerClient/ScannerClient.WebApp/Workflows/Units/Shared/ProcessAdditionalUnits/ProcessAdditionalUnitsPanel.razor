@@ -1,0 +1,41 @@
+﻿<div class="row p-24px additional-units-panel">
+    <div class="col d-flex flex-column justify-content-between h-100">
+        @if (ShowProgressOnProccessing && isProcessing)
+        {
+            <LoadingSpinner />
+        }
+        else
+        {
+            <div class="row font-weight-bold font-size-19 @(Enabled ? "" : "content-disabled")">
+                @Title
+            </div>
+            <div class="row @(Enabled ? "" : "content-disabled")">
+                @Description
+            </div>
+            <div class="row pt-12px">
+                <div class="col d-flex justify-content-center">
+                    <TdNumericTextBox Enabled="Enabled"
+                                    Value="Value"
+                                    ValueChanged="ValueChanged"
+                                    Identifier="@amountTextBoxIdentifier"
+                                    MinValue="MinValue"
+                                    MaxValue="MaxValue"
+                                    NullText="@NullText"
+                                    SpinButtonsVisible="false"
+                                    CssClass="height-40"
+                                    OnKeyUp="@(eventArgs => AmountTextBoxKeyUp(eventArgs.Key))"
+                                    ValidationFailed="UnitMaxAmountValidationFailed" />
+                </div>
+                <div class="col d-flex justify-content-center">
+                    <TdButton Identifier="AdditionalUnits" 
+                                OnClick="async () => await ButtonClickedAsync()"
+                                Enabled="ButtonEnabled()"
+                                Text="@ButtonText" 
+                                Type="TdButtonType.Tertiary"
+                                Width="100"
+                                CssClass="p-12px" />
+                </div>
+            </div>
+        }
+    </div>
+</div>

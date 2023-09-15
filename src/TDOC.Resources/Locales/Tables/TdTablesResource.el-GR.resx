@@ -1,0 +1,5216 @@
+<?xml version="1.0" encoding="utf-8"?><root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ProductModel.Created">
+    <value></value>
+  </data>
+  <data name="ProductModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="ProductModel.Modified">
+    <value></value>
+  </data>
+  <data name="ProductModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="ProductModel.AltNumber">
+    <value>Εναλλακτικός Αρ.</value>
+  </data>
+  <data name="ProductModel.AvgOnSiteStoreTime">
+    <value>Μέσος όρος Επί τόπου χρόνου αποθήκευσης</value>
+  </data>
+  <data name="ProductModel.AvgOpDuration">
+    <value>Μέση διάρκεια επέμβασης</value>
+  </data>
+  <data name="ProductModel.Barcode">
+    <value>Γραμμικοί κώδικες</value>
+  </data>
+  <data name="ProductModel.BillingNum">
+    <value>Αρ. Χρέωσης</value>
+  </data>
+  <data name="ProductModel.CntpsKeyId">
+    <value>Counting point group</value>
+  </data>
+  <data name="ProductModel.Color">
+    <value>Χρώμα</value>
+  </data>
+  <data name="ProductModel.Contamination">
+    <value>Κίνδυνος μόλυνσης</value>
+  </data>
+  <data name="ProductModel.CuSiteKeyId">
+    <value>Τοποθεσία πελάτη</value>
+  </data>
+  <data name="ProductModel.CustKeyId">
+    <value>Πελάτης</value>
+  </data>
+  <data name="ProductModel.Difficulty">
+    <value>Πολυπλοκότητα</value>
+  </data>
+  <data name="ProductModel.DifficultyMode">
+    <value>Complexity mode</value>
+  </data>
+  <data name="ProductModel.DispatchRestrict">
+    <value>Περιορισμός αποστολής</value>
+  </data>
+  <data name="ProductModel.Endodryingmethod">
+    <value>Μέθοδος στεγνώματος ενδοσκοπίου</value>
+  </data>
+  <data name="ProductModel.EndoWashPrGrKeyId">
+    <value>Πρόγραμμα πλύσης ενδοσκοπίου</value>
+  </data>
+  <data name="ProductModel.ExternalType">
+    <value>Εξωτερικός τύπος</value>
+  </data>
+  <data name="ProductModel.ExtLoanerId">
+    <value>External loaner ID</value>
+  </data>
+  <data name="ProductModel.FacKeyId">
+    <value>Εργοστάσιο</value>
+  </data>
+  <data name="ProductModel.FactorySterilized">
+    <value>Εργοστασιακά Αποστειρωμένο</value>
+  </data>
+  <data name="ProductModel.FixedPrice">
+    <value>Σταθερή τιμή</value>
+  </data>
+  <data name="ProductModel.FTCoKeyId">
+    <value>Κωδικός γρήγορης παρακολούθησης</value>
+  </data>
+  <data name="ProductModel.FTPlKeyId">
+    <value>Σχέδιο γρήγορης παρακολούθησης</value>
+  </data>
+  <data name="ProductModel.FTTmpKeyId">
+    <value>Ομάδα γρήγορης παρακολούθησης</value>
+  </data>
+  <data name="ProductModel.GTIN">
+    <value>GTIN</value>
+  </data>
+  <data name="ProductModel.HandlingTime">
+    <value>Χρόνος χειρισμού</value>
+  </data>
+  <data name="ProductModel.HaTKeyId">
+    <value>Handling type</value>
+  </data>
+  <data name="ProductModel.InArtKeyId">
+    <value>Identical</value>
+  </data>
+  <data name="ProductModel.ItemKeyId">
+    <value>Αντικείμενο</value>
+  </data>
+  <data name="ProductModel.KeyId">
+    <value>Προιόν ID</value>
+  </data>
+  <data name="ProductModel.LMProKeyId">
+    <value>Loaner management profile</value>
+  </data>
+  <data name="ProductModel.Loaner">
+    <value>Προιόν δανείου</value>
+  </data>
+  <data name="ProductModel.LoanerType">
+    <value>Loaner type</value>
+  </data>
+  <data name="ProductModel.PackKeyId">
+    <value>Υλικό συσκευασίας</value>
+  </data>
+  <data name="ProductModel.PackOnScreen">
+    <value>Συσκευασία στην οθόνη</value>
+  </data>
+  <data name="ProductModel.Predis">
+    <value>Προ-Απολύμανση</value>
+  </data>
+  <data name="ProductModel.PricingType">
+    <value>Τύπος τιμολόγησης</value>
+  </data>
+  <data name="ProductModel.PriGrKeyId">
+    <value>Τιμή ομάδας</value>
+  </data>
+  <data name="ProductModel.PrintLabel">
+    <value>Εκτύπωση ετικέτας</value>
+  </data>
+  <data name="ProductModel.PrintList">
+    <value>Εκτύπωση λίστας</value>
+  </data>
+  <data name="ProductModel.Product">
+    <value>Προϊον</value>
+  </data>
+  <data name="ProductModel.Remark">
+    <value>Παρατήρηση</value>
+  </data>
+  <data name="ProductModel.ReqStockCount">
+    <value>Απαιτ. απόθεμα μετράνε</value>
+  </data>
+  <data name="ProductModel.ReservationMode">
+    <value>Λειτουργία κράτησης</value>
+  </data>
+  <data name="ProductModel.Serialmask">
+    <value>Μάσκα σειριακού αριθμού</value>
+  </data>
+  <data name="ProductModel.Status">
+    <value>Κατάσταση</value>
+  </data>
+  <data name="ProductModel.SteriPrgrKeyId">
+    <value>Πρόγραμμα ομάδας κλιβάνου</value>
+  </data>
+  <data name="ProductModel.SteriVolume">
+    <value>Όγκος κλιβάνου</value>
+  </data>
+  <data name="ProductModel.StockPlacement">
+    <value>Τοποθέτηση παρακαταθήκης</value>
+  </data>
+  <data name="ProductModel.StorageType">
+    <value>Storage</value>
+  </data>
+  <data name="ProductModel.TotalCount">
+    <value>Συνολικός αριθμός</value>
+  </data>
+  <data name="ProductModel.Traceability">
+    <value>Ιχνηλασιμότητα</value>
+  </data>
+  <data name="ProductModel.TraceType">
+    <value>Τύπος ακολουθίας</value>
+  </data>
+  <data name="ProductModel.TRGrpKeyId">
+    <value>Expire time group</value>
+  </data>
+  <data name="ProductModel.Type">
+    <value>Τύπος</value>
+  </data>
+  <data name="ProductModel.UserField01">
+    <value>Χρήστης πεδίο 1</value>
+  </data>
+  <data name="ProductModel.UserField02">
+    <value>Χρήστης πεδίο 2</value>
+  </data>
+  <data name="ProductModel.UserField03">
+    <value>Χρήστης πεδίου 3</value>
+  </data>
+  <data name="ProductModel.UserField04">
+    <value>Χρήστης πεδίο 4</value>
+  </data>
+  <data name="ProductModel.UserField05">
+    <value>Χρήστης πεδίο 5</value>
+  </data>
+  <data name="ProductModel.UserField06">
+    <value>Χρήστης πεδίο 6</value>
+  </data>
+  <data name="ProductModel.UserField07">
+    <value>Χρήστης πεδίο 7</value>
+  </data>
+  <data name="ProductModel.UserField08">
+    <value>Χρήστης πεδίο 8</value>
+  </data>
+  <data name="ProductModel.UserField09">
+    <value>Χρήστης πεδίο 9</value>
+  </data>
+  <data name="ProductModel.UserField10">
+    <value>Χρήστης τομέα 10</value>
+  </data>
+  <data name="ProductModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="ProductModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="ProductModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="ProductModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="ProductModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="ProductModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="ProductModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="ProductModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="ProductModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="ProductModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="ProductModel.WasherVolume">
+    <value>Όγκο πλύσης</value>
+  </data>
+  <data name="ProductModel.WashPrgrKeyId">
+    <value>Πλυντήριο ομάδα του προγράμματος</value>
+  </data>
+  <data name="ProductModel.Weight">
+    <value>Βάρος</value>
+  </data>
+  <data name="ProductModel.WeightDeltaCalcMode">
+    <value>Βάρος τρόπος υπολογισμού δέλτα</value>
+  </data>
+  <data name="ProductModel.Weightdeltaunit">
+    <value>Βάρος δέλτα μονάδα</value>
+  </data>
+  <data name="ProductModel.WeightDeltaValue">
+    <value>Βάρος δέλτα αξία</value>
+  </data>
+  <data name="ProductModel.WeightDisposable">
+    <value>Βάρος αναλωσίμου</value>
+  </data>
+  <data name="ProductModel.WeightMode">
+    <value>Λειτουργία Βάρος</value>
+  </data>
+  <data name="ProductModel.WeightNonDisposable">
+    <value>Μη διαθέσιμο βάρος</value>
+  </data>
+  <data name="ProductModel.WeightUsageEnabled">
+    <value>Χρησιμοποιήστε τα βάρη</value>
+  </data>
+  <data name="ProductModel.WPlanKeyId">
+    <value>Σχέδιο Βάρος</value>
+  </data>
+  <data name="UserModel.Created">
+    <value></value>
+  </data>
+  <data name="UserModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="UserModel.Modified">
+    <value></value>
+  </data>
+  <data name="UserModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="UserModel.Barcode">
+    <value>Γραμμικοί κώδικες</value>
+  </data>
+  <data name="UserModel.ChangePassword">
+    <value>Πρέπει να αλλάξει ο κωδικός </value>
+  </data>
+  <data name="UserModel.Email">
+    <value>email</value>
+  </data>
+  <data name="UserModel.FacKeyId">
+    <value>Εργοστάσιο</value>
+  </data>
+  <data name="UserModel.FailedLogins">
+    <value>Αποτυχημένες συνδέσεις</value>
+  </data>
+  <data name="UserModel.Initials">
+    <value>Αρχικά</value>
+  </data>
+  <data name="UserModel.KeyId">
+    <value>Όνομα Χρήστη</value>
+  </data>
+  <data name="UserModel.MobileNumber">
+    <value>Αριθμός κινητού</value>
+  </data>
+  <data name="UserModel.Name">
+    <value>Όνομα</value>
+  </data>
+  <data name="UserModel.Password">
+    <value>Κωδικός</value>
+  </data>
+  <data name="UserModel.PasswordChanged">
+    <value>Τελευταία αλλαγή κωδικού πρόσβασης</value>
+  </data>
+  <data name="UserModel.PasswordHistory">
+    <value>Ιστορικό κωδικών</value>
+  </data>
+  <data name="UserModel.PasswordSettings">
+    <value>Password settings</value>
+  </data>
+  <data name="UserModel.ProfileKeyId">
+    <value>Ομάδα</value>
+  </data>
+  <data name="UserModel.PublicPWSalt">
+    <value>Δημόσιο</value>
+  </data>
+  <data name="UserModel.Status">
+    <value>Κατάσταση</value>
+  </data>
+  <data name="UserModel.UserField01">
+    <value>Χρήστης πεδίο 1</value>
+  </data>
+  <data name="UserModel.UserField02">
+    <value>Χρήστης πεδίο 2</value>
+  </data>
+  <data name="UserModel.UserField03">
+    <value>Χρήστης πεδίου 3</value>
+  </data>
+  <data name="UserModel.UserField04">
+    <value>Χρήστης πεδίο 4</value>
+  </data>
+  <data name="UserModel.UserField05">
+    <value>Χρήστης πεδίο 5</value>
+  </data>
+  <data name="UserModel.UserField06">
+    <value>Χρήστης πεδίο 6</value>
+  </data>
+  <data name="UserModel.UserField07">
+    <value>Χρήστης πεδίο 7</value>
+  </data>
+  <data name="UserModel.UserField08">
+    <value>Χρήστης πεδίο 8</value>
+  </data>
+  <data name="UserModel.UserField09">
+    <value>Χρήστης πεδίο 9</value>
+  </data>
+  <data name="UserModel.UserField10">
+    <value>Χρήστης τομέα 10</value>
+  </data>
+  <data name="UserModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="UserModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="UserModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="UserModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="UserModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="UserModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="UserModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="UserModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="UserModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="UserModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="CountingPointSetModel.Created">
+    <value></value>
+  </data>
+  <data name="CountingPointSetModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="CountingPointSetModel.Modified">
+    <value></value>
+  </data>
+  <data name="CountingPointSetModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="CountingPointSetModel.Id">
+    <value>Αναγνωριστικό</value>
+  </data>
+  <data name="CountingPointSetModel.KeyId">
+    <value>Counting point group ID</value>
+  </data>
+  <data name="CountingPointSetModel.Name">
+    <value>Όνομα</value>
+  </data>
+  <data name="CountingPointSetModel.Remark">
+    <value>Παρατήρηση</value>
+  </data>
+  <data name="CountingPointSetModel.Status">
+    <value>Κατάσταση</value>
+  </data>
+  <data name="CustSiteModel.Created">
+    <value></value>
+  </data>
+  <data name="CustSiteModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="CustSiteModel.Modified">
+    <value></value>
+  </data>
+  <data name="CustSiteModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="CustSiteModel.AvgOnSiteStoreTime">
+    <value>Μέσος όρος Επί τόπου χρόνου αποθήκευσης</value>
+  </data>
+  <data name="CustSiteModel.AvgOpDuration">
+    <value>Μέση διάρκεια επέμβασης</value>
+  </data>
+  <data name="CustSiteModel.CntpsKeyId">
+    <value>Counting point group</value>
+  </data>
+  <data name="CustSiteModel.DelGLN">
+    <value>Delivery GLN</value>
+  </data>
+  <data name="CustSiteModel.DelPKeyId">
+    <value>Transit product delivery plan</value>
+  </data>
+  <data name="CustSiteModel.Descr">
+    <value>Περιγραφή</value>
+  </data>
+  <data name="CustSiteModel.GLN">
+    <value>Customer site GLN</value>
+  </data>
+  <data name="CustSiteModel.IntPickTime">
+    <value>Τοπική ώρα συγκέντρωσης</value>
+  </data>
+  <data name="CustSiteModel.IntTransTimeArrive">
+    <value>Τοπική ώρα μεταφοράς κατά την άφιξη</value>
+  </data>
+  <data name="CustSiteModel.IntTransTimeDepart">
+    <value>Τοπική ώρα μεταφοράςκατά την αναχώρηση</value>
+  </data>
+  <data name="CustSiteModel.KeyId">
+    <value>Αναγνωριστικό Τοποθεσίας Πελάτη</value>
+  </data>
+  <data name="CustSiteModel.MinOrderLeadTime">
+    <value>Min. ordering time before operation</value>
+  </data>
+  <data name="CustSiteModel.Name">
+    <value>Όνομα</value>
+  </data>
+  <data name="CustSiteModel.Site">
+    <value>Τοποθεσία πελάτη</value>
+  </data>
+  <data name="CustSiteModel.UserField01">
+    <value>Χρήστης πεδίο 1</value>
+  </data>
+  <data name="CustSiteModel.UserField02">
+    <value>Χρήστης πεδίο 2</value>
+  </data>
+  <data name="CustSiteModel.UserField03">
+    <value>Χρήστης πεδίου 3</value>
+  </data>
+  <data name="CustSiteModel.UserField04">
+    <value>Χρήστης πεδίο 4</value>
+  </data>
+  <data name="CustSiteModel.UserField05">
+    <value>Χρήστης πεδίο 5</value>
+  </data>
+  <data name="CustSiteModel.UserField06">
+    <value>Χρήστης πεδίο 6</value>
+  </data>
+  <data name="CustSiteModel.UserField07">
+    <value>Χρήστης πεδίο 7</value>
+  </data>
+  <data name="CustSiteModel.UserField08">
+    <value>Χρήστης πεδίο 8</value>
+  </data>
+  <data name="CustSiteModel.UserField09">
+    <value>Χρήστης πεδίο 9</value>
+  </data>
+  <data name="CustSiteModel.UserField10">
+    <value>Χρήστης τομέα 10</value>
+  </data>
+  <data name="CustSiteModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="CustSiteModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="CustSiteModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="CustSiteModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="CustSiteModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="CustSiteModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="CustSiteModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="CustSiteModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="CustSiteModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="CustSiteModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="CustomerModel.Created">
+    <value></value>
+  </data>
+  <data name="CustomerModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="CustomerModel.Modified">
+    <value></value>
+  </data>
+  <data name="CustomerModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="CustomerModel.Account">
+    <value>Λογαριασμός</value>
+  </data>
+  <data name="CustomerModel.Address1">
+    <value>Οδός</value>
+  </data>
+  <data name="CustomerModel.Address2">
+    <value>Οδός(2)</value>
+  </data>
+  <data name="CustomerModel.AllowNonECCContent">
+    <value>Delivery of other goods in emergency case carts</value>
+  </data>
+  <data name="CustomerModel.ArrivedLGrpKeyId">
+    <value>Arrived location group</value>
+  </data>
+  <data name="CustomerModel.AvailablelgrpKeyId">
+    <value>Available location group</value>
+  </data>
+  <data name="CustomerModel.AvgOnSiteStoreTime">
+    <value>Μέσος όρος Επί τόπου χρόνου αποθήκευσης</value>
+  </data>
+  <data name="CustomerModel.AvgOpDuration">
+    <value>Μέση διάρκεια επέμβασης</value>
+  </data>
+  <data name="CustomerModel.Barcode">
+    <value>Γραμμικοί κώδικες</value>
+  </data>
+  <data name="CustomerModel.CalKeyId">
+    <value>Ημερολόγιο</value>
+  </data>
+  <data name="CustomerModel.CanOrder">
+    <value>Μπορεί να στείλει παραγγελίες</value>
+  </data>
+  <data name="CustomerModel.ChargeOptions">
+    <value>Επιλογές τιμολόγισης</value>
+  </data>
+  <data name="CustomerModel.City">
+    <value>Ταχ. Κώδικας/Πόλη</value>
+  </data>
+  <data name="CustomerModel.CntpsKeyId">
+    <value>Counting point group</value>
+  </data>
+  <data name="CustomerModel.Color">
+    <value>Χρώμα</value>
+  </data>
+  <data name="CustomerModel.Country">
+    <value>Χώρα</value>
+  </data>
+  <data name="CustomerModel.CuSiteKeyId">
+    <value>Τοποθεσία πελάτη</value>
+  </data>
+  <data name="CustomerModel.Customer">
+    <value>Πελάτης</value>
+  </data>
+  <data name="CustomerModel.DefStokKeyId">
+    <value>Προεπιλεγμένο απόθεμα</value>
+  </data>
+  <data name="CustomerModel.DelAddress1">
+    <value>Διαγ. Δρόμου</value>
+  </data>
+  <data name="CustomerModel.DelAddress2">
+    <value>Διαγ. Δρόμου (2)</value>
+  </data>
+  <data name="CustomerModel.DelCity">
+    <value>Διαγ. ΤΚ/Πόλης</value>
+  </data>
+  <data name="CustomerModel.DelCountry">
+    <value>Διαγ. Χώρας</value>
+  </data>
+  <data name="CustomerModel.DelEmail">
+    <value>Διαγ. email</value>
+  </data>
+  <data name="CustomerModel.DelFax">
+    <value>Διαγ. Fax</value>
+  </data>
+  <data name="CustomerModel.DelGln">
+    <value>Delivery GLN</value>
+  </data>
+  <data name="CustomerModel.DeliveryNote">
+    <value>Δελτίο Αποστολής</value>
+  </data>
+  <data name="CustomerModel.DelPKeyId">
+    <value>Transit product delivery plan</value>
+  </data>
+  <data name="CustomerModel.DelTelephone">
+    <value>Διαγ. Τηλεφώνου</value>
+  </data>
+  <data name="CustomerModel.Email">
+    <value>email</value>
+  </data>
+  <data name="CustomerModel.EndoSETime">
+    <value>Στνρ Χρόνος Λήξης Ενδο</value>
+  </data>
+  <data name="CustomerModel.External">
+    <value>Εξωτερικό</value>
+  </data>
+  <data name="CustomerModel.FacKeyId">
+    <value>Εργοστάσιο</value>
+  </data>
+  <data name="CustomerModel.Fax">
+    <value>Fax</value>
+  </data>
+  <data name="CustomerModel.Flags1">
+    <value>Επιλογές</value>
+  </data>
+  <data name="CustomerModel.Gln">
+    <value>GLN</value>
+  </data>
+  <data name="CustomerModel.IntPickTime">
+    <value>Τοπική ώρα συγκέντρωσης</value>
+  </data>
+  <data name="CustomerModel.IntTransTimeArrive">
+    <value>Τοπική ώρα μεταφοράς κατά την άφιξη</value>
+  </data>
+  <data name="CustomerModel.IntTransTimeDepart">
+    <value>Τοπική ώρα μεταφοράςκατά την αναχώρηση</value>
+  </data>
+  <data name="CustomerModel.InvoiceCustKeyId">
+    <value>Τιμολόγιση Πελάτη</value>
+  </data>
+  <data name="CustomerModel.InvoiceRebate">
+    <value>Διόρθωση τιμολογίου (%)</value>
+  </data>
+  <data name="CustomerModel.KeyId">
+    <value>Αναγνωριστικό Πελάτη</value>
+  </data>
+  <data name="CustomerModel.LineRebate">
+    <value>Διόρθωση γραμμής (%)</value>
+  </data>
+  <data name="CustomerModel.MinOrderLeadTime">
+    <value>Min. ordering time before operation</value>
+  </data>
+  <data name="CustomerModel.Name">
+    <value>Όνομα</value>
+  </data>
+  <data name="CustomerModel.OrderBookingMode">
+    <value>Τρόπος κράτησης</value>
+  </data>
+  <data name="CustomerModel.PreDispatchMode">
+    <value>Προ-αποστολής</value>
+  </data>
+  <data name="CustomerModel.Remark">
+    <value>Παρατήρηση</value>
+  </data>
+  <data name="CustomerModel.Reordermode">
+    <value>Παραγγελία ξανά για επιστροφή</value>
+  </data>
+  <data name="CustomerModel.ShortName">
+    <value>Σύντομη ονομασία </value>
+  </data>
+  <data name="CustomerModel.Status">
+    <value>Κατάσταση</value>
+  </data>
+  <data name="CustomerModel.StGrKeyId">
+    <value>Ομάδα παρακαταθήκης</value>
+  </data>
+  <data name="CustomerModel.TagsSurvive">
+    <value>Ετικέτες</value>
+  </data>
+  <data name="CustomerModel.Telephone">
+    <value>Τηλέφωνο</value>
+  </data>
+  <data name="CustomerModel.Traceability">
+    <value>Ιχνηλασιμότητα</value>
+  </data>
+  <data name="CustomerModel.UserField01">
+    <value>Χρήστης πεδίο 1</value>
+  </data>
+  <data name="CustomerModel.UserField02">
+    <value>Χρήστης πεδίο 2</value>
+  </data>
+  <data name="CustomerModel.UserField03">
+    <value>Χρήστης πεδίου 3</value>
+  </data>
+  <data name="CustomerModel.UserField04">
+    <value>Χρήστης πεδίο 4</value>
+  </data>
+  <data name="CustomerModel.UserField05">
+    <value>Χρήστης πεδίο 5</value>
+  </data>
+  <data name="CustomerModel.UserField06">
+    <value>Χρήστης πεδίο 6</value>
+  </data>
+  <data name="CustomerModel.UserField07">
+    <value>Χρήστης πεδίο 7</value>
+  </data>
+  <data name="CustomerModel.UserField08">
+    <value>Χρήστης πεδίο 8</value>
+  </data>
+  <data name="CustomerModel.UserField09">
+    <value>Χρήστης πεδίο 9</value>
+  </data>
+  <data name="CustomerModel.UserField10">
+    <value>Χρήστης τομέα 10</value>
+  </data>
+  <data name="CustomerModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="CustomerModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="CustomerModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="CustomerModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="CustomerModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="CustomerModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="CustomerModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="CustomerModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="CustomerModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="CustomerModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="CustomerModel.WebPassword">
+    <value>Web / FTP Κωδικού</value>
+  </data>
+  <data name="CustomerModel.WebSite">
+    <value>Δικτυακός τόπος</value>
+  </data>
+  <data name="CustomerModel.WebUser">
+    <value>Web / FTP χρήστη</value>
+  </data>
+  <data name="EndoDryingMethodsModel.KeyId">
+    <value>Αναγνωριστικό μεθόδου στεγνώματος ενδοσκοπίου</value>
+  </data>
+  <data name="EndoDryingMethodsModel.Method">
+    <value>Μέθοδος</value>
+  </data>
+  <data name="EndoDryingMethodsModel.Name">
+    <value>Όνομα</value>
+  </data>
+  <data name="ProgramGroupModel.Color">
+    <value>Χρώμα</value>
+  </data>
+  <data name="ProgramGroupModel.KeyId">
+    <value>Πρόγραμμα αναγνωριστικό της ομάδας</value>
+  </data>
+  <data name="ProgramGroupModel.Name">
+    <value>Όνομα</value>
+  </data>
+  <data name="ProgramGroupModel.Remark">
+    <value>Παρατήρηση</value>
+  </data>
+  <data name="ProgramGroupModel.Type">
+    <value>Τύπος</value>
+  </data>
+  <data name="FactoryModel.Created">
+    <value></value>
+  </data>
+  <data name="FactoryModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="FactoryModel.Modified">
+    <value></value>
+  </data>
+  <data name="FactoryModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="FactoryModel.Address1">
+    <value>Οδός</value>
+  </data>
+  <data name="FactoryModel.Address2">
+    <value>Οδός(2)</value>
+  </data>
+  <data name="FactoryModel.AllowSkipCleanAndTest">
+    <value>Allow skip clean and test</value>
+  </data>
+  <data name="FactoryModel.AllowSkipDispatch">
+    <value>Allow skip dispatch</value>
+  </data>
+  <data name="FactoryModel.AllowSkipReturn">
+    <value>Allow skip return</value>
+  </data>
+  <data name="FactoryModel.AutoPlayVideos">
+    <value>Autoplay videos</value>
+  </data>
+  <data name="FactoryModel.Bioid">
+    <value>Βιο Αναγνωριστικό</value>
+  </data>
+  <data name="FactoryModel.CalKeyId">
+    <value>Ημερολόγιο</value>
+  </data>
+  <data name="FactoryModel.ChargeUsage">
+    <value>Χρέωση πλήρους Χρήσης κατά την επιστροφή με σφάλμα</value>
+  </data>
+  <data name="FactoryModel.City">
+    <value>Ταχ. Κώδικας/Πόλη</value>
+  </data>
+  <data name="FactoryModel.CntpsKeyId">
+    <value>Counting point group</value>
+  </data>
+  <data name="FactoryModel.Country">
+    <value>Χώρα</value>
+  </data>
+  <data name="FactoryModel.CrossRefVendorKeyId">
+    <value>Προτιμώμενος προμηθευτής</value>
+  </data>
+  <data name="FactoryModel.CustNameDisplay">
+    <value>Χρήση σύντομου ονόματος πελάτη</value>
+  </data>
+  <data name="FactoryModel.CustOrdAcceptMode">
+    <value>Customer order acceptance handling</value>
+  </data>
+  <data name="FactoryModel.DecItemStockOnPack">
+    <value>Μείωση αποθέματος αντικειμένου κατά το πακετάρισμα</value>
+  </data>
+  <data name="FactoryModel.DeductItemsFromStock">
+    <value>Deduct items from stock in Operation</value>
+  </data>
+  <data name="FactoryModel.DefAdminLocaKeyId">
+    <value>Default Admin location</value>
+  </data>
+  <data name="FactoryModel.DefAvgOnSiteStoreTime">
+    <value>Προεπιλεγμένος Μέσος χρόνος αποθήκευσης Στο χώρο</value>
+  </data>
+  <data name="FactoryModel.DefAvgOpDuration">
+    <value>Προεπιλεγμένος Μέσος χρόνος επέμβασης</value>
+  </data>
+  <data name="FactoryModel.DefDispatchRestrict">
+    <value>Περιορισμός προεπιλεγμένης αποστολής</value>
+  </data>
+  <data name="FactoryModel.DefItemShelvingTime">
+    <value>Προεπιλεγμένος χρόνος αποθήκευσης αντικειμένου στο ράφι</value>
+  </data>
+  <data name="FactoryModel.DefItemStokKeyId">
+    <value>Προεπιλεγμένο απόθεμα αντικειμένου</value>
+  </data>
+  <data name="FactoryModel.DefMESPickingCapacity">
+    <value>Hourly picking capacity</value>
+  </data>
+  <data name="FactoryModel.DefMESResvStokKeyId">
+    <value>Automated reserved stock</value>
+  </data>
+  <data name="FactoryModel.DefMESStokKeyId">
+    <value>Automated picking stock</value>
+  </data>
+  <data name="FactoryModel.DefOrdSuppStokKeyId">
+    <value>Default customer order stock</value>
+  </data>
+  <data name="FactoryModel.DefProdTraceType">
+    <value>Προεπιλεγμένος τύπος ιχνηλασίας προϊόντος</value>
+  </data>
+  <data name="FactoryModel.DefProductStokKeyId">
+    <value>Προεπιλεγμένο απόθεμα προϊόντος</value>
+  </data>
+  <data name="FactoryModel.DefSerialDispRestrict">
+    <value>Προεπιλεγμένος περιορισμός αποστολής Σειριακών</value>
+  </data>
+  <data name="FactoryModel.DefSuppCalKeyId">
+    <value>Προεπιλεγμένο ημερολόγιο Προμηθευτή</value>
+  </data>
+  <data name="FactoryModel.DefSuppOrderDelTime">
+    <value>Προεπιλεγμένος χρόνος παράδοσης παραγγελίας Προμηθευτή</value>
+  </data>
+  <data name="FactoryModel.DefSuppOrderHandlTime">
+    <value>Προκαθορισμένος χρόνος χειρισμού παραγγελίας Προμηθευτή</value>
+  </data>
+  <data name="FactoryModel.DefSuppOrderRampTime">
+    <value>Προκαθορισμένος χρόνος κλιμάκωσης παραγγελίας Προμηθευτή</value>
+  </data>
+  <data name="FactoryModel.DefSuppOrderTransTime">
+    <value>Προεπιλεγμένος χρόνος μεταφοράς παραγγελίας Προμηθευτή</value>
+  </data>
+  <data name="FactoryModel.DefWPlanKeyId">
+    <value>Προκαθορισμένο σχέδιο Βάρους</value>
+  </data>
+  <data name="FactoryModel.DelAddress1">
+    <value>Διαγ. Δρόμου</value>
+  </data>
+  <data name="FactoryModel.DelAddress2">
+    <value>Διαγ. Δρόμου (2)</value>
+  </data>
+  <data name="FactoryModel.DelCity">
+    <value>Διαγ. ΤΚ/Πόλης</value>
+  </data>
+  <data name="FactoryModel.DelCountry">
+    <value>Διαγ. Χώρας</value>
+  </data>
+  <data name="FactoryModel.DelEmail">
+    <value>Διαγ. email</value>
+  </data>
+  <data name="FactoryModel.DelFax">
+    <value>Διαγ. Fax</value>
+  </data>
+  <data name="FactoryModel.DelPKeyId">
+    <value>Transit product delivery plan</value>
+  </data>
+  <data name="FactoryModel.DeltaScanMode">
+    <value>Κατάσταση σάρωσης Delta</value>
+  </data>
+  <data name="FactoryModel.DelTelephone">
+    <value>Διαγ. Τηλεφώνου</value>
+  </data>
+  <data name="FactoryModel.DropItemSuppOpOrders">
+    <value>Πτώση Προμηθευτή σε παραγγελείες Χειρ.</value>
+  </data>
+  <data name="FactoryModel.Email">
+    <value>email</value>
+  </data>
+  <data name="FactoryModel.EndoCycleToCab">
+    <value>Χρόνου κύκλου σε καμπίνα</value>
+  </data>
+  <data name="FactoryModel.EndoDefCabKeyId">
+    <value>Προεπιλεγμένη καμπίνα</value>
+  </data>
+  <data name="FactoryModel.EndoDefFSPlKeyId">
+    <value>Προεπιλεγμένη τοποθέτηση αποθέματος</value>
+  </data>
+  <data name="FactoryModel.Endodryingmode">
+    <value>Manual drying</value>
+  </data>
+  <data name="FactoryModel.EndoHaTKeyId">
+    <value>Handling type</value>
+  </data>
+  <data name="FactoryModel.EndoSETime">
+    <value>Στνρ Χρόνος Λήξης Ενδο</value>
+  </data>
+  <data name="FactoryModel.EndoShelfDelay">
+    <value>Καθυστέρηση χρόνου ραφιού ενδο</value>
+  </data>
+  <data name="FactoryModel.EndoShelfRelTime">
+    <value>Καθυστέρηση χρόνου απελευθέρωσης από ράφι ενδο</value>
+  </data>
+  <data name="FactoryModel.EquipmentUsage">
+    <value>Χρήση εξοπλισμού</value>
+  </data>
+  <data name="FactoryModel.Expiretype">
+    <value>Τύπος λήξης</value>
+  </data>
+  <data name="FactoryModel.Facrestrictmode">
+    <value>Κατάσταση περιορισμού εργοστασίου</value>
+  </data>
+  <data name="FactoryModel.Factory">
+    <value>Εργοστάσιο</value>
+  </data>
+  <data name="FactoryModel.Fax">
+    <value>Fax</value>
+  </data>
+  <data name="FactoryModel.FixedPrices">
+    <value>Χρήση σταθερών τιμών</value>
+  </data>
+  <data name="FactoryModel.Flags1">
+    <value>Επιλογές 1</value>
+  </data>
+  <data name="FactoryModel.Flags2">
+    <value>Επιλογές 2</value>
+  </data>
+  <data name="FactoryModel.FTMaxCodeDuration">
+    <value>Λήξη κωδικού γρήγορης παρακολούθησης</value>
+  </data>
+  <data name="FactoryModel.FTMaxPlanDuration">
+    <value>Λήξη σχεδίου γρήγορης παρακολούθησης</value>
+  </data>
+  <data name="FactoryModel.FTPlKeyId">
+    <value>Σχέδιο γρήγορης παρακολούθησης</value>
+  </data>
+  <data name="FactoryModel.GuestprofKeyId">
+    <value>Προφίλ Φιλοξενούμενων χρηστών</value>
+  </data>
+  <data name="FactoryModel.HourCosts">
+    <value>Κόστος Ωρών</value>
+  </data>
+  <data name="FactoryModel.IncItemStockOnPack">
+    <value>Αύξηση αποθεμάτων αντικειμένου κατά το πακετάρισμα</value>
+  </data>
+  <data name="FactoryModel.IndicApproveLocaKeyId">
+    <value>Τοποθεσία Έγκρισης Δείκτη</value>
+  </data>
+  <data name="FactoryModel.IndicDisappLocaKeyId">
+    <value>Τοποθεσία Απόρριψης Δείκτη</value>
+  </data>
+  <data name="FactoryModel.IndicPendingLocaKeyId">
+    <value>Δείκτης Εν αναμονή της θέσης</value>
+  </data>
+  <data name="FactoryModel.InvoiceLocktime">
+    <value>Κλείδωμα ημερομηνίας τιμολόγισης</value>
+  </data>
+  <data name="FactoryModel.ItemAltPriceMode">
+    <value>Εναλ. Μέθοδος τιμολόγισης αντικειμένου</value>
+  </data>
+  <data name="FactoryModel.ItemDispAltPriceMode">
+    <value>Εναλ. Μέθοδος τιμολόγισης αναλώσιμου αντικειμένου</value>
+  </data>
+  <data name="FactoryModel.ItemDispPriceMode">
+    <value>Λειτουργία τιμολόγησης αναλωσίμου</value>
+  </data>
+  <data name="FactoryModel.ItemPriceMode">
+    <value>Κατάσταση τιμοκαταλόγου αντικειμένων</value>
+  </data>
+  <data name="FactoryModel.KeyId">
+    <value>Αναγνωριστικό εργοστασίου</value>
+  </data>
+  <data name="FactoryModel.LoadnumberUsage">
+    <value>Φόρτωση  αριθμού χρήσης</value>
+  </data>
+  <data name="FactoryModel.MinOrderLeadTime">
+    <value>Min. ordering time before operation</value>
+  </data>
+  <data name="FactoryModel.MinOrderLeadTimeMode">
+    <value>Time mode</value>
+  </data>
+  <data name="FactoryModel.MoneyRounding">
+    <value>Στρογγυλοποίηση</value>
+  </data>
+  <data name="FactoryModel.Name">
+    <value>Όνομα</value>
+  </data>
+  <data name="FactoryModel.OrderBookingMode">
+    <value>Τρόπος κράτησης</value>
+  </data>
+  <data name="FactoryModel.PreDispatch">
+    <value>Προ-αποστολής</value>
+  </data>
+  <data name="FactoryModel.RefNo">
+    <value>Αναφ. no.</value>
+  </data>
+  <data name="FactoryModel.Remark">
+    <value>Παρατήρηση</value>
+  </data>
+  <data name="FactoryModel.RepairError">
+    <value>Επισκευή σφάλματος</value>
+  </data>
+  <data name="FactoryModel.Repairmode">
+    <value>Λειτουργία επισκευής</value>
+  </data>
+  <data name="FactoryModel.SBFTAllStocks">
+    <value>All stocks</value>
+  </data>
+  <data name="FactoryModel.SBFTBlockStartedOp">
+    <value>Exclude started operations</value>
+  </data>
+  <data name="FactoryModel.SBFTDispatchedLGrpKeyId">
+    <value>Limit locations for dispatched units</value>
+  </data>
+  <data name="FactoryModel.SBFTEscFTCoKeyId">
+    <value>2nd Fast Track code</value>
+  </data>
+  <data name="FactoryModel.SBFTEscTime">
+    <value>Assign 2nd FT code after</value>
+  </data>
+  <data name="FactoryModel.SBFTFTCoKeyId">
+    <value>1st Fast Track code</value>
+  </data>
+  <data name="FactoryModel.SBFTMaxDelTime">
+    <value>Max time</value>
+  </data>
+  <data name="FactoryModel.SBFTMinDelTime">
+    <value>Min. time</value>
+  </data>
+  <data name="FactoryModel.SBFTMode">
+    <value>Enable Stock based fast tracking</value>
+  </data>
+  <data name="FactoryModel.SBFTOrdersFilter">
+    <value>Include</value>
+  </data>
+  <data name="FactoryModel.SealCount">
+    <value>Αριθμός των σφραγίσεων</value>
+  </data>
+  <data name="FactoryModel.SealPrint">
+    <value>Εκτύπωση σφραγίδας</value>
+  </data>
+  <data name="FactoryModel.Setweightusage">
+    <value>Χρήση Βάρος</value>
+  </data>
+  <data name="FactoryModel.Shortname">
+    <value>Σύντομη ονομασία </value>
+  </data>
+  <data name="FactoryModel.Status">
+    <value>Κατάσταση</value>
+  </data>
+  <data name="FactoryModel.StgrKeyId">
+    <value>Ομάδα παρακαταθήκης</value>
+  </data>
+  <data name="FactoryModel.SUAMatchConditions">
+    <value>Match conditions</value>
+  </data>
+  <data name="FactoryModel.SUAMaxUserComplexity">
+    <value>Max. User complexity</value>
+  </data>
+  <data name="FactoryModel.SUAMinProdComplexity">
+    <value>Min. Product complexity</value>
+  </data>
+  <data name="FactoryModel.SUAReqProdType">
+    <value>Required for products</value>
+  </data>
+  <data name="FactoryModel.Telephone">
+    <value>Τηλέφωνο</value>
+  </data>
+  <data name="FactoryModel.TraceStokKeyId">
+    <value>Ανίχνεύσιμη παρακαταθήκη</value>
+  </data>
+  <data name="FactoryModel.TransitStokKeyId">
+    <value>Διακίνηση αποθέματος</value>
+  </data>
+  <data name="FactoryModel.TRGrpKeyId">
+    <value>Expire time group</value>
+  </data>
+  <data name="FactoryModel.Type">
+    <value>Τύπος</value>
+  </data>
+  <data name="FactoryModel.UserField01">
+    <value>Χρήστης πεδίο 1</value>
+  </data>
+  <data name="FactoryModel.UserField02">
+    <value>Χρήστης πεδίο 2</value>
+  </data>
+  <data name="FactoryModel.UserField03">
+    <value>Χρήστης πεδίου 3</value>
+  </data>
+  <data name="FactoryModel.UserField04">
+    <value>Χρήστης πεδίο 4</value>
+  </data>
+  <data name="FactoryModel.UserField05">
+    <value>Χρήστης πεδίο 5</value>
+  </data>
+  <data name="FactoryModel.UserField06">
+    <value>Χρήστης πεδίο 6</value>
+  </data>
+  <data name="FactoryModel.UserField07">
+    <value>Χρήστης πεδίο 7</value>
+  </data>
+  <data name="FactoryModel.UserField08">
+    <value>Χρήστης πεδίο 8</value>
+  </data>
+  <data name="FactoryModel.UserField09">
+    <value>Χρήστης πεδίο 9</value>
+  </data>
+  <data name="FactoryModel.UserField10">
+    <value>Χρήστης τομέα 10</value>
+  </data>
+  <data name="FactoryModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="FactoryModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="FactoryModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="FactoryModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="FactoryModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="FactoryModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="FactoryModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="FactoryModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="FactoryModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="FactoryModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="FactoryModel.UIStartMode">
+    <value>Σαρωτής UI  για ναξεκινήσετε τη λειτουργία</value>
+  </data>
+  <data name="FactoryModel.UseColorFields">
+    <value>Χρήση χρώματος πεδίων</value>
+  </data>
+  <data name="FactoryModel.Usedispstockonpack">
+    <value>Χρήση αποθέματος αναλωσίμων κατά το πακετάρισμα</value>
+  </data>
+  <data name="FactoryModel.UseNTLogin">
+    <value>Χρήση σύνδεσης NT</value>
+  </data>
+  <data name="FactoryModel.Webitemlocatorcolumns">
+    <value>Item locator display fields</value>
+  </data>
+  <data name="FactoryModel.WebLocaKeyId">
+    <value>Operation location</value>
+  </data>
+  <data name="FactoryModel.WebOrderInitStatus">
+    <value>Initial state for orders received from Web</value>
+  </data>
+  <data name="FactoryModel.Webprodlocatorcolumns">
+    <value>Product locator display fields</value>
+  </data>
+  <data name="FactoryModel.Website">
+    <value>Δικτυακός τόπος</value>
+  </data>
+  <data name="FastTrackCodeModel.Created">
+    <value></value>
+  </data>
+  <data name="FastTrackCodeModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="FastTrackCodeModel.Modified">
+    <value></value>
+  </data>
+  <data name="FastTrackCodeModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="FastTrackCodeModel.Code">
+    <value>Κωδικός</value>
+  </data>
+  <data name="FastTrackCodeModel.Descr">
+    <value>Περιγραφή</value>
+  </data>
+  <data name="FastTrackCodeModel.DisplayMode">
+    <value>Εμφάνιση λειτουργίας</value>
+  </data>
+  <data name="FastTrackCodeModel.EndLoGrpKeyId">
+    <value>Τέλος ομάδας τοποθεσίας</value>
+  </data>
+  <data name="FastTrackCodeModel.EndStatus">
+    <value>Κατάσταση τέλους</value>
+  </data>
+  <data name="FastTrackCodeModel.EndTime">
+    <value>Χρόνος τέλους</value>
+  </data>
+  <data name="FastTrackCodeModel.InvoiceItemKeyId">
+    <value>Τιμολόγιση αντικειμένου</value>
+  </data>
+  <data name="FastTrackCodeModel.InvoicePrice">
+    <value>Τιμή τιμολογίου</value>
+  </data>
+  <data name="FastTrackCodeModel.InvoiceTo">
+    <value>Τιμολόγιση σε</value>
+  </data>
+  <data name="FastTrackCodeModel.InvoiceWithUnit">
+    <value>Τιμολόγιση με μονάδα</value>
+  </data>
+  <data name="FastTrackCodeModel.KeyId">
+    <value>Αναγωριστικό κωδικού γρήγορης παρακολούθησης</value>
+  </data>
+  <data name="FastTrackCodeModel.Name">
+    <value>Όνομα</value>
+  </data>
+  <data name="FastTrackCodeModel.Priority">
+    <value>προτεραιότητα</value>
+  </data>
+  <data name="FastTrackCodeModel.StartLoGrpKeyId">
+    <value>Έναρξη τοποθεσίας ομάδας</value>
+  </data>
+  <data name="FastTrackCodeModel.StartStatus">
+    <value>Ξεκινήστε την κατάσταση</value>
+  </data>
+  <data name="FastTrackCodeModel.StartTime">
+    <value>Ώρα εκκίνησης</value>
+  </data>
+  <data name="FastTrackCodeModel.Status">
+    <value>Κατάσταση</value>
+  </data>
+  <data name="FastTrackCodeModel.Type">
+    <value>Τύπος</value>
+  </data>
+  <data name="FastTrackCodeModel.Weekdays">
+    <value>Weekdays</value>
+  </data>
+  <data name="FastTrackPlanModel.Created">
+    <value></value>
+  </data>
+  <data name="FastTrackPlanModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="FastTrackPlanModel.Modified">
+    <value></value>
+  </data>
+  <data name="FastTrackPlanModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="FastTrackPlanModel.Descr">
+    <value>Περιγραφή</value>
+  </data>
+  <data name="FastTrackPlanModel.DisplayMode">
+    <value>Εμφάνιση λειτουργίας</value>
+  </data>
+  <data name="FastTrackPlanModel.InvoiceItemKeyId">
+    <value>Τιμολόγιση αντικειμένου</value>
+  </data>
+  <data name="FastTrackPlanModel.InvoicePrice">
+    <value>Τιμή</value>
+  </data>
+  <data name="FastTrackPlanModel.InvoiceTo">
+    <value>Τιμολόγιση σε</value>
+  </data>
+  <data name="FastTrackPlanModel.InvoiceWithUnit">
+    <value>Τιμολόγιση με μονάδα</value>
+  </data>
+  <data name="FastTrackPlanModel.KeyId">
+    <value>Αναγωριστικό σχεδίου γρήγορης παρακολούθησης</value>
+  </data>
+  <data name="FastTrackPlanModel.Name">
+    <value>Όνομα</value>
+  </data>
+  <data name="FastTrackPlanModel.Plan">
+    <value>Σχέδιο</value>
+  </data>
+  <data name="FastTrackPlanModel.Priority">
+    <value>προτεραιότητα</value>
+  </data>
+  <data name="FastTrackPlanModel.Status">
+    <value>Κατάσταση</value>
+  </data>
+  <data name="FastTrackPlanModel.WorkhourMode">
+    <value>Εργασία λειτουργία ώρες</value>
+  </data>
+  <data name="FastTrackTemplateModel.Created">
+    <value></value>
+  </data>
+  <data name="FastTrackTemplateModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="FastTrackTemplateModel.Modified">
+    <value></value>
+  </data>
+  <data name="FastTrackTemplateModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="FastTrackTemplateModel.Descr">
+    <value>Περιγραφή</value>
+  </data>
+  <data name="FastTrackTemplateModel.KeyId">
+    <value>Αναγωριστικό προτύπου γρήγορης παρακολούθησης</value>
+  </data>
+  <data name="FastTrackTemplateModel.Name">
+    <value>Όνομα</value>
+  </data>
+  <data name="FastTrackTemplateModel.Template">
+    <value>Πρότυπο</value>
+  </data>
+  <data name="HandlingTypesModel.Created">
+    <value></value>
+  </data>
+  <data name="HandlingTypesModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="HandlingTypesModel.Modified">
+    <value></value>
+  </data>
+  <data name="HandlingTypesModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="HandlingTypesModel.Id">
+    <value>Handling type</value>
+  </data>
+  <data name="HandlingTypesModel.KeyId">
+    <value>Handling type ID</value>
+  </data>
+  <data name="HandlingTypesModel.Name">
+    <value>Όνομα</value>
+  </data>
+  <data name="HandlingTypesModel.Remark">
+    <value>Παρατηρήσεις</value>
+  </data>
+  <data name="IdenticalArticleGroupModel.Forcealtarticles">
+    <value>Force all articles</value>
+  </data>
+  <data name="IdenticalArticleGroupModel.KeyId">
+    <value>Identical article group ID</value>
+  </data>
+  <data name="IdenticalArticleGroupModel.Name">
+    <value>Common name</value>
+  </data>
+  <data name="IdenticalArticleGroupModel.Type">
+    <value>Τύπος</value>
+  </data>
+  <data name="ItemModel.Created">
+    <value></value>
+  </data>
+  <data name="ItemModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="ItemModel.Modified">
+    <value></value>
+  </data>
+  <data name="ItemModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="ItemModel.Barcode">
+    <value>Γραμμικοί κώδικες</value>
+  </data>
+  <data name="ItemModel.CatKeyId">
+    <value>Αναγνωριστικό καταλόγου</value>
+  </data>
+  <data name="ItemModel.Color">
+    <value>Χρώμα</value>
+  </data>
+  <data name="ItemModel.Composite">
+    <value>Σύνθετο</value>
+  </data>
+  <data name="ItemModel.Contamination">
+    <value>Πιθανότητα μόλυνσης</value>
+  </data>
+  <data name="ItemModel.Costprice">
+    <value>Τιμή κόστους</value>
+  </data>
+  <data name="ItemModel.Difficulty">
+    <value>Πολυπλοκότητα</value>
+  </data>
+  <data name="ItemModel.DifficultyMode">
+    <value>Complexity mode</value>
+  </data>
+  <data name="ItemModel.DiscardLevel">
+    <value>Discard level</value>
+  </data>
+  <data name="ItemModel.Disposable">
+    <value>Αναλώσιμο</value>
+  </data>
+  <data name="ItemModel.DispPrice">
+    <value>Τιμή αναλωσίμου</value>
+  </data>
+  <data name="ItemModel.ExternalText">
+    <value>Εξωτερικό κείμενο</value>
+  </data>
+  <data name="ItemModel.ExternalType">
+    <value>Εξωτερικός τύπος</value>
+  </data>
+  <data name="ItemModel.FacKeyId">
+    <value>Εργοστάσιο</value>
+  </data>
+  <data name="ItemModel.HospitalDescription">
+    <value>Τοπικό όνομα</value>
+  </data>
+  <data name="ItemModel.InArtKeyId">
+    <value>Identical</value>
+  </data>
+  <data name="ItemModel.Info">
+    <value>Παρατήρηση</value>
+  </data>
+  <data name="ItemModel.Item">
+    <value>Αντικείμενο</value>
+  </data>
+  <data name="ItemModel.ItGrpKeyId">
+    <value>Ομάδα</value>
+  </data>
+  <data name="ItemModel.ItspcKeyId">
+    <value>Ειδικότητα</value>
+  </data>
+  <data name="ItemModel.KeyId">
+    <value>Αναγωριστικό αντικειμένου</value>
+  </data>
+  <data name="ItemModel.Length">
+    <value>Μήκος</value>
+  </data>
+  <data name="ItemModel.Lifespan">
+    <value>Διάρκεια ζωής</value>
+  </data>
+  <data name="ItemModel.ManufactorNo">
+    <value>Κατασκ. No.</value>
+  </data>
+  <data name="ItemModel.ManuKeyId">
+    <value>Κατασκευαστής</value>
+  </data>
+  <data name="ItemModel.Material">
+    <value>Υλικό</value>
+  </data>
+  <data name="ItemModel.MaterialsNum">
+    <value>Ταιρ.όχι</value>
+  </data>
+  <data name="ItemModel.MaxPressure">
+    <value>Mεγ. Πίεση</value>
+  </data>
+  <data name="ItemModel.MaxTemp">
+    <value>Mεγ. Θερμοκρασία</value>
+  </data>
+  <data name="ItemModel.OrderLeadTime">
+    <value>Order lead time</value>
+  </data>
+  <data name="ItemModel.OrderMinCount">
+    <value>Ελάχ.μέτρηση παραγγελίας</value>
+  </data>
+  <data name="ItemModel.OrderStdCount">
+    <value>Παραγγελία μεγέθους πακέτου</value>
+  </data>
+  <data name="ItemModel.OrderstduomKeyId">
+    <value>Παραγγελία μέτρου πακέτο</value>
+  </data>
+  <data name="ItemModel.OtherMinCount">
+    <value>Ελάχ.μέτρηση int. παραγγελίας</value>
+  </data>
+  <data name="ItemModel.OtherUnitCount">
+    <value>Εσωτ. Μέγεθος πακέτου παραγγελίας</value>
+  </data>
+  <data name="ItemModel.OtheruomKeyId">
+    <value>Εσωτ. μέτρηση παραγγελίας πακέτου</value>
+  </data>
+  <data name="ItemModel.RepairVendorKeyId">
+    <value>Επισκευή πωλητή</value>
+  </data>
+  <data name="ItemModel.ReservationMode">
+    <value>Λειτουργία κράτησης</value>
+  </data>
+  <data name="ItemModel.SalesMinCount">
+    <value>Ελάχ. Μέτρηση πωλήσεων</value>
+  </data>
+  <data name="ItemModel.SalesPrCode">
+    <value>Πωλήσεις Κωδικός τιμής</value>
+  </data>
+  <data name="ItemModel.SalesPrice">
+    <value>Τιμή  πώλησης</value>
+  </data>
+  <data name="ItemModel.SalesRestriction">
+    <value>Sales restriction</value>
+  </data>
+  <data name="ItemModel.SalesUnitCount">
+    <value>Πωλήσεις μέγεθος πακέτο</value>
+  </data>
+  <data name="ItemModel.SalesuomKeyId">
+    <value>Πωλήσεις μέτρο πακέτο</value>
+  </data>
+  <data name="ItemModel.Serialmask">
+    <value>Μάσκα σειριακού αριθμού</value>
+  </data>
+  <data name="ItemModel.ShelvingTime">
+    <value>Χρόνος Αποθήκευσης σε Ράφι</value>
+  </data>
+  <data name="ItemModel.SplitCount">
+    <value>Αριθμός των ενωτίων για πλύσιμο</value>
+  </data>
+  <data name="ItemModel.Status">
+    <value>Κατάσταση</value>
+  </data>
+  <data name="ItemModel.SterilizationType">
+    <value>Τύπος αποστείρωσης</value>
+  </data>
+  <data name="ItemModel.SuppKeyId">
+    <value>Προμηθευτής</value>
+  </data>
+  <data name="ItemModel.SupplierNo">
+    <value>Προμηθευτής όχι</value>
+  </data>
+  <data name="ItemModel.TagTKeyId">
+    <value>Τύπος ετικέτας</value>
+  </data>
+  <data name="ItemModel.Text">
+    <value>Όνομα</value>
+  </data>
+  <data name="ItemModel.Tip">
+    <value>Συμβουλή</value>
+  </data>
+  <data name="ItemModel.Totalcostprice">
+    <value>Total cost price</value>
+  </data>
+  <data name="ItemModel.Totalsalesprice">
+    <value>Total sales price</value>
+  </data>
+  <data name="ItemModel.Totalusageprice">
+    <value>Total usage price</value>
+  </data>
+  <data name="ItemModel.TraceType">
+    <value>Ακολουθείται από</value>
+  </data>
+  <data name="ItemModel.Type">
+    <value>Τύπος</value>
+  </data>
+  <data name="ItemModel.UserField01">
+    <value>Χρήστης πεδίο 1</value>
+  </data>
+  <data name="ItemModel.UserField02">
+    <value>Χρήστης πεδίο 2</value>
+  </data>
+  <data name="ItemModel.UserField03">
+    <value>Χρήστης πεδίου 3</value>
+  </data>
+  <data name="ItemModel.UserField04">
+    <value>Χρήστης πεδίο 4</value>
+  </data>
+  <data name="ItemModel.UserField05">
+    <value>Χρήστης πεδίο 5</value>
+  </data>
+  <data name="ItemModel.UserField06">
+    <value>Χρήστης πεδίο 6</value>
+  </data>
+  <data name="ItemModel.UserField07">
+    <value>Χρήστης πεδίο 7</value>
+  </data>
+  <data name="ItemModel.UserField08">
+    <value>Χρήστης πεδίο 8</value>
+  </data>
+  <data name="ItemModel.UserField09">
+    <value>Χρήστης πεδίο 9</value>
+  </data>
+  <data name="ItemModel.UserField10">
+    <value>Χρήστης τομέα 10</value>
+  </data>
+  <data name="ItemModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="ItemModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="ItemModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="ItemModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="ItemModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="ItemModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="ItemModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="ItemModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="ItemModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="ItemModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="ItemModel.Unitcount">
+    <value>Μονάδα μετρητή</value>
+  </data>
+  <data name="ItemModel.UomKeyId">
+    <value>Μέτρο μονάδα</value>
+  </data>
+  <data name="ItemModel.UsagePrCode">
+    <value>Κωδικός Τιμής Χρήσης</value>
+  </data>
+  <data name="ItemModel.UsagePrice">
+    <value>Τιμή Χρήσης</value>
+  </data>
+  <data name="ItemModel.Warrenty">
+    <value>Εγγύηση</value>
+  </data>
+  <data name="ItemModel.Weight">
+    <value>Βάρος</value>
+  </data>
+  <data name="ItemModel.WeightMode">
+    <value>Λειτουργία Βάρος</value>
+  </data>
+  <data name="ItemModel.Width">
+    <value>πλάτος</value>
+  </data>
+  <data name="PackingModel.Created">
+    <value></value>
+  </data>
+  <data name="PackingModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="PackingModel.Modified">
+    <value></value>
+  </data>
+  <data name="PackingModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="PackingModel.Color">
+    <value>Χρώμα</value>
+  </data>
+  <data name="PackingModel.Description">
+    <value>Περιγραφή</value>
+  </data>
+  <data name="PackingModel.FacKeyId">
+    <value>Εργοστάσιο</value>
+  </data>
+  <data name="PackingModel.FixedTime">
+    <value>Σταθερός χρόνος</value>
+  </data>
+  <data name="PackingModel.ItemKeyId">
+    <value>Αντικείμενο</value>
+  </data>
+  <data name="PackingModel.KeyId">
+    <value>Συσκευασία ID</value>
+  </data>
+  <data name="PackingModel.Packing">
+    <value>Συσκευασία</value>
+  </data>
+  <data name="PackingModel.RelativeTime">
+    <value>Σχέση χρόνου</value>
+  </data>
+  <data name="PackingModel.SealCount">
+    <value>Αριθμός των σφραγίσεων</value>
+  </data>
+  <data name="PackingModel.SealPrint">
+    <value>Εκτύπωση σφραγίδας</value>
+  </data>
+  <data name="PackingModel.SeprgKeyId">
+    <value>Πρόγραμμα σφραγίδας</value>
+  </data>
+  <data name="PackingModel.ShelfLife">
+    <value>Διάρκεια Ζωής</value>
+  </data>
+  <data name="PackingModel.Status">
+    <value>Κατάσταση</value>
+  </data>
+  <data name="PackingModel.TagTKeyId">
+    <value>Τύπος ετικέτας</value>
+  </data>
+  <data name="PackingModel.Tracetype">
+    <value>Include in pack list</value>
+  </data>
+  <data name="PackingModel.UsedFor">
+    <value>Χρησιμοποιείται για την</value>
+  </data>
+  <data name="PackingModel.Volume">
+    <value>Όγκος</value>
+  </data>
+  <data name="PackingModel.Weight">
+    <value>Βάρος</value>
+  </data>
+  <data name="PackingModel.WeightDisposable">
+    <value>Βάρος αναλωσίμου</value>
+  </data>
+  <data name="PackingModel.WeightMode">
+    <value>Λειτουργία Βάρος</value>
+  </data>
+  <data name="PackingModel.WeightNonDisposable">
+    <value>Μη διαθέσιμο βάρος</value>
+  </data>
+  <data name="PriceGroupModel.Created">
+    <value></value>
+  </data>
+  <data name="PriceGroupModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="PriceGroupModel.Modified">
+    <value></value>
+  </data>
+  <data name="PriceGroupModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="PriceGroupModel.Descr">
+    <value>Παρατήρηση</value>
+  </data>
+  <data name="PriceGroupModel.KeyId">
+    <value>Τιμή ομάδας ID</value>
+  </data>
+  <data name="PriceGroupModel.Name">
+    <value>Όνομα</value>
+  </data>
+  <data name="PriceGroupModel.Price">
+    <value>Τιμή</value>
+  </data>
+  <data name="PriceGroupModel.PriceGroup">
+    <value>Τιμή ομάδας</value>
+  </data>
+  <data name="TimeRuleGroupModel.Created">
+    <value></value>
+  </data>
+  <data name="TimeRuleGroupModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="TimeRuleGroupModel.Modified">
+    <value></value>
+  </data>
+  <data name="TimeRuleGroupModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="TimeRuleGroupModel.FacKeyId">
+    <value>Εργοστάσιο</value>
+  </data>
+  <data name="TimeRuleGroupModel.Id">
+    <value>Αναγνωριστικό</value>
+  </data>
+  <data name="TimeRuleGroupModel.KeyId">
+    <value>Expire time group ID</value>
+  </data>
+  <data name="TimeRuleGroupModel.Name">
+    <value>Όνομα</value>
+  </data>
+  <data name="TimeRuleGroupModel.Remark">
+    <value>Παρατηρήσεις</value>
+  </data>
+  <data name="WeightPlanModel.Created">
+    <value></value>
+  </data>
+  <data name="WeightPlanModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="WeightPlanModel.Modified">
+    <value></value>
+  </data>
+  <data name="WeightPlanModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="WeightPlanModel.Descr">
+    <value>Περιγραφή</value>
+  </data>
+  <data name="WeightPlanModel.KeyId">
+    <value>Βάρος ID σχέδιο</value>
+  </data>
+  <data name="WeightPlanModel.Name">
+    <value>Όνομα</value>
+  </data>
+  <data name="WeightPlanModel.WeightPlan">
+    <value>Σχέδιο Βάρος</value>
+  </data>
+  <data name="ProfileModel.Created">
+    <value></value>
+  </data>
+  <data name="ProfileModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="ProfileModel.Modified">
+    <value></value>
+  </data>
+  <data name="ProfileModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="ProfileModel.AncestorKeyId">
+    <value>Ομάδα χρηστών</value>
+  </data>
+  <data name="ProfileModel.KeyId">
+    <value>Προφίλ ID</value>
+  </data>
+  <data name="ProfileModel.Name">
+    <value>Όνομα</value>
+  </data>
+  <data name="ProfileModel.Profile">
+    <value>Προφίλ</value>
+  </data>
+  <data name="ProfileModel.Type">
+    <value>Τύπος</value>
+  </data>
+  <data name="ProfileModel.UpdateRequired">
+    <value>Update required</value>
+  </data>
+  <data name="CalendarModel.Created">
+    <value></value>
+  </data>
+  <data name="CalendarModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="CalendarModel.Modified">
+    <value></value>
+  </data>
+  <data name="CalendarModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="CalendarModel.KeyId">
+    <value>Αναγνωριστικό ημερολογίου</value>
+  </data>
+  <data name="CalendarModel.Name">
+    <value>Όνομα</value>
+  </data>
+  <data name="CalendarModel.ParentCalKeyId">
+    <value>Μητρική εταιρία</value>
+  </data>
+  <data name="StocksModel.AllowItems">
+    <value>Επιτρεπτά αντικείμενα</value>
+  </data>
+  <data name="StocksModel.AllowNegCount">
+    <value>Αρν. μετράει απόθεμα επιτρέπεται</value>
+  </data>
+  <data name="StocksModel.AllowProducts">
+    <value>Προϊόντα επιτρέπονται</value>
+  </data>
+  <data name="StocksModel.AutomationMode">
+    <value>Automation mode</value>
+  </data>
+  <data name="StocksModel.AutoReorder">
+    <value>Αυτόματη αναπαραγγελία</value>
+  </data>
+  <data name="StocksModel.Barcode">
+    <value>Γραμμικοί κώδικες</value>
+  </data>
+  <data name="StocksModel.BOInMode">
+    <value>Εκκρεμότητα Παραγγελίας Σε κατάσταση</value>
+  </data>
+  <data name="StocksModel.BOOutMode">
+    <value>Εκκρεμότητα Παραγγελίας εκτός κατάστασης</value>
+  </data>
+  <data name="StocksModel.DefIdentLineUsage">
+    <value>Use identical articles</value>
+  </data>
+  <data name="StocksModel.Descr">
+    <value>Περιγραφή</value>
+  </data>
+  <data name="StocksModel.DropItemSuppOnSugg">
+    <value>Πτώση της προμ. αντικειμένου στις προτάσεις</value>
+  </data>
+  <data name="StocksModel.EmgCTKeyId">
+    <value>Emergency case cart type</value>
+  </data>
+  <data name="StocksModel.FacKeyId">
+    <value>Εργοστάσιο</value>
+  </data>
+  <data name="StocksModel.IsTracestock">
+    <value>Ανίχνευση αποθέματος εργοστασίου</value>
+  </data>
+  <data name="StocksModel.IsTransitStock">
+    <value>Διέλευση αποθέματος εργοστασίου</value>
+  </data>
+  <data name="StocksModel.KeyId">
+    <value>Παρακαταθήκη ID</value>
+  </data>
+  <data name="StocksModel.LocaKeyId">
+    <value>Τοποθεσία</value>
+  </data>
+  <data name="StocksModel.Name">
+    <value>Όνομα</value>
+  </data>
+  <data name="StocksModel.OpTKeyId">
+    <value>Τύπος χειρουγείου</value>
+  </data>
+  <data name="StocksModel.OrderInMode">
+    <value>Αγορά υποδοχή για</value>
+  </data>
+  <data name="StocksModel.PlacementMask">
+    <value>Τοποθέτηση μάσκας</value>
+  </data>
+  <data name="StocksModel.PrnBackOrder">
+    <value>Εκκρεμότητες Παραγγελίας</value>
+  </data>
+  <data name="StocksModel.PrnCompletedOrder">
+    <value>Ολοκληρωμένες παραγγελίες</value>
+  </data>
+  <data name="StocksModel.PrnConfirmation">
+    <value>Επιβεβαίωση παραγγελίας</value>
+  </data>
+  <data name="StocksModel.PrnDelivery">
+    <value>Δελτίο αποστολής</value>
+  </data>
+  <data name="StocksModel.PrnPicklist">
+    <value>Λίστα επιλογής</value>
+  </data>
+  <data name="StocksModel.PrnReceivedOrder">
+    <value>Παραγγελία ελήφθη</value>
+  </data>
+  <data name="StocksModel.PrnSentOrder">
+    <value>Αποστολή παραγγελιας</value>
+  </data>
+  <data name="StocksModel.RefCustKeyId">
+    <value>Ιδιοκτήτης (πελατών)</value>
+  </data>
+  <data name="StocksModel.RefFacKeyId">
+    <value>Ιδιοκτήτης (Εργοστάσιο)</value>
+  </data>
+  <data name="StocksModel.RefSuppKeyId">
+    <value>Ιδιοκτήτης (Προμηθευτής)</value>
+  </data>
+  <data name="StocksModel.Status">
+    <value>Κατάσταση</value>
+  </data>
+  <data name="StocksModel.Stock">
+    <value>Παρακαταθήκη</value>
+  </data>
+  <data name="StocksModel.SuppRefFacKeyId">
+    <value>Προμηθευτής (Εργοστάσιο)</value>
+  </data>
+  <data name="StocksModel.SuppRefSuppKeyId">
+    <value>Προμηθευτής (Προμηθευτής)</value>
+  </data>
+  <data name="StocksModel.Type">
+    <value>Τύπος</value>
+  </data>
+  <data name="StocksModel.UserField01">
+    <value>Χρήστης πεδίο 1</value>
+  </data>
+  <data name="StocksModel.UserField02">
+    <value>Χρήστης πεδίο 2</value>
+  </data>
+  <data name="StocksModel.UserField03">
+    <value>Χρήστης πεδίου 3</value>
+  </data>
+  <data name="StocksModel.UserField04">
+    <value>Χρήστης πεδίο 4</value>
+  </data>
+  <data name="StocksModel.UserField05">
+    <value>Χρήστης πεδίο 5</value>
+  </data>
+  <data name="StocksModel.UserField06">
+    <value>Χρήστης πεδίο 6</value>
+  </data>
+  <data name="StocksModel.UserField07">
+    <value>Χρήστης πεδίο 7</value>
+  </data>
+  <data name="StocksModel.UserField08">
+    <value>Χρήστης πεδίο 8</value>
+  </data>
+  <data name="StocksModel.UserField09">
+    <value>Χρήστης πεδίο 9</value>
+  </data>
+  <data name="StocksModel.UserField10">
+    <value>Χρήστης τομέα 10</value>
+  </data>
+  <data name="StocksModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="StocksModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="StocksModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="StocksModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="StocksModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="StocksModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="StocksModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="StocksModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="StocksModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="StocksModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="StockGroupModel.Created">
+    <value></value>
+  </data>
+  <data name="StockGroupModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="StockGroupModel.Modified">
+    <value></value>
+  </data>
+  <data name="StockGroupModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="StockGroupModel.Descr">
+    <value>Περιγραφή</value>
+  </data>
+  <data name="StockGroupModel.KeyId">
+    <value>Ομάδα παρακαταθήκης ID</value>
+  </data>
+  <data name="StockGroupModel.Name">
+    <value>Όνομα</value>
+  </data>
+  <data name="StockGroupModel.StockGroup">
+    <value>Ομάδα παρακαταθήκης</value>
+  </data>
+  <data name="ProcessModel.ApproveTime">
+    <value>Εγκεκριμένο</value>
+  </data>
+  <data name="ProcessModel.ApproveUserKeyId">
+    <value>Εγκρίθηκε από</value>
+  </data>
+  <data name="ProcessModel.Batch">
+    <value>Παρτίδα</value>
+  </data>
+  <data name="ProcessModel.Charge">
+    <value>Κύκλος</value>
+  </data>
+  <data name="ProcessModel.DisapproveUserKeyId">
+    <value>Απορρίφθηκε από</value>
+  </data>
+  <data name="ProcessModel.EndTime">
+    <value>Τελείωσε</value>
+  </data>
+  <data name="ProcessModel.Envhumidity">
+    <value>Περιβ. υγρασία</value>
+  </data>
+  <data name="ProcessModel.Envpressure">
+    <value>Περιβ. πίεση</value>
+  </data>
+  <data name="ProcessModel.Envtemp">
+    <value>Περιβ. θερμ.</value>
+  </data>
+  <data name="ProcessModel.Error">
+    <value>Σφάλμα συστήματος</value>
+  </data>
+  <data name="ProcessModel.ExternalBatchNo">
+    <value>Εξωτερικός αρ. παρτίδας</value>
+  </data>
+  <data name="ProcessModel.InitiateTime">
+    <value>Ξεκίνησε</value>
+  </data>
+  <data name="ProcessModel.InitiatorUserKeyId">
+    <value>Εκκινητής</value>
+  </data>
+  <data name="ProcessModel.LoadNumber">
+    <value>Φόρτωση αριθμού</value>
+  </data>
+  <data name="ProcessModel.MachKeyId">
+    <value>Μηχάνημα</value>
+  </data>
+  <data name="ProcessModel.NativeError">
+    <value>Σφάλμα μηχανήματος</value>
+  </data>
+  <data name="ProcessModel.NativeErrortext">
+    <value>Κείμενο Μηχανήματος</value>
+  </data>
+  <data name="ProcessModel.ProgKeyId">
+    <value>Πρόγραμμα</value>
+  </data>
+  <data name="ProcessModel.ScanRefPreKeyId">
+    <value>Σκαναρισμένη συνταγή</value>
+  </data>
+  <data name="ProcessModel.ScanRefProgKeyId">
+    <value>Σκαναρισμένο πρόγραμμα</value>
+  </data>
+  <data name="ProcessModel.SecondApproveComment">
+    <value>Σχόλια</value>
+  </data>
+  <data name="ProcessModel.SecondApproveUserKeyId">
+    <value>Second approval</value>
+  </data>
+  <data name="ProcessModel.StartTime">
+    <value>Άρχισε</value>
+  </data>
+  <data name="ProcessModel.StartTime2">
+    <value>Άρχισε 2</value>
+  </data>
+  <data name="ProcessModel.Status">
+    <value>Κατάσταση</value>
+  </data>
+  <data name="ProcessModel.Type">
+    <value>Τύπος</value>
+  </data>
+  <data name="SupplierModel.Created">
+    <value></value>
+  </data>
+  <data name="SupplierModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="SupplierModel.Modified">
+    <value></value>
+  </data>
+  <data name="SupplierModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="SupplierModel.Acceptorders">
+    <value>Δέχεται εντολές αγοράς</value>
+  </data>
+  <data name="SupplierModel.Address1">
+    <value>Διεύθυνση</value>
+  </data>
+  <data name="SupplierModel.Address2">
+    <value>Διεύθυνση (2)</value>
+  </data>
+  <data name="SupplierModel.Barcode">
+    <value>Γραμμικοί κώδικες</value>
+  </data>
+  <data name="SupplierModel.CalKeyId">
+    <value>Ημερολόγιο</value>
+  </data>
+  <data name="SupplierModel.City">
+    <value>Ταχ. Κώδικας/Πόλη</value>
+  </data>
+  <data name="SupplierModel.Country">
+    <value>Χώρα</value>
+  </data>
+  <data name="SupplierModel.Email">
+    <value>email</value>
+  </data>
+  <data name="SupplierModel.FacKeyId">
+    <value>Εργοστάσιο</value>
+  </data>
+  <data name="SupplierModel.Fax">
+    <value>Fax</value>
+  </data>
+  <data name="SupplierModel.Flags1">
+    <value>Επιλογές</value>
+  </data>
+  <data name="SupplierModel.Internal">
+    <value>Εσωτερικό</value>
+  </data>
+  <data name="SupplierModel.KeyId">
+    <value>Προμηθευτής ID</value>
+  </data>
+  <data name="SupplierModel.Name">
+    <value>Όνομα</value>
+  </data>
+  <data name="SupplierModel.OrderDelTime">
+    <value>Παραγγελία παράδωσης χρόνου</value>
+  </data>
+  <data name="SupplierModel.OrderHandlingTime">
+    <value>Χρόνος διεκπαιραίωσης παραγγελίας</value>
+  </data>
+  <data name="SupplierModel.OrderRampTime">
+    <value>Παραγγελία χρόνου ράμπας</value>
+  </data>
+  <data name="SupplierModel.OrderTransmitTime">
+    <value>Διάταξη του χρόνου μετάδοσης</value>
+  </data>
+  <data name="SupplierModel.OwnCustNumber">
+    <value>Για ίδιο αριθμό</value>
+  </data>
+  <data name="SupplierModel.Remark">
+    <value>Παρατήρηση</value>
+  </data>
+  <data name="SupplierModel.RepairVendorKeyId">
+    <value>Επισκευή πωλητή</value>
+  </data>
+  <data name="SupplierModel.Status">
+    <value>Κατάσταση</value>
+  </data>
+  <data name="SupplierModel.Supplier">
+    <value>Προμηθευτής</value>
+  </data>
+  <data name="SupplierModel.Telephone">
+    <value>Τηλέφωνο</value>
+  </data>
+  <data name="SupplierModel.Type">
+    <value>Τύπος</value>
+  </data>
+  <data name="SupplierModel.UserField01">
+    <value>Χρήστης πεδίο 1</value>
+  </data>
+  <data name="SupplierModel.UserField02">
+    <value>Χρήστης πεδίο 2</value>
+  </data>
+  <data name="SupplierModel.UserField03">
+    <value>Χρήστης πεδίου 3</value>
+  </data>
+  <data name="SupplierModel.UserField04">
+    <value>Χρήστης πεδίο 4</value>
+  </data>
+  <data name="SupplierModel.UserField05">
+    <value>Χρήστης πεδίο 5</value>
+  </data>
+  <data name="SupplierModel.UserField06">
+    <value>Χρήστης πεδίο 6</value>
+  </data>
+  <data name="SupplierModel.UserField07">
+    <value>Χρήστης πεδίο 7</value>
+  </data>
+  <data name="SupplierModel.UserField08">
+    <value>Χρήστης πεδίο 8</value>
+  </data>
+  <data name="SupplierModel.UserField09">
+    <value>Χρήστης πεδίο 9</value>
+  </data>
+  <data name="SupplierModel.UserField10">
+    <value>Χρήστης τομέα 10</value>
+  </data>
+  <data name="SupplierModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="SupplierModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="SupplierModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="SupplierModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="SupplierModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="SupplierModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="SupplierModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="SupplierModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="SupplierModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="SupplierModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="SupplierModel.WebPassword">
+    <value>Web / FTP κωδικό πρόσβασης</value>
+  </data>
+  <data name="SupplierModel.WebSite">
+    <value>Ιστοσελίδα</value>
+  </data>
+  <data name="SupplierModel.WebUser">
+    <value>Web / FTP χρήστη</value>
+  </data>
+  <data name="LocationModel.Created">
+    <value></value>
+  </data>
+  <data name="LocationModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="LocationModel.Modified">
+    <value></value>
+  </data>
+  <data name="LocationModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="LocationModel.AutoStokKeyId">
+    <value>Απόθεμα αναλωσίμων</value>
+  </data>
+  <data name="LocationModel.Barcode">
+    <value>Γραμμικοί κώδικες</value>
+  </data>
+  <data name="LocationModel.DefUserKeyId">
+    <value>Προεπιλεγμένος χρήστης</value>
+  </data>
+  <data name="LocationModel.Descr">
+    <value>Περιγραφή</value>
+  </data>
+  <data name="LocationModel.Direction">
+    <value>Κατεύθνση</value>
+  </data>
+  <data name="LocationModel.FacKeyId">
+    <value>Εργοστάσιο</value>
+  </data>
+  <data name="LocationModel.Flags">
+    <value>Επισημάνσεις</value>
+  </data>
+  <data name="LocationModel.IdlemacroKeyId">
+    <value>Idle macro</value>
+  </data>
+  <data name="LocationModel.Idlemacrotime">
+    <value>Idle macro time</value>
+  </data>
+  <data name="LocationModel.Info">
+    <value>Πληροφορίες</value>
+  </data>
+  <data name="LocationModel.IsMaster">
+    <value>Είναι Μάστερ Τοποθεσία</value>
+  </data>
+  <data name="LocationModel.KeyId">
+    <value>Αναγνωριστικό Τοποθεσίας</value>
+  </data>
+  <data name="LocationModel.MacroKeyId">
+    <value>Μακροεντολή</value>
+  </data>
+  <data name="LocationModel.MasterLocaKeyId">
+    <value>Θέση master</value>
+  </data>
+  <data name="LocationModel.MesConfig">
+    <value>MES configuration</value>
+  </data>
+  <data name="LocationModel.Name">
+    <value>Όνομα</value>
+  </data>
+  <data name="LocationModel.Process">
+    <value>Διαδικασία</value>
+  </data>
+  <data name="LocationModel.ProcessOpt">
+    <value>Επιλογές διαδικασίας</value>
+  </data>
+  <data name="LocationModel.Status">
+    <value>Κατάσταση</value>
+  </data>
+  <data name="LocationModel.StokKeyId">
+    <value>Παρακαταθήκη</value>
+  </data>
+  <data name="LocationModel.SubProcess">
+    <value>Subprocess</value>
+  </data>
+  <data name="LocationModel.Tag">
+    <value>Ετικέτα</value>
+  </data>
+  <data name="LocationModel.UIAvailability">
+    <value>Διαθεσιμότητα</value>
+  </data>
+  <data name="LocationModel.UiLdKeyId">
+    <value>UI Layer</value>
+  </data>
+  <data name="LocationModel.UIStartMode">
+    <value>Σαρωτής UΙ για  να ξεκινήσετε τη λειτουργία</value>
+  </data>
+  <data name="FixedStockPlacementsModel.KeyId">
+    <value>Σταθερό Αναγνωριστικό τοποθέτησης αποθέματος</value>
+  </data>
+  <data name="FixedStockPlacementsModel.Name">
+    <value>Όνομα</value>
+  </data>
+  <data name="FixedStockPlacementsModel.Placement">
+    <value>Τοποθέτηση</value>
+  </data>
+  <data name="FixedStockPlacementsModel.StokKeyId">
+    <value>Παρακαταθήκη</value>
+  </data>
+  <data name="TextModel.Created">
+    <value></value>
+  </data>
+  <data name="TextModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="TextModel.Modified">
+    <value></value>
+  </data>
+  <data name="TextModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="TextModel.Data">
+    <value>Δεδομένα</value>
+  </data>
+  <data name="TextModel.FloatOption">
+    <value>Τιμή</value>
+  </data>
+  <data name="TextModel.KeyId">
+    <value>Text ID</value>
+  </data>
+  <data name="TextModel.Memo">
+    <value>Περιγραφή</value>
+  </data>
+  <data name="TextModel.Number">
+    <value>Όχι. </value>
+  </data>
+  <data name="TextModel.Option">
+    <value>Επιλογή</value>
+  </data>
+  <data name="TextModel.SysOption">
+    <value>Sys Επιλογή</value>
+  </data>
+  <data name="TextModel.Text">
+    <value>Κείμενο</value>
+  </data>
+  <data name="TextModel.Type">
+    <value>Τύπος</value>
+  </data>
+  <data name="LocationGroupModel.Created">
+    <value></value>
+  </data>
+  <data name="LocationGroupModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="LocationGroupModel.Modified">
+    <value></value>
+  </data>
+  <data name="LocationGroupModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="LocationGroupModel.Descr">
+    <value>Περιγραφή</value>
+  </data>
+  <data name="LocationGroupModel.KeyId">
+    <value>Αναγνωριστικό Ομάδας τοποθεσίας</value>
+  </data>
+  <data name="LocationGroupModel.LocationGroup">
+    <value>Ομάδα τοποθεσίας </value>
+  </data>
+  <data name="LocationGroupModel.Name">
+    <value>Όνομα</value>
+  </data>
+  <data name="LocationGroupModel.Vicinity">
+    <value>Vicinity</value>
+  </data>
+  <data name="CatalogModel.Created">
+    <value></value>
+  </data>
+  <data name="CatalogModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="CatalogModel.Modified">
+    <value></value>
+  </data>
+  <data name="CatalogModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="CatalogModel.CatalogNo">
+    <value>No. Καταλόγου</value>
+  </data>
+  <data name="CatalogModel.CostPrice">
+    <value>Τιμή κόστους</value>
+  </data>
+  <data name="CatalogModel.Disposable">
+    <value>Αναλώσιμο</value>
+  </data>
+  <data name="CatalogModel.ItGrpKeyId">
+    <value>Ομάδα Αντικειμένων</value>
+  </data>
+  <data name="CatalogModel.ItspcKeyId">
+    <value>Ειδικότητα</value>
+  </data>
+  <data name="CatalogModel.KeyId">
+    <value>Αναγνωριστικό καταλόγου</value>
+  </data>
+  <data name="CatalogModel.Length">
+    <value>Μήκος</value>
+  </data>
+  <data name="CatalogModel.LifeSpan">
+    <value>Διάρκεια ζωής</value>
+  </data>
+  <data name="CatalogModel.ManufactorNo">
+    <value>Κατασκ. No.</value>
+  </data>
+  <data name="CatalogModel.ManuKeyId">
+    <value>Κατασκευαστής</value>
+  </data>
+  <data name="CatalogModel.Material">
+    <value>Υλικό</value>
+  </data>
+  <data name="CatalogModel.MaterialsNum">
+    <value>Ταιρ.όχι</value>
+  </data>
+  <data name="CatalogModel.MaxPressure">
+    <value>Mεγ. Πίεση</value>
+  </data>
+  <data name="CatalogModel.MaxTemp">
+    <value>Mεγ. Θερμοκρασία</value>
+  </data>
+  <data name="CatalogModel.OrderMinCount">
+    <value>Ελάχ.μέτρηση παραγγελίας</value>
+  </data>
+  <data name="CatalogModel.OrderStdCount">
+    <value>Παραγγελία μεγέθους πακέτου</value>
+  </data>
+  <data name="CatalogModel.OrderstduomKeyId">
+    <value>Παραγγελία συσκευασίας μέτρου</value>
+  </data>
+  <data name="CatalogModel.OtherUnitCount">
+    <value>Εναλ. Μέτρηση μονάδων</value>
+  </data>
+  <data name="CatalogModel.OtheruomKeyId">
+    <value>Εναλ. μονάδα μέτρησης</value>
+  </data>
+  <data name="CatalogModel.RepairVendorKeyId">
+    <value>Επισκευή πωλητή</value>
+  </data>
+  <data name="CatalogModel.SterilizationType">
+    <value>Τύπος αποστείρωσης</value>
+  </data>
+  <data name="CatalogModel.SuppKeyId">
+    <value>Προμηθευτής</value>
+  </data>
+  <data name="CatalogModel.Text">
+    <value>Όνομα</value>
+  </data>
+  <data name="CatalogModel.Tip">
+    <value>Συμβουλή</value>
+  </data>
+  <data name="CatalogModel.UnitCount">
+    <value>Μονάδα μετρητή</value>
+  </data>
+  <data name="CatalogModel.UomKeyId">
+    <value>Μέτρο μονάδα</value>
+  </data>
+  <data name="CatalogModel.Warranty">
+    <value>Εγγύηση</value>
+  </data>
+  <data name="CatalogModel.Weight">
+    <value>Weigth</value>
+  </data>
+  <data name="CatalogModel.Width">
+    <value>πλάτος</value>
+  </data>
+  <data name="ItemGroupModel.Descr">
+    <value>Περιγραφή</value>
+  </data>
+  <data name="ItemGroupModel.FacKeyId">
+    <value>Εργοστάσιο</value>
+  </data>
+  <data name="ItemGroupModel.ItemGroup">
+    <value>Ομάδα Αντικειμένων</value>
+  </data>
+  <data name="ItemGroupModel.KeyId">
+    <value>αναγνωριστικό ομάδας αντικειμένων</value>
+  </data>
+  <data name="ItemGroupModel.Name">
+    <value>Όνομα</value>
+  </data>
+  <data name="ItemGroupModel.PricingType">
+    <value>Τύπος τιμολόγησης</value>
+  </data>
+  <data name="ItemSpecialtyModel.Descr">
+    <value>Περιγραφή</value>
+  </data>
+  <data name="ItemSpecialtyModel.FacKeyId">
+    <value>Εργοστάσιο</value>
+  </data>
+  <data name="ItemSpecialtyModel.KeyId">
+    <value>Ειδικότητα ID</value>
+  </data>
+  <data name="ItemSpecialtyModel.Name">
+    <value>Όνομα</value>
+  </data>
+  <data name="ItemSpecialtyModel.Specialty">
+    <value>Ειδικότητα</value>
+  </data>
+  <data name="ItemUOMModel.Descr">
+    <value>Περιγραφή</value>
+  </data>
+  <data name="ItemUOMModel.KeyId">
+    <value>Μονάδα ID μέτρο</value>
+  </data>
+  <data name="ItemUOMModel.Name">
+    <value>Όνομα</value>
+  </data>
+  <data name="ItemUOMModel.Uom">
+    <value>Μονάδα μέτρησης</value>
+  </data>
+  <data name="TagTypeModel.Created">
+    <value></value>
+  </data>
+  <data name="TagTypeModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="TagTypeModel.Modified">
+    <value></value>
+  </data>
+  <data name="TagTypeModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="TagTypeModel.Descr">
+    <value>Παρατηρήσεις</value>
+  </data>
+  <data name="TagTypeModel.Height">
+    <value>Ύψος</value>
+  </data>
+  <data name="TagTypeModel.HeightCapacity">
+    <value>Height capacity</value>
+  </data>
+  <data name="TagTypeModel.HoldsItems">
+    <value>Holds items</value>
+  </data>
+  <data name="TagTypeModel.InTTGKeyId">
+    <value>Identical tag type group</value>
+  </data>
+  <data name="TagTypeModel.KeyId">
+    <value>Tag type ID</value>
+  </data>
+  <data name="TagTypeModel.Name">
+    <value>Όνομα</value>
+  </data>
+  <data name="TagTypeModel.SuppKeyId">
+    <value>Επισκευή πωλητή</value>
+  </data>
+  <data name="TagTypeModel.SysType">
+    <value>Τύπος συστήματος</value>
+  </data>
+  <data name="TagTypeModel.Type">
+    <value>Τύπος</value>
+  </data>
+  <data name="TagTypeModel.UserField01">
+    <value>Χρήστης πεδίο 1</value>
+  </data>
+  <data name="TagTypeModel.UserField02">
+    <value>Χρήστης πεδίο 2</value>
+  </data>
+  <data name="TagTypeModel.UserField03">
+    <value>Χρήστης πεδίου 3</value>
+  </data>
+  <data name="TagTypeModel.UserField04">
+    <value>Χρήστης πεδίο 4</value>
+  </data>
+  <data name="TagTypeModel.UserField05">
+    <value>Χρήστης πεδίο 5</value>
+  </data>
+  <data name="TagTypeModel.UserField06">
+    <value>Χρήστης πεδίο 6</value>
+  </data>
+  <data name="TagTypeModel.UserField07">
+    <value>Χρήστης πεδίο 7</value>
+  </data>
+  <data name="TagTypeModel.UserField08">
+    <value>Χρήστης πεδίο 8</value>
+  </data>
+  <data name="TagTypeModel.UserField09">
+    <value>Χρήστης πεδίο 9</value>
+  </data>
+  <data name="TagTypeModel.UserField10">
+    <value>Χρήστης τομέα 10</value>
+  </data>
+  <data name="TagTypeModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="TagTypeModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="TagTypeModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="TagTypeModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="TagTypeModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="TagTypeModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="TagTypeModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="TagTypeModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="TagTypeModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="TagTypeModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="TagTypeModel.Width">
+    <value>πλάτος</value>
+  </data>
+  <data name="TagTypeModel.WidthCapacity">
+    <value>Width capacity</value>
+  </data>
+  <data name="SealerProgramModel.Created">
+    <value></value>
+  </data>
+  <data name="SealerProgramModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="SealerProgramModel.Modified">
+    <value></value>
+  </data>
+  <data name="SealerProgramModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="SealerProgramModel.KeyId">
+    <value>Πρόγραμμα σφραγίδας ID</value>
+  </data>
+  <data name="SealerProgramModel.Name">
+    <value>Όνομα</value>
+  </data>
+  <data name="SealerProgramModel.Pres">
+    <value>Πίεση</value>
+  </data>
+  <data name="SealerProgramModel.Program">
+    <value>Πρόγραμμα</value>
+  </data>
+  <data name="SealerProgramModel.Temp">
+    <value>Θερμοκρασία</value>
+  </data>
+  <data name="EmgCaseCartTypeModel.Created">
+    <value></value>
+  </data>
+  <data name="EmgCaseCartTypeModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="EmgCaseCartTypeModel.Modified">
+    <value></value>
+  </data>
+  <data name="EmgCaseCartTypeModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="EmgCaseCartTypeModel.CuSiteKeyId">
+    <value>Τοποθεσία πελάτη</value>
+  </data>
+  <data name="EmgCaseCartTypeModel.Descr">
+    <value>Παρατήρηση</value>
+  </data>
+  <data name="EmgCaseCartTypeModel.Id">
+    <value>Τύπος</value>
+  </data>
+  <data name="EmgCaseCartTypeModel.KeyId">
+    <value>Αναγωριστικό Κλειδιού</value>
+  </data>
+  <data name="EmgCaseCartTypeModel.Name">
+    <value>Όνομα</value>
+  </data>
+  <data name="EmgCaseCartTypeModel.OptKeyId">
+    <value>Τύπος χειρουγείου</value>
+  </data>
+  <data name="OperationTypeModel.Created">
+    <value></value>
+  </data>
+  <data name="OperationTypeModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="OperationTypeModel.Modified">
+    <value></value>
+  </data>
+  <data name="OperationTypeModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="OperationTypeModel.AssDoctorCount">
+    <value>Αριθμός βοηθητικών ιατρών</value>
+  </data>
+  <data name="OperationTypeModel.Cleanup">
+    <value>Εκκαθάριση</value>
+  </data>
+  <data name="OperationTypeModel.CntpsKeyId">
+    <value>Counting point group</value>
+  </data>
+  <data name="OperationTypeModel.Code">
+    <value>Κωδικός</value>
+  </data>
+  <data name="OperationTypeModel.DefcustKeyId">
+    <value>Πρότυπο πελάτη</value>
+  </data>
+  <data name="OperationTypeModel.DefcuststokKeyId">
+    <value>Πρότυπο αποθέματος πελάτη</value>
+  </data>
+  <data name="OperationTypeModel.DefroomKeyId">
+    <value>Δωμάτιο</value>
+  </data>
+  <data name="OperationTypeModel.Desc">
+    <value>Περιγραφή</value>
+  </data>
+  <data name="OperationTypeModel.Duration">
+    <value>Διάρκεια</value>
+  </data>
+  <data name="OperationTypeModel.KeyId">
+    <value>Τύπος χειρουγείου ID</value>
+  </data>
+  <data name="OperationTypeModel.MinOrderLeadTime">
+    <value>Min. ordering time before operation</value>
+  </data>
+  <data name="OperationTypeModel.Name">
+    <value>Όνομα</value>
+  </data>
+  <data name="OperationTypeModel.PatAgeUsage">
+    <value>Ασθενής χρήση ηλικίας</value>
+  </data>
+  <data name="OperationTypeModel.PatGenderUsage">
+    <value>Ασθενής χρήση των δύο φύλων</value>
+  </data>
+  <data name="OperationTypeModel.Prepare">
+    <value>Ετοιμάστε</value>
+  </data>
+  <data name="OperationTypeModel.Status">
+    <value>Κατάσταση</value>
+  </data>
+  <data name="OperationTypeModel.Type">
+    <value>Template type</value>
+  </data>
+  <data name="OperationTypeModel.UserField01">
+    <value>Χρήστης πεδίο 1</value>
+  </data>
+  <data name="OperationTypeModel.UserField02">
+    <value>Χρήστης πεδίο 2</value>
+  </data>
+  <data name="OperationTypeModel.UserField03">
+    <value>Χρήστης πεδίου 3</value>
+  </data>
+  <data name="OperationTypeModel.UserField04">
+    <value>Χρήστης πεδίο 4</value>
+  </data>
+  <data name="OperationTypeModel.UserField05">
+    <value>Χρήστης πεδίο 5</value>
+  </data>
+  <data name="OperationTypeModel.UserField06">
+    <value>Χρήστης πεδίο 6</value>
+  </data>
+  <data name="OperationTypeModel.UserField07">
+    <value>Χρήστης πεδίο 7</value>
+  </data>
+  <data name="OperationTypeModel.UserField08">
+    <value>Χρήστης πεδίο 8</value>
+  </data>
+  <data name="OperationTypeModel.UserField09">
+    <value>Χρήστης πεδίο 9</value>
+  </data>
+  <data name="OperationTypeModel.UserField10">
+    <value>Χρήστης τομέα 10</value>
+  </data>
+  <data name="OperationTypeModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="OperationTypeModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="OperationTypeModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="OperationTypeModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="OperationTypeModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="OperationTypeModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="OperationTypeModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="OperationTypeModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="OperationTypeModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="OperationTypeModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="MachineModel.Created">
+    <value></value>
+  </data>
+  <data name="MachineModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="MachineModel.Modified">
+    <value></value>
+  </data>
+  <data name="MachineModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="MachineModel.ActualProgramCheck">
+    <value>Ελέγξτε σαρωμένο / πραγματικό πρόγραμμα</value>
+  </data>
+  <data name="MachineModel.AgsKeyId">
+    <value>AGS</value>
+  </data>
+  <data name="MachineModel.Alertdelay">
+    <value>Καθυστέρηση Ειδοποίησης</value>
+  </data>
+  <data name="MachineModel.AllowBatch">
+    <value>Επιτρέψτε καταχ. Παρτίδας</value>
+  </data>
+  <data name="MachineModel.AllowDataExport">
+    <value>Να επιτρέπεται η εξαγωγή δεδομένων</value>
+  </data>
+  <data name="MachineModel.AllowLog">
+    <value>Να επιτρέπεται η καταγραφή στοιχείων</value>
+  </data>
+  <data name="MachineModel.Barcode">
+    <value>Γραμμικός κώδικας</value>
+  </data>
+  <data name="MachineModel.Chargenummode">
+    <value>Αρίθμηση Χρέωσης</value>
+  </data>
+  <data name="MachineModel.ConfData">
+    <value>Δεδομένα διαμόρφωσης</value>
+  </data>
+  <data name="MachineModel.CycleCount">
+    <value>μέτρηση κύκλου</value>
+  </data>
+  <data name="MachineModel.DefProgFromModel">
+    <value>Use Machine model setting</value>
+  </data>
+  <data name="MachineModel.DefProgKeyId">
+    <value>Πρόγραμμα</value>
+  </data>
+  <data name="MachineModel.DestApproveLocaKeyId">
+    <value>Approval destination</value>
+  </data>
+  <data name="MachineModel.DestDisapproveLocaKeyId">
+    <value>Disapproval destination</value>
+  </data>
+  <data name="MachineModel.DestEndErrorLocaKeyId">
+    <value>Process end error destination</value>
+  </data>
+  <data name="MachineModel.DestEndLocaKeyId">
+    <value>Process end destination</value>
+  </data>
+  <data name="MachineModel.Info">
+    <value>Πληροφορίες</value>
+  </data>
+  <data name="MachineModel.InitBatchCount">
+    <value>Μεγ έναρκη παρτίδας</value>
+  </data>
+  <data name="MachineModel.KeyId">
+    <value>Αναγνωριστικό Μηχανήματος</value>
+  </data>
+  <data name="MachineModel.LastCycleCount">
+    <value>Τελευταία Μέτρηση Κύκλου</value>
+  </data>
+  <data name="MachineModel.LastMinutesOn">
+    <value>Τελευταία Λεπτά Ενεργό</value>
+  </data>
+  <data name="MachineModel.LastMinutesRun">
+    <value>Τελευταία Λεπτά Εκτέλεσης</value>
+  </data>
+  <data name="MachineModel.LoadOnStart">
+    <value>Use Load tag</value>
+  </data>
+  <data name="MachineModel.LogBatchContent">
+    <value>Σύνδεση περιεχομένου παρτίδας</value>
+  </data>
+  <data name="MachineModel.McTypKeyId">
+    <value>Μοντέλο</value>
+  </data>
+  <data name="MachineModel.MinutesOn">
+    <value>Πρακτικά σε</value>
+  </data>
+  <data name="MachineModel.MinutesRun">
+    <value>Πρακτικά τρέχουν</value>
+  </data>
+  <data name="MachineModel.Name">
+    <value>Όνομα</value>
+  </data>
+  <data name="MachineModel.Prescan">
+    <value>Προ Σάρωσης</value>
+  </data>
+  <data name="MachineModel.PrintLabelApprove">
+    <value>Εκτύπωση εγκεκριμένης Ετικέτας  </value>
+  </data>
+  <data name="MachineModel.PrintLabelDisappr">
+    <value>Εκτύπωση   μη-εγκεκριμένης ετικέτας</value>
+  </data>
+  <data name="MachineModel.PrintLabelEnd">
+    <value>Εκτύπωση ετικέτας τελείωσε</value>
+  </data>
+  <data name="MachineModel.PrintLabelInit">
+    <value>Εκτύπωση ετικέτας ξεκίνησε</value>
+  </data>
+  <data name="MachineModel.PrintLabelStart">
+    <value>Εκτύπωση ετικέτας ξεκίνησε</value>
+  </data>
+  <data name="MachineModel.PrintLabelStickers">
+    <value>Εκτύπωση αυτοκόλλητης ετικέτας </value>
+  </data>
+  <data name="MachineModel.PrintListApprove">
+    <value>Εκτύπωση  εγκεκριμένης λίστας</value>
+  </data>
+  <data name="MachineModel.PrintListDisappr">
+    <value>Εκτύπωση  μη-εγκεκριμένης λίστας</value>
+  </data>
+  <data name="MachineModel.PrintListEnd">
+    <value>Εκτύπωση λίστας  τελείωσε</value>
+  </data>
+  <data name="MachineModel.PrintListInit">
+    <value>Εκτύπωση λίστας  ξεκίνησε</value>
+  </data>
+  <data name="MachineModel.PrintListStart">
+    <value>Εκτύπωση λίστας εκκίνησης</value>
+  </data>
+  <data name="MachineModel.PrintNativePdf">
+    <value>Print native PDF</value>
+  </data>
+  <data name="MachineModel.RefNum">
+    <value>Αναφ. no.</value>
+  </data>
+  <data name="MachineModel.SerialNo">
+    <value>Σειριακός αρ.</value>
+  </data>
+  <data name="MachineModel.ShiftToHours">
+    <value>Internal data</value>
+  </data>
+  <data name="MachineModel.Text">
+    <value>Κείμενο</value>
+  </data>
+  <data name="MachineModel.Updateinterval">
+    <value>Μεσοδιάστημα ενημέρωσης δεδομένων</value>
+  </data>
+  <data name="MachineModel.Warnemptybatch">
+    <value>Προειδοποίηση για κενή  παρτίδα</value>
+  </data>
+  <data name="ProgramModel.Created">
+    <value></value>
+  </data>
+  <data name="ProgramModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="ProgramModel.Modified">
+    <value></value>
+  </data>
+  <data name="ProgramModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="ProgramModel.Approval">
+    <value>Έγκριση</value>
+  </data>
+  <data name="ProgramModel.Barcode">
+    <value>Γραμμικός κώδικας</value>
+  </data>
+  <data name="ProgramModel.CheckInitiated">
+    <value>Έναρξη εγχειριδίου</value>
+  </data>
+  <data name="ProgramModel.ConsumCost">
+    <value>Κατανάλωση</value>
+  </data>
+  <data name="ProgramModel.DeprecCost">
+    <value>Απόσβεση</value>
+  </data>
+  <data name="ProgramModel.Description">
+    <value>Περιγραφή</value>
+  </data>
+  <data name="ProgramModel.Duration">
+    <value>Διάρκεια κύκλου</value>
+  </data>
+  <data name="ProgramModel.ExtLogRequired">
+    <value>Απαιτείται εξωτερική καταγραφή</value>
+  </data>
+  <data name="ProgramModel.FilterDeltaP">
+    <value>Φίλτρο delta πιεσ.</value>
+  </data>
+  <data name="ProgramModel.FilterDeltaT">
+    <value>Φίλτρο delta θερμ.</value>
+  </data>
+  <data name="ProgramModel.FilterTime1">
+    <value>Χρόνος φίλτρο 1</value>
+  </data>
+  <data name="ProgramModel.FilterTime2">
+    <value>Χρόνος φίλτρου 2</value>
+  </data>
+  <data name="ProgramModel.InternalParams">
+    <value>Εσωτερικές παράμετροι</value>
+  </data>
+  <data name="ProgramModel.KeyId">
+    <value>Προγραμμα  ID</value>
+  </data>
+  <data name="ProgramModel.LogRef">
+    <value>Αναφορά καταγραφής</value>
+  </data>
+  <data name="ProgramModel.MaxTemp">
+    <value>Mεγ. Θερμοκρασία</value>
+  </data>
+  <data name="ProgramModel.McTypKeyId">
+    <value>Μοντέλο μηχανήματος</value>
+  </data>
+  <data name="ProgramModel.Name">
+    <value>Όνομα</value>
+  </data>
+  <data name="ProgramModel.Password">
+    <value>Κωδικός</value>
+  </data>
+  <data name="ProgramModel.PreHiPres">
+    <value>Προ Υψηλή πίεση</value>
+  </data>
+  <data name="ProgramModel.PreHiTemp">
+    <value>Προ Υψηλή θερμ.</value>
+  </data>
+  <data name="ProgramModel.PreLowPres">
+    <value>Προ Χαμηλή πίεση</value>
+  </data>
+  <data name="ProgramModel.PreLowTemp">
+    <value>Προ Χαμηλή θερμ.</value>
+  </data>
+  <data name="ProgramModel.PrePulses">
+    <value>Προπαλμοί</value>
+  </data>
+  <data name="ProgramModel.Price">
+    <value>Τιμή</value>
+  </data>
+  <data name="ProgramModel.Program">
+    <value>Πρόγραμμα</value>
+  </data>
+  <data name="ProgramModel.QSetKeyId">
+    <value>Σύνολο ερωτήσεων</value>
+  </data>
+  <data name="ProgramModel.ReportName">
+    <value>Report name</value>
+  </data>
+  <data name="ProgramModel.ScanNum">
+    <value>Εσωτερικό no.</value>
+  </data>
+  <data name="ProgramModel.SecondUserApproval">
+    <value>Second approval required</value>
+  </data>
+  <data name="ProgramModel.SterilePres">
+    <value>Πίεση έκθεσης</value>
+  </data>
+  <data name="ProgramModel.SterileSeconds">
+    <value>Χρόνος έκθεσης</value>
+  </data>
+  <data name="ProgramModel.SterileTemp">
+    <value>Θερμ. έκθεσης</value>
+  </data>
+  <data name="ProgramModel.Type">
+    <value>Τύπος</value>
+  </data>
+  <data name="ProgramModel.UtilityCost">
+    <value>Χρησιμότητα</value>
+  </data>
+  <data name="ProgramModel.Validate">
+    <value>Επικύρωση</value>
+  </data>
+  <data name="ProgramRecipeModel.Created">
+    <value></value>
+  </data>
+  <data name="ProgramRecipeModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="ProgramRecipeModel.Modified">
+    <value></value>
+  </data>
+  <data name="ProgramRecipeModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="ProgramRecipeModel.Approval">
+    <value>Έγκριση</value>
+  </data>
+  <data name="ProgramRecipeModel.Description">
+    <value>Περιγραφή</value>
+  </data>
+  <data name="ProgramRecipeModel.Duration">
+    <value>Διάρκεια</value>
+  </data>
+  <data name="ProgramRecipeModel.KeyId">
+    <value>Πρόγραμμα Συνταγής ID</value>
+  </data>
+  <data name="ProgramRecipeModel.Leqfilling">
+    <value>Συμπλήρωση</value>
+  </data>
+  <data name="ProgramRecipeModel.LeqKeyId">
+    <value>Φόρτωση υλικών</value>
+  </data>
+  <data name="ProgramRecipeModel.LogRef">
+    <value>Αναφορά καταγραφής</value>
+  </data>
+  <data name="ProgramRecipeModel.Maxgravity">
+    <value>Μεγ.βαρύτητα</value>
+  </data>
+  <data name="ProgramRecipeModel.MaxTemp">
+    <value>Mεγ. Θερμοκρασία</value>
+  </data>
+  <data name="ProgramRecipeModel.Mingravity">
+    <value>Ελάχ. βαρύτητα</value>
+  </data>
+  <data name="ProgramRecipeModel.Name">
+    <value>Όνομα</value>
+  </data>
+  <data name="ProgramRecipeModel.Origin">
+    <value>Καταγωγή</value>
+  </data>
+  <data name="ProgramRecipeModel.Original">
+    <value>Γνήσιο</value>
+  </data>
+  <data name="ProgramRecipeModel.Posttreat">
+    <value>Τελική επεξεργασία</value>
+  </data>
+  <data name="ProgramRecipeModel.PreHiPres">
+    <value>Προ Υψηλή πίεση</value>
+  </data>
+  <data name="ProgramRecipeModel.PreHiTemp">
+    <value>Προ Υψηλή θερμ.</value>
+  </data>
+  <data name="ProgramRecipeModel.PreLowPres">
+    <value>Προ Χαμηλή πίεση</value>
+  </data>
+  <data name="ProgramRecipeModel.PreLowTemp">
+    <value>Προ Χαμηλή θερμ.</value>
+  </data>
+  <data name="ProgramRecipeModel.PrePulses">
+    <value>Προπαλμοί</value>
+  </data>
+  <data name="ProgramRecipeModel.Pretreat">
+    <value>Προ επεξεργασία</value>
+  </data>
+  <data name="ProgramRecipeModel.ProgKeyId">
+    <value>Πρόγραμμα</value>
+  </data>
+  <data name="ProgramRecipeModel.Reloadtime">
+    <value>Ανανέωση του χρόνου</value>
+  </data>
+  <data name="ProgramRecipeModel.Runcount">
+    <value>Μέτρηση εκτέλεσης</value>
+  </data>
+  <data name="ProgramRecipeModel.SterilePres">
+    <value>Πίεση έκθεσης</value>
+  </data>
+  <data name="ProgramRecipeModel.SterileSeconds">
+    <value>Χρόνος έκθεσης</value>
+  </data>
+  <data name="ProgramRecipeModel.SterileTemp">
+    <value>Θερμ. έκθεσης</value>
+  </data>
+  <data name="ProgramRecipeModel.Validate">
+    <value>Επικύρωση</value>
+  </data>
+  <data name="MacroModel.Created">
+    <value></value>
+  </data>
+  <data name="MacroModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="MacroModel.Modified">
+    <value></value>
+  </data>
+  <data name="MacroModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="MacroModel.Barcode">
+    <value>Γραμμικός κώδικας</value>
+  </data>
+  <data name="MacroModel.Data">
+    <value>Δεδομένα</value>
+  </data>
+  <data name="MacroModel.KeyId">
+    <value>Macro ID</value>
+  </data>
+  <data name="MacroModel.Macro">
+    <value>Μακροεντολή</value>
+  </data>
+  <data name="MacroModel.Name">
+    <value>Όνομα</value>
+  </data>
+  <data name="MacroModel.Remark">
+    <value>Παρατήρηση</value>
+  </data>
+  <data name="UILayerDefModel.Created">
+    <value></value>
+  </data>
+  <data name="UILayerDefModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="UILayerDefModel.Modified">
+    <value></value>
+  </data>
+  <data name="UILayerDefModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="UILayerDefModel.Classname">
+    <value>Όνομα τάξης</value>
+  </data>
+  <data name="UILayerDefModel.Default">
+    <value>Προεπιλογή</value>
+  </data>
+  <data name="UILayerDefModel.DefSys">
+    <value>Σύστημα καθορισμού</value>
+  </data>
+  <data name="UILayerDefModel.DefUsr">
+    <value>Ορισμός χρήστη</value>
+  </data>
+  <data name="UILayerDefModel.Descr">
+    <value>Περιγραφή</value>
+  </data>
+  <data name="UILayerDefModel.Enabled">
+    <value>Ενεργοποιήθηκε</value>
+  </data>
+  <data name="UILayerDefModel.KeyId">
+    <value>UI Layer ID</value>
+  </data>
+  <data name="UILayerDefModel.Name">
+    <value>Όνομα</value>
+  </data>
+  <data name="UILayerDefModel.SysId">
+    <value>Σύστημα ID</value>
+  </data>
+  <data name="UILayerDefModel.SysType">
+    <value>Τύπος συστήματος</value>
+  </data>
+  <data name="UILayerDefModel.VCLDefSys">
+    <value>Ορισμός συστήματος VCL</value>
+  </data>
+  <data name="UILayerDefModel.VCLDefUsr">
+    <value>Χρήστης VCL ορισμός</value>
+  </data>
+  <data name="UILayerDefModel.Version">
+    <value>Εκδοσή</value>
+  </data>
+  <data name="IdenticalTagTypeGroupModel.KeyId">
+    <value>Αναγνωριστικό</value>
+  </data>
+  <data name="IdenticalTagTypeGroupModel.TagType">
+    <value>Τύπος ετικέτας</value>
+  </data>
+  <data name="RoomModel.ArrivedLGrpKeyId">
+    <value>Arrived location group</value>
+  </data>
+  <data name="RoomModel.AvailableLGrpKeyId">
+    <value>Available location group</value>
+  </data>
+  <data name="RoomModel.Barcode">
+    <value>Γραμμικός κώδικας</value>
+  </data>
+  <data name="RoomModel.BlockOrderCreation">
+    <value>Block operation-based orders</value>
+  </data>
+  <data name="RoomModel.CalKeyId">
+    <value>Ημερολόγιο</value>
+  </data>
+  <data name="RoomModel.DelGln">
+    <value>Delivery GLN</value>
+  </data>
+  <data name="RoomModel.Desc">
+    <value>Περιγραφή</value>
+  </data>
+  <data name="RoomModel.Gln">
+    <value>GLN</value>
+  </data>
+  <data name="RoomModel.Id">
+    <value>Αναγνωριστικό</value>
+  </data>
+  <data name="RoomModel.KeyId">
+    <value>Δωμάτιο ID</value>
+  </data>
+  <data name="RoomModel.Name">
+    <value>Όνομα</value>
+  </data>
+  <data name="RoomModel.Status">
+    <value>Κατάσταση</value>
+  </data>
+  <data name="RoomModel.StGrKeyId">
+    <value>Ομάδα παρακαταθήκης</value>
+  </data>
+  <data name="RoomModel.StokKeyId">
+    <value>Παρακαταθήκη</value>
+  </data>
+  <data name="RoomModel.UserField01">
+    <value>Χρήστης πεδίο 1</value>
+  </data>
+  <data name="RoomModel.UserField02">
+    <value>Χρήστης πεδίο 2</value>
+  </data>
+  <data name="RoomModel.UserField03">
+    <value>Χρήστης πεδίου 3</value>
+  </data>
+  <data name="RoomModel.UserField04">
+    <value>Χρήστης πεδίο 4</value>
+  </data>
+  <data name="RoomModel.UserField05">
+    <value>Χρήστης πεδίο 5</value>
+  </data>
+  <data name="RoomModel.UserField06">
+    <value>Χρήστης πεδίο 6</value>
+  </data>
+  <data name="RoomModel.UserField07">
+    <value>Χρήστης πεδίο 7</value>
+  </data>
+  <data name="RoomModel.UserField08">
+    <value>Χρήστης πεδίο 8</value>
+  </data>
+  <data name="RoomModel.UserField09">
+    <value>Χρήστης πεδίο 9</value>
+  </data>
+  <data name="RoomModel.UserField10">
+    <value>Χρήστης τομέα 10</value>
+  </data>
+  <data name="RoomModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="RoomModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="RoomModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="RoomModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="RoomModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="RoomModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="RoomModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="RoomModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="RoomModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="RoomModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="AGSModel.Created">
+    <value></value>
+  </data>
+  <data name="AGSModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="AGSModel.Modified">
+    <value></value>
+  </data>
+  <data name="AGSModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="AGSModel.Barcode">
+    <value>Γραμμικός κώδικας</value>
+  </data>
+  <data name="AGSModel.Info">
+    <value>Πληροφορίες</value>
+  </data>
+  <data name="AGSModel.KeyId">
+    <value>Αναγνωριστικό AGS</value>
+  </data>
+  <data name="AGSModel.MasterQueueKeyId">
+    <value>Λίστα master</value>
+  </data>
+  <data name="AGSModel.Maxloads">
+    <value>Mεγ. Αριθμός φορτίων</value>
+  </data>
+  <data name="AGSModel.Name">
+    <value>Όνομα</value>
+  </data>
+  <data name="AGSModel.RefNum">
+    <value>Αναφ. no. (ini file)</value>
+  </data>
+  <data name="AGSModel.Text">
+    <value>Κείμενο</value>
+  </data>
+  <data name="MachineTypeModel.Created">
+    <value></value>
+  </data>
+  <data name="MachineTypeModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="MachineTypeModel.Modified">
+    <value></value>
+  </data>
+  <data name="MachineTypeModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="MachineTypeModel.AbsolutePressure">
+    <value>Απόλυτη Πίεση</value>
+  </data>
+  <data name="MachineTypeModel.AutoCreatedIndic">
+    <value>Auto created indicators</value>
+  </data>
+  <data name="MachineTypeModel.BasketDepth">
+    <value>Βάθος Καλαθιών</value>
+  </data>
+  <data name="MachineTypeModel.BasketFits">
+    <value>Μέτρηση καλαθιών</value>
+  </data>
+  <data name="MachineTypeModel.BasketHeight">
+    <value>Ύψος Καλαθιών</value>
+  </data>
+  <data name="MachineTypeModel.BasketWidth">
+    <value>Πλάτος Καλαθιού</value>
+  </data>
+  <data name="MachineTypeModel.CanAutoCreateBI">
+    <value>Can auto create biological indicators</value>
+  </data>
+  <data name="MachineTypeModel.CBIUsageMode">
+    <value>Control indicator required</value>
+  </data>
+  <data name="MachineTypeModel.DefProgKeyId">
+    <value>Default program selection</value>
+  </data>
+  <data name="MachineTypeModel.FixedTime">
+    <value>Σταθερός χρόνος</value>
+  </data>
+  <data name="MachineTypeModel.IncubatorType">
+    <value>Batch data incubator</value>
+  </data>
+  <data name="MachineTypeModel.KeyId">
+    <value>Αναγνωριστικό Tύπου Μηχανήματος</value>
+  </data>
+  <data name="MachineTypeModel.LoadOnStart">
+    <value>Use Load tag</value>
+  </data>
+  <data name="MachineTypeModel.LogBatchRegError">
+    <value>Σφάλμα Καταχώρησης Παρτίδας</value>
+  </data>
+  <data name="MachineTypeModel.LogBatchRegMode">
+    <value>Τρόπος Καταχώρησης Παρτίδας</value>
+  </data>
+  <data name="MachineTypeModel.ManuKeyId">
+    <value>Κατασκευαστής</value>
+  </data>
+  <data name="MachineTypeModel.MaxEndo">
+    <value>Max endoscopes</value>
+  </data>
+  <data name="MachineTypeModel.MaxLoadCount">
+    <value>Mεγ. Μέτρησης φορτίου</value>
+  </data>
+  <data name="MachineTypeModel.MaxPerPlacement">
+    <value>Max. scopes per placement</value>
+  </data>
+  <data name="MachineTypeModel.MaxPres">
+    <value>Mεγ. Πίεση</value>
+  </data>
+  <data name="MachineTypeModel.MaxTemp">
+    <value>Mεγ. Θερμοκρασία</value>
+  </data>
+  <data name="MachineTypeModel.MinPres">
+    <value>Ελάχ.πίεση</value>
+  </data>
+  <data name="MachineTypeModel.MinTemp">
+    <value>Ελάχ. Θερμοκρ</value>
+  </data>
+  <data name="MachineTypeModel.Name">
+    <value>Όνομα</value>
+  </data>
+  <data name="MachineTypeModel.NonEndo">
+    <value>Non endoscopes</value>
+  </data>
+  <data name="MachineTypeModel.PlacementCount">
+    <value>Αριθμός των θέσεων</value>
+  </data>
+  <data name="MachineTypeModel.PlacementMode">
+    <value>Placement configuration</value>
+  </data>
+  <data name="MachineTypeModel.PlacementUsgMode">
+    <value>Τοποθέτηση λειτουργίας  χρήσης</value>
+  </data>
+  <data name="MachineTypeModel.PressureDecimals">
+    <value>P. Δεκαδικά</value>
+  </data>
+  <data name="MachineTypeModel.PressureLogarithmic">
+    <value>Logarithmic scale</value>
+  </data>
+  <data name="MachineTypeModel.PressureType">
+    <value>Πίεση</value>
+  </data>
+  <data name="MachineTypeModel.Queuelength">
+    <value>Μήκος ουράς</value>
+  </data>
+  <data name="MachineTypeModel.RelativeTime">
+    <value>Σχέση χρόνου</value>
+  </data>
+  <data name="MachineTypeModel.RepairVendorKeyId">
+    <value>Επισκευή πωλητή</value>
+  </data>
+  <data name="MachineTypeModel.Reportflags">
+    <value>Επιλογές Α+B8317αναφοράς</value>
+  </data>
+  <data name="MachineTypeModel.StandardError">
+    <value>Σφάλμα προτύπου</value>
+  </data>
+  <data name="MachineTypeModel.SuppKeyId">
+    <value>Προμηθευτής</value>
+  </data>
+  <data name="MachineTypeModel.TechError">
+    <value>Technical error</value>
+  </data>
+  <data name="MachineTypeModel.TempDecimals">
+    <value>T.δεκαδικά ψηφία</value>
+  </data>
+  <data name="MachineTypeModel.TempType">
+    <value>Θερμοκρασία</value>
+  </data>
+  <data name="MachineTypeModel.Text">
+    <value>Κείμενο</value>
+  </data>
+  <data name="MachineTypeModel.Type">
+    <value>Τύπος</value>
+  </data>
+  <data name="MachineTypeModel.UseMAP">
+    <value>Χρήση MAP</value>
+  </data>
+  <data name="MachineTypeModel.UseRecipe">
+    <value>Χρήση συνταγών</value>
+  </data>
+  <data name="MachineTypeModel.Volume">
+    <value>Όγκος</value>
+  </data>
+  <data name="QuestionSetModel.Created">
+    <value></value>
+  </data>
+  <data name="QuestionSetModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="QuestionSetModel.Modified">
+    <value></value>
+  </data>
+  <data name="QuestionSetModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="QuestionSetModel.KeyId">
+    <value>Σύνολο ερωτήσεων ID</value>
+  </data>
+  <data name="QuestionSetModel.Name">
+    <value>Όνομα</value>
+  </data>
+  <data name="QuestionSetModel.Remark">
+    <value>Παρατήρηση</value>
+  </data>
+  <data name="QuestionSetModel.Set">
+    <value>Σύνολο ερωτήσεων</value>
+  </data>
+  <data name="LoadingEquipmentModel.Created">
+    <value></value>
+  </data>
+  <data name="LoadingEquipmentModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="LoadingEquipmentModel.Modified">
+    <value></value>
+  </data>
+  <data name="LoadingEquipmentModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="LoadingEquipmentModel.Area">
+    <value>Περιοχή</value>
+  </data>
+  <data name="LoadingEquipmentModel.Depth">
+    <value>Βάθος</value>
+  </data>
+  <data name="LoadingEquipmentModel.Descr">
+    <value>Περιγραφή</value>
+  </data>
+  <data name="LoadingEquipmentModel.Height">
+    <value>Ύψος</value>
+  </data>
+  <data name="LoadingEquipmentModel.KeyId">
+    <value>Αναγνωριστικό Φόρτωσης υλικών</value>
+  </data>
+  <data name="LoadingEquipmentModel.Name">
+    <value>Όνομα</value>
+  </data>
+  <data name="LoadingEquipmentModel.Width">
+    <value>πλάτος</value>
+  </data>
+  <data name="UnitModel.Basket">
+    <value>Καλάθι</value>
+  </data>
+  <data name="UnitModel.Batch">
+    <value>Παρτίδα</value>
+  </data>
+  <data name="UnitModel.Created">
+    <value>Δημιουργήθηκε</value>
+  </data>
+  <data name="UnitModel.CustKeyId">
+    <value>Πελάτης</value>
+  </data>
+  <data name="UnitModel.DryingStokKeyId">
+    <value>Στέγνωμα αποθέματος</value>
+  </data>
+  <data name="UnitModel.Error">
+    <value>Σφάλμα</value>
+  </data>
+  <data name="UnitModel.Expire">
+    <value>Ημερομηνία λήξης</value>
+  </data>
+  <data name="UnitModel.FacKeyId">
+    <value>Εργοστάσιο</value>
+  </data>
+  <data name="UnitModel.LMProKeyId">
+    <value>Loaner management profile</value>
+  </data>
+  <data name="UnitModel.LocaKeyId">
+    <value>Τοποθεσία</value>
+  </data>
+  <data name="UnitModel.LocaTime">
+    <value>Ώρα Τοποθεσίας</value>
+  </data>
+  <data name="UnitModel.NextUnit">
+    <value>Επόμενη Ενότητα</value>
+  </data>
+  <data name="UnitModel.OpDKeyId">
+    <value>Λειτουργία</value>
+  </data>
+  <data name="UnitModel.PackUserKeyId">
+    <value>Πακετάρισμα με</value>
+  </data>
+  <data name="UnitModel.PrevUnit">
+    <value>Προηγ Μονάδα</value>
+  </data>
+  <data name="UnitModel.Price">
+    <value>Τιμή</value>
+  </data>
+  <data name="UnitModel.PriceHandling">
+    <value>Τιμή χειρισμού</value>
+  </data>
+  <data name="UnitModel.PricePack">
+    <value>Τιμή συσκευασίας</value>
+  </data>
+  <data name="UnitModel.PriceSteri">
+    <value>Κόστος αποστείρωσης</value>
+  </data>
+  <data name="UnitModel.PriceUsage">
+    <value>Τιμή χρήσης</value>
+  </data>
+  <data name="UnitModel.PriceWash">
+    <value>Πλύνετε / disinf. τιμή</value>
+  </data>
+  <data name="UnitModel.PriGrKeyId">
+    <value>Τιμή ομάδας</value>
+  </data>
+  <data name="UnitModel.ProdKeyId">
+    <value>Προϊον</value>
+  </data>
+  <data name="UnitModel.ReqReturnReg">
+    <value>Απαιτείται επιστροφή</value>
+  </data>
+  <data name="UnitModel.RoomKeyId">
+    <value>Δωμάτιο</value>
+  </data>
+  <data name="UnitModel.SeriKeyId">
+    <value>Σειριακός αρ.</value>
+  </data>
+  <data name="UnitModel.Status">
+    <value>Κατάσταση</value>
+  </data>
+  <data name="UnitModel.StokKeyId">
+    <value>Παρακαταθήκη</value>
+  </data>
+  <data name="UnitModel.Unit">
+    <value>Μονάδα</value>
+  </data>
+  <data name="UnitModel.UsageCounter">
+    <value>Μετρητής Χρήσης</value>
+  </data>
+  <data name="UnitModel.WorkingTime">
+    <value>Χρησιμοποιείται Χρόνος Πακεταρίσματος</value>
+  </data>
+  <data name="TagsModel.Created">
+    <value></value>
+  </data>
+  <data name="TagsModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="TagsModel.Auto">
+    <value>Αυτόματη ετικέτα</value>
+  </data>
+  <data name="TagsModel.Barcode">
+    <value>Γραμμικός κώδικας</value>
+  </data>
+  <data name="TagsModel.KeyId">
+    <value>Ετικέτα ID</value>
+  </data>
+  <data name="TagsModel.LocaKeyId">
+    <value>Τρέχουσα τοποθεσία</value>
+  </data>
+  <data name="TagsModel.LocaTime">
+    <value>Ώρα Τοποθεσίας</value>
+  </data>
+  <data name="TagsModel.Name">
+    <value>Όνομα</value>
+  </data>
+  <data name="TagsModel.No">
+    <value>Όχι. </value>
+  </data>
+  <data name="TagsModel.ProcBatch">
+    <value>Ανατεθημένη παρτίδα</value>
+  </data>
+  <data name="TagsModel.Status">
+    <value>Κατάσταση</value>
+  </data>
+  <data name="TagsModel.StokKeyId">
+    <value>Παρακαταθήκη</value>
+  </data>
+  <data name="TagsModel.TagTKeyId">
+    <value>Τύπος ετικέτας</value>
+  </data>
+  <data name="TagsModel.Type">
+    <value>Τύπος</value>
+  </data>
+  <data name="OperationDataModel.Created">
+    <value></value>
+  </data>
+  <data name="OperationDataModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="OperationDataModel.Modified">
+    <value></value>
+  </data>
+  <data name="OperationDataModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="OperationDataModel.ActualEndTime">
+    <value>Πραγματικός χρόνος λήξης</value>
+  </data>
+  <data name="OperationDataModel.ActualStartTime">
+    <value>Πραγματικός χρόνος έναρξης</value>
+  </data>
+  <data name="OperationDataModel.BookingForce">
+    <value>Αναγκαστική κράτηση</value>
+  </data>
+  <data name="OperationDataModel.BookingStatus">
+    <value>Κατάσταση Κρατήσεων</value>
+  </data>
+  <data name="OperationDataModel.CustKeyId">
+    <value>Πελάτης</value>
+  </data>
+  <data name="OperationDataModel.CustStokKeyId">
+    <value>Απόθεμα πελάτη</value>
+  </data>
+  <data name="OperationDataModel.DoctKeyId">
+    <value>Ιατρός</value>
+  </data>
+  <data name="OperationDataModel.EndTime">
+    <value>Χρόνος τέλους</value>
+  </data>
+  <data name="OperationDataModel.Ident">
+    <value>Λειτουργία</value>
+  </data>
+  <data name="OperationDataModel.IncompleteOrder">
+    <value>Incomplete order</value>
+  </data>
+  <data name="OperationDataModel.KeyId">
+    <value>Λειτουργία ID</value>
+  </data>
+  <data name="OperationDataModel.Name">
+    <value>Όνομα</value>
+  </data>
+  <data name="OperationDataModel.OptKeyId">
+    <value>Τύπος χειρουγείου</value>
+  </data>
+  <data name="OperationDataModel.OrdersNeedUpdate">
+    <value>Order update pending</value>
+  </data>
+  <data name="OperationDataModel.PatAge">
+    <value>Ηλικία ασθενή</value>
+  </data>
+  <data name="OperationDataModel.PatGender">
+    <value>Φύλο ασθενή</value>
+  </data>
+  <data name="OperationDataModel.PatKeyId">
+    <value>Ασθενής</value>
+  </data>
+  <data name="OperationDataModel.PatWeight">
+    <value>Βάρος</value>
+  </data>
+  <data name="OperationDataModel.PrefListDelShortage">
+    <value>Preference list delievered shortage</value>
+  </data>
+  <data name="OperationDataModel.PrefListOrderMode">
+    <value>Λειτουργία παραγγελίας</value>
+  </data>
+  <data name="OperationDataModel.Remark">
+    <value>Παρατήρηση</value>
+  </data>
+  <data name="OperationDataModel.RoomKeyId">
+    <value>Δωμάτιο</value>
+  </data>
+  <data name="OperationDataModel.StartTime">
+    <value>Ώρα εκκίνησης</value>
+  </data>
+  <data name="OperationDataModel.StartTimeModified">
+    <value>Start time modified</value>
+  </data>
+  <data name="OperationDataModel.Status">
+    <value>Κατάσταση</value>
+  </data>
+  <data name="OperationDataModel.SuppFacKeyId">
+    <value>Προμηθεύον εργοστάσιο</value>
+  </data>
+  <data name="SerialModel.Created">
+    <value></value>
+  </data>
+  <data name="SerialModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="SerialModel.Modified">
+    <value></value>
+  </data>
+  <data name="SerialModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="SerialModel.Barcode">
+    <value>Γραμμικοί κώδικες</value>
+  </data>
+  <data name="SerialModel.DispatchRestrict">
+    <value>Περιορισμός αποστολής</value>
+  </data>
+  <data name="SerialModel.ExtLoanerId">
+    <value>External loaner ID</value>
+  </data>
+  <data name="SerialModel.ExtName">
+    <value>External name</value>
+  </data>
+  <data name="SerialModel.FTCoKeyId">
+    <value>Κωδικός γρήγορης παρακολούθησης</value>
+  </data>
+  <data name="SerialModel.FTPlKeyId">
+    <value>Σχέδιο γρήγορης παρακολούθησης</value>
+  </data>
+  <data name="SerialModel.FTTmpKeyId">
+    <value>Ομάδα γρήγορης παρακολούθησης</value>
+  </data>
+  <data name="SerialModel.HatKeyId">
+    <value>Handling type</value>
+  </data>
+  <data name="SerialModel.KeyId">
+    <value>Σειριακός αρ. ID</value>
+  </data>
+  <data name="SerialModel.LMProKeyId">
+    <value>Loaner management profile</value>
+  </data>
+  <data name="SerialModel.LocaKeyId">
+    <value>Τοποθεσία</value>
+  </data>
+  <data name="SerialModel.Manufactserialnumber">
+    <value>Εγχειρ. Αύξων αριθμός.</value>
+  </data>
+  <data name="SerialModel.Name">
+    <value>Όνομα</value>
+  </data>
+  <data name="SerialModel.OwnerCuSiteKeyId">
+    <value>Ιδιοκτήτης (χώρος του πελάτη)</value>
+  </data>
+  <data name="SerialModel.OwnerCustKeyId">
+    <value>Ιδιοκτήτης (πελατών)</value>
+  </data>
+  <data name="SerialModel.OwnerFacKeyId">
+    <value>Ιδιοκτήτης (Εργοστάσιο)</value>
+  </data>
+  <data name="SerialModel.OwnerSuppKeyId">
+    <value>Ιδιοκτήτης (Προμηθευτής)</value>
+  </data>
+  <data name="SerialModel.PackKeyId">
+    <value>Υλικό συσκευασίας</value>
+  </data>
+  <data name="SerialModel.PurchaseDate">
+    <value>Ημερομηνία αγοράς</value>
+  </data>
+  <data name="SerialModel.PurchaseOrdNo">
+    <value>Παραγγελία αγοράς αρ.</value>
+  </data>
+  <data name="SerialModel.PurchasePrice">
+    <value>Τιμή αγοράς</value>
+  </data>
+  <data name="SerialModel.PurchaseTime">
+    <value>Ημερομηνία αγοράς</value>
+  </data>
+  <data name="SerialModel.RefItemKeyId">
+    <value>Αντικείμενο</value>
+  </data>
+  <data name="SerialModel.RefPReKeyId">
+    <value>Πρόγραμμα συνταγής</value>
+  </data>
+  <data name="SerialModel.RefProdKeyId">
+    <value>Προϊον</value>
+  </data>
+  <data name="SerialModel.RefProgKeyId">
+    <value>Πρόγραμμα</value>
+  </data>
+  <data name="SerialModel.Remark">
+    <value>Παρατήρηση</value>
+  </data>
+  <data name="SerialModel.SerialNo">
+    <value>Σειριακός αρ.</value>
+  </data>
+  <data name="SerialModel.Status">
+    <value>Κατάσταση</value>
+  </data>
+  <data name="SerialModel.Stockplacement">
+    <value>Τοποθέτηση</value>
+  </data>
+  <data name="SerialModel.StokKeyId">
+    <value>Παρακαταθήκη</value>
+  </data>
+  <data name="SerialModel.SuppKeyId">
+    <value>Προμηθευτής</value>
+  </data>
+  <data name="SerialModel.TRGrpKeyId">
+    <value>Expire time group</value>
+  </data>
+  <data name="SerialModel.UserField01">
+    <value>Χρήστης πεδίο 1</value>
+  </data>
+  <data name="SerialModel.UserField02">
+    <value>Χρήστης πεδίο 2</value>
+  </data>
+  <data name="SerialModel.UserField03">
+    <value>Χρήστης πεδίου 3</value>
+  </data>
+  <data name="SerialModel.UserField04">
+    <value>Χρήστης πεδίο 4</value>
+  </data>
+  <data name="SerialModel.UserField05">
+    <value>Χρήστης πεδίο 5</value>
+  </data>
+  <data name="SerialModel.UserField06">
+    <value>Χρήστης πεδίο 6</value>
+  </data>
+  <data name="SerialModel.UserField07">
+    <value>Χρήστης πεδίο 7</value>
+  </data>
+  <data name="SerialModel.UserField08">
+    <value>Χρήστης πεδίο 8</value>
+  </data>
+  <data name="SerialModel.UserField09">
+    <value>Χρήστης πεδίο 9</value>
+  </data>
+  <data name="SerialModel.UserField10">
+    <value>Χρήστης τομέα 10</value>
+  </data>
+  <data name="SerialModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="SerialModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="SerialModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="SerialModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="SerialModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="SerialModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="SerialModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="SerialModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="SerialModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="SerialModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="SerialModel.UnitUnit">
+    <value>Μονάδα</value>
+  </data>
+  <data name="SerialModel.UsageCount">
+    <value>Καταμέτρηση χρήσης</value>
+  </data>
+  <data name="SerialModel.Weight">
+    <value>Βάρος</value>
+  </data>
+  <data name="DoctorModel.Created">
+    <value></value>
+  </data>
+  <data name="DoctorModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="DoctorModel.Modified">
+    <value></value>
+  </data>
+  <data name="DoctorModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="DoctorModel.Barcode">
+    <value>Γραμμικός κώδικας</value>
+  </data>
+  <data name="DoctorModel.CalKeyId">
+    <value>Ημερολόγιο</value>
+  </data>
+  <data name="DoctorModel.Initials">
+    <value>Αρχικά</value>
+  </data>
+  <data name="DoctorModel.KeyId">
+    <value>Αναγνωριστικό Ιατρού</value>
+  </data>
+  <data name="DoctorModel.Name">
+    <value>Όνομα</value>
+  </data>
+  <data name="DoctorModel.Status">
+    <value>Κατάσταση</value>
+  </data>
+  <data name="DoctorModel.UserField01">
+    <value>Χρήστης πεδίο 1</value>
+  </data>
+  <data name="DoctorModel.UserField02">
+    <value>Χρήστης πεδίο 2</value>
+  </data>
+  <data name="DoctorModel.UserField03">
+    <value>Χρήστης πεδίου 3</value>
+  </data>
+  <data name="DoctorModel.UserField04">
+    <value>Χρήστης πεδίο 4</value>
+  </data>
+  <data name="DoctorModel.UserField05">
+    <value>Χρήστης πεδίο 5</value>
+  </data>
+  <data name="DoctorModel.UserField06">
+    <value>Χρήστης πεδίο 6</value>
+  </data>
+  <data name="DoctorModel.UserField07">
+    <value>Χρήστης πεδίο 7</value>
+  </data>
+  <data name="DoctorModel.UserField08">
+    <value>Χρήστης πεδίο 8</value>
+  </data>
+  <data name="DoctorModel.UserField09">
+    <value>Χρήστης πεδίο 9</value>
+  </data>
+  <data name="DoctorModel.UserField10">
+    <value>Χρήστης τομέα 10</value>
+  </data>
+  <data name="DoctorModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="DoctorModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="DoctorModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="DoctorModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="DoctorModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="DoctorModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="DoctorModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="DoctorModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="DoctorModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="DoctorModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="PatientModel.Created">
+    <value></value>
+  </data>
+  <data name="PatientModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="PatientModel.Modified">
+    <value></value>
+  </data>
+  <data name="PatientModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="PatientModel.BarCode">
+    <value>Γραμμικοί κώδικες</value>
+  </data>
+  <data name="PatientModel.Birthday">
+    <value>Γενέθλια</value>
+  </data>
+  <data name="PatientModel.Code1">
+    <value>Κωδικός 1</value>
+  </data>
+  <data name="PatientModel.Code2">
+    <value>Κωδικός 2</value>
+  </data>
+  <data name="PatientModel.Code3">
+    <value>Κωδικός 3</value>
+  </data>
+  <data name="PatientModel.Id">
+    <value>Αναγνωριστικό</value>
+  </data>
+  <data name="PatientModel.KeyId">
+    <value>Ασθενής ID</value>
+  </data>
+  <data name="PatientModel.Name">
+    <value>Όνομα</value>
+  </data>
+  <data name="PatientModel.Sex">
+    <value>Γένος</value>
+  </data>
+  <data name="PatientModel.Status">
+    <value>Κατάσταση</value>
+  </data>
+  <data name="PatientModel.UserField01">
+    <value>Χρήστης πεδίο 1</value>
+  </data>
+  <data name="PatientModel.UserField02">
+    <value>Χρήστης πεδίο 2</value>
+  </data>
+  <data name="PatientModel.UserField03">
+    <value>Χρήστης πεδίου 3</value>
+  </data>
+  <data name="PatientModel.UserField04">
+    <value>Χρήστης πεδίο 4</value>
+  </data>
+  <data name="PatientModel.UserField05">
+    <value>Χρήστης πεδίο 5</value>
+  </data>
+  <data name="PatientModel.UserField06">
+    <value>Χρήστης πεδίο 6</value>
+  </data>
+  <data name="PatientModel.UserField07">
+    <value>Χρήστης πεδίο 7</value>
+  </data>
+  <data name="PatientModel.UserField08">
+    <value>Χρήστης πεδίο 8</value>
+  </data>
+  <data name="PatientModel.UserField09">
+    <value>Χρήστης πεδίο 9</value>
+  </data>
+  <data name="PatientModel.UserField10">
+    <value>Χρήστης τομέα 10</value>
+  </data>
+  <data name="PatientModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="PatientModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="PatientModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="PatientModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="PatientModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="PatientModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="PatientModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="PatientModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="PatientModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="PatientModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="PatientModel.Weight">
+    <value>Βάρος</value>
+  </data>
+  <data name="OrderModel.AutoCreated">
+    <value>Δημιουργήθηκε αυτόματα</value>
+  </data>
+  <data name="OrderModel.BookingFirstOk">
+    <value>Πρώτη κράτηση OK</value>
+  </data>
+  <data name="OrderModel.BookingMode">
+    <value>Τύπος κράτησης</value>
+  </data>
+  <data name="OrderModel.BookingPriority">
+    <value>Booking priority</value>
+  </data>
+  <data name="OrderModel.BookingStatus">
+    <value>Κατάσταση Κρατήσεων</value>
+  </data>
+  <data name="OrderModel.CreatedAppType">
+    <value>Origin application</value>
+  </data>
+  <data name="OrderModel.CreatedForOpDPrefList">
+    <value>Created for OP preference list</value>
+  </data>
+  <data name="OrderModel.CreatedJobKeyId">
+    <value>Origin job</value>
+  </data>
+  <data name="OrderModel.CreatedLocaKeyId">
+    <value>Origin location</value>
+  </data>
+  <data name="OrderModel.CreatedLSId">
+    <value>Origin computer</value>
+  </data>
+  <data name="OrderModel.CreatedUserKeyId">
+    <value>Δημιουργήθηκε από</value>
+  </data>
+  <data name="OrderModel.DelIncomplete">
+    <value>Delivery incomplete</value>
+  </data>
+  <data name="OrderModel.ExpDelTime">
+    <value>Exp. del. time</value>
+  </data>
+  <data name="OrderModel.Flags">
+    <value>Επιλογές</value>
+  </data>
+  <data name="OrderModel.KeyId">
+    <value>Παραγγελία ID</value>
+  </data>
+  <data name="OrderModel.LockMode">
+    <value>Lock mode</value>
+  </data>
+  <data name="OrderModel.NextOrdKeyId">
+    <value>Επόμενη σειρά</value>
+  </data>
+  <data name="OrderModel.OrdTpKeyId">
+    <value>Παραγγελία πίνακα</value>
+  </data>
+  <data name="OrderModel.OrgAccount">
+    <value>Org. Λογαριασμός</value>
+  </data>
+  <data name="OrderModel.OrgExternalId">
+    <value>Org. Εξωτερικό ID</value>
+  </data>
+  <data name="OrderModel.OrgInvoiceDirect">
+    <value>Org. τιμολόγιο απευθείας</value>
+  </data>
+  <data name="OrderModel.OrgInvRefCustKeyId">
+    <value>Τιμολόγιση πελάτη</value>
+  </data>
+  <data name="OrderModel.OrgInvRefFacKeyId">
+    <value>Τιμολόγιση εργοστασίου</value>
+  </data>
+  <data name="OrderModel.OrgInvRefSuppKeyId">
+    <value>Τιμολόγιση προμηθευτή</value>
+  </data>
+  <data name="OrderModel.OrgRefCustKeyId">
+    <value>Org. Πελάτης</value>
+  </data>
+  <data name="OrderModel.OrgRefFacKeyId">
+    <value>Org. Εργοστάσιο</value>
+  </data>
+  <data name="OrderModel.OrgRefNo">
+    <value>Org. Ref.</value>
+  </data>
+  <data name="OrderModel.OrgRefSuppKeyId">
+    <value>Org. Προμηθευτής</value>
+  </data>
+  <data name="OrderModel.OrgRefText">
+    <value>Org. ref. Κείμενο</value>
+  </data>
+  <data name="OrderModel.OrgRefText2">
+    <value>Org. ref. Κείμενο 2</value>
+  </data>
+  <data name="OrderModel.OrgRemark">
+    <value>Org. Σχόλιο</value>
+  </data>
+  <data name="OrderModel.OrgStatus">
+    <value>Org. Κατάσταση</value>
+  </data>
+  <data name="OrderModel.OrgStokKeyId">
+    <value>Org. Απόθεμα</value>
+  </data>
+  <data name="OrderModel.OrgTime">
+    <value>Org. Χρόνου</value>
+  </data>
+  <data name="OrderModel.OrgUserKeyId">
+    <value>Org. Χρήστη</value>
+  </data>
+  <data name="OrderModel.PrevOrdKeyId">
+    <value>Προηγούμενη παραγγελία</value>
+  </data>
+  <data name="OrderModel.RefOpDKeyId">
+    <value>Δημιουργός (Επέμβαση)</value>
+  </data>
+  <data name="OrderModel.RefOpTKeyId">
+    <value>Τύπος χειρουγείου</value>
+  </data>
+  <data name="OrderModel.Reordered">
+    <value>Reordered</value>
+  </data>
+  <data name="OrderModel.ReqDelTime">
+    <value>Απαιτ.χρόνος παρ.</value>
+  </data>
+  <data name="OrderModel.ReqDelTimeEstimated">
+    <value></value>
+  </data>
+  <data name="OrderModel.ReturnReq">
+    <value>Return requested</value>
+  </data>
+  <data name="OrderModel.SplitOrdKeyId">
+    <value>Για διαίρεση</value>
+  </data>
+  <data name="OrderModel.SuppPickMode">
+    <value>Supp. pick mode</value>
+  </data>
+  <data name="OrderModel.SuppPickPriority">
+    <value>Picking priority</value>
+  </data>
+  <data name="OrderModel.SuppPriority">
+    <value>Supplier priority</value>
+  </data>
+  <data name="OrderModel.SuppRefCustKeyId">
+    <value>Συνοδ. Πελάτης</value>
+  </data>
+  <data name="OrderModel.SuppRefFacKeyId">
+    <value>Συνοδ. εργοστάσιο</value>
+  </data>
+  <data name="OrderModel.SuppRefNo">
+    <value>Συνοδ.Αναφ.</value>
+  </data>
+  <data name="OrderModel.SuppRefSuppKeyId">
+    <value>Συνοδ.προμηθευτής</value>
+  </data>
+  <data name="OrderModel.SuppRefText">
+    <value>Συνοδ.αναφ.κειμένου</value>
+  </data>
+  <data name="OrderModel.SuppRefText2">
+    <value>Συνοδ.αναφ.κειμένου 2</value>
+  </data>
+  <data name="OrderModel.SuppRemark">
+    <value>Συνοδ.παρατήρηση</value>
+  </data>
+  <data name="OrderModel.SuppStatus">
+    <value>Συνοδ. Κατάσταση</value>
+  </data>
+  <data name="OrderModel.SuppStokKeyId">
+    <value>Συνοδ.παρακαταθήκη</value>
+  </data>
+  <data name="OrderModel.SuppTime">
+    <value>Συνοδ.χρόνος</value>
+  </data>
+  <data name="OrderModel.SuppUserKeyId">
+    <value>Συνοδ χρήστης</value>
+  </data>
+  <data name="OrderModel.SyncToOperation">
+    <value>Synchronize with operation</value>
+  </data>
+  <data name="OrderModel.Tag">
+    <value>Μεταφορές ετικέτας</value>
+  </data>
+  <data name="OrderModel.Type">
+    <value>Τύπος</value>
+  </data>
+  <data name="OrderModel.UnlockStokKeyId">
+    <value>Unlock destination stock</value>
+  </data>
+  <data name="JobModel.ConfigData">
+    <value>Διαμόρφ. δεδομένων</value>
+  </data>
+  <data name="JobModel.Description">
+    <value>Περιγραφή</value>
+  </data>
+  <data name="JobModel.Disabled">
+    <value>Απενεργοποιήθηκε</value>
+  </data>
+  <data name="JobModel.DisplayIndex">
+    <value>Εμφάνιση ευρετηρίου</value>
+  </data>
+  <data name="JobModel.IESysKeyId">
+    <value>Σύστημα Διασύνδεσης</value>
+  </data>
+  <data name="JobModel.JGrpKeyId">
+    <value>Ομάδα εργασίας</value>
+  </data>
+  <data name="JobModel.KeyId">
+    <value>Αναγνωριστικό εργασίας</value>
+  </data>
+  <data name="JobModel.LastPackageId">
+    <value>Αναγνωριστικό τελευταίου πακέτου</value>
+  </data>
+  <data name="JobModel.MasterjobKeyId">
+    <value>Master εργασία</value>
+  </data>
+  <data name="JobModel.Moveable">
+    <value>Movable</value>
+  </data>
+  <data name="JobModel.Name">
+    <value>Όνομα</value>
+  </data>
+  <data name="JobModel.Schedule">
+    <value>Πρόγραμμα</value>
+  </data>
+  <data name="JobModel.SysConfigData">
+    <value>Δεδομένα διαμόρωσης συστήματος</value>
+  </data>
+  <data name="JobModel.SysName">
+    <value>Όνομα συστήματος</value>
+  </data>
+  <data name="JobModel.TypeId">
+    <value>Τύπος ID</value>
+  </data>
+  <data name="OrderTemplateModel.Created">
+    <value></value>
+  </data>
+  <data name="OrderTemplateModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="OrderTemplateModel.Modified">
+    <value></value>
+  </data>
+  <data name="OrderTemplateModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="OrderTemplateModel.KeyId">
+    <value>Παραγγελία πίνακα ID</value>
+  </data>
+  <data name="OrderTemplateModel.Name">
+    <value>Όνομα</value>
+  </data>
+  <data name="OrderTemplateModel.OrgInvoiceDirect">
+    <value>Άμεση τιμολόγιση</value>
+  </data>
+  <data name="OrderTemplateModel.OrgRefCustKeyId">
+    <value>Org. Πελάτης</value>
+  </data>
+  <data name="OrderTemplateModel.OrgRefFacKeyId">
+    <value>Org. Εργοστάσιο</value>
+  </data>
+  <data name="OrderTemplateModel.OrgRefSuppKeyId">
+    <value>Org. Προμηθευτής</value>
+  </data>
+  <data name="OrderTemplateModel.OrgRefText">
+    <value>Org. ref. Κείμενο</value>
+  </data>
+  <data name="OrderTemplateModel.OrgRefText2">
+    <value>Org. ref. Κείμενο 2</value>
+  </data>
+  <data name="OrderTemplateModel.OrgRemark">
+    <value>Org. Σχόλιο</value>
+  </data>
+  <data name="OrderTemplateModel.OrgStokKeyId">
+    <value>Org. Απόθεμα</value>
+  </data>
+  <data name="OrderTemplateModel.OTpTKeyId">
+    <value>Τύπος</value>
+  </data>
+  <data name="OrderTemplateModel.RefOpTKeyId">
+    <value>Ιδιοκτήτης (τύπου λειτουργίας)</value>
+  </data>
+  <data name="OrderTemplateModel.RefProTKeyId">
+    <value>Ιδιοκτήτης (τύπος διαδικασίας)</value>
+  </data>
+  <data name="OrderTemplateModel.SuppRefFacKeyId">
+    <value>Συνοδ. εργοστάσιο</value>
+  </data>
+  <data name="OrderTemplateModel.SuppRefSuppKeyId">
+    <value>Συνοδ.προμηθευτής</value>
+  </data>
+  <data name="OrderTemplateModel.SuppRefText">
+    <value>Συνοδ.αναφ.κειμένου</value>
+  </data>
+  <data name="OrderTemplateModel.SuppRefText2">
+    <value>Σουπ. αναφ.κείμενο 2</value>
+  </data>
+  <data name="OrderTemplateModel.SuppRemark">
+    <value>Συνοδ.παρατήρηση</value>
+  </data>
+  <data name="OrderTemplateModel.SuppStokKeyId">
+    <value>Συνοδ.παρακαταθήκη</value>
+  </data>
+  <data name="OrderTemplateModel.Template">
+    <value>Πρότυπο</value>
+  </data>
+  <data name="InterfaceSystemsModel.Description">
+    <value>Περιγραφή</value>
+  </data>
+  <data name="InterfaceSystemsModel.Id">
+    <value>Σύστημα ID</value>
+  </data>
+  <data name="InterfaceSystemsModel.KeyId">
+    <value>Αναγνωριστικό Διασύνδεσης συστήματος</value>
+  </data>
+  <data name="InterfaceSystemsModel.Name">
+    <value>Όνομα</value>
+  </data>
+  <data name="JobGroupModel.Description">
+    <value>Περιγραφή</value>
+  </data>
+  <data name="JobGroupModel.Disabled">
+    <value>Απενεργοποιήθηκε</value>
+  </data>
+  <data name="JobGroupModel.DisplayIndex">
+    <value>Εμφάνιση ευρετηρίου</value>
+  </data>
+  <data name="JobGroupModel.FoJSrvKeyId">
+    <value>Fail over Job server</value>
+  </data>
+  <data name="JobGroupModel.FoStop">
+    <value>Στόπ</value>
+  </data>
+  <data name="JobGroupModel.JobType">
+    <value>Job type</value>
+  </data>
+  <data name="JobGroupModel.JSrvKeyId">
+    <value>Job server</value>
+  </data>
+  <data name="JobGroupModel.KeyId">
+    <value>Job group ID</value>
+  </data>
+  <data name="JobGroupModel.Name">
+    <value>Όνομα</value>
+  </data>
+  <data name="JobGroupModel.SysId">
+    <value>Σύστημα ID</value>
+  </data>
+  <data name="JobGroupModel.SysName">
+    <value>Όνομα συστήματος</value>
+  </data>
+  <data name="JobGroupModel.Type">
+    <value>Τύπος</value>
+  </data>
+  <data name="OrderTemplateTypeModel.Created">
+    <value></value>
+  </data>
+  <data name="OrderTemplateTypeModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="OrderTemplateTypeModel.Modified">
+    <value></value>
+  </data>
+  <data name="OrderTemplateTypeModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="OrderTemplateTypeModel.KeyId">
+    <value>Τύπος προτύπου ID</value>
+  </data>
+  <data name="OrderTemplateTypeModel.Name">
+    <value>Όνομα</value>
+  </data>
+  <data name="OrderTemplateTypeModel.Remark">
+    <value>Παρατήρηση</value>
+  </data>
+  <data name="OrderTemplateTypeModel.Type">
+    <value>Τύπος</value>
+  </data>
+  <data name="JobServerModel.ConfigData">
+    <value>Δεδομένα διαμόρφωσης</value>
+  </data>
+  <data name="JobServerModel.Description">
+    <value>Περιγραφή</value>
+  </data>
+  <data name="JobServerModel.HeartBeat">
+    <value>Last heartbeat</value>
+  </data>
+  <data name="JobServerModel.KeyId">
+    <value>Αναγνωριστικό Διακομιστή Εργασίας</value>
+  </data>
+  <data name="JobServerModel.LinkStatId">
+    <value>Αναγνωριστικό Σταθμού Σύνδεσης</value>
+  </data>
+  <data name="JobServerModel.Name">
+    <value>Όνομα</value>
+  </data>
+  <data name="CompositeModel.AltRefKeyId">
+    <value>Εναλλακτικό αντικείμενο</value>
+  </data>
+  <data name="CompositeModel.CompItemKeyId">
+    <value>Σύνθετο αντικείμενο</value>
+  </data>
+  <data name="CompositeModel.Count">
+    <value>Αρίθμηση</value>
+  </data>
+  <data name="CompositeModel.CriticalCount">
+    <value>Κρίσιμο</value>
+  </data>
+  <data name="CompositeModel.HasAlternative">
+    <value>Has alternative</value>
+  </data>
+  <data name="CompositeModel.IdentLineUsage">
+    <value>Identical line usage</value>
+  </data>
+  <data name="CompositeModel.Key">
+    <value>Κλειδί</value>
+  </data>
+  <data name="CompositeModel.Placement">
+    <value>Τοποθέτηση</value>
+  </data>
+  <data name="CompositeModel.Position">
+    <value>Pos</value>
+  </data>
+  <data name="CompositeModel.RefItemKeyId">
+    <value>Αντικείμενο</value>
+  </data>
+  <data name="CompositeModel.RefTextKeyId">
+    <value>Κείμενο</value>
+  </data>
+  <data name="CompositeModel.SplitTagNo">
+    <value>Ομάδα ετικέτας</value>
+  </data>
+  <data name="CompositeModel.Text">
+    <value>Κείμενο</value>
+  </data>
+  <data name="TagContentModel.AutoInc">
+    <value>Κλειδί</value>
+  </data>
+  <data name="TagContentModel.ChildTagsKeyId">
+    <value>Παιδική ετικέτα</value>
+  </data>
+  <data name="TagContentModel.ChPlKeyId">
+    <value>Θέση θαλάμου</value>
+  </data>
+  <data name="TagContentModel.IndicIndicator">
+    <value>Δείκτης</value>
+  </data>
+  <data name="TagContentModel.ItemCount">
+    <value>Μέτρηση Αντικειμένων</value>
+  </data>
+  <data name="TagContentModel.ItemKeyId">
+    <value>Αντικείμενο</value>
+  </data>
+  <data name="TagContentModel.LocaKeyId">
+    <value>Τοποθεσία</value>
+  </data>
+  <data name="TagContentModel.LotInKeyId">
+    <value>LOT πληροφορίες </value>
+  </data>
+  <data name="TagContentModel.OLnKey">
+    <value>Γραμμή παραγγελίας</value>
+  </data>
+  <data name="TagContentModel.SeriKeyId">
+    <value>Σειριακός αριθμός</value>
+  </data>
+  <data name="TagContentModel.SplitUnit">
+    <value>Μονάδα ετικέτας</value>
+  </data>
+  <data name="TagContentModel.TagsKeyId">
+    <value>Ετικέτα</value>
+  </data>
+  <data name="TagContentModel.Time">
+    <value>Χρόνος</value>
+  </data>
+  <data name="TagContentModel.UnitUnit">
+    <value>Μονάδα</value>
+  </data>
+  <data name="EventModel.Created">
+    <value></value>
+  </data>
+  <data name="EventModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="EventModel.Modified">
+    <value></value>
+  </data>
+  <data name="EventModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="EventModel.Event">
+    <value>Συμβάν</value>
+  </data>
+  <data name="EventModel.Eventsystype">
+    <value>Τύπος συστήματος</value>
+  </data>
+  <data name="EventModel.Eventtype">
+    <value>Τύπος συμβάντος</value>
+  </data>
+  <data name="EventModel.Info">
+    <value>Πληροφορίες</value>
+  </data>
+  <data name="EventModel.KeyId">
+    <value>Αναγνωριστικό συμβάντος</value>
+  </data>
+  <data name="EventModel.PloKeyId">
+    <value>Τοποθεσία θέσης</value>
+  </data>
+  <data name="EventModel.RefKeyId">
+    <value>Βασισμένο σε</value>
+  </data>
+  <data name="EventModel.Sysdata">
+    <value>Δεδομένα συστήματος</value>
+  </data>
+  <data name="EventModel.System">
+    <value>Σύστημα</value>
+  </data>
+  <data name="EventModel.Time">
+    <value>Event time</value>
+  </data>
+  <data name="EventModel.Type">
+    <value>Τύπος</value>
+  </data>
+  <data name="StockModel.AutoCreated">
+    <value>Δημιουργήθηκε Αυτόματα</value>
+  </data>
+  <data name="StockModel.DesiredCount">
+    <value>Κανον.</value>
+  </data>
+  <data name="StockModel.Identlineusage">
+    <value>Identical line usage</value>
+  </data>
+  <data name="StockModel.InventoryActive">
+    <value>Αποθ. Ενεργό</value>
+  </data>
+  <data name="StockModel.InventoryCount">
+    <value>Μέτρηση Αποθ.</value>
+  </data>
+  <data name="StockModel.InventoryPhysCount">
+    <value>Πραγματικό</value>
+  </data>
+  <data name="StockModel.InventoryPhysTime">
+    <value>Actual time</value>
+  </data>
+  <data name="StockModel.InventoryPhysUserKeyId">
+    <value>Χρήστης</value>
+  </data>
+  <data name="StockModel.InventoryTime">
+    <value>Τελευταία απογραφή</value>
+  </data>
+  <data name="StockModel.InventoryUserKeyId">
+    <value>Inv. user</value>
+  </data>
+  <data name="StockModel.MaxCount">
+    <value>Mεγ.</value>
+  </data>
+  <data name="StockModel.MinCount">
+    <value>Ελάχ.</value>
+  </data>
+  <data name="StockModel.MonthUsage">
+    <value>Χρήση μήνα</value>
+  </data>
+  <data name="StockModel.OnStock">
+    <value>Από παρακαταθήκη</value>
+  </data>
+  <data name="StockModel.OrderedCount">
+    <value>Παραγγ.</value>
+  </data>
+  <data name="StockModel.Pickhere">
+    <value>Επιλογή</value>
+  </data>
+  <data name="StockModel.Placement">
+    <value>Τοποθέτηση</value>
+  </data>
+  <data name="StockModel.ProductionCount">
+    <value>Μέτρηση προιόντος</value>
+  </data>
+  <data name="StockModel.RefItemKeyId">
+    <value>Είδος (αντικείμενο)</value>
+  </data>
+  <data name="StockModel.RefProdKeyId">
+    <value>Είδος (Προϊόν)</value>
+  </data>
+  <data name="StockModel.ReservedCount">
+    <value>Δεσμευμένο</value>
+  </data>
+  <data name="StockModel.StokKeyId">
+    <value>Παρακαταθήκη</value>
+  </data>
+  <data name="StockModel.SuppOrderMinCount">
+    <value>Ελάχ.μέγεθος παραγγελίας</value>
+  </data>
+  <data name="StockModel.SuppOrderStdCount">
+    <value>Παραγγελία μεγέθους πακέτου</value>
+  </data>
+  <data name="StockModel.SuppRefFacKeyId">
+    <value>Συνοδ. εργοστάσιο</value>
+  </data>
+  <data name="StockModel.SuppRefSuppKeyId">
+    <value>Συνοδ.προμηθευτής</value>
+  </data>
+  <data name="ProductModel">
+    <value>Προϊοντα</value>
+  </data>
+  <data name="UserModel">
+    <value>Χρήστες</value>
+  </data>
+  <data name="CountingPointSetModel">
+    <value>Counting point groups</value>
+  </data>
+  <data name="CustSiteModel">
+    <value>Τοποθεσίες πελάτη</value>
+  </data>
+  <data name="CustomerModel">
+    <value>Πελάτες</value>
+  </data>
+  <data name="EndoDryingMethodsModel">
+    <value>Μέθοδοι στεγνώματος ενδοσκοπίου</value>
+  </data>
+  <data name="ProgramGroupModel">
+    <value>Οι ομάδες προγραμμάτων</value>
+  </data>
+  <data name="FactoryModel">
+    <value>Εργοστάσια</value>
+  </data>
+  <data name="FastTrackCodeModel">
+    <value>Κωδικοί γρήγορης παρακολούθησης</value>
+  </data>
+  <data name="FastTrackPlanModel">
+    <value>Σχέδια γρήγορης παρακολούθησης</value>
+  </data>
+  <data name="FastTrackTemplateModel">
+    <value>Fast track groups</value>
+  </data>
+  <data name="HandlingTypesModel">
+    <value>Handling types</value>
+  </data>
+  <data name="IdenticalArticleGroupModel">
+    <value>Identical article groups</value>
+  </data>
+  <data name="ItemModel">
+    <value>Αντικείμενα</value>
+  </data>
+  <data name="PackingModel">
+    <value>Συσκευασίες</value>
+  </data>
+  <data name="PriceGroupModel">
+    <value>Τιμή ομάδων</value>
+  </data>
+  <data name="TimeRuleGroupModel">
+    <value>Expire time group</value>
+  </data>
+  <data name="WeightPlanModel">
+    <value>Σχέδια Βάρος</value>
+  </data>
+  <data name="ProfileModel">
+    <value>Προφίλ χρηστών</value>
+  </data>
+  <data name="CalendarModel">
+    <value>Ημερολόγιο</value>
+  </data>
+  <data name="StocksModel">
+    <value>Παρακαταθήκες</value>
+  </data>
+  <data name="StockGroupModel">
+    <value>Ομάδες παρακαταθήκης</value>
+  </data>
+  <data name="ProcessModel">
+    <value>Διεργασίες</value>
+  </data>
+  <data name="SupplierModel">
+    <value>Προμηθευτές</value>
+  </data>
+  <data name="LocationModel">
+    <value>Τοποθεσίες</value>
+  </data>
+  <data name="FixedStockPlacementsModel">
+    <value>Σταθερές τοποθετήσεις αποθέματος</value>
+  </data>
+  <data name="TextModel">
+    <value>Κείμενο</value>
+  </data>
+  <data name="LocationGroupModel">
+    <value>Ομάδες τοποθεσίας</value>
+  </data>
+  <data name="CatalogModel">
+    <value>Κατάλογος</value>
+  </data>
+  <data name="ItemGroupModel">
+    <value>Ομάδες Αντικειμένων</value>
+  </data>
+  <data name="ItemSpecialtyModel">
+    <value>Ειδικότητες αντικειμένων</value>
+  </data>
+  <data name="ItemUOMModel">
+    <value>Μονάδες μέτρησης</value>
+  </data>
+  <data name="TagTypeModel">
+    <value>Tag types</value>
+  </data>
+  <data name="SealerProgramModel">
+    <value>Προγράμματα σφραγίδας</value>
+  </data>
+  <data name="EmgCaseCartTypeModel">
+    <value>Emergency case cart type</value>
+  </data>
+  <data name="OperationTypeModel">
+    <value>Τύποι χειρουργείων</value>
+  </data>
+  <data name="MachineModel">
+    <value>Μηχανήματα</value>
+  </data>
+  <data name="ProgramModel">
+    <value>Προγράμματα</value>
+  </data>
+  <data name="ProgramRecipeModel">
+    <value>Πρόγραμμα συνταγών</value>
+  </data>
+  <data name="MacroModel">
+    <value>Μακροεντολές σαρωτή</value>
+  </data>
+  <data name="UILayerDefModel">
+    <value>UI ορισμούς Layer</value>
+  </data>
+  <data name="IdenticalTagTypeGroupModel">
+    <value>Identical tag type group</value>
+  </data>
+  <data name="RoomModel">
+    <value>Δωμάτια</value>
+  </data>
+  <data name="AGSModel">
+    <value>AGS</value>
+  </data>
+  <data name="MachineTypeModel">
+    <value>Μοντέλα μηχανήματος</value>
+  </data>
+  <data name="QuestionSetModel">
+    <value>Σύνολα ερωτήσεων</value>
+  </data>
+  <data name="LoadingEquipmentModel">
+    <value>Εξοπλισμός φόρτωσης</value>
+  </data>
+  <data name="UnitModel">
+    <value>Μονάδες</value>
+  </data>
+  <data name="TagsModel">
+    <value>Ετικέτες</value>
+  </data>
+  <data name="OperationDataModel">
+    <value>Δεδομενα λειτουργίας</value>
+  </data>
+  <data name="SerialModel">
+    <value>Σειριακοί αριθμοί</value>
+  </data>
+  <data name="DoctorModel">
+    <value>Ιατροί</value>
+  </data>
+  <data name="PatientModel">
+    <value>Ασθενείς</value>
+  </data>
+  <data name="OrderModel">
+    <value>Παραγγελίες</value>
+  </data>
+  <data name="JobModel">
+    <value>Εργασίες</value>
+  </data>
+  <data name="OrderTemplateModel">
+    <value>Πρότυπα παραγγελίας</value>
+  </data>
+  <data name="InterfaceSystemsModel">
+    <value>Συστήματα Διασύνδεσης</value>
+  </data>
+  <data name="JobGroupModel">
+    <value>Ομάδες Εργασίας</value>
+  </data>
+  <data name="OrderTemplateTypeModel">
+    <value>Τύποι πρότυπο Τάξης</value>
+  </data>
+  <data name="JobServerModel">
+    <value>Διακομιστές Εργασίας</value>
+  </data>
+  <data name="CompositeModel">
+    <value>Λίστα σύνθετων</value>
+  </data>
+  <data name="TagContentModel">
+    <value>Περιεχόμενο ετικέτας</value>
+  </data>
+  <data name="EventModel">
+    <value>Γεγονότα</value>
+  </data>
+  <data name="StockModel">
+    <value>Ορισμός παρακαταθήκης</value>
+  </data>
+</root>

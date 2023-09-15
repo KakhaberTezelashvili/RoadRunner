@@ -1,0 +1,37 @@
+﻿@inherits InteractiveBaseComponent
+
+@using TDOC.WebComponents.Caption
+@using TDOC.WebComponents.Shared
+
+<div class="overflow-visible" style="@cssStyle">
+    @if (!string.IsNullOrEmpty(CaptionText))
+    {
+        <div class="row pb-2px">
+            <TdCaption Required="Required" Text="@CaptionText" />
+        </div>
+    }
+    <DxTextBox Id="@TextBoxId"
+               BindValueMode="BindValueMode"
+               InputCssClass="@($"td-textbox-input {inputCssClass}")"
+               ClearButtonDisplayMode="@clearButtonDisplayMode"
+               NullText="@NullText"
+               Text="@Text"
+               TextChanged="@(async (value) => await OnTextChangedAsync(value))"
+               Enabled="Enabled"
+               ReadOnly="ReadOnly"
+               Password="Password"
+               MaxLength="@MaxLength"
+               TabIndex="@TabIndex"
+               @onkeyup="OnKeyUp"
+               @onfocusout="@(async (eventArgs) => await OnFocusOutAsync(eventArgs))" />
+    <!-- Validation text -->
+    @if (!IsValid)
+    {
+        <div class="row justify-content-end">
+            <img src="@($"{ContentUrls.ResourceImg}notifications/warningRed.svg")" class="icon-size-16 p-2px" />
+            <div class="pl-2px text-error font-color-poppy">
+                @ValidationText
+            </div>
+        </div>
+    }
+</div>

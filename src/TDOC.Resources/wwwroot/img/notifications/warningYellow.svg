@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>Icon/Color/Warning Orange</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon/Color/Warning-Orange" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M0.143610342,20.4775203 C-0.264095202,21.1832873 0.244738349,22.0657622 1.06014944,22.0657622 L22.9399921,22.0657622 C23.7543387,22.0657622 24.2642367,21.1832873 23.8565312,20.4775203 L12.9176744,1.52932528 C12.5099688,0.823558241 11.4901727,0.823558241 11.0824672,1.52932528 L0.143610342,20.4775203 Z" id="Combined-Shape" fill="#F39200"></path>
+        <polygon id="Fill-4" fill="#000000" points="10.56 19.24 13.44 19.24 13.44 16.36 10.56 16.36"></polygon>
+        <polygon id="Fill-6" fill="#000000" points="10.56 14.44 13.44 14.44 13.44 6.76 10.56 6.76"></polygon>
+    </g>
+</svg>

@@ -1,0 +1,42 @@
+@using AdminClient.WebApp.Core.Constants
+
+@inherits Fluxor.Blazor.Web.Components.FluxorComponent
+
+<PageTitle>@_customersLocalizer["customerList"]</PageTitle>
+
+<h1>@_customersLocalizer["customerList"]</h1>
+
+<p>@_customersLocalizer["demonstratesFetchingCustomers"]</p>
+
+@if (_customerState.Value.IsLoading)
+{
+    <p><em>@_tdSharedLocalizer["loading"]</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>@_tdTablesLocalizer[$"{nameof(CustomerModel)}.{nameof(CustomerModel.Customer)}"]</th>
+                <th>@_tdTablesLocalizer[$"{nameof(CustomerModel)}.{nameof(CustomerModel.Name)}"]</th>
+                <th>@_tdTablesLocalizer[$"{nameof(CustomerModel)}.{nameof(CustomerModel.ShortName)}"]</th>
+                <th>@_customersLocalizer["createdDate"]</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var customer in _customerState.Value.Customers)
+            {
+                <tr>
+                    <td>
+                        <NavLink class="nav-link" href="@($"{AdminUrls.CustomerDetails}/{customer.KeyId}")">
+                            @customer.Customer
+                        </NavLink>
+                    </td>
+                    <td>@customer.Name</td>
+                    <td>@customer.ShortName</td>
+                    <td>@customer.Created?.ToShortDateString()</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

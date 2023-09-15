@@ -1,0 +1,73 @@
+﻿<h1>Web Socket scanner</h1>
+
+<div class="row">
+    To configure scanner:
+</div>
+<div class="row">
+    <img src="img/scanner/usbComPortEmulation.png" />
+</div>
+<div class="row">
+    <NavLink href="https://barcode.tec-it.com/en/Code128" target="_blank">Online barcode generator</NavLink>
+</div>
+<div class="row font-italic">
+    Important to install and run&nbsp;<span class="font-weight-bold">SCS_Service</span>
+</div>
+<hr />
+<div class="row pt-12px">
+    <div class="col-6">
+        <div class="row pb-12px">
+            <button @onclick="@ReconnectWebSocketAsync">@(IsConnected() ? "Reconnect" : "Connect")</button>
+        </div>
+        <div class="row pb-12px">
+            <div style="width: 200px">
+                <label>Device VID&PID:</label>
+                <input type="text" value="@valueVIDAndPID" />
+            </div>
+            <div class="pl-12px d-flex align-items-end">
+                <button @onclick="@HelloWebSocketAsync" disabled="@(!IsConnected())">Hello</button>
+            </div>
+        </div>
+        <div class="row">
+            <button @onclick="@DisconnectWebSocketAsync" disabled="@(!IsConnected())">Disconnect</button>
+        </div>
+    </div>
+    <div>
+        @if (IsConnected())
+        {
+            <div class="row">
+                <b>We are connected</b>
+            </div>
+            <div class="row">
+                <label>Log path:</label>
+            </div>
+            <div class="row">
+                <input type="text" value="@logPath" />
+                <button @onclick="@LogOnAsync" disabled="@logTurnedOn">Log On</button>
+                <button @onclick="@LogOffAsync" disabled="@(!logTurnedOn)">Log Off</button>
+            </div>
+        }
+    </div>
+</div>
+<div class="row pt-12px">
+    <textarea rows="10" cols="100" readonly>@log</textarea>
+</div>
+<div class="row pt-12px">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Code type</th>
+                <th>Code value</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var barcodeData in wsBarcodes)
+            {
+                <tr>
+                    <td>@barcodeData.CodeType</td>
+                    <td>@barcodeData.CodeValue</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+

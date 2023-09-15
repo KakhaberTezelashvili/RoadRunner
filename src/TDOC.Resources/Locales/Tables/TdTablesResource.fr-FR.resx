@@ -1,0 +1,5216 @@
+<?xml version="1.0" encoding="utf-8"?><root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ProductModel.Created">
+    <value></value>
+  </data>
+  <data name="ProductModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="ProductModel.Modified">
+    <value></value>
+  </data>
+  <data name="ProductModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="ProductModel.AltNumber">
+    <value>N° alternative</value>
+  </data>
+  <data name="ProductModel.AvgOnSiteStoreTime">
+    <value>Durée moyenne de stockage sur site</value>
+  </data>
+  <data name="ProductModel.AvgOpDuration">
+    <value>Durée moyenne de l'intervention</value>
+  </data>
+  <data name="ProductModel.Barcode">
+    <value>Codes barres</value>
+  </data>
+  <data name="ProductModel.BillingNum">
+    <value>N° de facture</value>
+  </data>
+  <data name="ProductModel.CntpsKeyId">
+    <value>Groupe point de comptage</value>
+  </data>
+  <data name="ProductModel.Color">
+    <value>Couleur</value>
+  </data>
+  <data name="ProductModel.Contamination">
+    <value>Risque contamination</value>
+  </data>
+  <data name="ProductModel.CuSiteKeyId">
+    <value>Site client</value>
+  </data>
+  <data name="ProductModel.CustKeyId">
+    <value>Client</value>
+  </data>
+  <data name="ProductModel.Difficulty">
+    <value>Complexité</value>
+  </data>
+  <data name="ProductModel.DifficultyMode">
+    <value>Mode de complexité</value>
+  </data>
+  <data name="ProductModel.DispatchRestrict">
+    <value>Restriction d'envoi</value>
+  </data>
+  <data name="ProductModel.Endodryingmethod">
+    <value>Méthode de séchage des endoscopes</value>
+  </data>
+  <data name="ProductModel.EndoWashPrGrKeyId">
+    <value>Programme lavage endoscopes</value>
+  </data>
+  <data name="ProductModel.ExternalType">
+    <value>Type externe</value>
+  </data>
+  <data name="ProductModel.ExtLoanerId">
+    <value>ID de prêt externe</value>
+  </data>
+  <data name="ProductModel.FacKeyId">
+    <value>Usine</value>
+  </data>
+  <data name="ProductModel.FactorySterilized">
+    <value>Stérilisé en externe</value>
+  </data>
+  <data name="ProductModel.FixedPrice">
+    <value>Prix fixe</value>
+  </data>
+  <data name="ProductModel.FTCoKeyId">
+    <value>Code Suivi Rapide</value>
+  </data>
+  <data name="ProductModel.FTPlKeyId">
+    <value>Plan Suivi Rapide</value>
+  </data>
+  <data name="ProductModel.FTTmpKeyId">
+    <value>Groupe Suivi Rapide</value>
+  </data>
+  <data name="ProductModel.GTIN">
+    <value>GTIN</value>
+  </data>
+  <data name="ProductModel.HandlingTime">
+    <value>Temps de traitement</value>
+  </data>
+  <data name="ProductModel.HaTKeyId">
+    <value>Type traitement</value>
+  </data>
+  <data name="ProductModel.InArtKeyId">
+    <value>Identique</value>
+  </data>
+  <data name="ProductModel.ItemKeyId">
+    <value>Article</value>
+  </data>
+  <data name="ProductModel.KeyId">
+    <value>ID Produit</value>
+  </data>
+  <data name="ProductModel.LMProKeyId">
+    <value>Loaner management profile</value>
+  </data>
+  <data name="ProductModel.Loaner">
+    <value>Produit en prêt</value>
+  </data>
+  <data name="ProductModel.LoanerType">
+    <value>Type de prêt</value>
+  </data>
+  <data name="ProductModel.PackKeyId">
+    <value>Matériau d'emballage</value>
+  </data>
+  <data name="ProductModel.PackOnScreen">
+    <value>Conditionnement interactif à l'écran</value>
+  </data>
+  <data name="ProductModel.Predis">
+    <value>Pré-désinfection</value>
+  </data>
+  <data name="ProductModel.PricingType">
+    <value>Type de prix</value>
+  </data>
+  <data name="ProductModel.PriGrKeyId">
+    <value>Groupe de prix</value>
+  </data>
+  <data name="ProductModel.PrintLabel">
+    <value>Imprimer étiquette</value>
+  </data>
+  <data name="ProductModel.PrintList">
+    <value>Imprimer liste</value>
+  </data>
+  <data name="ProductModel.Product">
+    <value>Produit</value>
+  </data>
+  <data name="ProductModel.Remark">
+    <value>Remarque</value>
+  </data>
+  <data name="ProductModel.ReqStockCount">
+    <value>Décompte de stock requis</value>
+  </data>
+  <data name="ProductModel.ReservationMode">
+    <value>Mode réservation</value>
+  </data>
+  <data name="ProductModel.Serialmask">
+    <value>Masque numéro de série</value>
+  </data>
+  <data name="ProductModel.Status">
+    <value>Statut</value>
+  </data>
+  <data name="ProductModel.SteriPrgrKeyId">
+    <value>Groupe programmes stérilisateur</value>
+  </data>
+  <data name="ProductModel.SteriVolume">
+    <value>Indice volume stérilisateur</value>
+  </data>
+  <data name="ProductModel.StockPlacement">
+    <value>Lieu de stockage</value>
+  </data>
+  <data name="ProductModel.StorageType">
+    <value>Espace de stockage</value>
+  </data>
+  <data name="ProductModel.TotalCount">
+    <value>Quantité totale</value>
+  </data>
+  <data name="ProductModel.Traceability">
+    <value>Traçabilité</value>
+  </data>
+  <data name="ProductModel.TraceType">
+    <value>Type de traçabilité</value>
+  </data>
+  <data name="ProductModel.TRGrpKeyId">
+    <value>Groupe heure expiration</value>
+  </data>
+  <data name="ProductModel.Type">
+    <value>Type</value>
+  </data>
+  <data name="ProductModel.UserField01">
+    <value>Champ utilisateur 1</value>
+  </data>
+  <data name="ProductModel.UserField02">
+    <value>Champ utilisateur 2</value>
+  </data>
+  <data name="ProductModel.UserField03">
+    <value>Champ utilisateur 3</value>
+  </data>
+  <data name="ProductModel.UserField04">
+    <value>Champ utilisateur 4</value>
+  </data>
+  <data name="ProductModel.UserField05">
+    <value>Champ utilisateur 5</value>
+  </data>
+  <data name="ProductModel.UserField06">
+    <value>Champ utilisateur 6</value>
+  </data>
+  <data name="ProductModel.UserField07">
+    <value>Champ utilisateur 7</value>
+  </data>
+  <data name="ProductModel.UserField08">
+    <value>Champ utilisateur 8</value>
+  </data>
+  <data name="ProductModel.UserField09">
+    <value>Champ utilisateur 9</value>
+  </data>
+  <data name="ProductModel.UserField10">
+    <value>Champ utilisateur 10</value>
+  </data>
+  <data name="ProductModel.UserField11">
+    <value>Champ utilisateur 11</value>
+  </data>
+  <data name="ProductModel.UserField12">
+    <value>Champ utilisateur 12</value>
+  </data>
+  <data name="ProductModel.UserField13">
+    <value>Champ utilisateur 13</value>
+  </data>
+  <data name="ProductModel.UserField14">
+    <value>Champ utilisateur 14</value>
+  </data>
+  <data name="ProductModel.UserField15">
+    <value>Champ utilisateur 15</value>
+  </data>
+  <data name="ProductModel.UserField16">
+    <value>Champ utilisateur 16</value>
+  </data>
+  <data name="ProductModel.UserField17">
+    <value>Champ utilisateur 17</value>
+  </data>
+  <data name="ProductModel.UserField18">
+    <value>Champ utilisateur 18</value>
+  </data>
+  <data name="ProductModel.UserField19">
+    <value>Champ utilisateur 19</value>
+  </data>
+  <data name="ProductModel.UserField20">
+    <value>Champ utilisateur 20</value>
+  </data>
+  <data name="ProductModel.WasherVolume">
+    <value>Indice volume laveur</value>
+  </data>
+  <data name="ProductModel.WashPrgrKeyId">
+    <value>Groupe programme lavage</value>
+  </data>
+  <data name="ProductModel.Weight">
+    <value>Poids</value>
+  </data>
+  <data name="ProductModel.WeightDeltaCalcMode">
+    <value>Mode calcul écart poids</value>
+  </data>
+  <data name="ProductModel.Weightdeltaunit">
+    <value>Delta poids unité</value>
+  </data>
+  <data name="ProductModel.WeightDeltaValue">
+    <value>Valeur delta poids</value>
+  </data>
+  <data name="ProductModel.WeightDisposable">
+    <value>Poids à usage unique</value>
+  </data>
+  <data name="ProductModel.WeightMode">
+    <value>Mode Poids</value>
+  </data>
+  <data name="ProductModel.WeightNonDisposable">
+    <value>Poids réutilisable</value>
+  </data>
+  <data name="ProductModel.WeightUsageEnabled">
+    <value>Utiliser les poids</value>
+  </data>
+  <data name="ProductModel.WPlanKeyId">
+    <value>Plan poids</value>
+  </data>
+  <data name="UserModel.Created">
+    <value></value>
+  </data>
+  <data name="UserModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="UserModel.Modified">
+    <value></value>
+  </data>
+  <data name="UserModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="UserModel.Barcode">
+    <value>Codes barres</value>
+  </data>
+  <data name="UserModel.ChangePassword">
+    <value>Changez votre mot de passe!</value>
+  </data>
+  <data name="UserModel.Email">
+    <value>Courriel</value>
+  </data>
+  <data name="UserModel.FacKeyId">
+    <value>Usine</value>
+  </data>
+  <data name="UserModel.FailedLogins">
+    <value>Connexions utilisateurs ratées</value>
+  </data>
+  <data name="UserModel.Initials">
+    <value>Initiales</value>
+  </data>
+  <data name="UserModel.KeyId">
+    <value>ID Utilisateur</value>
+  </data>
+  <data name="UserModel.MobileNumber">
+    <value>Numéro de mobile</value>
+  </data>
+  <data name="UserModel.Name">
+    <value>Nom</value>
+  </data>
+  <data name="UserModel.Password">
+    <value>Mot de passe</value>
+  </data>
+  <data name="UserModel.PasswordChanged">
+    <value>Dernier changement de mot de passe</value>
+  </data>
+  <data name="UserModel.PasswordHistory">
+    <value>Historique du mot de passe</value>
+  </data>
+  <data name="UserModel.PasswordSettings">
+    <value>Paramétrage du mot de passe</value>
+  </data>
+  <data name="UserModel.ProfileKeyId">
+    <value>Groupe</value>
+  </data>
+  <data name="UserModel.PublicPWSalt">
+    <value>Public</value>
+  </data>
+  <data name="UserModel.Status">
+    <value>Statut</value>
+  </data>
+  <data name="UserModel.UserField01">
+    <value>Champ utilisateur 1</value>
+  </data>
+  <data name="UserModel.UserField02">
+    <value>Champ utilisateur 2</value>
+  </data>
+  <data name="UserModel.UserField03">
+    <value>Champ utilisateur 3</value>
+  </data>
+  <data name="UserModel.UserField04">
+    <value>Champ utilisateur 4</value>
+  </data>
+  <data name="UserModel.UserField05">
+    <value>Champ utilisateur 5</value>
+  </data>
+  <data name="UserModel.UserField06">
+    <value>Champ utilisateur 6</value>
+  </data>
+  <data name="UserModel.UserField07">
+    <value>Champ utilisateur 7</value>
+  </data>
+  <data name="UserModel.UserField08">
+    <value>Champ utilisateur 8</value>
+  </data>
+  <data name="UserModel.UserField09">
+    <value>Champ utilisateur 9</value>
+  </data>
+  <data name="UserModel.UserField10">
+    <value>Champ utilisateur 10</value>
+  </data>
+  <data name="UserModel.UserField11">
+    <value>Champ utilisateur 11</value>
+  </data>
+  <data name="UserModel.UserField12">
+    <value>Champ utilisateur 12</value>
+  </data>
+  <data name="UserModel.UserField13">
+    <value>Champ utilisateur 13</value>
+  </data>
+  <data name="UserModel.UserField14">
+    <value>Champ utilisateur 14</value>
+  </data>
+  <data name="UserModel.UserField15">
+    <value>Champ utilisateur 15</value>
+  </data>
+  <data name="UserModel.UserField16">
+    <value>Champ utilisateur 16</value>
+  </data>
+  <data name="UserModel.UserField17">
+    <value>Champ utilisateur 17</value>
+  </data>
+  <data name="UserModel.UserField18">
+    <value>Champ utilisateur 18</value>
+  </data>
+  <data name="UserModel.UserField19">
+    <value>Champ utilisateur 19</value>
+  </data>
+  <data name="UserModel.UserField20">
+    <value>Champ utilisateur 20</value>
+  </data>
+  <data name="CountingPointSetModel.Created">
+    <value></value>
+  </data>
+  <data name="CountingPointSetModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="CountingPointSetModel.Modified">
+    <value></value>
+  </data>
+  <data name="CountingPointSetModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="CountingPointSetModel.Id">
+    <value>ID</value>
+  </data>
+  <data name="CountingPointSetModel.KeyId">
+    <value>ID Groupe point de comptage</value>
+  </data>
+  <data name="CountingPointSetModel.Name">
+    <value>Nom</value>
+  </data>
+  <data name="CountingPointSetModel.Remark">
+    <value>Remarque</value>
+  </data>
+  <data name="CountingPointSetModel.Status">
+    <value>Statut</value>
+  </data>
+  <data name="CustSiteModel.Created">
+    <value></value>
+  </data>
+  <data name="CustSiteModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="CustSiteModel.Modified">
+    <value></value>
+  </data>
+  <data name="CustSiteModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="CustSiteModel.AvgOnSiteStoreTime">
+    <value>Durée moyenne de stockage sur site</value>
+  </data>
+  <data name="CustSiteModel.AvgOpDuration">
+    <value>Durée moyenne de l'intervention</value>
+  </data>
+  <data name="CustSiteModel.CntpsKeyId">
+    <value>Groupe point de comptage</value>
+  </data>
+  <data name="CustSiteModel.DelGLN">
+    <value>Livraison GLN</value>
+  </data>
+  <data name="CustSiteModel.DelPKeyId">
+    <value>Plan de livraison des produits en transit</value>
+  </data>
+  <data name="CustSiteModel.Descr">
+    <value>Description</value>
+  </data>
+  <data name="CustSiteModel.GLN">
+    <value>Site client GLN</value>
+  </data>
+  <data name="CustSiteModel.IntPickTime">
+    <value>Heure local de ramassage</value>
+  </data>
+  <data name="CustSiteModel.IntTransTimeArrive">
+    <value>Heure locale d'arrivée du transport</value>
+  </data>
+  <data name="CustSiteModel.IntTransTimeDepart">
+    <value>Heure locale du départ du transport</value>
+  </data>
+  <data name="CustSiteModel.KeyId">
+    <value>ID Site client</value>
+  </data>
+  <data name="CustSiteModel.MinOrderLeadTime">
+    <value>Temps min. commande avant l'intervention</value>
+  </data>
+  <data name="CustSiteModel.Name">
+    <value>Nom</value>
+  </data>
+  <data name="CustSiteModel.Site">
+    <value>Site client</value>
+  </data>
+  <data name="CustSiteModel.UserField01">
+    <value>Champ utilisateur 1</value>
+  </data>
+  <data name="CustSiteModel.UserField02">
+    <value>Champ utilisateur 2</value>
+  </data>
+  <data name="CustSiteModel.UserField03">
+    <value>Champ utilisateur 3</value>
+  </data>
+  <data name="CustSiteModel.UserField04">
+    <value>Champ utilisateur 4</value>
+  </data>
+  <data name="CustSiteModel.UserField05">
+    <value>Champ utilisateur 5</value>
+  </data>
+  <data name="CustSiteModel.UserField06">
+    <value>Champ utilisateur 6</value>
+  </data>
+  <data name="CustSiteModel.UserField07">
+    <value>Champ utilisateur 7</value>
+  </data>
+  <data name="CustSiteModel.UserField08">
+    <value>Champ utilisateur 8</value>
+  </data>
+  <data name="CustSiteModel.UserField09">
+    <value>Champ utilisateur 9</value>
+  </data>
+  <data name="CustSiteModel.UserField10">
+    <value>Champ utilisateur 10</value>
+  </data>
+  <data name="CustSiteModel.UserField11">
+    <value>Champ utilisateur 11</value>
+  </data>
+  <data name="CustSiteModel.UserField12">
+    <value>Champ utilisateur 12</value>
+  </data>
+  <data name="CustSiteModel.UserField13">
+    <value>Champ utilisateur 13</value>
+  </data>
+  <data name="CustSiteModel.UserField14">
+    <value>Champ utilisateur 14</value>
+  </data>
+  <data name="CustSiteModel.UserField15">
+    <value>Champ utilisateur 15</value>
+  </data>
+  <data name="CustSiteModel.UserField16">
+    <value>Champ utilisateur 16</value>
+  </data>
+  <data name="CustSiteModel.UserField17">
+    <value>Champ utilisateur 17</value>
+  </data>
+  <data name="CustSiteModel.UserField18">
+    <value>Champ utilisateur 18</value>
+  </data>
+  <data name="CustSiteModel.UserField19">
+    <value>Champ utilisateur 19</value>
+  </data>
+  <data name="CustSiteModel.UserField20">
+    <value>Champ utilisateur 20</value>
+  </data>
+  <data name="CustomerModel.Created">
+    <value></value>
+  </data>
+  <data name="CustomerModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="CustomerModel.Modified">
+    <value></value>
+  </data>
+  <data name="CustomerModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="CustomerModel.Account">
+    <value>Compte</value>
+  </data>
+  <data name="CustomerModel.Address1">
+    <value>Rue</value>
+  </data>
+  <data name="CustomerModel.Address2">
+    <value>Rue (2)</value>
+  </data>
+  <data name="CustomerModel.AllowNonECCContent">
+    <value>Livraison d'autres marchandises dans des chariots d'urgence</value>
+  </data>
+  <data name="CustomerModel.ArrivedLGrpKeyId">
+    <value>Groupe d'emplacements arrivées</value>
+  </data>
+  <data name="CustomerModel.AvailablelgrpKeyId">
+    <value>Groupe d'emplacements disponibles</value>
+  </data>
+  <data name="CustomerModel.AvgOnSiteStoreTime">
+    <value>Durée moyenne de stockage sur site</value>
+  </data>
+  <data name="CustomerModel.AvgOpDuration">
+    <value>Durée moyenne de l'intervention</value>
+  </data>
+  <data name="CustomerModel.Barcode">
+    <value>Codes barres</value>
+  </data>
+  <data name="CustomerModel.CalKeyId">
+    <value>Calendrier</value>
+  </data>
+  <data name="CustomerModel.CanOrder">
+    <value>Peut commander</value>
+  </data>
+  <data name="CustomerModel.ChargeOptions">
+    <value>Options de facturation</value>
+  </data>
+  <data name="CustomerModel.City">
+    <value>Code postal/Ville</value>
+  </data>
+  <data name="CustomerModel.CntpsKeyId">
+    <value>Groupe point de comptage</value>
+  </data>
+  <data name="CustomerModel.Color">
+    <value>Couleur</value>
+  </data>
+  <data name="CustomerModel.Country">
+    <value>Pays</value>
+  </data>
+  <data name="CustomerModel.CuSiteKeyId">
+    <value>Site client</value>
+  </data>
+  <data name="CustomerModel.Customer">
+    <value>Client</value>
+  </data>
+  <data name="CustomerModel.DefStokKeyId">
+    <value>Stock par défaut</value>
+  </data>
+  <data name="CustomerModel.DelAddress1">
+    <value>Rue</value>
+  </data>
+  <data name="CustomerModel.DelAddress2">
+    <value>Rue (2)</value>
+  </data>
+  <data name="CustomerModel.DelCity">
+    <value>Code postal/Ville</value>
+  </data>
+  <data name="CustomerModel.DelCountry">
+    <value>Pays</value>
+  </data>
+  <data name="CustomerModel.DelEmail">
+    <value>Courriel livraison</value>
+  </data>
+  <data name="CustomerModel.DelFax">
+    <value>Fax</value>
+  </data>
+  <data name="CustomerModel.DelGln">
+    <value>Livraison GLN</value>
+  </data>
+  <data name="CustomerModel.DeliveryNote">
+    <value>Bon de livraison</value>
+  </data>
+  <data name="CustomerModel.DelPKeyId">
+    <value>Plan de livraison des produits en transit</value>
+  </data>
+  <data name="CustomerModel.DelTelephone">
+    <value>Téléphone</value>
+  </data>
+  <data name="CustomerModel.Email">
+    <value>Courriel</value>
+  </data>
+  <data name="CustomerModel.EndoSETime">
+    <value>Temps/heure d'expiration endo standard</value>
+  </data>
+  <data name="CustomerModel.External">
+    <value>Externe</value>
+  </data>
+  <data name="CustomerModel.FacKeyId">
+    <value>Usine</value>
+  </data>
+  <data name="CustomerModel.Fax">
+    <value>Fax</value>
+  </data>
+  <data name="CustomerModel.Flags1">
+    <value>Options</value>
+  </data>
+  <data name="CustomerModel.Gln">
+    <value>GLN</value>
+  </data>
+  <data name="CustomerModel.IntPickTime">
+    <value>Heure local de ramassage</value>
+  </data>
+  <data name="CustomerModel.IntTransTimeArrive">
+    <value>Heure locale d'arrivée du transport</value>
+  </data>
+  <data name="CustomerModel.IntTransTimeDepart">
+    <value>Heure locale du départ du transport</value>
+  </data>
+  <data name="CustomerModel.InvoiceCustKeyId">
+    <value>Client à facturer</value>
+  </data>
+  <data name="CustomerModel.InvoiceRebate">
+    <value>Escompte facture (%)</value>
+  </data>
+  <data name="CustomerModel.KeyId">
+    <value>ID Client</value>
+  </data>
+  <data name="CustomerModel.LineRebate">
+    <value>Escompte (%)</value>
+  </data>
+  <data name="CustomerModel.MinOrderLeadTime">
+    <value>Temps min. commande avant l'intervention</value>
+  </data>
+  <data name="CustomerModel.Name">
+    <value>Nom</value>
+  </data>
+  <data name="CustomerModel.OrderBookingMode">
+    <value>Mode de réservation de commande</value>
+  </data>
+  <data name="CustomerModel.PreDispatchMode">
+    <value>Pré-envoyer</value>
+  </data>
+  <data name="CustomerModel.Remark">
+    <value>Remarque</value>
+  </data>
+  <data name="CustomerModel.Reordermode">
+    <value>Re-commander en retour</value>
+  </data>
+  <data name="CustomerModel.ShortName">
+    <value>Nom abrégé</value>
+  </data>
+  <data name="CustomerModel.Status">
+    <value>Statut</value>
+  </data>
+  <data name="CustomerModel.StGrKeyId">
+    <value>Groupe de stock</value>
+  </data>
+  <data name="CustomerModel.TagsSurvive">
+    <value>Survie étiquettes</value>
+  </data>
+  <data name="CustomerModel.Telephone">
+    <value>Téléphone</value>
+  </data>
+  <data name="CustomerModel.Traceability">
+    <value>Traçabilité</value>
+  </data>
+  <data name="CustomerModel.UserField01">
+    <value>Champ utilisateur 1</value>
+  </data>
+  <data name="CustomerModel.UserField02">
+    <value>Champ utilisateur 2</value>
+  </data>
+  <data name="CustomerModel.UserField03">
+    <value>Champ utilisateur 3</value>
+  </data>
+  <data name="CustomerModel.UserField04">
+    <value>Champ utilisateur 4</value>
+  </data>
+  <data name="CustomerModel.UserField05">
+    <value>Champ utilisateur 5</value>
+  </data>
+  <data name="CustomerModel.UserField06">
+    <value>Champ utilisateur 6</value>
+  </data>
+  <data name="CustomerModel.UserField07">
+    <value>Champ utilisateur 7</value>
+  </data>
+  <data name="CustomerModel.UserField08">
+    <value>Champ utilisateur 8</value>
+  </data>
+  <data name="CustomerModel.UserField09">
+    <value>Champ utilisateur 9</value>
+  </data>
+  <data name="CustomerModel.UserField10">
+    <value>Champ utilisateur 10</value>
+  </data>
+  <data name="CustomerModel.UserField11">
+    <value>Champ utilisateur 11</value>
+  </data>
+  <data name="CustomerModel.UserField12">
+    <value>Champ utilisateur 12</value>
+  </data>
+  <data name="CustomerModel.UserField13">
+    <value>Champ utilisateur 13</value>
+  </data>
+  <data name="CustomerModel.UserField14">
+    <value>Champ utilisateur 14</value>
+  </data>
+  <data name="CustomerModel.UserField15">
+    <value>Champ utilisateur 15</value>
+  </data>
+  <data name="CustomerModel.UserField16">
+    <value>Champ utilisateur 16</value>
+  </data>
+  <data name="CustomerModel.UserField17">
+    <value>Champ utilisateur 17</value>
+  </data>
+  <data name="CustomerModel.UserField18">
+    <value>Champ utilisateur 18</value>
+  </data>
+  <data name="CustomerModel.UserField19">
+    <value>Champ utilisateur 19</value>
+  </data>
+  <data name="CustomerModel.UserField20">
+    <value>Champ utilisateur 20</value>
+  </data>
+  <data name="CustomerModel.WebPassword">
+    <value>Mot de passe Web/FTP</value>
+  </data>
+  <data name="CustomerModel.WebSite">
+    <value>Site Web</value>
+  </data>
+  <data name="CustomerModel.WebUser">
+    <value>Utilisateur Web/FTP</value>
+  </data>
+  <data name="EndoDryingMethodsModel.KeyId">
+    <value>ID Méthode séchage Endoscope</value>
+  </data>
+  <data name="EndoDryingMethodsModel.Method">
+    <value>Méthode</value>
+  </data>
+  <data name="EndoDryingMethodsModel.Name">
+    <value>Nom</value>
+  </data>
+  <data name="ProgramGroupModel.Color">
+    <value>Couleur</value>
+  </data>
+  <data name="ProgramGroupModel.KeyId">
+    <value>ID Groupe programme</value>
+  </data>
+  <data name="ProgramGroupModel.Name">
+    <value>Nom</value>
+  </data>
+  <data name="ProgramGroupModel.Remark">
+    <value>Remarque</value>
+  </data>
+  <data name="ProgramGroupModel.Type">
+    <value>Type</value>
+  </data>
+  <data name="FactoryModel.Created">
+    <value></value>
+  </data>
+  <data name="FactoryModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="FactoryModel.Modified">
+    <value></value>
+  </data>
+  <data name="FactoryModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="FactoryModel.Address1">
+    <value>Rue</value>
+  </data>
+  <data name="FactoryModel.Address2">
+    <value>Rue (2)</value>
+  </data>
+  <data name="FactoryModel.AllowSkipCleanAndTest">
+    <value>Autoriser le saut nettoyage &amp; test</value>
+  </data>
+  <data name="FactoryModel.AllowSkipDispatch">
+    <value>Autoriser le saut de la distribution</value>
+  </data>
+  <data name="FactoryModel.AllowSkipReturn">
+    <value>Autoriser le saut du retour</value>
+  </data>
+  <data name="FactoryModel.AutoPlayVideos">
+    <value>Démarrage auto vidéos</value>
+  </data>
+  <data name="FactoryModel.Bioid">
+    <value>ID BIO</value>
+  </data>
+  <data name="FactoryModel.CalKeyId">
+    <value>Calendrier</value>
+  </data>
+  <data name="FactoryModel.ChargeUsage">
+    <value>Facturer tout sur retour avec erreur</value>
+  </data>
+  <data name="FactoryModel.City">
+    <value>Code postal/Ville</value>
+  </data>
+  <data name="FactoryModel.CntpsKeyId">
+    <value>Groupe point de comptage</value>
+  </data>
+  <data name="FactoryModel.Country">
+    <value>Pays</value>
+  </data>
+  <data name="FactoryModel.CrossRefVendorKeyId">
+    <value>Fournisseur préféré</value>
+  </data>
+  <data name="FactoryModel.CustNameDisplay">
+    <value>Utiliser le nom abrégé du client</value>
+  </data>
+  <data name="FactoryModel.CustOrdAcceptMode">
+    <value>Customer order acceptance handling</value>
+  </data>
+  <data name="FactoryModel.DecItemStockOnPack">
+    <value>Réduire stock article au conditionnement</value>
+  </data>
+  <data name="FactoryModel.DeductItemsFromStock">
+    <value>Déduire les articles du stock dans l'intervention</value>
+  </data>
+  <data name="FactoryModel.DefAdminLocaKeyId">
+    <value>Emplacement Admin par défaut</value>
+  </data>
+  <data name="FactoryModel.DefAvgOnSiteStoreTime">
+    <value>Moyenne par défaut du temps de stockage sur site</value>
+  </data>
+  <data name="FactoryModel.DefAvgOpDuration">
+    <value>Moyenne par défaut de ladurée d'une opération</value>
+  </data>
+  <data name="FactoryModel.DefDispatchRestrict">
+    <value>Restriction de distribution par défaut</value>
+  </data>
+  <data name="FactoryModel.DefItemShelvingTime">
+    <value>Durée par défaut de la mise en étagère d'un article</value>
+  </data>
+  <data name="FactoryModel.DefItemStokKeyId">
+    <value>Stock articles par défaut</value>
+  </data>
+  <data name="FactoryModel.DefMESPickingCapacity">
+    <value>Hourly picking capacity</value>
+  </data>
+  <data name="FactoryModel.DefMESResvStokKeyId">
+    <value>Automated reserved stock</value>
+  </data>
+  <data name="FactoryModel.DefMESStokKeyId">
+    <value>Automated picking stock</value>
+  </data>
+  <data name="FactoryModel.DefOrdSuppStokKeyId">
+    <value>Default customer order stock</value>
+  </data>
+  <data name="FactoryModel.DefProdTraceType">
+    <value>Type de traçabilité du produit par défaut</value>
+  </data>
+  <data name="FactoryModel.DefProductStokKeyId">
+    <value>Stock produits par défaut</value>
+  </data>
+  <data name="FactoryModel.DefSerialDispRestrict">
+    <value>Restriction de distribution par défaut d'un numéro de série</value>
+  </data>
+  <data name="FactoryModel.DefSuppCalKeyId">
+    <value>Calendrier du forunisseur par défaut</value>
+  </data>
+  <data name="FactoryModel.DefSuppOrderDelTime">
+    <value>Heure de livraison de la commande par le fournisseur par défaut</value>
+  </data>
+  <data name="FactoryModel.DefSuppOrderHandlTime">
+    <value>Durée de traitement de la commande par le fournisseur par défaut</value>
+  </data>
+  <data name="FactoryModel.DefSuppOrderRampTime">
+    <value>Default Supplier order ramp time</value>
+  </data>
+  <data name="FactoryModel.DefSuppOrderTransTime">
+    <value>Durée du transport de la commande par le fournisseur par défaut</value>
+  </data>
+  <data name="FactoryModel.DefWPlanKeyId">
+    <value>Plan de Poids par défaut</value>
+  </data>
+  <data name="FactoryModel.DelAddress1">
+    <value>Rue</value>
+  </data>
+  <data name="FactoryModel.DelAddress2">
+    <value>Rue (2)</value>
+  </data>
+  <data name="FactoryModel.DelCity">
+    <value>Code postal/Ville</value>
+  </data>
+  <data name="FactoryModel.DelCountry">
+    <value>Pays</value>
+  </data>
+  <data name="FactoryModel.DelEmail">
+    <value>Courriel livraison</value>
+  </data>
+  <data name="FactoryModel.DelFax">
+    <value>Fax</value>
+  </data>
+  <data name="FactoryModel.DelPKeyId">
+    <value>Plan de livraison des produits en transit</value>
+  </data>
+  <data name="FactoryModel.DeltaScanMode">
+    <value>Mode Delta activé</value>
+  </data>
+  <data name="FactoryModel.DelTelephone">
+    <value>Téléphone</value>
+  </data>
+  <data name="FactoryModel.DropItemSuppOpOrders">
+    <value>Changer le fournisseur sur commande BLOC</value>
+  </data>
+  <data name="FactoryModel.Email">
+    <value>Courriel</value>
+  </data>
+  <data name="FactoryModel.EndoCycleToCab">
+    <value>Temps cycle cabine</value>
+  </data>
+  <data name="FactoryModel.EndoDefCabKeyId">
+    <value>Cabine par défaut</value>
+  </data>
+  <data name="FactoryModel.EndoDefFSPlKeyId">
+    <value>Emplacement stock par défaut</value>
+  </data>
+  <data name="FactoryModel.Endodryingmode">
+    <value>Séchage manuel</value>
+  </data>
+  <data name="FactoryModel.EndoHaTKeyId">
+    <value>Type traitement</value>
+  </data>
+  <data name="FactoryModel.EndoSETime">
+    <value>Temps/heure d'expiration endo standard</value>
+  </data>
+  <data name="FactoryModel.EndoShelfDelay">
+    <value>Endo shelf delay time</value>
+  </data>
+  <data name="FactoryModel.EndoShelfRelTime">
+    <value>Endo shelf delay rel. time</value>
+  </data>
+  <data name="FactoryModel.EquipmentUsage">
+    <value>Utilisation équipement</value>
+  </data>
+  <data name="FactoryModel.Expiretype">
+    <value>Type de péremption</value>
+  </data>
+  <data name="FactoryModel.Facrestrictmode">
+    <value>Mode restriction de l'usine</value>
+  </data>
+  <data name="FactoryModel.Factory">
+    <value>Usine</value>
+  </data>
+  <data name="FactoryModel.Fax">
+    <value>Fax</value>
+  </data>
+  <data name="FactoryModel.FixedPrices">
+    <value>Utilisé prix fixes</value>
+  </data>
+  <data name="FactoryModel.Flags1">
+    <value>Options 1</value>
+  </data>
+  <data name="FactoryModel.Flags2">
+    <value>Options 2</value>
+  </data>
+  <data name="FactoryModel.FTMaxCodeDuration">
+    <value>Expiration code Suivi Rapide</value>
+  </data>
+  <data name="FactoryModel.FTMaxPlanDuration">
+    <value>Plan Suivi Rapide expiré</value>
+  </data>
+  <data name="FactoryModel.FTPlKeyId">
+    <value>Plan Suivi Rapide</value>
+  </data>
+  <data name="FactoryModel.GuestprofKeyId">
+    <value>Profil utilisateur invité</value>
+  </data>
+  <data name="FactoryModel.HourCosts">
+    <value>Coûts horaire</value>
+  </data>
+  <data name="FactoryModel.IncItemStockOnPack">
+    <value>Augmenter le stock d'articles en conditionnement</value>
+  </data>
+  <data name="FactoryModel.IndicApproveLocaKeyId">
+    <value>Zone approbation indicateur</value>
+  </data>
+  <data name="FactoryModel.IndicDisappLocaKeyId">
+    <value>Zone rejet indicateur</value>
+  </data>
+  <data name="FactoryModel.IndicPendingLocaKeyId">
+    <value>Zone attente indicateur</value>
+  </data>
+  <data name="FactoryModel.InvoiceLocktime">
+    <value>Verrouillez la date de facture</value>
+  </data>
+  <data name="FactoryModel.ItemAltPriceMode">
+    <value>Autre mode de calcul du prix des articles</value>
+  </data>
+  <data name="FactoryModel.ItemDispAltPriceMode">
+    <value>Autre mode de calcul du prix des articles jetables</value>
+  </data>
+  <data name="FactoryModel.ItemDispPriceMode">
+    <value>Mode de calcul du prix des articles jetables</value>
+  </data>
+  <data name="FactoryModel.ItemPriceMode">
+    <value>Mode de calcul du prix des articles</value>
+  </data>
+  <data name="FactoryModel.KeyId">
+    <value>ID Usine</value>
+  </data>
+  <data name="FactoryModel.LoadnumberUsage">
+    <value>Utilisation du n° de charge</value>
+  </data>
+  <data name="FactoryModel.MinOrderLeadTime">
+    <value>Temps min. commande avant l'intervention</value>
+  </data>
+  <data name="FactoryModel.MinOrderLeadTimeMode">
+    <value>Mode temps</value>
+  </data>
+  <data name="FactoryModel.MoneyRounding">
+    <value>Arrondir</value>
+  </data>
+  <data name="FactoryModel.Name">
+    <value>Nom</value>
+  </data>
+  <data name="FactoryModel.OrderBookingMode">
+    <value>Mode de réservation de commande</value>
+  </data>
+  <data name="FactoryModel.PreDispatch">
+    <value>Pré-envoyer</value>
+  </data>
+  <data name="FactoryModel.RefNo">
+    <value>Ref. no.</value>
+  </data>
+  <data name="FactoryModel.Remark">
+    <value>Remarque</value>
+  </data>
+  <data name="FactoryModel.RepairError">
+    <value>Erreur réparation</value>
+  </data>
+  <data name="FactoryModel.Repairmode">
+    <value>Mode réparation</value>
+  </data>
+  <data name="FactoryModel.SBFTAllStocks">
+    <value>Tous les stocks</value>
+  </data>
+  <data name="FactoryModel.SBFTBlockStartedOp">
+    <value>Exclure les interventions démarrées</value>
+  </data>
+  <data name="FactoryModel.SBFTDispatchedLGrpKeyId">
+    <value>Limiter les emplacements des unités envoyées</value>
+  </data>
+  <data name="FactoryModel.SBFTEscFTCoKeyId">
+    <value>2ème Code Suivi Rapide</value>
+  </data>
+  <data name="FactoryModel.SBFTEscTime">
+    <value>Assigner 2eme code Suivi rapide après</value>
+  </data>
+  <data name="FactoryModel.SBFTFTCoKeyId">
+    <value>1er code Suivi Rapide</value>
+  </data>
+  <data name="FactoryModel.SBFTMaxDelTime">
+    <value>Durée max.</value>
+  </data>
+  <data name="FactoryModel.SBFTMinDelTime">
+    <value>Durée min.</value>
+  </data>
+  <data name="FactoryModel.SBFTMode">
+    <value>Activer le suivi rapide basé sur le stock</value>
+  </data>
+  <data name="FactoryModel.SBFTOrdersFilter">
+    <value>Inclure</value>
+  </data>
+  <data name="FactoryModel.SealCount">
+    <value>Nombre de soudures</value>
+  </data>
+  <data name="FactoryModel.SealPrint">
+    <value>Impression scelleuse</value>
+  </data>
+  <data name="FactoryModel.Setweightusage">
+    <value>Utilisation du poids</value>
+  </data>
+  <data name="FactoryModel.Shortname">
+    <value>Nom abrégé</value>
+  </data>
+  <data name="FactoryModel.Status">
+    <value>Statut</value>
+  </data>
+  <data name="FactoryModel.StgrKeyId">
+    <value>Groupe de stock</value>
+  </data>
+  <data name="FactoryModel.SUAMatchConditions">
+    <value>Conditions de correspondance</value>
+  </data>
+  <data name="FactoryModel.SUAMaxUserComplexity">
+    <value>Max. complexité produit</value>
+  </data>
+  <data name="FactoryModel.SUAMinProdComplexity">
+    <value>Min. complexité produit</value>
+  </data>
+  <data name="FactoryModel.SUAReqProdType">
+    <value>Obligatoire pour les produits</value>
+  </data>
+  <data name="FactoryModel.Telephone">
+    <value>Téléphone</value>
+  </data>
+  <data name="FactoryModel.TraceStokKeyId">
+    <value>Stock tracé</value>
+  </data>
+  <data name="FactoryModel.TransitStokKeyId">
+    <value>Stock en transit</value>
+  </data>
+  <data name="FactoryModel.TRGrpKeyId">
+    <value>Groupe heure expiration</value>
+  </data>
+  <data name="FactoryModel.Type">
+    <value>Type</value>
+  </data>
+  <data name="FactoryModel.UserField01">
+    <value>Champ utilisateur 1</value>
+  </data>
+  <data name="FactoryModel.UserField02">
+    <value>Champ utilisateur 2</value>
+  </data>
+  <data name="FactoryModel.UserField03">
+    <value>Champ utilisateur 3</value>
+  </data>
+  <data name="FactoryModel.UserField04">
+    <value>Champ utilisateur 4</value>
+  </data>
+  <data name="FactoryModel.UserField05">
+    <value>Champ utilisateur 5</value>
+  </data>
+  <data name="FactoryModel.UserField06">
+    <value>Champ utilisateur 6</value>
+  </data>
+  <data name="FactoryModel.UserField07">
+    <value>Champ utilisateur 7</value>
+  </data>
+  <data name="FactoryModel.UserField08">
+    <value>Champ utilisateur 8</value>
+  </data>
+  <data name="FactoryModel.UserField09">
+    <value>Champ utilisateur 9</value>
+  </data>
+  <data name="FactoryModel.UserField10">
+    <value>Champ utilisateur 10</value>
+  </data>
+  <data name="FactoryModel.UserField11">
+    <value>Champ utilisateur 11</value>
+  </data>
+  <data name="FactoryModel.UserField12">
+    <value>Champ utilisateur 12</value>
+  </data>
+  <data name="FactoryModel.UserField13">
+    <value>Champ utilisateur 13</value>
+  </data>
+  <data name="FactoryModel.UserField14">
+    <value>Champ utilisateur 14</value>
+  </data>
+  <data name="FactoryModel.UserField15">
+    <value>Champ utilisateur 15</value>
+  </data>
+  <data name="FactoryModel.UserField16">
+    <value>Champ utilisateur 16</value>
+  </data>
+  <data name="FactoryModel.UserField17">
+    <value>Champ utilisateur 17</value>
+  </data>
+  <data name="FactoryModel.UserField18">
+    <value>Champ utilisateur 18</value>
+  </data>
+  <data name="FactoryModel.UserField19">
+    <value>Champ utilisateur 19</value>
+  </data>
+  <data name="FactoryModel.UserField20">
+    <value>Champ utilisateur 20</value>
+  </data>
+  <data name="FactoryModel.UIStartMode">
+    <value>Mode scanner UI démarré</value>
+  </data>
+  <data name="FactoryModel.UseColorFields">
+    <value>Utiliser les champs de couleur</value>
+  </data>
+  <data name="FactoryModel.Usedispstockonpack">
+    <value>Utilise usage unique lors du conditionnement</value>
+  </data>
+  <data name="FactoryModel.UseNTLogin">
+    <value>Utiliser connexion NT</value>
+  </data>
+  <data name="FactoryModel.Webitemlocatorcolumns">
+    <value>Affichage des champs localisation article</value>
+  </data>
+  <data name="FactoryModel.WebLocaKeyId">
+    <value>Emplacement intervention</value>
+  </data>
+  <data name="FactoryModel.WebOrderInitStatus">
+    <value>État initial pour les commandes provenant du Web</value>
+  </data>
+  <data name="FactoryModel.Webprodlocatorcolumns">
+    <value>Affichage des champs localisation produit</value>
+  </data>
+  <data name="FactoryModel.Website">
+    <value>Site Web</value>
+  </data>
+  <data name="FastTrackCodeModel.Created">
+    <value></value>
+  </data>
+  <data name="FastTrackCodeModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="FastTrackCodeModel.Modified">
+    <value></value>
+  </data>
+  <data name="FastTrackCodeModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="FastTrackCodeModel.Code">
+    <value>Code</value>
+  </data>
+  <data name="FastTrackCodeModel.Descr">
+    <value>Description</value>
+  </data>
+  <data name="FastTrackCodeModel.DisplayMode">
+    <value>Mode d'affichage</value>
+  </data>
+  <data name="FastTrackCodeModel.EndLoGrpKeyId">
+    <value>Groupe d'emplacement de fin</value>
+  </data>
+  <data name="FastTrackCodeModel.EndStatus">
+    <value>Statut de fin</value>
+  </data>
+  <data name="FastTrackCodeModel.EndTime">
+    <value>Heure de fin</value>
+  </data>
+  <data name="FastTrackCodeModel.InvoiceItemKeyId">
+    <value>Article à facturer</value>
+  </data>
+  <data name="FastTrackCodeModel.InvoicePrice">
+    <value>Prix de facturation</value>
+  </data>
+  <data name="FastTrackCodeModel.InvoiceTo">
+    <value>Facturer à</value>
+  </data>
+  <data name="FastTrackCodeModel.InvoiceWithUnit">
+    <value>Facturer avec unité</value>
+  </data>
+  <data name="FastTrackCodeModel.KeyId">
+    <value>ID Code Suivi rapide</value>
+  </data>
+  <data name="FastTrackCodeModel.Name">
+    <value>Nom</value>
+  </data>
+  <data name="FastTrackCodeModel.Priority">
+    <value>Priorité</value>
+  </data>
+  <data name="FastTrackCodeModel.StartLoGrpKeyId">
+    <value>Groupe d'emplacement de début</value>
+  </data>
+  <data name="FastTrackCodeModel.StartStatus">
+    <value>Statut de début</value>
+  </data>
+  <data name="FastTrackCodeModel.StartTime">
+    <value>Heure de  début</value>
+  </data>
+  <data name="FastTrackCodeModel.Status">
+    <value>Statut</value>
+  </data>
+  <data name="FastTrackCodeModel.Type">
+    <value>Type</value>
+  </data>
+  <data name="FastTrackCodeModel.Weekdays">
+    <value>En semaine</value>
+  </data>
+  <data name="FastTrackPlanModel.Created">
+    <value></value>
+  </data>
+  <data name="FastTrackPlanModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="FastTrackPlanModel.Modified">
+    <value></value>
+  </data>
+  <data name="FastTrackPlanModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="FastTrackPlanModel.Descr">
+    <value>Description</value>
+  </data>
+  <data name="FastTrackPlanModel.DisplayMode">
+    <value>Mode d'affichage</value>
+  </data>
+  <data name="FastTrackPlanModel.InvoiceItemKeyId">
+    <value>Article à facturer</value>
+  </data>
+  <data name="FastTrackPlanModel.InvoicePrice">
+    <value>Prix</value>
+  </data>
+  <data name="FastTrackPlanModel.InvoiceTo">
+    <value>Facturer à</value>
+  </data>
+  <data name="FastTrackPlanModel.InvoiceWithUnit">
+    <value>Facturer avec unité</value>
+  </data>
+  <data name="FastTrackPlanModel.KeyId">
+    <value>ID Plan Suivi rapide</value>
+  </data>
+  <data name="FastTrackPlanModel.Name">
+    <value>Nom</value>
+  </data>
+  <data name="FastTrackPlanModel.Plan">
+    <value>Plan</value>
+  </data>
+  <data name="FastTrackPlanModel.Priority">
+    <value>Priorité</value>
+  </data>
+  <data name="FastTrackPlanModel.Status">
+    <value>Statut</value>
+  </data>
+  <data name="FastTrackPlanModel.WorkhourMode">
+    <value>Mode heures ouvrées</value>
+  </data>
+  <data name="FastTrackTemplateModel.Created">
+    <value></value>
+  </data>
+  <data name="FastTrackTemplateModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="FastTrackTemplateModel.Modified">
+    <value></value>
+  </data>
+  <data name="FastTrackTemplateModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="FastTrackTemplateModel.Descr">
+    <value>Description</value>
+  </data>
+  <data name="FastTrackTemplateModel.KeyId">
+    <value>ID Modèle Suivi Rapide</value>
+  </data>
+  <data name="FastTrackTemplateModel.Name">
+    <value>Nom</value>
+  </data>
+  <data name="FastTrackTemplateModel.Template">
+    <value>Modèle</value>
+  </data>
+  <data name="HandlingTypesModel.Created">
+    <value></value>
+  </data>
+  <data name="HandlingTypesModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="HandlingTypesModel.Modified">
+    <value></value>
+  </data>
+  <data name="HandlingTypesModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="HandlingTypesModel.Id">
+    <value>Type traitement</value>
+  </data>
+  <data name="HandlingTypesModel.KeyId">
+    <value>ID Types traitement</value>
+  </data>
+  <data name="HandlingTypesModel.Name">
+    <value>Nom</value>
+  </data>
+  <data name="HandlingTypesModel.Remark">
+    <value>Remarques</value>
+  </data>
+  <data name="IdenticalArticleGroupModel.Forcealtarticles">
+    <value>Forcer tous les articles</value>
+  </data>
+  <data name="IdenticalArticleGroupModel.KeyId">
+    <value>ID Groupe article identique</value>
+  </data>
+  <data name="IdenticalArticleGroupModel.Name">
+    <value>Nom usuel</value>
+  </data>
+  <data name="IdenticalArticleGroupModel.Type">
+    <value>Type</value>
+  </data>
+  <data name="ItemModel.Created">
+    <value></value>
+  </data>
+  <data name="ItemModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="ItemModel.Modified">
+    <value></value>
+  </data>
+  <data name="ItemModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="ItemModel.Barcode">
+    <value>Codes barres</value>
+  </data>
+  <data name="ItemModel.CatKeyId">
+    <value>ID Catalogue</value>
+  </data>
+  <data name="ItemModel.Color">
+    <value>Couleur</value>
+  </data>
+  <data name="ItemModel.Composite">
+    <value>Composé</value>
+  </data>
+  <data name="ItemModel.Contamination">
+    <value>Probabilité de contamination</value>
+  </data>
+  <data name="ItemModel.Costprice">
+    <value>Prix d'achat</value>
+  </data>
+  <data name="ItemModel.Difficulty">
+    <value>Complexité</value>
+  </data>
+  <data name="ItemModel.DifficultyMode">
+    <value>Mode de complexité</value>
+  </data>
+  <data name="ItemModel.DiscardLevel">
+    <value>Niveau à ignorer</value>
+  </data>
+  <data name="ItemModel.Disposable">
+    <value>Usage unique</value>
+  </data>
+  <data name="ItemModel.DispPrice">
+    <value>Prix art. à usage unique</value>
+  </data>
+  <data name="ItemModel.ExternalText">
+    <value>Texte externe</value>
+  </data>
+  <data name="ItemModel.ExternalType">
+    <value>Type externe</value>
+  </data>
+  <data name="ItemModel.FacKeyId">
+    <value>Usine</value>
+  </data>
+  <data name="ItemModel.HospitalDescription">
+    <value>Nom local</value>
+  </data>
+  <data name="ItemModel.InArtKeyId">
+    <value>Identique</value>
+  </data>
+  <data name="ItemModel.Info">
+    <value>Remarque</value>
+  </data>
+  <data name="ItemModel.Item">
+    <value>Article</value>
+  </data>
+  <data name="ItemModel.ItGrpKeyId">
+    <value>Groupe</value>
+  </data>
+  <data name="ItemModel.ItspcKeyId">
+    <value>Spécialité</value>
+  </data>
+  <data name="ItemModel.KeyId">
+    <value>ID Article</value>
+  </data>
+  <data name="ItemModel.Length">
+    <value>Longueur</value>
+  </data>
+  <data name="ItemModel.Lifespan">
+    <value>Durée de vie</value>
+  </data>
+  <data name="ItemModel.ManufactorNo">
+    <value>N° Fabricant</value>
+  </data>
+  <data name="ItemModel.ManuKeyId">
+    <value>Fabricant</value>
+  </data>
+  <data name="ItemModel.Material">
+    <value>Matériau</value>
+  </data>
+  <data name="ItemModel.MaterialsNum">
+    <value>N° matériau</value>
+  </data>
+  <data name="ItemModel.MaxPressure">
+    <value>Press. max</value>
+  </data>
+  <data name="ItemModel.MaxTemp">
+    <value>T° max</value>
+  </data>
+  <data name="ItemModel.OrderLeadTime">
+    <value>Délai d’exécution de commande</value>
+  </data>
+  <data name="ItemModel.OrderMinCount">
+    <value>Quantité minimum livrée</value>
+  </data>
+  <data name="ItemModel.OrderStdCount">
+    <value>Taille du module de commande</value>
+  </data>
+  <data name="ItemModel.OrderstduomKeyId">
+    <value>Mesure du module de commande</value>
+  </data>
+  <data name="ItemModel.OtherMinCount">
+    <value>Quantité minimum livrée en interne</value>
+  </data>
+  <data name="ItemModel.OtherUnitCount">
+    <value>Taille du module de commande en interne</value>
+  </data>
+  <data name="ItemModel.OtheruomKeyId">
+    <value>Mesure du module de commande en interne</value>
+  </data>
+  <data name="ItemModel.RepairVendorKeyId">
+    <value>Réparation fournisseur</value>
+  </data>
+  <data name="ItemModel.ReservationMode">
+    <value>Mode réservation</value>
+  </data>
+  <data name="ItemModel.SalesMinCount">
+    <value>Quantité minimun livrée pour la vente</value>
+  </data>
+  <data name="ItemModel.SalesPrCode">
+    <value>Code prix de vente</value>
+  </data>
+  <data name="ItemModel.SalesPrice">
+    <value>Prix de vente</value>
+  </data>
+  <data name="ItemModel.SalesRestriction">
+    <value>Restriction de vente</value>
+  </data>
+  <data name="ItemModel.SalesUnitCount">
+    <value>Taille du module de commande des ventes</value>
+  </data>
+  <data name="ItemModel.SalesuomKeyId">
+    <value>Mesure du module de commande des ventes</value>
+  </data>
+  <data name="ItemModel.Serialmask">
+    <value>Masque numéro de série</value>
+  </data>
+  <data name="ItemModel.ShelvingTime">
+    <value>Temps de rayonnage</value>
+  </data>
+  <data name="ItemModel.SplitCount">
+    <value>Nombre d'étiquettes pour lavage</value>
+  </data>
+  <data name="ItemModel.Status">
+    <value>Statut</value>
+  </data>
+  <data name="ItemModel.SterilizationType">
+    <value>Type de stérilisation</value>
+  </data>
+  <data name="ItemModel.SuppKeyId">
+    <value>Fournisseur</value>
+  </data>
+  <data name="ItemModel.SupplierNo">
+    <value>N° Fournisseur</value>
+  </data>
+  <data name="ItemModel.TagTKeyId">
+    <value>Type d'étiquette</value>
+  </data>
+  <data name="ItemModel.Text">
+    <value>Nom</value>
+  </data>
+  <data name="ItemModel.Tip">
+    <value>Epaisseur</value>
+  </data>
+  <data name="ItemModel.Totalcostprice">
+    <value>Prix de revient total</value>
+  </data>
+  <data name="ItemModel.Totalsalesprice">
+    <value>Prix de vente total</value>
+  </data>
+  <data name="ItemModel.Totalusageprice">
+    <value>Coût total d'utilisation</value>
+  </data>
+  <data name="ItemModel.TraceType">
+    <value>Traçé par</value>
+  </data>
+  <data name="ItemModel.Type">
+    <value>Type</value>
+  </data>
+  <data name="ItemModel.UserField01">
+    <value>Champ utilisateur 1</value>
+  </data>
+  <data name="ItemModel.UserField02">
+    <value>Champ utilisateur 2</value>
+  </data>
+  <data name="ItemModel.UserField03">
+    <value>Champ utilisateur 3</value>
+  </data>
+  <data name="ItemModel.UserField04">
+    <value>Champ utilisateur 4</value>
+  </data>
+  <data name="ItemModel.UserField05">
+    <value>Champ utilisateur 5</value>
+  </data>
+  <data name="ItemModel.UserField06">
+    <value>Champ utilisateur 6</value>
+  </data>
+  <data name="ItemModel.UserField07">
+    <value>Champ utilisateur 7</value>
+  </data>
+  <data name="ItemModel.UserField08">
+    <value>Champ utilisateur 8</value>
+  </data>
+  <data name="ItemModel.UserField09">
+    <value>Champ utilisateur 9</value>
+  </data>
+  <data name="ItemModel.UserField10">
+    <value>Champ utilisateur 10</value>
+  </data>
+  <data name="ItemModel.UserField11">
+    <value>Champ utilisateur 11</value>
+  </data>
+  <data name="ItemModel.UserField12">
+    <value>Champ utilisateur 12</value>
+  </data>
+  <data name="ItemModel.UserField13">
+    <value>Champ utilisateur 13</value>
+  </data>
+  <data name="ItemModel.UserField14">
+    <value>Champ utilisateur 14</value>
+  </data>
+  <data name="ItemModel.UserField15">
+    <value>Champ utilisateur 15</value>
+  </data>
+  <data name="ItemModel.UserField16">
+    <value>Champ utilisateur 16</value>
+  </data>
+  <data name="ItemModel.UserField17">
+    <value>Champ utilisateur 17</value>
+  </data>
+  <data name="ItemModel.UserField18">
+    <value>Champ utilisateur 18</value>
+  </data>
+  <data name="ItemModel.UserField19">
+    <value>Champ utilisateur 19</value>
+  </data>
+  <data name="ItemModel.UserField20">
+    <value>Champ utilisateur 20</value>
+  </data>
+  <data name="ItemModel.Unitcount">
+    <value>Nombre unité</value>
+  </data>
+  <data name="ItemModel.UomKeyId">
+    <value>Mesure unité</value>
+  </data>
+  <data name="ItemModel.UsagePrCode">
+    <value>Code coût d'utilisation</value>
+  </data>
+  <data name="ItemModel.UsagePrice">
+    <value>Coût d'utilisation</value>
+  </data>
+  <data name="ItemModel.Warrenty">
+    <value>Garantie</value>
+  </data>
+  <data name="ItemModel.Weight">
+    <value>Poids</value>
+  </data>
+  <data name="ItemModel.WeightMode">
+    <value>Mode Poids</value>
+  </data>
+  <data name="ItemModel.Width">
+    <value>Largeur</value>
+  </data>
+  <data name="PackingModel.Created">
+    <value></value>
+  </data>
+  <data name="PackingModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="PackingModel.Modified">
+    <value></value>
+  </data>
+  <data name="PackingModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="PackingModel.Color">
+    <value>Couleur</value>
+  </data>
+  <data name="PackingModel.Description">
+    <value>Description</value>
+  </data>
+  <data name="PackingModel.FacKeyId">
+    <value>Usine</value>
+  </data>
+  <data name="PackingModel.FixedTime">
+    <value>Temps fixe</value>
+  </data>
+  <data name="PackingModel.ItemKeyId">
+    <value>Article</value>
+  </data>
+  <data name="PackingModel.KeyId">
+    <value>ID Emballage</value>
+  </data>
+  <data name="PackingModel.Packing">
+    <value>Emballage</value>
+  </data>
+  <data name="PackingModel.RelativeTime">
+    <value>Temps relatif</value>
+  </data>
+  <data name="PackingModel.SealCount">
+    <value>Nombre de soudures</value>
+  </data>
+  <data name="PackingModel.SealPrint">
+    <value>Impression scelleuse</value>
+  </data>
+  <data name="PackingModel.SeprgKeyId">
+    <value>Programme de scelleuse</value>
+  </data>
+  <data name="PackingModel.ShelfLife">
+    <value>Durée de vie</value>
+  </data>
+  <data name="PackingModel.Status">
+    <value>Statut</value>
+  </data>
+  <data name="PackingModel.TagTKeyId">
+    <value>Type d'étiquette</value>
+  </data>
+  <data name="PackingModel.Tracetype">
+    <value>Inclus dans la liste de conditionnement</value>
+  </data>
+  <data name="PackingModel.UsedFor">
+    <value>Utilisé pour</value>
+  </data>
+  <data name="PackingModel.Volume">
+    <value>Volume</value>
+  </data>
+  <data name="PackingModel.Weight">
+    <value>Poids</value>
+  </data>
+  <data name="PackingModel.WeightDisposable">
+    <value>Poids à usage unique</value>
+  </data>
+  <data name="PackingModel.WeightMode">
+    <value>Mode Poids</value>
+  </data>
+  <data name="PackingModel.WeightNonDisposable">
+    <value>Poids réutilisable</value>
+  </data>
+  <data name="PriceGroupModel.Created">
+    <value></value>
+  </data>
+  <data name="PriceGroupModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="PriceGroupModel.Modified">
+    <value></value>
+  </data>
+  <data name="PriceGroupModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="PriceGroupModel.Descr">
+    <value>Remarque</value>
+  </data>
+  <data name="PriceGroupModel.KeyId">
+    <value>ID Groupe de prix</value>
+  </data>
+  <data name="PriceGroupModel.Name">
+    <value>Nom</value>
+  </data>
+  <data name="PriceGroupModel.Price">
+    <value>Prix</value>
+  </data>
+  <data name="PriceGroupModel.PriceGroup">
+    <value>Groupe de prix</value>
+  </data>
+  <data name="TimeRuleGroupModel.Created">
+    <value></value>
+  </data>
+  <data name="TimeRuleGroupModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="TimeRuleGroupModel.Modified">
+    <value></value>
+  </data>
+  <data name="TimeRuleGroupModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="TimeRuleGroupModel.FacKeyId">
+    <value>Usine</value>
+  </data>
+  <data name="TimeRuleGroupModel.Id">
+    <value>ID</value>
+  </data>
+  <data name="TimeRuleGroupModel.KeyId">
+    <value>ID Groupes heure expiration</value>
+  </data>
+  <data name="TimeRuleGroupModel.Name">
+    <value>Nom</value>
+  </data>
+  <data name="TimeRuleGroupModel.Remark">
+    <value>Remarques</value>
+  </data>
+  <data name="WeightPlanModel.Created">
+    <value></value>
+  </data>
+  <data name="WeightPlanModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="WeightPlanModel.Modified">
+    <value></value>
+  </data>
+  <data name="WeightPlanModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="WeightPlanModel.Descr">
+    <value>Description</value>
+  </data>
+  <data name="WeightPlanModel.KeyId">
+    <value>ID plan poids</value>
+  </data>
+  <data name="WeightPlanModel.Name">
+    <value>Nom</value>
+  </data>
+  <data name="WeightPlanModel.WeightPlan">
+    <value>Plan poids</value>
+  </data>
+  <data name="ProfileModel.Created">
+    <value></value>
+  </data>
+  <data name="ProfileModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="ProfileModel.Modified">
+    <value></value>
+  </data>
+  <data name="ProfileModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="ProfileModel.AncestorKeyId">
+    <value>Groupe utilisateur</value>
+  </data>
+  <data name="ProfileModel.KeyId">
+    <value>ID Profil</value>
+  </data>
+  <data name="ProfileModel.Name">
+    <value>Nom</value>
+  </data>
+  <data name="ProfileModel.Profile">
+    <value>Profil</value>
+  </data>
+  <data name="ProfileModel.Type">
+    <value>Type</value>
+  </data>
+  <data name="ProfileModel.UpdateRequired">
+    <value>Mise à jour requise</value>
+  </data>
+  <data name="CalendarModel.Created">
+    <value></value>
+  </data>
+  <data name="CalendarModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="CalendarModel.Modified">
+    <value></value>
+  </data>
+  <data name="CalendarModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="CalendarModel.KeyId">
+    <value>Calendrier ID</value>
+  </data>
+  <data name="CalendarModel.Name">
+    <value>Nom</value>
+  </data>
+  <data name="CalendarModel.ParentCalKeyId">
+    <value>Parent</value>
+  </data>
+  <data name="StocksModel.AllowItems">
+    <value>Articles autorisés</value>
+  </data>
+  <data name="StocksModel.AllowNegCount">
+    <value>Stock négatif autorisé</value>
+  </data>
+  <data name="StocksModel.AllowProducts">
+    <value>Produits utilisables</value>
+  </data>
+  <data name="StocksModel.AutomationMode">
+    <value>Automation mode</value>
+  </data>
+  <data name="StocksModel.AutoReorder">
+    <value>Relance commande automatique</value>
+  </data>
+  <data name="StocksModel.Barcode">
+    <value>Codes barres</value>
+  </data>
+  <data name="StocksModel.BOInMode">
+    <value>Commande en attente en mode</value>
+  </data>
+  <data name="StocksModel.BOOutMode">
+    <value>Commande en attente hors du mode</value>
+  </data>
+  <data name="StocksModel.DefIdentLineUsage">
+    <value>Utiliser des articles identiques</value>
+  </data>
+  <data name="StocksModel.Descr">
+    <value>Description</value>
+  </data>
+  <data name="StocksModel.DropItemSuppOnSugg">
+    <value>Ne pas tenir compte du fournisseur dans l'article pour les suggestions de commande</value>
+  </data>
+  <data name="StocksModel.EmgCTKeyId">
+    <value>Type de chariot d'intervention d'urgence</value>
+  </data>
+  <data name="StocksModel.FacKeyId">
+    <value>Usine</value>
+  </data>
+  <data name="StocksModel.IsTracestock">
+    <value>Traçage stock usine</value>
+  </data>
+  <data name="StocksModel.IsTransitStock">
+    <value>Stock en transit usine</value>
+  </data>
+  <data name="StocksModel.KeyId">
+    <value>ID Stock</value>
+  </data>
+  <data name="StocksModel.LocaKeyId">
+    <value>Emplacement</value>
+  </data>
+  <data name="StocksModel.Name">
+    <value>Nom</value>
+  </data>
+  <data name="StocksModel.OpTKeyId">
+    <value>Type d'intervention</value>
+  </data>
+  <data name="StocksModel.OrderInMode">
+    <value>Réception ordre d'achat</value>
+  </data>
+  <data name="StocksModel.PlacementMask">
+    <value>Masque emplacement</value>
+  </data>
+  <data name="StocksModel.PrnBackOrder">
+    <value>Livraisons différées</value>
+  </data>
+  <data name="StocksModel.PrnCompletedOrder">
+    <value>Commandes exécutées</value>
+  </data>
+  <data name="StocksModel.PrnConfirmation">
+    <value>Confirmation de commande</value>
+  </data>
+  <data name="StocksModel.PrnDelivery">
+    <value>Bon de Livraison</value>
+  </data>
+  <data name="StocksModel.PrnPicklist">
+    <value>Liste de prélèvement</value>
+  </data>
+  <data name="StocksModel.PrnReceivedOrder">
+    <value>Commandes reçues</value>
+  </data>
+  <data name="StocksModel.PrnSentOrder">
+    <value>Commande envoyée</value>
+  </data>
+  <data name="StocksModel.RefCustKeyId">
+    <value>Propriétaire (Client)</value>
+  </data>
+  <data name="StocksModel.RefFacKeyId">
+    <value>Propriétaire (Usine)</value>
+  </data>
+  <data name="StocksModel.RefSuppKeyId">
+    <value>Propriétaire (Fournisseur)</value>
+  </data>
+  <data name="StocksModel.Status">
+    <value>Statut</value>
+  </data>
+  <data name="StocksModel.Stock">
+    <value>Stock</value>
+  </data>
+  <data name="StocksModel.SuppRefFacKeyId">
+    <value>Fournisseur (Usine)</value>
+  </data>
+  <data name="StocksModel.SuppRefSuppKeyId">
+    <value>Fournisseur (Fournisseur)</value>
+  </data>
+  <data name="StocksModel.Type">
+    <value>Type</value>
+  </data>
+  <data name="StocksModel.UserField01">
+    <value>Champ utilisateur 1</value>
+  </data>
+  <data name="StocksModel.UserField02">
+    <value>Champ utilisateur 2</value>
+  </data>
+  <data name="StocksModel.UserField03">
+    <value>Champ utilisateur 3</value>
+  </data>
+  <data name="StocksModel.UserField04">
+    <value>Champ utilisateur 4</value>
+  </data>
+  <data name="StocksModel.UserField05">
+    <value>Champ utilisateur 5</value>
+  </data>
+  <data name="StocksModel.UserField06">
+    <value>Champ utilisateur 6</value>
+  </data>
+  <data name="StocksModel.UserField07">
+    <value>Champ utilisateur 7</value>
+  </data>
+  <data name="StocksModel.UserField08">
+    <value>Champ utilisateur 8</value>
+  </data>
+  <data name="StocksModel.UserField09">
+    <value>Champ utilisateur 9</value>
+  </data>
+  <data name="StocksModel.UserField10">
+    <value>Champ utilisateur 10</value>
+  </data>
+  <data name="StocksModel.UserField11">
+    <value>Champ utilisateur 11</value>
+  </data>
+  <data name="StocksModel.UserField12">
+    <value>Champ utilisateur 12</value>
+  </data>
+  <data name="StocksModel.UserField13">
+    <value>Champ utilisateur 13</value>
+  </data>
+  <data name="StocksModel.UserField14">
+    <value>Champ utilisateur 14</value>
+  </data>
+  <data name="StocksModel.UserField15">
+    <value>Champ utilisateur 15</value>
+  </data>
+  <data name="StocksModel.UserField16">
+    <value>Champ utilisateur 16</value>
+  </data>
+  <data name="StocksModel.UserField17">
+    <value>Champ utilisateur 17</value>
+  </data>
+  <data name="StocksModel.UserField18">
+    <value>Champ utilisateur 18</value>
+  </data>
+  <data name="StocksModel.UserField19">
+    <value>Champ utilisateur 19</value>
+  </data>
+  <data name="StocksModel.UserField20">
+    <value>Champ utilisateur 20</value>
+  </data>
+  <data name="StockGroupModel.Created">
+    <value></value>
+  </data>
+  <data name="StockGroupModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="StockGroupModel.Modified">
+    <value></value>
+  </data>
+  <data name="StockGroupModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="StockGroupModel.Descr">
+    <value>Description</value>
+  </data>
+  <data name="StockGroupModel.KeyId">
+    <value>ID Groupe de stock</value>
+  </data>
+  <data name="StockGroupModel.Name">
+    <value>Nom</value>
+  </data>
+  <data name="StockGroupModel.StockGroup">
+    <value>Groupe de stock</value>
+  </data>
+  <data name="ProcessModel.ApproveTime">
+    <value>Approuvé</value>
+  </data>
+  <data name="ProcessModel.ApproveUserKeyId">
+    <value>Approuvé par</value>
+  </data>
+  <data name="ProcessModel.Batch">
+    <value>Lot</value>
+  </data>
+  <data name="ProcessModel.Charge">
+    <value>Cycle</value>
+  </data>
+  <data name="ProcessModel.DisapproveUserKeyId">
+    <value>Refusé par</value>
+  </data>
+  <data name="ProcessModel.EndTime">
+    <value>Terminé</value>
+  </data>
+  <data name="ProcessModel.Envhumidity">
+    <value>Humidité ambiante</value>
+  </data>
+  <data name="ProcessModel.Envpressure">
+    <value>Pression ambiante</value>
+  </data>
+  <data name="ProcessModel.Envtemp">
+    <value>Température ambiante</value>
+  </data>
+  <data name="ProcessModel.Error">
+    <value>Erreur système</value>
+  </data>
+  <data name="ProcessModel.ExternalBatchNo">
+    <value>N° lot externe</value>
+  </data>
+  <data name="ProcessModel.InitiateTime">
+    <value>Initialisé</value>
+  </data>
+  <data name="ProcessModel.InitiatorUserKeyId">
+    <value>Initiateur</value>
+  </data>
+  <data name="ProcessModel.LoadNumber">
+    <value>Numéro de charge</value>
+  </data>
+  <data name="ProcessModel.MachKeyId">
+    <value>Machine</value>
+  </data>
+  <data name="ProcessModel.NativeError">
+    <value>Erreur machine</value>
+  </data>
+  <data name="ProcessModel.NativeErrortext">
+    <value>Texte machine</value>
+  </data>
+  <data name="ProcessModel.ProgKeyId">
+    <value>Programme</value>
+  </data>
+  <data name="ProcessModel.ScanRefPreKeyId">
+    <value>Recette scannée</value>
+  </data>
+  <data name="ProcessModel.ScanRefProgKeyId">
+    <value>Programme scanné</value>
+  </data>
+  <data name="ProcessModel.SecondApproveComment">
+    <value>Commentaire</value>
+  </data>
+  <data name="ProcessModel.SecondApproveUserKeyId">
+    <value>Seconde approbation</value>
+  </data>
+  <data name="ProcessModel.StartTime">
+    <value>Débuté</value>
+  </data>
+  <data name="ProcessModel.StartTime2">
+    <value>Débuté 2</value>
+  </data>
+  <data name="ProcessModel.Status">
+    <value>Statut</value>
+  </data>
+  <data name="ProcessModel.Type">
+    <value>Type</value>
+  </data>
+  <data name="SupplierModel.Created">
+    <value></value>
+  </data>
+  <data name="SupplierModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="SupplierModel.Modified">
+    <value></value>
+  </data>
+  <data name="SupplierModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="SupplierModel.Acceptorders">
+    <value>Accepter les ordres d'achat</value>
+  </data>
+  <data name="SupplierModel.Address1">
+    <value>Adresse</value>
+  </data>
+  <data name="SupplierModel.Address2">
+    <value>Adresse (2)</value>
+  </data>
+  <data name="SupplierModel.Barcode">
+    <value>Codes barres</value>
+  </data>
+  <data name="SupplierModel.CalKeyId">
+    <value>Calendrier</value>
+  </data>
+  <data name="SupplierModel.City">
+    <value>Code postal/Ville</value>
+  </data>
+  <data name="SupplierModel.Country">
+    <value>Pays</value>
+  </data>
+  <data name="SupplierModel.Email">
+    <value>Courriel</value>
+  </data>
+  <data name="SupplierModel.FacKeyId">
+    <value>Usine</value>
+  </data>
+  <data name="SupplierModel.Fax">
+    <value>Fax</value>
+  </data>
+  <data name="SupplierModel.Flags1">
+    <value>Options</value>
+  </data>
+  <data name="SupplierModel.Internal">
+    <value>Interne</value>
+  </data>
+  <data name="SupplierModel.KeyId">
+    <value>ID Fournisseur</value>
+  </data>
+  <data name="SupplierModel.Name">
+    <value>Nom</value>
+  </data>
+  <data name="SupplierModel.OrderDelTime">
+    <value>Heure de livraison de la commande</value>
+  </data>
+  <data name="SupplierModel.OrderHandlingTime">
+    <value>Heure de traitement de la commande</value>
+  </data>
+  <data name="SupplierModel.OrderRampTime">
+    <value>Heure de rampe de commande</value>
+  </data>
+  <data name="SupplierModel.OrderTransmitTime">
+    <value>Heure de transmission de la commande</value>
+  </data>
+  <data name="SupplierModel.OwnCustNumber">
+    <value>Nombre personnel</value>
+  </data>
+  <data name="SupplierModel.Remark">
+    <value>Remarque</value>
+  </data>
+  <data name="SupplierModel.RepairVendorKeyId">
+    <value>Réparation fournisseur</value>
+  </data>
+  <data name="SupplierModel.Status">
+    <value>Statut</value>
+  </data>
+  <data name="SupplierModel.Supplier">
+    <value>Fournisseur</value>
+  </data>
+  <data name="SupplierModel.Telephone">
+    <value>Téléphone</value>
+  </data>
+  <data name="SupplierModel.Type">
+    <value>Type</value>
+  </data>
+  <data name="SupplierModel.UserField01">
+    <value>Champ utilisateur 1</value>
+  </data>
+  <data name="SupplierModel.UserField02">
+    <value>Champ utilisateur 2</value>
+  </data>
+  <data name="SupplierModel.UserField03">
+    <value>Champ utilisateur 3</value>
+  </data>
+  <data name="SupplierModel.UserField04">
+    <value>Champ utilisateur 4</value>
+  </data>
+  <data name="SupplierModel.UserField05">
+    <value>Champ utilisateur 5</value>
+  </data>
+  <data name="SupplierModel.UserField06">
+    <value>Champ utilisateur 6</value>
+  </data>
+  <data name="SupplierModel.UserField07">
+    <value>Champ utilisateur 7</value>
+  </data>
+  <data name="SupplierModel.UserField08">
+    <value>Champ utilisateur 8</value>
+  </data>
+  <data name="SupplierModel.UserField09">
+    <value>Champ utilisateur 9</value>
+  </data>
+  <data name="SupplierModel.UserField10">
+    <value>Champ utilisateur 10</value>
+  </data>
+  <data name="SupplierModel.UserField11">
+    <value>Champ utilisateur 11</value>
+  </data>
+  <data name="SupplierModel.UserField12">
+    <value>Champ utilisateur 12</value>
+  </data>
+  <data name="SupplierModel.UserField13">
+    <value>Champ utilisateur 13</value>
+  </data>
+  <data name="SupplierModel.UserField14">
+    <value>Champ utilisateur 14</value>
+  </data>
+  <data name="SupplierModel.UserField15">
+    <value>Champ utilisateur 15</value>
+  </data>
+  <data name="SupplierModel.UserField16">
+    <value>Champ utilisateur 16</value>
+  </data>
+  <data name="SupplierModel.UserField17">
+    <value>Champ utilisateur 17</value>
+  </data>
+  <data name="SupplierModel.UserField18">
+    <value>Champ utilisateur 18</value>
+  </data>
+  <data name="SupplierModel.UserField19">
+    <value>Champ utilisateur 19</value>
+  </data>
+  <data name="SupplierModel.UserField20">
+    <value>Champ utilisateur 20</value>
+  </data>
+  <data name="SupplierModel.WebPassword">
+    <value>Mot de passe Web/FTP</value>
+  </data>
+  <data name="SupplierModel.WebSite">
+    <value>Site Web</value>
+  </data>
+  <data name="SupplierModel.WebUser">
+    <value>Utilisateur Web/FTP</value>
+  </data>
+  <data name="LocationModel.Created">
+    <value></value>
+  </data>
+  <data name="LocationModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="LocationModel.Modified">
+    <value></value>
+  </data>
+  <data name="LocationModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="LocationModel.AutoStokKeyId">
+    <value>Stock de consommables</value>
+  </data>
+  <data name="LocationModel.Barcode">
+    <value>Codes barres</value>
+  </data>
+  <data name="LocationModel.DefUserKeyId">
+    <value>Utilisateur par défaut</value>
+  </data>
+  <data name="LocationModel.Descr">
+    <value>Description</value>
+  </data>
+  <data name="LocationModel.Direction">
+    <value>Direction</value>
+  </data>
+  <data name="LocationModel.FacKeyId">
+    <value>Usine</value>
+  </data>
+  <data name="LocationModel.Flags">
+    <value>Mémoires</value>
+  </data>
+  <data name="LocationModel.IdlemacroKeyId">
+    <value>Macro inactive</value>
+  </data>
+  <data name="LocationModel.Idlemacrotime">
+    <value>Temps décalage macro</value>
+  </data>
+  <data name="LocationModel.Info">
+    <value>Info</value>
+  </data>
+  <data name="LocationModel.IsMaster">
+    <value>Est l'emplacement maître</value>
+  </data>
+  <data name="LocationModel.KeyId">
+    <value>ID Emplacement</value>
+  </data>
+  <data name="LocationModel.MacroKeyId">
+    <value>Macro</value>
+  </data>
+  <data name="LocationModel.MasterLocaKeyId">
+    <value>Emplacement principal</value>
+  </data>
+  <data name="LocationModel.MesConfig">
+    <value>MES configuration</value>
+  </data>
+  <data name="LocationModel.Name">
+    <value>Nom</value>
+  </data>
+  <data name="LocationModel.Process">
+    <value>Processus</value>
+  </data>
+  <data name="LocationModel.ProcessOpt">
+    <value>Options processus</value>
+  </data>
+  <data name="LocationModel.Status">
+    <value>Statut</value>
+  </data>
+  <data name="LocationModel.StokKeyId">
+    <value>Stock</value>
+  </data>
+  <data name="LocationModel.SubProcess">
+    <value>Sous-processus</value>
+  </data>
+  <data name="LocationModel.Tag">
+    <value>Etiquette</value>
+  </data>
+  <data name="LocationModel.UIAvailability">
+    <value>Disponibilité</value>
+  </data>
+  <data name="LocationModel.UiLdKeyId">
+    <value>Couche UI</value>
+  </data>
+  <data name="LocationModel.UIStartMode">
+    <value>Mode scanner UI démarré</value>
+  </data>
+  <data name="FixedStockPlacementsModel.KeyId">
+    <value>ID Fixed stock placement</value>
+  </data>
+  <data name="FixedStockPlacementsModel.Name">
+    <value>Nom</value>
+  </data>
+  <data name="FixedStockPlacementsModel.Placement">
+    <value>Emplacement</value>
+  </data>
+  <data name="FixedStockPlacementsModel.StokKeyId">
+    <value>Stock</value>
+  </data>
+  <data name="TextModel.Created">
+    <value></value>
+  </data>
+  <data name="TextModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="TextModel.Modified">
+    <value></value>
+  </data>
+  <data name="TextModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="TextModel.Data">
+    <value>Données</value>
+  </data>
+  <data name="TextModel.FloatOption">
+    <value>Valeur</value>
+  </data>
+  <data name="TextModel.KeyId">
+    <value>ID texte</value>
+  </data>
+  <data name="TextModel.Memo">
+    <value>Description</value>
+  </data>
+  <data name="TextModel.Number">
+    <value>N°</value>
+  </data>
+  <data name="TextModel.Option">
+    <value>Option</value>
+  </data>
+  <data name="TextModel.SysOption">
+    <value>Option Système</value>
+  </data>
+  <data name="TextModel.Text">
+    <value>Texte</value>
+  </data>
+  <data name="TextModel.Type">
+    <value>Type</value>
+  </data>
+  <data name="LocationGroupModel.Created">
+    <value></value>
+  </data>
+  <data name="LocationGroupModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="LocationGroupModel.Modified">
+    <value></value>
+  </data>
+  <data name="LocationGroupModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="LocationGroupModel.Descr">
+    <value>Description</value>
+  </data>
+  <data name="LocationGroupModel.KeyId">
+    <value>ID Groupe Emplacement</value>
+  </data>
+  <data name="LocationGroupModel.LocationGroup">
+    <value>Groupe d'emplacement</value>
+  </data>
+  <data name="LocationGroupModel.Name">
+    <value>Nom</value>
+  </data>
+  <data name="LocationGroupModel.Vicinity">
+    <value>Proximité</value>
+  </data>
+  <data name="CatalogModel.Created">
+    <value></value>
+  </data>
+  <data name="CatalogModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="CatalogModel.Modified">
+    <value></value>
+  </data>
+  <data name="CatalogModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="CatalogModel.CatalogNo">
+    <value>N° de catalogue</value>
+  </data>
+  <data name="CatalogModel.CostPrice">
+    <value>Prix d'achat</value>
+  </data>
+  <data name="CatalogModel.Disposable">
+    <value>Usage unique</value>
+  </data>
+  <data name="CatalogModel.ItGrpKeyId">
+    <value>Groupe article</value>
+  </data>
+  <data name="CatalogModel.ItspcKeyId">
+    <value>Spécialité</value>
+  </data>
+  <data name="CatalogModel.KeyId">
+    <value>ID Catalogue</value>
+  </data>
+  <data name="CatalogModel.Length">
+    <value>Longueur</value>
+  </data>
+  <data name="CatalogModel.LifeSpan">
+    <value>Durée de vie</value>
+  </data>
+  <data name="CatalogModel.ManufactorNo">
+    <value>N° Fabricant</value>
+  </data>
+  <data name="CatalogModel.ManuKeyId">
+    <value>Fabricant</value>
+  </data>
+  <data name="CatalogModel.Material">
+    <value>Matériau</value>
+  </data>
+  <data name="CatalogModel.MaterialsNum">
+    <value>N° matériau</value>
+  </data>
+  <data name="CatalogModel.MaxPressure">
+    <value>Press. max</value>
+  </data>
+  <data name="CatalogModel.MaxTemp">
+    <value>T° max</value>
+  </data>
+  <data name="CatalogModel.OrderMinCount">
+    <value>Quantité minimum livrée</value>
+  </data>
+  <data name="CatalogModel.OrderStdCount">
+    <value>Taille du module de commande</value>
+  </data>
+  <data name="CatalogModel.OrderstduomKeyId">
+    <value>Mesure du module de commande</value>
+  </data>
+  <data name="CatalogModel.OtherUnitCount">
+    <value>Unité de comptage</value>
+  </data>
+  <data name="CatalogModel.OtheruomKeyId">
+    <value>Unité de mesure</value>
+  </data>
+  <data name="CatalogModel.RepairVendorKeyId">
+    <value>Réparation fournisseur</value>
+  </data>
+  <data name="CatalogModel.SterilizationType">
+    <value>Type de stérilisation</value>
+  </data>
+  <data name="CatalogModel.SuppKeyId">
+    <value>Fournisseur</value>
+  </data>
+  <data name="CatalogModel.Text">
+    <value>Nom</value>
+  </data>
+  <data name="CatalogModel.Tip">
+    <value>Epaisseur</value>
+  </data>
+  <data name="CatalogModel.UnitCount">
+    <value>Nombre unité</value>
+  </data>
+  <data name="CatalogModel.UomKeyId">
+    <value>Mesure unité</value>
+  </data>
+  <data name="CatalogModel.Warranty">
+    <value>Garantie</value>
+  </data>
+  <data name="CatalogModel.Weight">
+    <value>Poids</value>
+  </data>
+  <data name="CatalogModel.Width">
+    <value>Largeur</value>
+  </data>
+  <data name="ItemGroupModel.Descr">
+    <value>Description</value>
+  </data>
+  <data name="ItemGroupModel.FacKeyId">
+    <value>Usine</value>
+  </data>
+  <data name="ItemGroupModel.ItemGroup">
+    <value>Groupe article</value>
+  </data>
+  <data name="ItemGroupModel.KeyId">
+    <value>ID Groupe d'article</value>
+  </data>
+  <data name="ItemGroupModel.Name">
+    <value>Nom</value>
+  </data>
+  <data name="ItemGroupModel.PricingType">
+    <value>Type de prix</value>
+  </data>
+  <data name="ItemSpecialtyModel.Descr">
+    <value>Description</value>
+  </data>
+  <data name="ItemSpecialtyModel.FacKeyId">
+    <value>Usine</value>
+  </data>
+  <data name="ItemSpecialtyModel.KeyId">
+    <value>ID Spécialité</value>
+  </data>
+  <data name="ItemSpecialtyModel.Name">
+    <value>Nom</value>
+  </data>
+  <data name="ItemSpecialtyModel.Specialty">
+    <value>Spécialité</value>
+  </data>
+  <data name="ItemUOMModel.Descr">
+    <value>Description</value>
+  </data>
+  <data name="ItemUOMModel.KeyId">
+    <value>ID Unité de mesure</value>
+  </data>
+  <data name="ItemUOMModel.Name">
+    <value>Nom</value>
+  </data>
+  <data name="ItemUOMModel.Uom">
+    <value>Unité de mesure</value>
+  </data>
+  <data name="TagTypeModel.Created">
+    <value></value>
+  </data>
+  <data name="TagTypeModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="TagTypeModel.Modified">
+    <value></value>
+  </data>
+  <data name="TagTypeModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="TagTypeModel.Descr">
+    <value>Remarques</value>
+  </data>
+  <data name="TagTypeModel.Height">
+    <value>Hauteur</value>
+  </data>
+  <data name="TagTypeModel.HeightCapacity">
+    <value>Capacité en hauteur</value>
+  </data>
+  <data name="TagTypeModel.HoldsItems">
+    <value>Maintient des articles</value>
+  </data>
+  <data name="TagTypeModel.InTTGKeyId">
+    <value>Groupe de type d’étiquette identique</value>
+  </data>
+  <data name="TagTypeModel.KeyId">
+    <value>ID type étiquette</value>
+  </data>
+  <data name="TagTypeModel.Name">
+    <value>Nom</value>
+  </data>
+  <data name="TagTypeModel.SuppKeyId">
+    <value>Réparation fournisseur</value>
+  </data>
+  <data name="TagTypeModel.SysType">
+    <value>Type système</value>
+  </data>
+  <data name="TagTypeModel.Type">
+    <value>Type</value>
+  </data>
+  <data name="TagTypeModel.UserField01">
+    <value>Champ utilisateur 1</value>
+  </data>
+  <data name="TagTypeModel.UserField02">
+    <value>Champ utilisateur 2</value>
+  </data>
+  <data name="TagTypeModel.UserField03">
+    <value>Champ utilisateur 3</value>
+  </data>
+  <data name="TagTypeModel.UserField04">
+    <value>Champ utilisateur 4</value>
+  </data>
+  <data name="TagTypeModel.UserField05">
+    <value>Champ utilisateur 5</value>
+  </data>
+  <data name="TagTypeModel.UserField06">
+    <value>Champ utilisateur 6</value>
+  </data>
+  <data name="TagTypeModel.UserField07">
+    <value>Champ utilisateur 7</value>
+  </data>
+  <data name="TagTypeModel.UserField08">
+    <value>Champ utilisateur 8</value>
+  </data>
+  <data name="TagTypeModel.UserField09">
+    <value>Champ utilisateur 9</value>
+  </data>
+  <data name="TagTypeModel.UserField10">
+    <value>Champ utilisateur 10</value>
+  </data>
+  <data name="TagTypeModel.UserField11">
+    <value>Champ utilisateur 11</value>
+  </data>
+  <data name="TagTypeModel.UserField12">
+    <value>Champ utilisateur 12</value>
+  </data>
+  <data name="TagTypeModel.UserField13">
+    <value>Champ utilisateur 13</value>
+  </data>
+  <data name="TagTypeModel.UserField14">
+    <value>Champ utilisateur 14</value>
+  </data>
+  <data name="TagTypeModel.UserField15">
+    <value>Champ utilisateur 15</value>
+  </data>
+  <data name="TagTypeModel.UserField16">
+    <value>Champ utilisateur 16</value>
+  </data>
+  <data name="TagTypeModel.UserField17">
+    <value>Champ utilisateur 17</value>
+  </data>
+  <data name="TagTypeModel.UserField18">
+    <value>Champ utilisateur 18</value>
+  </data>
+  <data name="TagTypeModel.UserField19">
+    <value>Champ utilisateur 19</value>
+  </data>
+  <data name="TagTypeModel.UserField20">
+    <value>Champ utilisateur 20</value>
+  </data>
+  <data name="TagTypeModel.Width">
+    <value>Largeur</value>
+  </data>
+  <data name="TagTypeModel.WidthCapacity">
+    <value>Capacité en largeur</value>
+  </data>
+  <data name="SealerProgramModel.Created">
+    <value></value>
+  </data>
+  <data name="SealerProgramModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="SealerProgramModel.Modified">
+    <value></value>
+  </data>
+  <data name="SealerProgramModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="SealerProgramModel.KeyId">
+    <value>ID Programme scelleuse</value>
+  </data>
+  <data name="SealerProgramModel.Name">
+    <value>Nom</value>
+  </data>
+  <data name="SealerProgramModel.Pres">
+    <value>Pression</value>
+  </data>
+  <data name="SealerProgramModel.Program">
+    <value>Programme</value>
+  </data>
+  <data name="SealerProgramModel.Temp">
+    <value>Température</value>
+  </data>
+  <data name="EmgCaseCartTypeModel.Created">
+    <value></value>
+  </data>
+  <data name="EmgCaseCartTypeModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="EmgCaseCartTypeModel.Modified">
+    <value></value>
+  </data>
+  <data name="EmgCaseCartTypeModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="EmgCaseCartTypeModel.CuSiteKeyId">
+    <value>Site client</value>
+  </data>
+  <data name="EmgCaseCartTypeModel.Descr">
+    <value>Remarque</value>
+  </data>
+  <data name="EmgCaseCartTypeModel.Id">
+    <value>Type</value>
+  </data>
+  <data name="EmgCaseCartTypeModel.KeyId">
+    <value>ID Clé</value>
+  </data>
+  <data name="EmgCaseCartTypeModel.Name">
+    <value>Nom</value>
+  </data>
+  <data name="EmgCaseCartTypeModel.OptKeyId">
+    <value>Type d'intervention</value>
+  </data>
+  <data name="OperationTypeModel.Created">
+    <value></value>
+  </data>
+  <data name="OperationTypeModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="OperationTypeModel.Modified">
+    <value></value>
+  </data>
+  <data name="OperationTypeModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="OperationTypeModel.AssDoctorCount">
+    <value>Nombre assistant médecin</value>
+  </data>
+  <data name="OperationTypeModel.Cleanup">
+    <value>Nettoyage</value>
+  </data>
+  <data name="OperationTypeModel.CntpsKeyId">
+    <value>Groupe point de comptage</value>
+  </data>
+  <data name="OperationTypeModel.Code">
+    <value>Code</value>
+  </data>
+  <data name="OperationTypeModel.DefcustKeyId">
+    <value>Client standard</value>
+  </data>
+  <data name="OperationTypeModel.DefcuststokKeyId">
+    <value>Stock client standard</value>
+  </data>
+  <data name="OperationTypeModel.DefroomKeyId">
+    <value>Salle d'intervention</value>
+  </data>
+  <data name="OperationTypeModel.Desc">
+    <value>Description</value>
+  </data>
+  <data name="OperationTypeModel.Duration">
+    <value>Durée</value>
+  </data>
+  <data name="OperationTypeModel.KeyId">
+    <value>ID Type Intervention</value>
+  </data>
+  <data name="OperationTypeModel.MinOrderLeadTime">
+    <value>Temps min. commande avant l'intervention</value>
+  </data>
+  <data name="OperationTypeModel.Name">
+    <value>Nom</value>
+  </data>
+  <data name="OperationTypeModel.PatAgeUsage">
+    <value>Utilisation de l'age du patient</value>
+  </data>
+  <data name="OperationTypeModel.PatGenderUsage">
+    <value>Utilisation de l'info sexe du patient</value>
+  </data>
+  <data name="OperationTypeModel.Prepare">
+    <value>Préparer</value>
+  </data>
+  <data name="OperationTypeModel.Status">
+    <value>Statut</value>
+  </data>
+  <data name="OperationTypeModel.Type">
+    <value>Type de modèle</value>
+  </data>
+  <data name="OperationTypeModel.UserField01">
+    <value>Champ utilisateur 1</value>
+  </data>
+  <data name="OperationTypeModel.UserField02">
+    <value>Champ utilisateur 2</value>
+  </data>
+  <data name="OperationTypeModel.UserField03">
+    <value>Champ utilisateur 3</value>
+  </data>
+  <data name="OperationTypeModel.UserField04">
+    <value>Champ utilisateur 4</value>
+  </data>
+  <data name="OperationTypeModel.UserField05">
+    <value>Champ utilisateur 5</value>
+  </data>
+  <data name="OperationTypeModel.UserField06">
+    <value>Champ utilisateur 6</value>
+  </data>
+  <data name="OperationTypeModel.UserField07">
+    <value>Champ utilisateur 7</value>
+  </data>
+  <data name="OperationTypeModel.UserField08">
+    <value>Champ utilisateur 8</value>
+  </data>
+  <data name="OperationTypeModel.UserField09">
+    <value>Champ utilisateur 9</value>
+  </data>
+  <data name="OperationTypeModel.UserField10">
+    <value>Champ utilisateur 10</value>
+  </data>
+  <data name="OperationTypeModel.UserField11">
+    <value>Champ utilisateur 11</value>
+  </data>
+  <data name="OperationTypeModel.UserField12">
+    <value>Champ utilisateur 12</value>
+  </data>
+  <data name="OperationTypeModel.UserField13">
+    <value>Champ utilisateur 13</value>
+  </data>
+  <data name="OperationTypeModel.UserField14">
+    <value>Champ utilisateur 14</value>
+  </data>
+  <data name="OperationTypeModel.UserField15">
+    <value>Champ utilisateur 15</value>
+  </data>
+  <data name="OperationTypeModel.UserField16">
+    <value>Champ utilisateur 16</value>
+  </data>
+  <data name="OperationTypeModel.UserField17">
+    <value>Champ utilisateur 17</value>
+  </data>
+  <data name="OperationTypeModel.UserField18">
+    <value>Champ utilisateur 18</value>
+  </data>
+  <data name="OperationTypeModel.UserField19">
+    <value>Champ utilisateur 19</value>
+  </data>
+  <data name="OperationTypeModel.UserField20">
+    <value>Champ utilisateur 20</value>
+  </data>
+  <data name="MachineModel.Created">
+    <value></value>
+  </data>
+  <data name="MachineModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="MachineModel.Modified">
+    <value></value>
+  </data>
+  <data name="MachineModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="MachineModel.ActualProgramCheck">
+    <value>Vérification programme scanné &amp; programme lancé</value>
+  </data>
+  <data name="MachineModel.AgsKeyId">
+    <value>AGS</value>
+  </data>
+  <data name="MachineModel.Alertdelay">
+    <value>Délai d'alerte</value>
+  </data>
+  <data name="MachineModel.AllowBatch">
+    <value>Autorise l'enregistrement du lot</value>
+  </data>
+  <data name="MachineModel.AllowDataExport">
+    <value>Autorise l'exportation des données (XML)</value>
+  </data>
+  <data name="MachineModel.AllowLog">
+    <value>Autorise l'enregistrement des données (supervision)</value>
+  </data>
+  <data name="MachineModel.Barcode">
+    <value>Code barres</value>
+  </data>
+  <data name="MachineModel.Chargenummode">
+    <value>Enregistrement compteur cycle</value>
+  </data>
+  <data name="MachineModel.ConfData">
+    <value>Données de configuration</value>
+  </data>
+  <data name="MachineModel.CycleCount">
+    <value>Compteur cycle</value>
+  </data>
+  <data name="MachineModel.DefProgFromModel">
+    <value>Utiliser le réglage du modèle Machine</value>
+  </data>
+  <data name="MachineModel.DefProgKeyId">
+    <value>Programme</value>
+  </data>
+  <data name="MachineModel.DestApproveLocaKeyId">
+    <value>Destination approuvée</value>
+  </data>
+  <data name="MachineModel.DestDisapproveLocaKeyId">
+    <value>Destination rejétée</value>
+  </data>
+  <data name="MachineModel.DestEndErrorLocaKeyId">
+    <value>Destination Processus terminén avec erreur</value>
+  </data>
+  <data name="MachineModel.DestEndLocaKeyId">
+    <value>Destination Processus terminé</value>
+  </data>
+  <data name="MachineModel.Info">
+    <value>Info</value>
+  </data>
+  <data name="MachineModel.InitBatchCount">
+    <value>Nombre de lots max initialisés</value>
+  </data>
+  <data name="MachineModel.KeyId">
+    <value>ID Machine</value>
+  </data>
+  <data name="MachineModel.LastCycleCount">
+    <value>Numéro du dernier cycle</value>
+  </data>
+  <data name="MachineModel.LastMinutesOn">
+    <value>Dernières minutes enclenchées</value>
+  </data>
+  <data name="MachineModel.LastMinutesRun">
+    <value>Dernières minutes de cycle</value>
+  </data>
+  <data name="MachineModel.LoadOnStart">
+    <value>Utiliser l’étiquette de charge</value>
+  </data>
+  <data name="MachineModel.LogBatchContent">
+    <value>Contenu du fichier de log du lot</value>
+  </data>
+  <data name="MachineModel.McTypKeyId">
+    <value>Modèle</value>
+  </data>
+  <data name="MachineModel.MinutesOn">
+    <value>Minutes enclenchées</value>
+  </data>
+  <data name="MachineModel.MinutesRun">
+    <value>Minutes de cycle</value>
+  </data>
+  <data name="MachineModel.Name">
+    <value>Nom</value>
+  </data>
+  <data name="MachineModel.Prescan">
+    <value>Pré scan</value>
+  </data>
+  <data name="MachineModel.PrintLabelApprove">
+    <value>Impression étiquette: cycle approuvé</value>
+  </data>
+  <data name="MachineModel.PrintLabelDisappr">
+    <value>Impression étiquette: cycle rejeté</value>
+  </data>
+  <data name="MachineModel.PrintLabelEnd">
+    <value>Impression étiquette: cycle terminé</value>
+  </data>
+  <data name="MachineModel.PrintLabelInit">
+    <value>Impression étiquette: cycle initialisé</value>
+  </data>
+  <data name="MachineModel.PrintLabelStart">
+    <value>Impression étiquette: cycle démarré</value>
+  </data>
+  <data name="MachineModel.PrintLabelStickers">
+    <value>Impression contre étiquette</value>
+  </data>
+  <data name="MachineModel.PrintListApprove">
+    <value>Impression liste: cycle approuvé</value>
+  </data>
+  <data name="MachineModel.PrintListDisappr">
+    <value>Impression liste: cycle rejeté</value>
+  </data>
+  <data name="MachineModel.PrintListEnd">
+    <value>Impression liste: cycle terminé</value>
+  </data>
+  <data name="MachineModel.PrintListInit">
+    <value>Impression liste: cycle initialisé</value>
+  </data>
+  <data name="MachineModel.PrintListStart">
+    <value>Impression liste: cycle démarré</value>
+  </data>
+  <data name="MachineModel.PrintNativePdf">
+    <value>Imprimer PDF natif</value>
+  </data>
+  <data name="MachineModel.RefNum">
+    <value>Ref. no.</value>
+  </data>
+  <data name="MachineModel.SerialNo">
+    <value>N° de série</value>
+  </data>
+  <data name="MachineModel.ShiftToHours">
+    <value>Données internes</value>
+  </data>
+  <data name="MachineModel.Text">
+    <value>Texte</value>
+  </data>
+  <data name="MachineModel.Updateinterval">
+    <value>Intervalle mise à jour données</value>
+  </data>
+  <data name="MachineModel.Warnemptybatch">
+    <value>Avertissement lorsque le lot est vide</value>
+  </data>
+  <data name="ProgramModel.Created">
+    <value></value>
+  </data>
+  <data name="ProgramModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="ProgramModel.Modified">
+    <value></value>
+  </data>
+  <data name="ProgramModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="ProgramModel.Approval">
+    <value>Approbation</value>
+  </data>
+  <data name="ProgramModel.Barcode">
+    <value>Code barres</value>
+  </data>
+  <data name="ProgramModel.CheckInitiated">
+    <value>Initialisation manuelle</value>
+  </data>
+  <data name="ProgramModel.ConsumCost">
+    <value>Consommation</value>
+  </data>
+  <data name="ProgramModel.DeprecCost">
+    <value>Dépréciation</value>
+  </data>
+  <data name="ProgramModel.Description">
+    <value>Description</value>
+  </data>
+  <data name="ProgramModel.Duration">
+    <value>Durée du cycle</value>
+  </data>
+  <data name="ProgramModel.ExtLogRequired">
+    <value>Log externe nécessaire</value>
+  </data>
+  <data name="ProgramModel.FilterDeltaP">
+    <value>Filtre écart pression</value>
+  </data>
+  <data name="ProgramModel.FilterDeltaT">
+    <value>Filtre écart température</value>
+  </data>
+  <data name="ProgramModel.FilterTime1">
+    <value>Durée filtre 1</value>
+  </data>
+  <data name="ProgramModel.FilterTime2">
+    <value>Durée filtre 2</value>
+  </data>
+  <data name="ProgramModel.InternalParams">
+    <value>Paramètres internes</value>
+  </data>
+  <data name="ProgramModel.KeyId">
+    <value>ID Programme</value>
+  </data>
+  <data name="ProgramModel.LogRef">
+    <value>Journal de référence</value>
+  </data>
+  <data name="ProgramModel.MaxTemp">
+    <value>T° max</value>
+  </data>
+  <data name="ProgramModel.McTypKeyId">
+    <value>Modèles machine</value>
+  </data>
+  <data name="ProgramModel.Name">
+    <value>Nom</value>
+  </data>
+  <data name="ProgramModel.Password">
+    <value>Mot de passe</value>
+  </data>
+  <data name="ProgramModel.PreHiPres">
+    <value>Pré press. haute</value>
+  </data>
+  <data name="ProgramModel.PreHiTemp">
+    <value>Pré tempér. haute</value>
+  </data>
+  <data name="ProgramModel.PreLowPres">
+    <value>Pré press. basse</value>
+  </data>
+  <data name="ProgramModel.PreLowTemp">
+    <value>Pré tempér. basse</value>
+  </data>
+  <data name="ProgramModel.PrePulses">
+    <value>Prévides</value>
+  </data>
+  <data name="ProgramModel.Price">
+    <value>Prix</value>
+  </data>
+  <data name="ProgramModel.Program">
+    <value>Programme</value>
+  </data>
+  <data name="ProgramModel.QSetKeyId">
+    <value>Définition question</value>
+  </data>
+  <data name="ProgramModel.ReportName">
+    <value>Nom du rapport</value>
+  </data>
+  <data name="ProgramModel.ScanNum">
+    <value>N° interne</value>
+  </data>
+  <data name="ProgramModel.SecondUserApproval">
+    <value>Seconde requise</value>
+  </data>
+  <data name="ProgramModel.SterilePres">
+    <value>Press. exposition</value>
+  </data>
+  <data name="ProgramModel.SterileSeconds">
+    <value>Durée d'exposition</value>
+  </data>
+  <data name="ProgramModel.SterileTemp">
+    <value>Température d'exposition</value>
+  </data>
+  <data name="ProgramModel.Type">
+    <value>Type</value>
+  </data>
+  <data name="ProgramModel.UtilityCost">
+    <value>Utilitaire</value>
+  </data>
+  <data name="ProgramModel.Validate">
+    <value>Valider</value>
+  </data>
+  <data name="ProgramRecipeModel.Created">
+    <value></value>
+  </data>
+  <data name="ProgramRecipeModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="ProgramRecipeModel.Modified">
+    <value></value>
+  </data>
+  <data name="ProgramRecipeModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="ProgramRecipeModel.Approval">
+    <value>Approbation</value>
+  </data>
+  <data name="ProgramRecipeModel.Description">
+    <value>Description</value>
+  </data>
+  <data name="ProgramRecipeModel.Duration">
+    <value>Durée</value>
+  </data>
+  <data name="ProgramRecipeModel.KeyId">
+    <value>ID Recette Programme</value>
+  </data>
+  <data name="ProgramRecipeModel.Leqfilling">
+    <value>Remplissage</value>
+  </data>
+  <data name="ProgramRecipeModel.LeqKeyId">
+    <value>Equipement de chargement</value>
+  </data>
+  <data name="ProgramRecipeModel.LogRef">
+    <value>Journal de référence</value>
+  </data>
+  <data name="ProgramRecipeModel.Maxgravity">
+    <value>Gravité max.</value>
+  </data>
+  <data name="ProgramRecipeModel.MaxTemp">
+    <value>T° max</value>
+  </data>
+  <data name="ProgramRecipeModel.Mingravity">
+    <value>Gravité min.</value>
+  </data>
+  <data name="ProgramRecipeModel.Name">
+    <value>Nom</value>
+  </data>
+  <data name="ProgramRecipeModel.Origin">
+    <value>Origine</value>
+  </data>
+  <data name="ProgramRecipeModel.Original">
+    <value>Origine</value>
+  </data>
+  <data name="ProgramRecipeModel.Posttreat">
+    <value>Post traitement</value>
+  </data>
+  <data name="ProgramRecipeModel.PreHiPres">
+    <value>Pré press. haute</value>
+  </data>
+  <data name="ProgramRecipeModel.PreHiTemp">
+    <value>Pré tempér. haute</value>
+  </data>
+  <data name="ProgramRecipeModel.PreLowPres">
+    <value>Pré press. basse</value>
+  </data>
+  <data name="ProgramRecipeModel.PreLowTemp">
+    <value>Pré tempér. basse</value>
+  </data>
+  <data name="ProgramRecipeModel.PrePulses">
+    <value>Prévides</value>
+  </data>
+  <data name="ProgramRecipeModel.Pretreat">
+    <value>Pré traitement</value>
+  </data>
+  <data name="ProgramRecipeModel.ProgKeyId">
+    <value>Programme</value>
+  </data>
+  <data name="ProgramRecipeModel.Reloadtime">
+    <value>Délai de chargement</value>
+  </data>
+  <data name="ProgramRecipeModel.Runcount">
+    <value>Compteur exécution</value>
+  </data>
+  <data name="ProgramRecipeModel.SterilePres">
+    <value>Press. exposition</value>
+  </data>
+  <data name="ProgramRecipeModel.SterileSeconds">
+    <value>Durée d'exposition</value>
+  </data>
+  <data name="ProgramRecipeModel.SterileTemp">
+    <value>Température d'exposition</value>
+  </data>
+  <data name="ProgramRecipeModel.Validate">
+    <value>Valider</value>
+  </data>
+  <data name="MacroModel.Created">
+    <value></value>
+  </data>
+  <data name="MacroModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="MacroModel.Modified">
+    <value></value>
+  </data>
+  <data name="MacroModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="MacroModel.Barcode">
+    <value>Code barres</value>
+  </data>
+  <data name="MacroModel.Data">
+    <value>Données</value>
+  </data>
+  <data name="MacroModel.KeyId">
+    <value>ID Macro</value>
+  </data>
+  <data name="MacroModel.Macro">
+    <value>Macro</value>
+  </data>
+  <data name="MacroModel.Name">
+    <value>Nom</value>
+  </data>
+  <data name="MacroModel.Remark">
+    <value>Remarque</value>
+  </data>
+  <data name="UILayerDefModel.Created">
+    <value></value>
+  </data>
+  <data name="UILayerDefModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="UILayerDefModel.Modified">
+    <value></value>
+  </data>
+  <data name="UILayerDefModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="UILayerDefModel.Classname">
+    <value>Nom de classe</value>
+  </data>
+  <data name="UILayerDefModel.Default">
+    <value>Défaut</value>
+  </data>
+  <data name="UILayerDefModel.DefSys">
+    <value>définition du système</value>
+  </data>
+  <data name="UILayerDefModel.DefUsr">
+    <value>Définition de l'utilisateur</value>
+  </data>
+  <data name="UILayerDefModel.Descr">
+    <value>Description</value>
+  </data>
+  <data name="UILayerDefModel.Enabled">
+    <value>Activé</value>
+  </data>
+  <data name="UILayerDefModel.KeyId">
+    <value>ID Couche UI</value>
+  </data>
+  <data name="UILayerDefModel.Name">
+    <value>Nom</value>
+  </data>
+  <data name="UILayerDefModel.SysId">
+    <value>ID Système</value>
+  </data>
+  <data name="UILayerDefModel.SysType">
+    <value>Type système</value>
+  </data>
+  <data name="UILayerDefModel.VCLDefSys">
+    <value>définition du système VCL</value>
+  </data>
+  <data name="UILayerDefModel.VCLDefUsr">
+    <value>Définition VCL utilisateur</value>
+  </data>
+  <data name="UILayerDefModel.Version">
+    <value>Version</value>
+  </data>
+  <data name="IdenticalTagTypeGroupModel.KeyId">
+    <value>ID</value>
+  </data>
+  <data name="IdenticalTagTypeGroupModel.TagType">
+    <value>Type d'étiquette</value>
+  </data>
+  <data name="RoomModel.ArrivedLGrpKeyId">
+    <value>Groupe d'emplacements arrivées</value>
+  </data>
+  <data name="RoomModel.AvailableLGrpKeyId">
+    <value>Groupe d'emplacements disponibles</value>
+  </data>
+  <data name="RoomModel.Barcode">
+    <value>Code barres</value>
+  </data>
+  <data name="RoomModel.BlockOrderCreation">
+    <value>Bloquer les commandes basées sur les interventions</value>
+  </data>
+  <data name="RoomModel.CalKeyId">
+    <value>Calendrier</value>
+  </data>
+  <data name="RoomModel.DelGln">
+    <value>Livraison GLN</value>
+  </data>
+  <data name="RoomModel.Desc">
+    <value>Description</value>
+  </data>
+  <data name="RoomModel.Gln">
+    <value>GLN</value>
+  </data>
+  <data name="RoomModel.Id">
+    <value>ID</value>
+  </data>
+  <data name="RoomModel.KeyId">
+    <value>ID Salle d'intervention</value>
+  </data>
+  <data name="RoomModel.Name">
+    <value>Nom</value>
+  </data>
+  <data name="RoomModel.Status">
+    <value>Statut</value>
+  </data>
+  <data name="RoomModel.StGrKeyId">
+    <value>Groupe de stock</value>
+  </data>
+  <data name="RoomModel.StokKeyId">
+    <value>Stock</value>
+  </data>
+  <data name="RoomModel.UserField01">
+    <value>Champ utilisateur 1</value>
+  </data>
+  <data name="RoomModel.UserField02">
+    <value>Champ utilisateur 2</value>
+  </data>
+  <data name="RoomModel.UserField03">
+    <value>Champ utilisateur 3</value>
+  </data>
+  <data name="RoomModel.UserField04">
+    <value>Champ utilisateur 4</value>
+  </data>
+  <data name="RoomModel.UserField05">
+    <value>Champ utilisateur 5</value>
+  </data>
+  <data name="RoomModel.UserField06">
+    <value>Champ utilisateur 6</value>
+  </data>
+  <data name="RoomModel.UserField07">
+    <value>Champ utilisateur 7</value>
+  </data>
+  <data name="RoomModel.UserField08">
+    <value>Champ utilisateur 8</value>
+  </data>
+  <data name="RoomModel.UserField09">
+    <value>Champ utilisateur 9</value>
+  </data>
+  <data name="RoomModel.UserField10">
+    <value>Champ utilisateur 10</value>
+  </data>
+  <data name="RoomModel.UserField11">
+    <value>Champ utilisateur 11</value>
+  </data>
+  <data name="RoomModel.UserField12">
+    <value>Champ utilisateur 12</value>
+  </data>
+  <data name="RoomModel.UserField13">
+    <value>Champ utilisateur 13</value>
+  </data>
+  <data name="RoomModel.UserField14">
+    <value>Champ utilisateur 14</value>
+  </data>
+  <data name="RoomModel.UserField15">
+    <value>Champ utilisateur 15</value>
+  </data>
+  <data name="RoomModel.UserField16">
+    <value>Champ utilisateur 16</value>
+  </data>
+  <data name="RoomModel.UserField17">
+    <value>Champ utilisateur 17</value>
+  </data>
+  <data name="RoomModel.UserField18">
+    <value>Champ utilisateur 18</value>
+  </data>
+  <data name="RoomModel.UserField19">
+    <value>Champ utilisateur 19</value>
+  </data>
+  <data name="RoomModel.UserField20">
+    <value>Champ utilisateur 20</value>
+  </data>
+  <data name="AGSModel.Created">
+    <value></value>
+  </data>
+  <data name="AGSModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="AGSModel.Modified">
+    <value></value>
+  </data>
+  <data name="AGSModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="AGSModel.Barcode">
+    <value>Code barres</value>
+  </data>
+  <data name="AGSModel.Info">
+    <value>Info</value>
+  </data>
+  <data name="AGSModel.KeyId">
+    <value>ID AGS</value>
+  </data>
+  <data name="AGSModel.MasterQueueKeyId">
+    <value>File d'attente prioritaire</value>
+  </data>
+  <data name="AGSModel.Maxloads">
+    <value>Nombre max. de charges</value>
+  </data>
+  <data name="AGSModel.Name">
+    <value>Nom</value>
+  </data>
+  <data name="AGSModel.RefNum">
+    <value>Réf. no (fichier ini)</value>
+  </data>
+  <data name="AGSModel.Text">
+    <value>Texte</value>
+  </data>
+  <data name="MachineTypeModel.Created">
+    <value></value>
+  </data>
+  <data name="MachineTypeModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="MachineTypeModel.Modified">
+    <value></value>
+  </data>
+  <data name="MachineTypeModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="MachineTypeModel.AbsolutePressure">
+    <value>Pression absolue</value>
+  </data>
+  <data name="MachineTypeModel.AutoCreatedIndic">
+    <value>Auto created indicators</value>
+  </data>
+  <data name="MachineTypeModel.BasketDepth">
+    <value>Profondeur panier</value>
+  </data>
+  <data name="MachineTypeModel.BasketFits">
+    <value>Nombre de paniers</value>
+  </data>
+  <data name="MachineTypeModel.BasketHeight">
+    <value>Hauteur Panier</value>
+  </data>
+  <data name="MachineTypeModel.BasketWidth">
+    <value>Largeur panier</value>
+  </data>
+  <data name="MachineTypeModel.CanAutoCreateBI">
+    <value>Peut créer automatiquement des indicateurs biologiques</value>
+  </data>
+  <data name="MachineTypeModel.CBIUsageMode">
+    <value>Indicateur de contrôle requis</value>
+  </data>
+  <data name="MachineTypeModel.DefProgKeyId">
+    <value>Sélection par défaut du programme</value>
+  </data>
+  <data name="MachineTypeModel.FixedTime">
+    <value>Temps fixe</value>
+  </data>
+  <data name="MachineTypeModel.IncubatorType">
+    <value>Batch data incubator</value>
+  </data>
+  <data name="MachineTypeModel.KeyId">
+    <value>ID Type machine</value>
+  </data>
+  <data name="MachineTypeModel.LoadOnStart">
+    <value>Utiliser l’étiquette de charge</value>
+  </data>
+  <data name="MachineTypeModel.LogBatchRegError">
+    <value>Enregistrement du lot erroné</value>
+  </data>
+  <data name="MachineTypeModel.LogBatchRegMode">
+    <value>Mode de l'enregistrement du lot</value>
+  </data>
+  <data name="MachineTypeModel.ManuKeyId">
+    <value>Fabricant</value>
+  </data>
+  <data name="MachineTypeModel.MaxEndo">
+    <value>Endoscope max.</value>
+  </data>
+  <data name="MachineTypeModel.MaxLoadCount">
+    <value>Compteur de charge max.</value>
+  </data>
+  <data name="MachineTypeModel.MaxPerPlacement">
+    <value>Max. endoscopes par étagère</value>
+  </data>
+  <data name="MachineTypeModel.MaxPres">
+    <value>Press. max</value>
+  </data>
+  <data name="MachineTypeModel.MaxTemp">
+    <value>T° max</value>
+  </data>
+  <data name="MachineTypeModel.MinPres">
+    <value>Press. min</value>
+  </data>
+  <data name="MachineTypeModel.MinTemp">
+    <value>T° min</value>
+  </data>
+  <data name="MachineTypeModel.Name">
+    <value>Nom</value>
+  </data>
+  <data name="MachineTypeModel.NonEndo">
+    <value>Pas d'endoscopes</value>
+  </data>
+  <data name="MachineTypeModel.PlacementCount">
+    <value>Nombre d'emplacements</value>
+  </data>
+  <data name="MachineTypeModel.PlacementMode">
+    <value>Configuration emplacement</value>
+  </data>
+  <data name="MachineTypeModel.PlacementUsgMode">
+    <value>Mode usage emplacement</value>
+  </data>
+  <data name="MachineTypeModel.PressureDecimals">
+    <value>Nombre de décimales</value>
+  </data>
+  <data name="MachineTypeModel.PressureLogarithmic">
+    <value>Échelle logarithmique</value>
+  </data>
+  <data name="MachineTypeModel.PressureType">
+    <value>Pression</value>
+  </data>
+  <data name="MachineTypeModel.Queuelength">
+    <value>Longueur file d'attente</value>
+  </data>
+  <data name="MachineTypeModel.RelativeTime">
+    <value>Temps relatif</value>
+  </data>
+  <data name="MachineTypeModel.RepairVendorKeyId">
+    <value>Réparation fournisseur</value>
+  </data>
+  <data name="MachineTypeModel.Reportflags">
+    <value>Options Rapport</value>
+  </data>
+  <data name="MachineTypeModel.StandardError">
+    <value>Erreur standard</value>
+  </data>
+  <data name="MachineTypeModel.SuppKeyId">
+    <value>Fournisseur</value>
+  </data>
+  <data name="MachineTypeModel.TechError">
+    <value>Erreur technique</value>
+  </data>
+  <data name="MachineTypeModel.TempDecimals">
+    <value>Nbre de décimales</value>
+  </data>
+  <data name="MachineTypeModel.TempType">
+    <value>Température</value>
+  </data>
+  <data name="MachineTypeModel.Text">
+    <value>Texte</value>
+  </data>
+  <data name="MachineTypeModel.Type">
+    <value>Type</value>
+  </data>
+  <data name="MachineTypeModel.UseMAP">
+    <value>Utiliser MAP</value>
+  </data>
+  <data name="MachineTypeModel.UseRecipe">
+    <value>Recettes utilisées</value>
+  </data>
+  <data name="MachineTypeModel.Volume">
+    <value>Volume</value>
+  </data>
+  <data name="QuestionSetModel.Created">
+    <value></value>
+  </data>
+  <data name="QuestionSetModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="QuestionSetModel.Modified">
+    <value></value>
+  </data>
+  <data name="QuestionSetModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="QuestionSetModel.KeyId">
+    <value>ID Définition question</value>
+  </data>
+  <data name="QuestionSetModel.Name">
+    <value>Nom</value>
+  </data>
+  <data name="QuestionSetModel.Remark">
+    <value>Remarque</value>
+  </data>
+  <data name="QuestionSetModel.Set">
+    <value>Définition question</value>
+  </data>
+  <data name="LoadingEquipmentModel.Created">
+    <value></value>
+  </data>
+  <data name="LoadingEquipmentModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="LoadingEquipmentModel.Modified">
+    <value></value>
+  </data>
+  <data name="LoadingEquipmentModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="LoadingEquipmentModel.Area">
+    <value>Zone</value>
+  </data>
+  <data name="LoadingEquipmentModel.Depth">
+    <value>Profondeur</value>
+  </data>
+  <data name="LoadingEquipmentModel.Descr">
+    <value>Description</value>
+  </data>
+  <data name="LoadingEquipmentModel.Height">
+    <value>Hauteur</value>
+  </data>
+  <data name="LoadingEquipmentModel.KeyId">
+    <value>ID Equipement de chargement</value>
+  </data>
+  <data name="LoadingEquipmentModel.Name">
+    <value>Nom</value>
+  </data>
+  <data name="LoadingEquipmentModel.Width">
+    <value>Largeur</value>
+  </data>
+  <data name="UnitModel.Basket">
+    <value>Panier</value>
+  </data>
+  <data name="UnitModel.Batch">
+    <value>Lot</value>
+  </data>
+  <data name="UnitModel.Created">
+    <value>Créé</value>
+  </data>
+  <data name="UnitModel.CustKeyId">
+    <value>Client</value>
+  </data>
+  <data name="UnitModel.DryingStokKeyId">
+    <value>Stock de séchage</value>
+  </data>
+  <data name="UnitModel.Error">
+    <value>Erreur</value>
+  </data>
+  <data name="UnitModel.Expire">
+    <value>Date de péremption</value>
+  </data>
+  <data name="UnitModel.FacKeyId">
+    <value>Usine</value>
+  </data>
+  <data name="UnitModel.LMProKeyId">
+    <value>Loaner management profile</value>
+  </data>
+  <data name="UnitModel.LocaKeyId">
+    <value>Emplacement</value>
+  </data>
+  <data name="UnitModel.LocaTime">
+    <value>Heure emplacement</value>
+  </data>
+  <data name="UnitModel.NextUnit">
+    <value>Unité suivante</value>
+  </data>
+  <data name="UnitModel.OpDKeyId">
+    <value>Intervention</value>
+  </data>
+  <data name="UnitModel.PackUserKeyId">
+    <value>Emballé par</value>
+  </data>
+  <data name="UnitModel.PrevUnit">
+    <value>Unité précédente</value>
+  </data>
+  <data name="UnitModel.Price">
+    <value>Prix</value>
+  </data>
+  <data name="UnitModel.PriceHandling">
+    <value>Coût du traitement</value>
+  </data>
+  <data name="UnitModel.PricePack">
+    <value>Prix de l'emballage</value>
+  </data>
+  <data name="UnitModel.PriceSteri">
+    <value>Prix Sterilisation</value>
+  </data>
+  <data name="UnitModel.PriceUsage">
+    <value>Coût d'utilisation</value>
+  </data>
+  <data name="UnitModel.PriceWash">
+    <value>Prix Lavage/Désinfection</value>
+  </data>
+  <data name="UnitModel.PriGrKeyId">
+    <value>Groupe de prix</value>
+  </data>
+  <data name="UnitModel.ProdKeyId">
+    <value>Produit</value>
+  </data>
+  <data name="UnitModel.ReqReturnReg">
+    <value>Retour requis</value>
+  </data>
+  <data name="UnitModel.RoomKeyId">
+    <value>Salle d'intervention</value>
+  </data>
+  <data name="UnitModel.SeriKeyId">
+    <value>N° de série</value>
+  </data>
+  <data name="UnitModel.Status">
+    <value>Statut</value>
+  </data>
+  <data name="UnitModel.StokKeyId">
+    <value>Stock</value>
+  </data>
+  <data name="UnitModel.Unit">
+    <value>Unité</value>
+  </data>
+  <data name="UnitModel.UsageCounter">
+    <value>Nombre d'utilisations</value>
+  </data>
+  <data name="UnitModel.WorkingTime">
+    <value>Temps de traitement</value>
+  </data>
+  <data name="TagsModel.Created">
+    <value></value>
+  </data>
+  <data name="TagsModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="TagsModel.Auto">
+    <value>Tag automatique</value>
+  </data>
+  <data name="TagsModel.Barcode">
+    <value>Code barres</value>
+  </data>
+  <data name="TagsModel.KeyId">
+    <value>ID étiquette</value>
+  </data>
+  <data name="TagsModel.LocaKeyId">
+    <value>Emplacement actuel</value>
+  </data>
+  <data name="TagsModel.LocaTime">
+    <value>Heure emplacement</value>
+  </data>
+  <data name="TagsModel.Name">
+    <value>Nom</value>
+  </data>
+  <data name="TagsModel.No">
+    <value>N°</value>
+  </data>
+  <data name="TagsModel.ProcBatch">
+    <value>Lot assigné</value>
+  </data>
+  <data name="TagsModel.Status">
+    <value>Statut</value>
+  </data>
+  <data name="TagsModel.StokKeyId">
+    <value>Stock</value>
+  </data>
+  <data name="TagsModel.TagTKeyId">
+    <value>Type d'étiquette</value>
+  </data>
+  <data name="TagsModel.Type">
+    <value>Type</value>
+  </data>
+  <data name="OperationDataModel.Created">
+    <value></value>
+  </data>
+  <data name="OperationDataModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="OperationDataModel.Modified">
+    <value></value>
+  </data>
+  <data name="OperationDataModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="OperationDataModel.ActualEndTime">
+    <value>Heure de fin actuel</value>
+  </data>
+  <data name="OperationDataModel.ActualStartTime">
+    <value>Heure de départ actuel</value>
+  </data>
+  <data name="OperationDataModel.BookingForce">
+    <value>Réservation forcée</value>
+  </data>
+  <data name="OperationDataModel.BookingStatus">
+    <value>Statut réservation</value>
+  </data>
+  <data name="OperationDataModel.CustKeyId">
+    <value>Client</value>
+  </data>
+  <data name="OperationDataModel.CustStokKeyId">
+    <value>Stock client</value>
+  </data>
+  <data name="OperationDataModel.DoctKeyId">
+    <value>Médecin</value>
+  </data>
+  <data name="OperationDataModel.EndTime">
+    <value>Heure de fin</value>
+  </data>
+  <data name="OperationDataModel.Ident">
+    <value>Intervention</value>
+  </data>
+  <data name="OperationDataModel.IncompleteOrder">
+    <value>Commande incomplète</value>
+  </data>
+  <data name="OperationDataModel.KeyId">
+    <value>ID Intervention</value>
+  </data>
+  <data name="OperationDataModel.Name">
+    <value>Nom</value>
+  </data>
+  <data name="OperationDataModel.OptKeyId">
+    <value>Type d'intervention</value>
+  </data>
+  <data name="OperationDataModel.OrdersNeedUpdate">
+    <value>Mise à jour de la commande en attente</value>
+  </data>
+  <data name="OperationDataModel.PatAge">
+    <value>Age du patient</value>
+  </data>
+  <data name="OperationDataModel.PatGender">
+    <value>Sexe du patient</value>
+  </data>
+  <data name="OperationDataModel.PatKeyId">
+    <value>Patient</value>
+  </data>
+  <data name="OperationDataModel.PatWeight">
+    <value>Poids</value>
+  </data>
+  <data name="OperationDataModel.PrefListDelShortage">
+    <value>Preference list delievered shortage</value>
+  </data>
+  <data name="OperationDataModel.PrefListOrderMode">
+    <value>Mode commande</value>
+  </data>
+  <data name="OperationDataModel.Remark">
+    <value>Remarque</value>
+  </data>
+  <data name="OperationDataModel.RoomKeyId">
+    <value>Salle d'intervention</value>
+  </data>
+  <data name="OperationDataModel.StartTime">
+    <value>Heure de  début</value>
+  </data>
+  <data name="OperationDataModel.StartTimeModified">
+    <value>Heure de début modifiée</value>
+  </data>
+  <data name="OperationDataModel.Status">
+    <value>Statut</value>
+  </data>
+  <data name="OperationDataModel.SuppFacKeyId">
+    <value>Usine de fourniture</value>
+  </data>
+  <data name="SerialModel.Created">
+    <value></value>
+  </data>
+  <data name="SerialModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="SerialModel.Modified">
+    <value></value>
+  </data>
+  <data name="SerialModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="SerialModel.Barcode">
+    <value>Codes barres</value>
+  </data>
+  <data name="SerialModel.DispatchRestrict">
+    <value>Restriction d'envoi</value>
+  </data>
+  <data name="SerialModel.ExtLoanerId">
+    <value>ID de prêt externe</value>
+  </data>
+  <data name="SerialModel.ExtName">
+    <value>Nom externe</value>
+  </data>
+  <data name="SerialModel.FTCoKeyId">
+    <value>Code Suivi Rapide</value>
+  </data>
+  <data name="SerialModel.FTPlKeyId">
+    <value>Plan Suivi Rapide</value>
+  </data>
+  <data name="SerialModel.FTTmpKeyId">
+    <value>Groupe Suivi Rapide</value>
+  </data>
+  <data name="SerialModel.HatKeyId">
+    <value>Type traitement</value>
+  </data>
+  <data name="SerialModel.KeyId">
+    <value>ID n° de série</value>
+  </data>
+  <data name="SerialModel.LMProKeyId">
+    <value>Loaner management profile</value>
+  </data>
+  <data name="SerialModel.LocaKeyId">
+    <value>Emplacement</value>
+  </data>
+  <data name="SerialModel.Manufactserialnumber">
+    <value>N°. série manu.</value>
+  </data>
+  <data name="SerialModel.Name">
+    <value>Nom</value>
+  </data>
+  <data name="SerialModel.OwnerCuSiteKeyId">
+    <value>Propriétaire (site client)</value>
+  </data>
+  <data name="SerialModel.OwnerCustKeyId">
+    <value>Propriétaire (Client)</value>
+  </data>
+  <data name="SerialModel.OwnerFacKeyId">
+    <value>Propriétaire (Usine)</value>
+  </data>
+  <data name="SerialModel.OwnerSuppKeyId">
+    <value>Propriétaire (Fournisseur)</value>
+  </data>
+  <data name="SerialModel.PackKeyId">
+    <value>Matériau d'emballage</value>
+  </data>
+  <data name="SerialModel.PurchaseDate">
+    <value>Date d'achat</value>
+  </data>
+  <data name="SerialModel.PurchaseOrdNo">
+    <value>N° ordre d'achat</value>
+  </data>
+  <data name="SerialModel.PurchasePrice">
+    <value>Prix d'achat</value>
+  </data>
+  <data name="SerialModel.PurchaseTime">
+    <value>Date d'achat</value>
+  </data>
+  <data name="SerialModel.RefItemKeyId">
+    <value>Article</value>
+  </data>
+  <data name="SerialModel.RefPReKeyId">
+    <value>Recette programme</value>
+  </data>
+  <data name="SerialModel.RefProdKeyId">
+    <value>Produit</value>
+  </data>
+  <data name="SerialModel.RefProgKeyId">
+    <value>Programme</value>
+  </data>
+  <data name="SerialModel.Remark">
+    <value>Remarque</value>
+  </data>
+  <data name="SerialModel.SerialNo">
+    <value>N° de série</value>
+  </data>
+  <data name="SerialModel.Status">
+    <value>Statut</value>
+  </data>
+  <data name="SerialModel.Stockplacement">
+    <value>Lieu de stockage</value>
+  </data>
+  <data name="SerialModel.StokKeyId">
+    <value>Stock</value>
+  </data>
+  <data name="SerialModel.SuppKeyId">
+    <value>Fournisseur</value>
+  </data>
+  <data name="SerialModel.TRGrpKeyId">
+    <value>Groupe heure expiration</value>
+  </data>
+  <data name="SerialModel.UserField01">
+    <value>Champ utilisateur 1</value>
+  </data>
+  <data name="SerialModel.UserField02">
+    <value>Champ utilisateur 2</value>
+  </data>
+  <data name="SerialModel.UserField03">
+    <value>Champ utilisateur 3</value>
+  </data>
+  <data name="SerialModel.UserField04">
+    <value>Champ utilisateur 4</value>
+  </data>
+  <data name="SerialModel.UserField05">
+    <value>Champ utilisateur 5</value>
+  </data>
+  <data name="SerialModel.UserField06">
+    <value>Champ utilisateur 6</value>
+  </data>
+  <data name="SerialModel.UserField07">
+    <value>Champ utilisateur 7</value>
+  </data>
+  <data name="SerialModel.UserField08">
+    <value>Champ utilisateur 8</value>
+  </data>
+  <data name="SerialModel.UserField09">
+    <value>Champ utilisateur 9</value>
+  </data>
+  <data name="SerialModel.UserField10">
+    <value>Champ utilisateur 10</value>
+  </data>
+  <data name="SerialModel.UserField11">
+    <value>Champ utilisateur 11</value>
+  </data>
+  <data name="SerialModel.UserField12">
+    <value>Champ utilisateur 12</value>
+  </data>
+  <data name="SerialModel.UserField13">
+    <value>Champ utilisateur 13</value>
+  </data>
+  <data name="SerialModel.UserField14">
+    <value>Champ utilisateur 14</value>
+  </data>
+  <data name="SerialModel.UserField15">
+    <value>Champ utilisateur 15</value>
+  </data>
+  <data name="SerialModel.UserField16">
+    <value>Champ utilisateur 16</value>
+  </data>
+  <data name="SerialModel.UserField17">
+    <value>Champ utilisateur 17</value>
+  </data>
+  <data name="SerialModel.UserField18">
+    <value>Champ utilisateur 18</value>
+  </data>
+  <data name="SerialModel.UserField19">
+    <value>Champ utilisateur 19</value>
+  </data>
+  <data name="SerialModel.UserField20">
+    <value>Champ utilisateur 20</value>
+  </data>
+  <data name="SerialModel.UnitUnit">
+    <value>Unité</value>
+  </data>
+  <data name="SerialModel.UsageCount">
+    <value>Nombre d'utilisations</value>
+  </data>
+  <data name="SerialModel.Weight">
+    <value>Poids</value>
+  </data>
+  <data name="DoctorModel.Created">
+    <value></value>
+  </data>
+  <data name="DoctorModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="DoctorModel.Modified">
+    <value></value>
+  </data>
+  <data name="DoctorModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="DoctorModel.Barcode">
+    <value>Code barres</value>
+  </data>
+  <data name="DoctorModel.CalKeyId">
+    <value>Calendrier</value>
+  </data>
+  <data name="DoctorModel.Initials">
+    <value>Initiales</value>
+  </data>
+  <data name="DoctorModel.KeyId">
+    <value>ID Médecin</value>
+  </data>
+  <data name="DoctorModel.Name">
+    <value>Nom</value>
+  </data>
+  <data name="DoctorModel.Status">
+    <value>Statut</value>
+  </data>
+  <data name="DoctorModel.UserField01">
+    <value>Champ utilisateur 1</value>
+  </data>
+  <data name="DoctorModel.UserField02">
+    <value>Champ utilisateur 2</value>
+  </data>
+  <data name="DoctorModel.UserField03">
+    <value>Champ utilisateur 3</value>
+  </data>
+  <data name="DoctorModel.UserField04">
+    <value>Champ utilisateur 4</value>
+  </data>
+  <data name="DoctorModel.UserField05">
+    <value>Champ utilisateur 5</value>
+  </data>
+  <data name="DoctorModel.UserField06">
+    <value>Champ utilisateur 6</value>
+  </data>
+  <data name="DoctorModel.UserField07">
+    <value>Champ utilisateur 7</value>
+  </data>
+  <data name="DoctorModel.UserField08">
+    <value>Champ utilisateur 8</value>
+  </data>
+  <data name="DoctorModel.UserField09">
+    <value>Champ utilisateur 9</value>
+  </data>
+  <data name="DoctorModel.UserField10">
+    <value>Champ utilisateur 10</value>
+  </data>
+  <data name="DoctorModel.UserField11">
+    <value>Champ utilisateur 11</value>
+  </data>
+  <data name="DoctorModel.UserField12">
+    <value>Champ utilisateur 12</value>
+  </data>
+  <data name="DoctorModel.UserField13">
+    <value>Champ utilisateur 13</value>
+  </data>
+  <data name="DoctorModel.UserField14">
+    <value>Champ utilisateur 14</value>
+  </data>
+  <data name="DoctorModel.UserField15">
+    <value>Champ utilisateur 15</value>
+  </data>
+  <data name="DoctorModel.UserField16">
+    <value>Champ utilisateur 16</value>
+  </data>
+  <data name="DoctorModel.UserField17">
+    <value>Champ utilisateur 17</value>
+  </data>
+  <data name="DoctorModel.UserField18">
+    <value>Champ utilisateur 18</value>
+  </data>
+  <data name="DoctorModel.UserField19">
+    <value>Champ utilisateur 19</value>
+  </data>
+  <data name="DoctorModel.UserField20">
+    <value>Champ utilisateur 20</value>
+  </data>
+  <data name="PatientModel.Created">
+    <value></value>
+  </data>
+  <data name="PatientModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="PatientModel.Modified">
+    <value></value>
+  </data>
+  <data name="PatientModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="PatientModel.BarCode">
+    <value>Codes barres</value>
+  </data>
+  <data name="PatientModel.Birthday">
+    <value>Date de naissance</value>
+  </data>
+  <data name="PatientModel.Code1">
+    <value>Code 1</value>
+  </data>
+  <data name="PatientModel.Code2">
+    <value>Code 2</value>
+  </data>
+  <data name="PatientModel.Code3">
+    <value>Code 3</value>
+  </data>
+  <data name="PatientModel.Id">
+    <value>ID</value>
+  </data>
+  <data name="PatientModel.KeyId">
+    <value>ID Patient</value>
+  </data>
+  <data name="PatientModel.Name">
+    <value>Nom</value>
+  </data>
+  <data name="PatientModel.Sex">
+    <value>Sexe</value>
+  </data>
+  <data name="PatientModel.Status">
+    <value>Statut</value>
+  </data>
+  <data name="PatientModel.UserField01">
+    <value>Champ utilisateur 1</value>
+  </data>
+  <data name="PatientModel.UserField02">
+    <value>Champ utilisateur 2</value>
+  </data>
+  <data name="PatientModel.UserField03">
+    <value>Champ utilisateur 3</value>
+  </data>
+  <data name="PatientModel.UserField04">
+    <value>Champ utilisateur 4</value>
+  </data>
+  <data name="PatientModel.UserField05">
+    <value>Champ utilisateur 5</value>
+  </data>
+  <data name="PatientModel.UserField06">
+    <value>Champ utilisateur 6</value>
+  </data>
+  <data name="PatientModel.UserField07">
+    <value>Champ utilisateur 7</value>
+  </data>
+  <data name="PatientModel.UserField08">
+    <value>Champ utilisateur 8</value>
+  </data>
+  <data name="PatientModel.UserField09">
+    <value>Champ utilisateur 9</value>
+  </data>
+  <data name="PatientModel.UserField10">
+    <value>Champ utilisateur 10</value>
+  </data>
+  <data name="PatientModel.UserField11">
+    <value>Champ utilisateur 11</value>
+  </data>
+  <data name="PatientModel.UserField12">
+    <value>Champ utilisateur 12</value>
+  </data>
+  <data name="PatientModel.UserField13">
+    <value>Champ utilisateur 13</value>
+  </data>
+  <data name="PatientModel.UserField14">
+    <value>Champ utilisateur 14</value>
+  </data>
+  <data name="PatientModel.UserField15">
+    <value>Champ utilisateur 15</value>
+  </data>
+  <data name="PatientModel.UserField16">
+    <value>Champ utilisateur 16</value>
+  </data>
+  <data name="PatientModel.UserField17">
+    <value>Champ utilisateur 17</value>
+  </data>
+  <data name="PatientModel.UserField18">
+    <value>Champ utilisateur 18</value>
+  </data>
+  <data name="PatientModel.UserField19">
+    <value>Champ utilisateur 19</value>
+  </data>
+  <data name="PatientModel.UserField20">
+    <value>Champ utilisateur 20</value>
+  </data>
+  <data name="PatientModel.Weight">
+    <value>Poids</value>
+  </data>
+  <data name="OrderModel.AutoCreated">
+    <value>Créer automatiquement</value>
+  </data>
+  <data name="OrderModel.BookingFirstOk">
+    <value>Première réservation OK</value>
+  </data>
+  <data name="OrderModel.BookingMode">
+    <value>Mode Réservation</value>
+  </data>
+  <data name="OrderModel.BookingPriority">
+    <value>Priorité de réservation</value>
+  </data>
+  <data name="OrderModel.BookingStatus">
+    <value>Statut réservation</value>
+  </data>
+  <data name="OrderModel.CreatedAppType">
+    <value>Application d'origine</value>
+  </data>
+  <data name="OrderModel.CreatedForOpDPrefList">
+    <value>Créé pour la liste de préférences INTERV</value>
+  </data>
+  <data name="OrderModel.CreatedJobKeyId">
+    <value>Origin job</value>
+  </data>
+  <data name="OrderModel.CreatedLocaKeyId">
+    <value>Origin location</value>
+  </data>
+  <data name="OrderModel.CreatedLSId">
+    <value>Ordinateur d'origine</value>
+  </data>
+  <data name="OrderModel.CreatedUserKeyId">
+    <value>Créé par</value>
+  </data>
+  <data name="OrderModel.DelIncomplete">
+    <value>Livraison incomplète</value>
+  </data>
+  <data name="OrderModel.ExpDelTime">
+    <value>Exp. Tps distrib</value>
+  </data>
+  <data name="OrderModel.Flags">
+    <value>Options</value>
+  </data>
+  <data name="OrderModel.KeyId">
+    <value>ID Commande</value>
+  </data>
+  <data name="OrderModel.LockMode">
+    <value>Mode de verrouillage</value>
+  </data>
+  <data name="OrderModel.NextOrdKeyId">
+    <value>Commande suivante</value>
+  </data>
+  <data name="OrderModel.OrdTpKeyId">
+    <value>Modèle de commande</value>
+  </data>
+  <data name="OrderModel.OrgAccount">
+    <value>Compte initial</value>
+  </data>
+  <data name="OrderModel.OrgExternalId">
+    <value>ID Org. external</value>
+  </data>
+  <data name="OrderModel.OrgInvoiceDirect">
+    <value>Facture direct Org.</value>
+  </data>
+  <data name="OrderModel.OrgInvRefCustKeyId">
+    <value>Client à facturer</value>
+  </data>
+  <data name="OrderModel.OrgInvRefFacKeyId">
+    <value>Facturation usine</value>
+  </data>
+  <data name="OrderModel.OrgInvRefSuppKeyId">
+    <value>Facturation fournisseur</value>
+  </data>
+  <data name="OrderModel.OrgRefCustKeyId">
+    <value>Org. client</value>
+  </data>
+  <data name="OrderModel.OrgRefFacKeyId">
+    <value>Org. usine</value>
+  </data>
+  <data name="OrderModel.OrgRefNo">
+    <value>Référence initiale</value>
+  </data>
+  <data name="OrderModel.OrgRefSuppKeyId">
+    <value>Org. fournisseur</value>
+  </data>
+  <data name="OrderModel.OrgRefText">
+    <value>Texte réf. org.</value>
+  </data>
+  <data name="OrderModel.OrgRefText2">
+    <value>Texte réf. org. 2</value>
+  </data>
+  <data name="OrderModel.OrgRemark">
+    <value>Remarque org.</value>
+  </data>
+  <data name="OrderModel.OrgStatus">
+    <value>Mode initial</value>
+  </data>
+  <data name="OrderModel.OrgStokKeyId">
+    <value>Stock initial</value>
+  </data>
+  <data name="OrderModel.OrgTime">
+    <value>Temps initial</value>
+  </data>
+  <data name="OrderModel.OrgUserKeyId">
+    <value>Utilisateur initial</value>
+  </data>
+  <data name="OrderModel.PrevOrdKeyId">
+    <value>Commande précédente</value>
+  </data>
+  <data name="OrderModel.RefOpDKeyId">
+    <value>Créateur (opération)</value>
+  </data>
+  <data name="OrderModel.RefOpTKeyId">
+    <value>Type d'intervention</value>
+  </data>
+  <data name="OrderModel.Reordered">
+    <value>Re-commandé</value>
+  </data>
+  <data name="OrderModel.ReqDelTime">
+    <value>Délai de livraison nécessaire</value>
+  </data>
+  <data name="OrderModel.ReqDelTimeEstimated">
+    <value></value>
+  </data>
+  <data name="OrderModel.ReturnReq">
+    <value>Retour demandé</value>
+  </data>
+  <data name="OrderModel.SplitOrdKeyId">
+    <value>Ordre de division</value>
+  </data>
+  <data name="OrderModel.SuppPickMode">
+    <value>Supp. pick mode</value>
+  </data>
+  <data name="OrderModel.SuppPickPriority">
+    <value>Priorité de prélèvement</value>
+  </data>
+  <data name="OrderModel.SuppPriority">
+    <value>Priorité fournisseur</value>
+  </data>
+  <data name="OrderModel.SuppRefCustKeyId">
+    <value>Fourn. client</value>
+  </data>
+  <data name="OrderModel.SuppRefFacKeyId">
+    <value>Fourn. usine</value>
+  </data>
+  <data name="OrderModel.SuppRefNo">
+    <value>Réf. fourn.</value>
+  </data>
+  <data name="OrderModel.SuppRefSuppKeyId">
+    <value>Fourn. fournisseur</value>
+  </data>
+  <data name="OrderModel.SuppRefText">
+    <value>Texte référence fournisseur</value>
+  </data>
+  <data name="OrderModel.SuppRefText2">
+    <value>Texte référence fournisseur 2</value>
+  </data>
+  <data name="OrderModel.SuppRemark">
+    <value>Remarque fourn.</value>
+  </data>
+  <data name="OrderModel.SuppStatus">
+    <value>Statut fournisseur</value>
+  </data>
+  <data name="OrderModel.SuppStokKeyId">
+    <value>Stock fournisseur</value>
+  </data>
+  <data name="OrderModel.SuppTime">
+    <value>Délai fournisseur</value>
+  </data>
+  <data name="OrderModel.SuppUserKeyId">
+    <value>Utilisateur fourn.</value>
+  </data>
+  <data name="OrderModel.SyncToOperation">
+    <value>Synchroniser avec l'intervention</value>
+  </data>
+  <data name="OrderModel.Tag">
+    <value>Etiquette de transport</value>
+  </data>
+  <data name="OrderModel.Type">
+    <value>Type</value>
+  </data>
+  <data name="OrderModel.UnlockStokKeyId">
+    <value>Débloquer le stock de destination</value>
+  </data>
+  <data name="JobModel.ConfigData">
+    <value>Config. données</value>
+  </data>
+  <data name="JobModel.Description">
+    <value>Description</value>
+  </data>
+  <data name="JobModel.Disabled">
+    <value>Désactivé</value>
+  </data>
+  <data name="JobModel.DisplayIndex">
+    <value>Index affichage</value>
+  </data>
+  <data name="JobModel.IESysKeyId">
+    <value>Interface système</value>
+  </data>
+  <data name="JobModel.JGrpKeyId">
+    <value>Groupe de travail</value>
+  </data>
+  <data name="JobModel.KeyId">
+    <value>ID Travail</value>
+  </data>
+  <data name="JobModel.LastPackageId">
+    <value>ID Dernier conditionnement</value>
+  </data>
+  <data name="JobModel.MasterjobKeyId">
+    <value>Travail (job) principal</value>
+  </data>
+  <data name="JobModel.Moveable">
+    <value>Mobile</value>
+  </data>
+  <data name="JobModel.Name">
+    <value>Nom</value>
+  </data>
+  <data name="JobModel.Schedule">
+    <value>Planning</value>
+  </data>
+  <data name="JobModel.SysConfigData">
+    <value>Système configuration données</value>
+  </data>
+  <data name="JobModel.SysName">
+    <value>Nom système</value>
+  </data>
+  <data name="JobModel.TypeId">
+    <value>ID Type</value>
+  </data>
+  <data name="OrderTemplateModel.Created">
+    <value></value>
+  </data>
+  <data name="OrderTemplateModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="OrderTemplateModel.Modified">
+    <value></value>
+  </data>
+  <data name="OrderTemplateModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="OrderTemplateModel.KeyId">
+    <value>ID Modèle de commande</value>
+  </data>
+  <data name="OrderTemplateModel.Name">
+    <value>Nom</value>
+  </data>
+  <data name="OrderTemplateModel.OrgInvoiceDirect">
+    <value>Facturation directe</value>
+  </data>
+  <data name="OrderTemplateModel.OrgRefCustKeyId">
+    <value>Org. client</value>
+  </data>
+  <data name="OrderTemplateModel.OrgRefFacKeyId">
+    <value>Org. usine</value>
+  </data>
+  <data name="OrderTemplateModel.OrgRefSuppKeyId">
+    <value>Org. fournisseur</value>
+  </data>
+  <data name="OrderTemplateModel.OrgRefText">
+    <value>Texte réf. org.</value>
+  </data>
+  <data name="OrderTemplateModel.OrgRefText2">
+    <value>Texte réf. org. 2</value>
+  </data>
+  <data name="OrderTemplateModel.OrgRemark">
+    <value>Remarque org.</value>
+  </data>
+  <data name="OrderTemplateModel.OrgStokKeyId">
+    <value>Stock initial</value>
+  </data>
+  <data name="OrderTemplateModel.OTpTKeyId">
+    <value>Type</value>
+  </data>
+  <data name="OrderTemplateModel.RefOpTKeyId">
+    <value>Propriétaire (Type d'intervention)</value>
+  </data>
+  <data name="OrderTemplateModel.RefProTKeyId">
+    <value>Propriétaire (Type de procédure)</value>
+  </data>
+  <data name="OrderTemplateModel.SuppRefFacKeyId">
+    <value>Fourn. usine</value>
+  </data>
+  <data name="OrderTemplateModel.SuppRefSuppKeyId">
+    <value>Fourn. fournisseur</value>
+  </data>
+  <data name="OrderTemplateModel.SuppRefText">
+    <value>Texte référence fournisseur</value>
+  </data>
+  <data name="OrderTemplateModel.SuppRefText2">
+    <value>Texte réf. org. 2</value>
+  </data>
+  <data name="OrderTemplateModel.SuppRemark">
+    <value>Remarque fourn.</value>
+  </data>
+  <data name="OrderTemplateModel.SuppStokKeyId">
+    <value>Stock fournisseur</value>
+  </data>
+  <data name="OrderTemplateModel.Template">
+    <value>Modèle</value>
+  </data>
+  <data name="InterfaceSystemsModel.Description">
+    <value>Description</value>
+  </data>
+  <data name="InterfaceSystemsModel.Id">
+    <value>ID Système</value>
+  </data>
+  <data name="InterfaceSystemsModel.KeyId">
+    <value>ID Interface Système</value>
+  </data>
+  <data name="InterfaceSystemsModel.Name">
+    <value>Nom</value>
+  </data>
+  <data name="JobGroupModel.Description">
+    <value>Description</value>
+  </data>
+  <data name="JobGroupModel.Disabled">
+    <value>Désactivé</value>
+  </data>
+  <data name="JobGroupModel.DisplayIndex">
+    <value>Index affichage</value>
+  </data>
+  <data name="JobGroupModel.FoJSrvKeyId">
+    <value>Échec sur le serveur de travaux (T-DOC JobServer)</value>
+  </data>
+  <data name="JobGroupModel.FoStop">
+    <value>Arrêter</value>
+  </data>
+  <data name="JobGroupModel.JobType">
+    <value>Type travaux</value>
+  </data>
+  <data name="JobGroupModel.JSrvKeyId">
+    <value>Serveur de travaux (Job Server)</value>
+  </data>
+  <data name="JobGroupModel.KeyId">
+    <value>ID Groupe Travail</value>
+  </data>
+  <data name="JobGroupModel.Name">
+    <value>Nom</value>
+  </data>
+  <data name="JobGroupModel.SysId">
+    <value>ID Système</value>
+  </data>
+  <data name="JobGroupModel.SysName">
+    <value>Nom système</value>
+  </data>
+  <data name="JobGroupModel.Type">
+    <value>Type</value>
+  </data>
+  <data name="OrderTemplateTypeModel.Created">
+    <value></value>
+  </data>
+  <data name="OrderTemplateTypeModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="OrderTemplateTypeModel.Modified">
+    <value></value>
+  </data>
+  <data name="OrderTemplateTypeModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="OrderTemplateTypeModel.KeyId">
+    <value>ID Type de modèle</value>
+  </data>
+  <data name="OrderTemplateTypeModel.Name">
+    <value>Nom</value>
+  </data>
+  <data name="OrderTemplateTypeModel.Remark">
+    <value>Remarque</value>
+  </data>
+  <data name="OrderTemplateTypeModel.Type">
+    <value>Type</value>
+  </data>
+  <data name="JobServerModel.ConfigData">
+    <value>Données de configuration</value>
+  </data>
+  <data name="JobServerModel.Description">
+    <value>Description</value>
+  </data>
+  <data name="JobServerModel.HeartBeat">
+    <value>Dernier battement de coeur</value>
+  </data>
+  <data name="JobServerModel.KeyId">
+    <value>ID Job Server</value>
+  </data>
+  <data name="JobServerModel.LinkStatId">
+    <value>ID Linkstation</value>
+  </data>
+  <data name="JobServerModel.Name">
+    <value>Nom</value>
+  </data>
+  <data name="CompositeModel.AltRefKeyId">
+    <value>Autre article</value>
+  </data>
+  <data name="CompositeModel.CompItemKeyId">
+    <value>Article composé</value>
+  </data>
+  <data name="CompositeModel.Count">
+    <value>Quantité</value>
+  </data>
+  <data name="CompositeModel.CriticalCount">
+    <value>Critique</value>
+  </data>
+  <data name="CompositeModel.HasAlternative">
+    <value>Comme alternative</value>
+  </data>
+  <data name="CompositeModel.IdentLineUsage">
+    <value>Utilisation de ligne identique</value>
+  </data>
+  <data name="CompositeModel.Key">
+    <value>Clé</value>
+  </data>
+  <data name="CompositeModel.Placement">
+    <value>Emplacement</value>
+  </data>
+  <data name="CompositeModel.Position">
+    <value>Pos.</value>
+  </data>
+  <data name="CompositeModel.RefItemKeyId">
+    <value>Article</value>
+  </data>
+  <data name="CompositeModel.RefTextKeyId">
+    <value>Texte</value>
+  </data>
+  <data name="CompositeModel.SplitTagNo">
+    <value>Groupe Etiquette</value>
+  </data>
+  <data name="CompositeModel.Text">
+    <value>Texte</value>
+  </data>
+  <data name="TagContentModel.AutoInc">
+    <value>Clé</value>
+  </data>
+  <data name="TagContentModel.ChildTagsKeyId">
+    <value>Etiquette enfant</value>
+  </data>
+  <data name="TagContentModel.ChPlKeyId">
+    <value>Placement chambre</value>
+  </data>
+  <data name="TagContentModel.IndicIndicator">
+    <value>Indicateur</value>
+  </data>
+  <data name="TagContentModel.ItemCount">
+    <value>Nombre d'articles</value>
+  </data>
+  <data name="TagContentModel.ItemKeyId">
+    <value>Article</value>
+  </data>
+  <data name="TagContentModel.LocaKeyId">
+    <value>Emplacement</value>
+  </data>
+  <data name="TagContentModel.LotInKeyId">
+    <value>Information LOT</value>
+  </data>
+  <data name="TagContentModel.OLnKey">
+    <value>Ligne de commandes</value>
+  </data>
+  <data name="TagContentModel.SeriKeyId">
+    <value>Numéro de série</value>
+  </data>
+  <data name="TagContentModel.SplitUnit">
+    <value>Répartir l'unité</value>
+  </data>
+  <data name="TagContentModel.TagsKeyId">
+    <value>Etiquette</value>
+  </data>
+  <data name="TagContentModel.Time">
+    <value>Heure</value>
+  </data>
+  <data name="TagContentModel.UnitUnit">
+    <value>Unité</value>
+  </data>
+  <data name="EventModel.Created">
+    <value></value>
+  </data>
+  <data name="EventModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="EventModel.Modified">
+    <value></value>
+  </data>
+  <data name="EventModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="EventModel.Event">
+    <value>Evénement</value>
+  </data>
+  <data name="EventModel.Eventsystype">
+    <value>Type système</value>
+  </data>
+  <data name="EventModel.Eventtype">
+    <value>Type d'événement</value>
+  </data>
+  <data name="EventModel.Info">
+    <value>Info</value>
+  </data>
+  <data name="EventModel.KeyId">
+    <value>ID Evénement</value>
+  </data>
+  <data name="EventModel.PloKeyId">
+    <value>Position/emplacement</value>
+  </data>
+  <data name="EventModel.RefKeyId">
+    <value>En fonction de</value>
+  </data>
+  <data name="EventModel.Sysdata">
+    <value>Données système</value>
+  </data>
+  <data name="EventModel.System">
+    <value>Système</value>
+  </data>
+  <data name="EventModel.Time">
+    <value>Heure de l’événement</value>
+  </data>
+  <data name="EventModel.Type">
+    <value>Type</value>
+  </data>
+  <data name="StockModel.AutoCreated">
+    <value>Créé automatiquement</value>
+  </data>
+  <data name="StockModel.DesiredCount">
+    <value>Norm.</value>
+  </data>
+  <data name="StockModel.Identlineusage">
+    <value>Utilisation de ligne identique</value>
+  </data>
+  <data name="StockModel.InventoryActive">
+    <value>Inv. activé</value>
+  </data>
+  <data name="StockModel.InventoryCount">
+    <value>Inv. compteur</value>
+  </data>
+  <data name="StockModel.InventoryPhysCount">
+    <value>Actuel</value>
+  </data>
+  <data name="StockModel.InventoryPhysTime">
+    <value>Heure actuelle</value>
+  </data>
+  <data name="StockModel.InventoryPhysUserKeyId">
+    <value>Utilisateur</value>
+  </data>
+  <data name="StockModel.InventoryTime">
+    <value>Dernier inventaire</value>
+  </data>
+  <data name="StockModel.InventoryUserKeyId">
+    <value>Inv. utilisateur</value>
+  </data>
+  <data name="StockModel.MaxCount">
+    <value>Max.</value>
+  </data>
+  <data name="StockModel.MinCount">
+    <value>Min.</value>
+  </data>
+  <data name="StockModel.MonthUsage">
+    <value>Consommation mensuelle</value>
+  </data>
+  <data name="StockModel.OnStock">
+    <value>En stock</value>
+  </data>
+  <data name="StockModel.OrderedCount">
+    <value>Commandé</value>
+  </data>
+  <data name="StockModel.Pickhere">
+    <value>Prélever</value>
+  </data>
+  <data name="StockModel.Placement">
+    <value>Emplacement</value>
+  </data>
+  <data name="StockModel.ProductionCount">
+    <value>Quantité de produit</value>
+  </data>
+  <data name="StockModel.RefItemKeyId">
+    <value>Article (Article)</value>
+  </data>
+  <data name="StockModel.RefProdKeyId">
+    <value>Article (Produit)</value>
+  </data>
+  <data name="StockModel.ReservedCount">
+    <value>Réservé</value>
+  </data>
+  <data name="StockModel.StokKeyId">
+    <value>Stock</value>
+  </data>
+  <data name="StockModel.SuppOrderMinCount">
+    <value>Taille minimum de commande</value>
+  </data>
+  <data name="StockModel.SuppOrderStdCount">
+    <value>Taille du module de commande</value>
+  </data>
+  <data name="StockModel.SuppRefFacKeyId">
+    <value>Fourn. usine</value>
+  </data>
+  <data name="StockModel.SuppRefSuppKeyId">
+    <value>Fourn. fournisseur</value>
+  </data>
+  <data name="ProductModel">
+    <value>Produits</value>
+  </data>
+  <data name="UserModel">
+    <value>Utilisateurs</value>
+  </data>
+  <data name="CountingPointSetModel">
+    <value>Groupes point de comptage</value>
+  </data>
+  <data name="CustSiteModel">
+    <value>Sites client</value>
+  </data>
+  <data name="CustomerModel">
+    <value>Clients</value>
+  </data>
+  <data name="EndoDryingMethodsModel">
+    <value>Méthodes de séchage des endoscopes</value>
+  </data>
+  <data name="ProgramGroupModel">
+    <value>Groupes programme</value>
+  </data>
+  <data name="FactoryModel">
+    <value>Usines</value>
+  </data>
+  <data name="FastTrackCodeModel">
+    <value>Codes Suivi Rapide</value>
+  </data>
+  <data name="FastTrackPlanModel">
+    <value>Plans Suivi Rapide</value>
+  </data>
+  <data name="FastTrackTemplateModel">
+    <value>Groupes de suivi rapide</value>
+  </data>
+  <data name="HandlingTypesModel">
+    <value>Types traitement</value>
+  </data>
+  <data name="IdenticalArticleGroupModel">
+    <value>Groupes articles identiques</value>
+  </data>
+  <data name="ItemModel">
+    <value>Articles</value>
+  </data>
+  <data name="PackingModel">
+    <value>Emballages</value>
+  </data>
+  <data name="PriceGroupModel">
+    <value>Groupes de prix</value>
+  </data>
+  <data name="TimeRuleGroupModel">
+    <value>Groupe heure expiration</value>
+  </data>
+  <data name="WeightPlanModel">
+    <value>Plans poids</value>
+  </data>
+  <data name="ProfileModel">
+    <value>Profils utilisateur</value>
+  </data>
+  <data name="CalendarModel">
+    <value>Calendrier</value>
+  </data>
+  <data name="StocksModel">
+    <value>Stocks</value>
+  </data>
+  <data name="StockGroupModel">
+    <value>Groupes de stock</value>
+  </data>
+  <data name="ProcessModel">
+    <value>Processus</value>
+  </data>
+  <data name="SupplierModel">
+    <value>Fournisseurs</value>
+  </data>
+  <data name="LocationModel">
+    <value>Emplacements</value>
+  </data>
+  <data name="FixedStockPlacementsModel">
+    <value>Emplacements de stock fixes</value>
+  </data>
+  <data name="TextModel">
+    <value>Texte</value>
+  </data>
+  <data name="LocationGroupModel">
+    <value>Groupes Emplacement</value>
+  </data>
+  <data name="CatalogModel">
+    <value>Catalogue</value>
+  </data>
+  <data name="ItemGroupModel">
+    <value>Groupes d'article</value>
+  </data>
+  <data name="ItemSpecialtyModel">
+    <value>Spécialités article</value>
+  </data>
+  <data name="ItemUOMModel">
+    <value>Unités de mesure</value>
+  </data>
+  <data name="TagTypeModel">
+    <value>Types d'Etiquette</value>
+  </data>
+  <data name="SealerProgramModel">
+    <value>Programmes soudeuse</value>
+  </data>
+  <data name="EmgCaseCartTypeModel">
+    <value>Type de chariot d'intervention d'urgence</value>
+  </data>
+  <data name="OperationTypeModel">
+    <value>Types d'intervention</value>
+  </data>
+  <data name="MachineModel">
+    <value>Machines</value>
+  </data>
+  <data name="ProgramModel">
+    <value>Programmes</value>
+  </data>
+  <data name="ProgramRecipeModel">
+    <value>Recettes programme</value>
+  </data>
+  <data name="MacroModel">
+    <value>Macros scanner</value>
+  </data>
+  <data name="UILayerDefModel">
+    <value>Définition Couche UI</value>
+  </data>
+  <data name="IdenticalTagTypeGroupModel">
+    <value>Groupe de type d’étiquette identique</value>
+  </data>
+  <data name="RoomModel">
+    <value>Salles d'op</value>
+  </data>
+  <data name="AGSModel">
+    <value>AGS</value>
+  </data>
+  <data name="MachineTypeModel">
+    <value>Modèles machine</value>
+  </data>
+  <data name="QuestionSetModel">
+    <value>Définitons question</value>
+  </data>
+  <data name="LoadingEquipmentModel">
+    <value>Equipement de chargement</value>
+  </data>
+  <data name="UnitModel">
+    <value>Unités</value>
+  </data>
+  <data name="TagsModel">
+    <value>Etiquettes</value>
+  </data>
+  <data name="OperationDataModel">
+    <value>Données d'intervention</value>
+  </data>
+  <data name="SerialModel">
+    <value>Numéros de série</value>
+  </data>
+  <data name="DoctorModel">
+    <value>Médecins</value>
+  </data>
+  <data name="PatientModel">
+    <value>Patients</value>
+  </data>
+  <data name="OrderModel">
+    <value>Commandes</value>
+  </data>
+  <data name="JobModel">
+    <value>Travaux</value>
+  </data>
+  <data name="OrderTemplateModel">
+    <value>Modèles de commande</value>
+  </data>
+  <data name="InterfaceSystemsModel">
+    <value>Systèmes interface</value>
+  </data>
+  <data name="JobGroupModel">
+    <value>Groupes de Travail</value>
+  </data>
+  <data name="OrderTemplateTypeModel">
+    <value>Types modèle de commande</value>
+  </data>
+  <data name="JobServerModel">
+    <value>Serveurs de travail</value>
+  </data>
+  <data name="CompositeModel">
+    <value>Listes articles composés</value>
+  </data>
+  <data name="TagContentModel">
+    <value>Contenu de l'étiquette</value>
+  </data>
+  <data name="EventModel">
+    <value>Evénements</value>
+  </data>
+  <data name="StockModel">
+    <value>Définition du stock</value>
+  </data>
+</root>

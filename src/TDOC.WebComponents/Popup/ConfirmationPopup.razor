@@ -1,0 +1,19 @@
+﻿@using TDOC.WebComponents.Button
+
+<TdPopup Title="@details?.Title" 
+         Visible="details != null" 
+         Width="Width"
+         Height="Height">
+    <BodyTemplate>
+        @if (!string.IsNullOrEmpty(details?.IconUrl))
+        {
+            <div class="row pb-12px">
+                <img class="icon-size-@IconSize" src="@details?.IconUrl" />
+            </div>
+        }
+        @((MarkupString)details?.Message)
+    </BodyTemplate>
+    <FooterTemplate>
+        <ButtonsPanel Buttons="buttons" />
+    </FooterTemplate>
+</TdPopup>

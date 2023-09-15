@@ -1,0 +1,14 @@
+﻿@import "../../Scss/td-variables";
+
+.header-block {
+    height: $height-workflow-header;
+    top: $height-main-header;
+    z-index: $z-index-main-header;
+}
+
+.worflow-notifications-position {
+  top: calc(#{$height-main-header} + #{$height-workflow-header} - #{$height-notification});
+  // 24 - padding left
+  right: calc(#{$width-side-search-panel} + 24px);
+  z-index: 1;
+}

@@ -1,0 +1,15 @@
+﻿@using TDOC.WebComponents.Button
+@using TDOC.WebComponents.Popup
+
+<TdPopup Title="@Title" 
+         Visible="visible" 
+         Width="popupDimensions.Width"
+         Height="popupDimensions.Height"
+         FooterCssClass="p-24px">
+    <BodyTemplate>
+        @BodyFragment
+    </BodyTemplate>
+    <FooterTemplate>
+        <ButtonsPanel Buttons="buttons"/>
+    </FooterTemplate>
+</TdPopup>

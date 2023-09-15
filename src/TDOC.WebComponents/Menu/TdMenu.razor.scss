@@ -1,0 +1,19 @@
+﻿@import "../Scss/iws-variables";
+@import "../Scss/td-variables";
+
+.menu-block {
+    height: $height-main-menu;
+}
+
+::deep .dropdown-item {
+    padding: 3px 12px;
+}
+
+::deep .dx-menu-bar {
+    background-color: $color-mist;
+}
+
+::deep .dx-menu-bar a.nav-link {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}

@@ -1,0 +1,5216 @@
+<?xml version="1.0" encoding="utf-8"?><root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ProductModel.Created">
+    <value></value>
+  </data>
+  <data name="ProductModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="ProductModel.Modified">
+    <value></value>
+  </data>
+  <data name="ProductModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="ProductModel.AltNumber">
+    <value>Альтернативный номер</value>
+  </data>
+  <data name="ProductModel.AvgOnSiteStoreTime">
+    <value>Средн. время хранения</value>
+  </data>
+  <data name="ProductModel.AvgOpDuration">
+    <value>Средн. продолж. операции</value>
+  </data>
+  <data name="ProductModel.Barcode">
+    <value>Штрих-коды</value>
+  </data>
+  <data name="ProductModel.BillingNum">
+    <value>№ счета (кол-во счетов)</value>
+  </data>
+  <data name="ProductModel.CntpsKeyId">
+    <value>Counting point group</value>
+  </data>
+  <data name="ProductModel.Color">
+    <value>Цвет</value>
+  </data>
+  <data name="ProductModel.Contamination">
+    <value>Риск заражения</value>
+  </data>
+  <data name="ProductModel.CuSiteKeyId">
+    <value>Филиал Подразделения</value>
+  </data>
+  <data name="ProductModel.CustKeyId">
+    <value>Подразделение</value>
+  </data>
+  <data name="ProductModel.Difficulty">
+    <value>коэффициент сложности</value>
+  </data>
+  <data name="ProductModel.DifficultyMode">
+    <value>Complexity mode</value>
+  </data>
+  <data name="ProductModel.DispatchRestrict">
+    <value>Ограничение отправки</value>
+  </data>
+  <data name="ProductModel.Endodryingmethod">
+    <value>Метод сушки эндоскопов</value>
+  </data>
+  <data name="ProductModel.EndoWashPrGrKeyId">
+    <value>Программа мойки экдоскопов </value>
+  </data>
+  <data name="ProductModel.ExternalType">
+    <value>Внешний тип</value>
+  </data>
+  <data name="ProductModel.ExtLoanerId">
+    <value>External loaner ID</value>
+  </data>
+  <data name="ProductModel.FacKeyId">
+    <value>ЦСО</value>
+  </data>
+  <data name="ProductModel.FactorySterilized">
+    <value>Заводская стерилизации </value>
+  </data>
+  <data name="ProductModel.FixedPrice">
+    <value>Фиксированная цена</value>
+  </data>
+  <data name="ProductModel.FTCoKeyId">
+    <value>Код быстрого остлеж.</value>
+  </data>
+  <data name="ProductModel.FTPlKeyId">
+    <value>План быстрого отслеживания</value>
+  </data>
+  <data name="ProductModel.FTTmpKeyId">
+    <value>Группа быстрого остлеж.</value>
+  </data>
+  <data name="ProductModel.GTIN">
+    <value>GTIN</value>
+  </data>
+  <data name="ProductModel.HandlingTime">
+    <value>Время обработки (погрузочно-разгрузочных работ) </value>
+  </data>
+  <data name="ProductModel.HaTKeyId">
+    <value>Handling type</value>
+  </data>
+  <data name="ProductModel.InArtKeyId">
+    <value>Identical</value>
+  </data>
+  <data name="ProductModel.ItemKeyId">
+    <value>Изделие</value>
+  </data>
+  <data name="ProductModel.KeyId">
+    <value>ID регламента</value>
+  </data>
+  <data name="ProductModel.LMProKeyId">
+    <value>Loaner management profile</value>
+  </data>
+  <data name="ProductModel.Loaner">
+    <value>Заимствованный регламент</value>
+  </data>
+  <data name="ProductModel.LoanerType">
+    <value>Loaner type</value>
+  </data>
+  <data name="ProductModel.PackKeyId">
+    <value>Упак. Материал</value>
+  </data>
+  <data name="ProductModel.PackOnScreen">
+    <value>Упаковать на экране </value>
+  </data>
+  <data name="ProductModel.Predis">
+    <value>предварительная дезинфекция </value>
+  </data>
+  <data name="ProductModel.PricingType">
+    <value>Тип ценообразования</value>
+  </data>
+  <data name="ProductModel.PriGrKeyId">
+    <value>Группа цен</value>
+  </data>
+  <data name="ProductModel.PrintLabel">
+    <value>Печать этикетки</value>
+  </data>
+  <data name="ProductModel.PrintList">
+    <value>Печать списка</value>
+  </data>
+  <data name="ProductModel.Product">
+    <value>Регламент</value>
+  </data>
+  <data name="ProductModel.Remark">
+    <value>Замечание</value>
+  </data>
+  <data name="ProductModel.ReqStockCount">
+    <value>Запросить складское кол-во</value>
+  </data>
+  <data name="ProductModel.ReservationMode">
+    <value>Режим резервирования</value>
+  </data>
+  <data name="ProductModel.Serialmask">
+    <value>Маска серийного номера </value>
+  </data>
+  <data name="ProductModel.Status">
+    <value>Статус</value>
+  </data>
+  <data name="ProductModel.SteriPrgrKeyId">
+    <value>Программная группа стерилизатора</value>
+  </data>
+  <data name="ProductModel.SteriVolume">
+    <value>Объем стерилизатора </value>
+  </data>
+  <data name="ProductModel.StockPlacement">
+    <value>Размещение запаса на складе </value>
+  </data>
+  <data name="ProductModel.StorageType">
+    <value>Storage</value>
+  </data>
+  <data name="ProductModel.TotalCount">
+    <value>Контрольная сумма </value>
+  </data>
+  <data name="ProductModel.Traceability">
+    <value>Прослеживаемость </value>
+  </data>
+  <data name="ProductModel.TraceType">
+    <value>Тип учета </value>
+  </data>
+  <data name="ProductModel.TRGrpKeyId">
+    <value>Expire time group</value>
+  </data>
+  <data name="ProductModel.Type">
+    <value>Тип</value>
+  </data>
+  <data name="ProductModel.UserField01">
+    <value>Поле пользователя  1</value>
+  </data>
+  <data name="ProductModel.UserField02">
+    <value>Поле пользователя 2</value>
+  </data>
+  <data name="ProductModel.UserField03">
+    <value>Поле пользователя 3</value>
+  </data>
+  <data name="ProductModel.UserField04">
+    <value>Поле пользователя 4</value>
+  </data>
+  <data name="ProductModel.UserField05">
+    <value>Поле пользователя 5</value>
+  </data>
+  <data name="ProductModel.UserField06">
+    <value>Поле пользователя 6</value>
+  </data>
+  <data name="ProductModel.UserField07">
+    <value>Поле пользователя 7</value>
+  </data>
+  <data name="ProductModel.UserField08">
+    <value>Поле пользователя 8</value>
+  </data>
+  <data name="ProductModel.UserField09">
+    <value>Поле пользователя 9</value>
+  </data>
+  <data name="ProductModel.UserField10">
+    <value>Поле пользователя 10</value>
+  </data>
+  <data name="ProductModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="ProductModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="ProductModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="ProductModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="ProductModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="ProductModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="ProductModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="ProductModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="ProductModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="ProductModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="ProductModel.WasherVolume">
+    <value>Объем моечной машины </value>
+  </data>
+  <data name="ProductModel.WashPrgrKeyId">
+    <value>Группа программ мойки</value>
+  </data>
+  <data name="ProductModel.Weight">
+    <value>Вес</value>
+  </data>
+  <data name="ProductModel.WeightDeltaCalcMode">
+    <value>Weigth delta calculation mode</value>
+  </data>
+  <data name="ProductModel.Weightdeltaunit">
+    <value>Weight delta unit</value>
+  </data>
+  <data name="ProductModel.WeightDeltaValue">
+    <value>Weight delta value</value>
+  </data>
+  <data name="ProductModel.WeightDisposable">
+    <value>Вес расходных материалов</value>
+  </data>
+  <data name="ProductModel.WeightMode">
+    <value>Режим веса</value>
+  </data>
+  <data name="ProductModel.WeightNonDisposable">
+    <value>Вес не одноразовых</value>
+  </data>
+  <data name="ProductModel.WeightUsageEnabled">
+    <value>Использовать веса</value>
+  </data>
+  <data name="ProductModel.WPlanKeyId">
+    <value>План веса</value>
+  </data>
+  <data name="UserModel.Created">
+    <value></value>
+  </data>
+  <data name="UserModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="UserModel.Modified">
+    <value></value>
+  </data>
+  <data name="UserModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="UserModel.Barcode">
+    <value>Штрих-коды</value>
+  </data>
+  <data name="UserModel.ChangePassword">
+    <value>Необходимо поменять пароль </value>
+  </data>
+  <data name="UserModel.Email">
+    <value>email</value>
+  </data>
+  <data name="UserModel.FacKeyId">
+    <value>ЦСО</value>
+  </data>
+  <data name="UserModel.FailedLogins">
+    <value>Неудачные входы в систему</value>
+  </data>
+  <data name="UserModel.Initials">
+    <value>Инициалы</value>
+  </data>
+  <data name="UserModel.KeyId">
+    <value>Идентификатор пользователя </value>
+  </data>
+  <data name="UserModel.MobileNumber">
+    <value>Номер моб. телефона</value>
+  </data>
+  <data name="UserModel.Name">
+    <value>Название</value>
+  </data>
+  <data name="UserModel.Password">
+    <value>Пароль</value>
+  </data>
+  <data name="UserModel.PasswordChanged">
+    <value>Последнее изменение пароля </value>
+  </data>
+  <data name="UserModel.PasswordHistory">
+    <value>Предыстория паролей</value>
+  </data>
+  <data name="UserModel.PasswordSettings">
+    <value>Password settings</value>
+  </data>
+  <data name="UserModel.ProfileKeyId">
+    <value>Группа</value>
+  </data>
+  <data name="UserModel.PublicPWSalt">
+    <value>Общий</value>
+  </data>
+  <data name="UserModel.Status">
+    <value>Статус</value>
+  </data>
+  <data name="UserModel.UserField01">
+    <value>Поле пользователя  1</value>
+  </data>
+  <data name="UserModel.UserField02">
+    <value>Поле пользователя 2</value>
+  </data>
+  <data name="UserModel.UserField03">
+    <value>Поле пользователя 3</value>
+  </data>
+  <data name="UserModel.UserField04">
+    <value>Поле пользователя 4</value>
+  </data>
+  <data name="UserModel.UserField05">
+    <value>Поле пользователя 5</value>
+  </data>
+  <data name="UserModel.UserField06">
+    <value>Поле пользователя 6</value>
+  </data>
+  <data name="UserModel.UserField07">
+    <value>Поле пользователя 7</value>
+  </data>
+  <data name="UserModel.UserField08">
+    <value>Поле пользователя 8</value>
+  </data>
+  <data name="UserModel.UserField09">
+    <value>Поле пользователя 9</value>
+  </data>
+  <data name="UserModel.UserField10">
+    <value>Поле пользователя 10</value>
+  </data>
+  <data name="UserModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="UserModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="UserModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="UserModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="UserModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="UserModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="UserModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="UserModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="UserModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="UserModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="CountingPointSetModel.Created">
+    <value></value>
+  </data>
+  <data name="CountingPointSetModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="CountingPointSetModel.Modified">
+    <value></value>
+  </data>
+  <data name="CountingPointSetModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="CountingPointSetModel.Id">
+    <value>ID</value>
+  </data>
+  <data name="CountingPointSetModel.KeyId">
+    <value>Counting point group ID</value>
+  </data>
+  <data name="CountingPointSetModel.Name">
+    <value>Название</value>
+  </data>
+  <data name="CountingPointSetModel.Remark">
+    <value>Замечание</value>
+  </data>
+  <data name="CountingPointSetModel.Status">
+    <value>Статус</value>
+  </data>
+  <data name="CustSiteModel.Created">
+    <value></value>
+  </data>
+  <data name="CustSiteModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="CustSiteModel.Modified">
+    <value></value>
+  </data>
+  <data name="CustSiteModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="CustSiteModel.AvgOnSiteStoreTime">
+    <value>Средн. время хранения</value>
+  </data>
+  <data name="CustSiteModel.AvgOpDuration">
+    <value>Средн. продолж. операции</value>
+  </data>
+  <data name="CustSiteModel.CntpsKeyId">
+    <value>Counting point group</value>
+  </data>
+  <data name="CustSiteModel.DelGLN">
+    <value>Delivery GLN</value>
+  </data>
+  <data name="CustSiteModel.DelPKeyId">
+    <value>Transit product delivery plan</value>
+  </data>
+  <data name="CustSiteModel.Descr">
+    <value>Описание</value>
+  </data>
+  <data name="CustSiteModel.GLN">
+    <value>Customer site GLN</value>
+  </data>
+  <data name="CustSiteModel.IntPickTime">
+    <value>Local picking time</value>
+  </data>
+  <data name="CustSiteModel.IntTransTimeArrive">
+    <value>Локальное время прибытия</value>
+  </data>
+  <data name="CustSiteModel.IntTransTimeDepart">
+    <value>Локальное время отправки</value>
+  </data>
+  <data name="CustSiteModel.KeyId">
+    <value>ID филиала подразделения</value>
+  </data>
+  <data name="CustSiteModel.MinOrderLeadTime">
+    <value>Min. ordering time before operation</value>
+  </data>
+  <data name="CustSiteModel.Name">
+    <value>Название</value>
+  </data>
+  <data name="CustSiteModel.Site">
+    <value>Филиал Подразделения</value>
+  </data>
+  <data name="CustSiteModel.UserField01">
+    <value>Поле пользователя  1</value>
+  </data>
+  <data name="CustSiteModel.UserField02">
+    <value>Поле пользователя 2</value>
+  </data>
+  <data name="CustSiteModel.UserField03">
+    <value>Поле пользователя 3</value>
+  </data>
+  <data name="CustSiteModel.UserField04">
+    <value>Поле пользователя 4</value>
+  </data>
+  <data name="CustSiteModel.UserField05">
+    <value>Поле пользователя 5</value>
+  </data>
+  <data name="CustSiteModel.UserField06">
+    <value>Поле пользователя 6</value>
+  </data>
+  <data name="CustSiteModel.UserField07">
+    <value>Поле пользователя 7</value>
+  </data>
+  <data name="CustSiteModel.UserField08">
+    <value>Поле пользователя 8</value>
+  </data>
+  <data name="CustSiteModel.UserField09">
+    <value>Поле пользователя 9</value>
+  </data>
+  <data name="CustSiteModel.UserField10">
+    <value>Поле пользователя 10</value>
+  </data>
+  <data name="CustSiteModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="CustSiteModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="CustSiteModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="CustSiteModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="CustSiteModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="CustSiteModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="CustSiteModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="CustSiteModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="CustSiteModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="CustSiteModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="CustomerModel.Created">
+    <value></value>
+  </data>
+  <data name="CustomerModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="CustomerModel.Modified">
+    <value></value>
+  </data>
+  <data name="CustomerModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="CustomerModel.Account">
+    <value>Уч. запись</value>
+  </data>
+  <data name="CustomerModel.Address1">
+    <value>Улица</value>
+  </data>
+  <data name="CustomerModel.Address2">
+    <value>Улица (2)</value>
+  </data>
+  <data name="CustomerModel.AllowNonECCContent">
+    <value>Delivery of other goods in emergency case carts</value>
+  </data>
+  <data name="CustomerModel.ArrivedLGrpKeyId">
+    <value>Arrived location group</value>
+  </data>
+  <data name="CustomerModel.AvailablelgrpKeyId">
+    <value>Available location group</value>
+  </data>
+  <data name="CustomerModel.AvgOnSiteStoreTime">
+    <value>Средн. время хранения</value>
+  </data>
+  <data name="CustomerModel.AvgOpDuration">
+    <value>Средн. продолж. операции</value>
+  </data>
+  <data name="CustomerModel.Barcode">
+    <value>Штрих-коды</value>
+  </data>
+  <data name="CustomerModel.CalKeyId">
+    <value>Календарь</value>
+  </data>
+  <data name="CustomerModel.CanOrder">
+    <value>Можно отослать заказы</value>
+  </data>
+  <data name="CustomerModel.ChargeOptions">
+    <value>Опции инвойса</value>
+  </data>
+  <data name="CustomerModel.City">
+    <value>Индекс/Город </value>
+  </data>
+  <data name="CustomerModel.CntpsKeyId">
+    <value>Counting point group</value>
+  </data>
+  <data name="CustomerModel.Color">
+    <value>Цвет</value>
+  </data>
+  <data name="CustomerModel.Country">
+    <value>Страна</value>
+  </data>
+  <data name="CustomerModel.CuSiteKeyId">
+    <value>Филиал Подразделения</value>
+  </data>
+  <data name="CustomerModel.Customer">
+    <value>Подразделение</value>
+  </data>
+  <data name="CustomerModel.DefStokKeyId">
+    <value>Склад по умолчанию </value>
+  </data>
+  <data name="CustomerModel.DelAddress1">
+    <value>Улица</value>
+  </data>
+  <data name="CustomerModel.DelAddress2">
+    <value>Улица 2</value>
+  </data>
+  <data name="CustomerModel.DelCity">
+    <value>Почтовый индекс/Город</value>
+  </data>
+  <data name="CustomerModel.DelCountry">
+    <value>Страна</value>
+  </data>
+  <data name="CustomerModel.DelEmail">
+    <value>email</value>
+  </data>
+  <data name="CustomerModel.DelFax">
+    <value>Факс </value>
+  </data>
+  <data name="CustomerModel.DelGln">
+    <value>Delivery GLN</value>
+  </data>
+  <data name="CustomerModel.DeliveryNote">
+    <value>Накладная</value>
+  </data>
+  <data name="CustomerModel.DelPKeyId">
+    <value>Transit product delivery plan</value>
+  </data>
+  <data name="CustomerModel.DelTelephone">
+    <value>Телефон </value>
+  </data>
+  <data name="CustomerModel.Email">
+    <value>email</value>
+  </data>
+  <data name="CustomerModel.EndoSETime">
+    <value>Std. Endo Expire time</value>
+  </data>
+  <data name="CustomerModel.External">
+    <value>Внешний</value>
+  </data>
+  <data name="CustomerModel.FacKeyId">
+    <value>ЦСО</value>
+  </data>
+  <data name="CustomerModel.Fax">
+    <value>Факс</value>
+  </data>
+  <data name="CustomerModel.Flags1">
+    <value>Настройки</value>
+  </data>
+  <data name="CustomerModel.Gln">
+    <value>GLN</value>
+  </data>
+  <data name="CustomerModel.IntPickTime">
+    <value>Local picking time</value>
+  </data>
+  <data name="CustomerModel.IntTransTimeArrive">
+    <value>Локальное время прибытия</value>
+  </data>
+  <data name="CustomerModel.IntTransTimeDepart">
+    <value>Локальное время отправки</value>
+  </data>
+  <data name="CustomerModel.InvoiceCustKeyId">
+    <value>Инвойс подразделения</value>
+  </data>
+  <data name="CustomerModel.InvoiceRebate">
+    <value>Коррекция счета (инвойса) (%)</value>
+  </data>
+  <data name="CustomerModel.KeyId">
+    <value>ID подразделения</value>
+  </data>
+  <data name="CustomerModel.LineRebate">
+    <value>Коррекция строки  (%) </value>
+  </data>
+  <data name="CustomerModel.MinOrderLeadTime">
+    <value>Min. ordering time before operation</value>
+  </data>
+  <data name="CustomerModel.Name">
+    <value>Название</value>
+  </data>
+  <data name="CustomerModel.OrderBookingMode">
+    <value>Режим резервирования заказа</value>
+  </data>
+  <data name="CustomerModel.PreDispatchMode">
+    <value>Pre-dispatch</value>
+  </data>
+  <data name="CustomerModel.Remark">
+    <value>Замечание</value>
+  </data>
+  <data name="CustomerModel.Reordermode">
+    <value>Переупорядочить при возврате </value>
+  </data>
+  <data name="CustomerModel.ShortName">
+    <value>Корот. имя</value>
+  </data>
+  <data name="CustomerModel.Status">
+    <value>Статус</value>
+  </data>
+  <data name="CustomerModel.StGrKeyId">
+    <value>Группа запаса на складе  </value>
+  </data>
+  <data name="CustomerModel.TagsSurvive">
+    <value>Метки сохраняют работоспособность </value>
+  </data>
+  <data name="CustomerModel.Telephone">
+    <value>Тел.</value>
+  </data>
+  <data name="CustomerModel.Traceability">
+    <value>Прослеживаемость </value>
+  </data>
+  <data name="CustomerModel.UserField01">
+    <value>Поле пользователя  1</value>
+  </data>
+  <data name="CustomerModel.UserField02">
+    <value>Поле пользователя 2</value>
+  </data>
+  <data name="CustomerModel.UserField03">
+    <value>Поле пользователя 3</value>
+  </data>
+  <data name="CustomerModel.UserField04">
+    <value>Поле пользователя 4</value>
+  </data>
+  <data name="CustomerModel.UserField05">
+    <value>Поле пользователя 5</value>
+  </data>
+  <data name="CustomerModel.UserField06">
+    <value>Поле пользователя 6</value>
+  </data>
+  <data name="CustomerModel.UserField07">
+    <value>Поле пользователя 7</value>
+  </data>
+  <data name="CustomerModel.UserField08">
+    <value>Поле пользователя 8</value>
+  </data>
+  <data name="CustomerModel.UserField09">
+    <value>Поле пользователя 9</value>
+  </data>
+  <data name="CustomerModel.UserField10">
+    <value>Поле пользователя 10</value>
+  </data>
+  <data name="CustomerModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="CustomerModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="CustomerModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="CustomerModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="CustomerModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="CustomerModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="CustomerModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="CustomerModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="CustomerModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="CustomerModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="CustomerModel.WebPassword">
+    <value>Пароль Web/FTP </value>
+  </data>
+  <data name="CustomerModel.WebSite">
+    <value>Сайт в интернете</value>
+  </data>
+  <data name="CustomerModel.WebUser">
+    <value>Пользователь Web/FTP </value>
+  </data>
+  <data name="EndoDryingMethodsModel.KeyId">
+    <value>ID Метода сушки эндоскопов</value>
+  </data>
+  <data name="EndoDryingMethodsModel.Method">
+    <value>Метод</value>
+  </data>
+  <data name="EndoDryingMethodsModel.Name">
+    <value>Название</value>
+  </data>
+  <data name="ProgramGroupModel.Color">
+    <value>Цвет</value>
+  </data>
+  <data name="ProgramGroupModel.KeyId">
+    <value>ID Программной группы</value>
+  </data>
+  <data name="ProgramGroupModel.Name">
+    <value>Название</value>
+  </data>
+  <data name="ProgramGroupModel.Remark">
+    <value>Замечание</value>
+  </data>
+  <data name="ProgramGroupModel.Type">
+    <value>Тип</value>
+  </data>
+  <data name="FactoryModel.Created">
+    <value></value>
+  </data>
+  <data name="FactoryModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="FactoryModel.Modified">
+    <value></value>
+  </data>
+  <data name="FactoryModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="FactoryModel.Address1">
+    <value>Улица</value>
+  </data>
+  <data name="FactoryModel.Address2">
+    <value>Улица (2)</value>
+  </data>
+  <data name="FactoryModel.AllowSkipCleanAndTest">
+    <value>Allow skip clean and test</value>
+  </data>
+  <data name="FactoryModel.AllowSkipDispatch">
+    <value>Allow skip dispatch</value>
+  </data>
+  <data name="FactoryModel.AllowSkipReturn">
+    <value>Allow skip return</value>
+  </data>
+  <data name="FactoryModel.AutoPlayVideos">
+    <value>Autoplay videos</value>
+  </data>
+  <data name="FactoryModel.Bioid">
+    <value>BIO ID</value>
+  </data>
+  <data name="FactoryModel.CalKeyId">
+    <value>Календарь</value>
+  </data>
+  <data name="FactoryModel.ChargeUsage">
+    <value>Загрузить полное Использование при приемке c ошибкой</value>
+  </data>
+  <data name="FactoryModel.City">
+    <value>Индекс/Город </value>
+  </data>
+  <data name="FactoryModel.CntpsKeyId">
+    <value>Counting point group</value>
+  </data>
+  <data name="FactoryModel.Country">
+    <value>Страна</value>
+  </data>
+  <data name="FactoryModel.CrossRefVendorKeyId">
+    <value>Привилегированный поставщик </value>
+  </data>
+  <data name="FactoryModel.CustNameDisplay">
+    <value>Использовать короткое имя заказчиков </value>
+  </data>
+  <data name="FactoryModel.CustOrdAcceptMode">
+    <value>Customer order acceptance handling</value>
+  </data>
+  <data name="FactoryModel.DecItemStockOnPack">
+    <value>Уменьшить кол-во на складе при упаковке</value>
+  </data>
+  <data name="FactoryModel.DeductItemsFromStock">
+    <value>Deduct items from stock in Operation</value>
+  </data>
+  <data name="FactoryModel.DefAdminLocaKeyId">
+    <value>Default Admin location</value>
+  </data>
+  <data name="FactoryModel.DefAvgOnSiteStoreTime">
+    <value>Default Avg. On-site storage time</value>
+  </data>
+  <data name="FactoryModel.DefAvgOpDuration">
+    <value>Default Avg. operation duration</value>
+  </data>
+  <data name="FactoryModel.DefDispatchRestrict">
+    <value>Ограничение на отправку по умолчанию</value>
+  </data>
+  <data name="FactoryModel.DefItemShelvingTime">
+    <value>Default Item shelving time</value>
+  </data>
+  <data name="FactoryModel.DefItemStokKeyId">
+    <value>Склад изделий по умолчанию </value>
+  </data>
+  <data name="FactoryModel.DefMESPickingCapacity">
+    <value>Hourly picking capacity</value>
+  </data>
+  <data name="FactoryModel.DefMESResvStokKeyId">
+    <value>Automated reserved stock</value>
+  </data>
+  <data name="FactoryModel.DefMESStokKeyId">
+    <value>Automated picking stock</value>
+  </data>
+  <data name="FactoryModel.DefOrdSuppStokKeyId">
+    <value>Default customer order stock</value>
+  </data>
+  <data name="FactoryModel.DefProdTraceType">
+    <value>Метод отслеживания по умолчанию</value>
+  </data>
+  <data name="FactoryModel.DefProductStokKeyId">
+    <value>Склад  регламентированных изделий по умолчанию </value>
+  </data>
+  <data name="FactoryModel.DefSerialDispRestrict">
+    <value>Default Serial dispatch restriction</value>
+  </data>
+  <data name="FactoryModel.DefSuppCalKeyId">
+    <value>Календарь Поставщика по умолчанию</value>
+  </data>
+  <data name="FactoryModel.DefSuppOrderDelTime">
+    <value>Время доставки по умолчанию Поставщика</value>
+  </data>
+  <data name="FactoryModel.DefSuppOrderHandlTime">
+    <value>Время на обработку заказа по умолчанию Поставщика</value>
+  </data>
+  <data name="FactoryModel.DefSuppOrderRampTime">
+    <value>Default Supplier order ramp time</value>
+  </data>
+  <data name="FactoryModel.DefSuppOrderTransTime">
+    <value>Время передачи заказа Поставщика по умолчанию</value>
+  </data>
+  <data name="FactoryModel.DefWPlanKeyId">
+    <value>Вес по умолчанию</value>
+  </data>
+  <data name="FactoryModel.DelAddress1">
+    <value>Улица</value>
+  </data>
+  <data name="FactoryModel.DelAddress2">
+    <value>Улица 2</value>
+  </data>
+  <data name="FactoryModel.DelCity">
+    <value>Почтовый индекс/Город</value>
+  </data>
+  <data name="FactoryModel.DelCountry">
+    <value>Страна</value>
+  </data>
+  <data name="FactoryModel.DelEmail">
+    <value>email</value>
+  </data>
+  <data name="FactoryModel.DelFax">
+    <value>Факс </value>
+  </data>
+  <data name="FactoryModel.DelPKeyId">
+    <value>Transit product delivery plan</value>
+  </data>
+  <data name="FactoryModel.DeltaScanMode">
+    <value>Разница режим сканирования</value>
+  </data>
+  <data name="FactoryModel.DelTelephone">
+    <value>Телефон </value>
+  </data>
+  <data name="FactoryModel.DropItemSuppOpOrders">
+    <value>Удалить Поставщика из заказо План. опер.</value>
+  </data>
+  <data name="FactoryModel.Email">
+    <value>email</value>
+  </data>
+  <data name="FactoryModel.EndoCycleToCab">
+    <value>Cycle to cabinet time</value>
+  </data>
+  <data name="FactoryModel.EndoDefCabKeyId">
+    <value>Default cabinet</value>
+  </data>
+  <data name="FactoryModel.EndoDefFSPlKeyId">
+    <value>Размещение склада по умолчанию</value>
+  </data>
+  <data name="FactoryModel.Endodryingmode">
+    <value>Manual drying</value>
+  </data>
+  <data name="FactoryModel.EndoHaTKeyId">
+    <value>Handling type</value>
+  </data>
+  <data name="FactoryModel.EndoSETime">
+    <value>Std. Endo Expire time</value>
+  </data>
+  <data name="FactoryModel.EndoShelfDelay">
+    <value>Endo shelf delay time</value>
+  </data>
+  <data name="FactoryModel.EndoShelfRelTime">
+    <value>Endo shelf delay rel. time</value>
+  </data>
+  <data name="FactoryModel.EquipmentUsage">
+    <value>Использовать оборудование </value>
+  </data>
+  <data name="FactoryModel.Expiretype">
+    <value>Тип окончания срока </value>
+  </data>
+  <data name="FactoryModel.Facrestrictmode">
+    <value>Режим ограничения предприятия </value>
+  </data>
+  <data name="FactoryModel.Factory">
+    <value>ЦСО</value>
+  </data>
+  <data name="FactoryModel.Fax">
+    <value>Факс</value>
+  </data>
+  <data name="FactoryModel.FixedPrices">
+    <value>Использовать фиксированные цены</value>
+  </data>
+  <data name="FactoryModel.Flags1">
+    <value>Варианты 1</value>
+  </data>
+  <data name="FactoryModel.Flags2">
+    <value>Варианты 2</value>
+  </data>
+  <data name="FactoryModel.FTMaxCodeDuration">
+    <value>Код быстрого остлеж. истек</value>
+  </data>
+  <data name="FactoryModel.FTMaxPlanDuration">
+    <value>Fast track plan expiry</value>
+  </data>
+  <data name="FactoryModel.FTPlKeyId">
+    <value>План быстрого отслеживания</value>
+  </data>
+  <data name="FactoryModel.GuestprofKeyId">
+    <value>Профиль пользователя-гостя </value>
+  </data>
+  <data name="FactoryModel.HourCosts">
+    <value>Почасовые Издержки </value>
+  </data>
+  <data name="FactoryModel.IncItemStockOnPack">
+    <value>Increase item stock on pack</value>
+  </data>
+  <data name="FactoryModel.IndicApproveLocaKeyId">
+    <value>Местоположение одобренного индикатора</value>
+  </data>
+  <data name="FactoryModel.IndicDisappLocaKeyId">
+    <value>Местоположение не одобренного индикатора.</value>
+  </data>
+  <data name="FactoryModel.IndicPendingLocaKeyId">
+    <value>Indicator Pending location</value>
+  </data>
+  <data name="FactoryModel.InvoiceLocktime">
+    <value>Дата закрытия инвойса</value>
+  </data>
+  <data name="FactoryModel.ItemAltPriceMode">
+    <value>Альтерн. режим ценообразования</value>
+  </data>
+  <data name="FactoryModel.ItemDispAltPriceMode">
+    <value>Alt. disposable item pricing mode</value>
+  </data>
+  <data name="FactoryModel.ItemDispPriceMode">
+    <value>Режим ценообразования расходных материалов</value>
+  </data>
+  <data name="FactoryModel.ItemPriceMode">
+    <value>Режим цены позиции</value>
+  </data>
+  <data name="FactoryModel.KeyId">
+    <value>ID ЦСО</value>
+  </data>
+  <data name="FactoryModel.LoadnumberUsage">
+    <value>Загрузить число использования </value>
+  </data>
+  <data name="FactoryModel.MinOrderLeadTime">
+    <value>Min. ordering time before operation</value>
+  </data>
+  <data name="FactoryModel.MinOrderLeadTimeMode">
+    <value>Time mode</value>
+  </data>
+  <data name="FactoryModel.MoneyRounding">
+    <value>Округление</value>
+  </data>
+  <data name="FactoryModel.Name">
+    <value>Название</value>
+  </data>
+  <data name="FactoryModel.OrderBookingMode">
+    <value>Режим резервирования заказа</value>
+  </data>
+  <data name="FactoryModel.PreDispatch">
+    <value>Подготовка к отправке</value>
+  </data>
+  <data name="FactoryModel.RefNo">
+    <value>Справ. №</value>
+  </data>
+  <data name="FactoryModel.Remark">
+    <value>Замечание</value>
+  </data>
+  <data name="FactoryModel.RepairError">
+    <value>Ошибка ремонта</value>
+  </data>
+  <data name="FactoryModel.Repairmode">
+    <value>режим ремонта</value>
+  </data>
+  <data name="FactoryModel.SBFTAllStocks">
+    <value>Все склады</value>
+  </data>
+  <data name="FactoryModel.SBFTBlockStartedOp">
+    <value>Exclude started operations</value>
+  </data>
+  <data name="FactoryModel.SBFTDispatchedLGrpKeyId">
+    <value>Limit locations for dispatched units</value>
+  </data>
+  <data name="FactoryModel.SBFTEscFTCoKeyId">
+    <value>2nd Fast Track code</value>
+  </data>
+  <data name="FactoryModel.SBFTEscTime">
+    <value>Assign 2nd FT code after</value>
+  </data>
+  <data name="FactoryModel.SBFTFTCoKeyId">
+    <value>1st Fast Track code</value>
+  </data>
+  <data name="FactoryModel.SBFTMaxDelTime">
+    <value>Max time</value>
+  </data>
+  <data name="FactoryModel.SBFTMinDelTime">
+    <value>Min. time</value>
+  </data>
+  <data name="FactoryModel.SBFTMode">
+    <value>Enable Stock based fast tracking</value>
+  </data>
+  <data name="FactoryModel.SBFTOrdersFilter">
+    <value>Include</value>
+  </data>
+  <data name="FactoryModel.SealCount">
+    <value>Число уплотнений </value>
+  </data>
+  <data name="FactoryModel.SealPrint">
+    <value>Распечатка термосварочной машины    </value>
+  </data>
+  <data name="FactoryModel.Setweightusage">
+    <value>Использование веса</value>
+  </data>
+  <data name="FactoryModel.Shortname">
+    <value>Корот. имя</value>
+  </data>
+  <data name="FactoryModel.Status">
+    <value>Статус</value>
+  </data>
+  <data name="FactoryModel.StgrKeyId">
+    <value>Группа запаса на складе  </value>
+  </data>
+  <data name="FactoryModel.SUAMatchConditions">
+    <value>Match conditions</value>
+  </data>
+  <data name="FactoryModel.SUAMaxUserComplexity">
+    <value>Max. User complexity</value>
+  </data>
+  <data name="FactoryModel.SUAMinProdComplexity">
+    <value>Min. Product complexity</value>
+  </data>
+  <data name="FactoryModel.SUAReqProdType">
+    <value>Required for products</value>
+  </data>
+  <data name="FactoryModel.Telephone">
+    <value>Тел.</value>
+  </data>
+  <data name="FactoryModel.TraceStokKeyId">
+    <value>Доступный для анализа склад </value>
+  </data>
+  <data name="FactoryModel.TransitStokKeyId">
+    <value>Транзитные запасы </value>
+  </data>
+  <data name="FactoryModel.TRGrpKeyId">
+    <value>Expire time group</value>
+  </data>
+  <data name="FactoryModel.Type">
+    <value>Тип</value>
+  </data>
+  <data name="FactoryModel.UserField01">
+    <value>Поле пользователя  1</value>
+  </data>
+  <data name="FactoryModel.UserField02">
+    <value>Поле пользователя 2</value>
+  </data>
+  <data name="FactoryModel.UserField03">
+    <value>Поле пользователя 3</value>
+  </data>
+  <data name="FactoryModel.UserField04">
+    <value>Поле пользователя 4</value>
+  </data>
+  <data name="FactoryModel.UserField05">
+    <value>Поле пользователя 5</value>
+  </data>
+  <data name="FactoryModel.UserField06">
+    <value>Поле пользователя 6</value>
+  </data>
+  <data name="FactoryModel.UserField07">
+    <value>Поле пользователя 7</value>
+  </data>
+  <data name="FactoryModel.UserField08">
+    <value>Поле пользователя 8</value>
+  </data>
+  <data name="FactoryModel.UserField09">
+    <value>Поле пользователя 9</value>
+  </data>
+  <data name="FactoryModel.UserField10">
+    <value>Поле пользователя 10</value>
+  </data>
+  <data name="FactoryModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="FactoryModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="FactoryModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="FactoryModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="FactoryModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="FactoryModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="FactoryModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="FactoryModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="FactoryModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="FactoryModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="FactoryModel.UIStartMode">
+    <value>Стартовый режим UI Сканера</value>
+  </data>
+  <data name="FactoryModel.UseColorFields">
+    <value>Использовать цветные поля</value>
+  </data>
+  <data name="FactoryModel.Usedispstockonpack">
+    <value>При упаковке использовать склад  расходных материалов</value>
+  </data>
+  <data name="FactoryModel.UseNTLogin">
+    <value>Использовать регистрационное имя  NT </value>
+  </data>
+  <data name="FactoryModel.Webitemlocatorcolumns">
+    <value>Item locator display fields</value>
+  </data>
+  <data name="FactoryModel.WebLocaKeyId">
+    <value>Operation location</value>
+  </data>
+  <data name="FactoryModel.WebOrderInitStatus">
+    <value>Initial state for orders received from Web</value>
+  </data>
+  <data name="FactoryModel.Webprodlocatorcolumns">
+    <value>Product locator display fields</value>
+  </data>
+  <data name="FactoryModel.Website">
+    <value>Сайт в интернете</value>
+  </data>
+  <data name="FastTrackCodeModel.Created">
+    <value></value>
+  </data>
+  <data name="FastTrackCodeModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="FastTrackCodeModel.Modified">
+    <value></value>
+  </data>
+  <data name="FastTrackCodeModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="FastTrackCodeModel.Code">
+    <value>Код</value>
+  </data>
+  <data name="FastTrackCodeModel.Descr">
+    <value>Описание</value>
+  </data>
+  <data name="FastTrackCodeModel.DisplayMode">
+    <value>Режим отображения</value>
+  </data>
+  <data name="FastTrackCodeModel.EndLoGrpKeyId">
+    <value>Конечное местоположение группы</value>
+  </data>
+  <data name="FastTrackCodeModel.EndStatus">
+    <value>Окончательный статус</value>
+  </data>
+  <data name="FastTrackCodeModel.EndTime">
+    <value>Время оконч.</value>
+  </data>
+  <data name="FastTrackCodeModel.InvoiceItemKeyId">
+    <value>Позиция счета</value>
+  </data>
+  <data name="FastTrackCodeModel.InvoicePrice">
+    <value>Цена инвойса</value>
+  </data>
+  <data name="FastTrackCodeModel.InvoiceTo">
+    <value>Счет для</value>
+  </data>
+  <data name="FastTrackCodeModel.InvoiceWithUnit">
+    <value>Invoice with unit</value>
+  </data>
+  <data name="FastTrackCodeModel.KeyId">
+    <value>ID кода быстрого остлеж.</value>
+  </data>
+  <data name="FastTrackCodeModel.Name">
+    <value>Название</value>
+  </data>
+  <data name="FastTrackCodeModel.Priority">
+    <value>Приоритет</value>
+  </data>
+  <data name="FastTrackCodeModel.StartLoGrpKeyId">
+    <value>Группа начального местоположения</value>
+  </data>
+  <data name="FastTrackCodeModel.StartStatus">
+    <value>Статус начала</value>
+  </data>
+  <data name="FastTrackCodeModel.StartTime">
+    <value>Время начала</value>
+  </data>
+  <data name="FastTrackCodeModel.Status">
+    <value>Статус</value>
+  </data>
+  <data name="FastTrackCodeModel.Type">
+    <value>Тип</value>
+  </data>
+  <data name="FastTrackCodeModel.Weekdays">
+    <value>Будние дни</value>
+  </data>
+  <data name="FastTrackPlanModel.Created">
+    <value></value>
+  </data>
+  <data name="FastTrackPlanModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="FastTrackPlanModel.Modified">
+    <value></value>
+  </data>
+  <data name="FastTrackPlanModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="FastTrackPlanModel.Descr">
+    <value>Описание</value>
+  </data>
+  <data name="FastTrackPlanModel.DisplayMode">
+    <value>Режим отображения</value>
+  </data>
+  <data name="FastTrackPlanModel.InvoiceItemKeyId">
+    <value>Позиция счета</value>
+  </data>
+  <data name="FastTrackPlanModel.InvoicePrice">
+    <value>Цена</value>
+  </data>
+  <data name="FastTrackPlanModel.InvoiceTo">
+    <value>Счет для</value>
+  </data>
+  <data name="FastTrackPlanModel.InvoiceWithUnit">
+    <value>Invoice with unit</value>
+  </data>
+  <data name="FastTrackPlanModel.KeyId">
+    <value>ID плана быстрого отслеживания</value>
+  </data>
+  <data name="FastTrackPlanModel.Name">
+    <value>Название</value>
+  </data>
+  <data name="FastTrackPlanModel.Plan">
+    <value>план</value>
+  </data>
+  <data name="FastTrackPlanModel.Priority">
+    <value>Приоритет</value>
+  </data>
+  <data name="FastTrackPlanModel.Status">
+    <value>Статус</value>
+  </data>
+  <data name="FastTrackPlanModel.WorkhourMode">
+    <value>режим рабочих часов</value>
+  </data>
+  <data name="FastTrackTemplateModel.Created">
+    <value></value>
+  </data>
+  <data name="FastTrackTemplateModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="FastTrackTemplateModel.Modified">
+    <value></value>
+  </data>
+  <data name="FastTrackTemplateModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="FastTrackTemplateModel.Descr">
+    <value>Описание</value>
+  </data>
+  <data name="FastTrackTemplateModel.KeyId">
+    <value>ID шаблона быстрого отслеживания</value>
+  </data>
+  <data name="FastTrackTemplateModel.Name">
+    <value>Название</value>
+  </data>
+  <data name="FastTrackTemplateModel.Template">
+    <value>Шаблон</value>
+  </data>
+  <data name="HandlingTypesModel.Created">
+    <value></value>
+  </data>
+  <data name="HandlingTypesModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="HandlingTypesModel.Modified">
+    <value></value>
+  </data>
+  <data name="HandlingTypesModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="HandlingTypesModel.Id">
+    <value>Handling type</value>
+  </data>
+  <data name="HandlingTypesModel.KeyId">
+    <value>Handling type ID</value>
+  </data>
+  <data name="HandlingTypesModel.Name">
+    <value>Название</value>
+  </data>
+  <data name="HandlingTypesModel.Remark">
+    <value>Примечания</value>
+  </data>
+  <data name="IdenticalArticleGroupModel.Forcealtarticles">
+    <value>Force all articles</value>
+  </data>
+  <data name="IdenticalArticleGroupModel.KeyId">
+    <value>Identical article group ID</value>
+  </data>
+  <data name="IdenticalArticleGroupModel.Name">
+    <value>Common name</value>
+  </data>
+  <data name="IdenticalArticleGroupModel.Type">
+    <value>Тип</value>
+  </data>
+  <data name="ItemModel.Created">
+    <value></value>
+  </data>
+  <data name="ItemModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="ItemModel.Modified">
+    <value></value>
+  </data>
+  <data name="ItemModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="ItemModel.Barcode">
+    <value>Штрих-коды</value>
+  </data>
+  <data name="ItemModel.CatKeyId">
+    <value>ID Каталога</value>
+  </data>
+  <data name="ItemModel.Color">
+    <value>Цвет</value>
+  </data>
+  <data name="ItemModel.Composite">
+    <value>составной</value>
+  </data>
+  <data name="ItemModel.Contamination">
+    <value>Возможность контаминации</value>
+  </data>
+  <data name="ItemModel.Costprice">
+    <value>Стоимость</value>
+  </data>
+  <data name="ItemModel.Difficulty">
+    <value>коэффициент сложности</value>
+  </data>
+  <data name="ItemModel.DifficultyMode">
+    <value>Complexity mode</value>
+  </data>
+  <data name="ItemModel.DiscardLevel">
+    <value>Discard level</value>
+  </data>
+  <data name="ItemModel.Disposable">
+    <value>Расходные  материалы</value>
+  </data>
+  <data name="ItemModel.DispPrice">
+    <value>Цена расходных  материалов </value>
+  </data>
+  <data name="ItemModel.ExternalText">
+    <value>Внешний текст</value>
+  </data>
+  <data name="ItemModel.ExternalType">
+    <value>Внешний тип</value>
+  </data>
+  <data name="ItemModel.FacKeyId">
+    <value>ЦСО</value>
+  </data>
+  <data name="ItemModel.HospitalDescription">
+    <value>Локальное имя </value>
+  </data>
+  <data name="ItemModel.InArtKeyId">
+    <value>Identical</value>
+  </data>
+  <data name="ItemModel.Info">
+    <value>Замечание</value>
+  </data>
+  <data name="ItemModel.Item">
+    <value>Изделие</value>
+  </data>
+  <data name="ItemModel.ItGrpKeyId">
+    <value>Группа</value>
+  </data>
+  <data name="ItemModel.ItspcKeyId">
+    <value>Назначение</value>
+  </data>
+  <data name="ItemModel.KeyId">
+    <value>ID Изделия</value>
+  </data>
+  <data name="ItemModel.Length">
+    <value>Длина</value>
+  </data>
+  <data name="ItemModel.Lifespan">
+    <value>Срок службы </value>
+  </data>
+  <data name="ItemModel.ManufactorNo">
+    <value>№ Произв.</value>
+  </data>
+  <data name="ItemModel.ManuKeyId">
+    <value>Производитель</value>
+  </data>
+  <data name="ItemModel.Material">
+    <value>Материал</value>
+  </data>
+  <data name="ItemModel.MaterialsNum">
+    <value>№ (Номер) Mat. </value>
+  </data>
+  <data name="ItemModel.MaxPressure">
+    <value>Макс. давление</value>
+  </data>
+  <data name="ItemModel.MaxTemp">
+    <value>Макс. Температура</value>
+  </data>
+  <data name="ItemModel.OrderLeadTime">
+    <value>Order lead time</value>
+  </data>
+  <data name="ItemModel.OrderMinCount">
+    <value>Мин. итоговая сумма заказа </value>
+  </data>
+  <data name="ItemModel.OrderStdCount">
+    <value>Размер пакета заказа</value>
+  </data>
+  <data name="ItemModel.OrderstduomKeyId">
+    <value>Единица измерения пакета заказа </value>
+  </data>
+  <data name="ItemModel.OtherMinCount">
+    <value>Мин. внутр. итоговая сумма заказа </value>
+  </data>
+  <data name="ItemModel.OtherUnitCount">
+    <value>Размер упаковки внутр. заказа</value>
+  </data>
+  <data name="ItemModel.OtheruomKeyId">
+    <value>Единица измерения (эталон, необходимое количество) упаковки внутр. Заказа</value>
+  </data>
+  <data name="ItemModel.RepairVendorKeyId">
+    <value>Продавец  услуг по ремонту</value>
+  </data>
+  <data name="ItemModel.ReservationMode">
+    <value>Режим резервирования</value>
+  </data>
+  <data name="ItemModel.SalesMinCount">
+    <value>Мин. итоговая сумма продаж </value>
+  </data>
+  <data name="ItemModel.SalesPrCode">
+    <value>Код отпускной цены </value>
+  </data>
+  <data name="ItemModel.SalesPrice">
+    <value>Отпускная цена </value>
+  </data>
+  <data name="ItemModel.SalesRestriction">
+    <value>Sales restriction</value>
+  </data>
+  <data name="ItemModel.SalesUnitCount">
+    <value>Размер пакета продаж </value>
+  </data>
+  <data name="ItemModel.SalesuomKeyId">
+    <value>Единица измерения  пакета продаж </value>
+  </data>
+  <data name="ItemModel.Serialmask">
+    <value>Маска серийного номера </value>
+  </data>
+  <data name="ItemModel.ShelvingTime">
+    <value>Время на полке</value>
+  </data>
+  <data name="ItemModel.SplitCount">
+    <value>Число меток для мойки</value>
+  </data>
+  <data name="ItemModel.Status">
+    <value>Статус</value>
+  </data>
+  <data name="ItemModel.SterilizationType">
+    <value>Метод стерилизации</value>
+  </data>
+  <data name="ItemModel.SuppKeyId">
+    <value>Поставщик</value>
+  </data>
+  <data name="ItemModel.SupplierNo">
+    <value>№ Поставщика</value>
+  </data>
+  <data name="ItemModel.TagTKeyId">
+    <value>Тип метки</value>
+  </data>
+  <data name="ItemModel.Text">
+    <value>Название</value>
+  </data>
+  <data name="ItemModel.Tip">
+    <value>Наконечник</value>
+  </data>
+  <data name="ItemModel.Totalcostprice">
+    <value>Total cost price</value>
+  </data>
+  <data name="ItemModel.Totalsalesprice">
+    <value>Total sales price</value>
+  </data>
+  <data name="ItemModel.Totalusageprice">
+    <value>Total usage price</value>
+  </data>
+  <data name="ItemModel.TraceType">
+    <value>Учет по </value>
+  </data>
+  <data name="ItemModel.Type">
+    <value>Тип</value>
+  </data>
+  <data name="ItemModel.UserField01">
+    <value>Поле пользователя  1</value>
+  </data>
+  <data name="ItemModel.UserField02">
+    <value>Поле пользователя 2</value>
+  </data>
+  <data name="ItemModel.UserField03">
+    <value>Поле пользователя 3</value>
+  </data>
+  <data name="ItemModel.UserField04">
+    <value>Поле пользователя 4</value>
+  </data>
+  <data name="ItemModel.UserField05">
+    <value>Поле пользователя 5</value>
+  </data>
+  <data name="ItemModel.UserField06">
+    <value>Поле пользователя 6</value>
+  </data>
+  <data name="ItemModel.UserField07">
+    <value>Поле пользователя 7</value>
+  </data>
+  <data name="ItemModel.UserField08">
+    <value>Поле пользователя 8</value>
+  </data>
+  <data name="ItemModel.UserField09">
+    <value>Поле пользователя 9</value>
+  </data>
+  <data name="ItemModel.UserField10">
+    <value>Поле пользователя 10</value>
+  </data>
+  <data name="ItemModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="ItemModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="ItemModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="ItemModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="ItemModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="ItemModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="ItemModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="ItemModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="ItemModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="ItemModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="ItemModel.Unitcount">
+    <value>Сумма Продукта </value>
+  </data>
+  <data name="ItemModel.UomKeyId">
+    <value>Измерение продукта</value>
+  </data>
+  <data name="ItemModel.UsagePrCode">
+    <value>Код цены использования </value>
+  </data>
+  <data name="ItemModel.UsagePrice">
+    <value>Цена использования</value>
+  </data>
+  <data name="ItemModel.Warrenty">
+    <value>Гарантия</value>
+  </data>
+  <data name="ItemModel.Weight">
+    <value>Вес</value>
+  </data>
+  <data name="ItemModel.WeightMode">
+    <value>Режим веса</value>
+  </data>
+  <data name="ItemModel.Width">
+    <value>Ширина</value>
+  </data>
+  <data name="PackingModel.Created">
+    <value></value>
+  </data>
+  <data name="PackingModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="PackingModel.Modified">
+    <value></value>
+  </data>
+  <data name="PackingModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="PackingModel.Color">
+    <value>Цвет</value>
+  </data>
+  <data name="PackingModel.Description">
+    <value>Описание</value>
+  </data>
+  <data name="PackingModel.FacKeyId">
+    <value>ЦСО</value>
+  </data>
+  <data name="PackingModel.FixedTime">
+    <value>Фиксированное время</value>
+  </data>
+  <data name="PackingModel.ItemKeyId">
+    <value>Изделие</value>
+  </data>
+  <data name="PackingModel.KeyId">
+    <value>ID Упаковки</value>
+  </data>
+  <data name="PackingModel.Packing">
+    <value>Упаковка</value>
+  </data>
+  <data name="PackingModel.RelativeTime">
+    <value>Относительное время</value>
+  </data>
+  <data name="PackingModel.SealCount">
+    <value>Число уплотнений </value>
+  </data>
+  <data name="PackingModel.SealPrint">
+    <value>Распечатка термосварочной машины    </value>
+  </data>
+  <data name="PackingModel.SeprgKeyId">
+    <value>Программа термосварочной машины</value>
+  </data>
+  <data name="PackingModel.ShelfLife">
+    <value>Срок годн.</value>
+  </data>
+  <data name="PackingModel.Status">
+    <value>Статус</value>
+  </data>
+  <data name="PackingModel.TagTKeyId">
+    <value>Тип метки</value>
+  </data>
+  <data name="PackingModel.Tracetype">
+    <value>Include in pack list</value>
+  </data>
+  <data name="PackingModel.UsedFor">
+    <value>Используется для</value>
+  </data>
+  <data name="PackingModel.Volume">
+    <value>Объем </value>
+  </data>
+  <data name="PackingModel.Weight">
+    <value>Вес</value>
+  </data>
+  <data name="PackingModel.WeightDisposable">
+    <value>Вес расходных материалов</value>
+  </data>
+  <data name="PackingModel.WeightMode">
+    <value>Режим веса</value>
+  </data>
+  <data name="PackingModel.WeightNonDisposable">
+    <value>Вес не одноразовых</value>
+  </data>
+  <data name="PriceGroupModel.Created">
+    <value></value>
+  </data>
+  <data name="PriceGroupModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="PriceGroupModel.Modified">
+    <value></value>
+  </data>
+  <data name="PriceGroupModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="PriceGroupModel.Descr">
+    <value>Замечание</value>
+  </data>
+  <data name="PriceGroupModel.KeyId">
+    <value>ID Группы цен</value>
+  </data>
+  <data name="PriceGroupModel.Name">
+    <value>Название</value>
+  </data>
+  <data name="PriceGroupModel.Price">
+    <value>Цена</value>
+  </data>
+  <data name="PriceGroupModel.PriceGroup">
+    <value>Группа цен</value>
+  </data>
+  <data name="TimeRuleGroupModel.Created">
+    <value></value>
+  </data>
+  <data name="TimeRuleGroupModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="TimeRuleGroupModel.Modified">
+    <value></value>
+  </data>
+  <data name="TimeRuleGroupModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="TimeRuleGroupModel.FacKeyId">
+    <value>ЦСО</value>
+  </data>
+  <data name="TimeRuleGroupModel.Id">
+    <value>ID</value>
+  </data>
+  <data name="TimeRuleGroupModel.KeyId">
+    <value>Expire time group ID</value>
+  </data>
+  <data name="TimeRuleGroupModel.Name">
+    <value>Название</value>
+  </data>
+  <data name="TimeRuleGroupModel.Remark">
+    <value>Примечания</value>
+  </data>
+  <data name="WeightPlanModel.Created">
+    <value></value>
+  </data>
+  <data name="WeightPlanModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="WeightPlanModel.Modified">
+    <value></value>
+  </data>
+  <data name="WeightPlanModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="WeightPlanModel.Descr">
+    <value>Описание</value>
+  </data>
+  <data name="WeightPlanModel.KeyId">
+    <value>ID плана веса</value>
+  </data>
+  <data name="WeightPlanModel.Name">
+    <value>Название</value>
+  </data>
+  <data name="WeightPlanModel.WeightPlan">
+    <value>План веса</value>
+  </data>
+  <data name="ProfileModel.Created">
+    <value></value>
+  </data>
+  <data name="ProfileModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="ProfileModel.Modified">
+    <value></value>
+  </data>
+  <data name="ProfileModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="ProfileModel.AncestorKeyId">
+    <value>Группа пользователя</value>
+  </data>
+  <data name="ProfileModel.KeyId">
+    <value>Идентификатор профиля</value>
+  </data>
+  <data name="ProfileModel.Name">
+    <value>Название</value>
+  </data>
+  <data name="ProfileModel.Profile">
+    <value>Профиль</value>
+  </data>
+  <data name="ProfileModel.Type">
+    <value>Тип</value>
+  </data>
+  <data name="ProfileModel.UpdateRequired">
+    <value>Update required</value>
+  </data>
+  <data name="CalendarModel.Created">
+    <value></value>
+  </data>
+  <data name="CalendarModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="CalendarModel.Modified">
+    <value></value>
+  </data>
+  <data name="CalendarModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="CalendarModel.KeyId">
+    <value>ID календаря</value>
+  </data>
+  <data name="CalendarModel.Name">
+    <value>Название</value>
+  </data>
+  <data name="CalendarModel.ParentCalKeyId">
+    <value>Parent</value>
+  </data>
+  <data name="StocksModel.AllowItems">
+    <value>Допустимые изделия </value>
+  </data>
+  <data name="StocksModel.AllowNegCount">
+    <value>Разрешено отрицательное количество на складе</value>
+  </data>
+  <data name="StocksModel.AllowProducts">
+    <value>Разрешенные регламенты</value>
+  </data>
+  <data name="StocksModel.AutomationMode">
+    <value>Automation mode</value>
+  </data>
+  <data name="StocksModel.AutoReorder">
+    <value>Автоматический повторный заказ (Автоматически переупорядочивать)</value>
+  </data>
+  <data name="StocksModel.Barcode">
+    <value>Штрих-коды</value>
+  </data>
+  <data name="StocksModel.BOInMode">
+    <value>Невыполненные заказы Режим ввода </value>
+  </data>
+  <data name="StocksModel.BOOutMode">
+    <value>Невыполненные заказы Режим вывода </value>
+  </data>
+  <data name="StocksModel.DefIdentLineUsage">
+    <value>Use identical articles</value>
+  </data>
+  <data name="StocksModel.Descr">
+    <value>Описание</value>
+  </data>
+  <data name="StocksModel.DropItemSuppOnSugg">
+    <value>Drop item supp. on suggestions</value>
+  </data>
+  <data name="StocksModel.EmgCTKeyId">
+    <value>Emergency case cart type</value>
+  </data>
+  <data name="StocksModel.FacKeyId">
+    <value>ЦСО</value>
+  </data>
+  <data name="StocksModel.IsTracestock">
+    <value>Factory Trace stock</value>
+  </data>
+  <data name="StocksModel.IsTransitStock">
+    <value>Factory Transit stock</value>
+  </data>
+  <data name="StocksModel.KeyId">
+    <value>Идентификатор склада </value>
+  </data>
+  <data name="StocksModel.LocaKeyId">
+    <value>Местоположение</value>
+  </data>
+  <data name="StocksModel.Name">
+    <value>Название</value>
+  </data>
+  <data name="StocksModel.OpTKeyId">
+    <value>Тип операции </value>
+  </data>
+  <data name="StocksModel.OrderInMode">
+    <value>Получение заказа на поставку </value>
+  </data>
+  <data name="StocksModel.PlacementMask">
+    <value>Маска размещения </value>
+  </data>
+  <data name="StocksModel.PrnBackOrder">
+    <value>Невыполненные заказы </value>
+  </data>
+  <data name="StocksModel.PrnCompletedOrder">
+    <value>Укомплектованные заказы </value>
+  </data>
+  <data name="StocksModel.PrnConfirmation">
+    <value>Подтверждение заказа</value>
+  </data>
+  <data name="StocksModel.PrnDelivery">
+    <value>Накладная</value>
+  </data>
+  <data name="StocksModel.PrnPicklist">
+    <value>Список для выбора </value>
+  </data>
+  <data name="StocksModel.PrnReceivedOrder">
+    <value>Полученные заказы </value>
+  </data>
+  <data name="StocksModel.PrnSentOrder">
+    <value>Отосланный заказ</value>
+  </data>
+  <data name="StocksModel.RefCustKeyId">
+    <value>Владелец  (Заказчик) </value>
+  </data>
+  <data name="StocksModel.RefFacKeyId">
+    <value>Владелец  (Предприятие) </value>
+  </data>
+  <data name="StocksModel.RefSuppKeyId">
+    <value>Владелец  (Поставщик)</value>
+  </data>
+  <data name="StocksModel.Status">
+    <value>Статус</value>
+  </data>
+  <data name="StocksModel.Stock">
+    <value>Склад</value>
+  </data>
+  <data name="StocksModel.SuppRefFacKeyId">
+    <value>Поставщик (Предприятие)</value>
+  </data>
+  <data name="StocksModel.SuppRefSuppKeyId">
+    <value>Поставщик (Поставщик)</value>
+  </data>
+  <data name="StocksModel.Type">
+    <value>Тип</value>
+  </data>
+  <data name="StocksModel.UserField01">
+    <value>Поле пользователя  1</value>
+  </data>
+  <data name="StocksModel.UserField02">
+    <value>Поле пользователя 2</value>
+  </data>
+  <data name="StocksModel.UserField03">
+    <value>Поле пользователя 3</value>
+  </data>
+  <data name="StocksModel.UserField04">
+    <value>Поле пользователя 4</value>
+  </data>
+  <data name="StocksModel.UserField05">
+    <value>Поле пользователя 5</value>
+  </data>
+  <data name="StocksModel.UserField06">
+    <value>Поле пользователя 6</value>
+  </data>
+  <data name="StocksModel.UserField07">
+    <value>Поле пользователя 7</value>
+  </data>
+  <data name="StocksModel.UserField08">
+    <value>Поле пользователя 8</value>
+  </data>
+  <data name="StocksModel.UserField09">
+    <value>Поле пользователя 9</value>
+  </data>
+  <data name="StocksModel.UserField10">
+    <value>Поле пользователя 10</value>
+  </data>
+  <data name="StocksModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="StocksModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="StocksModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="StocksModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="StocksModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="StocksModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="StocksModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="StocksModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="StocksModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="StocksModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="StockGroupModel.Created">
+    <value></value>
+  </data>
+  <data name="StockGroupModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="StockGroupModel.Modified">
+    <value></value>
+  </data>
+  <data name="StockGroupModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="StockGroupModel.Descr">
+    <value>Описание</value>
+  </data>
+  <data name="StockGroupModel.KeyId">
+    <value>Идентификатор группы запаса на складе </value>
+  </data>
+  <data name="StockGroupModel.Name">
+    <value>Название</value>
+  </data>
+  <data name="StockGroupModel.StockGroup">
+    <value>Группа запаса на складе  </value>
+  </data>
+  <data name="ProcessModel.ApproveTime">
+    <value>Одобрен</value>
+  </data>
+  <data name="ProcessModel.ApproveUserKeyId">
+    <value>Одобренный</value>
+  </data>
+  <data name="ProcessModel.Batch">
+    <value>Партия</value>
+  </data>
+  <data name="ProcessModel.Charge">
+    <value>Цикл</value>
+  </data>
+  <data name="ProcessModel.DisapproveUserKeyId">
+    <value>Не одобрен </value>
+  </data>
+  <data name="ProcessModel.EndTime">
+    <value>Завершен</value>
+  </data>
+  <data name="ProcessModel.Envhumidity">
+    <value>Влажн. окр. среды</value>
+  </data>
+  <data name="ProcessModel.Envpressure">
+    <value>Давление окр. среды</value>
+  </data>
+  <data name="ProcessModel.Envtemp">
+    <value>Температура окружающей среды </value>
+  </data>
+  <data name="ProcessModel.Error">
+    <value>Ошибка T-DOC </value>
+  </data>
+  <data name="ProcessModel.ExternalBatchNo">
+    <value>Номер внешней партии</value>
+  </data>
+  <data name="ProcessModel.InitiateTime">
+    <value>Инициирован</value>
+  </data>
+  <data name="ProcessModel.InitiatorUserKeyId">
+    <value>Инициатор</value>
+  </data>
+  <data name="ProcessModel.LoadNumber">
+    <value>Загрузить Номер </value>
+  </data>
+  <data name="ProcessModel.MachKeyId">
+    <value>Оборудование</value>
+  </data>
+  <data name="ProcessModel.NativeError">
+    <value>Машинная ошибка </value>
+  </data>
+  <data name="ProcessModel.NativeErrortext">
+    <value>Машинный текст</value>
+  </data>
+  <data name="ProcessModel.ProgKeyId">
+    <value>Программа</value>
+  </data>
+  <data name="ProcessModel.ScanRefPreKeyId">
+    <value>Сосканированный режим</value>
+  </data>
+  <data name="ProcessModel.ScanRefProgKeyId">
+    <value>Сосканированная программа</value>
+  </data>
+  <data name="ProcessModel.SecondApproveComment">
+    <value>Примечания</value>
+  </data>
+  <data name="ProcessModel.SecondApproveUserKeyId">
+    <value>Second approval</value>
+  </data>
+  <data name="ProcessModel.StartTime">
+    <value>Начат</value>
+  </data>
+  <data name="ProcessModel.StartTime2">
+    <value>Начатый 2</value>
+  </data>
+  <data name="ProcessModel.Status">
+    <value>Статус</value>
+  </data>
+  <data name="ProcessModel.Type">
+    <value>Тип</value>
+  </data>
+  <data name="SupplierModel.Created">
+    <value></value>
+  </data>
+  <data name="SupplierModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="SupplierModel.Modified">
+    <value></value>
+  </data>
+  <data name="SupplierModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="SupplierModel.Acceptorders">
+    <value>Принять заказы на покупку</value>
+  </data>
+  <data name="SupplierModel.Address1">
+    <value>Адрес</value>
+  </data>
+  <data name="SupplierModel.Address2">
+    <value>Адрес (2)</value>
+  </data>
+  <data name="SupplierModel.Barcode">
+    <value>Штрих-коды</value>
+  </data>
+  <data name="SupplierModel.CalKeyId">
+    <value>Календарь</value>
+  </data>
+  <data name="SupplierModel.City">
+    <value>Индекс/Город </value>
+  </data>
+  <data name="SupplierModel.Country">
+    <value>Страна</value>
+  </data>
+  <data name="SupplierModel.Email">
+    <value>email</value>
+  </data>
+  <data name="SupplierModel.FacKeyId">
+    <value>ЦСО</value>
+  </data>
+  <data name="SupplierModel.Fax">
+    <value>Факс</value>
+  </data>
+  <data name="SupplierModel.Flags1">
+    <value>Настройки</value>
+  </data>
+  <data name="SupplierModel.Internal">
+    <value>Внутренний</value>
+  </data>
+  <data name="SupplierModel.KeyId">
+    <value>ID Поставщика</value>
+  </data>
+  <data name="SupplierModel.Name">
+    <value>Название</value>
+  </data>
+  <data name="SupplierModel.OrderDelTime">
+    <value>Время доставки заказа</value>
+  </data>
+  <data name="SupplierModel.OrderHandlingTime">
+    <value>Время обработки заказа</value>
+  </data>
+  <data name="SupplierModel.OrderRampTime">
+    <value>Order ramp time</value>
+  </data>
+  <data name="SupplierModel.OrderTransmitTime">
+    <value>Время передачи заказа</value>
+  </data>
+  <data name="SupplierModel.OwnCustNumber">
+    <value>Собств. Номер</value>
+  </data>
+  <data name="SupplierModel.Remark">
+    <value>Замечание</value>
+  </data>
+  <data name="SupplierModel.RepairVendorKeyId">
+    <value>Продавец  услуг по ремонту</value>
+  </data>
+  <data name="SupplierModel.Status">
+    <value>Статус</value>
+  </data>
+  <data name="SupplierModel.Supplier">
+    <value>Поставщик</value>
+  </data>
+  <data name="SupplierModel.Telephone">
+    <value>Тел.</value>
+  </data>
+  <data name="SupplierModel.Type">
+    <value>Тип</value>
+  </data>
+  <data name="SupplierModel.UserField01">
+    <value>Поле пользователя  1</value>
+  </data>
+  <data name="SupplierModel.UserField02">
+    <value>Поле пользователя 2</value>
+  </data>
+  <data name="SupplierModel.UserField03">
+    <value>Поле пользователя 3</value>
+  </data>
+  <data name="SupplierModel.UserField04">
+    <value>Поле пользователя 4</value>
+  </data>
+  <data name="SupplierModel.UserField05">
+    <value>Поле пользователя 5</value>
+  </data>
+  <data name="SupplierModel.UserField06">
+    <value>Поле пользователя 6</value>
+  </data>
+  <data name="SupplierModel.UserField07">
+    <value>Поле пользователя 7</value>
+  </data>
+  <data name="SupplierModel.UserField08">
+    <value>Поле пользователя 8</value>
+  </data>
+  <data name="SupplierModel.UserField09">
+    <value>Поле пользователя 9</value>
+  </data>
+  <data name="SupplierModel.UserField10">
+    <value>Поле пользователя 10</value>
+  </data>
+  <data name="SupplierModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="SupplierModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="SupplierModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="SupplierModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="SupplierModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="SupplierModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="SupplierModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="SupplierModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="SupplierModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="SupplierModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="SupplierModel.WebPassword">
+    <value>Пароль Web/FTP </value>
+  </data>
+  <data name="SupplierModel.WebSite">
+    <value>Сайт в Интернете</value>
+  </data>
+  <data name="SupplierModel.WebUser">
+    <value>Пользователь Web/FTP </value>
+  </data>
+  <data name="LocationModel.Created">
+    <value></value>
+  </data>
+  <data name="LocationModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="LocationModel.Modified">
+    <value></value>
+  </data>
+  <data name="LocationModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="LocationModel.AutoStokKeyId">
+    <value>Склад расходных материалов </value>
+  </data>
+  <data name="LocationModel.Barcode">
+    <value>Штрих-коды</value>
+  </data>
+  <data name="LocationModel.DefUserKeyId">
+    <value>Пользователь по умолчанию</value>
+  </data>
+  <data name="LocationModel.Descr">
+    <value>Описание</value>
+  </data>
+  <data name="LocationModel.Direction">
+    <value>Направление</value>
+  </data>
+  <data name="LocationModel.FacKeyId">
+    <value>ЦСО</value>
+  </data>
+  <data name="LocationModel.Flags">
+    <value>Флаги</value>
+  </data>
+  <data name="LocationModel.IdlemacroKeyId">
+    <value>Простой макроса</value>
+  </data>
+  <data name="LocationModel.Idlemacrotime">
+    <value>Время простоя макроса</value>
+  </data>
+  <data name="LocationModel.Info">
+    <value>Инфо</value>
+  </data>
+  <data name="LocationModel.IsMaster">
+    <value>Is Master Location</value>
+  </data>
+  <data name="LocationModel.KeyId">
+    <value>Идентификатор Местоположения</value>
+  </data>
+  <data name="LocationModel.MacroKeyId">
+    <value>Макрокоманда</value>
+  </data>
+  <data name="LocationModel.MasterLocaKeyId">
+    <value>Главное местоположение</value>
+  </data>
+  <data name="LocationModel.MesConfig">
+    <value>MES configuration</value>
+  </data>
+  <data name="LocationModel.Name">
+    <value>Название</value>
+  </data>
+  <data name="LocationModel.Process">
+    <value>Процесс</value>
+  </data>
+  <data name="LocationModel.ProcessOpt">
+    <value>Опции процесса </value>
+  </data>
+  <data name="LocationModel.Status">
+    <value>Статус</value>
+  </data>
+  <data name="LocationModel.StokKeyId">
+    <value>Склад</value>
+  </data>
+  <data name="LocationModel.SubProcess">
+    <value>Subprocess</value>
+  </data>
+  <data name="LocationModel.Tag">
+    <value>Метка </value>
+  </data>
+  <data name="LocationModel.UIAvailability">
+    <value>Доступность</value>
+  </data>
+  <data name="LocationModel.UiLdKeyId">
+    <value>UI Слой</value>
+  </data>
+  <data name="LocationModel.UIStartMode">
+    <value>Стартовый режим UI Сканера</value>
+  </data>
+  <data name="FixedStockPlacementsModel.KeyId">
+    <value>ID Фиксированного расположения склада</value>
+  </data>
+  <data name="FixedStockPlacementsModel.Name">
+    <value>Название</value>
+  </data>
+  <data name="FixedStockPlacementsModel.Placement">
+    <value>Размещение</value>
+  </data>
+  <data name="FixedStockPlacementsModel.StokKeyId">
+    <value>Склад</value>
+  </data>
+  <data name="TextModel.Created">
+    <value></value>
+  </data>
+  <data name="TextModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="TextModel.Modified">
+    <value></value>
+  </data>
+  <data name="TextModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="TextModel.Data">
+    <value>Данные</value>
+  </data>
+  <data name="TextModel.FloatOption">
+    <value>Значение</value>
+  </data>
+  <data name="TextModel.KeyId">
+    <value>ID текста</value>
+  </data>
+  <data name="TextModel.Memo">
+    <value>Описание</value>
+  </data>
+  <data name="TextModel.Number">
+    <value>№</value>
+  </data>
+  <data name="TextModel.Option">
+    <value>Вариант</value>
+  </data>
+  <data name="TextModel.SysOption">
+    <value>Опции системы   </value>
+  </data>
+  <data name="TextModel.Text">
+    <value>Текст</value>
+  </data>
+  <data name="TextModel.Type">
+    <value>Тип</value>
+  </data>
+  <data name="LocationGroupModel.Created">
+    <value></value>
+  </data>
+  <data name="LocationGroupModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="LocationGroupModel.Modified">
+    <value></value>
+  </data>
+  <data name="LocationGroupModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="LocationGroupModel.Descr">
+    <value>Описание</value>
+  </data>
+  <data name="LocationGroupModel.KeyId">
+    <value>ID группы местоположений</value>
+  </data>
+  <data name="LocationGroupModel.LocationGroup">
+    <value>Група местоположения</value>
+  </data>
+  <data name="LocationGroupModel.Name">
+    <value>Название</value>
+  </data>
+  <data name="LocationGroupModel.Vicinity">
+    <value>Vicinity</value>
+  </data>
+  <data name="CatalogModel.Created">
+    <value></value>
+  </data>
+  <data name="CatalogModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="CatalogModel.Modified">
+    <value></value>
+  </data>
+  <data name="CatalogModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="CatalogModel.CatalogNo">
+    <value>Каталожный №</value>
+  </data>
+  <data name="CatalogModel.CostPrice">
+    <value>Стоимость</value>
+  </data>
+  <data name="CatalogModel.Disposable">
+    <value>Расходные  материалы</value>
+  </data>
+  <data name="CatalogModel.ItGrpKeyId">
+    <value>Группа изделий</value>
+  </data>
+  <data name="CatalogModel.ItspcKeyId">
+    <value>Назначение</value>
+  </data>
+  <data name="CatalogModel.KeyId">
+    <value>ID Каталога</value>
+  </data>
+  <data name="CatalogModel.Length">
+    <value>Длина</value>
+  </data>
+  <data name="CatalogModel.LifeSpan">
+    <value>Срок службы </value>
+  </data>
+  <data name="CatalogModel.ManufactorNo">
+    <value>№ Произв.</value>
+  </data>
+  <data name="CatalogModel.ManuKeyId">
+    <value>Производитель</value>
+  </data>
+  <data name="CatalogModel.Material">
+    <value>Материал</value>
+  </data>
+  <data name="CatalogModel.MaterialsNum">
+    <value>№ (Номер) Mat. </value>
+  </data>
+  <data name="CatalogModel.MaxPressure">
+    <value>Макс. давление</value>
+  </data>
+  <data name="CatalogModel.MaxTemp">
+    <value>Макс. Температура</value>
+  </data>
+  <data name="CatalogModel.OrderMinCount">
+    <value>Мин. итоговая сумма заказа </value>
+  </data>
+  <data name="CatalogModel.OrderStdCount">
+    <value>Размер пакета заказа</value>
+  </data>
+  <data name="CatalogModel.OrderstduomKeyId">
+    <value>Единица измерения пакета заказа </value>
+  </data>
+  <data name="CatalogModel.OtherUnitCount">
+    <value>Альтернативное количество продуктов</value>
+  </data>
+  <data name="CatalogModel.OtheruomKeyId">
+    <value>Мера альтернативных продуктов</value>
+  </data>
+  <data name="CatalogModel.RepairVendorKeyId">
+    <value>Продавец  услуг по ремонту</value>
+  </data>
+  <data name="CatalogModel.SterilizationType">
+    <value>Метод стерилизации</value>
+  </data>
+  <data name="CatalogModel.SuppKeyId">
+    <value>Поставщик</value>
+  </data>
+  <data name="CatalogModel.Text">
+    <value>Название</value>
+  </data>
+  <data name="CatalogModel.Tip">
+    <value>Наконечник</value>
+  </data>
+  <data name="CatalogModel.UnitCount">
+    <value>Сумма продуктов</value>
+  </data>
+  <data name="CatalogModel.UomKeyId">
+    <value>Измерение продукта</value>
+  </data>
+  <data name="CatalogModel.Warranty">
+    <value>Гарантия</value>
+  </data>
+  <data name="CatalogModel.Weight">
+    <value>Вес</value>
+  </data>
+  <data name="CatalogModel.Width">
+    <value>Ширина</value>
+  </data>
+  <data name="ItemGroupModel.Descr">
+    <value>Описание</value>
+  </data>
+  <data name="ItemGroupModel.FacKeyId">
+    <value>ЦСО</value>
+  </data>
+  <data name="ItemGroupModel.ItemGroup">
+    <value>Группа изделий</value>
+  </data>
+  <data name="ItemGroupModel.KeyId">
+    <value>ID Группы изделий</value>
+  </data>
+  <data name="ItemGroupModel.Name">
+    <value>Название</value>
+  </data>
+  <data name="ItemGroupModel.PricingType">
+    <value>Тип ценообразования</value>
+  </data>
+  <data name="ItemSpecialtyModel.Descr">
+    <value>Описание</value>
+  </data>
+  <data name="ItemSpecialtyModel.FacKeyId">
+    <value>ЦСО</value>
+  </data>
+  <data name="ItemSpecialtyModel.KeyId">
+    <value>Идентификатор Особенности</value>
+  </data>
+  <data name="ItemSpecialtyModel.Name">
+    <value>Название</value>
+  </data>
+  <data name="ItemSpecialtyModel.Specialty">
+    <value>Назначение</value>
+  </data>
+  <data name="ItemUOMModel.Descr">
+    <value>Описание</value>
+  </data>
+  <data name="ItemUOMModel.KeyId">
+    <value>Идентификатор единицы измерений </value>
+  </data>
+  <data name="ItemUOMModel.Name">
+    <value>Название</value>
+  </data>
+  <data name="ItemUOMModel.Uom">
+    <value>Единица измерений </value>
+  </data>
+  <data name="TagTypeModel.Created">
+    <value></value>
+  </data>
+  <data name="TagTypeModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="TagTypeModel.Modified">
+    <value></value>
+  </data>
+  <data name="TagTypeModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="TagTypeModel.Descr">
+    <value>Примечания</value>
+  </data>
+  <data name="TagTypeModel.Height">
+    <value>Высота</value>
+  </data>
+  <data name="TagTypeModel.HeightCapacity">
+    <value>Height capacity</value>
+  </data>
+  <data name="TagTypeModel.HoldsItems">
+    <value>Holds items</value>
+  </data>
+  <data name="TagTypeModel.InTTGKeyId">
+    <value>Identical tag type group</value>
+  </data>
+  <data name="TagTypeModel.KeyId">
+    <value>Tag type ID</value>
+  </data>
+  <data name="TagTypeModel.Name">
+    <value>Название</value>
+  </data>
+  <data name="TagTypeModel.SuppKeyId">
+    <value>Продавец  услуг по ремонту</value>
+  </data>
+  <data name="TagTypeModel.SysType">
+    <value>Тип системы</value>
+  </data>
+  <data name="TagTypeModel.Type">
+    <value>Тип</value>
+  </data>
+  <data name="TagTypeModel.UserField01">
+    <value>Поле пользователя  1</value>
+  </data>
+  <data name="TagTypeModel.UserField02">
+    <value>Поле пользователя 2</value>
+  </data>
+  <data name="TagTypeModel.UserField03">
+    <value>Поле пользователя 3</value>
+  </data>
+  <data name="TagTypeModel.UserField04">
+    <value>Поле пользователя 4</value>
+  </data>
+  <data name="TagTypeModel.UserField05">
+    <value>Поле пользователя 5</value>
+  </data>
+  <data name="TagTypeModel.UserField06">
+    <value>Поле пользователя 6</value>
+  </data>
+  <data name="TagTypeModel.UserField07">
+    <value>Поле пользователя 7</value>
+  </data>
+  <data name="TagTypeModel.UserField08">
+    <value>Поле пользователя 8</value>
+  </data>
+  <data name="TagTypeModel.UserField09">
+    <value>Поле пользователя 9</value>
+  </data>
+  <data name="TagTypeModel.UserField10">
+    <value>Поле пользователя 10</value>
+  </data>
+  <data name="TagTypeModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="TagTypeModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="TagTypeModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="TagTypeModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="TagTypeModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="TagTypeModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="TagTypeModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="TagTypeModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="TagTypeModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="TagTypeModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="TagTypeModel.Width">
+    <value>Ширина</value>
+  </data>
+  <data name="TagTypeModel.WidthCapacity">
+    <value>Width capacity</value>
+  </data>
+  <data name="SealerProgramModel.Created">
+    <value></value>
+  </data>
+  <data name="SealerProgramModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="SealerProgramModel.Modified">
+    <value></value>
+  </data>
+  <data name="SealerProgramModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="SealerProgramModel.KeyId">
+    <value>Идентификатор программы термосварочной машины  </value>
+  </data>
+  <data name="SealerProgramModel.Name">
+    <value>Название</value>
+  </data>
+  <data name="SealerProgramModel.Pres">
+    <value>Давление</value>
+  </data>
+  <data name="SealerProgramModel.Program">
+    <value>Программа</value>
+  </data>
+  <data name="SealerProgramModel.Temp">
+    <value>Температура</value>
+  </data>
+  <data name="EmgCaseCartTypeModel.Created">
+    <value></value>
+  </data>
+  <data name="EmgCaseCartTypeModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="EmgCaseCartTypeModel.Modified">
+    <value></value>
+  </data>
+  <data name="EmgCaseCartTypeModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="EmgCaseCartTypeModel.CuSiteKeyId">
+    <value>Филиал Подразделения</value>
+  </data>
+  <data name="EmgCaseCartTypeModel.Descr">
+    <value>Замечание</value>
+  </data>
+  <data name="EmgCaseCartTypeModel.Id">
+    <value>Тип</value>
+  </data>
+  <data name="EmgCaseCartTypeModel.KeyId">
+    <value>ID ключа</value>
+  </data>
+  <data name="EmgCaseCartTypeModel.Name">
+    <value>Название</value>
+  </data>
+  <data name="EmgCaseCartTypeModel.OptKeyId">
+    <value>Тип операции </value>
+  </data>
+  <data name="OperationTypeModel.Created">
+    <value></value>
+  </data>
+  <data name="OperationTypeModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="OperationTypeModel.Modified">
+    <value></value>
+  </data>
+  <data name="OperationTypeModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="OperationTypeModel.AssDoctorCount">
+    <value>Кол-во ассистирующих врачей</value>
+  </data>
+  <data name="OperationTypeModel.Cleanup">
+    <value>Очистка </value>
+  </data>
+  <data name="OperationTypeModel.CntpsKeyId">
+    <value>Counting point group</value>
+  </data>
+  <data name="OperationTypeModel.Code">
+    <value>Код</value>
+  </data>
+  <data name="OperationTypeModel.DefcustKeyId">
+    <value>Стандартный заказчик</value>
+  </data>
+  <data name="OperationTypeModel.DefcuststokKeyId">
+    <value>Стандартный склад  заказчика </value>
+  </data>
+  <data name="OperationTypeModel.DefroomKeyId">
+    <value>Кабинет</value>
+  </data>
+  <data name="OperationTypeModel.Desc">
+    <value>Описание</value>
+  </data>
+  <data name="OperationTypeModel.Duration">
+    <value>Продолжительность</value>
+  </data>
+  <data name="OperationTypeModel.KeyId">
+    <value>Идентификатор типа  операции </value>
+  </data>
+  <data name="OperationTypeModel.MinOrderLeadTime">
+    <value>Min. ordering time before operation</value>
+  </data>
+  <data name="OperationTypeModel.Name">
+    <value>Название</value>
+  </data>
+  <data name="OperationTypeModel.PatAgeUsage">
+    <value>Использование возраста пациента</value>
+  </data>
+  <data name="OperationTypeModel.PatGenderUsage">
+    <value>Использование пола пациента</value>
+  </data>
+  <data name="OperationTypeModel.Prepare">
+    <value>Подготовка</value>
+  </data>
+  <data name="OperationTypeModel.Status">
+    <value>Статус</value>
+  </data>
+  <data name="OperationTypeModel.Type">
+    <value>Template type</value>
+  </data>
+  <data name="OperationTypeModel.UserField01">
+    <value>Поле пользователя  1</value>
+  </data>
+  <data name="OperationTypeModel.UserField02">
+    <value>Поле пользователя 2</value>
+  </data>
+  <data name="OperationTypeModel.UserField03">
+    <value>Поле пользователя 3</value>
+  </data>
+  <data name="OperationTypeModel.UserField04">
+    <value>Поле пользователя 4</value>
+  </data>
+  <data name="OperationTypeModel.UserField05">
+    <value>Поле пользователя 5</value>
+  </data>
+  <data name="OperationTypeModel.UserField06">
+    <value>Поле пользователя 6</value>
+  </data>
+  <data name="OperationTypeModel.UserField07">
+    <value>Поле пользователя 7</value>
+  </data>
+  <data name="OperationTypeModel.UserField08">
+    <value>Поле пользователя 8</value>
+  </data>
+  <data name="OperationTypeModel.UserField09">
+    <value>Поле пользователя 9</value>
+  </data>
+  <data name="OperationTypeModel.UserField10">
+    <value>Поле пользователя 10</value>
+  </data>
+  <data name="OperationTypeModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="OperationTypeModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="OperationTypeModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="OperationTypeModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="OperationTypeModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="OperationTypeModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="OperationTypeModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="OperationTypeModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="OperationTypeModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="OperationTypeModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="MachineModel.Created">
+    <value></value>
+  </data>
+  <data name="MachineModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="MachineModel.Modified">
+    <value></value>
+  </data>
+  <data name="MachineModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="MachineModel.ActualProgramCheck">
+    <value>Проверять сканируемую/актуальную программу</value>
+  </data>
+  <data name="MachineModel.AgsKeyId">
+    <value>AGS</value>
+  </data>
+  <data name="MachineModel.Alertdelay">
+    <value>аварийная задержка</value>
+  </data>
+  <data name="MachineModel.AllowBatch">
+    <value>Разрешить регистрацию партии</value>
+  </data>
+  <data name="MachineModel.AllowDataExport">
+    <value>Разрешить экспорт данных</value>
+  </data>
+  <data name="MachineModel.AllowLog">
+    <value>Разрешить протоколирование данных</value>
+  </data>
+  <data name="MachineModel.Barcode">
+    <value>Штрих-код</value>
+  </data>
+  <data name="MachineModel.Chargenummode">
+    <value>Нумерация циклов</value>
+  </data>
+  <data name="MachineModel.ConfData">
+    <value>Данные конфигурации</value>
+  </data>
+  <data name="MachineModel.CycleCount">
+    <value>Подсчет циклов</value>
+  </data>
+  <data name="MachineModel.DefProgFromModel">
+    <value>Use Machine model setting</value>
+  </data>
+  <data name="MachineModel.DefProgKeyId">
+    <value>Программа</value>
+  </data>
+  <data name="MachineModel.DestApproveLocaKeyId">
+    <value>Approval destination</value>
+  </data>
+  <data name="MachineModel.DestDisapproveLocaKeyId">
+    <value>Disapproval destination</value>
+  </data>
+  <data name="MachineModel.DestEndErrorLocaKeyId">
+    <value>Process end error destination</value>
+  </data>
+  <data name="MachineModel.DestEndLocaKeyId">
+    <value>Process end destination</value>
+  </data>
+  <data name="MachineModel.Info">
+    <value>Инфо</value>
+  </data>
+  <data name="MachineModel.InitBatchCount">
+    <value>Максимум начатых партий </value>
+  </data>
+  <data name="MachineModel.KeyId">
+    <value>ID Оборудования</value>
+  </data>
+  <data name="MachineModel.LastCycleCount">
+    <value>Номер последнего цикла </value>
+  </data>
+  <data name="MachineModel.LastMinutesOn">
+    <value>Последние минуты Вкл </value>
+  </data>
+  <data name="MachineModel.LastMinutesRun">
+    <value>Последние минуты Пуск  </value>
+  </data>
+  <data name="MachineModel.LoadOnStart">
+    <value>Use Load tag</value>
+  </data>
+  <data name="MachineModel.LogBatchContent">
+    <value>Протоколирование содержимого партии</value>
+  </data>
+  <data name="MachineModel.McTypKeyId">
+    <value>Модель</value>
+  </data>
+  <data name="MachineModel.MinutesOn">
+    <value>Минуты вкл</value>
+  </data>
+  <data name="MachineModel.MinutesRun">
+    <value>Минуты пуск (ход) </value>
+  </data>
+  <data name="MachineModel.Name">
+    <value>Название</value>
+  </data>
+  <data name="MachineModel.Prescan">
+    <value>Предварительное сканирование</value>
+  </data>
+  <data name="MachineModel.PrintLabelApprove">
+    <value>Печать этикетки одобрена</value>
+  </data>
+  <data name="MachineModel.PrintLabelDisappr">
+    <value>Неодобрение печати этикетки</value>
+  </data>
+  <data name="MachineModel.PrintLabelEnd">
+    <value>Печать этикетки закончена </value>
+  </data>
+  <data name="MachineModel.PrintLabelInit">
+    <value>Печать этикетки инициирована </value>
+  </data>
+  <data name="MachineModel.PrintLabelStart">
+    <value>Печать этикетки началась </value>
+  </data>
+  <data name="MachineModel.PrintLabelStickers">
+    <value>Печать этикеток-наклеек </value>
+  </data>
+  <data name="MachineModel.PrintListApprove">
+    <value>Печать списка одобрена </value>
+  </data>
+  <data name="MachineModel.PrintListDisappr">
+    <value>Печать списка не одобрена </value>
+  </data>
+  <data name="MachineModel.PrintListEnd">
+    <value>Печать списка закончена </value>
+  </data>
+  <data name="MachineModel.PrintListInit">
+    <value>Печать списка инициирована </value>
+  </data>
+  <data name="MachineModel.PrintListStart">
+    <value>Печать списка началась </value>
+  </data>
+  <data name="MachineModel.PrintNativePdf">
+    <value>Print native PDF</value>
+  </data>
+  <data name="MachineModel.RefNum">
+    <value>Справ. №</value>
+  </data>
+  <data name="MachineModel.SerialNo">
+    <value>Сер. №.</value>
+  </data>
+  <data name="MachineModel.ShiftToHours">
+    <value>Internal data</value>
+  </data>
+  <data name="MachineModel.Text">
+    <value>Текст</value>
+  </data>
+  <data name="MachineModel.Updateinterval">
+    <value>Интервал обновления данных </value>
+  </data>
+  <data name="MachineModel.Warnemptybatch">
+    <value>Предупреждение о пустой партии </value>
+  </data>
+  <data name="ProgramModel.Created">
+    <value></value>
+  </data>
+  <data name="ProgramModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="ProgramModel.Modified">
+    <value></value>
+  </data>
+  <data name="ProgramModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="ProgramModel.Approval">
+    <value>Одобрение</value>
+  </data>
+  <data name="ProgramModel.Barcode">
+    <value>Штрих-код</value>
+  </data>
+  <data name="ProgramModel.CheckInitiated">
+    <value>Инициализация вручную</value>
+  </data>
+  <data name="ProgramModel.ConsumCost">
+    <value>Расход</value>
+  </data>
+  <data name="ProgramModel.DeprecCost">
+    <value>Амортизационные отчисления (амортизация, изнашивание, снижение, уменьшение) </value>
+  </data>
+  <data name="ProgramModel.Description">
+    <value>Описание</value>
+  </data>
+  <data name="ProgramModel.Duration">
+    <value>Продолжительность цикла</value>
+  </data>
+  <data name="ProgramModel.ExtLogRequired">
+    <value>Обязательная (необходимая) внешняя регистрация </value>
+  </data>
+  <data name="ProgramModel.FilterDeltaP">
+    <value>Фильтр Дельта давления</value>
+  </data>
+  <data name="ProgramModel.FilterDeltaT">
+    <value>Дельта (изменение)  темп. на фильтре (фильтра)  </value>
+  </data>
+  <data name="ProgramModel.FilterTime1">
+    <value>Время фильтра 1</value>
+  </data>
+  <data name="ProgramModel.FilterTime2">
+    <value>Время фильтра 2</value>
+  </data>
+  <data name="ProgramModel.InternalParams">
+    <value>Внутренние параметры</value>
+  </data>
+  <data name="ProgramModel.KeyId">
+    <value>ID Программы</value>
+  </data>
+  <data name="ProgramModel.LogRef">
+    <value>Стандартный журнал регистрации</value>
+  </data>
+  <data name="ProgramModel.MaxTemp">
+    <value>Макс. Температура</value>
+  </data>
+  <data name="ProgramModel.McTypKeyId">
+    <value>Модель оборудования</value>
+  </data>
+  <data name="ProgramModel.Name">
+    <value>Название</value>
+  </data>
+  <data name="ProgramModel.Password">
+    <value>Пароль</value>
+  </data>
+  <data name="ProgramModel.PreHiPres">
+    <value>Pre Высокое Давл.</value>
+  </data>
+  <data name="ProgramModel.PreHiTemp">
+    <value>Pre Высокая Темп. </value>
+  </data>
+  <data name="ProgramModel.PreLowPres">
+    <value>Pre Низкое Давл.</value>
+  </data>
+  <data name="ProgramModel.PreLowTemp">
+    <value>Pre Низкая Темп. </value>
+  </data>
+  <data name="ProgramModel.PrePulses">
+    <value>Пре-пульсация </value>
+  </data>
+  <data name="ProgramModel.Price">
+    <value>Цена</value>
+  </data>
+  <data name="ProgramModel.Program">
+    <value>Программа</value>
+  </data>
+  <data name="ProgramModel.QSetKeyId">
+    <value>Набор вопросов</value>
+  </data>
+  <data name="ProgramModel.ReportName">
+    <value>Report name</value>
+  </data>
+  <data name="ProgramModel.ScanNum">
+    <value>Внутренний №</value>
+  </data>
+  <data name="ProgramModel.SecondUserApproval">
+    <value>Second approval required</value>
+  </data>
+  <data name="ProgramModel.SterilePres">
+    <value>Экспозиционное давление</value>
+  </data>
+  <data name="ProgramModel.SterileSeconds">
+    <value>Время экспозиции </value>
+  </data>
+  <data name="ProgramModel.SterileTemp">
+    <value>Экспозиционная температура</value>
+  </data>
+  <data name="ProgramModel.Type">
+    <value>Тип</value>
+  </data>
+  <data name="ProgramModel.UtilityCost">
+    <value>Выгода</value>
+  </data>
+  <data name="ProgramModel.Validate">
+    <value>Валидировать </value>
+  </data>
+  <data name="ProgramRecipeModel.Created">
+    <value></value>
+  </data>
+  <data name="ProgramRecipeModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="ProgramRecipeModel.Modified">
+    <value></value>
+  </data>
+  <data name="ProgramRecipeModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="ProgramRecipeModel.Approval">
+    <value>Одобрение</value>
+  </data>
+  <data name="ProgramRecipeModel.Description">
+    <value>Описание</value>
+  </data>
+  <data name="ProgramRecipeModel.Duration">
+    <value>Продолжительность</value>
+  </data>
+  <data name="ProgramRecipeModel.KeyId">
+    <value>Идентификатор программного режима </value>
+  </data>
+  <data name="ProgramRecipeModel.Leqfilling">
+    <value>Заполнение </value>
+  </data>
+  <data name="ProgramRecipeModel.LeqKeyId">
+    <value>Загрузить оборудование</value>
+  </data>
+  <data name="ProgramRecipeModel.LogRef">
+    <value>Стандартный журнал регистрации</value>
+  </data>
+  <data name="ProgramRecipeModel.Maxgravity">
+    <value>Макс. сила тяжести  </value>
+  </data>
+  <data name="ProgramRecipeModel.MaxTemp">
+    <value>Макс. Температура</value>
+  </data>
+  <data name="ProgramRecipeModel.Mingravity">
+    <value>Мин. сила тяжести </value>
+  </data>
+  <data name="ProgramRecipeModel.Name">
+    <value>Название</value>
+  </data>
+  <data name="ProgramRecipeModel.Origin">
+    <value>Первоисточник </value>
+  </data>
+  <data name="ProgramRecipeModel.Original">
+    <value>Исходный </value>
+  </data>
+  <data name="ProgramRecipeModel.Posttreat">
+    <value>Заключительная обработка</value>
+  </data>
+  <data name="ProgramRecipeModel.PreHiPres">
+    <value>Pre Высокое Давл. </value>
+  </data>
+  <data name="ProgramRecipeModel.PreHiTemp">
+    <value>Pre Высокая Темп. </value>
+  </data>
+  <data name="ProgramRecipeModel.PreLowPres">
+    <value>Pre Низкое Давл.</value>
+  </data>
+  <data name="ProgramRecipeModel.PreLowTemp">
+    <value>Pre Низкая Темп. </value>
+  </data>
+  <data name="ProgramRecipeModel.PrePulses">
+    <value>Пре-пульсация </value>
+  </data>
+  <data name="ProgramRecipeModel.Pretreat">
+    <value>Предварительная обработка </value>
+  </data>
+  <data name="ProgramRecipeModel.ProgKeyId">
+    <value>Программа</value>
+  </data>
+  <data name="ProgramRecipeModel.Reloadtime">
+    <value>Время перезагрузки</value>
+  </data>
+  <data name="ProgramRecipeModel.Runcount">
+    <value>Запустить  счетчик</value>
+  </data>
+  <data name="ProgramRecipeModel.SterilePres">
+    <value>Экспозиционное давление</value>
+  </data>
+  <data name="ProgramRecipeModel.SterileSeconds">
+    <value>Время экспозиции </value>
+  </data>
+  <data name="ProgramRecipeModel.SterileTemp">
+    <value>Экспозиционная температура</value>
+  </data>
+  <data name="ProgramRecipeModel.Validate">
+    <value>Валидировать </value>
+  </data>
+  <data name="MacroModel.Created">
+    <value></value>
+  </data>
+  <data name="MacroModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="MacroModel.Modified">
+    <value></value>
+  </data>
+  <data name="MacroModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="MacroModel.Barcode">
+    <value>Штрих-код</value>
+  </data>
+  <data name="MacroModel.Data">
+    <value>Данные</value>
+  </data>
+  <data name="MacroModel.KeyId">
+    <value>Macro ID</value>
+  </data>
+  <data name="MacroModel.Macro">
+    <value>Макрокоманда</value>
+  </data>
+  <data name="MacroModel.Name">
+    <value>Название</value>
+  </data>
+  <data name="MacroModel.Remark">
+    <value>Замечание</value>
+  </data>
+  <data name="UILayerDefModel.Created">
+    <value></value>
+  </data>
+  <data name="UILayerDefModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="UILayerDefModel.Modified">
+    <value></value>
+  </data>
+  <data name="UILayerDefModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="UILayerDefModel.Classname">
+    <value>Название класса</value>
+  </data>
+  <data name="UILayerDefModel.Default">
+    <value>По умолч.</value>
+  </data>
+  <data name="UILayerDefModel.DefSys">
+    <value>Определение системы</value>
+  </data>
+  <data name="UILayerDefModel.DefUsr">
+    <value>Определение пользователя</value>
+  </data>
+  <data name="UILayerDefModel.Descr">
+    <value>Описание</value>
+  </data>
+  <data name="UILayerDefModel.Enabled">
+    <value>Доступно</value>
+  </data>
+  <data name="UILayerDefModel.KeyId">
+    <value>ID UI Слоя</value>
+  </data>
+  <data name="UILayerDefModel.Name">
+    <value>Название</value>
+  </data>
+  <data name="UILayerDefModel.SysId">
+    <value>Системный идентификатор</value>
+  </data>
+  <data name="UILayerDefModel.SysType">
+    <value>Тип системы</value>
+  </data>
+  <data name="UILayerDefModel.VCLDefSys">
+    <value>Системное определение VCL</value>
+  </data>
+  <data name="UILayerDefModel.VCLDefUsr">
+    <value>Пользовательское определение VCL</value>
+  </data>
+  <data name="UILayerDefModel.Version">
+    <value>Версия</value>
+  </data>
+  <data name="IdenticalTagTypeGroupModel.KeyId">
+    <value>ID</value>
+  </data>
+  <data name="IdenticalTagTypeGroupModel.TagType">
+    <value>Тип метки</value>
+  </data>
+  <data name="RoomModel.ArrivedLGrpKeyId">
+    <value>Arrived location group</value>
+  </data>
+  <data name="RoomModel.AvailableLGrpKeyId">
+    <value>Available location group</value>
+  </data>
+  <data name="RoomModel.Barcode">
+    <value>Штрих-код</value>
+  </data>
+  <data name="RoomModel.BlockOrderCreation">
+    <value>Block operation-based orders</value>
+  </data>
+  <data name="RoomModel.CalKeyId">
+    <value>Календарь</value>
+  </data>
+  <data name="RoomModel.DelGln">
+    <value>Delivery GLN</value>
+  </data>
+  <data name="RoomModel.Desc">
+    <value>Описание</value>
+  </data>
+  <data name="RoomModel.Gln">
+    <value>GLN</value>
+  </data>
+  <data name="RoomModel.Id">
+    <value>ID</value>
+  </data>
+  <data name="RoomModel.KeyId">
+    <value>ID кабинета</value>
+  </data>
+  <data name="RoomModel.Name">
+    <value>Название</value>
+  </data>
+  <data name="RoomModel.Status">
+    <value>Статус</value>
+  </data>
+  <data name="RoomModel.StGrKeyId">
+    <value>Группа запаса на складе  </value>
+  </data>
+  <data name="RoomModel.StokKeyId">
+    <value>Склад</value>
+  </data>
+  <data name="RoomModel.UserField01">
+    <value>Поле пользователя  1</value>
+  </data>
+  <data name="RoomModel.UserField02">
+    <value>Поле пользователя 2</value>
+  </data>
+  <data name="RoomModel.UserField03">
+    <value>Поле пользователя 3</value>
+  </data>
+  <data name="RoomModel.UserField04">
+    <value>Поле пользователя 4</value>
+  </data>
+  <data name="RoomModel.UserField05">
+    <value>Поле пользователя 5</value>
+  </data>
+  <data name="RoomModel.UserField06">
+    <value>Поле пользователя 6</value>
+  </data>
+  <data name="RoomModel.UserField07">
+    <value>Поле пользователя 7</value>
+  </data>
+  <data name="RoomModel.UserField08">
+    <value>Поле пользователя 8</value>
+  </data>
+  <data name="RoomModel.UserField09">
+    <value>Поле пользователя 9</value>
+  </data>
+  <data name="RoomModel.UserField10">
+    <value>Поле пользователя 10</value>
+  </data>
+  <data name="RoomModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="RoomModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="RoomModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="RoomModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="RoomModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="RoomModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="RoomModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="RoomModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="RoomModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="RoomModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="AGSModel.Created">
+    <value></value>
+  </data>
+  <data name="AGSModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="AGSModel.Modified">
+    <value></value>
+  </data>
+  <data name="AGSModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="AGSModel.Barcode">
+    <value>Штрих-код</value>
+  </data>
+  <data name="AGSModel.Info">
+    <value>Инфо</value>
+  </data>
+  <data name="AGSModel.KeyId">
+    <value>AGS идентификатор</value>
+  </data>
+  <data name="AGSModel.MasterQueueKeyId">
+    <value>Основная (главная) очередь </value>
+  </data>
+  <data name="AGSModel.Maxloads">
+    <value>Макс. число  загрузок</value>
+  </data>
+  <data name="AGSModel.Name">
+    <value>Название</value>
+  </data>
+  <data name="AGSModel.RefNum">
+    <value>Справ. № (ini-файл)</value>
+  </data>
+  <data name="AGSModel.Text">
+    <value>Текст</value>
+  </data>
+  <data name="MachineTypeModel.Created">
+    <value></value>
+  </data>
+  <data name="MachineTypeModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="MachineTypeModel.Modified">
+    <value></value>
+  </data>
+  <data name="MachineTypeModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="MachineTypeModel.AbsolutePressure">
+    <value>Абсолютное давление</value>
+  </data>
+  <data name="MachineTypeModel.AutoCreatedIndic">
+    <value>Auto created indicators</value>
+  </data>
+  <data name="MachineTypeModel.BasketDepth">
+    <value>Глубина корзины</value>
+  </data>
+  <data name="MachineTypeModel.BasketFits">
+    <value>Подсчет  корзин </value>
+  </data>
+  <data name="MachineTypeModel.BasketHeight">
+    <value>Высота корзины</value>
+  </data>
+  <data name="MachineTypeModel.BasketWidth">
+    <value>Ширина корзины</value>
+  </data>
+  <data name="MachineTypeModel.CanAutoCreateBI">
+    <value>Can auto create biological indicators</value>
+  </data>
+  <data name="MachineTypeModel.CBIUsageMode">
+    <value>Control indicator required</value>
+  </data>
+  <data name="MachineTypeModel.DefProgKeyId">
+    <value>Default program selection</value>
+  </data>
+  <data name="MachineTypeModel.FixedTime">
+    <value>Фиксированное время</value>
+  </data>
+  <data name="MachineTypeModel.IncubatorType">
+    <value>Batch data incubator</value>
+  </data>
+  <data name="MachineTypeModel.KeyId">
+    <value>ID Типа оборудования</value>
+  </data>
+  <data name="MachineTypeModel.LoadOnStart">
+    <value>Use Load tag</value>
+  </data>
+  <data name="MachineTypeModel.LogBatchRegError">
+    <value>Ошибка регистрации партии</value>
+  </data>
+  <data name="MachineTypeModel.LogBatchRegMode">
+    <value>Режим регистрации партии</value>
+  </data>
+  <data name="MachineTypeModel.ManuKeyId">
+    <value>Производитель</value>
+  </data>
+  <data name="MachineTypeModel.MaxEndo">
+    <value>Max endoscopes</value>
+  </data>
+  <data name="MachineTypeModel.MaxLoadCount">
+    <value>Макс. кол-во загрузок</value>
+  </data>
+  <data name="MachineTypeModel.MaxPerPlacement">
+    <value>Max. scopes per placement</value>
+  </data>
+  <data name="MachineTypeModel.MaxPres">
+    <value>Макс. давление</value>
+  </data>
+  <data name="MachineTypeModel.MaxTemp">
+    <value>Макс. Температура</value>
+  </data>
+  <data name="MachineTypeModel.MinPres">
+    <value>Мин. давление </value>
+  </data>
+  <data name="MachineTypeModel.MinTemp">
+    <value>Мин. Температура</value>
+  </data>
+  <data name="MachineTypeModel.Name">
+    <value>Название</value>
+  </data>
+  <data name="MachineTypeModel.NonEndo">
+    <value>Non endoscopes</value>
+  </data>
+  <data name="MachineTypeModel.PlacementCount">
+    <value>Кол-во местоположений</value>
+  </data>
+  <data name="MachineTypeModel.PlacementMode">
+    <value>Placement configuration</value>
+  </data>
+  <data name="MachineTypeModel.PlacementUsgMode">
+    <value>Метод размещения</value>
+  </data>
+  <data name="MachineTypeModel.PressureDecimals">
+    <value>Т(очка) десятичные </value>
+  </data>
+  <data name="MachineTypeModel.PressureLogarithmic">
+    <value>Logarithmic scale</value>
+  </data>
+  <data name="MachineTypeModel.PressureType">
+    <value>Давление</value>
+  </data>
+  <data name="MachineTypeModel.Queuelength">
+    <value>Длина очереди </value>
+  </data>
+  <data name="MachineTypeModel.RelativeTime">
+    <value>Относительное время</value>
+  </data>
+  <data name="MachineTypeModel.RepairVendorKeyId">
+    <value>Продавец  услуг по ремонту</value>
+  </data>
+  <data name="MachineTypeModel.Reportflags">
+    <value>Параметры отчета</value>
+  </data>
+  <data name="MachineTypeModel.StandardError">
+    <value>Стандартная ошибка </value>
+  </data>
+  <data name="MachineTypeModel.SuppKeyId">
+    <value>Поставщик</value>
+  </data>
+  <data name="MachineTypeModel.TechError">
+    <value>Technical error</value>
+  </data>
+  <data name="MachineTypeModel.TempDecimals">
+    <value>T десятичные</value>
+  </data>
+  <data name="MachineTypeModel.TempType">
+    <value>Температура</value>
+  </data>
+  <data name="MachineTypeModel.Text">
+    <value>Текст</value>
+  </data>
+  <data name="MachineTypeModel.Type">
+    <value>Тип</value>
+  </data>
+  <data name="MachineTypeModel.UseMAP">
+    <value>Использовать  MAP</value>
+  </data>
+  <data name="MachineTypeModel.UseRecipe">
+    <value>использовать режимы  </value>
+  </data>
+  <data name="MachineTypeModel.Volume">
+    <value>Объем </value>
+  </data>
+  <data name="QuestionSetModel.Created">
+    <value></value>
+  </data>
+  <data name="QuestionSetModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="QuestionSetModel.Modified">
+    <value></value>
+  </data>
+  <data name="QuestionSetModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="QuestionSetModel.KeyId">
+    <value>ID набора вопросов</value>
+  </data>
+  <data name="QuestionSetModel.Name">
+    <value>Название</value>
+  </data>
+  <data name="QuestionSetModel.Remark">
+    <value>Замечание</value>
+  </data>
+  <data name="QuestionSetModel.Set">
+    <value>Набор вопросов</value>
+  </data>
+  <data name="LoadingEquipmentModel.Created">
+    <value></value>
+  </data>
+  <data name="LoadingEquipmentModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="LoadingEquipmentModel.Modified">
+    <value></value>
+  </data>
+  <data name="LoadingEquipmentModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="LoadingEquipmentModel.Area">
+    <value>Область</value>
+  </data>
+  <data name="LoadingEquipmentModel.Depth">
+    <value>Глубина</value>
+  </data>
+  <data name="LoadingEquipmentModel.Descr">
+    <value>Описание</value>
+  </data>
+  <data name="LoadingEquipmentModel.Height">
+    <value>Высота</value>
+  </data>
+  <data name="LoadingEquipmentModel.KeyId">
+    <value>ID Загрузки оборудования</value>
+  </data>
+  <data name="LoadingEquipmentModel.Name">
+    <value>Название</value>
+  </data>
+  <data name="LoadingEquipmentModel.Width">
+    <value>Ширина</value>
+  </data>
+  <data name="UnitModel.Basket">
+    <value>Корзина</value>
+  </data>
+  <data name="UnitModel.Batch">
+    <value>Партия</value>
+  </data>
+  <data name="UnitModel.Created">
+    <value>Создан</value>
+  </data>
+  <data name="UnitModel.CustKeyId">
+    <value>Подразделение</value>
+  </data>
+  <data name="UnitModel.DryingStokKeyId">
+    <value>Склад сушки</value>
+  </data>
+  <data name="UnitModel.Error">
+    <value>Ошибка</value>
+  </data>
+  <data name="UnitModel.Expire">
+    <value>Срок годности </value>
+  </data>
+  <data name="UnitModel.FacKeyId">
+    <value>ЦСО</value>
+  </data>
+  <data name="UnitModel.LMProKeyId">
+    <value>Loaner management profile</value>
+  </data>
+  <data name="UnitModel.LocaKeyId">
+    <value>Местоположение</value>
+  </data>
+  <data name="UnitModel.LocaTime">
+    <value>Время размещения</value>
+  </data>
+  <data name="UnitModel.NextUnit">
+    <value>Следующий продукт</value>
+  </data>
+  <data name="UnitModel.OpDKeyId">
+    <value>Операция</value>
+  </data>
+  <data name="UnitModel.PackUserKeyId">
+    <value>Упаковщик</value>
+  </data>
+  <data name="UnitModel.PrevUnit">
+    <value>Предыдущий продукт</value>
+  </data>
+  <data name="UnitModel.Price">
+    <value>Цена</value>
+  </data>
+  <data name="UnitModel.PriceHandling">
+    <value>Цена обработки</value>
+  </data>
+  <data name="UnitModel.PricePack">
+    <value>Цена упаковки</value>
+  </data>
+  <data name="UnitModel.PriceSteri">
+    <value>Цена стерилизации</value>
+  </data>
+  <data name="UnitModel.PriceUsage">
+    <value>Цена использования</value>
+  </data>
+  <data name="UnitModel.PriceWash">
+    <value>Wash/disinf. price</value>
+  </data>
+  <data name="UnitModel.PriGrKeyId">
+    <value>Группа цен</value>
+  </data>
+  <data name="UnitModel.ProdKeyId">
+    <value>Регламент</value>
+  </data>
+  <data name="UnitModel.ReqReturnReg">
+    <value>Требуется возврат</value>
+  </data>
+  <data name="UnitModel.RoomKeyId">
+    <value>Кабинет</value>
+  </data>
+  <data name="UnitModel.SeriKeyId">
+    <value>Сер. №.</value>
+  </data>
+  <data name="UnitModel.Status">
+    <value>Статус</value>
+  </data>
+  <data name="UnitModel.StokKeyId">
+    <value>Склад</value>
+  </data>
+  <data name="UnitModel.Unit">
+    <value>Продукт</value>
+  </data>
+  <data name="UnitModel.UsageCounter">
+    <value>Счетчик использования </value>
+  </data>
+  <data name="UnitModel.WorkingTime">
+    <value>Использованное время </value>
+  </data>
+  <data name="TagsModel.Created">
+    <value></value>
+  </data>
+  <data name="TagsModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="TagsModel.Auto">
+    <value>Автоматическая метка</value>
+  </data>
+  <data name="TagsModel.Barcode">
+    <value>Штрих-код</value>
+  </data>
+  <data name="TagsModel.KeyId">
+    <value>ID метки</value>
+  </data>
+  <data name="TagsModel.LocaKeyId">
+    <value>Текущее местоположение</value>
+  </data>
+  <data name="TagsModel.LocaTime">
+    <value>Время размещения</value>
+  </data>
+  <data name="TagsModel.Name">
+    <value>Название</value>
+  </data>
+  <data name="TagsModel.No">
+    <value>№</value>
+  </data>
+  <data name="TagsModel.ProcBatch">
+    <value>Присвоенная партия</value>
+  </data>
+  <data name="TagsModel.Status">
+    <value>Статус</value>
+  </data>
+  <data name="TagsModel.StokKeyId">
+    <value>Склад</value>
+  </data>
+  <data name="TagsModel.TagTKeyId">
+    <value>Тип метки</value>
+  </data>
+  <data name="TagsModel.Type">
+    <value>Тип</value>
+  </data>
+  <data name="OperationDataModel.Created">
+    <value></value>
+  </data>
+  <data name="OperationDataModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="OperationDataModel.Modified">
+    <value></value>
+  </data>
+  <data name="OperationDataModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="OperationDataModel.ActualEndTime">
+    <value>Действительное время завершения</value>
+  </data>
+  <data name="OperationDataModel.ActualStartTime">
+    <value>Действительное время начала</value>
+  </data>
+  <data name="OperationDataModel.BookingForce">
+    <value>Принудительное резервирование</value>
+  </data>
+  <data name="OperationDataModel.BookingStatus">
+    <value>Статус резервирования</value>
+  </data>
+  <data name="OperationDataModel.CustKeyId">
+    <value>Подразделение</value>
+  </data>
+  <data name="OperationDataModel.CustStokKeyId">
+    <value>Склад подразделения </value>
+  </data>
+  <data name="OperationDataModel.DoctKeyId">
+    <value>Врач</value>
+  </data>
+  <data name="OperationDataModel.EndTime">
+    <value>Время оконч.</value>
+  </data>
+  <data name="OperationDataModel.Ident">
+    <value>Операция</value>
+  </data>
+  <data name="OperationDataModel.IncompleteOrder">
+    <value>Incomplete order</value>
+  </data>
+  <data name="OperationDataModel.KeyId">
+    <value>ID Операции</value>
+  </data>
+  <data name="OperationDataModel.Name">
+    <value>Название</value>
+  </data>
+  <data name="OperationDataModel.OptKeyId">
+    <value>Тип операции </value>
+  </data>
+  <data name="OperationDataModel.OrdersNeedUpdate">
+    <value>Order update pending</value>
+  </data>
+  <data name="OperationDataModel.PatAge">
+    <value>Возраст пациента</value>
+  </data>
+  <data name="OperationDataModel.PatGender">
+    <value>Пол пациента</value>
+  </data>
+  <data name="OperationDataModel.PatKeyId">
+    <value>Пациент</value>
+  </data>
+  <data name="OperationDataModel.PatWeight">
+    <value>Вес</value>
+  </data>
+  <data name="OperationDataModel.PrefListDelShortage">
+    <value>Preference list delievered shortage</value>
+  </data>
+  <data name="OperationDataModel.PrefListOrderMode">
+    <value>Режим заказа</value>
+  </data>
+  <data name="OperationDataModel.Remark">
+    <value>Замечание</value>
+  </data>
+  <data name="OperationDataModel.RoomKeyId">
+    <value>Кабинет</value>
+  </data>
+  <data name="OperationDataModel.StartTime">
+    <value>Время начала</value>
+  </data>
+  <data name="OperationDataModel.StartTimeModified">
+    <value>Start time modified</value>
+  </data>
+  <data name="OperationDataModel.Status">
+    <value>Статус</value>
+  </data>
+  <data name="OperationDataModel.SuppFacKeyId">
+    <value>Фабрика-поставщик</value>
+  </data>
+  <data name="SerialModel.Created">
+    <value></value>
+  </data>
+  <data name="SerialModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="SerialModel.Modified">
+    <value></value>
+  </data>
+  <data name="SerialModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="SerialModel.Barcode">
+    <value>Штрих-коды</value>
+  </data>
+  <data name="SerialModel.DispatchRestrict">
+    <value>Ограничение отправки</value>
+  </data>
+  <data name="SerialModel.ExtLoanerId">
+    <value>External loaner ID</value>
+  </data>
+  <data name="SerialModel.ExtName">
+    <value>External name</value>
+  </data>
+  <data name="SerialModel.FTCoKeyId">
+    <value>Код быстрого остлеж.</value>
+  </data>
+  <data name="SerialModel.FTPlKeyId">
+    <value>План быстрого отслеживания</value>
+  </data>
+  <data name="SerialModel.FTTmpKeyId">
+    <value>Группа быстрого остлеж.</value>
+  </data>
+  <data name="SerialModel.HatKeyId">
+    <value>Handling type</value>
+  </data>
+  <data name="SerialModel.KeyId">
+    <value>Идентификатор Серийного № </value>
+  </data>
+  <data name="SerialModel.LMProKeyId">
+    <value>Loaner management profile</value>
+  </data>
+  <data name="SerialModel.LocaKeyId">
+    <value>Местоположение</value>
+  </data>
+  <data name="SerialModel.Manufactserialnumber">
+    <value>Серийный номер</value>
+  </data>
+  <data name="SerialModel.Name">
+    <value>Название</value>
+  </data>
+  <data name="SerialModel.OwnerCuSiteKeyId">
+    <value>Владелец (филиал Подразделения)</value>
+  </data>
+  <data name="SerialModel.OwnerCustKeyId">
+    <value>Владелец  (Заказчик) </value>
+  </data>
+  <data name="SerialModel.OwnerFacKeyId">
+    <value>Владелец  (Предприятие) </value>
+  </data>
+  <data name="SerialModel.OwnerSuppKeyId">
+    <value>Владелец  (Поставщик)</value>
+  </data>
+  <data name="SerialModel.PackKeyId">
+    <value>Упак. Материал</value>
+  </data>
+  <data name="SerialModel.PurchaseDate">
+    <value>Дата покупки</value>
+  </data>
+  <data name="SerialModel.PurchaseOrdNo">
+    <value>№ заказа на поставку </value>
+  </data>
+  <data name="SerialModel.PurchasePrice">
+    <value>Покупная цена </value>
+  </data>
+  <data name="SerialModel.PurchaseTime">
+    <value>Дата покупки</value>
+  </data>
+  <data name="SerialModel.RefItemKeyId">
+    <value>Изделие</value>
+  </data>
+  <data name="SerialModel.RefPReKeyId">
+    <value>режим программы</value>
+  </data>
+  <data name="SerialModel.RefProdKeyId">
+    <value>Регламент</value>
+  </data>
+  <data name="SerialModel.RefProgKeyId">
+    <value>Программа</value>
+  </data>
+  <data name="SerialModel.Remark">
+    <value>Замечание</value>
+  </data>
+  <data name="SerialModel.SerialNo">
+    <value>Сер. №.</value>
+  </data>
+  <data name="SerialModel.Status">
+    <value>Статус</value>
+  </data>
+  <data name="SerialModel.Stockplacement">
+    <value>Размещение</value>
+  </data>
+  <data name="SerialModel.StokKeyId">
+    <value>Склад</value>
+  </data>
+  <data name="SerialModel.SuppKeyId">
+    <value>Поставщик</value>
+  </data>
+  <data name="SerialModel.TRGrpKeyId">
+    <value>Expire time group</value>
+  </data>
+  <data name="SerialModel.UserField01">
+    <value>Поле пользователя  1</value>
+  </data>
+  <data name="SerialModel.UserField02">
+    <value>Поле пользователя 2</value>
+  </data>
+  <data name="SerialModel.UserField03">
+    <value>Поле пользователя 3</value>
+  </data>
+  <data name="SerialModel.UserField04">
+    <value>Поле пользователя 4</value>
+  </data>
+  <data name="SerialModel.UserField05">
+    <value>Поле пользователя 5</value>
+  </data>
+  <data name="SerialModel.UserField06">
+    <value>Поле пользователя 6</value>
+  </data>
+  <data name="SerialModel.UserField07">
+    <value>Поле пользователя 7</value>
+  </data>
+  <data name="SerialModel.UserField08">
+    <value>Поле пользователя 8</value>
+  </data>
+  <data name="SerialModel.UserField09">
+    <value>Поле пользователя 9</value>
+  </data>
+  <data name="SerialModel.UserField10">
+    <value>Поле пользователя 10</value>
+  </data>
+  <data name="SerialModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="SerialModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="SerialModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="SerialModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="SerialModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="SerialModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="SerialModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="SerialModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="SerialModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="SerialModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="SerialModel.UnitUnit">
+    <value>Продукт</value>
+  </data>
+  <data name="SerialModel.UsageCount">
+    <value>Итоговая сумма использования </value>
+  </data>
+  <data name="SerialModel.Weight">
+    <value>Вес</value>
+  </data>
+  <data name="DoctorModel.Created">
+    <value></value>
+  </data>
+  <data name="DoctorModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="DoctorModel.Modified">
+    <value></value>
+  </data>
+  <data name="DoctorModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="DoctorModel.Barcode">
+    <value>Штрих-код</value>
+  </data>
+  <data name="DoctorModel.CalKeyId">
+    <value>Календарь</value>
+  </data>
+  <data name="DoctorModel.Initials">
+    <value>Инициалы</value>
+  </data>
+  <data name="DoctorModel.KeyId">
+    <value>ID Врача</value>
+  </data>
+  <data name="DoctorModel.Name">
+    <value>Название</value>
+  </data>
+  <data name="DoctorModel.Status">
+    <value>Статус</value>
+  </data>
+  <data name="DoctorModel.UserField01">
+    <value>Поле пользователя  1</value>
+  </data>
+  <data name="DoctorModel.UserField02">
+    <value>Поле пользователя 2</value>
+  </data>
+  <data name="DoctorModel.UserField03">
+    <value>Поле пользователя 3</value>
+  </data>
+  <data name="DoctorModel.UserField04">
+    <value>Поле пользователя 4</value>
+  </data>
+  <data name="DoctorModel.UserField05">
+    <value>Поле пользователя 5</value>
+  </data>
+  <data name="DoctorModel.UserField06">
+    <value>Поле пользователя 6</value>
+  </data>
+  <data name="DoctorModel.UserField07">
+    <value>Поле пользователя 7</value>
+  </data>
+  <data name="DoctorModel.UserField08">
+    <value>Поле пользователя 8</value>
+  </data>
+  <data name="DoctorModel.UserField09">
+    <value>Поле пользователя 9</value>
+  </data>
+  <data name="DoctorModel.UserField10">
+    <value>Поле пользователя 10</value>
+  </data>
+  <data name="DoctorModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="DoctorModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="DoctorModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="DoctorModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="DoctorModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="DoctorModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="DoctorModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="DoctorModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="DoctorModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="DoctorModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="PatientModel.Created">
+    <value></value>
+  </data>
+  <data name="PatientModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="PatientModel.Modified">
+    <value></value>
+  </data>
+  <data name="PatientModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="PatientModel.BarCode">
+    <value>Штрих-коды</value>
+  </data>
+  <data name="PatientModel.Birthday">
+    <value>День рождения</value>
+  </data>
+  <data name="PatientModel.Code1">
+    <value>Код 1</value>
+  </data>
+  <data name="PatientModel.Code2">
+    <value>Код 2</value>
+  </data>
+  <data name="PatientModel.Code3">
+    <value>Код 3</value>
+  </data>
+  <data name="PatientModel.Id">
+    <value>ID</value>
+  </data>
+  <data name="PatientModel.KeyId">
+    <value>ID Пациента</value>
+  </data>
+  <data name="PatientModel.Name">
+    <value>Название</value>
+  </data>
+  <data name="PatientModel.Sex">
+    <value>Пол</value>
+  </data>
+  <data name="PatientModel.Status">
+    <value>Статус</value>
+  </data>
+  <data name="PatientModel.UserField01">
+    <value>Поле пользователя  1</value>
+  </data>
+  <data name="PatientModel.UserField02">
+    <value>Поле пользователя 2</value>
+  </data>
+  <data name="PatientModel.UserField03">
+    <value>Поле пользователя 3</value>
+  </data>
+  <data name="PatientModel.UserField04">
+    <value>Поле пользователя 4</value>
+  </data>
+  <data name="PatientModel.UserField05">
+    <value>Поле пользователя 5</value>
+  </data>
+  <data name="PatientModel.UserField06">
+    <value>Поле пользователя 6</value>
+  </data>
+  <data name="PatientModel.UserField07">
+    <value>Поле пользователя 7</value>
+  </data>
+  <data name="PatientModel.UserField08">
+    <value>Поле пользователя 8</value>
+  </data>
+  <data name="PatientModel.UserField09">
+    <value>Поле пользователя 9</value>
+  </data>
+  <data name="PatientModel.UserField10">
+    <value>Поле пользователя 10</value>
+  </data>
+  <data name="PatientModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="PatientModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="PatientModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="PatientModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="PatientModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="PatientModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="PatientModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="PatientModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="PatientModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="PatientModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="PatientModel.Weight">
+    <value>Вес</value>
+  </data>
+  <data name="OrderModel.AutoCreated">
+    <value>Автоматически созданный</value>
+  </data>
+  <data name="OrderModel.BookingFirstOk">
+    <value>First booking OK</value>
+  </data>
+  <data name="OrderModel.BookingMode">
+    <value>Режим резервирования</value>
+  </data>
+  <data name="OrderModel.BookingPriority">
+    <value>Booking priority</value>
+  </data>
+  <data name="OrderModel.BookingStatus">
+    <value>Статус резервирования</value>
+  </data>
+  <data name="OrderModel.CreatedAppType">
+    <value>Origin application</value>
+  </data>
+  <data name="OrderModel.CreatedForOpDPrefList">
+    <value>Created for OP preference list</value>
+  </data>
+  <data name="OrderModel.CreatedJobKeyId">
+    <value>Origin job</value>
+  </data>
+  <data name="OrderModel.CreatedLocaKeyId">
+    <value>Origin location</value>
+  </data>
+  <data name="OrderModel.CreatedLSId">
+    <value>Origin computer</value>
+  </data>
+  <data name="OrderModel.CreatedUserKeyId">
+    <value>Создан (кем)</value>
+  </data>
+  <data name="OrderModel.DelIncomplete">
+    <value>Delivery incomplete</value>
+  </data>
+  <data name="OrderModel.ExpDelTime">
+    <value>Exp. del. time</value>
+  </data>
+  <data name="OrderModel.Flags">
+    <value>Настройки</value>
+  </data>
+  <data name="OrderModel.KeyId">
+    <value>ID Заказа</value>
+  </data>
+  <data name="OrderModel.LockMode">
+    <value>Lock mode</value>
+  </data>
+  <data name="OrderModel.NextOrdKeyId">
+    <value>След. заказ</value>
+  </data>
+  <data name="OrderModel.OrdTpKeyId">
+    <value>Шаблон заказа</value>
+  </data>
+  <data name="OrderModel.OrgAccount">
+    <value>Org. account   (Начальный адрес, организация, архитектура счета),  </value>
+  </data>
+  <data name="OrderModel.OrgExternalId">
+    <value>Org. external ID</value>
+  </data>
+  <data name="OrderModel.OrgInvoiceDirect">
+    <value>Org. invoice direct</value>
+  </data>
+  <data name="OrderModel.OrgInvRefCustKeyId">
+    <value>Инвойс подразделения</value>
+  </data>
+  <data name="OrderModel.OrgInvRefFacKeyId">
+    <value>Инвойс предприятия</value>
+  </data>
+  <data name="OrderModel.OrgInvRefSuppKeyId">
+    <value>Инвойс поставщику</value>
+  </data>
+  <data name="OrderModel.OrgRefCustKeyId">
+    <value>Org. Подразделение</value>
+  </data>
+  <data name="OrderModel.OrgRefFacKeyId">
+    <value>Org. Предприятие</value>
+  </data>
+  <data name="OrderModel.OrgRefNo">
+    <value>Org. Ref.</value>
+  </data>
+  <data name="OrderModel.OrgRefSuppKeyId">
+    <value>Org. supplier</value>
+  </data>
+  <data name="OrderModel.OrgRefText">
+    <value>Org. ref. text</value>
+  </data>
+  <data name="OrderModel.OrgRefText2">
+    <value>Org. ref. text 2</value>
+  </data>
+  <data name="OrderModel.OrgRemark">
+    <value>Org. remark</value>
+  </data>
+  <data name="OrderModel.OrgStatus">
+    <value>Org. Status</value>
+  </data>
+  <data name="OrderModel.OrgStokKeyId">
+    <value>Org. stock</value>
+  </data>
+  <data name="OrderModel.OrgTime">
+    <value>Org. Time</value>
+  </data>
+  <data name="OrderModel.OrgUserKeyId">
+    <value>Org. User</value>
+  </data>
+  <data name="OrderModel.PrevOrdKeyId">
+    <value>Пред. заказ</value>
+  </data>
+  <data name="OrderModel.RefOpDKeyId">
+    <value>Создатель  (Операция)</value>
+  </data>
+  <data name="OrderModel.RefOpTKeyId">
+    <value>Тип операции </value>
+  </data>
+  <data name="OrderModel.Reordered">
+    <value>Reordered</value>
+  </data>
+  <data name="OrderModel.ReqDelTime">
+    <value>Запрошенное время доставки</value>
+  </data>
+  <data name="OrderModel.ReqDelTimeEstimated">
+    <value></value>
+  </data>
+  <data name="OrderModel.ReturnReq">
+    <value>Return requested</value>
+  </data>
+  <data name="OrderModel.SplitOrdKeyId">
+    <value>Разделить заказ</value>
+  </data>
+  <data name="OrderModel.SuppPickMode">
+    <value>Supp. pick mode</value>
+  </data>
+  <data name="OrderModel.SuppPickPriority">
+    <value>Picking priority</value>
+  </data>
+  <data name="OrderModel.SuppPriority">
+    <value>Supplier priority</value>
+  </data>
+  <data name="OrderModel.SuppRefCustKeyId">
+    <value>Supp. customer</value>
+  </data>
+  <data name="OrderModel.SuppRefFacKeyId">
+    <value>Supp. factory</value>
+  </data>
+  <data name="OrderModel.SuppRefNo">
+    <value>Supp. Ref.</value>
+  </data>
+  <data name="OrderModel.SuppRefSuppKeyId">
+    <value>Supp. supplier</value>
+  </data>
+  <data name="OrderModel.SuppRefText">
+    <value>Supp. ref. text</value>
+  </data>
+  <data name="OrderModel.SuppRefText2">
+    <value>Supp. ref. text 2</value>
+  </data>
+  <data name="OrderModel.SuppRemark">
+    <value>Supp. remark</value>
+  </data>
+  <data name="OrderModel.SuppStatus">
+    <value>Supp. Status</value>
+  </data>
+  <data name="OrderModel.SuppStokKeyId">
+    <value>Supp. stock</value>
+  </data>
+  <data name="OrderModel.SuppTime">
+    <value>Supp. Time</value>
+  </data>
+  <data name="OrderModel.SuppUserKeyId">
+    <value>Supp. User</value>
+  </data>
+  <data name="OrderModel.SyncToOperation">
+    <value>Synchronize with operation</value>
+  </data>
+  <data name="OrderModel.Tag">
+    <value>Групповая упаковка</value>
+  </data>
+  <data name="OrderModel.Type">
+    <value>Тип</value>
+  </data>
+  <data name="OrderModel.UnlockStokKeyId">
+    <value>Unlock destination stock</value>
+  </data>
+  <data name="JobModel.ConfigData">
+    <value>Данные конфигурации</value>
+  </data>
+  <data name="JobModel.Description">
+    <value>Описание</value>
+  </data>
+  <data name="JobModel.Disabled">
+    <value>Не доступен</value>
+  </data>
+  <data name="JobModel.DisplayIndex">
+    <value>Отобразить индекс</value>
+  </data>
+  <data name="JobModel.IESysKeyId">
+    <value>Система интерфейса</value>
+  </data>
+  <data name="JobModel.JGrpKeyId">
+    <value>группы операций</value>
+  </data>
+  <data name="JobModel.KeyId">
+    <value>ID Операции</value>
+  </data>
+  <data name="JobModel.LastPackageId">
+    <value>ID последней упаковки</value>
+  </data>
+  <data name="JobModel.MasterjobKeyId">
+    <value>Главная задача</value>
+  </data>
+  <data name="JobModel.Moveable">
+    <value>Movable</value>
+  </data>
+  <data name="JobModel.Name">
+    <value>Название</value>
+  </data>
+  <data name="JobModel.Schedule">
+    <value>План</value>
+  </data>
+  <data name="JobModel.SysConfigData">
+    <value>Система конфигурации данных</value>
+  </data>
+  <data name="JobModel.SysName">
+    <value>Название системы</value>
+  </data>
+  <data name="JobModel.TypeId">
+    <value>ID типа</value>
+  </data>
+  <data name="OrderTemplateModel.Created">
+    <value></value>
+  </data>
+  <data name="OrderTemplateModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="OrderTemplateModel.Modified">
+    <value></value>
+  </data>
+  <data name="OrderTemplateModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="OrderTemplateModel.KeyId">
+    <value>ID Шаблона заказа</value>
+  </data>
+  <data name="OrderTemplateModel.Name">
+    <value>Название</value>
+  </data>
+  <data name="OrderTemplateModel.OrgInvoiceDirect">
+    <value>Прямой инвойс</value>
+  </data>
+  <data name="OrderTemplateModel.OrgRefCustKeyId">
+    <value>Org. Подразделение</value>
+  </data>
+  <data name="OrderTemplateModel.OrgRefFacKeyId">
+    <value>Org. Предприятие</value>
+  </data>
+  <data name="OrderTemplateModel.OrgRefSuppKeyId">
+    <value>Org. supplier</value>
+  </data>
+  <data name="OrderTemplateModel.OrgRefText">
+    <value>Org. ref. text</value>
+  </data>
+  <data name="OrderTemplateModel.OrgRefText2">
+    <value>Org. ref. text 2</value>
+  </data>
+  <data name="OrderTemplateModel.OrgRemark">
+    <value>Org. remark</value>
+  </data>
+  <data name="OrderTemplateModel.OrgStokKeyId">
+    <value>Org. stock</value>
+  </data>
+  <data name="OrderTemplateModel.OTpTKeyId">
+    <value>Тип</value>
+  </data>
+  <data name="OrderTemplateModel.RefOpTKeyId">
+    <value>Владелец  (Тип операции)  </value>
+  </data>
+  <data name="OrderTemplateModel.RefProTKeyId">
+    <value>Владелец  (Тип процедуры)  </value>
+  </data>
+  <data name="OrderTemplateModel.SuppRefFacKeyId">
+    <value>Supp. factory</value>
+  </data>
+  <data name="OrderTemplateModel.SuppRefSuppKeyId">
+    <value>Supp. supplier</value>
+  </data>
+  <data name="OrderTemplateModel.SuppRefText">
+    <value>Supp. ref. text</value>
+  </data>
+  <data name="OrderTemplateModel.SuppRefText2">
+    <value>Sup. ref. text 2</value>
+  </data>
+  <data name="OrderTemplateModel.SuppRemark">
+    <value>Supp. remark</value>
+  </data>
+  <data name="OrderTemplateModel.SuppStokKeyId">
+    <value>Supp. stock</value>
+  </data>
+  <data name="OrderTemplateModel.Template">
+    <value>Шаблон</value>
+  </data>
+  <data name="InterfaceSystemsModel.Description">
+    <value>Описание</value>
+  </data>
+  <data name="InterfaceSystemsModel.Id">
+    <value>Системный идентификатор</value>
+  </data>
+  <data name="InterfaceSystemsModel.KeyId">
+    <value>ID системы интерфейса</value>
+  </data>
+  <data name="InterfaceSystemsModel.Name">
+    <value>Название</value>
+  </data>
+  <data name="JobGroupModel.Description">
+    <value>Описание</value>
+  </data>
+  <data name="JobGroupModel.Disabled">
+    <value>Не доступен</value>
+  </data>
+  <data name="JobGroupModel.DisplayIndex">
+    <value>Отобразить индекс</value>
+  </data>
+  <data name="JobGroupModel.FoJSrvKeyId">
+    <value>Fail over Job server</value>
+  </data>
+  <data name="JobGroupModel.FoStop">
+    <value>Стоп</value>
+  </data>
+  <data name="JobGroupModel.JobType">
+    <value>Job type</value>
+  </data>
+  <data name="JobGroupModel.JSrvKeyId">
+    <value>Job server</value>
+  </data>
+  <data name="JobGroupModel.KeyId">
+    <value>Job group ID</value>
+  </data>
+  <data name="JobGroupModel.Name">
+    <value>Название</value>
+  </data>
+  <data name="JobGroupModel.SysId">
+    <value>Системный идентификатор</value>
+  </data>
+  <data name="JobGroupModel.SysName">
+    <value>Название системы</value>
+  </data>
+  <data name="JobGroupModel.Type">
+    <value>Тип</value>
+  </data>
+  <data name="OrderTemplateTypeModel.Created">
+    <value></value>
+  </data>
+  <data name="OrderTemplateTypeModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="OrderTemplateTypeModel.Modified">
+    <value></value>
+  </data>
+  <data name="OrderTemplateTypeModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="OrderTemplateTypeModel.KeyId">
+    <value>ID типа шаблона</value>
+  </data>
+  <data name="OrderTemplateTypeModel.Name">
+    <value>Название</value>
+  </data>
+  <data name="OrderTemplateTypeModel.Remark">
+    <value>Замечание</value>
+  </data>
+  <data name="OrderTemplateTypeModel.Type">
+    <value>Тип</value>
+  </data>
+  <data name="JobServerModel.ConfigData">
+    <value>Данные конфигурации</value>
+  </data>
+  <data name="JobServerModel.Description">
+    <value>Описание</value>
+  </data>
+  <data name="JobServerModel.HeartBeat">
+    <value>Last heartbeat</value>
+  </data>
+  <data name="JobServerModel.KeyId">
+    <value>Job Server ID</value>
+  </data>
+  <data name="JobServerModel.LinkStatId">
+    <value>ID станции связи</value>
+  </data>
+  <data name="JobServerModel.Name">
+    <value>Название</value>
+  </data>
+  <data name="CompositeModel.AltRefKeyId">
+    <value>Альтернативное изделие</value>
+  </data>
+  <data name="CompositeModel.CompItemKeyId">
+    <value>Набор </value>
+  </data>
+  <data name="CompositeModel.Count">
+    <value>Кол-во</value>
+  </data>
+  <data name="CompositeModel.CriticalCount">
+    <value>Критический</value>
+  </data>
+  <data name="CompositeModel.HasAlternative">
+    <value>Has alternative</value>
+  </data>
+  <data name="CompositeModel.IdentLineUsage">
+    <value>Identical line usage</value>
+  </data>
+  <data name="CompositeModel.Key">
+    <value>Клавиша (Ключ)</value>
+  </data>
+  <data name="CompositeModel.Placement">
+    <value>Размещение</value>
+  </data>
+  <data name="CompositeModel.Position">
+    <value>Поз</value>
+  </data>
+  <data name="CompositeModel.RefItemKeyId">
+    <value>Изделие</value>
+  </data>
+  <data name="CompositeModel.RefTextKeyId">
+    <value>Текст</value>
+  </data>
+  <data name="CompositeModel.SplitTagNo">
+    <value>Группа меток</value>
+  </data>
+  <data name="CompositeModel.Text">
+    <value>Текст</value>
+  </data>
+  <data name="TagContentModel.AutoInc">
+    <value>Клавиша (Ключ)</value>
+  </data>
+  <data name="TagContentModel.ChildTagsKeyId">
+    <value>Child tag</value>
+  </data>
+  <data name="TagContentModel.ChPlKeyId">
+    <value>Размещение в камере</value>
+  </data>
+  <data name="TagContentModel.IndicIndicator">
+    <value>Индикатор</value>
+  </data>
+  <data name="TagContentModel.ItemCount">
+    <value>Счетчик</value>
+  </data>
+  <data name="TagContentModel.ItemKeyId">
+    <value>Изделие</value>
+  </data>
+  <data name="TagContentModel.LocaKeyId">
+    <value>Местоположение</value>
+  </data>
+  <data name="TagContentModel.LotInKeyId">
+    <value>Инфо партии</value>
+  </data>
+  <data name="TagContentModel.OLnKey">
+    <value>Строка заказа</value>
+  </data>
+  <data name="TagContentModel.SeriKeyId">
+    <value>Серийный номер </value>
+  </data>
+  <data name="TagContentModel.SplitUnit">
+    <value>Разделить изделия</value>
+  </data>
+  <data name="TagContentModel.TagsKeyId">
+    <value>Метка </value>
+  </data>
+  <data name="TagContentModel.Time">
+    <value>Время</value>
+  </data>
+  <data name="TagContentModel.UnitUnit">
+    <value>Продукт</value>
+  </data>
+  <data name="EventModel.Created">
+    <value></value>
+  </data>
+  <data name="EventModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="EventModel.Modified">
+    <value></value>
+  </data>
+  <data name="EventModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="EventModel.Event">
+    <value>Событие</value>
+  </data>
+  <data name="EventModel.Eventsystype">
+    <value>Тип системы</value>
+  </data>
+  <data name="EventModel.Eventtype">
+    <value>тип события</value>
+  </data>
+  <data name="EventModel.Info">
+    <value>Инфо</value>
+  </data>
+  <data name="EventModel.KeyId">
+    <value>ID События</value>
+  </data>
+  <data name="EventModel.PloKeyId">
+    <value>Позиция/местоположение</value>
+  </data>
+  <data name="EventModel.RefKeyId">
+    <value>Исходя из </value>
+  </data>
+  <data name="EventModel.Sysdata">
+    <value>Системные данные</value>
+  </data>
+  <data name="EventModel.System">
+    <value>Система</value>
+  </data>
+  <data name="EventModel.Time">
+    <value>Event time</value>
+  </data>
+  <data name="EventModel.Type">
+    <value>Тип</value>
+  </data>
+  <data name="StockModel.AutoCreated">
+    <value>Автоматически созданный </value>
+  </data>
+  <data name="StockModel.DesiredCount">
+    <value>Норм. </value>
+  </data>
+  <data name="StockModel.Identlineusage">
+    <value>Identical line usage</value>
+  </data>
+  <data name="StockModel.InventoryActive">
+    <value>Активная инвентаризация</value>
+  </data>
+  <data name="StockModel.InventoryCount">
+    <value>Инвентаризационное кол-во</value>
+  </data>
+  <data name="StockModel.InventoryPhysCount">
+    <value>Текущий</value>
+  </data>
+  <data name="StockModel.InventoryPhysTime">
+    <value>Actual time</value>
+  </data>
+  <data name="StockModel.InventoryPhysUserKeyId">
+    <value>Пользов.</value>
+  </data>
+  <data name="StockModel.InventoryTime">
+    <value>Последняя инвентаризация</value>
+  </data>
+  <data name="StockModel.InventoryUserKeyId">
+    <value>Inv. user</value>
+  </data>
+  <data name="StockModel.MaxCount">
+    <value>Макс.</value>
+  </data>
+  <data name="StockModel.MinCount">
+    <value>Мин.</value>
+  </data>
+  <data name="StockModel.MonthUsage">
+    <value>Использование в месяц  </value>
+  </data>
+  <data name="StockModel.OnStock">
+    <value>На складе</value>
+  </data>
+  <data name="StockModel.OrderedCount">
+    <value>Зак.</value>
+  </data>
+  <data name="StockModel.Pickhere">
+    <value>Принять</value>
+  </data>
+  <data name="StockModel.Placement">
+    <value>Размещение</value>
+  </data>
+  <data name="StockModel.ProductionCount">
+    <value>Кол-во регл.</value>
+  </data>
+  <data name="StockModel.RefItemKeyId">
+    <value>Изделие (Предмет)</value>
+  </data>
+  <data name="StockModel.RefProdKeyId">
+    <value>Артикул (Регламент) </value>
+  </data>
+  <data name="StockModel.ReservedCount">
+    <value>Резерв </value>
+  </data>
+  <data name="StockModel.StokKeyId">
+    <value>Склад</value>
+  </data>
+  <data name="StockModel.SuppOrderMinCount">
+    <value>Мин. размер заказа </value>
+  </data>
+  <data name="StockModel.SuppOrderStdCount">
+    <value>Размер пакета заказа</value>
+  </data>
+  <data name="StockModel.SuppRefFacKeyId">
+    <value>Supp. factory</value>
+  </data>
+  <data name="StockModel.SuppRefSuppKeyId">
+    <value>Supp. supplier</value>
+  </data>
+  <data name="ProductModel">
+    <value>Регламенты</value>
+  </data>
+  <data name="UserModel">
+    <value>Пользователи</value>
+  </data>
+  <data name="CountingPointSetModel">
+    <value>Группы зон подсчета</value>
+  </data>
+  <data name="CustSiteModel">
+    <value>Филиалы подразделения</value>
+  </data>
+  <data name="CustomerModel">
+    <value>Подразделения</value>
+  </data>
+  <data name="EndoDryingMethodsModel">
+    <value>Методы сушки эндоскопов</value>
+  </data>
+  <data name="ProgramGroupModel">
+    <value>Группы программ</value>
+  </data>
+  <data name="FactoryModel">
+    <value>ЦСО</value>
+  </data>
+  <data name="FastTrackCodeModel">
+    <value>Коды быстрого остлеж.</value>
+  </data>
+  <data name="FastTrackPlanModel">
+    <value>Планы быстрого отслеживания</value>
+  </data>
+  <data name="FastTrackTemplateModel">
+    <value>Fast track groups</value>
+  </data>
+  <data name="HandlingTypesModel">
+    <value>Handling types</value>
+  </data>
+  <data name="IdenticalArticleGroupModel">
+    <value>Identical article groups</value>
+  </data>
+  <data name="ItemModel">
+    <value>Изделия</value>
+  </data>
+  <data name="PackingModel">
+    <value>Упаковки</value>
+  </data>
+  <data name="PriceGroupModel">
+    <value>Группы цен</value>
+  </data>
+  <data name="TimeRuleGroupModel">
+    <value>Expire time group</value>
+  </data>
+  <data name="WeightPlanModel">
+    <value>Планы веса</value>
+  </data>
+  <data name="ProfileModel">
+    <value>Профили пользователя </value>
+  </data>
+  <data name="CalendarModel">
+    <value>Календарь</value>
+  </data>
+  <data name="StocksModel">
+    <value>Склады</value>
+  </data>
+  <data name="StockGroupModel">
+    <value>Группы запаса на складе </value>
+  </data>
+  <data name="ProcessModel">
+    <value>Процессы</value>
+  </data>
+  <data name="SupplierModel">
+    <value>Поставщики  </value>
+  </data>
+  <data name="LocationModel">
+    <value>Местоположение </value>
+  </data>
+  <data name="FixedStockPlacementsModel">
+    <value>Фиксированные положения склада</value>
+  </data>
+  <data name="TextModel">
+    <value>Текст</value>
+  </data>
+  <data name="LocationGroupModel">
+    <value>Группы местоположений</value>
+  </data>
+  <data name="CatalogModel">
+    <value>Каталог</value>
+  </data>
+  <data name="ItemGroupModel">
+    <value>Группы изделий</value>
+  </data>
+  <data name="ItemSpecialtyModel">
+    <value>Особенности изделий</value>
+  </data>
+  <data name="ItemUOMModel">
+    <value>Единицы измерения </value>
+  </data>
+  <data name="TagTypeModel">
+    <value>Tag types</value>
+  </data>
+  <data name="SealerProgramModel">
+    <value>Программы термосварочной машины  </value>
+  </data>
+  <data name="EmgCaseCartTypeModel">
+    <value>Emergency case cart type</value>
+  </data>
+  <data name="OperationTypeModel">
+    <value>Типы операций</value>
+  </data>
+  <data name="MachineModel">
+    <value>Оборудование</value>
+  </data>
+  <data name="ProgramModel">
+    <value>Программы</value>
+  </data>
+  <data name="ProgramRecipeModel">
+    <value>Режимы программы</value>
+  </data>
+  <data name="MacroModel">
+    <value>Макрокоманды сканера  </value>
+  </data>
+  <data name="UILayerDefModel">
+    <value>Определения UI Слоя</value>
+  </data>
+  <data name="IdenticalTagTypeGroupModel">
+    <value>Identical tag type group</value>
+  </data>
+  <data name="RoomModel">
+    <value>Кабинеты</value>
+  </data>
+  <data name="AGSModel">
+    <value>AGS</value>
+  </data>
+  <data name="MachineTypeModel">
+    <value>Модели оборудования</value>
+  </data>
+  <data name="QuestionSetModel">
+    <value>Наборы вопросов</value>
+  </data>
+  <data name="LoadingEquipmentModel">
+    <value>Загрузочное оборудование (Оборудование для загрузки) </value>
+  </data>
+  <data name="UnitModel">
+    <value>Продукты</value>
+  </data>
+  <data name="TagsModel">
+    <value>Метки</value>
+  </data>
+  <data name="OperationDataModel">
+    <value>Даные операции </value>
+  </data>
+  <data name="SerialModel">
+    <value>Сер. номера</value>
+  </data>
+  <data name="DoctorModel">
+    <value>Врачи</value>
+  </data>
+  <data name="PatientModel">
+    <value>Пациенты</value>
+  </data>
+  <data name="OrderModel">
+    <value>Заказы</value>
+  </data>
+  <data name="JobModel">
+    <value>Операции</value>
+  </data>
+  <data name="OrderTemplateModel">
+    <value>Шаблоны заказов</value>
+  </data>
+  <data name="InterfaceSystemsModel">
+    <value>Системы интерфейса</value>
+  </data>
+  <data name="JobGroupModel">
+    <value>группы операций</value>
+  </data>
+  <data name="OrderTemplateTypeModel">
+    <value>Типы шаблонов заказа</value>
+  </data>
+  <data name="JobServerModel">
+    <value>Сервер операций</value>
+  </data>
+  <data name="CompositeModel">
+    <value>Сводные списки</value>
+  </data>
+  <data name="TagContentModel">
+    <value>Содержание метки</value>
+  </data>
+  <data name="EventModel">
+    <value>События</value>
+  </data>
+  <data name="StockModel">
+    <value>Определение склада </value>
+  </data>
+</root>

@@ -1,0 +1,21 @@
+﻿<!--
+Adds a "loading-skeleton" class on the container elements.
+-->
+<div class="loading-skeleton">
+    <div class="row text-center">
+        @for (int i = 0; i < ColumnCount; i++)
+        {
+            <div class="col">
+                @for (int j = 0; j < RowCount; j++)
+                {
+                    <div class="card">
+                        <div class="card-body" />
+                    </div>
+                    <div class="w-100" />
+                }
+            </div>
+        }
+        <div class="w-100" />
+        <span> @Message </span>
+    </div>
+</div>

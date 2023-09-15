@@ -1,0 +1,14 @@
+parameters:
+- name: listOfPaths
+  type: object
+  default:
+  - name: unknown
+    dir: unknown
+
+steps:
+  - ${{ each path in parameters.listOfPaths }}:
+    - task: Npm@1
+      displayName: NPM Install (${{ path.name }})
+      inputs:
+        workingDir: $(System.DefaultWorkingDirectory)${{ path.dir }}
+        verbose: true

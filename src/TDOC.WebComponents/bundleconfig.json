@@ -1,0 +1,30 @@
+﻿[
+  {
+    "outputFileName": "wwwroot/js/generated/bundle.min.js",
+    "inputFiles": [
+      /* App culture */
+      "wwwroot/js/appCulture.js",
+      /* JQuery library */
+      "wwwroot/lib/jquery/jquery.min.js",
+      /* Bootstrap library */
+      "wwwroot/lib/bootstrap/js/bootstrap.bundle.min.js",
+      /* Popover javascript(s) */
+      "wwwroot/js/popover/popoverHelper.js",
+      /* DevExtreme library */
+      "wwwroot/js/devextreme/devExtremeToastHelper.js",
+      "wwwroot/js/devextreme/devExtremePopupHelper.js",
+      "wwwroot/js/devextreme/devExtremeResizableHelper.js",
+      /* Swiper library */
+      "wwwroot/js/swiper/mediaSwiperHelper.js",
+      /* Notification javascript(s) */
+      "wwwroot/js/notificationHelper.js",
+      /* Browser/DOM javascript(s) */
+      "wwwroot/js/browserHelper.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    "sourceMap": false
+  }
+]      

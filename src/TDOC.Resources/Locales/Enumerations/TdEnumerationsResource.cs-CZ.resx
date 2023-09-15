@@ -1,0 +1,1847 @@
+<?xml version="1.0" encoding="utf-8"?><root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActualProgramCheck.Off">
+    <value>vypnout</value>
+  </data>
+  <data name="ActualProgramCheck.WarningPrompt">
+    <value>varování a konfigurace</value>
+  </data>
+  <data name="ActualProgramCheck.Error">
+    <value>chyba - schválení blokováno</value>
+  </data>
+  <data name="ApprovalType.No">
+    <value>Ne</value>
+  </data>
+  <data name="ApprovalType.Yes">
+    <value>Ano</value>
+  </data>
+  <data name="ApprovalType.Visual">
+    <value>vizuální</value>
+  </data>
+  <data name="ApprovalType.Unit">
+    <value>jednotky</value>
+  </data>
+  <data name="ApprovalType.UnitVisual">
+    <value>Units Visual</value>
+  </data>
+  <data name="BatchUnitStatus.OK">
+    <value>OK</value>
+  </data>
+  <data name="BatchUnitStatus.BatchFailed">
+    <value>vsázka selhala</value>
+  </data>
+  <data name="BatchUnitStatus.UnitFailed">
+    <value>jednotka selhala</value>
+  </data>
+  <data name="CountDatStatus.Open">
+    <value>Otevřít</value>
+  </data>
+  <data name="CountDatStatus.Completed">
+    <value>dokončeno</value>
+  </data>
+  <data name="CountDatStatus.Suspended">
+    <value>Suspended</value>
+  </data>
+  <data name="CountDatUsersUserRole.EnteringData">
+    <value>Entering data</value>
+  </data>
+  <data name="CountDatUsersUserRole.Responsible">
+    <value>Responsible</value>
+  </data>
+  <data name="CustNameDisplay.Name">
+    <value>Název</value>
+  </data>
+  <data name="CustNameDisplay.ShortName">
+    <value>zkratka</value>
+  </data>
+  <data name="CustNameDisplay.Number">
+    <value>číslo</value>
+  </data>
+  <data name="CustOrderBookingMode.Default">
+    <value>výchozí</value>
+  </data>
+  <data name="CustOrderBookingMode.Disabled">
+    <value>zakázaný</value>
+  </data>
+  <data name="CustOrderBookingMode.Manual">
+    <value>manuální</value>
+  </data>
+  <data name="CustOrderBookingMode.Automation">
+    <value>automatický</value>
+  </data>
+  <data name="CustPreDispatchMode.UseFacSetting">
+    <value>použít nastavení podniku</value>
+  </data>
+  <data name="CustPreDispatchMode.Always">
+    <value>vždy</value>
+  </data>
+  <data name="CustPreDispatchMode.Never">
+    <value>nikdy</value>
+  </data>
+  <data name="DecNonDispItemStockOnPack.Off">
+    <value>vypnout</value>
+  </data>
+  <data name="DecNonDispItemStockOnPack.Prompt">
+    <value>příznak</value>
+  </data>
+  <data name="DecNonDispItemStockOnPack.On">
+    <value>zapnout</value>
+  </data>
+  <data name="DeltaScanMode.Delta">
+    <value>Delta</value>
+  </data>
+  <data name="DeltaScanMode.Total">
+    <value>celkem</value>
+  </data>
+  <data name="DoctorUsage.NotSet">
+    <value>není vyžadováno</value>
+  </data>
+  <data name="DoctorUsage.Needed">
+    <value>použít výchozí, když není specifikováno</value>
+  </data>
+  <data name="DoctorUsage.Required">
+    <value>musí být specifikováno</value>
+  </data>
+  <data name="DryerProcessStatus.Normal">
+    <value>normální</value>
+  </data>
+  <data name="DryerProcessStatus.OK">
+    <value>OK</value>
+  </data>
+  <data name="DryerProcessStatus.Error">
+    <value>chyba</value>
+  </data>
+  <data name="FacOrderBookingMode.Disabled">
+    <value>zakázaný</value>
+  </data>
+  <data name="FacOrderBookingMode.Manual">
+    <value>manuální</value>
+  </data>
+  <data name="FacOrderBookingMode.Automation">
+    <value>automatický</value>
+  </data>
+  <data name="FactoryDefProdTraceType.ProductSerial">
+    <value>sériové číslo</value>
+  </data>
+  <data name="FactoryDefProdTraceType.Product">
+    <value>Číslo produktu</value>
+  </data>
+  <data name="FactoryRestrictionMode.Default">
+    <value>výchozí</value>
+  </data>
+  <data name="FactoryRestrictionMode.On">
+    <value>zapnout</value>
+  </data>
+  <data name="FactoryRestrictionMode.Warning">
+    <value>Upozornění</value>
+  </data>
+  <data name="FactoryRestrictionMode.Off">
+    <value>vypnout</value>
+  </data>
+  <data name="FastTrackCodeType.General">
+    <value>všeobecný</value>
+  </data>
+  <data name="FastTrackCodeType.AdHoc">
+    <value>ad-hoc</value>
+  </data>
+  <data name="FastTrackCodeType.TemplateOnly">
+    <value>jen skupina</value>
+  </data>
+  <data name="FastTrackCreatorType.System">
+    <value>systém</value>
+  </data>
+  <data name="FastTrackCreatorType.JobServer">
+    <value>Job server</value>
+  </data>
+  <data name="FastTrackCreatorType.FacUser">
+    <value>podnikový uživatel</value>
+  </data>
+  <data name="FastTrackCreatorType.CustUser">
+    <value>zákazník uživatel</value>
+  </data>
+  <data name="FastTrackDisplayMode.UserSetting">
+    <value>uživatelské nastavení</value>
+  </data>
+  <data name="FastTrackDisplayMode.ForcePrompt">
+    <value>Force prompt</value>
+  </data>
+  <data name="FastTrackDisplayMode.ForceNoPrompt">
+    <value>Force no prompt</value>
+  </data>
+  <data name="FastTrackDisplayMode.ForceNoPromptOrInfo">
+    <value>Force no prompt or info</value>
+  </data>
+  <data name="FastTrackEndType.Normal">
+    <value>normální</value>
+  </data>
+  <data name="FastTrackEndType.NormalNewUnitHas">
+    <value>normální (nová jednotka stejná)</value>
+  </data>
+  <data name="FastTrackEndType.ToRepair">
+    <value>odesláno k opravě</value>
+  </data>
+  <data name="FastTrackEndType.Expired">
+    <value>Prošlý</value>
+  </data>
+  <data name="FastTrackEndType.Cancelled">
+    <value>zrušeno</value>
+  </data>
+  <data name="FastTrackInvoiceType.None">
+    <value>žádný</value>
+  </data>
+  <data name="FastTrackInvoiceType.Factory">
+    <value>Podnik</value>
+  </data>
+  <data name="FastTrackInvoiceType.Customer">
+    <value>zákazník</value>
+  </data>
+  <data name="FastTrackStatus.Assigned">
+    <value>přiřazeno</value>
+  </data>
+  <data name="FastTrackStatus.Started">
+    <value>spuštěno</value>
+  </data>
+  <data name="FastTrackStatus.Ended">
+    <value>ukončeno</value>
+  </data>
+  <data name="HandlingStepResult.OK">
+    <value>prošlo</value>
+  </data>
+  <data name="HandlingStepResult.FailedStop">
+    <value>selhalo</value>
+  </data>
+  <data name="HandlingStepResult.OKCleared">
+    <value>prošlo (čištění)</value>
+  </data>
+  <data name="HandlingStepResult.FailedStartOver">
+    <value>Selhalo (začít znovu)</value>
+  </data>
+  <data name="IdentArticleLineUsage.Enabled">
+    <value>Use system default</value>
+  </data>
+  <data name="IdentArticleLineUsage.Disabled">
+    <value>Ano</value>
+  </data>
+  <data name="InActAction.Created">
+    <value>vytvořeno</value>
+  </data>
+  <data name="InActAction.InBatch">
+    <value>ve vsázce</value>
+  </data>
+  <data name="InActAction.Pending">
+    <value>nevyřízené</value>
+  </data>
+  <data name="InActAction.InIncubator">
+    <value>v inkubátoru</value>
+  </data>
+  <data name="InActAction.StepResult">
+    <value>výsledek kroku</value>
+  </data>
+  <data name="InActAction.BatchUnblocked">
+    <value>vsázka odblokována</value>
+  </data>
+  <data name="InActAction.DispatchUnblocked">
+    <value>expedovat neblokované</value>
+  </data>
+  <data name="InActAction.Approved">
+    <value>schváleno</value>
+  </data>
+  <data name="InActAction.Disapproved">
+    <value>zamítnuto</value>
+  </data>
+  <data name="InActAction.Cancelled">
+    <value>zrušeno</value>
+  </data>
+  <data name="InActAction.InWell">
+    <value>In well</value>
+  </data>
+  <data name="InActAction.OutWell">
+    <value>Out well</value>
+  </data>
+  <data name="InActAction.BatchRemoved">
+    <value>Removed from batch</value>
+  </data>
+  <data name="InActAction.BatchAssigned">
+    <value>Batch assigned</value>
+  </data>
+  <data name="InActResult.Unknown">
+    <value>neznámý</value>
+  </data>
+  <data name="InActResult.Approved">
+    <value>schváleno</value>
+  </data>
+  <data name="InActResult.Disapproved">
+    <value>zamítnuto</value>
+  </data>
+  <data name="IncNonDispItemStockOnPack.Off">
+    <value>vypnout</value>
+  </data>
+  <data name="IncNonDispItemStockOnPack.Prompt">
+    <value>příznak</value>
+  </data>
+  <data name="IncNonDispItemStockOnPack.On">
+    <value>zapnout</value>
+  </data>
+  <data name="IncuBatchLogResult.Pending">
+    <value>nevyřízené</value>
+  </data>
+  <data name="IncuBatchLogResult.Passed">
+    <value>prošlo</value>
+  </data>
+  <data name="IncuBatchLogResult.Failed">
+    <value>selhalo</value>
+  </data>
+  <data name="IncuBatchLogResult.Warning">
+    <value>Upozornění</value>
+  </data>
+  <data name="IncuBatchLogResult.Discontinued">
+    <value>Discontinued</value>
+  </data>
+  <data name="IncuBatchLogResult.Error">
+    <value>chyba</value>
+  </data>
+  <data name="IncuBatchLogResult.DataError">
+    <value>Data error</value>
+  </data>
+  <data name="IncuBatchLogStatus.Unknown">
+    <value>Not yet available</value>
+  </data>
+  <data name="IncuBatchLogStatus.Manual">
+    <value>No data logging</value>
+  </data>
+  <data name="IncuBatchLogStatus.Processing">
+    <value>zpracování</value>
+  </data>
+  <data name="IncuBatchLogStatus.Done">
+    <value>hotovo</value>
+  </data>
+  <data name="IndicStatus.Created">
+    <value>vytvořeno</value>
+  </data>
+  <data name="IndicStatus.InBatch">
+    <value>ve vsázce</value>
+  </data>
+  <data name="IndicStatus.Pending">
+    <value>nevyřízené</value>
+  </data>
+  <data name="IndicStatus.Approved">
+    <value>schváleno</value>
+  </data>
+  <data name="IndicStatus.Disapproved">
+    <value>zamítnuto</value>
+  </data>
+  <data name="IndicStatus.Cancelled">
+    <value>zrušeno</value>
+  </data>
+  <data name="InTypResultType.Immediate">
+    <value>okamžite</value>
+  </data>
+  <data name="InTypResultType.Delayed">
+    <value>zpožděno</value>
+  </data>
+  <data name="InTypResultType.Combined">
+    <value>Combined</value>
+  </data>
+  <data name="ItemAltPricingMode.None">
+    <value>žádný</value>
+  </data>
+  <data name="ItemAltPricingMode.SalesPrice">
+    <value>prodejní cena</value>
+  </data>
+  <data name="ItemAltPricingMode.UsagePrice">
+    <value>cena použití</value>
+  </data>
+  <data name="ItemAltPricingMode.CostPrice">
+    <value>nákladová cena</value>
+  </data>
+  <data name="ItemDifficultyMode.Default">
+    <value>výchozí</value>
+  </data>
+  <data name="ItemDifficultyMode.Fixed">
+    <value>opraveno</value>
+  </data>
+  <data name="ItemDifficultyMode.Sum">
+    <value>součet</value>
+  </data>
+  <data name="ItemDifficultyMode.Max">
+    <value>max.</value>
+  </data>
+  <data name="ItemDifficultyMode.Count">
+    <value>počet</value>
+  </data>
+  <data name="ItemInstrumentType.Instrument">
+    <value>položka</value>
+  </data>
+  <data name="ItemInstrumentType.Endoscope">
+    <value>Endoscope</value>
+  </data>
+  <data name="ItemInstrumentType.ButtonValve">
+    <value>Button valve</value>
+  </data>
+  <data name="ItemPricingMode.SalesPrice">
+    <value>prodejní cena</value>
+  </data>
+  <data name="ItemPricingMode.UsagePrice">
+    <value>cena použití</value>
+  </data>
+  <data name="ItemPricingMode.CostPrice">
+    <value>nákladová cena</value>
+  </data>
+  <data name="ItemPricingType.Normal">
+    <value></value>
+  </data>
+  <data name="ItemPricingType.TimeBased">
+    <value></value>
+  </data>
+  <data name="ItemReservationMode.NotRequired">
+    <value>není vyžadováno</value>
+  </data>
+  <data name="ItemReservationMode.Enabled">
+    <value>povoleno</value>
+  </data>
+  <data name="ItemTraceType.Item">
+    <value>položka</value>
+  </data>
+  <data name="ItemTraceType.SerialItem">
+    <value>sériová čísla</value>
+  </data>
+  <data name="ItemTraceType.LOT">
+    <value>LOT čísla</value>
+  </data>
+  <data name="LogEntryType.System">
+    <value>systém</value>
+  </data>
+  <data name="LogEntryType.Information">
+    <value>informace</value>
+  </data>
+  <data name="LogEntryType.Message">
+    <value>Zpráva</value>
+  </data>
+  <data name="LogEntryType.Warning">
+    <value>Upozornění</value>
+  </data>
+  <data name="LogEntryType.Error">
+    <value>chyba</value>
+  </data>
+  <data name="LogEntryType.Debug">
+    <value>debug</value>
+  </data>
+  <data name="LogBatchContent.Disabled">
+    <value>zakázaný</value>
+  </data>
+  <data name="LogBatchContent.Enabled">
+    <value>povoleno</value>
+  </data>
+  <data name="LogBatchRegMode.Off">
+    <value>vypnout</value>
+  </data>
+  <data name="LogBatchRegMode.On">
+    <value>zapnout</value>
+  </data>
+  <data name="MachConsStatus.OnStock">
+    <value>na skladě</value>
+  </data>
+  <data name="MachConsStatus.InUse">
+    <value>v provozu</value>
+  </data>
+  <data name="MachConsStatus.Used">
+    <value>použito</value>
+  </data>
+  <data name="MachConsStatus.Missing">
+    <value>chybějící</value>
+  </data>
+  <data name="MachLogTypes.TDOC">
+    <value>TDOC chyba</value>
+  </data>
+  <data name="MachLogTypes.MachineError">
+    <value>chyba přístroje</value>
+  </data>
+  <data name="MachLogTypes.MachineWarning">
+    <value>varování přístroje</value>
+  </data>
+  <data name="MachTypeRuleIntervalType.Day">
+    <value>každý x den</value>
+  </data>
+  <data name="MachTypeRuleIntervalType.Batch">
+    <value>každá x vsázka</value>
+  </data>
+  <data name="MachTypeRuleIntervalType.FirstDailyRunAfter">
+    <value>nejprve nech denně proběhnout potom</value>
+  </data>
+  <data name="MachTypeRuleIntervalType.FirstWeeklyRunAfter">
+    <value>nejprve nech proběhnout týdenně potom</value>
+  </data>
+  <data name="MachTypeRuleIntervalType.FirstMonthlyRunAfter">
+    <value>nejprve nech proběhnout měsíčně potom</value>
+  </data>
+  <data name="ManualEndoDryingMode.NotAllowed">
+    <value>není povoleno</value>
+  </data>
+  <data name="ManualEndoDryingMode.Allowed">
+    <value>Povoleno</value>
+  </data>
+  <data name="ManualEndoDryingMode.Assumed">
+    <value>Assumed</value>
+  </data>
+  <data name="McRuleResult.OK">
+    <value>OK</value>
+  </data>
+  <data name="McRuleResult.Prevented">
+    <value>Prevented</value>
+  </data>
+  <data name="McRuleResult.Forced">
+    <value>Vynucený</value>
+  </data>
+  <data name="McRuleResult.Error">
+    <value>chyba</value>
+  </data>
+  <data name="OperationDataActionType.Created">
+    <value>vytvořeno</value>
+  </data>
+  <data name="OperationDataActionType.Cancelled">
+    <value>zrušeno</value>
+  </data>
+  <data name="OperationDataActionType.Planned">
+    <value>plánovaný</value>
+  </data>
+  <data name="OperationDataActionType.Accepted">
+    <value>Potvrzeno</value>
+  </data>
+  <data name="OperationDataActionType.Started">
+    <value>spuštěno</value>
+  </data>
+  <data name="OperationDataActionType.Done">
+    <value>hotovo</value>
+  </data>
+  <data name="OperationDataActionType.PrefListToOrderAuto">
+    <value>Pref. list order created (auto)</value>
+  </data>
+  <data name="OperationDataActionType.PrefListToOrderManual">
+    <value>Pref. list order created (manual)</value>
+  </data>
+  <data name="OperationDataActionType.PrefListOrderUpdated">
+    <value>Pref. list order updated</value>
+  </data>
+  <data name="OperationDataActionType.OrderCancelled">
+    <value>Objednávka zrušena</value>
+  </data>
+  <data name="OperationDataActionType.Exported">
+    <value>Exportováno</value>
+  </data>
+  <data name="OperationDataActionType.Imported">
+    <value>Importováno</value>
+  </data>
+  <data name="OperationDataActionType.PickInfoImport">
+    <value>vybrané informace importovány</value>
+  </data>
+  <data name="OperationDataActionType.BookingForced">
+    <value>Booking forced</value>
+  </data>
+  <data name="OperationDataActionType.BookingUnForced">
+    <value>Booking unforced</value>
+  </data>
+  <data name="OperationDataActionType.ReservChangedDueToForce">
+    <value>Reserv. changed due to force</value>
+  </data>
+  <data name="OperationDataActionType.PreCount">
+    <value>Operation count (pre)</value>
+  </data>
+  <data name="OperationDataActionType.PerCount">
+    <value>Operation count (per)</value>
+  </data>
+  <data name="OperationDataActionType.PostCount">
+    <value>Operation count (post)</value>
+  </data>
+  <data name="OperationDataActionType.MergeRemove">
+    <value>Data moved to operation</value>
+  </data>
+  <data name="OperationDataActionType.MergeReceive">
+    <value>Data received from operation</value>
+  </data>
+  <data name="OperationDataActionType.EmergencyCaseCartAdded">
+    <value>Emergency case cart bound</value>
+  </data>
+  <data name="OperationDataActionType.PatVeriOK">
+    <value>Patient verified</value>
+  </data>
+  <data name="OperationDataActionType.PatVeriFailed">
+    <value>Patient verification failed</value>
+  </data>
+  <data name="OperationDataActionType.PatVeriSkip">
+    <value>Patient verification skipped</value>
+  </data>
+  <data name="OperationDataActionType.PatVeriPostpone">
+    <value>Patient verification postponed</value>
+  </data>
+  <data name="OperationDataActionType.OrderReturnRequested">
+    <value>Order return requested</value>
+  </data>
+  <data name="OperationDataActionType.OrderReordered">
+    <value>Order reordered</value>
+  </data>
+  <data name="OperationDataActionType.OrderCopyCreatedAuto">
+    <value>Order copy created (auto)</value>
+  </data>
+  <data name="OperationDataActionType.OrderCopyCreatedManual">
+    <value>Order copy created (manual)</value>
+  </data>
+  <data name="OperationTypeType.Elective">
+    <value>vytvořeno</value>
+  </data>
+  <data name="OperationTypeType.Emergency">
+    <value>zrušeno</value>
+  </data>
+  <data name="OPProcedureTypeMode.Fixed">
+    <value>opraveno</value>
+  </data>
+  <data name="OPProcedureTypeMode.AutoOPType">
+    <value>Auto from Operation type</value>
+  </data>
+  <data name="OPProcedureTypeMode.AutoDisabled">
+    <value></value>
+  </data>
+  <data name="OPStaffMode.Fixed">
+    <value>opraveno</value>
+  </data>
+  <data name="OPStaffMode.AutoProcType">
+    <value>Auto from Procedure type</value>
+  </data>
+  <data name="OrderActionType.Created">
+    <value>vytvořeno</value>
+  </data>
+  <data name="OrderActionType.Cancelled">
+    <value>zrušeno</value>
+  </data>
+  <data name="OrderActionType.Sent">
+    <value>odesláno</value>
+  </data>
+  <data name="OrderActionType.Accepted">
+    <value>Potvrzeno</value>
+  </data>
+  <data name="OrderActionType.PickStart">
+    <value>výběr byl spuštěn</value>
+  </data>
+  <data name="OrderActionType.Delivered">
+    <value>dodáno</value>
+  </data>
+  <data name="OrderActionType.Received">
+    <value>přijato</value>
+  </data>
+  <data name="OrderActionType.Done">
+    <value>hotovo</value>
+  </data>
+  <data name="OrderActionType.PrintPicklist">
+    <value>Pick list printed or viewed</value>
+  </data>
+  <data name="OrderActionType.PrintDevNote">
+    <value>Delivery note printed or viewed</value>
+  </data>
+  <data name="OrderActionType.PrintRetNote">
+    <value>Return note printed or viewed</value>
+  </data>
+  <data name="OrderActionType.PrintPurchaseOrder">
+    <value>Purchase order printed or viewed</value>
+  </data>
+  <data name="OrderActionType.Exported">
+    <value>Exportováno</value>
+  </data>
+  <data name="OrderActionType.Imported">
+    <value>Importováno</value>
+  </data>
+  <data name="OrderActionType.ReqDevTimeChange">
+    <value>Req. delivery time changed</value>
+  </data>
+  <data name="OrderActionType.PickInfoImport">
+    <value></value>
+  </data>
+  <data name="OrderActionType.BookingModeActive">
+    <value>Booking mode active</value>
+  </data>
+  <data name="OrderActionType.BookingModeInActive">
+    <value>Booking mode inactive</value>
+  </data>
+  <data name="OrderActionType.BookingForced">
+    <value>Booking forced</value>
+  </data>
+  <data name="OrderActionType.BookingUnForced">
+    <value>Booking unforced</value>
+  </data>
+  <data name="OrderActionType.ReservChangedDueToForce">
+    <value>Reserv. changed due to force</value>
+  </data>
+  <data name="OrderActionType.AttachToOperation">
+    <value>Attached to operation</value>
+  </data>
+  <data name="OrderActionType.DetachFromOperation">
+    <value>Detached from operation</value>
+  </data>
+  <data name="OrderActionType.BindItemsToOperation">
+    <value>Items bound to operation</value>
+  </data>
+  <data name="OrderActionType.BindUnitsToOperation">
+    <value>Units bound to operation</value>
+  </data>
+  <data name="OrderActionType.UnbindItemsFromOperation">
+    <value>Items unbound from operation</value>
+  </data>
+  <data name="OrderActionType.UnbindUnitsFromOperation">
+    <value>Units unbound from operation</value>
+  </data>
+  <data name="OrderActionType.ReturnRequested">
+    <value>Return requested</value>
+  </data>
+  <data name="OrderActionType.Reordered">
+    <value>Reordered</value>
+  </data>
+  <data name="OrderBookingMode.Undetermined">
+    <value>Undetermined</value>
+  </data>
+  <data name="OrderBookingMode.Disabled">
+    <value>zakázaný</value>
+  </data>
+  <data name="OrderBookingMode.Inactive">
+    <value>neaktivní</value>
+  </data>
+  <data name="OrderBookingMode.Active">
+    <value>aktivní</value>
+  </data>
+  <data name="OrderBookingStatus.Undetermined">
+    <value>Undetermined</value>
+  </data>
+  <data name="OrderBookingStatus.Ok">
+    <value>OK</value>
+  </data>
+  <data name="OrderBookingStatus.Warning">
+    <value>Upozornění</value>
+  </data>
+  <data name="OrderBookingStatus.Error">
+    <value>chyba</value>
+  </data>
+  <data name="OrderOrgStatus.None">
+    <value>žádný</value>
+  </data>
+  <data name="OrderOrgStatus.Template">
+    <value>šablona</value>
+  </data>
+  <data name="OrderOrgStatus.Open">
+    <value>Otevřít</value>
+  </data>
+  <data name="OrderOrgStatus.Sent">
+    <value>odesláno</value>
+  </data>
+  <data name="OrderOrgStatus.Received">
+    <value>přijato</value>
+  </data>
+  <data name="OrderOrgStatus.Done">
+    <value>hotovo</value>
+  </data>
+  <data name="OrderOrgStatus.Cancelled">
+    <value>zrušeno</value>
+  </data>
+  <data name="OrderSuppPickPriority.Normal">
+    <value>normální</value>
+  </data>
+  <data name="OrderSuppPickPriority.PickNow">
+    <value>teď </value>
+  </data>
+  <data name="OrderSuppPickPriority.PickNowForced">
+    <value>Now (forced)</value>
+  </data>
+  <data name="OrderSuppPriority.Normal">
+    <value>normální</value>
+  </data>
+  <data name="OrderSuppPriority.FastTrack">
+    <value>Fast tracked</value>
+  </data>
+  <data name="OrderSuppPriority.Emergency">
+    <value>Acute</value>
+  </data>
+  <data name="OrderSuppStatus.None">
+    <value>žádný</value>
+  </data>
+  <data name="OrderSuppStatus.Template">
+    <value>šablona</value>
+  </data>
+  <data name="OrderSuppStatus.Order">
+    <value>nový</value>
+  </data>
+  <data name="OrderSuppStatus.Accepted">
+    <value>Potvrzeno</value>
+  </data>
+  <data name="OrderSuppStatus.Picked">
+    <value>výběr byl spuštěn</value>
+  </data>
+  <data name="OrderSuppStatus.Delivered">
+    <value>dodáno</value>
+  </data>
+  <data name="OrderSuppStatus.Cancelled">
+    <value>zrušeno</value>
+  </data>
+  <data name="OrderType.None">
+    <value>žádný</value>
+  </data>
+  <data name="OrderType.Order">
+    <value>objednávka</value>
+  </data>
+  <data name="OrderType.ReturnOrder">
+    <value>vrátit objednávku</value>
+  </data>
+  <data name="OrderType.OrderCorr">
+    <value>opravy zásob</value>
+  </data>
+  <data name="PackingUsedFor.All">
+    <value>všechny nástroje</value>
+  </data>
+  <data name="PackingUsedFor.Endoscopes">
+    <value>endoskopy</value>
+  </data>
+  <data name="PatientAgeUsage.NotSet">
+    <value>jak specifikováno</value>
+  </data>
+  <data name="PatientAgeUsage.Needed">
+    <value>použít výchozí, když není specifikováno</value>
+  </data>
+  <data name="PatientAgeUsage.Required">
+    <value>musí být specifikováno</value>
+  </data>
+  <data name="PatientGenderUsage.NotSet">
+    <value>jak specifikováno</value>
+  </data>
+  <data name="PatientGenderUsage.Needed">
+    <value>použít výchozí, když není specifikováno</value>
+  </data>
+  <data name="PatientGenderUsage.Required">
+    <value>musí být specifikováno</value>
+  </data>
+  <data name="PIPLogEntrySubType.None">
+    <value>žádný</value>
+  </data>
+  <data name="PIPLogEntrySubType.SystemData">
+    <value>systémová data</value>
+  </data>
+  <data name="PIPLogEntrySubType.User">
+    <value>uživatel</value>
+  </data>
+  <data name="PIPLogEntrySubType.UserProfile">
+    <value>profil uživatele</value>
+  </data>
+  <data name="PIPLogEntrySubType.PatientLookup">
+    <value>pacienti </value>
+  </data>
+  <data name="PIPLogEntrySubType.OperationLookup">
+    <value>Operation data</value>
+  </data>
+  <data name="PIPLogEntrySubType.Patients">
+    <value>pacienti </value>
+  </data>
+  <data name="PIPLogEntrySubType.Operations">
+    <value>Operations</value>
+  </data>
+  <data name="PIPLogEntrySubType.Units">
+    <value>jednotky</value>
+  </data>
+  <data name="PIPLogEntrySubType.Orders">
+    <value>objednávky</value>
+  </data>
+  <data name="PIPLogEntrySubType.LOTLookup">
+    <value>List of LOT information</value>
+  </data>
+  <data name="PIPLogEntryType.PIPSettings">
+    <value>Patient information privacy settings change</value>
+  </data>
+  <data name="PIPLogEntryType.DirectLookup">
+    <value>Direct lookup</value>
+  </data>
+  <data name="PIPLogEntryType.SuccSearch">
+    <value>Successful search</value>
+  </data>
+  <data name="PIPLogEntryType.UnSuccSearch">
+    <value>Unsuccessful search</value>
+  </data>
+  <data name="PIPLogEntryType.PIPLogOpened">
+    <value>Patient information access log opened</value>
+  </data>
+  <data name="PIPLogEntryType.PIPLogSearching">
+    <value>Search in Patient information access log</value>
+  </data>
+  <data name="PIPLogEntryType.SchedOperations">
+    <value>Scheduled operations</value>
+  </data>
+  <data name="PrDrv.None">
+    <value>žádný</value>
+  </data>
+  <data name="PrDrv.Windows">
+    <value>windows</value>
+  </data>
+  <data name="PrDrv.Epson_Obsolete">
+    <value></value>
+  </data>
+  <data name="PrDrv.Zebra">
+    <value>Zebra</value>
+  </data>
+  <data name="PrefListOrderCreateMode.Immediate">
+    <value>okamžite</value>
+  </data>
+  <data name="PrefListOrderCreateMode.TimeBased">
+    <value>Právě včas</value>
+  </data>
+  <data name="PrefListOrderCreateMode.Manual">
+    <value>manuální</value>
+  </data>
+  <data name="PrefLnModifier.None">
+    <value>žádný</value>
+  </data>
+  <data name="PrefLnModifier.Absolute">
+    <value>absolutní</value>
+  </data>
+  <data name="PrefLnModifier.Add">
+    <value>přidat</value>
+  </data>
+  <data name="PrefLnModifier.Subtract">
+    <value>Subtract</value>
+  </data>
+  <data name="PrefLnModifier.Highest">
+    <value>nejvyšší</value>
+  </data>
+  <data name="PrefLnModifier.Lowest">
+    <value>nejnižší</value>
+  </data>
+  <data name="ProcessStatus.Done">
+    <value>hotovo</value>
+  </data>
+  <data name="ProcessStatus.Running">
+    <value>běží</value>
+  </data>
+  <data name="ProcessStatus.Initiated">
+    <value>zahájený</value>
+  </data>
+  <data name="ProcessStatus.Ending">
+    <value>ukončování</value>
+  </data>
+  <data name="ProcessType.None">
+    <value>žádný</value>
+  </data>
+  <data name="ProcessType.Pack">
+    <value>balení</value>
+  </data>
+  <data name="ProcessType.SteriPostBatch">
+    <value>po vsázce (sterilizátor)</value>
+  </data>
+  <data name="ProcessType.Out">
+    <value>expedovat</value>
+  </data>
+  <data name="ProcessType.Return">
+    <value>příjem</value>
+  </data>
+  <data name="ProcessType.Prepare">
+    <value>připravit</value>
+  </data>
+  <data name="ProcessType.Wrap">
+    <value>Obal</value>
+  </data>
+  <data name="ProcessType.LitePro">
+    <value>lehký štítek</value>
+  </data>
+  <data name="ProcessType.SteriPreBatch">
+    <value>před vsázkou (sterilizátor)</value>
+  </data>
+  <data name="ProcessType.Flash">
+    <value>Flash vsázka</value>
+  </data>
+  <data name="ProcessType.Location">
+    <value>umístění</value>
+  </data>
+  <data name="ProcessType.WashPreBatch">
+    <value>před vsázkou (myčka)</value>
+  </data>
+  <data name="ProcessType.WashPostBatch">
+    <value>po vsázce (mytí)</value>
+  </data>
+  <data name="ProcessType.OpenUsed">
+    <value>otevři/ použito</value>
+  </data>
+  <data name="ProcessType.Operation">
+    <value>operace</value>
+  </data>
+  <data name="ProcessType.Order">
+    <value>objednávka</value>
+  </data>
+  <data name="ProcessType.Inventory">
+    <value>zásoba</value>
+  </data>
+  <data name="ProcessType.OrderPick">
+    <value>objednávka výběr</value>
+  </data>
+  <data name="ProcessType.Industry">
+    <value>Industry</value>
+  </data>
+  <data name="ProcessType.PreDisPreBatch">
+    <value>před vsázkou (predesinfekce)</value>
+  </data>
+  <data name="ProcessType.LoadQueue">
+    <value>Fronta</value>
+  </data>
+  <data name="ProcessType.PurchaseOrder">
+    <value>objednávka/nákupní příkaz</value>
+  </data>
+  <data name="ProcessType.EndoscopePreBatch">
+    <value>před vsázkou (myčka endoskopu)</value>
+  </data>
+  <data name="ProcessType.WashCheck">
+    <value>kontrola mytí</value>
+  </data>
+  <data name="ProcessType.ExtBatchInfo">
+    <value>Ext. Informace o vsázce</value>
+  </data>
+  <data name="ProcessType.EndoCleanAndTest">
+    <value>Endo vyčistit a otestovat</value>
+  </data>
+  <data name="ProcessType.Transport">
+    <value>transport</value>
+  </data>
+  <data name="ProcessType.Workflow">
+    <value>Workflow</value>
+  </data>
+  <data name="ProcessType.Incubator">
+    <value>Incubation</value>
+  </data>
+  <data name="ProcessType.ReturnWF">
+    <value>vrácené jednotky</value>
+  </data>
+  <data name="ProcessType.WashPreBatchWF">
+    <value>Create wash batch</value>
+  </data>
+  <data name="ProcessType.SteriPreBatchWF">
+    <value>Create sterilizer batch</value>
+  </data>
+  <data name="ProcessType.PackWF">
+    <value>Pack units</value>
+  </data>
+  <data name="ProcessType.OutWF">
+    <value>Dispatch to customer</value>
+  </data>
+  <data name="ProcessType.Last">
+    <value></value>
+  </data>
+  <data name="ProdDispatchRestriction.Default">
+    <value>výchozí</value>
+  </data>
+  <data name="ProdDispatchRestriction.None">
+    <value>žádný</value>
+  </data>
+  <data name="ProdDispatchRestriction.CustomerOrSite">
+    <value>Customer or Site</value>
+  </data>
+  <data name="ProdDispatchRestriction.CustomerElseSite">
+    <value>Customer else Site</value>
+  </data>
+  <data name="ProdDispatchRestriction.CustomerOnly">
+    <value>Customer only</value>
+  </data>
+  <data name="ProdReservationMode.NotRequired">
+    <value>není vyžadováno</value>
+  </data>
+  <data name="ProdReservationMode.Enabled">
+    <value>povoleno</value>
+  </data>
+  <data name="ProductDifficultyMode.UseItemValue">
+    <value>Use item value</value>
+  </data>
+  <data name="ProductDifficultyMode.Fixed">
+    <value>opraveno</value>
+  </data>
+  <data name="ProductReturnState.Normal">
+    <value>normální</value>
+  </data>
+  <data name="ProductReturnState.PreProcessed">
+    <value>předběžně zpracováno</value>
+  </data>
+  <data name="ProductReturnState.PrePacked">
+    <value>předbalený</value>
+  </data>
+  <data name="ProductStockControlMode.Simple">
+    <value>normální</value>
+  </data>
+  <data name="ProductStockControlMode.Basic">
+    <value>pokročilý (plně)</value>
+  </data>
+  <data name="ProductStockControlMode.Advanced">
+    <value></value>
+  </data>
+  <data name="ProductStorageType.Factory">
+    <value>Podnik</value>
+  </data>
+  <data name="ProductStorageType.Transit">
+    <value>Transit</value>
+  </data>
+  <data name="ProductTraceType.Product">
+    <value>Číslo produktu</value>
+  </data>
+  <data name="ProductTraceType.ProductSerial">
+    <value>sériové číslo</value>
+  </data>
+  <data name="ProductTraceType.Both">
+    <value>Obě sériové číslo i číslo produktu</value>
+  </data>
+  <data name="ProductType.Trays">
+    <value>síto</value>
+  </data>
+  <data name="ProductType.SinglePacks">
+    <value>samostatné balení</value>
+  </data>
+  <data name="ProductType.Endoscopes">
+    <value>Endoscope</value>
+  </data>
+  <data name="ProgramCheckInitiated.Allowed">
+    <value>Povoleno</value>
+  </data>
+  <data name="ProgramCheckInitiated.Required">
+    <value>požadováno</value>
+  </data>
+  <data name="QuestionInputType.Boolean">
+    <value>Ano/Ne</value>
+  </data>
+  <data name="QuestionInputType.Integer">
+    <value>číslo</value>
+  </data>
+  <data name="QuestionInputType.Text">
+    <value>text</value>
+  </data>
+  <data name="QuestionInputType.List">
+    <value>seznam</value>
+  </data>
+  <data name="RepairInvState.None">
+    <value>žádný</value>
+  </data>
+  <data name="RepairInvState.Block">
+    <value>blokováno</value>
+  </data>
+  <data name="RepairInvState.Done">
+    <value>hotovo</value>
+  </data>
+  <data name="RepairMode.AskUser">
+    <value>zeptej se uživatele</value>
+  </data>
+  <data name="RepairMode.UsingCust">
+    <value>používání zákazníka</value>
+  </data>
+  <data name="RepairMode.Owner">
+    <value>vlastník</value>
+  </data>
+  <data name="RepairMode.Factory">
+    <value>Podnik</value>
+  </data>
+  <data name="RepairOrigin.Item">
+    <value>položka</value>
+  </data>
+  <data name="RepairOrigin.Product">
+    <value>produkt</value>
+  </data>
+  <data name="RepairOrigin.Serial">
+    <value>série</value>
+  </data>
+  <data name="RepairOrigin.Unit">
+    <value>jednotka</value>
+  </data>
+  <data name="RepairOrigin.Tag">
+    <value>štítek</value>
+  </data>
+  <data name="RepairStatus.Sent">
+    <value>odesláno</value>
+  </data>
+  <data name="RepairStatus.Received">
+    <value>přijato</value>
+  </data>
+  <data name="RepairStatus.Done">
+    <value>hotovo</value>
+  </data>
+  <data name="RepairStatus.Cancelled">
+    <value>zrušeno</value>
+  </data>
+  <data name="RepairStatus.Requested">
+    <value>Requested</value>
+  </data>
+  <data name="RpTypCommentOption.NotAllowed">
+    <value>není povoleno</value>
+  </data>
+  <data name="RpTypCommentOption.Allowed">
+    <value>Povoleno</value>
+  </data>
+  <data name="RpTypCommentOption.Required">
+    <value>požadováno</value>
+  </data>
+  <data name="RpTypCustInvMode.NoInvoice">
+    <value>žádná faktura</value>
+  </data>
+  <data name="RpTypCustInvMode.Invoice">
+    <value>fatkura</value>
+  </data>
+  <data name="RpTypCustInvMode.NoEdit">
+    <value>faktura, neupravovat</value>
+  </data>
+  <data name="RpTypCustInvMode.Hidden">
+    <value>faktura, nezobrazovat</value>
+  </data>
+  <data name="RpTypFacInvMode.NoInvoice">
+    <value>žádná faktura</value>
+  </data>
+  <data name="RpTypFacInvMode.Invoice">
+    <value>fatkura</value>
+  </data>
+  <data name="RpTypFacInvMode.NoEdit">
+    <value>faktura, neupravovat</value>
+  </data>
+  <data name="RpTypFacInvMode.Hidden">
+    <value>faktura, nezobrazovat</value>
+  </data>
+  <data name="RpTypSuppMode.AllowChange">
+    <value>Povolit změnu</value>
+  </data>
+  <data name="RpTypSuppMode.Fixed">
+    <value>opraveno</value>
+  </data>
+  <data name="RpTypType.Standard">
+    <value>Standard</value>
+  </data>
+  <data name="RpTypType.Quick">
+    <value>rychlá oprava</value>
+  </data>
+  <data name="RpTypType.Discard">
+    <value>Discard</value>
+  </data>
+  <data name="ScanUIStartMode.Default">
+    <value>výchozí</value>
+  </data>
+  <data name="ScanUIStartMode.Layers">
+    <value>Layer mode</value>
+  </data>
+  <data name="ScanUIStartMode.Grid">
+    <value>tabulka/mřížka režim</value>
+  </data>
+  <data name="SexType.None">
+    <value>neznámý</value>
+  </data>
+  <data name="SexType.Male">
+    <value>muž</value>
+  </data>
+  <data name="SexType.Female">
+    <value>žena</value>
+  </data>
+  <data name="SexType.Other">
+    <value>jiný</value>
+  </data>
+  <data name="StdCommentFreeTextOption.NotAllowed">
+    <value>není povoleno</value>
+  </data>
+  <data name="StdCommentFreeTextOption.Allowed">
+    <value>Povoleno</value>
+  </data>
+  <data name="StdCommentFreeTextOption.Required">
+    <value>požadováno</value>
+  </data>
+  <data name="StockBackOrderMode.Never">
+    <value>nikdy</value>
+  </data>
+  <data name="StockBackOrderMode.Always">
+    <value>vždy</value>
+  </data>
+  <data name="StockBackOrderMode.Ask">
+    <value>zeptej se</value>
+  </data>
+  <data name="StockBackOrderMode.WhenSet">
+    <value>Když je přesně (vše)</value>
+  </data>
+  <data name="StockBackOrderMode.WhenSetAuto">
+    <value>Když je označeno (vše)</value>
+  </data>
+  <data name="StockOrderInMode.Auto">
+    <value>automatické kompletování</value>
+  </data>
+  <data name="StockOrderInMode.Receive">
+    <value>automatický příjem</value>
+  </data>
+  <data name="StockOrderInMode.Manual">
+    <value>manuální příjem</value>
+  </data>
+  <data name="StockPrnMode.Never">
+    <value>nikdy</value>
+  </data>
+  <data name="StockPrnMode.Always">
+    <value>vždy</value>
+  </data>
+  <data name="StockPrnMode.Ask">
+    <value>zeptej se</value>
+  </data>
+  <data name="TagType.Basket">
+    <value>koš</value>
+  </data>
+  <data name="TagType.SteriLoad">
+    <value>materiál ke zpracování</value>
+  </data>
+  <data name="TagType.PrepTag">
+    <value>připravit</value>
+  </data>
+  <data name="TagType.Bundle">
+    <value>balík</value>
+  </data>
+  <data name="TagType.Wash">
+    <value>mytí</value>
+  </data>
+  <data name="TagType.WashLoad">
+    <value>materiál k mytí</value>
+  </data>
+  <data name="TagType.Transport">
+    <value>transport</value>
+  </data>
+  <data name="TagType.Split">
+    <value>rozdělit</value>
+  </data>
+  <data name="TagType.CaseCart">
+    <value>Case cart</value>
+  </data>
+  <data name="TagType.TransportBox">
+    <value>Transport box</value>
+  </data>
+  <data name="TagType.InstrumentContainer">
+    <value>Instrument container</value>
+  </data>
+  <data name="TransmitKind.SMS">
+    <value>Short Template</value>
+  </data>
+  <data name="TransmitKind.Internal">
+    <value>Long Template</value>
+  </data>
+  <data name="TrigBehaviour.RoundBased">
+    <value>Rounds</value>
+  </data>
+  <data name="TrigBehaviour.Time">
+    <value>Intervals</value>
+  </data>
+  <data name="TrigBehaviour.InitialDaysThenRounds">
+    <value>Interval then rounds</value>
+  </data>
+  <data name="TrigBehaviour.RoundMaxTime">
+    <value>Rounds or intervals</value>
+  </data>
+  <data name="TrigBehaviour.Everytime">
+    <value>Everytime</value>
+  </data>
+  <data name="TrigExecutionPhase.Before">
+    <value>Before</value>
+  </data>
+  <data name="TrigExecutionPhase.During">
+    <value>During</value>
+  </data>
+  <data name="TrigExecutionPhase.After">
+    <value>After</value>
+  </data>
+  <data name="TrigPostponeAbility.No">
+    <value>Ne</value>
+  </data>
+  <data name="TrigPostponeAbility.YesAllUsers">
+    <value>Ano</value>
+  </data>
+  <data name="TrigPostponeAbility.UserDefined">
+    <value>User-defined</value>
+  </data>
+  <data name="UILocaAvailability.Default">
+    <value>výchozí</value>
+  </data>
+  <data name="UILocaAvailability.Visible">
+    <value>viditelný</value>
+  </data>
+  <data name="UILocaAvailability.Advanced">
+    <value>viditelný (pokročilý)</value>
+  </data>
+  <data name="UILocaAvailability.Hidden">
+    <value>skryté</value>
+  </data>
+  <data name="WellStatus.Unknown">
+    <value>neznámý</value>
+  </data>
+  <data name="WellStatus.Empty">
+    <value>prázdný</value>
+  </data>
+  <data name="WellStatus.Init">
+    <value>spouštění</value>
+  </data>
+  <data name="WellStatus.Processing">
+    <value>zpracování</value>
+  </data>
+  <data name="WellStatus.Negative">
+    <value>Negative</value>
+  </data>
+  <data name="WellStatus.Positive">
+    <value>Positive</value>
+  </data>
+  <data name="WellStatus.Result">
+    <value>chyba</value>
+  </data>
+  <data name="WellStatus.Error">
+    <value>Upozornění</value>
+  </data>
+  <data name="WellStatus.Warning">
+    <value></value>
+  </data>
+  <data name="ReservationState.Undetermined">
+    <value>Undetermined</value>
+  </data>
+  <data name="ReservationState.OKOriginal">
+    <value>OK</value>
+  </data>
+  <data name="ReservationState.OKIdentical">
+    <value>OK</value>
+  </data>
+  <data name="ReservationState.OKAlternative">
+    <value>OK</value>
+  </data>
+  <data name="ReservationState.OKIdenticalForAlternative">
+    <value>OK</value>
+  </data>
+  <data name="ReservationState.WarningOriginal">
+    <value>Upozornění</value>
+  </data>
+  <data name="ReservationState.WarningIdentical">
+    <value>Upozornění</value>
+  </data>
+  <data name="ReservationState.WarningAlternative">
+    <value>Upozornění</value>
+  </data>
+  <data name="ReservationState.WarningIdenticalForAlternative">
+    <value>Upozornění</value>
+  </data>
+  <data name="ReservationState.Error">
+    <value>chyba</value>
+  </data>
+  <data name="TriggerResult.RAccept">
+    <value>Potvrdit</value>
+  </data>
+  <data name="TriggerResult.RReject">
+    <value>Reject</value>
+  </data>
+  <data name="TriggerResult.ROverride">
+    <value>Override</value>
+  </data>
+  <data name="TriggerResult.RPostpone">
+    <value>Postpone</value>
+  </data>
+  <data name="TriggerResult.RSilent">
+    <value>Silent</value>
+  </data>
+  <data name="FacDeductItemsFromStockInOpType.On">
+    <value>zapnout</value>
+  </data>
+  <data name="FacDeductItemsFromStockInOpType.Off">
+    <value>vypnout</value>
+  </data>
+  <data name="OrderSuppPickMode.Normal">
+    <value>normální</value>
+  </data>
+  <data name="OrderSuppPickMode.FullAuto">
+    <value>Fully automated</value>
+  </data>
+  <data name="OrderSuppPickMode.EjectOnly">
+    <value>Eject from stock</value>
+  </data>
+  <data name="PickJobStatus.Forecast">
+    <value>Forecast</value>
+  </data>
+  <data name="PickJobStatus.Requested">
+    <value>Requested</value>
+  </data>
+  <data name="PickJobStatus.Attempted">
+    <value>Checked/Attempted</value>
+  </data>
+  <data name="PickJobStatus.Committed">
+    <value>Committed</value>
+  </data>
+  <data name="PickJobStatus.Completed">
+    <value>dokončeno</value>
+  </data>
+  <data name="PickJobStatus.Closed">
+    <value>Closed</value>
+  </data>
+  <data name="PickJobStatus.Cancelled">
+    <value>zrušeno</value>
+  </data>
+  <data name="PickJobActionType.NewForecast">
+    <value>Forecast created</value>
+  </data>
+  <data name="PickJobActionType.Requested">
+    <value>Requested</value>
+  </data>
+  <data name="PickJobActionType.Attempted">
+    <value>Checked/Attempted</value>
+  </data>
+  <data name="PickJobActionType.Committed">
+    <value>Committed</value>
+  </data>
+  <data name="PickJobActionType.Completed">
+    <value>dokončeno</value>
+  </data>
+  <data name="PickJobActionType.Closed">
+    <value>Closed</value>
+  </data>
+  <data name="PickJobActionType.Cancelled">
+    <value>zrušeno</value>
+  </data>
+  <data name="ItemSalesRestriction.None">
+    <value>žádný</value>
+  </data>
+  <data name="ItemSalesRestriction.Blocked">
+    <value>blokováno</value>
+  </data>
+  <data name="TrigActivity.None">
+    <value>nic</value>
+  </data>
+  <data name="TrigActivity.Pack">
+    <value>balení</value>
+  </data>
+  <data name="TrigActivity.Return">
+    <value>příjem</value>
+  </data>
+  <data name="TrigActivity.Wrap">
+    <value>Obal</value>
+  </data>
+  <data name="TrigActivity.WasherBatchRegistration">
+    <value>Washer batch registration</value>
+  </data>
+  <data name="TrigActivity.WasherBatchApproval">
+    <value>Washer batch approval</value>
+  </data>
+  <data name="TrigActivity.SterilizerBatchRegistration">
+    <value>Sterilizer batch registration</value>
+  </data>
+  <data name="TrigActivity.SterilizerBatchApproval">
+    <value>Sterilizer batch approval</value>
+  </data>
+  <data name="TrigActivity.RegisterLocation">
+    <value>umístění</value>
+  </data>
+  <data name="TrigActivity.OperationRegistration">
+    <value>operace</value>
+  </data>
+  <data name="TrigActivity.Pick">
+    <value>vyber</value>
+  </data>
+  <data name="TrigActivity.Dispatch">
+    <value>expedovat</value>
+  </data>
+  <data name="TrigActivity.UpdateInventory">
+    <value>zásoba</value>
+  </data>
+  <data name="TrigActivity.PredisinfectionBatchRegistration">
+    <value>Pre-disinfection batch registration</value>
+  </data>
+  <data name="TrigActivity.EndoscopeWasherBatchRegistration">
+    <value>Endoscope washer batch registration</value>
+  </data>
+  <data name="TrigActivity.EndoCleanAndTest">
+    <value>Endo vyčistit a otestovat</value>
+  </data>
+  <data name="TrigActivity.EndoscopeWasherBatchApproval">
+    <value>Endoscope washer batch approval</value>
+  </data>
+  <data name="TrigActivity.StartTransport">
+    <value>transport</value>
+  </data>
+  <data name="TrigActivity.PatientRegistration">
+    <value>Patient registration</value>
+  </data>
+  <data name="ReservationStatus.Active">
+    <value>aktivní</value>
+  </data>
+  <data name="ReservationStatus.Completed">
+    <value>dokončeno</value>
+  </data>
+  <data name="ReservationStatus.Failed">
+    <value>selhalo</value>
+  </data>
+  <data name="ReservationStatus.Cancelled">
+    <value>zrušeno</value>
+  </data>
+  <data name="ProductLoanerType.NonLoaner">
+    <value></value>
+  </data>
+  <data name="ProductLoanerType.GenericLoaner">
+    <value></value>
+  </data>
+  <data name="ProductLoanerType.ExternalLoaner">
+    <value></value>
+  </data>
+  <data name="ProductLoanerType.LoanerTemplate">
+    <value></value>
+  </data>
+  <data name="LoanerSerialNameChangeMode.Always">
+    <value></value>
+  </data>
+  <data name="LoanerSerialNameChangeMode.AtFirst">
+    <value></value>
+  </data>
+  <data name="LoanerSerialNameChangeMode.Never">
+    <value></value>
+  </data>
+  <data name="LoanerAutoCheckOutMode.Off">
+    <value></value>
+  </data>
+  <data name="LoanerAutoCheckOutMode.AfterWash">
+    <value></value>
+  </data>
+  <data name="LoanerAutoCheckOutMode.AfterReturn">
+    <value></value>
+  </data>
+  <data name="UnitStatus.None">
+    <value></value>
+  </data>
+  <data name="UnitStatus.Init">
+    <value>zahájeno</value>
+  </data>
+  <data name="UnitStatus.Started">
+    <value>spuštěno</value>
+  </data>
+  <data name="UnitStatus.Rinsed">
+    <value>Rinsed</value>
+  </data>
+  <data name="UnitStatus.Washed">
+    <value>umyto</value>
+  </data>
+  <data name="UnitStatus.Prep">
+    <value>připraveno</value>
+  </data>
+  <data name="UnitStatus.Packed">
+    <value>zabaleno</value>
+  </data>
+  <data name="UnitStatus.Stock">
+    <value>na skladě</value>
+  </data>
+  <data name="UnitStatus.Dispatched">
+    <value>expedované</value>
+  </data>
+  <data name="UnitStatus.Opened">
+    <value>otevřeno</value>
+  </data>
+  <data name="UnitStatus.Used">
+    <value>použito</value>
+  </data>
+  <data name="UnitStatus.Precleaned">
+    <value>Pre-cleaned</value>
+  </data>
+  <data name="UnitStatus.Returned">
+    <value>vráceno</value>
+  </data>
+  <data name="UnitStatus.ErrorReg">
+    <value>zrušeno</value>
+  </data>
+  <data name="UnitStatus.Last">
+    <value></value>
+  </data>
+  <data name="EndoscopeUnitStatus.None">
+    <value></value>
+  </data>
+  <data name="EndoscopeUnitStatus.Init">
+    <value>zahájeno</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Started">
+    <value>spuštěno</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Rinsed">
+    <value>Rinsed</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Washed">
+    <value>umyto</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Prep">
+    <value>zahájený</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Packed">
+    <value>umyto</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Stock">
+    <value>reprocesováno</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Dispatched">
+    <value>expedované</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Opened">
+    <value>otevřeno</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Used">
+    <value>použito</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Precleaned">
+    <value>Pre-cleaned</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Returned">
+    <value>vráceno</value>
+  </data>
+  <data name="EndoscopeUnitStatus.ErrorReg">
+    <value>zrušeno</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Last">
+    <value></value>
+  </data>
+  <data name="OperationStatus.Planned">
+    <value>plánovaný</value>
+  </data>
+  <data name="OperationStatus.Accepted">
+    <value>Potvrzeno</value>
+  </data>
+  <data name="OperationStatus.Started">
+    <value>spuštěno</value>
+  </data>
+  <data name="OperationStatus.Done">
+    <value>hotovo</value>
+  </data>
+  <data name="OperationStatus.Cancelled">
+    <value>zrušeno</value>
+  </data>
+  <data name="ObjectStatus.Normal">
+    <value>normální</value>
+  </data>
+  <data name="ObjectStatus.Dying">
+    <value>bude vynechán</value>
+  </data>
+  <data name="ObjectStatus.Dead">
+    <value>vynechaný</value>
+  </data>
+  <data name="MachineType.FirstMachineType">
+    <value>sterilizátor</value>
+  </data>
+  <data name="MachineType.Sterilizer">
+    <value>sterilizátor</value>
+  </data>
+  <data name="MachineType.Washer">
+    <value>myčka</value>
+  </data>
+  <data name="MachineType.PreDis">
+    <value>Pre-Desinfektor</value>
+  </data>
+  <data name="MachineType.EndoWasher">
+    <value>myčka endoskopu</value>
+  </data>
+  <data name="MachineType.Incubator">
+    <value>inkubátor</value>
+  </data>
+  <data name="MachineType.EndoDryer">
+    <value>sušicí skříň pro endoskopy</value>
+  </data>
+  <data name="MachineType.LastMachineType">
+    <value>sušicí skříň pro endoskopy</value>
+  </data>
+</root>

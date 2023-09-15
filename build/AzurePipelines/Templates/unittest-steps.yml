@@ -1,0 +1,65 @@
+# Template of steps should be executed for each of test projects
+
+parameters:
+- name: buildConfiguration
+  type: string
+  default: 'Release'
+
+- name: buildPlatform
+  type: string
+  default: 'Any CPU'
+
+- name: nugetConfigFile
+  type: string
+  default: unknown
+
+# List of test projects are going to be run
+- name: listOfProjects
+  type: object
+  default:
+  - name: unknown
+    dir:  unknown
+    path: unknown
+
+steps:
+
+    - ${{ each project in parameters.listOfProjects }}:
+      # # Restore a test project
+      - task: DotNetCoreCLI@2
+        displayName: RESTORE project (${{ project.name }})
+        inputs:
+          command: restore
+          projects: ${{ project.path }}
+          feedsToUse: 'config'
+          nugetConfigPath: ${{ parameters.nugetConfigFile }}
+          externalFeedCredentials: 'DevExpress feed'
+          
+      # Build a test project
+      - task: DotNetCoreCLI@2
+        displayName: BUILD project (${{ project.name }})
+        inputs:
+          command: build
+          projects: ${{ project.path }}
+          arguments: -c ${{ parameters.buildConfiguration }}
+
+      # Run tests
+      - task: DotNetCoreCLI@2
+        displayName: RUN tests (${{ project.name }})
+        inputs:
+          command: test
+          projects: ${{ project.path }}
+          arguments: -c ${{ parameters.buildConfiguration }} --no-build --no-restore #--collect "XPlat Code Coverage"
+
+      # Get coverage files ready for report generation
+      # - task: CopyFiles@2
+      #   displayName: Copy report files
+      #   inputs:
+      #     sourceFolder: '$(Agent.TempDirectory)'
+      #     contents: '**/coverage.cobertura.xml'
+      #     targetFolder: '$(Build.ArtifactStagingDirectory)'
+
+      # - task: PublishBuildArtifacts@1
+      #   displayName: Publish report files
+      #   inputs:
+      #     pathToPublish: '$(Build.ArtifactStagingDirectory)'
+      #     artifactName: CodeCoverageFiles

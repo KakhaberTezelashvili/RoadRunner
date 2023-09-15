@@ -1,0 +1,78 @@
+﻿@using TDOC.Common.Data.Constants.Translations
+@using TDOC.Common.Extensions
+
+@if (Data == null)
+{
+    <div class="col">
+        <LoadingDataSkeleton/>
+    </div>
+}
+else
+{
+    <div class="col pr-12px">
+        <div class="row pb-12px">
+            <div class="font-weight-bold details-first-column">@_tdTablesLocalizer[$"{nameof(ProcessModel)}.{nameof(ProcessModel.MachKeyId)}"]</div>
+            <div class="col text-truncate">
+                <div class="row">
+                    @Data.Machine?.Name
+                </div>
+                <div class="row">
+                    @Data.Machine?.Text
+                </div>
+            </div>
+        </div>
+        <div class="row pb-12px">
+            <div class="font-weight-bold details-first-column">@_tdTablesLocalizer[$"{nameof(ProcessModel)}.{nameof(ProcessModel.ProgKeyId)}"]</div>
+            <div class="col text-truncate">
+                <div class="row">
+                    @Data.Program?.Name
+                </div>
+                <div class="row">
+                    @Data.Program?.Text
+                </div>
+            </div>
+        </div>
+        <div class="row pb-12px">
+            <div class="font-weight-bold details-first-column">@_tdTablesLocalizer[ExceptionalColumns.ProcessKeyIdColumn]</div>
+            <div class="col text-truncate">@Data.Id</div>
+        </div>
+        <div class="row pb-12px">
+            <div class="font-weight-bold details-first-column">@_tdTablesLocalizer[$"{nameof(ProcessModel)}.{nameof(ProcessModel.Charge)}"]</div>
+            <div class="col text-truncate">@Data.Charge</div>
+        </div>
+        <div class="row pb-12px">
+            <div class="font-weight-bold details-first-column">@_tdEnumerationsLocalizer[$"{nameof(UnitStatus)}.{nameof(UnitStatus.Init)}"]</div>
+            <div class="col text-truncate">
+                <div class="row">
+                    @Data.InitiatedDate?.LocalizeDateTime()
+                </div>
+                <div class="row">
+                    @Data.InitiatedUserInitials
+                </div>
+            </div>
+        </div>
+        @if (Data.HandledDate != null)
+        {
+            <div class="row pb-12px">
+                <div class="font-weight-bold details-first-column">@_tdSharedLocalizer["batchStatusHandled"]</div>
+                <div class="col text-truncate">
+                    <div class="row">
+                        @Data.HandledDate.Value.LocalizeDateTime()
+                    </div>
+                    <div class="row">
+                        @Data.HandledUserInitials
+                    </div>
+                </div>
+            </div>
+        }
+        @if (Data.Error.ErrorNumber > 0)
+        {
+            <div class="row pb-12px">
+                <div class="font-weight-bold details-first-column">@_tdTablesLocalizer[$"{nameof(UnitModel)}.{nameof(UnitModel.Error)}"]</div>
+                <div class="col text-truncate">
+                    @($"{Data.Error.ErrorNumber} {Data.Error.ErrorText}")
+                </div>
+            </div>   
+        }
+    </div>
+}

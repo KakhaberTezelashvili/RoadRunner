@@ -1,0 +1,62 @@
+﻿@layout WorkflowReturnPackLayout
+@inherits WorkflowBaseComponent
+
+@using ScannerClient.WebApp.Workflows.Units.Shared.Cancel
+@using ScannerClient.WebApp.Workflows.Units.Shared.ProcessAdditionalUnits
+
+@if (details != null) 
+{
+    <div id="@WorkflowReturnPackLayout.TopMainBlockIdentifier" class="row justify-content-between">
+        <div class="col pr-12px">
+            <div class="row">
+                @*<div>
+                        <TdToolbarButton Identifier="EditLot" Text="@Localizer["editLot"]" IconUrl="@($"{ContentUrls.ResourceImg}lots/lotEdit.svg")" OnClick="DisplayEditLotPopupAsync" />
+                        <EditUnitLotPopup @ref="refEditUnitLotPopup" UnitKeyId="UnitKeyId" LocationKeyId="LocationKeyId" AfterEditDone="EditLotDoneAsync" />
+                    </div>*@
+                <ToolbarButtonsPanel Identifier="unitPackToolbarButtons" Buttons="toolbarButtons" />
+                <CancelMultipleUnitsPopup @ref="refCancelMultipleUnitsPopup"
+                                          UnitName="@unitName"
+                                          Units="packedUnits"
+                                          CancelCompleted="CancelCompletedAsync" />
+            </div>
+            <UnitDetailsPanel @ref="unitDetailsPanel"
+                                Column1Width="114"
+                                Column2Width="82"
+                                Column3Width="85"
+                                Data="details"
+                                Fragment2Caption="@TdSharedLocalizer["packMaterial"]"
+                                Fragment3Caption="@TdTablesLocalizer[$"{nameof(StocksModel)}.{nameof(StocksModel.Stock)}"]">
+                <Fragment1Value>
+                    <HighlightContent @ref="refHighlightContentUnits" CssClass="@($"col{(!multiPacked ? " text-truncate" : "")}")">
+                        @packedUnitsText
+                    </HighlightContent>
+                </Fragment1Value>
+                <Fragment2Value>
+                    <div class="col text-truncate">@details.PackingMaterial</div>
+                </Fragment2Value>
+                <Fragment3Value>
+                    <div class="col text-truncate">
+                        @*<HighlightContent @ref="refHighlightContent">@((MarkupString)details.LotNumbers)</HighlightContent>*@
+                        <HighlightContent @ref="refHighlightContent">@details.StockPlacement</HighlightContent>
+                    </div>
+                </Fragment3Value>
+            </UnitDetailsPanel>
+        </div>
+        @if (showPackAdditionalUnits)
+        {
+            <div class="col-auto d-flex pt-6px">
+                <ProcessAdditionalUnitsPanel @ref="refProcessAdditionalUnits" 
+                                             Enabled="packAdditionalUnitsEnabled"
+                                             Title="@WorkflowsLocalizer["packAdditionalUnitsHeader"]" 
+                                             Description="@WorkflowsLocalizer["packAdditionalUnitsText"]" 
+                                             ButtonText="@TdSharedLocalizer["pack"]"
+                                             ProcessUnits="PackAdditionalUnits"
+                                             MinValue="1"
+                                             MaxValue="100"
+                                             Value="packAmount"
+                                             ShowProgressOnProccessing="true"
+                                             ProcessingMessageRequested="GetProcessingMessage" />
+            </div>
+        }
+    </div>
+}

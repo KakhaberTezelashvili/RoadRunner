@@ -1,0 +1,11 @@
+﻿@if (!string.IsNullOrEmpty(@FastTrackName))
+{
+  <div class="row align-items-center">
+    <div>
+      <img class="icon-size-32" src="@($"{ContentUrls.ResourceImg}fasttracks/fastTrack.svg")" />
+    </div>
+    <div id="fastTrackName" class="pl-12px font-size-26 font-color-poppy ">
+      @FastTrackName
+    </div>
+  </div>
+}

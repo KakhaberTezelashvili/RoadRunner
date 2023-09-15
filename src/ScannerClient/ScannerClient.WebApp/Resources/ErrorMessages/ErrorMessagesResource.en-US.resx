@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DomainPackErrorCodes.UnitAlreadyPackedFromUnitDescription" xml:space="preserve">
+    <value>A new unit is already packed from this unit</value>
+  </data>
+  <data name="DomainPackErrorCodes.UnitAlreadyPackedFromUnitTitle" xml:space="preserve">
+    <value>Cannot pack from unit {0}</value>
+  </data>
+  <data name="DomainBatchErrorCodes.MachineNotSelectedDescription" xml:space="preserve">
+    <value>To register units, first select a machine for the batch.&lt;br&gt;Then scan or select the units to be registered.</value>
+  </data>
+  <data name="DomainBatchErrorCodes.MachineNotSelectedTitle" xml:space="preserve">
+    <value>No machine selected</value>
+  </data>
+  <data name="DomainDispatchErrorCodes.CustomerOrReturnToStockNotSelectedDescription" xml:space="preserve">
+    <value>To dispatch units, first select a customer or select Return to stock.&lt;br&gt;Then scan or select the units to be dispached.</value>
+  </data>
+  <data name="DomainDispatchErrorCodes.CustomerOrReturnToStockNotSelectedTitle" xml:space="preserve">
+    <value>No customer selected</value>
+  </data>
+  <data name="DomainDispatchErrorCodes.UnitStatusNotOnStockDescription" xml:space="preserve">
+    <value>This unit has the &lt;i&gt;{0}&lt;/i&gt; status.&lt;br&gt;You can only dispatch units with the &lt;i&gt;On stock&lt;/i&gt; status.</value>
+  </data>
+  <data name="DomainDispatchErrorCodes.UnitStatusNotOnStockTitle" xml:space="preserve">
+    <value>Cannot dispatch unit {0}</value>
+  </data>
+  <data name="DomainPackErrorCodes.SerialNumberUnitStatusNotReturnedTitle" xml:space="preserve">
+    <value>Cannot pack product serial {0}</value>
+  </data>
+  <data name="DomainPackErrorCodes.SerialNumberUnitStatusNotReturnedDescription" xml:space="preserve">
+    <value>This serial number's current unit {0} has the &lt;i&gt;{1}&lt;/i&gt; status.&lt;br&gt;You can only pack units with the &lt;i&gt;Returned&lt;/i&gt; status.</value>
+  </data>
+  <data name="DomainDispatchErrorCodes.UnitExpiredDescription" xml:space="preserve">
+    <value>This unit has expired.</value>
+  </data>
+  <data name="DomainDispatchErrorCodes.UnitExpiredTitle" xml:space="preserve">
+    <value>Cannot dispatch unit {0}</value>
+  </data>
+  <data name="DomainPackErrorCodes.UnitStatusNotReturnedDescription" xml:space="preserve">
+    <value>This unit has the &lt;i&gt;{0}&lt;/i&gt; status.&lt;br&gt;You can only pack units with the &lt;i&gt;Returned&lt;/i&gt; status.</value>
+  </data>
+  <data name="DomainPackErrorCodes.UnitStatusNotReturnedTitle" xml:space="preserve">
+    <value>Cannot pack from unit {0}</value>
+  </data>
+  <data name="DomainReturnErrorCodes.UnitStatusNotValidDescription" xml:space="preserve">
+    <value>This unit has the &lt;i&gt;{0}&lt;/i&gt; status.</value>
+  </data>
+  <data name="DomainReturnErrorCodes.UnitStatusNotValidTitle" xml:space="preserve">
+    <value>Cannot return unit {0}</value>
+  </data>
+  <data name="DomainReturnErrorCodes.UnitAlreadyReturnedDescription" xml:space="preserve">
+    <value>This unit is already returned.</value>
+  </data>
+  <data name="DomainReturnErrorCodes.UnitAlreadyReturnedTitle" xml:space="preserve">
+    <value>Cannot return unit {0}</value>
+  </data>
+  <data name="DomainBatchErrorCodes.UnitStatusNotPackedDescription" xml:space="preserve">
+    <value>This unit has the &lt;i&gt;{0}&lt;/i&gt; status.&lt;br&gt;You can only register units with the &lt;i&gt;Packed&lt;/i&gt; status for the batch.</value>
+  </data>
+  <data name="DomainBatchErrorCodes.UnitStatusNotPackedTitle" xml:space="preserve">
+    <value>Cannot register unit {0}</value>
+  </data>
+  <data name="DomainBatchErrorCodes.UnitStatusNotReturnedDescription" xml:space="preserve">
+    <value>This unit has the &lt;i&gt;{0}&lt;/i&gt; status.&lt;br&gt;You can only register units with the &lt;i&gt;Returned&lt;/i&gt; status for the batch.</value>
+  </data>
+  <data name="DomainBatchErrorCodes.UnitStatusNotReturnedTitle" xml:space="preserve">
+    <value>Cannot register unit {0}</value>
+  </data>
+  <data name="DomainPackErrorCodes.UnitMissingWashBatchDescription" xml:space="preserve">
+    <value>The unit is missing a wash batch.&lt;br&gt;You can only pack units registered to an approved wash batch.</value>
+  </data>
+  <data name="DomainPackErrorCodes.UnitMissingWashBatchTitle" xml:space="preserve">
+    <value>Cannot pack from unit {0}</value>
+  </data>
+  <data name="DomainPackErrorCodes.UnitWashBatchNotApprovedDescription" xml:space="preserve">
+    <value>Wash batch {0} has not been approved.&lt;br&gt;You can only pack units registered to an approved wash batch.</value>
+  </data>
+  <data name="DomainPackErrorCodes.UnitWashBatchNotApprovedTitle" xml:space="preserve">
+    <value>Cannot pack from unit {0}</value>
+  </data>
+  <data name="DomainReturnErrorCodes.UnitAlreadyReturnedWithErrorDescription" xml:space="preserve">
+    <value>This unit is already returned with the error: {0} {1}</value>
+  </data>
+  <data name="DomainReturnErrorCodes.UnitAlreadyReturnedWithErrorTitle" xml:space="preserve">
+    <value>Cannot return unit {0}</value>
+  </data>
+  <data name="DomainPackErrorCodes.SerialNumberUnitMissingWashBatchDescription" xml:space="preserve">
+    <value>The serial number's current unit {0} is missing a wash batch.&lt;br&gt;You can only pack units registered to an approved wash batch.</value>
+  </data>
+  <data name="DomainPackErrorCodes.SerialNumberUnitMissingWashBatchTitle" xml:space="preserve">
+    <value>Cannot pack product serial {0}</value>
+  </data>
+  <data name="DomainPackErrorCodes.SerialNumberUnitWashBatchNotApprovedDescription" xml:space="preserve">
+    <value>Wash batch {0} has not been approved.&lt;br&gt;You can only pack units registered to an approved wash batch.</value>
+  </data>
+  <data name="DomainPackErrorCodes.SerialNumberUnitWashBatchNotApprovedTitle" xml:space="preserve">
+    <value>Cannot pack product serial {0}</value>
+  </data>
+  <data name="DomainBatchErrorCodes.UnitAlreadyRegisteredForSterilizeBatchTitle" xml:space="preserve">
+    <value>Cannot register unit {0}</value>
+  </data>
+  <data name="DomainBatchErrorCodes.UnitAlreadyRegisteredForWashBatchTitle" xml:space="preserve">
+    <value>Cannot register unit {0}</value>
+  </data>
+  <data name="DomainBatchErrorCodes.UnitAlreadyRegisteredForSterilizeBatchDescription" xml:space="preserve">
+    <value>This unit is already registered for batch {0}.&lt;br/&gt;You can only register a unit for one sterilizer batch.</value>
+  </data>
+  <data name="DomainBatchErrorCodes.UnitAlreadyRegisteredForWashBatchDescription" xml:space="preserve">
+    <value>This unit is already registered for batch {0} with the &lt;i&gt;Initialized&lt;/i&gt; status.&lt;br/&gt;You can only register a unit for a new batch when the previous batch is approved or disapproved.</value>
+  </data>
+  <data name="DomainPackErrorCodes.AdditionalUnitsAmountOutOfRangeDescription" xml:space="preserve">
+    <value>Please enter a number between {0} and {1}.</value>
+  </data>
+  <data name="DomainPackErrorCodes.AdditionalUnitsAmountOutOfRangeTitle" xml:space="preserve">
+    <value>Invalid amount</value>
+  </data>
+  <data name="DomainBatchErrorCodes.SerialNumberUnitAlreadyRegisteredForSterilizeBatchDescription" xml:space="preserve">
+    <value>This serial number's current unit {0} is already registered for batch {1}.&lt;br&gt;
+You can only register a unit for one sterilizer batch.</value>
+  </data>
+  <data name="DomainBatchErrorCodes.SerialNumberUnitAlreadyRegisteredForSterilizeBatchTitle" xml:space="preserve">
+    <value>Cannot register product serial {0}</value>
+  </data>
+  <data name="DomainBatchErrorCodes.SerialNumberUnitStatusNotPackedDescription" xml:space="preserve">
+    <value>This serial number's current unit {0} has the &lt;i&gt;{1}&lt;/i&gt; status.&lt;br&gt;
+You can only register units with the &lt;i&gt;Packed&lt;/i&gt; status for the batch.</value>
+  </data>
+  <data name="DomainBatchErrorCodes.SerialNumberUnitStatusNotPackedTitle" xml:space="preserve">
+    <value>Cannot register product serial {0}</value>
+  </data>
+  <data name="DomainReturnErrorCodes.SerialNumberAlreadyReturnedDescription" xml:space="preserve">
+    <value>This serial number's current unit {0} is already returned.</value>
+  </data>
+  <data name="DomainReturnErrorCodes.SerialNumberAlreadyReturnedTitle" xml:space="preserve">
+    <value>Cannot return product serial {0}</value>
+  </data>
+  <data name="DomainReturnErrorCodes.SerialNumberAlreadyReturnedWithErrorDescription" xml:space="preserve">
+    <value>This serial number's current unit {0} is already returned with the error:&lt;br&gt;{1} {2}</value>
+  </data>
+  <data name="DomainReturnErrorCodes.SerialNumberAlreadyReturnedWithErrorTitle" xml:space="preserve">
+    <value>Cannot return product serial {0}</value>
+  </data>
+  <data name="DomainDispatchErrorCodes.SerialNumberUnitExpiredDescription" xml:space="preserve">
+    <value>This serial number's current unit {0} has expired.</value>
+  </data>
+  <data name="DomainDispatchErrorCodes.SerialNumberUnitExpiredTitle" xml:space="preserve">
+    <value>Cannot dispatch product serial {0}</value>
+  </data>
+  <data name="DomainDispatchErrorCodes.SerialNumberUnitStatusNotOnStockDescription" xml:space="preserve">
+    <value>This serial number's current unit {0} has the &lt;i&gt;{1}&lt;/i&gt; status.&lt;br&gt;You can only dispatch units with the &lt;i&gt;On stock&lt;/i&gt; status.</value>
+  </data>
+  <data name="DomainDispatchErrorCodes.SerialNumberUnitStatusNotOnStockTitle" xml:space="preserve">
+    <value>Cannot dispatch product serial {0}</value>
+  </data>
+  <data name="DomainBatchErrorCodes.SerialNumberUnitAlreadyRegisteredForWashBatchDescription" xml:space="preserve">
+    <value>This serial number's current unit {0} is already registered for batch {1} with the &lt;i&gt;Initialized&lt;/i&gt; status.&lt;br&gt;You can only register a unit for a new batch when the previous batch is approved or disapproved.</value>
+  </data>
+  <data name="DomainBatchErrorCodes.SerialNumberUnitAlreadyRegisteredForWashBatchTitle" xml:space="preserve">
+    <value>Cannot register product serial {0}</value>
+  </data>
+  <data name="DomainBatchErrorCodes.SerialNumberUnitStatusNotReturnedDescription" xml:space="preserve">
+    <value>This serial number's current unit {0} has the &lt;i&gt;{1}&lt;/i&gt; status.&lt;br&gt;
+You can only register units with the &lt;i&gt;Returned&lt;/i&gt; status for the batch.</value>
+  </data>
+  <data name="DomainBatchErrorCodes.SerialNumberUnitStatusNotReturnedTitle" xml:space="preserve">
+    <value>Cannot register product serial {0}</value>
+  </data>
+  <data name="GenericDomainErrorCodes.FieldValueIsRequiredTitle" xml:space="preserve">
+    <value>{0} is required</value>
+  </data>
+  <data name="GenericDomainErrorCodes.AmountOutOfRangeTitle" xml:space="preserve">
+    <value>Invalid amount</value>
+  </data>
+  <data name="GenericDomainErrorCodes.AmountOutOfRangeDescription" xml:space="preserve">
+    <value>Please enter a number between {0} and {1}.</value>
+  </data>
+</root>

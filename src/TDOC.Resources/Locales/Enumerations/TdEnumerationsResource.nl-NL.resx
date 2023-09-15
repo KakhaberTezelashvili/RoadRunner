@@ -1,0 +1,1847 @@
+<?xml version="1.0" encoding="utf-8"?><root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActualProgramCheck.Off">
+    <value>Uit</value>
+  </data>
+  <data name="ActualProgramCheck.WarningPrompt">
+    <value>Waarschuwen en bevestigen</value>
+  </data>
+  <data name="ActualProgramCheck.Error">
+    <value>Fout - Goedkeuring geblokkeerd</value>
+  </data>
+  <data name="ApprovalType.No">
+    <value>Nee</value>
+  </data>
+  <data name="ApprovalType.Yes">
+    <value>Ja</value>
+  </data>
+  <data name="ApprovalType.Visual">
+    <value>Zichtbaar</value>
+  </data>
+  <data name="ApprovalType.Unit">
+    <value>Eenheden</value>
+  </data>
+  <data name="ApprovalType.UnitVisual">
+    <value>Visuele eenheden</value>
+  </data>
+  <data name="BatchUnitStatus.OK">
+    <value>OK</value>
+  </data>
+  <data name="BatchUnitStatus.BatchFailed">
+    <value>Batch afgekeurd</value>
+  </data>
+  <data name="BatchUnitStatus.UnitFailed">
+    <value>Eenheid gefaald</value>
+  </data>
+  <data name="CountDatStatus.Open">
+    <value>Openen</value>
+  </data>
+  <data name="CountDatStatus.Completed">
+    <value>Completed</value>
+  </data>
+  <data name="CountDatStatus.Suspended">
+    <value>Schorsen</value>
+  </data>
+  <data name="CountDatUsersUserRole.EnteringData">
+    <value>Gegevens invoeren</value>
+  </data>
+  <data name="CountDatUsersUserRole.Responsible">
+    <value>Verantwoordelijk</value>
+  </data>
+  <data name="CustNameDisplay.Name">
+    <value>Naam</value>
+  </data>
+  <data name="CustNameDisplay.ShortName">
+    <value>Korte naam</value>
+  </data>
+  <data name="CustNameDisplay.Number">
+    <value>Nummer</value>
+  </data>
+  <data name="CustOrderBookingMode.Default">
+    <value>Standaard</value>
+  </data>
+  <data name="CustOrderBookingMode.Disabled">
+    <value>Uitgeschakeld</value>
+  </data>
+  <data name="CustOrderBookingMode.Manual">
+    <value>Handmatig</value>
+  </data>
+  <data name="CustOrderBookingMode.Automation">
+    <value>Automatisch</value>
+  </data>
+  <data name="CustPreDispatchMode.UseFacSetting">
+    <value>Gebruik fabrieks instellingen</value>
+  </data>
+  <data name="CustPreDispatchMode.Always">
+    <value>Altijd</value>
+  </data>
+  <data name="CustPreDispatchMode.Never">
+    <value>Nooit</value>
+  </data>
+  <data name="DecNonDispItemStockOnPack.Off">
+    <value>Uit</value>
+  </data>
+  <data name="DecNonDispItemStockOnPack.Prompt">
+    <value>Vragen</value>
+  </data>
+  <data name="DecNonDispItemStockOnPack.On">
+    <value>Aan</value>
+  </data>
+  <data name="DeltaScanMode.Delta">
+    <value>Delta</value>
+  </data>
+  <data name="DeltaScanMode.Total">
+    <value>Totaal</value>
+  </data>
+  <data name="DoctorUsage.NotSet">
+    <value>Niet nodig</value>
+  </data>
+  <data name="DoctorUsage.Needed">
+    <value>Gebruik standaard als het niet gespecificieerd is</value>
+  </data>
+  <data name="DoctorUsage.Required">
+    <value>Moet worden gespecificeerd</value>
+  </data>
+  <data name="DryerProcessStatus.Normal">
+    <value>Normaal</value>
+  </data>
+  <data name="DryerProcessStatus.OK">
+    <value>OK</value>
+  </data>
+  <data name="DryerProcessStatus.Error">
+    <value>Fout</value>
+  </data>
+  <data name="FacOrderBookingMode.Disabled">
+    <value>Uitgeschakeld</value>
+  </data>
+  <data name="FacOrderBookingMode.Manual">
+    <value>Handmatig</value>
+  </data>
+  <data name="FacOrderBookingMode.Automation">
+    <value>Automatisch</value>
+  </data>
+  <data name="FactoryDefProdTraceType.ProductSerial">
+    <value>Serieel nummer</value>
+  </data>
+  <data name="FactoryDefProdTraceType.Product">
+    <value>Product nummer</value>
+  </data>
+  <data name="FactoryRestrictionMode.Default">
+    <value>Standaard</value>
+  </data>
+  <data name="FactoryRestrictionMode.On">
+    <value>Aan</value>
+  </data>
+  <data name="FactoryRestrictionMode.Warning">
+    <value>Waarschuwing</value>
+  </data>
+  <data name="FactoryRestrictionMode.Off">
+    <value>Uit</value>
+  </data>
+  <data name="FastTrackCodeType.General">
+    <value>Algemeen</value>
+  </data>
+  <data name="FastTrackCodeType.AdHoc">
+    <value>Ad-hoc</value>
+  </data>
+  <data name="FastTrackCodeType.TemplateOnly">
+    <value>Alleen groep</value>
+  </data>
+  <data name="FastTrackCreatorType.System">
+    <value>Systeem</value>
+  </data>
+  <data name="FastTrackCreatorType.JobServer">
+    <value>Taak Server</value>
+  </data>
+  <data name="FastTrackCreatorType.FacUser">
+    <value>Fabriek gebruiker</value>
+  </data>
+  <data name="FastTrackCreatorType.CustUser">
+    <value>Gebruikers bij klant</value>
+  </data>
+  <data name="FastTrackDisplayMode.UserSetting">
+    <value>Gebruiker instelling</value>
+  </data>
+  <data name="FastTrackDisplayMode.ForcePrompt">
+    <value>Forceer vraag</value>
+  </data>
+  <data name="FastTrackDisplayMode.ForceNoPrompt">
+    <value>Forceer geen vraag</value>
+  </data>
+  <data name="FastTrackDisplayMode.ForceNoPromptOrInfo">
+    <value>Force no prompt or info</value>
+  </data>
+  <data name="FastTrackEndType.Normal">
+    <value>Normaal</value>
+  </data>
+  <data name="FastTrackEndType.NormalNewUnitHas">
+    <value>Normaal (Nieuwe eenheid heeft hetzelfde)</value>
+  </data>
+  <data name="FastTrackEndType.ToRepair">
+    <value>Verzonden voor reparatie</value>
+  </data>
+  <data name="FastTrackEndType.Expired">
+    <value>Vervallen</value>
+  </data>
+  <data name="FastTrackEndType.Cancelled">
+    <value>Geannuleerd</value>
+  </data>
+  <data name="FastTrackInvoiceType.None">
+    <value>Geen</value>
+  </data>
+  <data name="FastTrackInvoiceType.Factory">
+    <value>Fabriek</value>
+  </data>
+  <data name="FastTrackInvoiceType.Customer">
+    <value>Klant</value>
+  </data>
+  <data name="FastTrackStatus.Assigned">
+    <value>Toewijzen</value>
+  </data>
+  <data name="FastTrackStatus.Started">
+    <value>Gestart</value>
+  </data>
+  <data name="FastTrackStatus.Ended">
+    <value>Beëindigd</value>
+  </data>
+  <data name="HandlingStepResult.OK">
+    <value>Voorbij</value>
+  </data>
+  <data name="HandlingStepResult.FailedStop">
+    <value>Mislukt</value>
+  </data>
+  <data name="HandlingStepResult.OKCleared">
+    <value>Passeert (Gewist)</value>
+  </data>
+  <data name="HandlingStepResult.FailedStartOver">
+    <value>Mislukt (Begin opnieuw)</value>
+  </data>
+  <data name="IdentArticleLineUsage.Enabled">
+    <value>Systeemstandaard gebruiken</value>
+  </data>
+  <data name="IdentArticleLineUsage.Disabled">
+    <value>Ja</value>
+  </data>
+  <data name="InActAction.Created">
+    <value>Gemaakt</value>
+  </data>
+  <data name="InActAction.InBatch">
+    <value>In batch</value>
+  </data>
+  <data name="InActAction.Pending">
+    <value>Wachtend</value>
+  </data>
+  <data name="InActAction.InIncubator">
+    <value>In incubator</value>
+  </data>
+  <data name="InActAction.StepResult">
+    <value>Stap resultaat</value>
+  </data>
+  <data name="InActAction.BatchUnblocked">
+    <value>Batch gedeblokkeerd</value>
+  </data>
+  <data name="InActAction.DispatchUnblocked">
+    <value>Uitgifte gedeblokkeerd</value>
+  </data>
+  <data name="InActAction.Approved">
+    <value>Beoordeeld</value>
+  </data>
+  <data name="InActAction.Disapproved">
+    <value>Afgekeurd</value>
+  </data>
+  <data name="InActAction.Cancelled">
+    <value>Geannuleerd</value>
+  </data>
+  <data name="InActAction.InWell">
+    <value>In box</value>
+  </data>
+  <data name="InActAction.OutWell">
+    <value>Uit box</value>
+  </data>
+  <data name="InActAction.BatchRemoved">
+    <value>Uit batch verwijderd</value>
+  </data>
+  <data name="InActAction.BatchAssigned">
+    <value>Batch toegewezen</value>
+  </data>
+  <data name="InActResult.Unknown">
+    <value>Onbekend</value>
+  </data>
+  <data name="InActResult.Approved">
+    <value>Beoordeeld</value>
+  </data>
+  <data name="InActResult.Disapproved">
+    <value>Afgekeurd</value>
+  </data>
+  <data name="IncNonDispItemStockOnPack.Off">
+    <value>Uit</value>
+  </data>
+  <data name="IncNonDispItemStockOnPack.Prompt">
+    <value>Vragen</value>
+  </data>
+  <data name="IncNonDispItemStockOnPack.On">
+    <value>Aan</value>
+  </data>
+  <data name="IncuBatchLogResult.Pending">
+    <value>Wachtend</value>
+  </data>
+  <data name="IncuBatchLogResult.Passed">
+    <value>Voorbij</value>
+  </data>
+  <data name="IncuBatchLogResult.Failed">
+    <value>Mislukt</value>
+  </data>
+  <data name="IncuBatchLogResult.Warning">
+    <value>Waarschuwing</value>
+  </data>
+  <data name="IncuBatchLogResult.Discontinued">
+    <value>Stopgezet</value>
+  </data>
+  <data name="IncuBatchLogResult.Error">
+    <value>Fout</value>
+  </data>
+  <data name="IncuBatchLogResult.DataError">
+    <value>Gegevensfout</value>
+  </data>
+  <data name="IncuBatchLogStatus.Unknown">
+    <value>Nog niet beschikbaar</value>
+  </data>
+  <data name="IncuBatchLogStatus.Manual">
+    <value>Geen gegevensregistratie</value>
+  </data>
+  <data name="IncuBatchLogStatus.Processing">
+    <value>Verwerking</value>
+  </data>
+  <data name="IncuBatchLogStatus.Done">
+    <value>Gereed</value>
+  </data>
+  <data name="IndicStatus.Created">
+    <value>Gemaakt</value>
+  </data>
+  <data name="IndicStatus.InBatch">
+    <value>In batch</value>
+  </data>
+  <data name="IndicStatus.Pending">
+    <value>Wachtend</value>
+  </data>
+  <data name="IndicStatus.Approved">
+    <value>Beoordeeld</value>
+  </data>
+  <data name="IndicStatus.Disapproved">
+    <value>Afgekeurd</value>
+  </data>
+  <data name="IndicStatus.Cancelled">
+    <value>Geannuleerd</value>
+  </data>
+  <data name="InTypResultType.Immediate">
+    <value>Onmiddellijk</value>
+  </data>
+  <data name="InTypResultType.Delayed">
+    <value>Vertraagd</value>
+  </data>
+  <data name="InTypResultType.Combined">
+    <value>Gecombineerd</value>
+  </data>
+  <data name="ItemAltPricingMode.None">
+    <value>Geen</value>
+  </data>
+  <data name="ItemAltPricingMode.SalesPrice">
+    <value>Verkoopprijs</value>
+  </data>
+  <data name="ItemAltPricingMode.UsagePrice">
+    <value>Gebruikersprijs</value>
+  </data>
+  <data name="ItemAltPricingMode.CostPrice">
+    <value>Kostprijs</value>
+  </data>
+  <data name="ItemDifficultyMode.Default">
+    <value>Standaard</value>
+  </data>
+  <data name="ItemDifficultyMode.Fixed">
+    <value>Vastgelegd</value>
+  </data>
+  <data name="ItemDifficultyMode.Sum">
+    <value>Som</value>
+  </data>
+  <data name="ItemDifficultyMode.Max">
+    <value>Max</value>
+  </data>
+  <data name="ItemDifficultyMode.Count">
+    <value>Telling</value>
+  </data>
+  <data name="ItemInstrumentType.Instrument">
+    <value>Artikel</value>
+  </data>
+  <data name="ItemInstrumentType.Endoscope">
+    <value>Endoscoop</value>
+  </data>
+  <data name="ItemInstrumentType.ButtonValve">
+    <value>Knop klep</value>
+  </data>
+  <data name="ItemPricingMode.SalesPrice">
+    <value>Verkoopprijs</value>
+  </data>
+  <data name="ItemPricingMode.UsagePrice">
+    <value>Gebruikersprijs</value>
+  </data>
+  <data name="ItemPricingMode.CostPrice">
+    <value>Kostprijs</value>
+  </data>
+  <data name="ItemPricingType.Normal">
+    <value></value>
+  </data>
+  <data name="ItemPricingType.TimeBased">
+    <value></value>
+  </data>
+  <data name="ItemReservationMode.NotRequired">
+    <value>Niet nodig</value>
+  </data>
+  <data name="ItemReservationMode.Enabled">
+    <value>Ingeschakeld</value>
+  </data>
+  <data name="ItemTraceType.Item">
+    <value>Artikel</value>
+  </data>
+  <data name="ItemTraceType.SerialItem">
+    <value>Serienummers</value>
+  </data>
+  <data name="ItemTraceType.LOT">
+    <value>LOT-nummers</value>
+  </data>
+  <data name="LogEntryType.System">
+    <value>Systeem</value>
+  </data>
+  <data name="LogEntryType.Information">
+    <value>Informatie</value>
+  </data>
+  <data name="LogEntryType.Message">
+    <value>Bericht</value>
+  </data>
+  <data name="LogEntryType.Warning">
+    <value>Waarschuwing</value>
+  </data>
+  <data name="LogEntryType.Error">
+    <value>Fout</value>
+  </data>
+  <data name="LogEntryType.Debug">
+    <value>Fouten opsporen</value>
+  </data>
+  <data name="LogBatchContent.Disabled">
+    <value>Uitgeschakeld</value>
+  </data>
+  <data name="LogBatchContent.Enabled">
+    <value>Ingeschakeld</value>
+  </data>
+  <data name="LogBatchRegMode.Off">
+    <value>Uit</value>
+  </data>
+  <data name="LogBatchRegMode.On">
+    <value>Aan</value>
+  </data>
+  <data name="MachConsStatus.OnStock">
+    <value>Op voorraad</value>
+  </data>
+  <data name="MachConsStatus.InUse">
+    <value>In gebruik</value>
+  </data>
+  <data name="MachConsStatus.Used">
+    <value>Gebruikt</value>
+  </data>
+  <data name="MachConsStatus.Missing">
+    <value>Vermist</value>
+  </data>
+  <data name="MachLogTypes.TDOC">
+    <value>T-DOC Fout</value>
+  </data>
+  <data name="MachLogTypes.MachineError">
+    <value>Machine fout</value>
+  </data>
+  <data name="MachLogTypes.MachineWarning">
+    <value>Machine waarschuwing</value>
+  </data>
+  <data name="MachTypeRuleIntervalType.Day">
+    <value>Iedere x dag</value>
+  </data>
+  <data name="MachTypeRuleIntervalType.Batch">
+    <value>Iedere x batch</value>
+  </data>
+  <data name="MachTypeRuleIntervalType.FirstDailyRunAfter">
+    <value>Eerste dagelijkse proces na</value>
+  </data>
+  <data name="MachTypeRuleIntervalType.FirstWeeklyRunAfter">
+    <value>Eerste weekelijkse proces na</value>
+  </data>
+  <data name="MachTypeRuleIntervalType.FirstMonthlyRunAfter">
+    <value>Eerste maandelijkse proces na</value>
+  </data>
+  <data name="ManualEndoDryingMode.NotAllowed">
+    <value>Niet toegestaan</value>
+  </data>
+  <data name="ManualEndoDryingMode.Allowed">
+    <value>Toegestaan</value>
+  </data>
+  <data name="ManualEndoDryingMode.Assumed">
+    <value>Ervan uitgaan</value>
+  </data>
+  <data name="McRuleResult.OK">
+    <value>OK</value>
+  </data>
+  <data name="McRuleResult.Prevented">
+    <value>Voorkomen</value>
+  </data>
+  <data name="McRuleResult.Forced">
+    <value>Geforceerd</value>
+  </data>
+  <data name="McRuleResult.Error">
+    <value>Fout</value>
+  </data>
+  <data name="OperationDataActionType.Created">
+    <value>Gemaakt</value>
+  </data>
+  <data name="OperationDataActionType.Cancelled">
+    <value>Geannuleerd</value>
+  </data>
+  <data name="OperationDataActionType.Planned">
+    <value>Gepland</value>
+  </data>
+  <data name="OperationDataActionType.Accepted">
+    <value>Geaccepteerd</value>
+  </data>
+  <data name="OperationDataActionType.Started">
+    <value>Gestart</value>
+  </data>
+  <data name="OperationDataActionType.Done">
+    <value>Gereed</value>
+  </data>
+  <data name="OperationDataActionType.PrefListToOrderAuto">
+    <value>Pref. list order created (auto)</value>
+  </data>
+  <data name="OperationDataActionType.PrefListToOrderManual">
+    <value>Pref. list order created (manual)</value>
+  </data>
+  <data name="OperationDataActionType.PrefListOrderUpdated">
+    <value>Pref. list order updated</value>
+  </data>
+  <data name="OperationDataActionType.OrderCancelled">
+    <value>Order geannuleerd</value>
+  </data>
+  <data name="OperationDataActionType.Exported">
+    <value>Geexporteerd</value>
+  </data>
+  <data name="OperationDataActionType.Imported">
+    <value>Geimporteerd</value>
+  </data>
+  <data name="OperationDataActionType.PickInfoImport">
+    <value>Gepakte informatie geimporteerd</value>
+  </data>
+  <data name="OperationDataActionType.BookingForced">
+    <value>Booking forced</value>
+  </data>
+  <data name="OperationDataActionType.BookingUnForced">
+    <value>Booking unforced</value>
+  </data>
+  <data name="OperationDataActionType.ReservChangedDueToForce">
+    <value>Reserv. Veranderd door kracht</value>
+  </data>
+  <data name="OperationDataActionType.PreCount">
+    <value>Operatie Telling (voor)</value>
+  </data>
+  <data name="OperationDataActionType.PerCount">
+    <value>Operatie Telling (Tijdens)</value>
+  </data>
+  <data name="OperationDataActionType.PostCount">
+    <value>Operatie Telling (na)</value>
+  </data>
+  <data name="OperationDataActionType.MergeRemove">
+    <value>Gegevens verplaatst naar operatie</value>
+  </data>
+  <data name="OperationDataActionType.MergeReceive">
+    <value>Gegevens ontvangen van bewerking</value>
+  </data>
+  <data name="OperationDataActionType.EmergencyCaseCartAdded">
+    <value>Emergency case cart bound</value>
+  </data>
+  <data name="OperationDataActionType.PatVeriOK">
+    <value>Patient verified</value>
+  </data>
+  <data name="OperationDataActionType.PatVeriFailed">
+    <value>Patient verification failed</value>
+  </data>
+  <data name="OperationDataActionType.PatVeriSkip">
+    <value>Patient verification skipped</value>
+  </data>
+  <data name="OperationDataActionType.PatVeriPostpone">
+    <value>Patient verification postponed</value>
+  </data>
+  <data name="OperationDataActionType.OrderReturnRequested">
+    <value>Order return requested</value>
+  </data>
+  <data name="OperationDataActionType.OrderReordered">
+    <value>Order reordered</value>
+  </data>
+  <data name="OperationDataActionType.OrderCopyCreatedAuto">
+    <value>Order copy created (auto)</value>
+  </data>
+  <data name="OperationDataActionType.OrderCopyCreatedManual">
+    <value>Order copy created (manual)</value>
+  </data>
+  <data name="OperationTypeType.Elective">
+    <value>Gemaakt</value>
+  </data>
+  <data name="OperationTypeType.Emergency">
+    <value>Geannuleerd</value>
+  </data>
+  <data name="OPProcedureTypeMode.Fixed">
+    <value>Vastgelegd</value>
+  </data>
+  <data name="OPProcedureTypeMode.AutoOPType">
+    <value>Auto from Operation type</value>
+  </data>
+  <data name="OPProcedureTypeMode.AutoDisabled">
+    <value></value>
+  </data>
+  <data name="OPStaffMode.Fixed">
+    <value>Vastgelegd</value>
+  </data>
+  <data name="OPStaffMode.AutoProcType">
+    <value>Auto from Procedure type</value>
+  </data>
+  <data name="OrderActionType.Created">
+    <value>Gemaakt</value>
+  </data>
+  <data name="OrderActionType.Cancelled">
+    <value>Geannuleerd</value>
+  </data>
+  <data name="OrderActionType.Sent">
+    <value>Verzonden</value>
+  </data>
+  <data name="OrderActionType.Accepted">
+    <value>Geaccepteerd</value>
+  </data>
+  <data name="OrderActionType.PickStart">
+    <value>Pakken gestart</value>
+  </data>
+  <data name="OrderActionType.Delivered">
+    <value>Geleverd</value>
+  </data>
+  <data name="OrderActionType.Received">
+    <value>Ontvangen</value>
+  </data>
+  <data name="OrderActionType.Done">
+    <value>Gereed</value>
+  </data>
+  <data name="OrderActionType.PrintPicklist">
+    <value>Pick list printed or viewed</value>
+  </data>
+  <data name="OrderActionType.PrintDevNote">
+    <value>Delivery note printed or viewed</value>
+  </data>
+  <data name="OrderActionType.PrintRetNote">
+    <value>Return note printed or viewed</value>
+  </data>
+  <data name="OrderActionType.PrintPurchaseOrder">
+    <value>Purchase order printed or viewed</value>
+  </data>
+  <data name="OrderActionType.Exported">
+    <value>Geexporteerd</value>
+  </data>
+  <data name="OrderActionType.Imported">
+    <value>Geimporteerd</value>
+  </data>
+  <data name="OrderActionType.ReqDevTimeChange">
+    <value>Req. Aflevertijd veranderd</value>
+  </data>
+  <data name="OrderActionType.PickInfoImport">
+    <value></value>
+  </data>
+  <data name="OrderActionType.BookingModeActive">
+    <value>Booking mode active</value>
+  </data>
+  <data name="OrderActionType.BookingModeInActive">
+    <value>Booking mode inactive</value>
+  </data>
+  <data name="OrderActionType.BookingForced">
+    <value>Booking forced</value>
+  </data>
+  <data name="OrderActionType.BookingUnForced">
+    <value>Booking unforced</value>
+  </data>
+  <data name="OrderActionType.ReservChangedDueToForce">
+    <value>Reserv. Veranderd door kracht</value>
+  </data>
+  <data name="OrderActionType.AttachToOperation">
+    <value>Gekoppeld aan operatie</value>
+  </data>
+  <data name="OrderActionType.DetachFromOperation">
+    <value>Losgekoppeld van de operatie</value>
+  </data>
+  <data name="OrderActionType.BindItemsToOperation">
+    <value>Items die zijn gebonden aan de operatie</value>
+  </data>
+  <data name="OrderActionType.BindUnitsToOperation">
+    <value>Eenheden gebonden aan operatie</value>
+  </data>
+  <data name="OrderActionType.UnbindItemsFromOperation">
+    <value>Items die niet meer zijn gebonden aan de operatie</value>
+  </data>
+  <data name="OrderActionType.UnbindUnitsFromOperation">
+    <value>Eenheden die niet meer zijn gebonden aan de operatie</value>
+  </data>
+  <data name="OrderActionType.ReturnRequested">
+    <value>Return requested</value>
+  </data>
+  <data name="OrderActionType.Reordered">
+    <value>Reordered</value>
+  </data>
+  <data name="OrderBookingMode.Undetermined">
+    <value>Onbepaald</value>
+  </data>
+  <data name="OrderBookingMode.Disabled">
+    <value>Uitgeschakeld</value>
+  </data>
+  <data name="OrderBookingMode.Inactive">
+    <value>Inactief</value>
+  </data>
+  <data name="OrderBookingMode.Active">
+    <value>Actief</value>
+  </data>
+  <data name="OrderBookingStatus.Undetermined">
+    <value>Onbepaald</value>
+  </data>
+  <data name="OrderBookingStatus.Ok">
+    <value>OK</value>
+  </data>
+  <data name="OrderBookingStatus.Warning">
+    <value>Waarschuwing</value>
+  </data>
+  <data name="OrderBookingStatus.Error">
+    <value>Fout</value>
+  </data>
+  <data name="OrderOrgStatus.None">
+    <value>Geen</value>
+  </data>
+  <data name="OrderOrgStatus.Template">
+    <value>Sjabloon</value>
+  </data>
+  <data name="OrderOrgStatus.Open">
+    <value>Openen</value>
+  </data>
+  <data name="OrderOrgStatus.Sent">
+    <value>Verzonden</value>
+  </data>
+  <data name="OrderOrgStatus.Received">
+    <value>Ontvangen</value>
+  </data>
+  <data name="OrderOrgStatus.Done">
+    <value>Gereed</value>
+  </data>
+  <data name="OrderOrgStatus.Cancelled">
+    <value>Geannuleerd</value>
+  </data>
+  <data name="OrderSuppPickPriority.Normal">
+    <value>Normaal</value>
+  </data>
+  <data name="OrderSuppPickPriority.PickNow">
+    <value>Nu</value>
+  </data>
+  <data name="OrderSuppPickPriority.PickNowForced">
+    <value>Now (forced)</value>
+  </data>
+  <data name="OrderSuppPriority.Normal">
+    <value>Normaal</value>
+  </data>
+  <data name="OrderSuppPriority.FastTrack">
+    <value>Fast tracked</value>
+  </data>
+  <data name="OrderSuppPriority.Emergency">
+    <value>Acute</value>
+  </data>
+  <data name="OrderSuppStatus.None">
+    <value>Geen</value>
+  </data>
+  <data name="OrderSuppStatus.Template">
+    <value>Sjabloon</value>
+  </data>
+  <data name="OrderSuppStatus.Order">
+    <value>Nieuw</value>
+  </data>
+  <data name="OrderSuppStatus.Accepted">
+    <value>Geaccepteerd</value>
+  </data>
+  <data name="OrderSuppStatus.Picked">
+    <value>Pakken gestart</value>
+  </data>
+  <data name="OrderSuppStatus.Delivered">
+    <value>Geleverd</value>
+  </data>
+  <data name="OrderSuppStatus.Cancelled">
+    <value>Geannuleerd</value>
+  </data>
+  <data name="OrderType.None">
+    <value>Geen</value>
+  </data>
+  <data name="OrderType.Order">
+    <value>Opdracht</value>
+  </data>
+  <data name="OrderType.ReturnOrder">
+    <value>Retour order</value>
+  </data>
+  <data name="OrderType.OrderCorr">
+    <value>Inventariscorr.</value>
+  </data>
+  <data name="PackingUsedFor.All">
+    <value>All instruments</value>
+  </data>
+  <data name="PackingUsedFor.Endoscopes">
+    <value>Endoscopen</value>
+  </data>
+  <data name="PatientAgeUsage.NotSet">
+    <value>Zoals gespecificieerd</value>
+  </data>
+  <data name="PatientAgeUsage.Needed">
+    <value>Gebruik standaard als het niet gespecificieerd is</value>
+  </data>
+  <data name="PatientAgeUsage.Required">
+    <value>Moet worden gespecificeerd</value>
+  </data>
+  <data name="PatientGenderUsage.NotSet">
+    <value>Zoals gespecificieerd</value>
+  </data>
+  <data name="PatientGenderUsage.Needed">
+    <value>Gebruik standaard als het niet gespecificieerd is</value>
+  </data>
+  <data name="PatientGenderUsage.Required">
+    <value>Moet worden gespecificeerd</value>
+  </data>
+  <data name="PIPLogEntrySubType.None">
+    <value>Geen</value>
+  </data>
+  <data name="PIPLogEntrySubType.SystemData">
+    <value>Systeemgegevens</value>
+  </data>
+  <data name="PIPLogEntrySubType.User">
+    <value>Gebruiker</value>
+  </data>
+  <data name="PIPLogEntrySubType.UserProfile">
+    <value>Gebruikersprofiel</value>
+  </data>
+  <data name="PIPLogEntrySubType.PatientLookup">
+    <value>Patiënten</value>
+  </data>
+  <data name="PIPLogEntrySubType.OperationLookup">
+    <value>Operatiegegevens</value>
+  </data>
+  <data name="PIPLogEntrySubType.Patients">
+    <value>Patiënten</value>
+  </data>
+  <data name="PIPLogEntrySubType.Operations">
+    <value>Operaties</value>
+  </data>
+  <data name="PIPLogEntrySubType.Units">
+    <value>Eenheden</value>
+  </data>
+  <data name="PIPLogEntrySubType.Orders">
+    <value>Bestellingen</value>
+  </data>
+  <data name="PIPLogEntrySubType.LOTLookup">
+    <value>List of LOT information</value>
+  </data>
+  <data name="PIPLogEntryType.PIPSettings">
+    <value>Informatie voor de patiënt privacy-instellingen wijzigen</value>
+  </data>
+  <data name="PIPLogEntryType.DirectLookup">
+    <value>Direct opzoeken</value>
+  </data>
+  <data name="PIPLogEntryType.SuccSearch">
+    <value>Succesvolle zoeken</value>
+  </data>
+  <data name="PIPLogEntryType.UnSuccSearch">
+    <value>Mislukte zoeken</value>
+  </data>
+  <data name="PIPLogEntryType.PIPLogOpened">
+    <value>Informatie voor de patiënt toegang logboek geopend</value>
+  </data>
+  <data name="PIPLogEntryType.PIPLogSearching">
+    <value>Zoeken in informatie voor de patiënt toegang logboek</value>
+  </data>
+  <data name="PIPLogEntryType.SchedOperations">
+    <value>Geplande operaties</value>
+  </data>
+  <data name="PrDrv.None">
+    <value>Geen</value>
+  </data>
+  <data name="PrDrv.Windows">
+    <value>Vensters</value>
+  </data>
+  <data name="PrDrv.Epson_Obsolete">
+    <value></value>
+  </data>
+  <data name="PrDrv.Zebra">
+    <value>Zebra</value>
+  </data>
+  <data name="PrefListOrderCreateMode.Immediate">
+    <value>Onmiddellijk</value>
+  </data>
+  <data name="PrefListOrderCreateMode.TimeBased">
+    <value>Just in time</value>
+  </data>
+  <data name="PrefListOrderCreateMode.Manual">
+    <value>Handmatig</value>
+  </data>
+  <data name="PrefLnModifier.None">
+    <value>Geen</value>
+  </data>
+  <data name="PrefLnModifier.Absolute">
+    <value>Absoluut</value>
+  </data>
+  <data name="PrefLnModifier.Add">
+    <value>Toevoegen</value>
+  </data>
+  <data name="PrefLnModifier.Subtract">
+    <value>Subtract</value>
+  </data>
+  <data name="PrefLnModifier.Highest">
+    <value>Hoogst</value>
+  </data>
+  <data name="PrefLnModifier.Lowest">
+    <value>Laagst</value>
+  </data>
+  <data name="ProcessStatus.Done">
+    <value>Gereed</value>
+  </data>
+  <data name="ProcessStatus.Running">
+    <value>Actief</value>
+  </data>
+  <data name="ProcessStatus.Initiated">
+    <value>Geïnitialiseerd</value>
+  </data>
+  <data name="ProcessStatus.Ending">
+    <value>Beëindigd</value>
+  </data>
+  <data name="ProcessType.None">
+    <value>Geen</value>
+  </data>
+  <data name="ProcessType.Pack">
+    <value>Verpakken</value>
+  </data>
+  <data name="ProcessType.SteriPostBatch">
+    <value>Batch achteraf (sterilisator)</value>
+  </data>
+  <data name="ProcessType.Out">
+    <value>Distribueren</value>
+  </data>
+  <data name="ProcessType.Return">
+    <value>Retour</value>
+  </data>
+  <data name="ProcessType.Prepare">
+    <value>Voorbereiden</value>
+  </data>
+  <data name="ProcessType.Wrap">
+    <value>Inpakken</value>
+  </data>
+  <data name="ProcessType.LitePro">
+    <value>Lite-etiket</value>
+  </data>
+  <data name="ProcessType.SteriPreBatch">
+    <value>Batch vooraf (sterilisator)</value>
+  </data>
+  <data name="ProcessType.Flash">
+    <value>Flashbatch</value>
+  </data>
+  <data name="ProcessType.Location">
+    <value>Locatie</value>
+  </data>
+  <data name="ProcessType.WashPreBatch">
+    <value>Batch vooraf (wasmachine)</value>
+  </data>
+  <data name="ProcessType.WashPostBatch">
+    <value>Batch achteraf (wasmachine)</value>
+  </data>
+  <data name="ProcessType.OpenUsed">
+    <value>Open/gebruikt</value>
+  </data>
+  <data name="ProcessType.Operation">
+    <value>Operatie</value>
+  </data>
+  <data name="ProcessType.Order">
+    <value>Opdracht</value>
+  </data>
+  <data name="ProcessType.Inventory">
+    <value>Inventaris</value>
+  </data>
+  <data name="ProcessType.OrderPick">
+    <value>Bezig met samenstellen order</value>
+  </data>
+  <data name="ProcessType.Industry">
+    <value>Industrie</value>
+  </data>
+  <data name="ProcessType.PreDisPreBatch">
+    <value>Pre batch (Predisinfection)</value>
+  </data>
+  <data name="ProcessType.LoadQueue">
+    <value>Lading wachtrij</value>
+  </data>
+  <data name="ProcessType.PurchaseOrder">
+    <value>Inkooporder</value>
+  </data>
+  <data name="ProcessType.EndoscopePreBatch">
+    <value>Pre batch (Endoscoop reiniger)</value>
+  </data>
+  <data name="ProcessType.WashCheck">
+    <value>Was controle</value>
+  </data>
+  <data name="ProcessType.ExtBatchInfo">
+    <value>Ext. batch info</value>
+  </data>
+  <data name="ProcessType.EndoCleanAndTest">
+    <value>Endo reinig en test</value>
+  </data>
+  <data name="ProcessType.Transport">
+    <value>Transport</value>
+  </data>
+  <data name="ProcessType.Workflow">
+    <value>Workflow</value>
+  </data>
+  <data name="ProcessType.Incubator">
+    <value>Incubatie</value>
+  </data>
+  <data name="ProcessType.ReturnWF">
+    <value>Retour eenheden</value>
+  </data>
+  <data name="ProcessType.WashPreBatchWF">
+    <value>Create wash batch</value>
+  </data>
+  <data name="ProcessType.SteriPreBatchWF">
+    <value>Create sterilizer batch</value>
+  </data>
+  <data name="ProcessType.PackWF">
+    <value>Pack units</value>
+  </data>
+  <data name="ProcessType.OutWF">
+    <value>Verzending naar klant</value>
+  </data>
+  <data name="ProcessType.Last">
+    <value></value>
+  </data>
+  <data name="ProdDispatchRestriction.Default">
+    <value>Standaard</value>
+  </data>
+  <data name="ProdDispatchRestriction.None">
+    <value>Geen</value>
+  </data>
+  <data name="ProdDispatchRestriction.CustomerOrSite">
+    <value>Klant of site</value>
+  </data>
+  <data name="ProdDispatchRestriction.CustomerElseSite">
+    <value>klant else site</value>
+  </data>
+  <data name="ProdDispatchRestriction.CustomerOnly">
+    <value>Alleen klan</value>
+  </data>
+  <data name="ProdReservationMode.NotRequired">
+    <value>Niet nodig</value>
+  </data>
+  <data name="ProdReservationMode.Enabled">
+    <value>Ingeschakeld</value>
+  </data>
+  <data name="ProductDifficultyMode.UseItemValue">
+    <value>Use item value</value>
+  </data>
+  <data name="ProductDifficultyMode.Fixed">
+    <value>Vastgelegd</value>
+  </data>
+  <data name="ProductReturnState.Normal">
+    <value>Normaal</value>
+  </data>
+  <data name="ProductReturnState.PreProcessed">
+    <value>Vooraf behandelt</value>
+  </data>
+  <data name="ProductReturnState.PrePacked">
+    <value>Voorverpakt</value>
+  </data>
+  <data name="ProductStockControlMode.Simple">
+    <value>Normaal</value>
+  </data>
+  <data name="ProductStockControlMode.Basic">
+    <value>Geavanceerd (Vol)</value>
+  </data>
+  <data name="ProductStockControlMode.Advanced">
+    <value></value>
+  </data>
+  <data name="ProductStorageType.Factory">
+    <value>Fabriek</value>
+  </data>
+  <data name="ProductStorageType.Transit">
+    <value>Transit</value>
+  </data>
+  <data name="ProductTraceType.Product">
+    <value>Product nummer</value>
+  </data>
+  <data name="ProductTraceType.ProductSerial">
+    <value>Serieel nummer</value>
+  </data>
+  <data name="ProductTraceType.Both">
+    <value>Zowel serie als productnummer</value>
+  </data>
+  <data name="ProductType.Trays">
+    <value>Net</value>
+  </data>
+  <data name="ProductType.SinglePacks">
+    <value>Enkelvoudige verpakking</value>
+  </data>
+  <data name="ProductType.Endoscopes">
+    <value>Endoscoop</value>
+  </data>
+  <data name="ProgramCheckInitiated.Allowed">
+    <value>Toegestaan</value>
+  </data>
+  <data name="ProgramCheckInitiated.Required">
+    <value>Vereist</value>
+  </data>
+  <data name="QuestionInputType.Boolean">
+    <value>Ja/Nee</value>
+  </data>
+  <data name="QuestionInputType.Integer">
+    <value>Nummer</value>
+  </data>
+  <data name="QuestionInputType.Text">
+    <value>Tekst</value>
+  </data>
+  <data name="QuestionInputType.List">
+    <value>Lijst</value>
+  </data>
+  <data name="RepairInvState.None">
+    <value>Geen</value>
+  </data>
+  <data name="RepairInvState.Block">
+    <value>Geblokkeerd</value>
+  </data>
+  <data name="RepairInvState.Done">
+    <value>Gereed</value>
+  </data>
+  <data name="RepairMode.AskUser">
+    <value>Gebruiker vragen</value>
+  </data>
+  <data name="RepairMode.UsingCust">
+    <value>Gebruik klant</value>
+  </data>
+  <data name="RepairMode.Owner">
+    <value>Eigenaar</value>
+  </data>
+  <data name="RepairMode.Factory">
+    <value>Fabriek</value>
+  </data>
+  <data name="RepairOrigin.Item">
+    <value>Artikel</value>
+  </data>
+  <data name="RepairOrigin.Product">
+    <value>Product</value>
+  </data>
+  <data name="RepairOrigin.Serial">
+    <value>Serieel</value>
+  </data>
+  <data name="RepairOrigin.Unit">
+    <value>Eenheid</value>
+  </data>
+  <data name="RepairOrigin.Tag">
+    <value>Tag</value>
+  </data>
+  <data name="RepairStatus.Sent">
+    <value>Verzonden</value>
+  </data>
+  <data name="RepairStatus.Received">
+    <value>Ontvangen</value>
+  </data>
+  <data name="RepairStatus.Done">
+    <value>Gereed</value>
+  </data>
+  <data name="RepairStatus.Cancelled">
+    <value>Geannuleerd</value>
+  </data>
+  <data name="RepairStatus.Requested">
+    <value>Requested</value>
+  </data>
+  <data name="RpTypCommentOption.NotAllowed">
+    <value>Niet toegestaan</value>
+  </data>
+  <data name="RpTypCommentOption.Allowed">
+    <value>Toegestaan</value>
+  </data>
+  <data name="RpTypCommentOption.Required">
+    <value>Vereist</value>
+  </data>
+  <data name="RpTypCustInvMode.NoInvoice">
+    <value>Geen factuur</value>
+  </data>
+  <data name="RpTypCustInvMode.Invoice">
+    <value>Factuur</value>
+  </data>
+  <data name="RpTypCustInvMode.NoEdit">
+    <value>Factuur, niet bewerken</value>
+  </data>
+  <data name="RpTypCustInvMode.Hidden">
+    <value>Factuur, niet tonen</value>
+  </data>
+  <data name="RpTypFacInvMode.NoInvoice">
+    <value>Geen factuur</value>
+  </data>
+  <data name="RpTypFacInvMode.Invoice">
+    <value>Factuur</value>
+  </data>
+  <data name="RpTypFacInvMode.NoEdit">
+    <value>Factuur, niet bewerken</value>
+  </data>
+  <data name="RpTypFacInvMode.Hidden">
+    <value>Factuur, niet tonen</value>
+  </data>
+  <data name="RpTypSuppMode.AllowChange">
+    <value>Sta verandering toe</value>
+  </data>
+  <data name="RpTypSuppMode.Fixed">
+    <value>Vastgelegd</value>
+  </data>
+  <data name="RpTypType.Standard">
+    <value>Standaard</value>
+  </data>
+  <data name="RpTypType.Quick">
+    <value>Snelle reparatie</value>
+  </data>
+  <data name="RpTypType.Discard">
+    <value>Negeren</value>
+  </data>
+  <data name="ScanUIStartMode.Default">
+    <value>Standaard</value>
+  </data>
+  <data name="ScanUIStartMode.Layers">
+    <value>Layer-modus</value>
+  </data>
+  <data name="ScanUIStartMode.Grid">
+    <value>Tabel/Rooster modus</value>
+  </data>
+  <data name="SexType.None">
+    <value>Onbekend</value>
+  </data>
+  <data name="SexType.Male">
+    <value>Mannelijk</value>
+  </data>
+  <data name="SexType.Female">
+    <value>Vrouwelijk</value>
+  </data>
+  <data name="SexType.Other">
+    <value>Ander</value>
+  </data>
+  <data name="StdCommentFreeTextOption.NotAllowed">
+    <value>Niet toegestaan</value>
+  </data>
+  <data name="StdCommentFreeTextOption.Allowed">
+    <value>Toegestaan</value>
+  </data>
+  <data name="StdCommentFreeTextOption.Required">
+    <value>Vereist</value>
+  </data>
+  <data name="StockBackOrderMode.Never">
+    <value>Nooit</value>
+  </data>
+  <data name="StockBackOrderMode.Always">
+    <value>Altijd</value>
+  </data>
+  <data name="StockBackOrderMode.Ask">
+    <value>Vragen</value>
+  </data>
+  <data name="StockBackOrderMode.WhenSet">
+    <value>Indien aangegeven (Exact)</value>
+  </data>
+  <data name="StockBackOrderMode.WhenSetAuto">
+    <value>Indien aangegeven (Alle)</value>
+  </data>
+  <data name="StockOrderInMode.Auto">
+    <value>Automatische voltooiing</value>
+  </data>
+  <data name="StockOrderInMode.Receive">
+    <value>Automatische ontvangst</value>
+  </data>
+  <data name="StockOrderInMode.Manual">
+    <value>Handmatige ontvangst</value>
+  </data>
+  <data name="StockPrnMode.Never">
+    <value>Nooit</value>
+  </data>
+  <data name="StockPrnMode.Always">
+    <value>Altijd</value>
+  </data>
+  <data name="StockPrnMode.Ask">
+    <value>Vragen</value>
+  </data>
+  <data name="TagType.Basket">
+    <value>Mand</value>
+  </data>
+  <data name="TagType.SteriLoad">
+    <value>Laden</value>
+  </data>
+  <data name="TagType.PrepTag">
+    <value>Voorbereiden</value>
+  </data>
+  <data name="TagType.Bundle">
+    <value>Set</value>
+  </data>
+  <data name="TagType.Wash">
+    <value>Wassen</value>
+  </data>
+  <data name="TagType.WashLoad">
+    <value>Wassen lading</value>
+  </data>
+  <data name="TagType.Transport">
+    <value>Transport</value>
+  </data>
+  <data name="TagType.Split">
+    <value>Splitsen</value>
+  </data>
+  <data name="TagType.CaseCart">
+    <value>Procedure kar</value>
+  </data>
+  <data name="TagType.TransportBox">
+    <value>Transport box</value>
+  </data>
+  <data name="TagType.InstrumentContainer">
+    <value>Instrument container</value>
+  </data>
+  <data name="TransmitKind.SMS">
+    <value>Korte sjabloon</value>
+  </data>
+  <data name="TransmitKind.Internal">
+    <value>Lange sjabloon</value>
+  </data>
+  <data name="TrigBehaviour.RoundBased">
+    <value>Rounds</value>
+  </data>
+  <data name="TrigBehaviour.Time">
+    <value>Intervals</value>
+  </data>
+  <data name="TrigBehaviour.InitialDaysThenRounds">
+    <value>Interval then rounds</value>
+  </data>
+  <data name="TrigBehaviour.RoundMaxTime">
+    <value>Rounds or intervals</value>
+  </data>
+  <data name="TrigBehaviour.Everytime">
+    <value>Everytime</value>
+  </data>
+  <data name="TrigExecutionPhase.Before">
+    <value>Before</value>
+  </data>
+  <data name="TrigExecutionPhase.During">
+    <value>During</value>
+  </data>
+  <data name="TrigExecutionPhase.After">
+    <value>After</value>
+  </data>
+  <data name="TrigPostponeAbility.No">
+    <value>Nee</value>
+  </data>
+  <data name="TrigPostponeAbility.YesAllUsers">
+    <value>Ja</value>
+  </data>
+  <data name="TrigPostponeAbility.UserDefined">
+    <value>User-defined</value>
+  </data>
+  <data name="UILocaAvailability.Default">
+    <value>Standaard</value>
+  </data>
+  <data name="UILocaAvailability.Visible">
+    <value>Zichtbaar</value>
+  </data>
+  <data name="UILocaAvailability.Advanced">
+    <value>Zichtbaar (geavanceerd)</value>
+  </data>
+  <data name="UILocaAvailability.Hidden">
+    <value>verborgen</value>
+  </data>
+  <data name="WellStatus.Unknown">
+    <value>Onbekend</value>
+  </data>
+  <data name="WellStatus.Empty">
+    <value>Leeg</value>
+  </data>
+  <data name="WellStatus.Init">
+    <value>Bezig met initialiseren</value>
+  </data>
+  <data name="WellStatus.Processing">
+    <value>Verwerking</value>
+  </data>
+  <data name="WellStatus.Negative">
+    <value>Negatief</value>
+  </data>
+  <data name="WellStatus.Positive">
+    <value>Positief</value>
+  </data>
+  <data name="WellStatus.Result">
+    <value>Fout</value>
+  </data>
+  <data name="WellStatus.Error">
+    <value>Waarschuwing</value>
+  </data>
+  <data name="WellStatus.Warning">
+    <value></value>
+  </data>
+  <data name="ReservationState.Undetermined">
+    <value>Onbepaald</value>
+  </data>
+  <data name="ReservationState.OKOriginal">
+    <value>OK</value>
+  </data>
+  <data name="ReservationState.OKIdentical">
+    <value>OK</value>
+  </data>
+  <data name="ReservationState.OKAlternative">
+    <value>OK</value>
+  </data>
+  <data name="ReservationState.OKIdenticalForAlternative">
+    <value>OK</value>
+  </data>
+  <data name="ReservationState.WarningOriginal">
+    <value>Waarschuwing</value>
+  </data>
+  <data name="ReservationState.WarningIdentical">
+    <value>Waarschuwing</value>
+  </data>
+  <data name="ReservationState.WarningAlternative">
+    <value>Waarschuwing</value>
+  </data>
+  <data name="ReservationState.WarningIdenticalForAlternative">
+    <value>Waarschuwing</value>
+  </data>
+  <data name="ReservationState.Error">
+    <value>Fout</value>
+  </data>
+  <data name="TriggerResult.RAccept">
+    <value>Accepteer</value>
+  </data>
+  <data name="TriggerResult.RReject">
+    <value>Reject</value>
+  </data>
+  <data name="TriggerResult.ROverride">
+    <value>Override</value>
+  </data>
+  <data name="TriggerResult.RPostpone">
+    <value>Postpone</value>
+  </data>
+  <data name="TriggerResult.RSilent">
+    <value>Silent</value>
+  </data>
+  <data name="FacDeductItemsFromStockInOpType.On">
+    <value>Aan</value>
+  </data>
+  <data name="FacDeductItemsFromStockInOpType.Off">
+    <value>Uit</value>
+  </data>
+  <data name="OrderSuppPickMode.Normal">
+    <value>Normaal</value>
+  </data>
+  <data name="OrderSuppPickMode.FullAuto">
+    <value>Fully automated</value>
+  </data>
+  <data name="OrderSuppPickMode.EjectOnly">
+    <value>Eject from stock</value>
+  </data>
+  <data name="PickJobStatus.Forecast">
+    <value>Forecast</value>
+  </data>
+  <data name="PickJobStatus.Requested">
+    <value>Requested</value>
+  </data>
+  <data name="PickJobStatus.Attempted">
+    <value>Checked/Attempted</value>
+  </data>
+  <data name="PickJobStatus.Committed">
+    <value>Committed</value>
+  </data>
+  <data name="PickJobStatus.Completed">
+    <value>Completed</value>
+  </data>
+  <data name="PickJobStatus.Closed">
+    <value>Closed</value>
+  </data>
+  <data name="PickJobStatus.Cancelled">
+    <value>Geannuleerd</value>
+  </data>
+  <data name="PickJobActionType.NewForecast">
+    <value>Forecast</value>
+  </data>
+  <data name="PickJobActionType.Requested">
+    <value>Requested</value>
+  </data>
+  <data name="PickJobActionType.Attempted">
+    <value>Checked/Attempted</value>
+  </data>
+  <data name="PickJobActionType.Committed">
+    <value>Committed</value>
+  </data>
+  <data name="PickJobActionType.Completed">
+    <value>Completed</value>
+  </data>
+  <data name="PickJobActionType.Closed">
+    <value>Closed</value>
+  </data>
+  <data name="PickJobActionType.Cancelled">
+    <value>Geannuleerd</value>
+  </data>
+  <data name="ItemSalesRestriction.None">
+    <value>Geen</value>
+  </data>
+  <data name="ItemSalesRestriction.Blocked">
+    <value>Geblokkeerd</value>
+  </data>
+  <data name="TrigActivity.None">
+    <value>Niets</value>
+  </data>
+  <data name="TrigActivity.Pack">
+    <value>Verpakken</value>
+  </data>
+  <data name="TrigActivity.Return">
+    <value>Retour</value>
+  </data>
+  <data name="TrigActivity.Wrap">
+    <value>Inpakken</value>
+  </data>
+  <data name="TrigActivity.WasherBatchRegistration">
+    <value>Washer batch registration</value>
+  </data>
+  <data name="TrigActivity.WasherBatchApproval">
+    <value>Washer batch approval</value>
+  </data>
+  <data name="TrigActivity.SterilizerBatchRegistration">
+    <value>Sterilizer batch registration</value>
+  </data>
+  <data name="TrigActivity.SterilizerBatchApproval">
+    <value>Sterilizer batch approval</value>
+  </data>
+  <data name="TrigActivity.RegisterLocation">
+    <value>Locatie</value>
+  </data>
+  <data name="TrigActivity.OperationRegistration">
+    <value>Operatie</value>
+  </data>
+  <data name="TrigActivity.Pick">
+    <value>Pak</value>
+  </data>
+  <data name="TrigActivity.Dispatch">
+    <value>Distribueren</value>
+  </data>
+  <data name="TrigActivity.UpdateInventory">
+    <value>Inventaris</value>
+  </data>
+  <data name="TrigActivity.PredisinfectionBatchRegistration">
+    <value>Pre-disinfection batch registration</value>
+  </data>
+  <data name="TrigActivity.EndoscopeWasherBatchRegistration">
+    <value>Endoscope washer batch registration</value>
+  </data>
+  <data name="TrigActivity.EndoCleanAndTest">
+    <value>Endo reinig en test</value>
+  </data>
+  <data name="TrigActivity.EndoscopeWasherBatchApproval">
+    <value>Endoscope washer batch approval</value>
+  </data>
+  <data name="TrigActivity.StartTransport">
+    <value>Transport</value>
+  </data>
+  <data name="TrigActivity.PatientRegistration">
+    <value>Patient registration</value>
+  </data>
+  <data name="ReservationStatus.Active">
+    <value>Actief</value>
+  </data>
+  <data name="ReservationStatus.Completed">
+    <value>Completed</value>
+  </data>
+  <data name="ReservationStatus.Failed">
+    <value>Mislukt</value>
+  </data>
+  <data name="ReservationStatus.Cancelled">
+    <value>Geannuleerd</value>
+  </data>
+  <data name="ProductLoanerType.NonLoaner">
+    <value></value>
+  </data>
+  <data name="ProductLoanerType.GenericLoaner">
+    <value></value>
+  </data>
+  <data name="ProductLoanerType.ExternalLoaner">
+    <value></value>
+  </data>
+  <data name="ProductLoanerType.LoanerTemplate">
+    <value></value>
+  </data>
+  <data name="LoanerSerialNameChangeMode.Always">
+    <value></value>
+  </data>
+  <data name="LoanerSerialNameChangeMode.AtFirst">
+    <value></value>
+  </data>
+  <data name="LoanerSerialNameChangeMode.Never">
+    <value></value>
+  </data>
+  <data name="LoanerAutoCheckOutMode.Off">
+    <value></value>
+  </data>
+  <data name="LoanerAutoCheckOutMode.AfterWash">
+    <value></value>
+  </data>
+  <data name="LoanerAutoCheckOutMode.AfterReturn">
+    <value></value>
+  </data>
+  <data name="UnitStatus.None">
+    <value></value>
+  </data>
+  <data name="UnitStatus.Init">
+    <value>Geïnitialiseerd</value>
+  </data>
+  <data name="UnitStatus.Started">
+    <value>Gestart</value>
+  </data>
+  <data name="UnitStatus.Rinsed">
+    <value>Gespoeld</value>
+  </data>
+  <data name="UnitStatus.Washed">
+    <value>Gewassen</value>
+  </data>
+  <data name="UnitStatus.Prep">
+    <value>Voorbereid</value>
+  </data>
+  <data name="UnitStatus.Packed">
+    <value>Verpakt</value>
+  </data>
+  <data name="UnitStatus.Stock">
+    <value>Op voorraad</value>
+  </data>
+  <data name="UnitStatus.Dispatched">
+    <value>Gedistribueerd</value>
+  </data>
+  <data name="UnitStatus.Opened">
+    <value>Geopend</value>
+  </data>
+  <data name="UnitStatus.Used">
+    <value>Gebruikt</value>
+  </data>
+  <data name="UnitStatus.Precleaned">
+    <value>Vooraf gereinigd</value>
+  </data>
+  <data name="UnitStatus.Returned">
+    <value>Geretourneerd</value>
+  </data>
+  <data name="UnitStatus.ErrorReg">
+    <value>Geannuleerd</value>
+  </data>
+  <data name="UnitStatus.Last">
+    <value></value>
+  </data>
+  <data name="EndoscopeUnitStatus.None">
+    <value></value>
+  </data>
+  <data name="EndoscopeUnitStatus.Init">
+    <value>Geïnitialiseerd</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Started">
+    <value>Gestart</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Rinsed">
+    <value>Gespoeld</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Washed">
+    <value>Gewassen</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Prep">
+    <value>Geïnitialiseerd</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Packed">
+    <value>Gewassen</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Stock">
+    <value>Herverwerkt</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Dispatched">
+    <value>Gedistribueerd</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Opened">
+    <value>Geopend</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Used">
+    <value>Gebruikt</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Precleaned">
+    <value>Vooraf gereinigd</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Returned">
+    <value>Geretourneerd</value>
+  </data>
+  <data name="EndoscopeUnitStatus.ErrorReg">
+    <value>Geannuleerd</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Last">
+    <value></value>
+  </data>
+  <data name="OperationStatus.Planned">
+    <value>Gepland</value>
+  </data>
+  <data name="OperationStatus.Accepted">
+    <value>Geaccepteerd</value>
+  </data>
+  <data name="OperationStatus.Started">
+    <value>Gestart</value>
+  </data>
+  <data name="OperationStatus.Done">
+    <value>Gereed</value>
+  </data>
+  <data name="OperationStatus.Cancelled">
+    <value>Geannuleerd</value>
+  </data>
+  <data name="ObjectStatus.Normal">
+    <value>Normaal</value>
+  </data>
+  <data name="ObjectStatus.Dying">
+    <value>Binnenkort verwijderd</value>
+  </data>
+  <data name="ObjectStatus.Dead">
+    <value>Verwijderd</value>
+  </data>
+  <data name="MachineType.FirstMachineType">
+    <value>Sterilisator</value>
+  </data>
+  <data name="MachineType.Sterilizer">
+    <value>Sterilisator</value>
+  </data>
+  <data name="MachineType.Washer">
+    <value>Wasmachine</value>
+  </data>
+  <data name="MachineType.PreDis">
+    <value>Voor-desinfector</value>
+  </data>
+  <data name="MachineType.EndoWasher">
+    <value>Endoscopen wasmachine</value>
+  </data>
+  <data name="MachineType.Incubator">
+    <value>Incubator</value>
+  </data>
+  <data name="MachineType.EndoDryer">
+    <value>Endoscoop droogkast</value>
+  </data>
+  <data name="MachineType.LastMachineType">
+    <value>Endoscoop droogkast</value>
+  </data>
+</root>

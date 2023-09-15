@@ -1,0 +1,30 @@
+﻿@using TDOC.WebComponents.Button.Enumerations
+
+<div class="d-flex justify-content-end @CssClass">
+    @if (!string.IsNullOrWhiteSpace(ButtonOkText))
+    {
+        <div class="pr-12px">
+            <TdButton Identifier="@ButtonOkIdentifier"
+                      Text="@ButtonOkText"
+                      TextSize="@ButtonsTextSize"
+                      Type="TdButtonType.Positive"
+                      Height="@ButtonsHeight"
+                      MinWidth="@ButtonsMinWidth"
+                      OnClick="async () => await OnButtonOkClickedAsync()"
+                      Enabled="ButtonOkEnabled" />
+        </div>
+    }
+    @if (!string.IsNullOrWhiteSpace(ButtonCancelText))
+    {
+        <div>
+            <TdButton Identifier="@ButtonCancelIdentifier"
+                      Text="@ButtonCancelText"
+                      TextSize="@ButtonsTextSize"
+                      Type="TdButtonType.Secondary"
+                      Height="@ButtonsHeight"
+                      MinWidth="@ButtonsMinWidth"
+                      OnClick="async () => await OnButtonCancelClickedAsync()"
+                      Enabled="ButtonCancelEnabled" />
+        </div>
+    }
+</div>

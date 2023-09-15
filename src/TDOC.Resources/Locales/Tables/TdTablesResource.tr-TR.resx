@@ -1,0 +1,5216 @@
+<?xml version="1.0" encoding="utf-8"?><root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ProductModel.Created">
+    <value></value>
+  </data>
+  <data name="ProductModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="ProductModel.Modified">
+    <value></value>
+  </data>
+  <data name="ProductModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="ProductModel.AltNumber">
+    <value>Alternatif No.</value>
+  </data>
+  <data name="ProductModel.AvgOnSiteStoreTime">
+    <value>Ort. Alan saklama zamanı</value>
+  </data>
+  <data name="ProductModel.AvgOpDuration">
+    <value>Ort. operasyon süresi</value>
+  </data>
+  <data name="ProductModel.Barcode">
+    <value>Barkodları</value>
+  </data>
+  <data name="ProductModel.BillingNum">
+    <value>Faturalama no.</value>
+  </data>
+  <data name="ProductModel.CntpsKeyId">
+    <value>Counting point group</value>
+  </data>
+  <data name="ProductModel.Color">
+    <value>Renk</value>
+  </data>
+  <data name="ProductModel.Contamination">
+    <value>Kontaminasyon riski</value>
+  </data>
+  <data name="ProductModel.CuSiteKeyId">
+    <value>Müşteri bölgesi</value>
+  </data>
+  <data name="ProductModel.CustKeyId">
+    <value>Müşteri</value>
+  </data>
+  <data name="ProductModel.Difficulty">
+    <value>Karmaşıklık</value>
+  </data>
+  <data name="ProductModel.DifficultyMode">
+    <value>Complexity mode</value>
+  </data>
+  <data name="ProductModel.DispatchRestrict">
+    <value>Sınırlamayı ayır</value>
+  </data>
+  <data name="ProductModel.Endodryingmethod">
+    <value>Endoskop kurutma metodu</value>
+  </data>
+  <data name="ProductModel.EndoWashPrGrKeyId">
+    <value>Endoskop yıkayıcı program</value>
+  </data>
+  <data name="ProductModel.ExternalType">
+    <value>Harici tip</value>
+  </data>
+  <data name="ProductModel.ExtLoanerId">
+    <value>External loaner ID</value>
+  </data>
+  <data name="ProductModel.FacKeyId">
+    <value>Fabrika</value>
+  </data>
+  <data name="ProductModel.FactorySterilized">
+    <value>Fabrikada steril edilmiş</value>
+  </data>
+  <data name="ProductModel.FixedPrice">
+    <value>Sabit fiyat</value>
+  </data>
+  <data name="ProductModel.FTCoKeyId">
+    <value>Hızlı izlem kodu</value>
+  </data>
+  <data name="ProductModel.FTPlKeyId">
+    <value>hızlı izlem planı</value>
+  </data>
+  <data name="ProductModel.FTTmpKeyId">
+    <value>hızlı izlem grubu</value>
+  </data>
+  <data name="ProductModel.GTIN">
+    <value>GTIN</value>
+  </data>
+  <data name="ProductModel.HandlingTime">
+    <value>İşleme zamanı</value>
+  </data>
+  <data name="ProductModel.HaTKeyId">
+    <value>Handling type</value>
+  </data>
+  <data name="ProductModel.InArtKeyId">
+    <value>Identical</value>
+  </data>
+  <data name="ProductModel.ItemKeyId">
+    <value>Kalem</value>
+  </data>
+  <data name="ProductModel.KeyId">
+    <value>Ürün kimliği</value>
+  </data>
+  <data name="ProductModel.LMProKeyId">
+    <value>Loaner management profile</value>
+  </data>
+  <data name="ProductModel.Loaner">
+    <value>Kredi ürün</value>
+  </data>
+  <data name="ProductModel.LoanerType">
+    <value>Loaner type</value>
+  </data>
+  <data name="ProductModel.PackKeyId">
+    <value>Paketleme materyali</value>
+  </data>
+  <data name="ProductModel.PackOnScreen">
+    <value>Ekranda paketle</value>
+  </data>
+  <data name="ProductModel.Predis">
+    <value>Ön-dezenfeksiyon</value>
+  </data>
+  <data name="ProductModel.PricingType">
+    <value>Fiyatlandırma tipi</value>
+  </data>
+  <data name="ProductModel.PriGrKeyId">
+    <value>Fiyat grubu</value>
+  </data>
+  <data name="ProductModel.PrintLabel">
+    <value>Etiket yazdır</value>
+  </data>
+  <data name="ProductModel.PrintList">
+    <value>Listeyi yazdır</value>
+  </data>
+  <data name="ProductModel.Product">
+    <value>Ürün</value>
+  </data>
+  <data name="ProductModel.Remark">
+    <value>Açıklama</value>
+  </data>
+  <data name="ProductModel.ReqStockCount">
+    <value>Grk. stok sayısı</value>
+  </data>
+  <data name="ProductModel.ReservationMode">
+    <value>Rezervasyon modu</value>
+  </data>
+  <data name="ProductModel.Serialmask">
+    <value>Seri numara maskesi</value>
+  </data>
+  <data name="ProductModel.Status">
+    <value>Durum</value>
+  </data>
+  <data name="ProductModel.SteriPrgrKeyId">
+    <value>Sterilizatör program grubu</value>
+  </data>
+  <data name="ProductModel.SteriVolume">
+    <value>Sterilizatör hacmi</value>
+  </data>
+  <data name="ProductModel.StockPlacement">
+    <value>Stok Yerleşimi</value>
+  </data>
+  <data name="ProductModel.StorageType">
+    <value>Storage</value>
+  </data>
+  <data name="ProductModel.TotalCount">
+    <value>Toplam sayı</value>
+  </data>
+  <data name="ProductModel.Traceability">
+    <value>İzlenebilirlik</value>
+  </data>
+  <data name="ProductModel.TraceType">
+    <value>Takip tipi</value>
+  </data>
+  <data name="ProductModel.TRGrpKeyId">
+    <value>Expire time group</value>
+  </data>
+  <data name="ProductModel.Type">
+    <value>Tip</value>
+  </data>
+  <data name="ProductModel.UserField01">
+    <value>Kullanıcı alanı 1</value>
+  </data>
+  <data name="ProductModel.UserField02">
+    <value>Kullanıcı alanı 2</value>
+  </data>
+  <data name="ProductModel.UserField03">
+    <value>Kullanıcı alanı 3</value>
+  </data>
+  <data name="ProductModel.UserField04">
+    <value>Kullanıcı alanı 4</value>
+  </data>
+  <data name="ProductModel.UserField05">
+    <value>Kullanıcı alanı 5</value>
+  </data>
+  <data name="ProductModel.UserField06">
+    <value>Kullanıcı alanı 6</value>
+  </data>
+  <data name="ProductModel.UserField07">
+    <value>Kullanıcı alanı 7</value>
+  </data>
+  <data name="ProductModel.UserField08">
+    <value>Kullanıcı alanı 8</value>
+  </data>
+  <data name="ProductModel.UserField09">
+    <value>Kullanıcı alanı 9</value>
+  </data>
+  <data name="ProductModel.UserField10">
+    <value>Kullanıcı alanı 10</value>
+  </data>
+  <data name="ProductModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="ProductModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="ProductModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="ProductModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="ProductModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="ProductModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="ProductModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="ProductModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="ProductModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="ProductModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="ProductModel.WasherVolume">
+    <value>Yıkayıcı hacmi</value>
+  </data>
+  <data name="ProductModel.WashPrgrKeyId">
+    <value>Yıkayıcı program grubu</value>
+  </data>
+  <data name="ProductModel.Weight">
+    <value>Ağırlık</value>
+  </data>
+  <data name="ProductModel.WeightDeltaCalcMode">
+    <value>Ağırlık delta hesaplama modülü</value>
+  </data>
+  <data name="ProductModel.Weightdeltaunit">
+    <value>Ağırlık delta ünitesi</value>
+  </data>
+  <data name="ProductModel.WeightDeltaValue">
+    <value>Ağırlık delta ünitesi</value>
+  </data>
+  <data name="ProductModel.WeightDisposable">
+    <value>Sarf ağırlık</value>
+  </data>
+  <data name="ProductModel.WeightMode">
+    <value>Ağırlık modu</value>
+  </data>
+  <data name="ProductModel.WeightNonDisposable">
+    <value>Tek kullanımlık olmayan ağırlık</value>
+  </data>
+  <data name="ProductModel.WeightUsageEnabled">
+    <value>Ağırlıkları kullanın</value>
+  </data>
+  <data name="ProductModel.WPlanKeyId">
+    <value>Ağırlık planı</value>
+  </data>
+  <data name="UserModel.Created">
+    <value></value>
+  </data>
+  <data name="UserModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="UserModel.Modified">
+    <value></value>
+  </data>
+  <data name="UserModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="UserModel.Barcode">
+    <value>Barkodları</value>
+  </data>
+  <data name="UserModel.ChangePassword">
+    <value>Şifreyi değiştirmeli</value>
+  </data>
+  <data name="UserModel.Email">
+    <value>email</value>
+  </data>
+  <data name="UserModel.FacKeyId">
+    <value>Fabrika</value>
+  </data>
+  <data name="UserModel.FailedLogins">
+    <value>Başarısız girişler</value>
+  </data>
+  <data name="UserModel.Initials">
+    <value>Baş harfler</value>
+  </data>
+  <data name="UserModel.KeyId">
+    <value>Kullanıcı ID</value>
+  </data>
+  <data name="UserModel.MobileNumber">
+    <value>Mobil numara</value>
+  </data>
+  <data name="UserModel.Name">
+    <value>İsim</value>
+  </data>
+  <data name="UserModel.Password">
+    <value>Şifre</value>
+  </data>
+  <data name="UserModel.PasswordChanged">
+    <value>Son şifre değişikliği</value>
+  </data>
+  <data name="UserModel.PasswordHistory">
+    <value>Şifre geçmişi</value>
+  </data>
+  <data name="UserModel.PasswordSettings">
+    <value>Password settings</value>
+  </data>
+  <data name="UserModel.ProfileKeyId">
+    <value>Grup</value>
+  </data>
+  <data name="UserModel.PublicPWSalt">
+    <value>Genel</value>
+  </data>
+  <data name="UserModel.Status">
+    <value>Durum</value>
+  </data>
+  <data name="UserModel.UserField01">
+    <value>Kullanıcı alanı 1</value>
+  </data>
+  <data name="UserModel.UserField02">
+    <value>Kullanıcı alanı 2</value>
+  </data>
+  <data name="UserModel.UserField03">
+    <value>Kullanıcı alanı 3</value>
+  </data>
+  <data name="UserModel.UserField04">
+    <value>Kullanıcı alanı 4</value>
+  </data>
+  <data name="UserModel.UserField05">
+    <value>Kullanıcı alanı 5</value>
+  </data>
+  <data name="UserModel.UserField06">
+    <value>Kullanıcı alanı 6</value>
+  </data>
+  <data name="UserModel.UserField07">
+    <value>Kullanıcı alanı 7</value>
+  </data>
+  <data name="UserModel.UserField08">
+    <value>Kullanıcı alanı 8</value>
+  </data>
+  <data name="UserModel.UserField09">
+    <value>Kullanıcı alanı 9</value>
+  </data>
+  <data name="UserModel.UserField10">
+    <value>Kullanıcı alanı 10</value>
+  </data>
+  <data name="UserModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="UserModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="UserModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="UserModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="UserModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="UserModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="UserModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="UserModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="UserModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="UserModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="CountingPointSetModel.Created">
+    <value></value>
+  </data>
+  <data name="CountingPointSetModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="CountingPointSetModel.Modified">
+    <value></value>
+  </data>
+  <data name="CountingPointSetModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="CountingPointSetModel.Id">
+    <value>Kimlik</value>
+  </data>
+  <data name="CountingPointSetModel.KeyId">
+    <value>Counting point group ID</value>
+  </data>
+  <data name="CountingPointSetModel.Name">
+    <value>İsim</value>
+  </data>
+  <data name="CountingPointSetModel.Remark">
+    <value>Açıklama</value>
+  </data>
+  <data name="CountingPointSetModel.Status">
+    <value>Durum</value>
+  </data>
+  <data name="CustSiteModel.Created">
+    <value></value>
+  </data>
+  <data name="CustSiteModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="CustSiteModel.Modified">
+    <value></value>
+  </data>
+  <data name="CustSiteModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="CustSiteModel.AvgOnSiteStoreTime">
+    <value>Ort. Alan saklama zamanı</value>
+  </data>
+  <data name="CustSiteModel.AvgOpDuration">
+    <value>Ort. operasyon süresi</value>
+  </data>
+  <data name="CustSiteModel.CntpsKeyId">
+    <value>Counting point group</value>
+  </data>
+  <data name="CustSiteModel.DelGLN">
+    <value>Delivery GLN</value>
+  </data>
+  <data name="CustSiteModel.DelPKeyId">
+    <value>Transit product delivery plan</value>
+  </data>
+  <data name="CustSiteModel.Descr">
+    <value>Tanım</value>
+  </data>
+  <data name="CustSiteModel.GLN">
+    <value>Customer site GLN</value>
+  </data>
+  <data name="CustSiteModel.IntPickTime">
+    <value>Yerel toplama zamanı</value>
+  </data>
+  <data name="CustSiteModel.IntTransTimeArrive">
+    <value>Yerel varış taşıma zamanı</value>
+  </data>
+  <data name="CustSiteModel.IntTransTimeDepart">
+    <value>Yerel kalkış taşıma zamanı</value>
+  </data>
+  <data name="CustSiteModel.KeyId">
+    <value>Müşteri Bölge ID</value>
+  </data>
+  <data name="CustSiteModel.MinOrderLeadTime">
+    <value>Min. ordering time before operation</value>
+  </data>
+  <data name="CustSiteModel.Name">
+    <value>İsim</value>
+  </data>
+  <data name="CustSiteModel.Site">
+    <value>Müşteri bölgesi</value>
+  </data>
+  <data name="CustSiteModel.UserField01">
+    <value>Kullanıcı alanı 1</value>
+  </data>
+  <data name="CustSiteModel.UserField02">
+    <value>Kullanıcı alanı 2</value>
+  </data>
+  <data name="CustSiteModel.UserField03">
+    <value>Kullanıcı alanı 3</value>
+  </data>
+  <data name="CustSiteModel.UserField04">
+    <value>Kullanıcı alanı 4</value>
+  </data>
+  <data name="CustSiteModel.UserField05">
+    <value>Kullanıcı alanı 5</value>
+  </data>
+  <data name="CustSiteModel.UserField06">
+    <value>Kullanıcı alanı 6</value>
+  </data>
+  <data name="CustSiteModel.UserField07">
+    <value>Kullanıcı alanı 7</value>
+  </data>
+  <data name="CustSiteModel.UserField08">
+    <value>Kullanıcı alanı 8</value>
+  </data>
+  <data name="CustSiteModel.UserField09">
+    <value>Kullanıcı alanı 9</value>
+  </data>
+  <data name="CustSiteModel.UserField10">
+    <value>Kullanıcı alanı 10</value>
+  </data>
+  <data name="CustSiteModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="CustSiteModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="CustSiteModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="CustSiteModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="CustSiteModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="CustSiteModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="CustSiteModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="CustSiteModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="CustSiteModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="CustSiteModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="CustomerModel.Created">
+    <value></value>
+  </data>
+  <data name="CustomerModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="CustomerModel.Modified">
+    <value></value>
+  </data>
+  <data name="CustomerModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="CustomerModel.Account">
+    <value>Hesap</value>
+  </data>
+  <data name="CustomerModel.Address1">
+    <value>Sokak</value>
+  </data>
+  <data name="CustomerModel.Address2">
+    <value>Sokak (2)</value>
+  </data>
+  <data name="CustomerModel.AllowNonECCContent">
+    <value>Delivery of other goods in emergency case carts</value>
+  </data>
+  <data name="CustomerModel.ArrivedLGrpKeyId">
+    <value>Arrived location group</value>
+  </data>
+  <data name="CustomerModel.AvailablelgrpKeyId">
+    <value>Available location group</value>
+  </data>
+  <data name="CustomerModel.AvgOnSiteStoreTime">
+    <value>Ort. Alan saklama zamanı</value>
+  </data>
+  <data name="CustomerModel.AvgOpDuration">
+    <value>Ort. İşlem süresi</value>
+  </data>
+  <data name="CustomerModel.Barcode">
+    <value>Barkodları</value>
+  </data>
+  <data name="CustomerModel.CalKeyId">
+    <value>Takvim</value>
+  </data>
+  <data name="CustomerModel.CanOrder">
+    <value>siparişleri gönderebilir</value>
+  </data>
+  <data name="CustomerModel.ChargeOptions">
+    <value>Fatura seçenekleri</value>
+  </data>
+  <data name="CustomerModel.City">
+    <value>Posta Kodu/Şehir</value>
+  </data>
+  <data name="CustomerModel.CntpsKeyId">
+    <value>Counting point group</value>
+  </data>
+  <data name="CustomerModel.Color">
+    <value>Renk</value>
+  </data>
+  <data name="CustomerModel.Country">
+    <value>Ülke</value>
+  </data>
+  <data name="CustomerModel.CuSiteKeyId">
+    <value>Müşteri bölgesi</value>
+  </data>
+  <data name="CustomerModel.Customer">
+    <value>Müşteri</value>
+  </data>
+  <data name="CustomerModel.DefStokKeyId">
+    <value>Varsayılan stok</value>
+  </data>
+  <data name="CustomerModel.DelAddress1">
+    <value>Cadde sil</value>
+  </data>
+  <data name="CustomerModel.DelAddress2">
+    <value>Cadde sil (2)</value>
+  </data>
+  <data name="CustomerModel.DelCity">
+    <value>Postakodu/Şehir sil</value>
+  </data>
+  <data name="CustomerModel.DelCountry">
+    <value>Ülke Sil</value>
+  </data>
+  <data name="CustomerModel.DelEmail">
+    <value>E-posta sil</value>
+  </data>
+  <data name="CustomerModel.DelFax">
+    <value>Fax sil</value>
+  </data>
+  <data name="CustomerModel.DelGln">
+    <value>Delivery GLN</value>
+  </data>
+  <data name="CustomerModel.DeliveryNote">
+    <value>Gönderim notu</value>
+  </data>
+  <data name="CustomerModel.DelPKeyId">
+    <value>Transit product delivery plan</value>
+  </data>
+  <data name="CustomerModel.DelTelephone">
+    <value>Telefon sil</value>
+  </data>
+  <data name="CustomerModel.Email">
+    <value>email</value>
+  </data>
+  <data name="CustomerModel.EndoSETime">
+    <value>Std. Endo son kullanma zamanı</value>
+  </data>
+  <data name="CustomerModel.External">
+    <value>Harici</value>
+  </data>
+  <data name="CustomerModel.FacKeyId">
+    <value>Fabrika</value>
+  </data>
+  <data name="CustomerModel.Fax">
+    <value>Fax</value>
+  </data>
+  <data name="CustomerModel.Flags1">
+    <value>Seçenekler</value>
+  </data>
+  <data name="CustomerModel.Gln">
+    <value>GLN</value>
+  </data>
+  <data name="CustomerModel.IntPickTime">
+    <value>Yerel toplama zamanı</value>
+  </data>
+  <data name="CustomerModel.IntTransTimeArrive">
+    <value>Yerel varış taşıma zamanı</value>
+  </data>
+  <data name="CustomerModel.IntTransTimeDepart">
+    <value>Yerel kalkış taşıma zamanı</value>
+  </data>
+  <data name="CustomerModel.InvoiceCustKeyId">
+    <value>Fatura müşterisi</value>
+  </data>
+  <data name="CustomerModel.InvoiceRebate">
+    <value>Fatura düzeltmesi (%)</value>
+  </data>
+  <data name="CustomerModel.KeyId">
+    <value>Müşteri ID</value>
+  </data>
+  <data name="CustomerModel.LineRebate">
+    <value>Hat düzeltmesi (%)</value>
+  </data>
+  <data name="CustomerModel.MinOrderLeadTime">
+    <value>Min. ordering time before operation</value>
+  </data>
+  <data name="CustomerModel.Name">
+    <value>İsim</value>
+  </data>
+  <data name="CustomerModel.OrderBookingMode">
+    <value>Komut rezervasyon modu</value>
+  </data>
+  <data name="CustomerModel.PreDispatchMode">
+    <value>Ön-sevk</value>
+  </data>
+  <data name="CustomerModel.Remark">
+    <value>Açıklama</value>
+  </data>
+  <data name="CustomerModel.Reordermode">
+    <value>Dönüşte yeniden sipariş et</value>
+  </data>
+  <data name="CustomerModel.ShortName">
+    <value>Kısa Ad</value>
+  </data>
+  <data name="CustomerModel.Status">
+    <value>Durum</value>
+  </data>
+  <data name="CustomerModel.StGrKeyId">
+    <value>Stok grubu</value>
+  </data>
+  <data name="CustomerModel.TagsSurvive">
+    <value>Kalan etiketler</value>
+  </data>
+  <data name="CustomerModel.Telephone">
+    <value>Telefon</value>
+  </data>
+  <data name="CustomerModel.Traceability">
+    <value>İzlenebilirlik</value>
+  </data>
+  <data name="CustomerModel.UserField01">
+    <value>Kullanıcı alanı 1</value>
+  </data>
+  <data name="CustomerModel.UserField02">
+    <value>Kullanıcı alanı 2</value>
+  </data>
+  <data name="CustomerModel.UserField03">
+    <value>Kullanıcı alanı 3</value>
+  </data>
+  <data name="CustomerModel.UserField04">
+    <value>Kullanıcı alanı 4</value>
+  </data>
+  <data name="CustomerModel.UserField05">
+    <value>Kullanıcı alanı 5</value>
+  </data>
+  <data name="CustomerModel.UserField06">
+    <value>Kullanıcı alanı 6</value>
+  </data>
+  <data name="CustomerModel.UserField07">
+    <value>Kullanıcı alanı 7</value>
+  </data>
+  <data name="CustomerModel.UserField08">
+    <value>Kullanıcı alanı 8</value>
+  </data>
+  <data name="CustomerModel.UserField09">
+    <value>Kullanıcı alanı 9</value>
+  </data>
+  <data name="CustomerModel.UserField10">
+    <value>Kullanıcı alanı 10</value>
+  </data>
+  <data name="CustomerModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="CustomerModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="CustomerModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="CustomerModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="CustomerModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="CustomerModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="CustomerModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="CustomerModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="CustomerModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="CustomerModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="CustomerModel.WebPassword">
+    <value>Web/FTP Şifresi</value>
+  </data>
+  <data name="CustomerModel.WebSite">
+    <value>Websitesi</value>
+  </data>
+  <data name="CustomerModel.WebUser">
+    <value>Web/FTP Kullanıcısı</value>
+  </data>
+  <data name="EndoDryingMethodsModel.KeyId">
+    <value>Endoskop kurutma metod ID</value>
+  </data>
+  <data name="EndoDryingMethodsModel.Method">
+    <value>Yöntem</value>
+  </data>
+  <data name="EndoDryingMethodsModel.Name">
+    <value>İsim</value>
+  </data>
+  <data name="ProgramGroupModel.Color">
+    <value>Renk</value>
+  </data>
+  <data name="ProgramGroupModel.KeyId">
+    <value>Program grubu kimliği</value>
+  </data>
+  <data name="ProgramGroupModel.Name">
+    <value>İsim</value>
+  </data>
+  <data name="ProgramGroupModel.Remark">
+    <value>Açıklama</value>
+  </data>
+  <data name="ProgramGroupModel.Type">
+    <value>Tip</value>
+  </data>
+  <data name="FactoryModel.Created">
+    <value></value>
+  </data>
+  <data name="FactoryModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="FactoryModel.Modified">
+    <value></value>
+  </data>
+  <data name="FactoryModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="FactoryModel.Address1">
+    <value>Sokak</value>
+  </data>
+  <data name="FactoryModel.Address2">
+    <value>Sokak (2)</value>
+  </data>
+  <data name="FactoryModel.AllowSkipCleanAndTest">
+    <value>Allow skip clean and test</value>
+  </data>
+  <data name="FactoryModel.AllowSkipDispatch">
+    <value>Allow skip dispatch</value>
+  </data>
+  <data name="FactoryModel.AllowSkipReturn">
+    <value>Allow skip return</value>
+  </data>
+  <data name="FactoryModel.AutoPlayVideos">
+    <value>Autoplay videos</value>
+  </data>
+  <data name="FactoryModel.Bioid">
+    <value>BIO ID</value>
+  </data>
+  <data name="FactoryModel.CalKeyId">
+    <value>Takvim</value>
+  </data>
+  <data name="FactoryModel.ChargeUsage">
+    <value>Hatalı geri dönüşte tam kullanımı ücretlendir</value>
+  </data>
+  <data name="FactoryModel.City">
+    <value>Posta Kodu/Şehir</value>
+  </data>
+  <data name="FactoryModel.CntpsKeyId">
+    <value>Counting point group</value>
+  </data>
+  <data name="FactoryModel.Country">
+    <value>Ülke</value>
+  </data>
+  <data name="FactoryModel.CrossRefVendorKeyId">
+    <value>Tercih edilen tedarikçi</value>
+  </data>
+  <data name="FactoryModel.CustNameDisplay">
+    <value>Müşteri kısa adı kullan</value>
+  </data>
+  <data name="FactoryModel.CustOrdAcceptMode">
+    <value>Customer order acceptance handling</value>
+  </data>
+  <data name="FactoryModel.DecItemStockOnPack">
+    <value>Ambalajdaki kalem stoğunu azalt</value>
+  </data>
+  <data name="FactoryModel.DeductItemsFromStock">
+    <value>Deduct items from stock in Operation</value>
+  </data>
+  <data name="FactoryModel.DefAdminLocaKeyId">
+    <value>Default Admin location</value>
+  </data>
+  <data name="FactoryModel.DefAvgOnSiteStoreTime">
+    <value>Varsayılan Ort. Alanda saklama süresi</value>
+  </data>
+  <data name="FactoryModel.DefAvgOpDuration">
+    <value>Varsayılan Ort. Operasyon süresi</value>
+  </data>
+  <data name="FactoryModel.DefDispatchRestrict">
+    <value>Varsayılan  ayrım sınırlaması</value>
+  </data>
+  <data name="FactoryModel.DefItemShelvingTime">
+    <value>Varsayılan kalem raf zamanı</value>
+  </data>
+  <data name="FactoryModel.DefItemStokKeyId">
+    <value>Varsayılan kalem stok</value>
+  </data>
+  <data name="FactoryModel.DefMESPickingCapacity">
+    <value>Hourly picking capacity</value>
+  </data>
+  <data name="FactoryModel.DefMESResvStokKeyId">
+    <value>Automated reserved stock</value>
+  </data>
+  <data name="FactoryModel.DefMESStokKeyId">
+    <value>Automated picking stock</value>
+  </data>
+  <data name="FactoryModel.DefOrdSuppStokKeyId">
+    <value>Default customer order stock</value>
+  </data>
+  <data name="FactoryModel.DefProdTraceType">
+    <value>Varsayılan ürün izlem tipi</value>
+  </data>
+  <data name="FactoryModel.DefProductStokKeyId">
+    <value>Varsayılan ürün stok</value>
+  </data>
+  <data name="FactoryModel.DefSerialDispRestrict">
+    <value>Varsayılan seri numara ayrım sınırlaması</value>
+  </data>
+  <data name="FactoryModel.DefSuppCalKeyId">
+    <value>Varsayılan tedarikçi ajandası</value>
+  </data>
+  <data name="FactoryModel.DefSuppOrderDelTime">
+    <value>Varsayılan tedarikçi sipariş teslimat zamanı</value>
+  </data>
+  <data name="FactoryModel.DefSuppOrderHandlTime">
+    <value>Varsayılan tedarikçi sipariş işleme zamanı</value>
+  </data>
+  <data name="FactoryModel.DefSuppOrderRampTime">
+    <value>Varsayılan tedarikçi sipariş eğri zamanı</value>
+  </data>
+  <data name="FactoryModel.DefSuppOrderTransTime">
+    <value>Varsayılan tedarikçi sipariş geçiş zamanı</value>
+  </data>
+  <data name="FactoryModel.DefWPlanKeyId">
+    <value>Varsayılan ağırlık planı</value>
+  </data>
+  <data name="FactoryModel.DelAddress1">
+    <value>Cadde sil</value>
+  </data>
+  <data name="FactoryModel.DelAddress2">
+    <value>Cadde sil (2)</value>
+  </data>
+  <data name="FactoryModel.DelCity">
+    <value>Postakodu/Şehir sil</value>
+  </data>
+  <data name="FactoryModel.DelCountry">
+    <value>Ülke Sil</value>
+  </data>
+  <data name="FactoryModel.DelEmail">
+    <value>E-posta sil</value>
+  </data>
+  <data name="FactoryModel.DelFax">
+    <value>Fax sil</value>
+  </data>
+  <data name="FactoryModel.DelPKeyId">
+    <value>Transit product delivery plan</value>
+  </data>
+  <data name="FactoryModel.DeltaScanMode">
+    <value>Delta tarama modu</value>
+  </data>
+  <data name="FactoryModel.DelTelephone">
+    <value>Telefon sil</value>
+  </data>
+  <data name="FactoryModel.DropItemSuppOpOrders">
+    <value>Tedarikçiyi OP siparişlerinden düşür</value>
+  </data>
+  <data name="FactoryModel.Email">
+    <value>email</value>
+  </data>
+  <data name="FactoryModel.EndoCycleToCab">
+    <value>Döngü to cabinet time</value>
+  </data>
+  <data name="FactoryModel.EndoDefCabKeyId">
+    <value>Varsayılan kabin</value>
+  </data>
+  <data name="FactoryModel.EndoDefFSPlKeyId">
+    <value>Varsayılan stok lokasyonu</value>
+  </data>
+  <data name="FactoryModel.Endodryingmode">
+    <value>Manual drying</value>
+  </data>
+  <data name="FactoryModel.EndoHaTKeyId">
+    <value>Handling type</value>
+  </data>
+  <data name="FactoryModel.EndoSETime">
+    <value>Std. Endo son kullanma zamanı</value>
+  </data>
+  <data name="FactoryModel.EndoShelfDelay">
+    <value>Endo  raf gecikme zamanı</value>
+  </data>
+  <data name="FactoryModel.EndoShelfRelTime">
+    <value>Endo raf gecikme rel. Zamanı</value>
+  </data>
+  <data name="FactoryModel.EquipmentUsage">
+    <value>Ekipman kullan</value>
+  </data>
+  <data name="FactoryModel.Expiretype">
+    <value>Son kullanım tipi</value>
+  </data>
+  <data name="FactoryModel.Facrestrictmode">
+    <value>Fabrika kısıtlama modu</value>
+  </data>
+  <data name="FactoryModel.Factory">
+    <value>Fabrika</value>
+  </data>
+  <data name="FactoryModel.Fax">
+    <value>Fax</value>
+  </data>
+  <data name="FactoryModel.FixedPrices">
+    <value>Sabit fiyatları kullan</value>
+  </data>
+  <data name="FactoryModel.Flags1">
+    <value>Seçenekler 1</value>
+  </data>
+  <data name="FactoryModel.Flags2">
+    <value>Seçenekler 2</value>
+  </data>
+  <data name="FactoryModel.FTMaxCodeDuration">
+    <value>Hızlı izlem kodu süre sonu</value>
+  </data>
+  <data name="FactoryModel.FTMaxPlanDuration">
+    <value>hızlı izlem plan süre sonu</value>
+  </data>
+  <data name="FactoryModel.FTPlKeyId">
+    <value>hızlı izlem planı</value>
+  </data>
+  <data name="FactoryModel.GuestprofKeyId">
+    <value>Misafir kullanıcı profili</value>
+  </data>
+  <data name="FactoryModel.HourCosts">
+    <value>Saat maliyetleri</value>
+  </data>
+  <data name="FactoryModel.IncItemStockOnPack">
+    <value>Paketli kalem stoğunu arttır</value>
+  </data>
+  <data name="FactoryModel.IndicApproveLocaKeyId">
+    <value>İndikatör onaylanmış konum</value>
+  </data>
+  <data name="FactoryModel.IndicDisappLocaKeyId">
+    <value>İndikatör onaylanmayan konum</value>
+  </data>
+  <data name="FactoryModel.IndicPendingLocaKeyId">
+    <value>İndikatör bekleyen konumda</value>
+  </data>
+  <data name="FactoryModel.InvoiceLocktime">
+    <value>Fatura kilit tarihi</value>
+  </data>
+  <data name="FactoryModel.ItemAltPriceMode">
+    <value>Alt. Kalem fiyat modu</value>
+  </data>
+  <data name="FactoryModel.ItemDispAltPriceMode">
+    <value>Alt. sarf  kalemi fiyatlandırma modu</value>
+  </data>
+  <data name="FactoryModel.ItemDispPriceMode">
+    <value>Sarf kalem fiyatlandırma modu</value>
+  </data>
+  <data name="FactoryModel.ItemPriceMode">
+    <value>Kalem fiyatlandırma modu</value>
+  </data>
+  <data name="FactoryModel.KeyId">
+    <value>Fabrika ID</value>
+  </data>
+  <data name="FactoryModel.LoadnumberUsage">
+    <value>Kullanım sayısı yükle</value>
+  </data>
+  <data name="FactoryModel.MinOrderLeadTime">
+    <value>Min. ordering time before operation</value>
+  </data>
+  <data name="FactoryModel.MinOrderLeadTimeMode">
+    <value>Time mode</value>
+  </data>
+  <data name="FactoryModel.MoneyRounding">
+    <value>Yuvarlama</value>
+  </data>
+  <data name="FactoryModel.Name">
+    <value>İsim</value>
+  </data>
+  <data name="FactoryModel.OrderBookingMode">
+    <value>Komut rezervasyon modu</value>
+  </data>
+  <data name="FactoryModel.PreDispatch">
+    <value>Ön-sevk</value>
+  </data>
+  <data name="FactoryModel.RefNo">
+    <value>Ref. no.</value>
+  </data>
+  <data name="FactoryModel.Remark">
+    <value>Açıklama</value>
+  </data>
+  <data name="FactoryModel.RepairError">
+    <value>Onarım hatası</value>
+  </data>
+  <data name="FactoryModel.Repairmode">
+    <value>Onarım modu</value>
+  </data>
+  <data name="FactoryModel.SBFTAllStocks">
+    <value>All stocks</value>
+  </data>
+  <data name="FactoryModel.SBFTBlockStartedOp">
+    <value>Exclude started operations</value>
+  </data>
+  <data name="FactoryModel.SBFTDispatchedLGrpKeyId">
+    <value>Limit locations for dispatched units</value>
+  </data>
+  <data name="FactoryModel.SBFTEscFTCoKeyId">
+    <value>2nd Fast Track code</value>
+  </data>
+  <data name="FactoryModel.SBFTEscTime">
+    <value>Assign 2nd FT code after</value>
+  </data>
+  <data name="FactoryModel.SBFTFTCoKeyId">
+    <value>1st Fast Track code</value>
+  </data>
+  <data name="FactoryModel.SBFTMaxDelTime">
+    <value>Max time</value>
+  </data>
+  <data name="FactoryModel.SBFTMinDelTime">
+    <value>Min. time</value>
+  </data>
+  <data name="FactoryModel.SBFTMode">
+    <value>Enable Stock based fast tracking</value>
+  </data>
+  <data name="FactoryModel.SBFTOrdersFilter">
+    <value>Include</value>
+  </data>
+  <data name="FactoryModel.SealCount">
+    <value>Kapatmaların sayısı</value>
+  </data>
+  <data name="FactoryModel.SealPrint">
+    <value>Kapatıcı çıktısı</value>
+  </data>
+  <data name="FactoryModel.Setweightusage">
+    <value>Ağırlık kullanımı</value>
+  </data>
+  <data name="FactoryModel.Shortname">
+    <value>Kısa ad</value>
+  </data>
+  <data name="FactoryModel.Status">
+    <value>Durum</value>
+  </data>
+  <data name="FactoryModel.StgrKeyId">
+    <value>Stok grubu</value>
+  </data>
+  <data name="FactoryModel.SUAMatchConditions">
+    <value>Match conditions</value>
+  </data>
+  <data name="FactoryModel.SUAMaxUserComplexity">
+    <value>Max. User complexity</value>
+  </data>
+  <data name="FactoryModel.SUAMinProdComplexity">
+    <value>Min. Product complexity</value>
+  </data>
+  <data name="FactoryModel.SUAReqProdType">
+    <value>Required for products</value>
+  </data>
+  <data name="FactoryModel.Telephone">
+    <value>Telefon</value>
+  </data>
+  <data name="FactoryModel.TraceStokKeyId">
+    <value>İzlenebilir stok</value>
+  </data>
+  <data name="FactoryModel.TransitStokKeyId">
+    <value>Transit stok</value>
+  </data>
+  <data name="FactoryModel.TRGrpKeyId">
+    <value>Expire time group</value>
+  </data>
+  <data name="FactoryModel.Type">
+    <value>Tip</value>
+  </data>
+  <data name="FactoryModel.UserField01">
+    <value>Kullanıcı alanı 1</value>
+  </data>
+  <data name="FactoryModel.UserField02">
+    <value>Kullanıcı alanı 2</value>
+  </data>
+  <data name="FactoryModel.UserField03">
+    <value>Kullanıcı alanı 3</value>
+  </data>
+  <data name="FactoryModel.UserField04">
+    <value>Kullanıcı alanı 4</value>
+  </data>
+  <data name="FactoryModel.UserField05">
+    <value>Kullanıcı alanı 5</value>
+  </data>
+  <data name="FactoryModel.UserField06">
+    <value>Kullanıcı alanı 6</value>
+  </data>
+  <data name="FactoryModel.UserField07">
+    <value>Kullanıcı alanı 7</value>
+  </data>
+  <data name="FactoryModel.UserField08">
+    <value>Kullanıcı alanı 8</value>
+  </data>
+  <data name="FactoryModel.UserField09">
+    <value>Kullanıcı alanı 9</value>
+  </data>
+  <data name="FactoryModel.UserField10">
+    <value>Kullanıcı alanı 10</value>
+  </data>
+  <data name="FactoryModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="FactoryModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="FactoryModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="FactoryModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="FactoryModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="FactoryModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="FactoryModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="FactoryModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="FactoryModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="FactoryModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="FactoryModel.UIStartMode">
+    <value>Tarayıcı AY başlatma modu</value>
+  </data>
+  <data name="FactoryModel.UseColorFields">
+    <value>Renk alanları kullan</value>
+  </data>
+  <data name="FactoryModel.Usedispstockonpack">
+    <value>Paketlerlen kullan-at stağu kullan</value>
+  </data>
+  <data name="FactoryModel.UseNTLogin">
+    <value>NT girişi kullan</value>
+  </data>
+  <data name="FactoryModel.Webitemlocatorcolumns">
+    <value>Item locator display fields</value>
+  </data>
+  <data name="FactoryModel.WebLocaKeyId">
+    <value>Operation location</value>
+  </data>
+  <data name="FactoryModel.WebOrderInitStatus">
+    <value>Initial state for orders received from Web</value>
+  </data>
+  <data name="FactoryModel.Webprodlocatorcolumns">
+    <value>Product locator display fields</value>
+  </data>
+  <data name="FactoryModel.Website">
+    <value>Websitesi</value>
+  </data>
+  <data name="FastTrackCodeModel.Created">
+    <value></value>
+  </data>
+  <data name="FastTrackCodeModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="FastTrackCodeModel.Modified">
+    <value></value>
+  </data>
+  <data name="FastTrackCodeModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="FastTrackCodeModel.Code">
+    <value>Kod</value>
+  </data>
+  <data name="FastTrackCodeModel.Descr">
+    <value>Tanım</value>
+  </data>
+  <data name="FastTrackCodeModel.DisplayMode">
+    <value>Görünüm modu</value>
+  </data>
+  <data name="FastTrackCodeModel.EndLoGrpKeyId">
+    <value>Lokasyon grubunu sonlandır</value>
+  </data>
+  <data name="FastTrackCodeModel.EndStatus">
+    <value>Durumu sonlandır</value>
+  </data>
+  <data name="FastTrackCodeModel.EndTime">
+    <value>Sonlanma zamanı</value>
+  </data>
+  <data name="FastTrackCodeModel.InvoiceItemKeyId">
+    <value>Fatura kalemi</value>
+  </data>
+  <data name="FastTrackCodeModel.InvoicePrice">
+    <value>Fatura fiyatı</value>
+  </data>
+  <data name="FastTrackCodeModel.InvoiceTo">
+    <value>İçin fatura</value>
+  </data>
+  <data name="FastTrackCodeModel.InvoiceWithUnit">
+    <value>Birimle beraber fatura</value>
+  </data>
+  <data name="FastTrackCodeModel.KeyId">
+    <value>Hızlı izlem kodu ID</value>
+  </data>
+  <data name="FastTrackCodeModel.Name">
+    <value>İsim</value>
+  </data>
+  <data name="FastTrackCodeModel.Priority">
+    <value>Öncelik</value>
+  </data>
+  <data name="FastTrackCodeModel.StartLoGrpKeyId">
+    <value>Başlangıç konum grubu</value>
+  </data>
+  <data name="FastTrackCodeModel.StartStatus">
+    <value>Başlangıç durumu</value>
+  </data>
+  <data name="FastTrackCodeModel.StartTime">
+    <value>Başlangıç zamanı</value>
+  </data>
+  <data name="FastTrackCodeModel.Status">
+    <value>Durum</value>
+  </data>
+  <data name="FastTrackCodeModel.Type">
+    <value>Tip</value>
+  </data>
+  <data name="FastTrackCodeModel.Weekdays">
+    <value>Weekdays</value>
+  </data>
+  <data name="FastTrackPlanModel.Created">
+    <value></value>
+  </data>
+  <data name="FastTrackPlanModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="FastTrackPlanModel.Modified">
+    <value></value>
+  </data>
+  <data name="FastTrackPlanModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="FastTrackPlanModel.Descr">
+    <value>Tanım</value>
+  </data>
+  <data name="FastTrackPlanModel.DisplayMode">
+    <value>Görünüm modu</value>
+  </data>
+  <data name="FastTrackPlanModel.InvoiceItemKeyId">
+    <value>Fatura kalemi</value>
+  </data>
+  <data name="FastTrackPlanModel.InvoicePrice">
+    <value>Fiyat</value>
+  </data>
+  <data name="FastTrackPlanModel.InvoiceTo">
+    <value>İçin fatura</value>
+  </data>
+  <data name="FastTrackPlanModel.InvoiceWithUnit">
+    <value>Birimle beraber fatura</value>
+  </data>
+  <data name="FastTrackPlanModel.KeyId">
+    <value>hızlı izlem planı ID</value>
+  </data>
+  <data name="FastTrackPlanModel.Name">
+    <value>İsim</value>
+  </data>
+  <data name="FastTrackPlanModel.Plan">
+    <value>Plan</value>
+  </data>
+  <data name="FastTrackPlanModel.Priority">
+    <value>Öncelik</value>
+  </data>
+  <data name="FastTrackPlanModel.Status">
+    <value>Durum</value>
+  </data>
+  <data name="FastTrackPlanModel.WorkhourMode">
+    <value>İş saati modu</value>
+  </data>
+  <data name="FastTrackTemplateModel.Created">
+    <value></value>
+  </data>
+  <data name="FastTrackTemplateModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="FastTrackTemplateModel.Modified">
+    <value></value>
+  </data>
+  <data name="FastTrackTemplateModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="FastTrackTemplateModel.Descr">
+    <value>Tanım</value>
+  </data>
+  <data name="FastTrackTemplateModel.KeyId">
+    <value>hızlı izlem şablon ID</value>
+  </data>
+  <data name="FastTrackTemplateModel.Name">
+    <value>İsim</value>
+  </data>
+  <data name="FastTrackTemplateModel.Template">
+    <value>Şablon</value>
+  </data>
+  <data name="HandlingTypesModel.Created">
+    <value></value>
+  </data>
+  <data name="HandlingTypesModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="HandlingTypesModel.Modified">
+    <value></value>
+  </data>
+  <data name="HandlingTypesModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="HandlingTypesModel.Id">
+    <value>Handling type</value>
+  </data>
+  <data name="HandlingTypesModel.KeyId">
+    <value>Handling type ID</value>
+  </data>
+  <data name="HandlingTypesModel.Name">
+    <value>İsim</value>
+  </data>
+  <data name="HandlingTypesModel.Remark">
+    <value>Açıklamalar</value>
+  </data>
+  <data name="IdenticalArticleGroupModel.Forcealtarticles">
+    <value>Force all articles</value>
+  </data>
+  <data name="IdenticalArticleGroupModel.KeyId">
+    <value>Identical article group ID</value>
+  </data>
+  <data name="IdenticalArticleGroupModel.Name">
+    <value>Common name</value>
+  </data>
+  <data name="IdenticalArticleGroupModel.Type">
+    <value>Tip</value>
+  </data>
+  <data name="ItemModel.Created">
+    <value></value>
+  </data>
+  <data name="ItemModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="ItemModel.Modified">
+    <value></value>
+  </data>
+  <data name="ItemModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="ItemModel.Barcode">
+    <value>Barkodları</value>
+  </data>
+  <data name="ItemModel.CatKeyId">
+    <value>Katalog ID</value>
+  </data>
+  <data name="ItemModel.Color">
+    <value>Renk</value>
+  </data>
+  <data name="ItemModel.Composite">
+    <value>Bileşik</value>
+  </data>
+  <data name="ItemModel.Contamination">
+    <value>Kontaminasyon olasılığı</value>
+  </data>
+  <data name="ItemModel.Costprice">
+    <value>Maliyet fiyatı</value>
+  </data>
+  <data name="ItemModel.Difficulty">
+    <value>Karmaşıklık</value>
+  </data>
+  <data name="ItemModel.DifficultyMode">
+    <value>Complexity mode</value>
+  </data>
+  <data name="ItemModel.DiscardLevel">
+    <value>Discard level</value>
+  </data>
+  <data name="ItemModel.Disposable">
+    <value>Sarf</value>
+  </data>
+  <data name="ItemModel.DispPrice">
+    <value>Sarf fiyatı</value>
+  </data>
+  <data name="ItemModel.ExternalText">
+    <value>Harici metin</value>
+  </data>
+  <data name="ItemModel.ExternalType">
+    <value>Harici tip</value>
+  </data>
+  <data name="ItemModel.FacKeyId">
+    <value>Fabrika</value>
+  </data>
+  <data name="ItemModel.HospitalDescription">
+    <value>Yerel isim</value>
+  </data>
+  <data name="ItemModel.InArtKeyId">
+    <value>Identical</value>
+  </data>
+  <data name="ItemModel.Info">
+    <value>Açıklama</value>
+  </data>
+  <data name="ItemModel.Item">
+    <value>Kalem</value>
+  </data>
+  <data name="ItemModel.ItGrpKeyId">
+    <value>Grup</value>
+  </data>
+  <data name="ItemModel.ItspcKeyId">
+    <value>Özellik</value>
+  </data>
+  <data name="ItemModel.KeyId">
+    <value>Kalem kimliği</value>
+  </data>
+  <data name="ItemModel.Length">
+    <value>Uzunluk</value>
+  </data>
+  <data name="ItemModel.Lifespan">
+    <value>Yaşam süresi</value>
+  </data>
+  <data name="ItemModel.ManufactorNo">
+    <value>Üretici No</value>
+  </data>
+  <data name="ItemModel.ManuKeyId">
+    <value>Üretici</value>
+  </data>
+  <data name="ItemModel.Material">
+    <value>Materyal</value>
+  </data>
+  <data name="ItemModel.MaterialsNum">
+    <value>Eş No.</value>
+  </data>
+  <data name="ItemModel.MaxPressure">
+    <value>Maksimum basınç</value>
+  </data>
+  <data name="ItemModel.MaxTemp">
+    <value>Maksimum sıcaklık</value>
+  </data>
+  <data name="ItemModel.OrderLeadTime">
+    <value>Order lead time</value>
+  </data>
+  <data name="ItemModel.OrderMinCount">
+    <value>Minimum komut sayısı</value>
+  </data>
+  <data name="ItemModel.OrderStdCount">
+    <value>Komut paket boyutu</value>
+  </data>
+  <data name="ItemModel.OrderstduomKeyId">
+    <value>Komut paket ölçüleri</value>
+  </data>
+  <data name="ItemModel.OtherMinCount">
+    <value>Minimum int. Komut sayısı</value>
+  </data>
+  <data name="ItemModel.OtherUnitCount">
+    <value>Int. Komut paketi boyutu</value>
+  </data>
+  <data name="ItemModel.OtheruomKeyId">
+    <value>Int. Komut paketi ölçüsü</value>
+  </data>
+  <data name="ItemModel.RepairVendorKeyId">
+    <value>Onarım sağlayıcısı</value>
+  </data>
+  <data name="ItemModel.ReservationMode">
+    <value>Rezervasyon modu</value>
+  </data>
+  <data name="ItemModel.SalesMinCount">
+    <value>Minimum satış sayısı</value>
+  </data>
+  <data name="ItemModel.SalesPrCode">
+    <value>Satış Fiyatı Kodu</value>
+  </data>
+  <data name="ItemModel.SalesPrice">
+    <value>Satış Fiyatı</value>
+  </data>
+  <data name="ItemModel.SalesRestriction">
+    <value>Sales restriction</value>
+  </data>
+  <data name="ItemModel.SalesUnitCount">
+    <value>Satış paket boyutu</value>
+  </data>
+  <data name="ItemModel.SalesuomKeyId">
+    <value>Satış paket ölçümü</value>
+  </data>
+  <data name="ItemModel.Serialmask">
+    <value>Seri numara maskesi</value>
+  </data>
+  <data name="ItemModel.ShelvingTime">
+    <value>Raflama süresi</value>
+  </data>
+  <data name="ItemModel.SplitCount">
+    <value>Yıkama için etiketlerin sayısı</value>
+  </data>
+  <data name="ItemModel.Status">
+    <value>Durum</value>
+  </data>
+  <data name="ItemModel.SterilizationType">
+    <value>Sterilizasyon tipi</value>
+  </data>
+  <data name="ItemModel.SuppKeyId">
+    <value>Sağlayıcı</value>
+  </data>
+  <data name="ItemModel.SupplierNo">
+    <value>Sağlayıcı No:</value>
+  </data>
+  <data name="ItemModel.TagTKeyId">
+    <value>Etiket tipi</value>
+  </data>
+  <data name="ItemModel.Text">
+    <value>İsim</value>
+  </data>
+  <data name="ItemModel.Tip">
+    <value>İpucu</value>
+  </data>
+  <data name="ItemModel.Totalcostprice">
+    <value>Total cost price</value>
+  </data>
+  <data name="ItemModel.Totalsalesprice">
+    <value>Total sales price</value>
+  </data>
+  <data name="ItemModel.Totalusageprice">
+    <value>Total usage price</value>
+  </data>
+  <data name="ItemModel.TraceType">
+    <value>ile takip</value>
+  </data>
+  <data name="ItemModel.Type">
+    <value>Tip</value>
+  </data>
+  <data name="ItemModel.UserField01">
+    <value>Kullanıcı alanı 1</value>
+  </data>
+  <data name="ItemModel.UserField02">
+    <value>Kullanıcı alanı 2</value>
+  </data>
+  <data name="ItemModel.UserField03">
+    <value>Kullanıcı alanı 3</value>
+  </data>
+  <data name="ItemModel.UserField04">
+    <value>Kullanıcı alanı 4</value>
+  </data>
+  <data name="ItemModel.UserField05">
+    <value>Kullanıcı alanı 5</value>
+  </data>
+  <data name="ItemModel.UserField06">
+    <value>Kullanıcı alanı 6</value>
+  </data>
+  <data name="ItemModel.UserField07">
+    <value>Kullanıcı alanı 7</value>
+  </data>
+  <data name="ItemModel.UserField08">
+    <value>Kullanıcı alanı 8</value>
+  </data>
+  <data name="ItemModel.UserField09">
+    <value>Kullanıcı alanı 9</value>
+  </data>
+  <data name="ItemModel.UserField10">
+    <value>Kullanıcı alanı 10</value>
+  </data>
+  <data name="ItemModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="ItemModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="ItemModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="ItemModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="ItemModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="ItemModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="ItemModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="ItemModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="ItemModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="ItemModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="ItemModel.Unitcount">
+    <value>Ünite sayısı</value>
+  </data>
+  <data name="ItemModel.UomKeyId">
+    <value>Ünite ölçüsü</value>
+  </data>
+  <data name="ItemModel.UsagePrCode">
+    <value>Kullanım Ücret Kodu</value>
+  </data>
+  <data name="ItemModel.UsagePrice">
+    <value>Kullanım Ücreti</value>
+  </data>
+  <data name="ItemModel.Warrenty">
+    <value>Garanti</value>
+  </data>
+  <data name="ItemModel.Weight">
+    <value>Ağırlık</value>
+  </data>
+  <data name="ItemModel.WeightMode">
+    <value>Ağırlık modu</value>
+  </data>
+  <data name="ItemModel.Width">
+    <value>Genişlik</value>
+  </data>
+  <data name="PackingModel.Created">
+    <value></value>
+  </data>
+  <data name="PackingModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="PackingModel.Modified">
+    <value></value>
+  </data>
+  <data name="PackingModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="PackingModel.Color">
+    <value>Renk</value>
+  </data>
+  <data name="PackingModel.Description">
+    <value>Tanım</value>
+  </data>
+  <data name="PackingModel.FacKeyId">
+    <value>Fabrika</value>
+  </data>
+  <data name="PackingModel.FixedTime">
+    <value>Sabit zaman</value>
+  </data>
+  <data name="PackingModel.ItemKeyId">
+    <value>Kalem</value>
+  </data>
+  <data name="PackingModel.KeyId">
+    <value>Paketleme Kimliği</value>
+  </data>
+  <data name="PackingModel.Packing">
+    <value>Paketleme</value>
+  </data>
+  <data name="PackingModel.RelativeTime">
+    <value>Bağıl zaman</value>
+  </data>
+  <data name="PackingModel.SealCount">
+    <value>Kapatmaların sayısı</value>
+  </data>
+  <data name="PackingModel.SealPrint">
+    <value>Kapatıcı çıktısı</value>
+  </data>
+  <data name="PackingModel.SeprgKeyId">
+    <value>Kapatıcı programı</value>
+  </data>
+  <data name="PackingModel.ShelfLife">
+    <value>Raf Ömrü</value>
+  </data>
+  <data name="PackingModel.Status">
+    <value>Durum</value>
+  </data>
+  <data name="PackingModel.TagTKeyId">
+    <value>Etiket tipi</value>
+  </data>
+  <data name="PackingModel.Tracetype">
+    <value>Include in pack list</value>
+  </data>
+  <data name="PackingModel.UsedFor">
+    <value>Şunun için kullanıldı</value>
+  </data>
+  <data name="PackingModel.Volume">
+    <value>Hacim</value>
+  </data>
+  <data name="PackingModel.Weight">
+    <value>Ağırlık</value>
+  </data>
+  <data name="PackingModel.WeightDisposable">
+    <value>Sarf ağırlık</value>
+  </data>
+  <data name="PackingModel.WeightMode">
+    <value>Ağırlık modu</value>
+  </data>
+  <data name="PackingModel.WeightNonDisposable">
+    <value>Tek kullanımlık olmayan ağırlık</value>
+  </data>
+  <data name="PriceGroupModel.Created">
+    <value></value>
+  </data>
+  <data name="PriceGroupModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="PriceGroupModel.Modified">
+    <value></value>
+  </data>
+  <data name="PriceGroupModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="PriceGroupModel.Descr">
+    <value>Açıklama</value>
+  </data>
+  <data name="PriceGroupModel.KeyId">
+    <value>Fiyat grubu kimliği</value>
+  </data>
+  <data name="PriceGroupModel.Name">
+    <value>İsim</value>
+  </data>
+  <data name="PriceGroupModel.Price">
+    <value>Fiyat</value>
+  </data>
+  <data name="PriceGroupModel.PriceGroup">
+    <value>Fiyat grubu</value>
+  </data>
+  <data name="TimeRuleGroupModel.Created">
+    <value></value>
+  </data>
+  <data name="TimeRuleGroupModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="TimeRuleGroupModel.Modified">
+    <value></value>
+  </data>
+  <data name="TimeRuleGroupModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="TimeRuleGroupModel.FacKeyId">
+    <value>Fabrika</value>
+  </data>
+  <data name="TimeRuleGroupModel.Id">
+    <value>Kimlik</value>
+  </data>
+  <data name="TimeRuleGroupModel.KeyId">
+    <value>Expire time group ID</value>
+  </data>
+  <data name="TimeRuleGroupModel.Name">
+    <value>İsim</value>
+  </data>
+  <data name="TimeRuleGroupModel.Remark">
+    <value>Açıklamalar</value>
+  </data>
+  <data name="WeightPlanModel.Created">
+    <value></value>
+  </data>
+  <data name="WeightPlanModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="WeightPlanModel.Modified">
+    <value></value>
+  </data>
+  <data name="WeightPlanModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="WeightPlanModel.Descr">
+    <value>Tanım</value>
+  </data>
+  <data name="WeightPlanModel.KeyId">
+    <value>Ağırlık planı ID</value>
+  </data>
+  <data name="WeightPlanModel.Name">
+    <value>İsim</value>
+  </data>
+  <data name="WeightPlanModel.WeightPlan">
+    <value>Ağırlık planı</value>
+  </data>
+  <data name="ProfileModel.Created">
+    <value></value>
+  </data>
+  <data name="ProfileModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="ProfileModel.Modified">
+    <value></value>
+  </data>
+  <data name="ProfileModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="ProfileModel.AncestorKeyId">
+    <value>Kullanıcı grubu</value>
+  </data>
+  <data name="ProfileModel.KeyId">
+    <value>Profil kimliği</value>
+  </data>
+  <data name="ProfileModel.Name">
+    <value>İsim</value>
+  </data>
+  <data name="ProfileModel.Profile">
+    <value>Profil</value>
+  </data>
+  <data name="ProfileModel.Type">
+    <value>Tip</value>
+  </data>
+  <data name="ProfileModel.UpdateRequired">
+    <value>Update required</value>
+  </data>
+  <data name="CalendarModel.Created">
+    <value></value>
+  </data>
+  <data name="CalendarModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="CalendarModel.Modified">
+    <value></value>
+  </data>
+  <data name="CalendarModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="CalendarModel.KeyId">
+    <value>Takvim ID</value>
+  </data>
+  <data name="CalendarModel.Name">
+    <value>İsim</value>
+  </data>
+  <data name="CalendarModel.ParentCalKeyId">
+    <value>Üst</value>
+  </data>
+  <data name="StocksModel.AllowItems">
+    <value>Kalemler izin verilmiş</value>
+  </data>
+  <data name="StocksModel.AllowNegCount">
+    <value>Negatif stok sayımına izin verilmiştir</value>
+  </data>
+  <data name="StocksModel.AllowProducts">
+    <value>Ürünlere izin verilmiştir</value>
+  </data>
+  <data name="StocksModel.AutomationMode">
+    <value>Automation mode</value>
+  </data>
+  <data name="StocksModel.AutoReorder">
+    <value>Otomatik yeniden Sipariş</value>
+  </data>
+  <data name="StocksModel.Barcode">
+    <value>Barkodları</value>
+  </data>
+  <data name="StocksModel.BOInMode">
+    <value>Ön sipariş açık-modu</value>
+  </data>
+  <data name="StocksModel.BOOutMode">
+    <value>Ön sipariş kapalı modu</value>
+  </data>
+  <data name="StocksModel.DefIdentLineUsage">
+    <value>Use identical articles</value>
+  </data>
+  <data name="StocksModel.Descr">
+    <value>Tanım</value>
+  </data>
+  <data name="StocksModel.DropItemSuppOnSugg">
+    <value>Önerilerde kalem desteğini düşür</value>
+  </data>
+  <data name="StocksModel.EmgCTKeyId">
+    <value>Emergency case cart type</value>
+  </data>
+  <data name="StocksModel.FacKeyId">
+    <value>Fabrika</value>
+  </data>
+  <data name="StocksModel.IsTracestock">
+    <value>Fabrika stok izleme</value>
+  </data>
+  <data name="StocksModel.IsTransitStock">
+    <value>Fabrika stok geçişi</value>
+  </data>
+  <data name="StocksModel.KeyId">
+    <value>Stok ID</value>
+  </data>
+  <data name="StocksModel.LocaKeyId">
+    <value>Konum</value>
+  </data>
+  <data name="StocksModel.Name">
+    <value>İsim</value>
+  </data>
+  <data name="StocksModel.OpTKeyId">
+    <value>İşlem tipi</value>
+  </data>
+  <data name="StocksModel.OrderInMode">
+    <value>Satınalma emri kabulü</value>
+  </data>
+  <data name="StocksModel.PlacementMask">
+    <value>Yerleşim maskesi</value>
+  </data>
+  <data name="StocksModel.PrnBackOrder">
+    <value>Ön siparişler</value>
+  </data>
+  <data name="StocksModel.PrnCompletedOrder">
+    <value>Tamamlanan işemirleri</value>
+  </data>
+  <data name="StocksModel.PrnConfirmation">
+    <value>Komut konfirmasyonu</value>
+  </data>
+  <data name="StocksModel.PrnDelivery">
+    <value>Gönderim notu</value>
+  </data>
+  <data name="StocksModel.PrnPicklist">
+    <value>Listeyi topla</value>
+  </data>
+  <data name="StocksModel.PrnReceivedOrder">
+    <value>Alınan emirler</value>
+  </data>
+  <data name="StocksModel.PrnSentOrder">
+    <value>Gönderilen sipariş</value>
+  </data>
+  <data name="StocksModel.RefCustKeyId">
+    <value>Sahip (Müşteri)</value>
+  </data>
+  <data name="StocksModel.RefFacKeyId">
+    <value>Sahip (Fabrika)</value>
+  </data>
+  <data name="StocksModel.RefSuppKeyId">
+    <value>Sahip (Tedarikçi)</value>
+  </data>
+  <data name="StocksModel.Status">
+    <value>Durum</value>
+  </data>
+  <data name="StocksModel.Stock">
+    <value>Stok</value>
+  </data>
+  <data name="StocksModel.SuppRefFacKeyId">
+    <value>Sağlayıcı (Fabrika)</value>
+  </data>
+  <data name="StocksModel.SuppRefSuppKeyId">
+    <value>Sağlayıcı (Sağlayıcı)</value>
+  </data>
+  <data name="StocksModel.Type">
+    <value>Tip</value>
+  </data>
+  <data name="StocksModel.UserField01">
+    <value>Kullanıcı alanı 1</value>
+  </data>
+  <data name="StocksModel.UserField02">
+    <value>Kullanıcı alanı 2</value>
+  </data>
+  <data name="StocksModel.UserField03">
+    <value>Kullanıcı alanı 3</value>
+  </data>
+  <data name="StocksModel.UserField04">
+    <value>Kullanıcı alanı 4</value>
+  </data>
+  <data name="StocksModel.UserField05">
+    <value>Kullanıcı alanı 5</value>
+  </data>
+  <data name="StocksModel.UserField06">
+    <value>Kullanıcı alanı 6</value>
+  </data>
+  <data name="StocksModel.UserField07">
+    <value>Kullanıcı alanı 7</value>
+  </data>
+  <data name="StocksModel.UserField08">
+    <value>Kullanıcı alanı 8</value>
+  </data>
+  <data name="StocksModel.UserField09">
+    <value>Kullanıcı alanı 9</value>
+  </data>
+  <data name="StocksModel.UserField10">
+    <value>Kullanıcı alanı 10</value>
+  </data>
+  <data name="StocksModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="StocksModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="StocksModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="StocksModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="StocksModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="StocksModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="StocksModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="StocksModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="StocksModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="StocksModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="StockGroupModel.Created">
+    <value></value>
+  </data>
+  <data name="StockGroupModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="StockGroupModel.Modified">
+    <value></value>
+  </data>
+  <data name="StockGroupModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="StockGroupModel.Descr">
+    <value>Tanım</value>
+  </data>
+  <data name="StockGroupModel.KeyId">
+    <value>Stok grubu ID</value>
+  </data>
+  <data name="StockGroupModel.Name">
+    <value>İsim</value>
+  </data>
+  <data name="StockGroupModel.StockGroup">
+    <value>Stok grubu</value>
+  </data>
+  <data name="ProcessModel.ApproveTime">
+    <value>Onaylandı</value>
+  </data>
+  <data name="ProcessModel.ApproveUserKeyId">
+    <value>Tarafından onaylandı:</value>
+  </data>
+  <data name="ProcessModel.Batch">
+    <value>Parti</value>
+  </data>
+  <data name="ProcessModel.Charge">
+    <value>Döngü</value>
+  </data>
+  <data name="ProcessModel.DisapproveUserKeyId">
+    <value>Tarafından reddedildi:</value>
+  </data>
+  <data name="ProcessModel.EndTime">
+    <value>Sonlandı</value>
+  </data>
+  <data name="ProcessModel.Envhumidity">
+    <value>Çev. nemi</value>
+  </data>
+  <data name="ProcessModel.Envpressure">
+    <value>Çev. basıncı</value>
+  </data>
+  <data name="ProcessModel.Envtemp">
+    <value>Çev. sıcaklığı</value>
+  </data>
+  <data name="ProcessModel.Error">
+    <value>Sistem Hatası</value>
+  </data>
+  <data name="ProcessModel.ExternalBatchNo">
+    <value>Harici parti no.</value>
+  </data>
+  <data name="ProcessModel.InitiateTime">
+    <value>Başlatıldı</value>
+  </data>
+  <data name="ProcessModel.InitiatorUserKeyId">
+    <value>Başlatıcı</value>
+  </data>
+  <data name="ProcessModel.LoadNumber">
+    <value>Yük numarası</value>
+  </data>
+  <data name="ProcessModel.MachKeyId">
+    <value>Cihaz</value>
+  </data>
+  <data name="ProcessModel.NativeError">
+    <value>Cihaz hatası</value>
+  </data>
+  <data name="ProcessModel.NativeErrortext">
+    <value>Cihaz metni</value>
+  </data>
+  <data name="ProcessModel.ProgKeyId">
+    <value>Program</value>
+  </data>
+  <data name="ProcessModel.ScanRefPreKeyId">
+    <value>Taranan tarif</value>
+  </data>
+  <data name="ProcessModel.ScanRefProgKeyId">
+    <value>Taranan program</value>
+  </data>
+  <data name="ProcessModel.SecondApproveComment">
+    <value>Yorum</value>
+  </data>
+  <data name="ProcessModel.SecondApproveUserKeyId">
+    <value>Second approval</value>
+  </data>
+  <data name="ProcessModel.StartTime">
+    <value>Başlatıldı</value>
+  </data>
+  <data name="ProcessModel.StartTime2">
+    <value>Başlatıldı 2</value>
+  </data>
+  <data name="ProcessModel.Status">
+    <value>Durum</value>
+  </data>
+  <data name="ProcessModel.Type">
+    <value>Tip</value>
+  </data>
+  <data name="SupplierModel.Created">
+    <value></value>
+  </data>
+  <data name="SupplierModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="SupplierModel.Modified">
+    <value></value>
+  </data>
+  <data name="SupplierModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="SupplierModel.Acceptorders">
+    <value>Satınalma emirleri kabul</value>
+  </data>
+  <data name="SupplierModel.Address1">
+    <value>Adres</value>
+  </data>
+  <data name="SupplierModel.Address2">
+    <value>Adres (2)</value>
+  </data>
+  <data name="SupplierModel.Barcode">
+    <value>Barkodları</value>
+  </data>
+  <data name="SupplierModel.CalKeyId">
+    <value>Takvim</value>
+  </data>
+  <data name="SupplierModel.City">
+    <value>Posta Kodu/Şehir</value>
+  </data>
+  <data name="SupplierModel.Country">
+    <value>Ülke</value>
+  </data>
+  <data name="SupplierModel.Email">
+    <value>email</value>
+  </data>
+  <data name="SupplierModel.FacKeyId">
+    <value>Fabrika</value>
+  </data>
+  <data name="SupplierModel.Fax">
+    <value>Fax</value>
+  </data>
+  <data name="SupplierModel.Flags1">
+    <value>Seçenekler</value>
+  </data>
+  <data name="SupplierModel.Internal">
+    <value>Dahili</value>
+  </data>
+  <data name="SupplierModel.KeyId">
+    <value>Sağlayıcı ID</value>
+  </data>
+  <data name="SupplierModel.Name">
+    <value>İsim</value>
+  </data>
+  <data name="SupplierModel.OrderDelTime">
+    <value>Komut teslim zamanı</value>
+  </data>
+  <data name="SupplierModel.OrderHandlingTime">
+    <value>Komut işleme zamanı</value>
+  </data>
+  <data name="SupplierModel.OrderRampTime">
+    <value>Komut eğim zamanı</value>
+  </data>
+  <data name="SupplierModel.OrderTransmitTime">
+    <value>Komut aktarım zamanı</value>
+  </data>
+  <data name="SupplierModel.OwnCustNumber">
+    <value>Kendi numarası</value>
+  </data>
+  <data name="SupplierModel.Remark">
+    <value>Açıklama</value>
+  </data>
+  <data name="SupplierModel.RepairVendorKeyId">
+    <value>Onarım sağlayıcısı</value>
+  </data>
+  <data name="SupplierModel.Status">
+    <value>Durum</value>
+  </data>
+  <data name="SupplierModel.Supplier">
+    <value>Sağlayıcı</value>
+  </data>
+  <data name="SupplierModel.Telephone">
+    <value>Telefon</value>
+  </data>
+  <data name="SupplierModel.Type">
+    <value>Tip</value>
+  </data>
+  <data name="SupplierModel.UserField01">
+    <value>Kullanıcı alanı 1</value>
+  </data>
+  <data name="SupplierModel.UserField02">
+    <value>Kullanıcı alanı 2</value>
+  </data>
+  <data name="SupplierModel.UserField03">
+    <value>Kullanıcı alanı 3</value>
+  </data>
+  <data name="SupplierModel.UserField04">
+    <value>Kullanıcı alanı 4</value>
+  </data>
+  <data name="SupplierModel.UserField05">
+    <value>Kullanıcı alanı 5</value>
+  </data>
+  <data name="SupplierModel.UserField06">
+    <value>Kullanıcı alanı 6</value>
+  </data>
+  <data name="SupplierModel.UserField07">
+    <value>Kullanıcı alanı 7</value>
+  </data>
+  <data name="SupplierModel.UserField08">
+    <value>Kullanıcı alanı 8</value>
+  </data>
+  <data name="SupplierModel.UserField09">
+    <value>Kullanıcı alanı 9</value>
+  </data>
+  <data name="SupplierModel.UserField10">
+    <value>Kullanıcı alanı 10</value>
+  </data>
+  <data name="SupplierModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="SupplierModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="SupplierModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="SupplierModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="SupplierModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="SupplierModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="SupplierModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="SupplierModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="SupplierModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="SupplierModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="SupplierModel.WebPassword">
+    <value>Web/FTP şifresi</value>
+  </data>
+  <data name="SupplierModel.WebSite">
+    <value>Web Sitesi</value>
+  </data>
+  <data name="SupplierModel.WebUser">
+    <value>Web/FTP kullanıcısı</value>
+  </data>
+  <data name="LocationModel.Created">
+    <value></value>
+  </data>
+  <data name="LocationModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="LocationModel.Modified">
+    <value></value>
+  </data>
+  <data name="LocationModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="LocationModel.AutoStokKeyId">
+    <value>Sarf stoğu</value>
+  </data>
+  <data name="LocationModel.Barcode">
+    <value>Barkodları</value>
+  </data>
+  <data name="LocationModel.DefUserKeyId">
+    <value>Varsayılan kullanıcı</value>
+  </data>
+  <data name="LocationModel.Descr">
+    <value>Tanım</value>
+  </data>
+  <data name="LocationModel.Direction">
+    <value>Yönlendirme</value>
+  </data>
+  <data name="LocationModel.FacKeyId">
+    <value>Fabrika</value>
+  </data>
+  <data name="LocationModel.Flags">
+    <value>Bayraklar</value>
+  </data>
+  <data name="LocationModel.IdlemacroKeyId">
+    <value>Idle macro</value>
+  </data>
+  <data name="LocationModel.Idlemacrotime">
+    <value>Idle macro time</value>
+  </data>
+  <data name="LocationModel.Info">
+    <value>Bilgi</value>
+  </data>
+  <data name="LocationModel.IsMaster">
+    <value>Ana konumdur</value>
+  </data>
+  <data name="LocationModel.KeyId">
+    <value>Konum kimliği</value>
+  </data>
+  <data name="LocationModel.MacroKeyId">
+    <value>Makro</value>
+  </data>
+  <data name="LocationModel.MasterLocaKeyId">
+    <value>Ana Konum</value>
+  </data>
+  <data name="LocationModel.MesConfig">
+    <value>MES configuration</value>
+  </data>
+  <data name="LocationModel.Name">
+    <value>İsim</value>
+  </data>
+  <data name="LocationModel.Process">
+    <value>İşlem</value>
+  </data>
+  <data name="LocationModel.ProcessOpt">
+    <value>İşlem seçenekleri</value>
+  </data>
+  <data name="LocationModel.Status">
+    <value>Durum</value>
+  </data>
+  <data name="LocationModel.StokKeyId">
+    <value>Stok</value>
+  </data>
+  <data name="LocationModel.SubProcess">
+    <value>Subprocess</value>
+  </data>
+  <data name="LocationModel.Tag">
+    <value>Etiket</value>
+  </data>
+  <data name="LocationModel.UIAvailability">
+    <value>Erişilebilirik</value>
+  </data>
+  <data name="LocationModel.UiLdKeyId">
+    <value>KA Tabaka</value>
+  </data>
+  <data name="LocationModel.UIStartMode">
+    <value>Tarayıcı AY başlatma modu</value>
+  </data>
+  <data name="FixedStockPlacementsModel.KeyId">
+    <value>Sabit stok lokasyonu ID</value>
+  </data>
+  <data name="FixedStockPlacementsModel.Name">
+    <value>İsim</value>
+  </data>
+  <data name="FixedStockPlacementsModel.Placement">
+    <value>Yerleşim</value>
+  </data>
+  <data name="FixedStockPlacementsModel.StokKeyId">
+    <value>Stok</value>
+  </data>
+  <data name="TextModel.Created">
+    <value></value>
+  </data>
+  <data name="TextModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="TextModel.Modified">
+    <value></value>
+  </data>
+  <data name="TextModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="TextModel.Data">
+    <value>Veri</value>
+  </data>
+  <data name="TextModel.FloatOption">
+    <value>Değer</value>
+  </data>
+  <data name="TextModel.KeyId">
+    <value>Text ID</value>
+  </data>
+  <data name="TextModel.Memo">
+    <value>Tanım</value>
+  </data>
+  <data name="TextModel.Number">
+    <value>No.</value>
+  </data>
+  <data name="TextModel.Option">
+    <value>Seçenek</value>
+  </data>
+  <data name="TextModel.SysOption">
+    <value>Sistem Seçeneği</value>
+  </data>
+  <data name="TextModel.Text">
+    <value>Metin</value>
+  </data>
+  <data name="TextModel.Type">
+    <value>Tip</value>
+  </data>
+  <data name="LocationGroupModel.Created">
+    <value></value>
+  </data>
+  <data name="LocationGroupModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="LocationGroupModel.Modified">
+    <value></value>
+  </data>
+  <data name="LocationGroupModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="LocationGroupModel.Descr">
+    <value>Tanım</value>
+  </data>
+  <data name="LocationGroupModel.KeyId">
+    <value>Konum grubu kimliği</value>
+  </data>
+  <data name="LocationGroupModel.LocationGroup">
+    <value>Konum grubu</value>
+  </data>
+  <data name="LocationGroupModel.Name">
+    <value>İsim</value>
+  </data>
+  <data name="LocationGroupModel.Vicinity">
+    <value>Vicinity</value>
+  </data>
+  <data name="CatalogModel.Created">
+    <value></value>
+  </data>
+  <data name="CatalogModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="CatalogModel.Modified">
+    <value></value>
+  </data>
+  <data name="CatalogModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="CatalogModel.CatalogNo">
+    <value>Katalog no.</value>
+  </data>
+  <data name="CatalogModel.CostPrice">
+    <value>Maliyet fiyatı</value>
+  </data>
+  <data name="CatalogModel.Disposable">
+    <value>Sarf</value>
+  </data>
+  <data name="CatalogModel.ItGrpKeyId">
+    <value>Kalem grubu</value>
+  </data>
+  <data name="CatalogModel.ItspcKeyId">
+    <value>Özellik</value>
+  </data>
+  <data name="CatalogModel.KeyId">
+    <value>Katalog ID</value>
+  </data>
+  <data name="CatalogModel.Length">
+    <value>Uzunluk</value>
+  </data>
+  <data name="CatalogModel.LifeSpan">
+    <value>Yaşam süresi</value>
+  </data>
+  <data name="CatalogModel.ManufactorNo">
+    <value>Üretici No.</value>
+  </data>
+  <data name="CatalogModel.ManuKeyId">
+    <value>Üretici</value>
+  </data>
+  <data name="CatalogModel.Material">
+    <value>Materyal</value>
+  </data>
+  <data name="CatalogModel.MaterialsNum">
+    <value>Eş No.</value>
+  </data>
+  <data name="CatalogModel.MaxPressure">
+    <value>Maksimum basınç</value>
+  </data>
+  <data name="CatalogModel.MaxTemp">
+    <value>Maksimum sıcaklık</value>
+  </data>
+  <data name="CatalogModel.OrderMinCount">
+    <value>Minimum komut sayısı</value>
+  </data>
+  <data name="CatalogModel.OrderStdCount">
+    <value>Komut paket boyutu</value>
+  </data>
+  <data name="CatalogModel.OrderstduomKeyId">
+    <value>Komut paket ölçüleri</value>
+  </data>
+  <data name="CatalogModel.OtherUnitCount">
+    <value>Alt. Birim sayısı</value>
+  </data>
+  <data name="CatalogModel.OtheruomKeyId">
+    <value>Alt. Birim ölçüsü</value>
+  </data>
+  <data name="CatalogModel.RepairVendorKeyId">
+    <value>Onarım sağlayıcısı</value>
+  </data>
+  <data name="CatalogModel.SterilizationType">
+    <value>Sterilizasyon tipi</value>
+  </data>
+  <data name="CatalogModel.SuppKeyId">
+    <value>Sağlayıcı</value>
+  </data>
+  <data name="CatalogModel.Text">
+    <value>İsim</value>
+  </data>
+  <data name="CatalogModel.Tip">
+    <value>İpucu</value>
+  </data>
+  <data name="CatalogModel.UnitCount">
+    <value>Ünite sayısı</value>
+  </data>
+  <data name="CatalogModel.UomKeyId">
+    <value>Ünite ölçüsü</value>
+  </data>
+  <data name="CatalogModel.Warranty">
+    <value>Garanti</value>
+  </data>
+  <data name="CatalogModel.Weight">
+    <value>Ağırlık</value>
+  </data>
+  <data name="CatalogModel.Width">
+    <value>Genişlik</value>
+  </data>
+  <data name="ItemGroupModel.Descr">
+    <value>Tanım</value>
+  </data>
+  <data name="ItemGroupModel.FacKeyId">
+    <value>Fabrika</value>
+  </data>
+  <data name="ItemGroupModel.ItemGroup">
+    <value>Kalem grubu</value>
+  </data>
+  <data name="ItemGroupModel.KeyId">
+    <value>Kalem grup kimliği</value>
+  </data>
+  <data name="ItemGroupModel.Name">
+    <value>İsim</value>
+  </data>
+  <data name="ItemGroupModel.PricingType">
+    <value>Fiyatlandırma tipi</value>
+  </data>
+  <data name="ItemSpecialtyModel.Descr">
+    <value>Tanım</value>
+  </data>
+  <data name="ItemSpecialtyModel.FacKeyId">
+    <value>Fabrika</value>
+  </data>
+  <data name="ItemSpecialtyModel.KeyId">
+    <value>Özellik ID</value>
+  </data>
+  <data name="ItemSpecialtyModel.Name">
+    <value>İsim</value>
+  </data>
+  <data name="ItemSpecialtyModel.Specialty">
+    <value>Özellik</value>
+  </data>
+  <data name="ItemUOMModel.Descr">
+    <value>Tanım</value>
+  </data>
+  <data name="ItemUOMModel.KeyId">
+    <value>Ölçü birimi ID</value>
+  </data>
+  <data name="ItemUOMModel.Name">
+    <value>İsim</value>
+  </data>
+  <data name="ItemUOMModel.Uom">
+    <value>Ölçü birimi</value>
+  </data>
+  <data name="TagTypeModel.Created">
+    <value></value>
+  </data>
+  <data name="TagTypeModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="TagTypeModel.Modified">
+    <value></value>
+  </data>
+  <data name="TagTypeModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="TagTypeModel.Descr">
+    <value>Açıklamalar</value>
+  </data>
+  <data name="TagTypeModel.Height">
+    <value>Yükseklik</value>
+  </data>
+  <data name="TagTypeModel.HeightCapacity">
+    <value>Height capacity</value>
+  </data>
+  <data name="TagTypeModel.HoldsItems">
+    <value>Holds items</value>
+  </data>
+  <data name="TagTypeModel.InTTGKeyId">
+    <value>Identical tag type group</value>
+  </data>
+  <data name="TagTypeModel.KeyId">
+    <value>Tag type ID</value>
+  </data>
+  <data name="TagTypeModel.Name">
+    <value>İsim</value>
+  </data>
+  <data name="TagTypeModel.SuppKeyId">
+    <value>Onarım sağlayıcısı</value>
+  </data>
+  <data name="TagTypeModel.SysType">
+    <value>Sistem tipi</value>
+  </data>
+  <data name="TagTypeModel.Type">
+    <value>Tip</value>
+  </data>
+  <data name="TagTypeModel.UserField01">
+    <value>Kullanıcı alanı 1</value>
+  </data>
+  <data name="TagTypeModel.UserField02">
+    <value>Kullanıcı alanı 2</value>
+  </data>
+  <data name="TagTypeModel.UserField03">
+    <value>Kullanıcı alanı 3</value>
+  </data>
+  <data name="TagTypeModel.UserField04">
+    <value>Kullanıcı alanı 4</value>
+  </data>
+  <data name="TagTypeModel.UserField05">
+    <value>Kullanıcı alanı 5</value>
+  </data>
+  <data name="TagTypeModel.UserField06">
+    <value>Kullanıcı alanı 6</value>
+  </data>
+  <data name="TagTypeModel.UserField07">
+    <value>Kullanıcı alanı 7</value>
+  </data>
+  <data name="TagTypeModel.UserField08">
+    <value>Kullanıcı alanı 8</value>
+  </data>
+  <data name="TagTypeModel.UserField09">
+    <value>Kullanıcı alanı 9</value>
+  </data>
+  <data name="TagTypeModel.UserField10">
+    <value>Kullanıcı alanı 10</value>
+  </data>
+  <data name="TagTypeModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="TagTypeModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="TagTypeModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="TagTypeModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="TagTypeModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="TagTypeModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="TagTypeModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="TagTypeModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="TagTypeModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="TagTypeModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="TagTypeModel.Width">
+    <value>Genişlik</value>
+  </data>
+  <data name="TagTypeModel.WidthCapacity">
+    <value>Width capacity</value>
+  </data>
+  <data name="SealerProgramModel.Created">
+    <value></value>
+  </data>
+  <data name="SealerProgramModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="SealerProgramModel.Modified">
+    <value></value>
+  </data>
+  <data name="SealerProgramModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="SealerProgramModel.KeyId">
+    <value>Kapatıcı programı ID</value>
+  </data>
+  <data name="SealerProgramModel.Name">
+    <value>İsim</value>
+  </data>
+  <data name="SealerProgramModel.Pres">
+    <value>Basınç</value>
+  </data>
+  <data name="SealerProgramModel.Program">
+    <value>Program</value>
+  </data>
+  <data name="SealerProgramModel.Temp">
+    <value>Sıcaklık</value>
+  </data>
+  <data name="EmgCaseCartTypeModel.Created">
+    <value></value>
+  </data>
+  <data name="EmgCaseCartTypeModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="EmgCaseCartTypeModel.Modified">
+    <value></value>
+  </data>
+  <data name="EmgCaseCartTypeModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="EmgCaseCartTypeModel.CuSiteKeyId">
+    <value>Müşteri bölgesi</value>
+  </data>
+  <data name="EmgCaseCartTypeModel.Descr">
+    <value>Açıklama</value>
+  </data>
+  <data name="EmgCaseCartTypeModel.Id">
+    <value>Tip</value>
+  </data>
+  <data name="EmgCaseCartTypeModel.KeyId">
+    <value>Anahtar Kimliği</value>
+  </data>
+  <data name="EmgCaseCartTypeModel.Name">
+    <value>İsim</value>
+  </data>
+  <data name="EmgCaseCartTypeModel.OptKeyId">
+    <value>İşlem tipi</value>
+  </data>
+  <data name="OperationTypeModel.Created">
+    <value></value>
+  </data>
+  <data name="OperationTypeModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="OperationTypeModel.Modified">
+    <value></value>
+  </data>
+  <data name="OperationTypeModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="OperationTypeModel.AssDoctorCount">
+    <value>Yardımcı doktor sayısı</value>
+  </data>
+  <data name="OperationTypeModel.Cleanup">
+    <value>Temizlik</value>
+  </data>
+  <data name="OperationTypeModel.CntpsKeyId">
+    <value>Counting point group</value>
+  </data>
+  <data name="OperationTypeModel.Code">
+    <value>Kod</value>
+  </data>
+  <data name="OperationTypeModel.DefcustKeyId">
+    <value>Standart müşteri</value>
+  </data>
+  <data name="OperationTypeModel.DefcuststokKeyId">
+    <value>Standart müşteri stoğu</value>
+  </data>
+  <data name="OperationTypeModel.DefroomKeyId">
+    <value>Oda</value>
+  </data>
+  <data name="OperationTypeModel.Desc">
+    <value>Tanım</value>
+  </data>
+  <data name="OperationTypeModel.Duration">
+    <value>Süre</value>
+  </data>
+  <data name="OperationTypeModel.KeyId">
+    <value>İşlem tipi kimliği</value>
+  </data>
+  <data name="OperationTypeModel.MinOrderLeadTime">
+    <value>Min. ordering time before operation</value>
+  </data>
+  <data name="OperationTypeModel.Name">
+    <value>İsim</value>
+  </data>
+  <data name="OperationTypeModel.PatAgeUsage">
+    <value>Hasta yaşı kullanımı</value>
+  </data>
+  <data name="OperationTypeModel.PatGenderUsage">
+    <value>Hasta cinsiyet kullanımı</value>
+  </data>
+  <data name="OperationTypeModel.Prepare">
+    <value>Hazırla</value>
+  </data>
+  <data name="OperationTypeModel.Status">
+    <value>Durum</value>
+  </data>
+  <data name="OperationTypeModel.Type">
+    <value>Template type</value>
+  </data>
+  <data name="OperationTypeModel.UserField01">
+    <value>Kullanıcı alanı 1</value>
+  </data>
+  <data name="OperationTypeModel.UserField02">
+    <value>Kullanıcı alanı 2</value>
+  </data>
+  <data name="OperationTypeModel.UserField03">
+    <value>Kullanıcı alanı 3</value>
+  </data>
+  <data name="OperationTypeModel.UserField04">
+    <value>Kullanıcı alanı 4</value>
+  </data>
+  <data name="OperationTypeModel.UserField05">
+    <value>Kullanıcı alanı 5</value>
+  </data>
+  <data name="OperationTypeModel.UserField06">
+    <value>Kullanıcı alanı 6</value>
+  </data>
+  <data name="OperationTypeModel.UserField07">
+    <value>Kullanıcı alanı 7</value>
+  </data>
+  <data name="OperationTypeModel.UserField08">
+    <value>Kullanıcı alanı 8</value>
+  </data>
+  <data name="OperationTypeModel.UserField09">
+    <value>Kullanıcı alanı 9</value>
+  </data>
+  <data name="OperationTypeModel.UserField10">
+    <value>Kullanıcı alanı 10</value>
+  </data>
+  <data name="OperationTypeModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="OperationTypeModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="OperationTypeModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="OperationTypeModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="OperationTypeModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="OperationTypeModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="OperationTypeModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="OperationTypeModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="OperationTypeModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="OperationTypeModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="MachineModel.Created">
+    <value></value>
+  </data>
+  <data name="MachineModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="MachineModel.Modified">
+    <value></value>
+  </data>
+  <data name="MachineModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="MachineModel.ActualProgramCheck">
+    <value>Taranmış/güncel programı kontrol et</value>
+  </data>
+  <data name="MachineModel.AgsKeyId">
+    <value>AGS</value>
+  </data>
+  <data name="MachineModel.Alertdelay">
+    <value>Alarm gecikmesi</value>
+  </data>
+  <data name="MachineModel.AllowBatch">
+    <value>Parti düzenlemesine izin ver.</value>
+  </data>
+  <data name="MachineModel.AllowDataExport">
+    <value>Verinin dışa aktarımına izin ver</value>
+  </data>
+  <data name="MachineModel.AllowLog">
+    <value>Veri kaybına izin ver</value>
+  </data>
+  <data name="MachineModel.Barcode">
+    <value>Barkod</value>
+  </data>
+  <data name="MachineModel.Chargenummode">
+    <value>dolum numaralama</value>
+  </data>
+  <data name="MachineModel.ConfData">
+    <value>Konfigürasyon verisi</value>
+  </data>
+  <data name="MachineModel.CycleCount">
+    <value>Döngü sayısı</value>
+  </data>
+  <data name="MachineModel.DefProgFromModel">
+    <value>Use Machine model setting</value>
+  </data>
+  <data name="MachineModel.DefProgKeyId">
+    <value>Program</value>
+  </data>
+  <data name="MachineModel.DestApproveLocaKeyId">
+    <value>Approval destination</value>
+  </data>
+  <data name="MachineModel.DestDisapproveLocaKeyId">
+    <value>Disapproval destination</value>
+  </data>
+  <data name="MachineModel.DestEndErrorLocaKeyId">
+    <value>Process end error destination</value>
+  </data>
+  <data name="MachineModel.DestEndLocaKeyId">
+    <value>Process end destination</value>
+  </data>
+  <data name="MachineModel.Info">
+    <value>Bilgi</value>
+  </data>
+  <data name="MachineModel.InitBatchCount">
+    <value>Maksimum başlatılmış parti</value>
+  </data>
+  <data name="MachineModel.KeyId">
+    <value>Cihaz kimliği</value>
+  </data>
+  <data name="MachineModel.LastCycleCount">
+    <value>Son Döngü Sayacı</value>
+  </data>
+  <data name="MachineModel.LastMinutesOn">
+    <value>Son Dakikalar</value>
+  </data>
+  <data name="MachineModel.LastMinutesRun">
+    <value>Son Dakikalar Çalıştırma</value>
+  </data>
+  <data name="MachineModel.LoadOnStart">
+    <value>Use Load tag</value>
+  </data>
+  <data name="MachineModel.LogBatchContent">
+    <value>Parti içeriğini günlüğe yaz</value>
+  </data>
+  <data name="MachineModel.McTypKeyId">
+    <value>Model</value>
+  </data>
+  <data name="MachineModel.MinutesOn">
+    <value>Birkaç dakika</value>
+  </data>
+  <data name="MachineModel.MinutesRun">
+    <value>Dakikalar işliyor</value>
+  </data>
+  <data name="MachineModel.Name">
+    <value>İsim</value>
+  </data>
+  <data name="MachineModel.Prescan">
+    <value>Ön tarama</value>
+  </data>
+  <data name="MachineModel.PrintLabelApprove">
+    <value>Onaylanmış etiketi yazdır</value>
+  </data>
+  <data name="MachineModel.PrintLabelDisappr">
+    <value>Onaylanmamış etiketi yazdır</value>
+  </data>
+  <data name="MachineModel.PrintLabelEnd">
+    <value>Biten etiketi yazdır</value>
+  </data>
+  <data name="MachineModel.PrintLabelInit">
+    <value>Başlatılan etiketi yazdır</value>
+  </data>
+  <data name="MachineModel.PrintLabelStart">
+    <value>Başlayan etiketi yazdır</value>
+  </data>
+  <data name="MachineModel.PrintLabelStickers">
+    <value>Etiket çıkartmalarını yazdır</value>
+  </data>
+  <data name="MachineModel.PrintListApprove">
+    <value>Onaylanmış listeyi yazdır</value>
+  </data>
+  <data name="MachineModel.PrintListDisappr">
+    <value>Onaylanmamış listeyi yazdır</value>
+  </data>
+  <data name="MachineModel.PrintListEnd">
+    <value>Biten listeyi yazdır</value>
+  </data>
+  <data name="MachineModel.PrintListInit">
+    <value>Başlatılan listeyi yazdır</value>
+  </data>
+  <data name="MachineModel.PrintListStart">
+    <value>Başlatılan listeyi yazdır</value>
+  </data>
+  <data name="MachineModel.PrintNativePdf">
+    <value>Print native PDF</value>
+  </data>
+  <data name="MachineModel.RefNum">
+    <value>Ref. no.</value>
+  </data>
+  <data name="MachineModel.SerialNo">
+    <value>Seri no.</value>
+  </data>
+  <data name="MachineModel.ShiftToHours">
+    <value>Internal data</value>
+  </data>
+  <data name="MachineModel.Text">
+    <value>Metin</value>
+  </data>
+  <data name="MachineModel.Updateinterval">
+    <value>Veri güncelleme aralığı</value>
+  </data>
+  <data name="MachineModel.Warnemptybatch">
+    <value>Boş partide uyar</value>
+  </data>
+  <data name="ProgramModel.Created">
+    <value></value>
+  </data>
+  <data name="ProgramModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="ProgramModel.Modified">
+    <value></value>
+  </data>
+  <data name="ProgramModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="ProgramModel.Approval">
+    <value>Onay</value>
+  </data>
+  <data name="ProgramModel.Barcode">
+    <value>Barkod</value>
+  </data>
+  <data name="ProgramModel.CheckInitiated">
+    <value>Manüel başlatma</value>
+  </data>
+  <data name="ProgramModel.ConsumCost">
+    <value>Tüketim</value>
+  </data>
+  <data name="ProgramModel.DeprecCost">
+    <value>İtiraz</value>
+  </data>
+  <data name="ProgramModel.Description">
+    <value>Tanım</value>
+  </data>
+  <data name="ProgramModel.Duration">
+    <value>Döngü süresi</value>
+  </data>
+  <data name="ProgramModel.ExtLogRequired">
+    <value>Harici kayıt gereklidir</value>
+  </data>
+  <data name="ProgramModel.FilterDeltaP">
+    <value>Filtre delta pres.</value>
+  </data>
+  <data name="ProgramModel.FilterDeltaT">
+    <value>Filtre delta sıcaklık.</value>
+  </data>
+  <data name="ProgramModel.FilterTime1">
+    <value>Filtre zamanı 1</value>
+  </data>
+  <data name="ProgramModel.FilterTime2">
+    <value>Filtre zamanı 2</value>
+  </data>
+  <data name="ProgramModel.InternalParams">
+    <value>Dahili parametreler</value>
+  </data>
+  <data name="ProgramModel.KeyId">
+    <value>Program kimliği</value>
+  </data>
+  <data name="ProgramModel.LogRef">
+    <value>Referans log</value>
+  </data>
+  <data name="ProgramModel.MaxTemp">
+    <value>Maksimum sıcaklık</value>
+  </data>
+  <data name="ProgramModel.McTypKeyId">
+    <value>Cihaz modeli</value>
+  </data>
+  <data name="ProgramModel.Name">
+    <value>İsim</value>
+  </data>
+  <data name="ProgramModel.Password">
+    <value>Şifre</value>
+  </data>
+  <data name="ProgramModel.PreHiPres">
+    <value>Yüksek Basınç Öncesi</value>
+  </data>
+  <data name="ProgramModel.PreHiTemp">
+    <value>Yüksek Sıcaklık Öncesi</value>
+  </data>
+  <data name="ProgramModel.PreLowPres">
+    <value>Düşük Basınç Öncesi</value>
+  </data>
+  <data name="ProgramModel.PreLowTemp">
+    <value>Düşük Sıcaklık Öncesi</value>
+  </data>
+  <data name="ProgramModel.PrePulses">
+    <value>Önvuruşlar</value>
+  </data>
+  <data name="ProgramModel.Price">
+    <value>Fiyat</value>
+  </data>
+  <data name="ProgramModel.Program">
+    <value>Program</value>
+  </data>
+  <data name="ProgramModel.QSetKeyId">
+    <value>Soru seti</value>
+  </data>
+  <data name="ProgramModel.ReportName">
+    <value>Report name</value>
+  </data>
+  <data name="ProgramModel.ScanNum">
+    <value>Dahili no.</value>
+  </data>
+  <data name="ProgramModel.SecondUserApproval">
+    <value>Second approval required</value>
+  </data>
+  <data name="ProgramModel.SterilePres">
+    <value>Maruziyet basıncı</value>
+  </data>
+  <data name="ProgramModel.SterileSeconds">
+    <value>Maruziyet zamanı</value>
+  </data>
+  <data name="ProgramModel.SterileTemp">
+    <value>Maruziyet sıcaklığı</value>
+  </data>
+  <data name="ProgramModel.Type">
+    <value>Tip</value>
+  </data>
+  <data name="ProgramModel.UtilityCost">
+    <value>Fayda</value>
+  </data>
+  <data name="ProgramModel.Validate">
+    <value>Onayla</value>
+  </data>
+  <data name="ProgramRecipeModel.Created">
+    <value></value>
+  </data>
+  <data name="ProgramRecipeModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="ProgramRecipeModel.Modified">
+    <value></value>
+  </data>
+  <data name="ProgramRecipeModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="ProgramRecipeModel.Approval">
+    <value>Onay</value>
+  </data>
+  <data name="ProgramRecipeModel.Description">
+    <value>Tanım</value>
+  </data>
+  <data name="ProgramRecipeModel.Duration">
+    <value>Süre</value>
+  </data>
+  <data name="ProgramRecipeModel.KeyId">
+    <value>Program tarif kimliği</value>
+  </data>
+  <data name="ProgramRecipeModel.Leqfilling">
+    <value>Doldurma</value>
+  </data>
+  <data name="ProgramRecipeModel.LeqKeyId">
+    <value>Donanım yükle</value>
+  </data>
+  <data name="ProgramRecipeModel.LogRef">
+    <value>Referans log</value>
+  </data>
+  <data name="ProgramRecipeModel.Maxgravity">
+    <value>Maksimum yerçekimi</value>
+  </data>
+  <data name="ProgramRecipeModel.MaxTemp">
+    <value>Maksimum sıcaklık</value>
+  </data>
+  <data name="ProgramRecipeModel.Mingravity">
+    <value>Minimum yerçekimi</value>
+  </data>
+  <data name="ProgramRecipeModel.Name">
+    <value>İsim</value>
+  </data>
+  <data name="ProgramRecipeModel.Origin">
+    <value>Orijin</value>
+  </data>
+  <data name="ProgramRecipeModel.Original">
+    <value>Orijinal</value>
+  </data>
+  <data name="ProgramRecipeModel.Posttreat">
+    <value>İşlemi postala</value>
+  </data>
+  <data name="ProgramRecipeModel.PreHiPres">
+    <value>Yüksek Basınç Öncesi</value>
+  </data>
+  <data name="ProgramRecipeModel.PreHiTemp">
+    <value>Yüksek Sıcaklık Öncesi</value>
+  </data>
+  <data name="ProgramRecipeModel.PreLowPres">
+    <value>Düşük Basınç Öncesi</value>
+  </data>
+  <data name="ProgramRecipeModel.PreLowTemp">
+    <value>Düşük Sıcaklık Öncesi</value>
+  </data>
+  <data name="ProgramRecipeModel.PrePulses">
+    <value>Önvuruşlar</value>
+  </data>
+  <data name="ProgramRecipeModel.Pretreat">
+    <value>Ön işlem</value>
+  </data>
+  <data name="ProgramRecipeModel.ProgKeyId">
+    <value>Program</value>
+  </data>
+  <data name="ProgramRecipeModel.Reloadtime">
+    <value>Yeniden yükleme zamanı</value>
+  </data>
+  <data name="ProgramRecipeModel.Runcount">
+    <value>Sayacı çalıştır</value>
+  </data>
+  <data name="ProgramRecipeModel.SterilePres">
+    <value>Maruziyet basıncı</value>
+  </data>
+  <data name="ProgramRecipeModel.SterileSeconds">
+    <value>Maruziyet zamanı</value>
+  </data>
+  <data name="ProgramRecipeModel.SterileTemp">
+    <value>Maruziyet sıcaklığı</value>
+  </data>
+  <data name="ProgramRecipeModel.Validate">
+    <value>Onayla</value>
+  </data>
+  <data name="MacroModel.Created">
+    <value></value>
+  </data>
+  <data name="MacroModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="MacroModel.Modified">
+    <value></value>
+  </data>
+  <data name="MacroModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="MacroModel.Barcode">
+    <value>Barkod</value>
+  </data>
+  <data name="MacroModel.Data">
+    <value>Veri</value>
+  </data>
+  <data name="MacroModel.KeyId">
+    <value>Macro ID</value>
+  </data>
+  <data name="MacroModel.Macro">
+    <value>Makro</value>
+  </data>
+  <data name="MacroModel.Name">
+    <value>İsim</value>
+  </data>
+  <data name="MacroModel.Remark">
+    <value>Açıklama</value>
+  </data>
+  <data name="UILayerDefModel.Created">
+    <value></value>
+  </data>
+  <data name="UILayerDefModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="UILayerDefModel.Modified">
+    <value></value>
+  </data>
+  <data name="UILayerDefModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="UILayerDefModel.Classname">
+    <value>Sınıf adı</value>
+  </data>
+  <data name="UILayerDefModel.Default">
+    <value>Varsayılan</value>
+  </data>
+  <data name="UILayerDefModel.DefSys">
+    <value>Sistem tanımı</value>
+  </data>
+  <data name="UILayerDefModel.DefUsr">
+    <value>Kullanıcı tanımlaması</value>
+  </data>
+  <data name="UILayerDefModel.Descr">
+    <value>Tanım</value>
+  </data>
+  <data name="UILayerDefModel.Enabled">
+    <value>Etkinleştirildi</value>
+  </data>
+  <data name="UILayerDefModel.KeyId">
+    <value>KA Tabaka ID</value>
+  </data>
+  <data name="UILayerDefModel.Name">
+    <value>İsim</value>
+  </data>
+  <data name="UILayerDefModel.SysId">
+    <value>Sistem ID</value>
+  </data>
+  <data name="UILayerDefModel.SysType">
+    <value>Sistem tipi</value>
+  </data>
+  <data name="UILayerDefModel.VCLDefSys">
+    <value>Sistem VCL tanımı</value>
+  </data>
+  <data name="UILayerDefModel.VCLDefUsr">
+    <value>Kullanıcı VCL tanımı</value>
+  </data>
+  <data name="UILayerDefModel.Version">
+    <value>Versiyon</value>
+  </data>
+  <data name="IdenticalTagTypeGroupModel.KeyId">
+    <value>Kimlik</value>
+  </data>
+  <data name="IdenticalTagTypeGroupModel.TagType">
+    <value>Etiket tipi</value>
+  </data>
+  <data name="RoomModel.ArrivedLGrpKeyId">
+    <value>Arrived location group</value>
+  </data>
+  <data name="RoomModel.AvailableLGrpKeyId">
+    <value>Available location group</value>
+  </data>
+  <data name="RoomModel.Barcode">
+    <value>Barkod</value>
+  </data>
+  <data name="RoomModel.BlockOrderCreation">
+    <value>Block operation-based orders</value>
+  </data>
+  <data name="RoomModel.CalKeyId">
+    <value>Takvim</value>
+  </data>
+  <data name="RoomModel.DelGln">
+    <value>Delivery GLN</value>
+  </data>
+  <data name="RoomModel.Desc">
+    <value>Tanım</value>
+  </data>
+  <data name="RoomModel.Gln">
+    <value>GLN</value>
+  </data>
+  <data name="RoomModel.Id">
+    <value>Kimlik</value>
+  </data>
+  <data name="RoomModel.KeyId">
+    <value>Oda ID</value>
+  </data>
+  <data name="RoomModel.Name">
+    <value>İsim</value>
+  </data>
+  <data name="RoomModel.Status">
+    <value>Durum</value>
+  </data>
+  <data name="RoomModel.StGrKeyId">
+    <value>Stok grubu</value>
+  </data>
+  <data name="RoomModel.StokKeyId">
+    <value>Stok</value>
+  </data>
+  <data name="RoomModel.UserField01">
+    <value>Kullanıcı alanı 1</value>
+  </data>
+  <data name="RoomModel.UserField02">
+    <value>Kullanıcı alanı 2</value>
+  </data>
+  <data name="RoomModel.UserField03">
+    <value>Kullanıcı alanı 3</value>
+  </data>
+  <data name="RoomModel.UserField04">
+    <value>Kullanıcı alanı 4</value>
+  </data>
+  <data name="RoomModel.UserField05">
+    <value>Kullanıcı alanı 5</value>
+  </data>
+  <data name="RoomModel.UserField06">
+    <value>Kullanıcı alanı 6</value>
+  </data>
+  <data name="RoomModel.UserField07">
+    <value>Kullanıcı alanı 7</value>
+  </data>
+  <data name="RoomModel.UserField08">
+    <value>Kullanıcı alanı 8</value>
+  </data>
+  <data name="RoomModel.UserField09">
+    <value>Kullanıcı alanı 9</value>
+  </data>
+  <data name="RoomModel.UserField10">
+    <value>Kullanıcı alanı 10</value>
+  </data>
+  <data name="RoomModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="RoomModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="RoomModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="RoomModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="RoomModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="RoomModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="RoomModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="RoomModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="RoomModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="RoomModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="AGSModel.Created">
+    <value></value>
+  </data>
+  <data name="AGSModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="AGSModel.Modified">
+    <value></value>
+  </data>
+  <data name="AGSModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="AGSModel.Barcode">
+    <value>Barkod</value>
+  </data>
+  <data name="AGSModel.Info">
+    <value>Bilgi</value>
+  </data>
+  <data name="AGSModel.KeyId">
+    <value>AGS ID</value>
+  </data>
+  <data name="AGSModel.MasterQueueKeyId">
+    <value>Ana kuyruk</value>
+  </data>
+  <data name="AGSModel.Maxloads">
+    <value>Maksimum yük sayısı</value>
+  </data>
+  <data name="AGSModel.Name">
+    <value>İsim</value>
+  </data>
+  <data name="AGSModel.RefNum">
+    <value>Ref. no. (ini dosyası)</value>
+  </data>
+  <data name="AGSModel.Text">
+    <value>Metin</value>
+  </data>
+  <data name="MachineTypeModel.Created">
+    <value></value>
+  </data>
+  <data name="MachineTypeModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="MachineTypeModel.Modified">
+    <value></value>
+  </data>
+  <data name="MachineTypeModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="MachineTypeModel.AbsolutePressure">
+    <value>Tam basınç</value>
+  </data>
+  <data name="MachineTypeModel.AutoCreatedIndic">
+    <value>Auto created indicators</value>
+  </data>
+  <data name="MachineTypeModel.BasketDepth">
+    <value>Sepet derinliği</value>
+  </data>
+  <data name="MachineTypeModel.BasketFits">
+    <value>Sepet sayısı</value>
+  </data>
+  <data name="MachineTypeModel.BasketHeight">
+    <value>Sepet yüksekliği</value>
+  </data>
+  <data name="MachineTypeModel.BasketWidth">
+    <value>Sepet genişliği</value>
+  </data>
+  <data name="MachineTypeModel.CanAutoCreateBI">
+    <value>Can auto create biological indicators</value>
+  </data>
+  <data name="MachineTypeModel.CBIUsageMode">
+    <value>Control indicator required</value>
+  </data>
+  <data name="MachineTypeModel.DefProgKeyId">
+    <value>Default program selection</value>
+  </data>
+  <data name="MachineTypeModel.FixedTime">
+    <value>Sabit zaman</value>
+  </data>
+  <data name="MachineTypeModel.IncubatorType">
+    <value>Batch data incubator</value>
+  </data>
+  <data name="MachineTypeModel.KeyId">
+    <value>Cihaz tipi kimliği</value>
+  </data>
+  <data name="MachineTypeModel.LoadOnStart">
+    <value>Use Load tag</value>
+  </data>
+  <data name="MachineTypeModel.LogBatchRegError">
+    <value>Parti kayıt hatası</value>
+  </data>
+  <data name="MachineTypeModel.LogBatchRegMode">
+    <value>Parti kayıt modu</value>
+  </data>
+  <data name="MachineTypeModel.ManuKeyId">
+    <value>Üretici</value>
+  </data>
+  <data name="MachineTypeModel.MaxEndo">
+    <value>Max endoscopes</value>
+  </data>
+  <data name="MachineTypeModel.MaxLoadCount">
+    <value>Maksimum yük sayımı</value>
+  </data>
+  <data name="MachineTypeModel.MaxPerPlacement">
+    <value>Max. scopes per placement</value>
+  </data>
+  <data name="MachineTypeModel.MaxPres">
+    <value>Maksimum basınç</value>
+  </data>
+  <data name="MachineTypeModel.MaxTemp">
+    <value>Maksimum sıcaklık</value>
+  </data>
+  <data name="MachineTypeModel.MinPres">
+    <value>Minimum basınç</value>
+  </data>
+  <data name="MachineTypeModel.MinTemp">
+    <value>Minimum sıcaklık</value>
+  </data>
+  <data name="MachineTypeModel.Name">
+    <value>İsim</value>
+  </data>
+  <data name="MachineTypeModel.NonEndo">
+    <value>Non endoscopes</value>
+  </data>
+  <data name="MachineTypeModel.PlacementCount">
+    <value>Yerleşimlerin sayısı</value>
+  </data>
+  <data name="MachineTypeModel.PlacementMode">
+    <value>Placement configuration</value>
+  </data>
+  <data name="MachineTypeModel.PlacementUsgMode">
+    <value>Yerleşim kullanım modu</value>
+  </data>
+  <data name="MachineTypeModel.PressureDecimals">
+    <value>P. Ondalık</value>
+  </data>
+  <data name="MachineTypeModel.PressureLogarithmic">
+    <value>Logarithmic scale</value>
+  </data>
+  <data name="MachineTypeModel.PressureType">
+    <value>Basınç</value>
+  </data>
+  <data name="MachineTypeModel.Queuelength">
+    <value>Sıra uzunluğu</value>
+  </data>
+  <data name="MachineTypeModel.RelativeTime">
+    <value>Bağıl zaman</value>
+  </data>
+  <data name="MachineTypeModel.RepairVendorKeyId">
+    <value>Onarım sağlayıcısı</value>
+  </data>
+  <data name="MachineTypeModel.Reportflags">
+    <value>Rapor Seçenekleri</value>
+  </data>
+  <data name="MachineTypeModel.StandardError">
+    <value>Standart hata</value>
+  </data>
+  <data name="MachineTypeModel.SuppKeyId">
+    <value>Sağlayıcı</value>
+  </data>
+  <data name="MachineTypeModel.TechError">
+    <value>Technical error</value>
+  </data>
+  <data name="MachineTypeModel.TempDecimals">
+    <value>T. Ondalıkları</value>
+  </data>
+  <data name="MachineTypeModel.TempType">
+    <value>Sıcaklık</value>
+  </data>
+  <data name="MachineTypeModel.Text">
+    <value>Metin</value>
+  </data>
+  <data name="MachineTypeModel.Type">
+    <value>Tip</value>
+  </data>
+  <data name="MachineTypeModel.UseMAP">
+    <value>MAP kullan</value>
+  </data>
+  <data name="MachineTypeModel.UseRecipe">
+    <value>Tarifleri kullan</value>
+  </data>
+  <data name="MachineTypeModel.Volume">
+    <value>Hacim</value>
+  </data>
+  <data name="QuestionSetModel.Created">
+    <value></value>
+  </data>
+  <data name="QuestionSetModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="QuestionSetModel.Modified">
+    <value></value>
+  </data>
+  <data name="QuestionSetModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="QuestionSetModel.KeyId">
+    <value>Soru seti kimliği</value>
+  </data>
+  <data name="QuestionSetModel.Name">
+    <value>İsim</value>
+  </data>
+  <data name="QuestionSetModel.Remark">
+    <value>Açıklama</value>
+  </data>
+  <data name="QuestionSetModel.Set">
+    <value>Soru seti</value>
+  </data>
+  <data name="LoadingEquipmentModel.Created">
+    <value></value>
+  </data>
+  <data name="LoadingEquipmentModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="LoadingEquipmentModel.Modified">
+    <value></value>
+  </data>
+  <data name="LoadingEquipmentModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="LoadingEquipmentModel.Area">
+    <value>Alan   </value>
+  </data>
+  <data name="LoadingEquipmentModel.Depth">
+    <value>Derinlik</value>
+  </data>
+  <data name="LoadingEquipmentModel.Descr">
+    <value>Tanım</value>
+  </data>
+  <data name="LoadingEquipmentModel.Height">
+    <value>Yükseklik</value>
+  </data>
+  <data name="LoadingEquipmentModel.KeyId">
+    <value>Donanım kimliği yükle</value>
+  </data>
+  <data name="LoadingEquipmentModel.Name">
+    <value>İsim</value>
+  </data>
+  <data name="LoadingEquipmentModel.Width">
+    <value>Genişlik</value>
+  </data>
+  <data name="UnitModel.Basket">
+    <value>Sepet</value>
+  </data>
+  <data name="UnitModel.Batch">
+    <value>Parti</value>
+  </data>
+  <data name="UnitModel.Created">
+    <value>Oluşturuldu</value>
+  </data>
+  <data name="UnitModel.CustKeyId">
+    <value>Müşteri</value>
+  </data>
+  <data name="UnitModel.DryingStokKeyId">
+    <value>Kurutma stoğu</value>
+  </data>
+  <data name="UnitModel.Error">
+    <value>Hata</value>
+  </data>
+  <data name="UnitModel.Expire">
+    <value>Son kullanım tarihi</value>
+  </data>
+  <data name="UnitModel.FacKeyId">
+    <value>Fabrika</value>
+  </data>
+  <data name="UnitModel.LMProKeyId">
+    <value>Loaner management profile</value>
+  </data>
+  <data name="UnitModel.LocaKeyId">
+    <value>Konum</value>
+  </data>
+  <data name="UnitModel.LocaTime">
+    <value>Konum zamanı</value>
+  </data>
+  <data name="UnitModel.NextUnit">
+    <value>Sonraki Birim</value>
+  </data>
+  <data name="UnitModel.OpDKeyId">
+    <value>İşlem</value>
+  </data>
+  <data name="UnitModel.PackUserKeyId">
+    <value>Tarafından paketlenmiş</value>
+  </data>
+  <data name="UnitModel.PrevUnit">
+    <value>Önceki Birim</value>
+  </data>
+  <data name="UnitModel.Price">
+    <value>Fiyat</value>
+  </data>
+  <data name="UnitModel.PriceHandling">
+    <value>İşleme fiyatı</value>
+  </data>
+  <data name="UnitModel.PricePack">
+    <value>Paketleme ücreti</value>
+  </data>
+  <data name="UnitModel.PriceSteri">
+    <value>Sterilizasyon fiyatı</value>
+  </data>
+  <data name="UnitModel.PriceUsage">
+    <value>Kullanım ücreti</value>
+  </data>
+  <data name="UnitModel.PriceWash">
+    <value>Yıkama/dezen. Fiyatı</value>
+  </data>
+  <data name="UnitModel.PriGrKeyId">
+    <value>Fiyat grubu</value>
+  </data>
+  <data name="UnitModel.ProdKeyId">
+    <value>Ürün</value>
+  </data>
+  <data name="UnitModel.ReqReturnReg">
+    <value>Geri dönüş gerekiyor</value>
+  </data>
+  <data name="UnitModel.RoomKeyId">
+    <value>Oda</value>
+  </data>
+  <data name="UnitModel.SeriKeyId">
+    <value>Seri no.</value>
+  </data>
+  <data name="UnitModel.Status">
+    <value>Durum</value>
+  </data>
+  <data name="UnitModel.StokKeyId">
+    <value>Stok</value>
+  </data>
+  <data name="UnitModel.Unit">
+    <value>Ünite</value>
+  </data>
+  <data name="UnitModel.UsageCounter">
+    <value>Kullanım sayacı</value>
+  </data>
+  <data name="UnitModel.WorkingTime">
+    <value>Kullanılan Paketleme Zamanı</value>
+  </data>
+  <data name="TagsModel.Created">
+    <value></value>
+  </data>
+  <data name="TagsModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="TagsModel.Auto">
+    <value>Otomatik etiket</value>
+  </data>
+  <data name="TagsModel.Barcode">
+    <value>Barkod</value>
+  </data>
+  <data name="TagsModel.KeyId">
+    <value>Etiket ID</value>
+  </data>
+  <data name="TagsModel.LocaKeyId">
+    <value>Şu anki lokasyon</value>
+  </data>
+  <data name="TagsModel.LocaTime">
+    <value>Konum zamanı</value>
+  </data>
+  <data name="TagsModel.Name">
+    <value>İsim</value>
+  </data>
+  <data name="TagsModel.No">
+    <value>No.</value>
+  </data>
+  <data name="TagsModel.ProcBatch">
+    <value>Atanan parti</value>
+  </data>
+  <data name="TagsModel.Status">
+    <value>Durum</value>
+  </data>
+  <data name="TagsModel.StokKeyId">
+    <value>Stok</value>
+  </data>
+  <data name="TagsModel.TagTKeyId">
+    <value>Etiket tipi</value>
+  </data>
+  <data name="TagsModel.Type">
+    <value>Tip</value>
+  </data>
+  <data name="OperationDataModel.Created">
+    <value></value>
+  </data>
+  <data name="OperationDataModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="OperationDataModel.Modified">
+    <value></value>
+  </data>
+  <data name="OperationDataModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="OperationDataModel.ActualEndTime">
+    <value>Güncel bitiş zamanı</value>
+  </data>
+  <data name="OperationDataModel.ActualStartTime">
+    <value>Güncel başlangıç zamanı</value>
+  </data>
+  <data name="OperationDataModel.BookingForce">
+    <value>Zorlamalı rezervasyon</value>
+  </data>
+  <data name="OperationDataModel.BookingStatus">
+    <value>Rezervasyon durumu</value>
+  </data>
+  <data name="OperationDataModel.CustKeyId">
+    <value>Müşteri</value>
+  </data>
+  <data name="OperationDataModel.CustStokKeyId">
+    <value>Müşteri stok</value>
+  </data>
+  <data name="OperationDataModel.DoctKeyId">
+    <value>Doktor</value>
+  </data>
+  <data name="OperationDataModel.EndTime">
+    <value>Sonlanma zamanı</value>
+  </data>
+  <data name="OperationDataModel.Ident">
+    <value>İşlem</value>
+  </data>
+  <data name="OperationDataModel.IncompleteOrder">
+    <value>Incomplete order</value>
+  </data>
+  <data name="OperationDataModel.KeyId">
+    <value>İşlem Kimliği</value>
+  </data>
+  <data name="OperationDataModel.Name">
+    <value>İsim</value>
+  </data>
+  <data name="OperationDataModel.OptKeyId">
+    <value>İşlem tipi</value>
+  </data>
+  <data name="OperationDataModel.OrdersNeedUpdate">
+    <value>Order update pending</value>
+  </data>
+  <data name="OperationDataModel.PatAge">
+    <value>Hasta yaşı</value>
+  </data>
+  <data name="OperationDataModel.PatGender">
+    <value>Hasta cinsiyeti</value>
+  </data>
+  <data name="OperationDataModel.PatKeyId">
+    <value>Hasta</value>
+  </data>
+  <data name="OperationDataModel.PatWeight">
+    <value>Ağırlık</value>
+  </data>
+  <data name="OperationDataModel.PrefListDelShortage">
+    <value>Preference list delievered shortage</value>
+  </data>
+  <data name="OperationDataModel.PrefListOrderMode">
+    <value>Komut modu</value>
+  </data>
+  <data name="OperationDataModel.Remark">
+    <value>Açıklama</value>
+  </data>
+  <data name="OperationDataModel.RoomKeyId">
+    <value>Oda</value>
+  </data>
+  <data name="OperationDataModel.StartTime">
+    <value>Başlangıç zamanı</value>
+  </data>
+  <data name="OperationDataModel.StartTimeModified">
+    <value>Start time modified</value>
+  </data>
+  <data name="OperationDataModel.Status">
+    <value>Durum</value>
+  </data>
+  <data name="OperationDataModel.SuppFacKeyId">
+    <value>Sağlayıcı fabrika</value>
+  </data>
+  <data name="SerialModel.Created">
+    <value></value>
+  </data>
+  <data name="SerialModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="SerialModel.Modified">
+    <value></value>
+  </data>
+  <data name="SerialModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="SerialModel.Barcode">
+    <value>Barkodları</value>
+  </data>
+  <data name="SerialModel.DispatchRestrict">
+    <value>Sınırlamayı ayır</value>
+  </data>
+  <data name="SerialModel.ExtLoanerId">
+    <value>External loaner ID</value>
+  </data>
+  <data name="SerialModel.ExtName">
+    <value>External name</value>
+  </data>
+  <data name="SerialModel.FTCoKeyId">
+    <value>Hızlı izlem kodu</value>
+  </data>
+  <data name="SerialModel.FTPlKeyId">
+    <value>hızlı izlem planı</value>
+  </data>
+  <data name="SerialModel.FTTmpKeyId">
+    <value>hızlı izlem grubu</value>
+  </data>
+  <data name="SerialModel.HatKeyId">
+    <value>Handling type</value>
+  </data>
+  <data name="SerialModel.KeyId">
+    <value>Seri no. ID</value>
+  </data>
+  <data name="SerialModel.LMProKeyId">
+    <value>Loaner management profile</value>
+  </data>
+  <data name="SerialModel.LocaKeyId">
+    <value>Konum</value>
+  </data>
+  <data name="SerialModel.Manufactserialnumber">
+    <value>Manu. seri no.</value>
+  </data>
+  <data name="SerialModel.Name">
+    <value>İsim</value>
+  </data>
+  <data name="SerialModel.OwnerCuSiteKeyId">
+    <value>Sahip (Müşteri sitesi)</value>
+  </data>
+  <data name="SerialModel.OwnerCustKeyId">
+    <value>Sahip (Müşteri)</value>
+  </data>
+  <data name="SerialModel.OwnerFacKeyId">
+    <value>Sahip (Fabrika)</value>
+  </data>
+  <data name="SerialModel.OwnerSuppKeyId">
+    <value>Sahip (Tedarikçi)</value>
+  </data>
+  <data name="SerialModel.PackKeyId">
+    <value>Paketleme materyali</value>
+  </data>
+  <data name="SerialModel.PurchaseDate">
+    <value>Satınalma tarihi</value>
+  </data>
+  <data name="SerialModel.PurchaseOrdNo">
+    <value>Satınalma emri no.</value>
+  </data>
+  <data name="SerialModel.PurchasePrice">
+    <value>Satınalma fiyatı</value>
+  </data>
+  <data name="SerialModel.PurchaseTime">
+    <value>Satınalma tarihi</value>
+  </data>
+  <data name="SerialModel.RefItemKeyId">
+    <value>Kalem</value>
+  </data>
+  <data name="SerialModel.RefPReKeyId">
+    <value>Program tarifi</value>
+  </data>
+  <data name="SerialModel.RefProdKeyId">
+    <value>Ürün</value>
+  </data>
+  <data name="SerialModel.RefProgKeyId">
+    <value>Program</value>
+  </data>
+  <data name="SerialModel.Remark">
+    <value>Açıklama</value>
+  </data>
+  <data name="SerialModel.SerialNo">
+    <value>Seri no.</value>
+  </data>
+  <data name="SerialModel.Status">
+    <value>Durum</value>
+  </data>
+  <data name="SerialModel.Stockplacement">
+    <value>Yerleşim</value>
+  </data>
+  <data name="SerialModel.StokKeyId">
+    <value>Stok</value>
+  </data>
+  <data name="SerialModel.SuppKeyId">
+    <value>Sağlayıcı</value>
+  </data>
+  <data name="SerialModel.TRGrpKeyId">
+    <value>Expire time group</value>
+  </data>
+  <data name="SerialModel.UserField01">
+    <value>Kullanıcı alanı 1</value>
+  </data>
+  <data name="SerialModel.UserField02">
+    <value>Kullanıcı alanı 2</value>
+  </data>
+  <data name="SerialModel.UserField03">
+    <value>Kullanıcı alanı 3</value>
+  </data>
+  <data name="SerialModel.UserField04">
+    <value>Kullanıcı alanı 4</value>
+  </data>
+  <data name="SerialModel.UserField05">
+    <value>Kullanıcı alanı 5</value>
+  </data>
+  <data name="SerialModel.UserField06">
+    <value>Kullanıcı alanı 6</value>
+  </data>
+  <data name="SerialModel.UserField07">
+    <value>Kullanıcı alanı 7</value>
+  </data>
+  <data name="SerialModel.UserField08">
+    <value>Kullanıcı alanı 8</value>
+  </data>
+  <data name="SerialModel.UserField09">
+    <value>Kullanıcı alanı 9</value>
+  </data>
+  <data name="SerialModel.UserField10">
+    <value>Kullanıcı alanı 10</value>
+  </data>
+  <data name="SerialModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="SerialModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="SerialModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="SerialModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="SerialModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="SerialModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="SerialModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="SerialModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="SerialModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="SerialModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="SerialModel.UnitUnit">
+    <value>Ünite</value>
+  </data>
+  <data name="SerialModel.UsageCount">
+    <value>Kullanım sayısı</value>
+  </data>
+  <data name="SerialModel.Weight">
+    <value>Ağırlık</value>
+  </data>
+  <data name="DoctorModel.Created">
+    <value></value>
+  </data>
+  <data name="DoctorModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="DoctorModel.Modified">
+    <value></value>
+  </data>
+  <data name="DoctorModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="DoctorModel.Barcode">
+    <value>Barkod</value>
+  </data>
+  <data name="DoctorModel.CalKeyId">
+    <value>Takvim</value>
+  </data>
+  <data name="DoctorModel.Initials">
+    <value>Baş harfler</value>
+  </data>
+  <data name="DoctorModel.KeyId">
+    <value>Doktor ID</value>
+  </data>
+  <data name="DoctorModel.Name">
+    <value>İsim</value>
+  </data>
+  <data name="DoctorModel.Status">
+    <value>Durum</value>
+  </data>
+  <data name="DoctorModel.UserField01">
+    <value>Kullanıcı alanı 1</value>
+  </data>
+  <data name="DoctorModel.UserField02">
+    <value>Kullanıcı alanı 2</value>
+  </data>
+  <data name="DoctorModel.UserField03">
+    <value>Kullanıcı alanı 3</value>
+  </data>
+  <data name="DoctorModel.UserField04">
+    <value>Kullanıcı alanı 4</value>
+  </data>
+  <data name="DoctorModel.UserField05">
+    <value>Kullanıcı alanı 5</value>
+  </data>
+  <data name="DoctorModel.UserField06">
+    <value>Kullanıcı alanı 6</value>
+  </data>
+  <data name="DoctorModel.UserField07">
+    <value>Kullanıcı alanı 7</value>
+  </data>
+  <data name="DoctorModel.UserField08">
+    <value>Kullanıcı alanı 8</value>
+  </data>
+  <data name="DoctorModel.UserField09">
+    <value>Kullanıcı alanı 9</value>
+  </data>
+  <data name="DoctorModel.UserField10">
+    <value>Kullanıcı alanı 10</value>
+  </data>
+  <data name="DoctorModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="DoctorModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="DoctorModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="DoctorModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="DoctorModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="DoctorModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="DoctorModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="DoctorModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="DoctorModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="DoctorModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="PatientModel.Created">
+    <value></value>
+  </data>
+  <data name="PatientModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="PatientModel.Modified">
+    <value></value>
+  </data>
+  <data name="PatientModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="PatientModel.BarCode">
+    <value>Barkodları</value>
+  </data>
+  <data name="PatientModel.Birthday">
+    <value>Doğumgünü</value>
+  </data>
+  <data name="PatientModel.Code1">
+    <value>Kod 1</value>
+  </data>
+  <data name="PatientModel.Code2">
+    <value>Kod 2</value>
+  </data>
+  <data name="PatientModel.Code3">
+    <value>Kod 3</value>
+  </data>
+  <data name="PatientModel.Id">
+    <value>Kimlik</value>
+  </data>
+  <data name="PatientModel.KeyId">
+    <value>Hasta kimliği</value>
+  </data>
+  <data name="PatientModel.Name">
+    <value>İsim</value>
+  </data>
+  <data name="PatientModel.Sex">
+    <value>Cinsiyet</value>
+  </data>
+  <data name="PatientModel.Status">
+    <value>Durum</value>
+  </data>
+  <data name="PatientModel.UserField01">
+    <value>Kullanıcı alanı 1</value>
+  </data>
+  <data name="PatientModel.UserField02">
+    <value>Kullanıcı alanı 2</value>
+  </data>
+  <data name="PatientModel.UserField03">
+    <value>Kullanıcı alanı 3</value>
+  </data>
+  <data name="PatientModel.UserField04">
+    <value>Kullanıcı alanı 4</value>
+  </data>
+  <data name="PatientModel.UserField05">
+    <value>Kullanıcı alanı 5</value>
+  </data>
+  <data name="PatientModel.UserField06">
+    <value>Kullanıcı alanı 6</value>
+  </data>
+  <data name="PatientModel.UserField07">
+    <value>Kullanıcı alanı 7</value>
+  </data>
+  <data name="PatientModel.UserField08">
+    <value>Kullanıcı alanı 8</value>
+  </data>
+  <data name="PatientModel.UserField09">
+    <value>Kullanıcı alanı 9</value>
+  </data>
+  <data name="PatientModel.UserField10">
+    <value>Kullanıcı alanı 10</value>
+  </data>
+  <data name="PatientModel.UserField11">
+    <value>User field 11</value>
+  </data>
+  <data name="PatientModel.UserField12">
+    <value>User field 12</value>
+  </data>
+  <data name="PatientModel.UserField13">
+    <value>User field 13</value>
+  </data>
+  <data name="PatientModel.UserField14">
+    <value>User field 14</value>
+  </data>
+  <data name="PatientModel.UserField15">
+    <value>User field 15</value>
+  </data>
+  <data name="PatientModel.UserField16">
+    <value>User field 16</value>
+  </data>
+  <data name="PatientModel.UserField17">
+    <value>User field 17</value>
+  </data>
+  <data name="PatientModel.UserField18">
+    <value>User field 18</value>
+  </data>
+  <data name="PatientModel.UserField19">
+    <value>User field 19</value>
+  </data>
+  <data name="PatientModel.UserField20">
+    <value>User field 20</value>
+  </data>
+  <data name="PatientModel.Weight">
+    <value>Ağırlık</value>
+  </data>
+  <data name="OrderModel.AutoCreated">
+    <value>Otomatik oluşturdu</value>
+  </data>
+  <data name="OrderModel.BookingFirstOk">
+    <value>İlk rezervasyon OK</value>
+  </data>
+  <data name="OrderModel.BookingMode">
+    <value>Rezervasyon modu</value>
+  </data>
+  <data name="OrderModel.BookingPriority">
+    <value>Booking priority</value>
+  </data>
+  <data name="OrderModel.BookingStatus">
+    <value>Rezervasyon durumu</value>
+  </data>
+  <data name="OrderModel.CreatedAppType">
+    <value>Origin application</value>
+  </data>
+  <data name="OrderModel.CreatedForOpDPrefList">
+    <value>Created for OP preference list</value>
+  </data>
+  <data name="OrderModel.CreatedJobKeyId">
+    <value>Origin job</value>
+  </data>
+  <data name="OrderModel.CreatedLocaKeyId">
+    <value>Origin location</value>
+  </data>
+  <data name="OrderModel.CreatedLSId">
+    <value>Origin computer</value>
+  </data>
+  <data name="OrderModel.CreatedUserKeyId">
+    <value>Tarafından oluşturuldu:</value>
+  </data>
+  <data name="OrderModel.DelIncomplete">
+    <value>Delivery incomplete</value>
+  </data>
+  <data name="OrderModel.ExpDelTime">
+    <value>Exp. del. time</value>
+  </data>
+  <data name="OrderModel.Flags">
+    <value>Seçenekler</value>
+  </data>
+  <data name="OrderModel.KeyId">
+    <value>Komut Kimliği</value>
+  </data>
+  <data name="OrderModel.LockMode">
+    <value>Lock mode</value>
+  </data>
+  <data name="OrderModel.NextOrdKeyId">
+    <value>Sonraki komut</value>
+  </data>
+  <data name="OrderModel.OrdTpKeyId">
+    <value>Komut şablonu</value>
+  </data>
+  <data name="OrderModel.OrgAccount">
+    <value>Org. hesap</value>
+  </data>
+  <data name="OrderModel.OrgExternalId">
+    <value>Org. harici kimlik</value>
+  </data>
+  <data name="OrderModel.OrgInvoiceDirect">
+    <value>Org. doğrudan fatura</value>
+  </data>
+  <data name="OrderModel.OrgInvRefCustKeyId">
+    <value>Fatura müşterisi</value>
+  </data>
+  <data name="OrderModel.OrgInvRefFacKeyId">
+    <value>Fabrika faturası</value>
+  </data>
+  <data name="OrderModel.OrgInvRefSuppKeyId">
+    <value>Fatura tedarikçisi</value>
+  </data>
+  <data name="OrderModel.OrgRefCustKeyId">
+    <value>Org. müşteri</value>
+  </data>
+  <data name="OrderModel.OrgRefFacKeyId">
+    <value>Org. fabrika</value>
+  </data>
+  <data name="OrderModel.OrgRefNo">
+    <value>Org. Ref.</value>
+  </data>
+  <data name="OrderModel.OrgRefSuppKeyId">
+    <value>Org. tedarikçi</value>
+  </data>
+  <data name="OrderModel.OrgRefText">
+    <value>Org. ref. metni</value>
+  </data>
+  <data name="OrderModel.OrgRefText2">
+    <value>Org. ref. metni 2</value>
+  </data>
+  <data name="OrderModel.OrgRemark">
+    <value>Org. yorum</value>
+  </data>
+  <data name="OrderModel.OrgStatus">
+    <value>Org. Durum</value>
+  </data>
+  <data name="OrderModel.OrgStokKeyId">
+    <value>Org. stok</value>
+  </data>
+  <data name="OrderModel.OrgTime">
+    <value>Org. Zaman</value>
+  </data>
+  <data name="OrderModel.OrgUserKeyId">
+    <value>Org. Kullanıcı</value>
+  </data>
+  <data name="OrderModel.PrevOrdKeyId">
+    <value>Önceki komut</value>
+  </data>
+  <data name="OrderModel.RefOpDKeyId">
+    <value>Oluşturan (Operasyon)</value>
+  </data>
+  <data name="OrderModel.RefOpTKeyId">
+    <value>İşlem tipi</value>
+  </data>
+  <data name="OrderModel.Reordered">
+    <value>Reordered</value>
+  </data>
+  <data name="OrderModel.ReqDelTime">
+    <value>Grk. dağ. zamanı</value>
+  </data>
+  <data name="OrderModel.ReqDelTimeEstimated">
+    <value></value>
+  </data>
+  <data name="OrderModel.ReturnReq">
+    <value>Return requested</value>
+  </data>
+  <data name="OrderModel.SplitOrdKeyId">
+    <value>Bölme siparişi</value>
+  </data>
+  <data name="OrderModel.SuppPickMode">
+    <value>Supp. pick mode</value>
+  </data>
+  <data name="OrderModel.SuppPickPriority">
+    <value>Picking priority</value>
+  </data>
+  <data name="OrderModel.SuppPriority">
+    <value>Supplier priority</value>
+  </data>
+  <data name="OrderModel.SuppRefCustKeyId">
+    <value>Sağl. müşteri</value>
+  </data>
+  <data name="OrderModel.SuppRefFacKeyId">
+    <value>Sağl. fabrika</value>
+  </data>
+  <data name="OrderModel.SuppRefNo">
+    <value>Sağl. Ref.</value>
+  </data>
+  <data name="OrderModel.SuppRefSuppKeyId">
+    <value>Sağl. sağlayıcı</value>
+  </data>
+  <data name="OrderModel.SuppRefText">
+    <value>Sağl. ref. text</value>
+  </data>
+  <data name="OrderModel.SuppRefText2">
+    <value>Sağl. ref. text 2</value>
+  </data>
+  <data name="OrderModel.SuppRemark">
+    <value>Sağl. açıklama</value>
+  </data>
+  <data name="OrderModel.SuppStatus">
+    <value>Sağl. durum</value>
+  </data>
+  <data name="OrderModel.SuppStokKeyId">
+    <value>Sağl. stok</value>
+  </data>
+  <data name="OrderModel.SuppTime">
+    <value>Supp. Zaman</value>
+  </data>
+  <data name="OrderModel.SuppUserKeyId">
+    <value>Supp. Kullanıcı</value>
+  </data>
+  <data name="OrderModel.SyncToOperation">
+    <value>Synchronize with operation</value>
+  </data>
+  <data name="OrderModel.Tag">
+    <value>Taşıma etiketi</value>
+  </data>
+  <data name="OrderModel.Type">
+    <value>Tip</value>
+  </data>
+  <data name="OrderModel.UnlockStokKeyId">
+    <value>Unlock destination stock</value>
+  </data>
+  <data name="JobModel.ConfigData">
+    <value>Konfig. veri</value>
+  </data>
+  <data name="JobModel.Description">
+    <value>Tanım</value>
+  </data>
+  <data name="JobModel.Disabled">
+    <value>Devre dışı</value>
+  </data>
+  <data name="JobModel.DisplayIndex">
+    <value>Görünüm indeksi</value>
+  </data>
+  <data name="JobModel.IESysKeyId">
+    <value>Arayüz sistemi</value>
+  </data>
+  <data name="JobModel.JGrpKeyId">
+    <value>Görev grubu</value>
+  </data>
+  <data name="JobModel.KeyId">
+    <value>Görev kimliği</value>
+  </data>
+  <data name="JobModel.LastPackageId">
+    <value>Son paket kimliği</value>
+  </data>
+  <data name="JobModel.MasterjobKeyId">
+    <value>Ana iş</value>
+  </data>
+  <data name="JobModel.Moveable">
+    <value>Movable</value>
+  </data>
+  <data name="JobModel.Name">
+    <value>İsim</value>
+  </data>
+  <data name="JobModel.Schedule">
+    <value>Plan</value>
+  </data>
+  <data name="JobModel.SysConfigData">
+    <value>Sistem konfigürasyon verisi</value>
+  </data>
+  <data name="JobModel.SysName">
+    <value>Sistem adı</value>
+  </data>
+  <data name="JobModel.TypeId">
+    <value>Tip ID</value>
+  </data>
+  <data name="OrderTemplateModel.Created">
+    <value></value>
+  </data>
+  <data name="OrderTemplateModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="OrderTemplateModel.Modified">
+    <value></value>
+  </data>
+  <data name="OrderTemplateModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="OrderTemplateModel.KeyId">
+    <value>Komut şablonu kimliği</value>
+  </data>
+  <data name="OrderTemplateModel.Name">
+    <value>İsim</value>
+  </data>
+  <data name="OrderTemplateModel.OrgInvoiceDirect">
+    <value>Doğrudan fatura</value>
+  </data>
+  <data name="OrderTemplateModel.OrgRefCustKeyId">
+    <value>Org. müşteri</value>
+  </data>
+  <data name="OrderTemplateModel.OrgRefFacKeyId">
+    <value>Org. fabrika</value>
+  </data>
+  <data name="OrderTemplateModel.OrgRefSuppKeyId">
+    <value>Org. tedarikçi</value>
+  </data>
+  <data name="OrderTemplateModel.OrgRefText">
+    <value>Org. ref. metni</value>
+  </data>
+  <data name="OrderTemplateModel.OrgRefText2">
+    <value>Org. ref. metni 2</value>
+  </data>
+  <data name="OrderTemplateModel.OrgRemark">
+    <value>Org. yorum</value>
+  </data>
+  <data name="OrderTemplateModel.OrgStokKeyId">
+    <value>Org. stok</value>
+  </data>
+  <data name="OrderTemplateModel.OTpTKeyId">
+    <value>Tip</value>
+  </data>
+  <data name="OrderTemplateModel.RefOpTKeyId">
+    <value>Sahip (İşlem tipi)</value>
+  </data>
+  <data name="OrderTemplateModel.RefProTKeyId">
+    <value>Sahip (Prosedür tipi)</value>
+  </data>
+  <data name="OrderTemplateModel.SuppRefFacKeyId">
+    <value>Sağl. fabrika</value>
+  </data>
+  <data name="OrderTemplateModel.SuppRefSuppKeyId">
+    <value>Sağl. sağlayıcı</value>
+  </data>
+  <data name="OrderTemplateModel.SuppRefText">
+    <value>Sağl. ref. text</value>
+  </data>
+  <data name="OrderTemplateModel.SuppRefText2">
+    <value>Sup. ref. metin 2</value>
+  </data>
+  <data name="OrderTemplateModel.SuppRemark">
+    <value>Sağl. açıklama</value>
+  </data>
+  <data name="OrderTemplateModel.SuppStokKeyId">
+    <value>Sağl. stok</value>
+  </data>
+  <data name="OrderTemplateModel.Template">
+    <value>Şablon</value>
+  </data>
+  <data name="InterfaceSystemsModel.Description">
+    <value>Tanım</value>
+  </data>
+  <data name="InterfaceSystemsModel.Id">
+    <value>Sistem ID</value>
+  </data>
+  <data name="InterfaceSystemsModel.KeyId">
+    <value>Arayüz sistemi kimliği</value>
+  </data>
+  <data name="InterfaceSystemsModel.Name">
+    <value>İsim</value>
+  </data>
+  <data name="JobGroupModel.Description">
+    <value>Tanım</value>
+  </data>
+  <data name="JobGroupModel.Disabled">
+    <value>Devre dışı</value>
+  </data>
+  <data name="JobGroupModel.DisplayIndex">
+    <value>Görünüm indeksi</value>
+  </data>
+  <data name="JobGroupModel.FoJSrvKeyId">
+    <value>Fail over Job server</value>
+  </data>
+  <data name="JobGroupModel.FoStop">
+    <value>Dur</value>
+  </data>
+  <data name="JobGroupModel.JobType">
+    <value>Job type</value>
+  </data>
+  <data name="JobGroupModel.JSrvKeyId">
+    <value>Job server</value>
+  </data>
+  <data name="JobGroupModel.KeyId">
+    <value>Job group ID</value>
+  </data>
+  <data name="JobGroupModel.Name">
+    <value>İsim</value>
+  </data>
+  <data name="JobGroupModel.SysId">
+    <value>Sistem ID</value>
+  </data>
+  <data name="JobGroupModel.SysName">
+    <value>Sistem adı</value>
+  </data>
+  <data name="JobGroupModel.Type">
+    <value>Tip</value>
+  </data>
+  <data name="OrderTemplateTypeModel.Created">
+    <value></value>
+  </data>
+  <data name="OrderTemplateTypeModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="OrderTemplateTypeModel.Modified">
+    <value></value>
+  </data>
+  <data name="OrderTemplateTypeModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="OrderTemplateTypeModel.KeyId">
+    <value>Şablon tipi ID</value>
+  </data>
+  <data name="OrderTemplateTypeModel.Name">
+    <value>İsim</value>
+  </data>
+  <data name="OrderTemplateTypeModel.Remark">
+    <value>Açıklama</value>
+  </data>
+  <data name="OrderTemplateTypeModel.Type">
+    <value>Tip</value>
+  </data>
+  <data name="JobServerModel.ConfigData">
+    <value>Konfigürasyon verisi</value>
+  </data>
+  <data name="JobServerModel.Description">
+    <value>Tanım</value>
+  </data>
+  <data name="JobServerModel.HeartBeat">
+    <value>Last heartbeat</value>
+  </data>
+  <data name="JobServerModel.KeyId">
+    <value>Görev Sunucusu Kimliği</value>
+  </data>
+  <data name="JobServerModel.LinkStatId">
+    <value>Bağlantı istasyonu kimliği</value>
+  </data>
+  <data name="JobServerModel.Name">
+    <value>İsim</value>
+  </data>
+  <data name="CompositeModel.AltRefKeyId">
+    <value>Alternatif kalem</value>
+  </data>
+  <data name="CompositeModel.CompItemKeyId">
+    <value>Bileşik kalem</value>
+  </data>
+  <data name="CompositeModel.Count">
+    <value>Sayı</value>
+  </data>
+  <data name="CompositeModel.CriticalCount">
+    <value>Kriter</value>
+  </data>
+  <data name="CompositeModel.HasAlternative">
+    <value>Has alternative</value>
+  </data>
+  <data name="CompositeModel.IdentLineUsage">
+    <value>Identical line usage</value>
+  </data>
+  <data name="CompositeModel.Key">
+    <value>Anahtar</value>
+  </data>
+  <data name="CompositeModel.Placement">
+    <value>Yerleşim</value>
+  </data>
+  <data name="CompositeModel.Position">
+    <value>Durum</value>
+  </data>
+  <data name="CompositeModel.RefItemKeyId">
+    <value>Kalem</value>
+  </data>
+  <data name="CompositeModel.RefTextKeyId">
+    <value>Metin</value>
+  </data>
+  <data name="CompositeModel.SplitTagNo">
+    <value>Etiket grubu</value>
+  </data>
+  <data name="CompositeModel.Text">
+    <value>Metin</value>
+  </data>
+  <data name="TagContentModel.AutoInc">
+    <value>Anahtar</value>
+  </data>
+  <data name="TagContentModel.ChildTagsKeyId">
+    <value>Alt etiket</value>
+  </data>
+  <data name="TagContentModel.ChPlKeyId">
+    <value>Kazan lokasyonu</value>
+  </data>
+  <data name="TagContentModel.IndicIndicator">
+    <value>İndikatör</value>
+  </data>
+  <data name="TagContentModel.ItemCount">
+    <value>Kalem Sayımı</value>
+  </data>
+  <data name="TagContentModel.ItemKeyId">
+    <value>Kalem</value>
+  </data>
+  <data name="TagContentModel.LocaKeyId">
+    <value>Konum</value>
+  </data>
+  <data name="TagContentModel.LotInKeyId">
+    <value>LOT bilgisi</value>
+  </data>
+  <data name="TagContentModel.OLnKey">
+    <value>Komut hattı</value>
+  </data>
+  <data name="TagContentModel.SeriKeyId">
+    <value>Seri numarası</value>
+  </data>
+  <data name="TagContentModel.SplitUnit">
+    <value>Üniteyi böl</value>
+  </data>
+  <data name="TagContentModel.TagsKeyId">
+    <value>Etiket</value>
+  </data>
+  <data name="TagContentModel.Time">
+    <value>Zaman</value>
+  </data>
+  <data name="TagContentModel.UnitUnit">
+    <value>Ünite</value>
+  </data>
+  <data name="EventModel.Created">
+    <value></value>
+  </data>
+  <data name="EventModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="EventModel.Modified">
+    <value></value>
+  </data>
+  <data name="EventModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="EventModel.Event">
+    <value>Olay</value>
+  </data>
+  <data name="EventModel.Eventsystype">
+    <value>Sistem tipi</value>
+  </data>
+  <data name="EventModel.Eventtype">
+    <value>Olay tipi</value>
+  </data>
+  <data name="EventModel.Info">
+    <value>Bilgi</value>
+  </data>
+  <data name="EventModel.KeyId">
+    <value>Olay ID</value>
+  </data>
+  <data name="EventModel.PloKeyId">
+    <value>Durum/Konum</value>
+  </data>
+  <data name="EventModel.RefKeyId">
+    <value>Temelli</value>
+  </data>
+  <data name="EventModel.Sysdata">
+    <value>Sistem verisi</value>
+  </data>
+  <data name="EventModel.System">
+    <value>Sistem</value>
+  </data>
+  <data name="EventModel.Time">
+    <value>Event time</value>
+  </data>
+  <data name="EventModel.Type">
+    <value>Tip</value>
+  </data>
+  <data name="StockModel.AutoCreated">
+    <value>Otomatik yaratılan</value>
+  </data>
+  <data name="StockModel.DesiredCount">
+    <value>Norm.</value>
+  </data>
+  <data name="StockModel.Identlineusage">
+    <value>Identical line usage</value>
+  </data>
+  <data name="StockModel.InventoryActive">
+    <value>Geçersiz aktif</value>
+  </data>
+  <data name="StockModel.InventoryCount">
+    <value>Geçersiz Sayım</value>
+  </data>
+  <data name="StockModel.InventoryPhysCount">
+    <value>Güncel</value>
+  </data>
+  <data name="StockModel.InventoryPhysTime">
+    <value>Actual time</value>
+  </data>
+  <data name="StockModel.InventoryPhysUserKeyId">
+    <value>Kullanıcı</value>
+  </data>
+  <data name="StockModel.InventoryTime">
+    <value>Son envanter</value>
+  </data>
+  <data name="StockModel.InventoryUserKeyId">
+    <value>Inv. user</value>
+  </data>
+  <data name="StockModel.MaxCount">
+    <value>Maksimum</value>
+  </data>
+  <data name="StockModel.MinCount">
+    <value>Minimum</value>
+  </data>
+  <data name="StockModel.MonthUsage">
+    <value>Ay kullanımı</value>
+  </data>
+  <data name="StockModel.OnStock">
+    <value>Stokta</value>
+  </data>
+  <data name="StockModel.OrderedCount">
+    <value>Ord.</value>
+  </data>
+  <data name="StockModel.Pickhere">
+    <value>Topla</value>
+  </data>
+  <data name="StockModel.Placement">
+    <value>Yerleşim</value>
+  </data>
+  <data name="StockModel.ProductionCount">
+    <value>Ürün sayısı</value>
+  </data>
+  <data name="StockModel.RefItemKeyId">
+    <value>Nesne(Kalem)</value>
+  </data>
+  <data name="StockModel.RefProdKeyId">
+    <value>Nesne (ürün)</value>
+  </data>
+  <data name="StockModel.ReservedCount">
+    <value>Rezerve</value>
+  </data>
+  <data name="StockModel.StokKeyId">
+    <value>Stok</value>
+  </data>
+  <data name="StockModel.SuppOrderMinCount">
+    <value>Minimum komut boyutu</value>
+  </data>
+  <data name="StockModel.SuppOrderStdCount">
+    <value>Komut paket boyutu</value>
+  </data>
+  <data name="StockModel.SuppRefFacKeyId">
+    <value>Sağl. fabrika</value>
+  </data>
+  <data name="StockModel.SuppRefSuppKeyId">
+    <value>Sağl. sağlayıcı</value>
+  </data>
+  <data name="ProductModel">
+    <value>Ürünler</value>
+  </data>
+  <data name="UserModel">
+    <value>Kullanıcılar</value>
+  </data>
+  <data name="CountingPointSetModel">
+    <value>Counting point groups</value>
+  </data>
+  <data name="CustSiteModel">
+    <value>Müşteri bölgeleri</value>
+  </data>
+  <data name="CustomerModel">
+    <value>Müşteriler</value>
+  </data>
+  <data name="EndoDryingMethodsModel">
+    <value>Endocope kurutma metodları</value>
+  </data>
+  <data name="ProgramGroupModel">
+    <value>Program grupları</value>
+  </data>
+  <data name="FactoryModel">
+    <value>Fabrikalar</value>
+  </data>
+  <data name="FastTrackCodeModel">
+    <value>hızlı izlem kodlarıı</value>
+  </data>
+  <data name="FastTrackPlanModel">
+    <value>hızlı izlem planları</value>
+  </data>
+  <data name="FastTrackTemplateModel">
+    <value>Fast track groups</value>
+  </data>
+  <data name="HandlingTypesModel">
+    <value>Handling types</value>
+  </data>
+  <data name="IdenticalArticleGroupModel">
+    <value>Identical article groups</value>
+  </data>
+  <data name="ItemModel">
+    <value>Kalemler</value>
+  </data>
+  <data name="PackingModel">
+    <value>Paketlemeler</value>
+  </data>
+  <data name="PriceGroupModel">
+    <value>Fiyat grupları</value>
+  </data>
+  <data name="TimeRuleGroupModel">
+    <value>Expire time group</value>
+  </data>
+  <data name="WeightPlanModel">
+    <value>Ağırlık planları</value>
+  </data>
+  <data name="ProfileModel">
+    <value>Kullanıcı profilleri</value>
+  </data>
+  <data name="CalendarModel">
+    <value>Takvim</value>
+  </data>
+  <data name="StocksModel">
+    <value>Stoklar</value>
+  </data>
+  <data name="StockGroupModel">
+    <value>Stok grupları</value>
+  </data>
+  <data name="ProcessModel">
+    <value>İşlemler</value>
+  </data>
+  <data name="SupplierModel">
+    <value>Sağlayıcılar</value>
+  </data>
+  <data name="LocationModel">
+    <value>Konumlar</value>
+  </data>
+  <data name="FixedStockPlacementsModel">
+    <value>Sabit stok lokasyonları</value>
+  </data>
+  <data name="TextModel">
+    <value>Metin</value>
+  </data>
+  <data name="LocationGroupModel">
+    <value>Konum grupları</value>
+  </data>
+  <data name="CatalogModel">
+    <value>Katalog</value>
+  </data>
+  <data name="ItemGroupModel">
+    <value>Kalem grupları</value>
+  </data>
+  <data name="ItemSpecialtyModel">
+    <value>Kalem spesiyaliteleri</value>
+  </data>
+  <data name="ItemUOMModel">
+    <value>Ölçüm birimleri</value>
+  </data>
+  <data name="TagTypeModel">
+    <value>Tag types</value>
+  </data>
+  <data name="SealerProgramModel">
+    <value>Kapatıcı programları</value>
+  </data>
+  <data name="EmgCaseCartTypeModel">
+    <value>Emergency case cart type</value>
+  </data>
+  <data name="OperationTypeModel">
+    <value>İşlem tipleri</value>
+  </data>
+  <data name="MachineModel">
+    <value>Cihazlar</value>
+  </data>
+  <data name="ProgramModel">
+    <value>Programlar</value>
+  </data>
+  <data name="ProgramRecipeModel">
+    <value>Program tarifleri</value>
+  </data>
+  <data name="MacroModel">
+    <value>Tarayıcı makroları</value>
+  </data>
+  <data name="UILayerDefModel">
+    <value>KA Tabaka tanımlamaları</value>
+  </data>
+  <data name="IdenticalTagTypeGroupModel">
+    <value>Identical tag type group</value>
+  </data>
+  <data name="RoomModel">
+    <value>Odalar</value>
+  </data>
+  <data name="AGSModel">
+    <value>AGS</value>
+  </data>
+  <data name="MachineTypeModel">
+    <value>Cihaz modelleri</value>
+  </data>
+  <data name="QuestionSetModel">
+    <value>Soru setleri</value>
+  </data>
+  <data name="LoadingEquipmentModel">
+    <value>Yükleme donanımı</value>
+  </data>
+  <data name="UnitModel">
+    <value>Üniteler</value>
+  </data>
+  <data name="TagsModel">
+    <value>Etiketler</value>
+  </data>
+  <data name="OperationDataModel">
+    <value>İşlem verisi</value>
+  </data>
+  <data name="SerialModel">
+    <value>Seri numaralar</value>
+  </data>
+  <data name="DoctorModel">
+    <value>Doktorlar</value>
+  </data>
+  <data name="PatientModel">
+    <value>Hastalar</value>
+  </data>
+  <data name="OrderModel">
+    <value>Komutlar</value>
+  </data>
+  <data name="JobModel">
+    <value>Görevler</value>
+  </data>
+  <data name="OrderTemplateModel">
+    <value>Komut şablonları</value>
+  </data>
+  <data name="InterfaceSystemsModel">
+    <value>Arayüz sistemleri</value>
+  </data>
+  <data name="JobGroupModel">
+    <value>Görev Grupları</value>
+  </data>
+  <data name="OrderTemplateTypeModel">
+    <value>Komut şablonu tipleri</value>
+  </data>
+  <data name="JobServerModel">
+    <value>Görev sunucuları</value>
+  </data>
+  <data name="CompositeModel">
+    <value>Bileşik listeler</value>
+  </data>
+  <data name="TagContentModel">
+    <value>Etiket içeriği</value>
+  </data>
+  <data name="EventModel">
+    <value>Olaylar</value>
+  </data>
+  <data name="StockModel">
+    <value>Stok tanımı</value>
+  </data>
+</root>

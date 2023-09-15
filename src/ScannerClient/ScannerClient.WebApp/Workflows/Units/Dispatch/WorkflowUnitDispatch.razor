@@ -1,0 +1,72 @@
+﻿@layout WorkflowLayout
+@inherits WorkflowBaseComponent
+
+@using Newtonsoft.Json.Linq
+@using ScannerClient.WebApp.Core
+@using ScannerClient.WebApp.Workflows.Services
+@using TDOC.WebComponents.DataGrid.Constants
+@using TDOC.WebComponents.Shared.Enumerations
+
+<TdSplitter Identifier="@SplitterIdentifiers.UnitDispatchSplitter.ToString()"
+            ObtainComponentState="DesktopDataService.GetComponentStateAsync"
+            SaveComponentState="DesktopDataService.SetComponentStateAsync">
+    <LeftSideFragment>
+        <div class="row flex-nowrap">
+            <div class="dispatch-left-side-block px-24px pt-24px">
+                <div class="row font-size-19 font-weight-bold pb-6px">@WorkflowsLocalizer["dispatchTo"]</div>
+                <TdRadioButtons DataList="customerButtonDetailsList"
+                                SelectedButtonChanged="OnCustomerChanged" />
+            </div>
+            <div class="col pt-24px">
+                <div class="row px-24px">
+                    <div class="col" style="@CssStyleMainContentHeight">
+                        <FlexibleGrid @ref="refDispatchGrid"
+                                      AutomaticallyRequestData="false"
+                                      RequestDataAfterRowSelected="false"
+                                      ScrollableHeight="-BusyContentHeight()"
+                                      GridDetails="dispatchGridDetails"
+                                      GridStructureRequested="GetGridStructureAsync"
+                                      DataRequested="SearchService.SelectAsync">
+                            <ColumnTemplates>
+                                <TdDataGridColumnTemplate TItem="object" Field="@TdActionColumns.DeleteColumn">
+                                    <DisplayTemplate Context="item">
+                                        <img class="icon-size-24 cursor-pointer"
+                                             src="@($"{ContentUrls.ResourceImg}others/clear.svg")"
+                                             @onclick="() => RemoveUnitConfirmationAsync((JObject)item)" />
+                                    </DisplayTemplate>
+                                </TdDataGridColumnTemplate>
+                            </ColumnTemplates>
+                        </FlexibleGrid>
+                    </div>
+                </div>
+                <OkCancelButtonsPanel ButtonOkIdentifier="@($"{nameof(WorkflowUnitDispatch)}Dispatch")"
+                                      ButtonCancelIdentifier="@($"{nameof(WorkflowUnitDispatch)}Cancel")"
+                                      ButtonOkText="@TdEnumsLocalizer[$"{nameof(ProcessType)}.{nameof(ProcessType.Out)}"]"
+                                      ButtonCancelText="@TdSharedLocalizer["cancel"]"
+                                      ButtonOkClicked="DispatchUnitsAsync"
+                                      ButtonCancelClicked="ClearBatchPreparations"
+                                      ButtonOkEnabled="@(selectedCustomer > 0 && refDispatchGrid?.TotalCountOfRows > 0)"
+                                      ButtonCancelEnabled="@(selectedCustomer > 0 || refDispatchGrid?.TotalCountOfRows > 0)"
+                                      CssClass="p-24px" />
+            </div>
+        </div>
+    </LeftSideFragment>
+    <RightSideFragment>
+        <SideSearchPanel @ref="refSearchPanel"
+                         Whereabouts="PanelWhereabouts.Right"
+                         SearchPanelTitle="@WorkflowsLocalizer["selectUnitsToDispatch"]"
+                         GridDetailsList="searchGridDetailsList"
+                         Enabled="@(selectedCustomer > 0)"
+                         ExecuteSearchAfterRowSelect="false"
+                         Identifier="@SideSearchPanelIdentifiers.UnitDispatchSearchPanel.ToString()"
+                         SearchPanelNullText="@SharedLocalizer["filterList"]"
+                         SearchPanelTotalCountText="@TdSharedLocalizer["results"]"
+                         GridStructureRequested="@(async (string identifier, string mainTable) =>
+                                                await GridService.GetGridStructureAsync(identifier, mainTable, TdTablesLocalizer, TdExceptionalColumnsLocalizer))"
+                         DataRequested="SearchService.SearchAsync"
+                         ObtainComponentState="DesktopDataService.GetComponentStateAsync"
+                         SaveComponentState="DesktopDataService.SetComponentStateAsync"
+                         BusyContentHeight="WorkflowHelper.CalcHeightOfWorkflowHeaders(Navigation)"
+                         AfterSearchPanelExpanded="RefreshDispatchGridAsync" />
+    </RightSideFragment>
+</TdSplitter>

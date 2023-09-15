@@ -1,0 +1,45 @@
+﻿@using TDOC.WebComponents.Auth
+
+@inherits Fluxor.Blazor.Web.Components.FluxorLayout
+
+<CascadingValue Value="this" Name="@nameof(MainLayout)">
+    <div class="d-block">
+        @if (showMainHeader)
+        {
+            <MainHeader @ref="refMainHeader"
+                        Identifier="@mainHeaderIdentifier"
+                        LogoIconUrl="@($"{ContentUrls.ResourceImg}logos/logoTD.svg")"
+                        NotificationType="notificationType"
+                        ConfirmationPopupButtonHeight="StylingVariables.DefaultButtonHeight"
+                        ConfirmationPopupButtonMinWidth="StylingVariables.DefaultButtonMinWidth"
+                        ConfirmationPopupButtonFontSize="StylingVariables.DefaultFontSize"
+                        ConfirmationPopupWidth="StylingVariables.DefaultConfirmationPopupWidth"
+                        ConfirmationPopupHeight="StylingVariables.DefaultConfirmationPopupHeight"
+                        ConfirmationPopupIconSize="StylingVariables.DefaultConfirmationPopupIconSize"
+                        NavigationButtons="navigationButtons">
+                <RightFragment>
+                    <AuthorizeView>
+                        <Authorized>
+                            <UserLoginPanel UserInitials="@userInitials"
+                                            UserName="@userName"
+                                            UserIcon="@($"{ContentUrls.ResourceImg}users/userDefault.svg")"
+                                            LogoutButtonText="@TdSharedLocalizer["logOut"]"
+                                            UserLogout="UserLogout" />
+                        </Authorized>
+                    </AuthorizeView>
+                </RightFragment>
+            </MainHeader>
+            <TdMenu Identifier="@mainMenuIdentifier" Items="menuItems" />
+        }
+        <div class="@(showMainHeader ? "main-content-block" : "embedded-main-content-block")">
+            <div class="row h-100">
+                <div class="col w-100">
+                    @Body
+                </div>
+            </div>
+        </div>
+        <div class="background-color-getinge-blue px-12px">
+            <ToolbarButtonsPanel Identifier="@mainFooterIdentifier" Buttons="footerButtons" />
+        </div>
+    </div>
+</CascadingValue>

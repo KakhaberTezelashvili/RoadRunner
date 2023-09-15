@@ -1,0 +1,16 @@
+﻿<div id="@Identifier" class="row py-6px">
+    @if (Buttons != null)
+    {
+        foreach (var button in Buttons)
+        {
+            <div class="pr-12px">
+                <TdToolbarButton Identifier="@button.Identifier" 
+                                    Enabled="button.Enabled"
+                                    ShowBorder="button.ShowBorder"
+                                    Text="@button.Text" 
+                                    IconUrl="@button.IconUrl"
+                                    OnClick="button.OnClick" />
+            </div>
+        }
+    }
+</div>

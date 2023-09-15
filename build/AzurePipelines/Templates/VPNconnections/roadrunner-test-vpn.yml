@@ -1,0 +1,21 @@
+steps:     
+  - task: DownloadSecureFile@1
+    displayName: 'Download Secure File Dial-Up Phonebook'
+    inputs:
+      secureFile: '2a920068-0c17-4328-8e5c-12c99e152805.pbk'
+  - task: DownloadSecureFile@1
+    displayName: 'Download Secure File VpnCertificate'
+    inputs:
+      secureFile: P2SRoadRunnerClientCert.pfx
+  - task: DownloadSecureFile@1
+    displayName: 'Download secure file webcertificate'
+    inputs:
+      secureFile: roadrunner.cer
+
+  - task: PowerShell@2
+    displayName: 'Connect to Azure Vpn Gateway'
+    inputs:
+      targetType: filePath
+      filePath: '$(System.DefaultWorkingDirectory)/RoadrunnerDeployment/vpn/Roadrunner-Test-VPN/RoadrunnerTestVpnConnection.ps1'
+    env:
+      Pass: $(P2SRoadRunnerClientCertPass)

@@ -1,0 +1,160 @@
+trigger:
+  batch: true
+  branches:
+    include:
+    - master
+  paths:
+    exclude:
+    - '*.md'
+    - '*.pdf'
+
+
+stages:
+#################
+# Testing Stage #
+#################
+- stage: Test
+  pool:
+    vmImage: 'ubuntu-latest'
+  jobs:
+  - job: TEST_roadrunner_scanner_client
+    displayName: Run Unit tests - Roadrunner-Scanner-Client
+    steps:
+      - template: /build/AzurePipelines/Templates/unittest-steps.yml
+        parameters:
+          nugetConfigFile: src/ScannerClient/ScannerClient.WebApp/Docker/nuget.config
+          listOfProjects:
+          # List of test projects that are going to be run #
+          - name: 'ScannerClient.WebApp.Test'
+            dir:  'src/ScannerClient/ScannerClient.WebApp.Test'
+            path: '**/src/ScannerClient/ScannerClient.WebApp.Test/ScannerClient.WebApp.Test.csproj'
+
+  - job: TEST_roadrunner_production
+    displayName: Run Unit tests - Roadrunner-Production
+    steps:
+      - template: /build/AzurePipelines/Templates/unittest-steps.yml
+        parameters:
+          nugetConfigFile: src/ProductionService/ProductionService.API/Docker/nuget.config
+          listOfProjects:
+          # List of test projects are going to be run
+          - name: 'ProductionService.Core.Test'
+            dir:  'src/ProductionService/ProductionService.Core.Test'
+            path: '**/src/ProductionService/ProductionService.Core.Test/ProductionService.Core.Test.csproj'
+          - name: 'ProductionService.Infrastructure.Test'
+            dir:  'src/ProductionService/ProductionService.Infrastructure.Test'
+            path: '**/src/ProductionService/ProductionService.Infrastructure.Test/ProductionService.Infrastructure.Test.csproj'
+
+  - job: TEST_roadrunner_search
+    displayName: Run Unit tests - Roadrunner-Search
+    steps:
+      - template: /build/AzurePipelines/Templates/unittest-steps.yml
+        parameters:
+          nugetConfigFile: src/SearchService/SearchService.API/Docker/nuget.config
+          listOfProjects:
+          # List of test projects are going to be run
+          - name: 'SearchService.Core.Test'
+            dir:  'src/SearchService/SearchService.Core.Test'
+            path: '**/src/SearchService/SearchService.Core.Test/SearchService.Core.Test.csproj'
+          - name: 'SearchService.Infrastructure.Test'
+            dir:  'src/SearchService/SearchService.Infrastructure.Test'
+            path: '**/src/SearchService/SearchService.Infrastructure.Test/SearchService.Infrastructure.Test.csproj'
+
+  - job: TEST_roadrunner_master_data
+    displayName: Run Unit tests - Roadrunner-Master-Data
+    steps:
+      - template: /build/AzurePipelines/Templates/unittest-steps.yml
+        parameters:
+          nugetConfigFile: src/MasterDataService/MasterDataService.API/Docker/nuget.config
+          listOfProjects:
+          # List of test projects are going to be run
+          - name: 'MasterDataService.Core.Test'
+            dir:  'src/MasterDataService/MasterDataService.Core.Test'
+            path: '**/src/MasterDataService/MasterDataService.Core.Test/MasterDataService.Core.Test.csproj'
+          - name: 'MasterDataService.Infrastructure.Test'
+            dir:  'src/MasterDataService/MasterDataService.Infrastructure.Test'
+            path: '**/src/MasterDataService/MasterDataService.Infrastructure.Test/MasterDataService.Infrastructure.Test.csproj'
+
+  # - job: TEST_roadrunner_admin_client
+  #   displayName: Run Unit tests - Roadrunner-Admin-Client
+  #   steps:
+  #     - template: /build/AzurePipelines/Templates/unittest-steps.yml
+  #       parameters:
+  #         nugetConfigFile: src/AdminClient/AdminClient.WebApp/Docker/nuget.config
+  #         listOfProjects:
+  #         # List of test projects that are going to be run #
+
+# ##############################
+# # Build and Push Image Stage #
+# ##############################
+- stage: BuildPushImage
+  dependsOn: [Test]
+  variables:
+  - group: pipeline-secrets
+  - group: roadrunner
+  jobs:
+  - job: Build_roadrunner_scanner_client
+    displayName: Build & Push Image - Roadrunner-Scanner-Client
+    timeoutInMinutes: 20
+    steps:
+      - template: /build/AzurePipelines/Templates/buildpushimage-steps.yml
+        parameters:
+          AppAlias: Roadrunner-Scanner-Client
+          dockerFile: src/ScannerClient/ScannerClient.WebApp/Docker/Dockerfile
+          imageName: $(Roadrunner.Scanner.Client.Image.Name)
+
+  - job: Build_roadrunner_production
+    displayName: Build & Push Image - Roadrunner-Production
+    timeoutInMinutes: 20
+    steps:
+      - template: /build/AzurePipelines/Templates/buildpushimage-steps.yml
+        parameters:
+          AppAlias: Roadrunner-Production
+          dockerFile: src/ProductionService/ProductionService.API/Docker/Dockerfile
+          imageName: $(Roadrunner.Production.Image.Name)
+
+  - job: Build_roadrunner_search
+    displayName: Build & Push Image - Roadrunner-Search
+    timeoutInMinutes: 20
+    steps:
+      - template: /build/AzurePipelines/Templates/buildpushimage-steps.yml
+        parameters:
+          AppAlias: roadrunner-search
+          dockerFile: src/SearchService/SearchService.API/Docker/Dockerfile
+          imageName: $(Roadrunner.Search.Image.Name)
+
+  - job: Build_roadrunner_master_data
+    displayName: Build & Push Image - Roadrunner-Master-Data
+    timeoutInMinutes: 20
+    steps:
+      - template: /build/AzurePipelines/Templates/buildpushimage-steps.yml
+        parameters:
+          AppAlias: roadrunner-master-data
+          dockerFile: src/MasterDataService/MasterDataService.API/Docker/Dockerfile
+          imageName: $(Roadrunner.Master.Data.Image.Name)
+
+  - job: Build_roadrunner_admin_client
+    displayName: Build & Push Image - Roadrunner-Admin-Client
+    timeoutInMinutes: 20
+    steps:
+      - template: /build/AzurePipelines/Templates/buildpushimage-steps.yml
+        parameters:
+          AppAlias: roadrunner-admin-client
+          dockerFile: src/AdminClient/AdminClient.WebApp/Docker/Dockerfile
+          imageName: $(Roadrunner.Admin.Client.Image.Name)
+
+#######################          
+# Trigger CD Pipeline #
+#######################
+- stage: triggerCD
+  dependsOn: [BuildPushImage]
+  condition: |
+        and
+        (
+        ne(variables['Build.Reason'], 'PullRequest'), 
+        eq(variables['Build.SourceBranch'], 'refs/heads/master')
+        )
+  jobs:
+  - job: message
+    displayName: 'Triggering CD for build $(Build.BuildId)'
+    steps:
+      - script: echo Triggering CD

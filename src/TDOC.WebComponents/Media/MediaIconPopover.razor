@@ -1,0 +1,29 @@
+﻿@using TDOC.WebComponents.Popover
+
+@if (Details != null && MediaKeyId > 0)
+{
+    <div class="d-flex justify-content-center">
+        <TdPopover Identifier="@MediaKeyId.ToString()">
+            <DisplayTitle></DisplayTitle>
+            <DisplayContent>
+                <div class="mediaPopoverBlock align-items-center d-flex justify-content-center">
+                    <img src="@Details.GetImageUrl(MediaKeyId, true)" />
+                </div>
+            </DisplayContent>
+            <ChildContent>
+                <img class="icon-size-24" 
+                     src="@($"{ContentUrls.ResourceImg}media/mediaDefault.svg")" 
+                     @onclick="OpenMediaPopup" />
+            </ChildContent>
+        </TdPopover>
+    </div>  
+    <MediaPopup @ref="refMediaPopup" 
+                SwiperId="@($"popupSwiper{MediaKeyId}")" 
+                KeyId="ArticleKeyId" 
+                LinkType="@Details.LinkType"
+                Title="@Details.PopupTitle"
+                ButtonCancelText="@Details.PopupButtonCancelText"
+                ObtainMediaData="Details.ObtainMediaData"
+                GetEntryList="Details.GetEntryList"
+                AfterCancel="() => { }" />
+}

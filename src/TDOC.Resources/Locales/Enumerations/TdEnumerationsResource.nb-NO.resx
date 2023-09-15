@@ -1,0 +1,1847 @@
+<?xml version="1.0" encoding="utf-8"?><root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActualProgramCheck.Off">
+    <value>Av</value>
+  </data>
+  <data name="ActualProgramCheck.WarningPrompt">
+    <value>Advarsel og bekreftelse</value>
+  </data>
+  <data name="ActualProgramCheck.Error">
+    <value>Feil - Godkjenning blokkert</value>
+  </data>
+  <data name="ApprovalType.No">
+    <value>Nei</value>
+  </data>
+  <data name="ApprovalType.Yes">
+    <value>Ja</value>
+  </data>
+  <data name="ApprovalType.Visual">
+    <value>Synlig</value>
+  </data>
+  <data name="ApprovalType.Unit">
+    <value>Enheter</value>
+  </data>
+  <data name="ApprovalType.UnitVisual">
+    <value>Enheter visuelt</value>
+  </data>
+  <data name="BatchUnitStatus.OK">
+    <value>OK</value>
+  </data>
+  <data name="BatchUnitStatus.BatchFailed">
+    <value>Parti feilet</value>
+  </data>
+  <data name="BatchUnitStatus.UnitFailed">
+    <value>Enhet feilet</value>
+  </data>
+  <data name="CountDatStatus.Open">
+    <value>Åpne</value>
+  </data>
+  <data name="CountDatStatus.Completed">
+    <value>Fullført</value>
+  </data>
+  <data name="CountDatStatus.Suspended">
+    <value>Suspendert</value>
+  </data>
+  <data name="CountDatUsersUserRole.EnteringData">
+    <value>Angi data</value>
+  </data>
+  <data name="CountDatUsersUserRole.Responsible">
+    <value>Ansvarlig</value>
+  </data>
+  <data name="CustNameDisplay.Name">
+    <value>Navn</value>
+  </data>
+  <data name="CustNameDisplay.ShortName">
+    <value>Kort navn</value>
+  </data>
+  <data name="CustNameDisplay.Number">
+    <value>Nummer</value>
+  </data>
+  <data name="CustOrderBookingMode.Default">
+    <value>Standard</value>
+  </data>
+  <data name="CustOrderBookingMode.Disabled">
+    <value>Deaktivert</value>
+  </data>
+  <data name="CustOrderBookingMode.Manual">
+    <value>Manuell</value>
+  </data>
+  <data name="CustOrderBookingMode.Automation">
+    <value>Automatisk</value>
+  </data>
+  <data name="CustPreDispatchMode.UseFacSetting">
+    <value>Bruk fabrikkinnstilling</value>
+  </data>
+  <data name="CustPreDispatchMode.Always">
+    <value>Alltid</value>
+  </data>
+  <data name="CustPreDispatchMode.Never">
+    <value>Aldri</value>
+  </data>
+  <data name="DecNonDispItemStockOnPack.Off">
+    <value>Av</value>
+  </data>
+  <data name="DecNonDispItemStockOnPack.Prompt">
+    <value>Spørsmål</value>
+  </data>
+  <data name="DecNonDispItemStockOnPack.On">
+    <value>På</value>
+  </data>
+  <data name="DeltaScanMode.Delta">
+    <value>Delta</value>
+  </data>
+  <data name="DeltaScanMode.Total">
+    <value>Total</value>
+  </data>
+  <data name="DoctorUsage.NotSet">
+    <value>Ikke nødvendig</value>
+  </data>
+  <data name="DoctorUsage.Needed">
+    <value>Bruk standard hvis uspesifisert</value>
+  </data>
+  <data name="DoctorUsage.Required">
+    <value>Må spesifiseres</value>
+  </data>
+  <data name="DryerProcessStatus.Normal">
+    <value>Normal</value>
+  </data>
+  <data name="DryerProcessStatus.OK">
+    <value>OK</value>
+  </data>
+  <data name="DryerProcessStatus.Error">
+    <value>Feil</value>
+  </data>
+  <data name="FacOrderBookingMode.Disabled">
+    <value>Deaktivert</value>
+  </data>
+  <data name="FacOrderBookingMode.Manual">
+    <value>Manuell</value>
+  </data>
+  <data name="FacOrderBookingMode.Automation">
+    <value>Automatisk</value>
+  </data>
+  <data name="FactoryDefProdTraceType.ProductSerial">
+    <value>Serienummer</value>
+  </data>
+  <data name="FactoryDefProdTraceType.Product">
+    <value>Produktnummer</value>
+  </data>
+  <data name="FactoryRestrictionMode.Default">
+    <value>Standard</value>
+  </data>
+  <data name="FactoryRestrictionMode.On">
+    <value>På</value>
+  </data>
+  <data name="FactoryRestrictionMode.Warning">
+    <value>Advarsel</value>
+  </data>
+  <data name="FactoryRestrictionMode.Off">
+    <value>Av</value>
+  </data>
+  <data name="FastTrackCodeType.General">
+    <value>Generell</value>
+  </data>
+  <data name="FastTrackCodeType.AdHoc">
+    <value>Ad-hoc</value>
+  </data>
+  <data name="FastTrackCodeType.TemplateOnly">
+    <value>Kun gruppe</value>
+  </data>
+  <data name="FastTrackCreatorType.System">
+    <value>System</value>
+  </data>
+  <data name="FastTrackCreatorType.JobServer">
+    <value>Jobbserver</value>
+  </data>
+  <data name="FastTrackCreatorType.FacUser">
+    <value>Fabrikk bruker</value>
+  </data>
+  <data name="FastTrackCreatorType.CustUser">
+    <value>Kunde bruker</value>
+  </data>
+  <data name="FastTrackDisplayMode.UserSetting">
+    <value>Brukerinnstilling</value>
+  </data>
+  <data name="FastTrackDisplayMode.ForcePrompt">
+    <value>Tving påminnelse</value>
+  </data>
+  <data name="FastTrackDisplayMode.ForceNoPrompt">
+    <value>Tving ingen påminnelse</value>
+  </data>
+  <data name="FastTrackDisplayMode.ForceNoPromptOrInfo">
+    <value>Tving ingen ledetekst eller info</value>
+  </data>
+  <data name="FastTrackEndType.Normal">
+    <value>Normal</value>
+  </data>
+  <data name="FastTrackEndType.NormalNewUnitHas">
+    <value>Normal (ny enhet har samme)</value>
+  </data>
+  <data name="FastTrackEndType.ToRepair">
+    <value>Sendt til reparasjon</value>
+  </data>
+  <data name="FastTrackEndType.Expired">
+    <value>Forfalt</value>
+  </data>
+  <data name="FastTrackEndType.Cancelled">
+    <value>Annullert</value>
+  </data>
+  <data name="FastTrackInvoiceType.None">
+    <value>Ingen</value>
+  </data>
+  <data name="FastTrackInvoiceType.Factory">
+    <value>Fabrikk</value>
+  </data>
+  <data name="FastTrackInvoiceType.Customer">
+    <value>Kunde</value>
+  </data>
+  <data name="FastTrackStatus.Assigned">
+    <value>Tildelt</value>
+  </data>
+  <data name="FastTrackStatus.Started">
+    <value>Startet</value>
+  </data>
+  <data name="FastTrackStatus.Ended">
+    <value>Avsluttet</value>
+  </data>
+  <data name="HandlingStepResult.OK">
+    <value>Passert</value>
+  </data>
+  <data name="HandlingStepResult.FailedStop">
+    <value>Mislyktes</value>
+  </data>
+  <data name="HandlingStepResult.OKCleared">
+    <value>Fullført (Tømt)</value>
+  </data>
+  <data name="HandlingStepResult.FailedStartOver">
+    <value>Mislyktes (start igjen)</value>
+  </data>
+  <data name="IdentArticleLineUsage.Enabled">
+    <value>Bruk system standard</value>
+  </data>
+  <data name="IdentArticleLineUsage.Disabled">
+    <value>Ja</value>
+  </data>
+  <data name="InActAction.Created">
+    <value>Opprettet</value>
+  </data>
+  <data name="InActAction.InBatch">
+    <value>I batch</value>
+  </data>
+  <data name="InActAction.Pending">
+    <value>Venter</value>
+  </data>
+  <data name="InActAction.InIncubator">
+    <value>I inkubator</value>
+  </data>
+  <data name="InActAction.StepResult">
+    <value>Trinn resultat</value>
+  </data>
+  <data name="InActAction.BatchUnblocked">
+    <value>Parti frigitt (ikke blokkert)</value>
+  </data>
+  <data name="InActAction.DispatchUnblocked">
+    <value>Utlevering ublokkert</value>
+  </data>
+  <data name="InActAction.Approved">
+    <value>Godkjent</value>
+  </data>
+  <data name="InActAction.Disapproved">
+    <value>Avvist</value>
+  </data>
+  <data name="InActAction.Cancelled">
+    <value>Annullert</value>
+  </data>
+  <data name="InActAction.InWell">
+    <value>I brønn</value>
+  </data>
+  <data name="InActAction.OutWell">
+    <value>Ut av brønn</value>
+  </data>
+  <data name="InActAction.BatchRemoved">
+    <value>Fjernet fra batch</value>
+  </data>
+  <data name="InActAction.BatchAssigned">
+    <value>Parti tildelt</value>
+  </data>
+  <data name="InActResult.Unknown">
+    <value>Ukjent</value>
+  </data>
+  <data name="InActResult.Approved">
+    <value>Godkjent</value>
+  </data>
+  <data name="InActResult.Disapproved">
+    <value>Avvist</value>
+  </data>
+  <data name="IncNonDispItemStockOnPack.Off">
+    <value>Av</value>
+  </data>
+  <data name="IncNonDispItemStockOnPack.Prompt">
+    <value>Spørsmål</value>
+  </data>
+  <data name="IncNonDispItemStockOnPack.On">
+    <value>På</value>
+  </data>
+  <data name="IncuBatchLogResult.Pending">
+    <value>Venter</value>
+  </data>
+  <data name="IncuBatchLogResult.Passed">
+    <value>Passert</value>
+  </data>
+  <data name="IncuBatchLogResult.Failed">
+    <value>Mislyktes</value>
+  </data>
+  <data name="IncuBatchLogResult.Warning">
+    <value>Advarsel</value>
+  </data>
+  <data name="IncuBatchLogResult.Discontinued">
+    <value>Utgått</value>
+  </data>
+  <data name="IncuBatchLogResult.Error">
+    <value>Feil</value>
+  </data>
+  <data name="IncuBatchLogResult.DataError">
+    <value>Datafeil</value>
+  </data>
+  <data name="IncuBatchLogStatus.Unknown">
+    <value>Ikke tilgjengelige enda</value>
+  </data>
+  <data name="IncuBatchLogStatus.Manual">
+    <value>Ingen datalogging</value>
+  </data>
+  <data name="IncuBatchLogStatus.Processing">
+    <value>Behandling</value>
+  </data>
+  <data name="IncuBatchLogStatus.Done">
+    <value>Utført</value>
+  </data>
+  <data name="IndicStatus.Created">
+    <value>Opprettet</value>
+  </data>
+  <data name="IndicStatus.InBatch">
+    <value>I batch</value>
+  </data>
+  <data name="IndicStatus.Pending">
+    <value>Venter</value>
+  </data>
+  <data name="IndicStatus.Approved">
+    <value>Godkjent</value>
+  </data>
+  <data name="IndicStatus.Disapproved">
+    <value>Avvist</value>
+  </data>
+  <data name="IndicStatus.Cancelled">
+    <value>Annullert</value>
+  </data>
+  <data name="InTypResultType.Immediate">
+    <value>Øyeblikkelig</value>
+  </data>
+  <data name="InTypResultType.Delayed">
+    <value>Forsinket</value>
+  </data>
+  <data name="InTypResultType.Combined">
+    <value>Kombinert</value>
+  </data>
+  <data name="ItemAltPricingMode.None">
+    <value>Ingen</value>
+  </data>
+  <data name="ItemAltPricingMode.SalesPrice">
+    <value>Salgspris</value>
+  </data>
+  <data name="ItemAltPricingMode.UsagePrice">
+    <value>Brukspris</value>
+  </data>
+  <data name="ItemAltPricingMode.CostPrice">
+    <value>Innkjøpskostnad</value>
+  </data>
+  <data name="ItemDifficultyMode.Default">
+    <value>Standard</value>
+  </data>
+  <data name="ItemDifficultyMode.Fixed">
+    <value>Fastsatt</value>
+  </data>
+  <data name="ItemDifficultyMode.Sum">
+    <value>Sum</value>
+  </data>
+  <data name="ItemDifficultyMode.Max">
+    <value>Maks.</value>
+  </data>
+  <data name="ItemDifficultyMode.Count">
+    <value>Antall</value>
+  </data>
+  <data name="ItemInstrumentType.Instrument">
+    <value>Vare</value>
+  </data>
+  <data name="ItemInstrumentType.Endoscope">
+    <value>Endoskop</value>
+  </data>
+  <data name="ItemInstrumentType.ButtonValve">
+    <value>Endoskopventil</value>
+  </data>
+  <data name="ItemPricingMode.SalesPrice">
+    <value>Salgspris</value>
+  </data>
+  <data name="ItemPricingMode.UsagePrice">
+    <value>Brukspris</value>
+  </data>
+  <data name="ItemPricingMode.CostPrice">
+    <value>Innkjøpskostnad</value>
+  </data>
+  <data name="ItemPricingType.Normal">
+    <value></value>
+  </data>
+  <data name="ItemPricingType.TimeBased">
+    <value></value>
+  </data>
+  <data name="ItemReservationMode.NotRequired">
+    <value>Ikke nødvendig</value>
+  </data>
+  <data name="ItemReservationMode.Enabled">
+    <value>Aktivert</value>
+  </data>
+  <data name="ItemTraceType.Item">
+    <value>Vare</value>
+  </data>
+  <data name="ItemTraceType.SerialItem">
+    <value>Serienummer</value>
+  </data>
+  <data name="ItemTraceType.LOT">
+    <value>LOT nummer</value>
+  </data>
+  <data name="LogEntryType.System">
+    <value>System</value>
+  </data>
+  <data name="LogEntryType.Information">
+    <value>Informasjon</value>
+  </data>
+  <data name="LogEntryType.Message">
+    <value>Melding</value>
+  </data>
+  <data name="LogEntryType.Warning">
+    <value>Advarsel</value>
+  </data>
+  <data name="LogEntryType.Error">
+    <value>Feil</value>
+  </data>
+  <data name="LogEntryType.Debug">
+    <value>Feilsøk</value>
+  </data>
+  <data name="LogBatchContent.Disabled">
+    <value>Deaktivert</value>
+  </data>
+  <data name="LogBatchContent.Enabled">
+    <value>Aktivert</value>
+  </data>
+  <data name="LogBatchRegMode.Off">
+    <value>Av</value>
+  </data>
+  <data name="LogBatchRegMode.On">
+    <value>På</value>
+  </data>
+  <data name="MachConsStatus.OnStock">
+    <value>På lager</value>
+  </data>
+  <data name="MachConsStatus.InUse">
+    <value>I bruk</value>
+  </data>
+  <data name="MachConsStatus.Used">
+    <value>Brukt</value>
+  </data>
+  <data name="MachConsStatus.Missing">
+    <value>Mangler</value>
+  </data>
+  <data name="MachLogTypes.TDOC">
+    <value>T-DOC-feil</value>
+  </data>
+  <data name="MachLogTypes.MachineError">
+    <value>Maskinfeil</value>
+  </data>
+  <data name="MachLogTypes.MachineWarning">
+    <value>Maskin advarsel</value>
+  </data>
+  <data name="MachTypeRuleIntervalType.Day">
+    <value>Hver x dag</value>
+  </data>
+  <data name="MachTypeRuleIntervalType.Batch">
+    <value>Hver x batch</value>
+  </data>
+  <data name="MachTypeRuleIntervalType.FirstDailyRunAfter">
+    <value>Første daglige kjørsel etter</value>
+  </data>
+  <data name="MachTypeRuleIntervalType.FirstWeeklyRunAfter">
+    <value>Første ukentlige kjørsel etter</value>
+  </data>
+  <data name="MachTypeRuleIntervalType.FirstMonthlyRunAfter">
+    <value>Første månedlige kjørsel etter</value>
+  </data>
+  <data name="ManualEndoDryingMode.NotAllowed">
+    <value>Ikke tillatt</value>
+  </data>
+  <data name="ManualEndoDryingMode.Allowed">
+    <value>Tillatt</value>
+  </data>
+  <data name="ManualEndoDryingMode.Assumed">
+    <value>Antatt</value>
+  </data>
+  <data name="McRuleResult.OK">
+    <value>OK</value>
+  </data>
+  <data name="McRuleResult.Prevented">
+    <value>Forhindret</value>
+  </data>
+  <data name="McRuleResult.Forced">
+    <value>Tvunget</value>
+  </data>
+  <data name="McRuleResult.Error">
+    <value>Feil</value>
+  </data>
+  <data name="OperationDataActionType.Created">
+    <value>Opprettet</value>
+  </data>
+  <data name="OperationDataActionType.Cancelled">
+    <value>Annullert</value>
+  </data>
+  <data name="OperationDataActionType.Planned">
+    <value>Planlagt</value>
+  </data>
+  <data name="OperationDataActionType.Accepted">
+    <value>Mottatt</value>
+  </data>
+  <data name="OperationDataActionType.Started">
+    <value>Startet</value>
+  </data>
+  <data name="OperationDataActionType.Done">
+    <value>Utført</value>
+  </data>
+  <data name="OperationDataActionType.PrefListToOrderAuto">
+    <value>Pref. liste ordre opprettet (auto)</value>
+  </data>
+  <data name="OperationDataActionType.PrefListToOrderManual">
+    <value>Pref. liste ordre opprettet (manuellt)</value>
+  </data>
+  <data name="OperationDataActionType.PrefListOrderUpdated">
+    <value>Pref. liste ordre oppdatert</value>
+  </data>
+  <data name="OperationDataActionType.OrderCancelled">
+    <value>Ordre annullert</value>
+  </data>
+  <data name="OperationDataActionType.Exported">
+    <value>Eksportert</value>
+  </data>
+  <data name="OperationDataActionType.Imported">
+    <value>Importert</value>
+  </data>
+  <data name="OperationDataActionType.PickInfoImport">
+    <value>Plukke informasjon importert</value>
+  </data>
+  <data name="OperationDataActionType.BookingForced">
+    <value>Bestilling tvunget</value>
+  </data>
+  <data name="OperationDataActionType.BookingUnForced">
+    <value>Booking utvungen</value>
+  </data>
+  <data name="OperationDataActionType.ReservChangedDueToForce">
+    <value>Reserv. Endring på grunn av tvang</value>
+  </data>
+  <data name="OperationDataActionType.PreCount">
+    <value>Operasjonstelling (før)</value>
+  </data>
+  <data name="OperationDataActionType.PerCount">
+    <value>Operasjonstelling (under)</value>
+  </data>
+  <data name="OperationDataActionType.PostCount">
+    <value>Operasjonstelling (etter)</value>
+  </data>
+  <data name="OperationDataActionType.MergeRemove">
+    <value>Data flyttet til operasjon</value>
+  </data>
+  <data name="OperationDataActionType.MergeReceive">
+    <value>Data mottatt fra operasjon</value>
+  </data>
+  <data name="OperationDataActionType.EmergencyCaseCartAdded">
+    <value>Akuttprosedyrevogn tilknyttet</value>
+  </data>
+  <data name="OperationDataActionType.PatVeriOK">
+    <value>pasient verifisert</value>
+  </data>
+  <data name="OperationDataActionType.PatVeriFailed">
+    <value>Pasient verifisering feilet</value>
+  </data>
+  <data name="OperationDataActionType.PatVeriSkip">
+    <value>Pasientverifisering overhoppet</value>
+  </data>
+  <data name="OperationDataActionType.PatVeriPostpone">
+    <value>Pasient verifisering utsatt</value>
+  </data>
+  <data name="OperationDataActionType.OrderReturnRequested">
+    <value>Ordreretur forespurt</value>
+  </data>
+  <data name="OperationDataActionType.OrderReordered">
+    <value>Ordre gjenbestilt</value>
+  </data>
+  <data name="OperationDataActionType.OrderCopyCreatedAuto">
+    <value>Ordrekopi skapt (akuto)</value>
+  </data>
+  <data name="OperationDataActionType.OrderCopyCreatedManual">
+    <value>Ordrekopi skapt (manuelt)</value>
+  </data>
+  <data name="OperationTypeType.Elective">
+    <value>Opprettet</value>
+  </data>
+  <data name="OperationTypeType.Emergency">
+    <value>Annullert</value>
+  </data>
+  <data name="OPProcedureTypeMode.Fixed">
+    <value>Fastsatt</value>
+  </data>
+  <data name="OPProcedureTypeMode.AutoOPType">
+    <value>Auto fra Operasjons type</value>
+  </data>
+  <data name="OPProcedureTypeMode.AutoDisabled">
+    <value></value>
+  </data>
+  <data name="OPStaffMode.Fixed">
+    <value>Fastsatt</value>
+  </data>
+  <data name="OPStaffMode.AutoProcType">
+    <value>Auto fra Prosedyre type</value>
+  </data>
+  <data name="OrderActionType.Created">
+    <value>Opprettet</value>
+  </data>
+  <data name="OrderActionType.Cancelled">
+    <value>Annullert</value>
+  </data>
+  <data name="OrderActionType.Sent">
+    <value>Sendt</value>
+  </data>
+  <data name="OrderActionType.Accepted">
+    <value>Mottatt</value>
+  </data>
+  <data name="OrderActionType.PickStart">
+    <value>Plukking begynt</value>
+  </data>
+  <data name="OrderActionType.Delivered">
+    <value>Levert</value>
+  </data>
+  <data name="OrderActionType.Received">
+    <value>Mottatt</value>
+  </data>
+  <data name="OrderActionType.Done">
+    <value>Utført</value>
+  </data>
+  <data name="OrderActionType.PrintPicklist">
+    <value>Plukkliste skrevet ut eller sett</value>
+  </data>
+  <data name="OrderActionType.PrintDevNote">
+    <value>Leveringsnotat skrevet ut eller sett</value>
+  </data>
+  <data name="OrderActionType.PrintRetNote">
+    <value>Returnotat skrevet ut eller sett</value>
+  </data>
+  <data name="OrderActionType.PrintPurchaseOrder">
+    <value>Bestilling skrevet ut eller sett</value>
+  </data>
+  <data name="OrderActionType.Exported">
+    <value>Eksportert</value>
+  </data>
+  <data name="OrderActionType.Imported">
+    <value>Importert</value>
+  </data>
+  <data name="OrderActionType.ReqDevTimeChange">
+    <value>Ønsket leveringstid endret</value>
+  </data>
+  <data name="OrderActionType.PickInfoImport">
+    <value></value>
+  </data>
+  <data name="OrderActionType.BookingModeActive">
+    <value>Bestillingsmodus aktiv</value>
+  </data>
+  <data name="OrderActionType.BookingModeInActive">
+    <value>Bestillingsmodus inaktiv</value>
+  </data>
+  <data name="OrderActionType.BookingForced">
+    <value>Bestilling tvunget</value>
+  </data>
+  <data name="OrderActionType.BookingUnForced">
+    <value>Booking utvungen</value>
+  </data>
+  <data name="OrderActionType.ReservChangedDueToForce">
+    <value>Reserv. Endring på grunn av tvang</value>
+  </data>
+  <data name="OrderActionType.AttachToOperation">
+    <value>Knyttet til operasjon</value>
+  </data>
+  <data name="OrderActionType.DetachFromOperation">
+    <value>Fjernet fra operasjon</value>
+  </data>
+  <data name="OrderActionType.BindItemsToOperation">
+    <value>Varer som er knyttet til operasjon</value>
+  </data>
+  <data name="OrderActionType.BindUnitsToOperation">
+    <value>Enheter som er knyttet til operasjon</value>
+  </data>
+  <data name="OrderActionType.UnbindItemsFromOperation">
+    <value>Varer fjernet fra operasjon</value>
+  </data>
+  <data name="OrderActionType.UnbindUnitsFromOperation">
+    <value>Enheter fjernet fra operasjon</value>
+  </data>
+  <data name="OrderActionType.ReturnRequested">
+    <value>Returnere forespurt</value>
+  </data>
+  <data name="OrderActionType.Reordered">
+    <value>Omorganisert rekkefølge</value>
+  </data>
+  <data name="OrderBookingMode.Undetermined">
+    <value>Ubestemt</value>
+  </data>
+  <data name="OrderBookingMode.Disabled">
+    <value>Deaktivert</value>
+  </data>
+  <data name="OrderBookingMode.Inactive">
+    <value>Inaktiv</value>
+  </data>
+  <data name="OrderBookingMode.Active">
+    <value>Aktiv</value>
+  </data>
+  <data name="OrderBookingStatus.Undetermined">
+    <value>Ubestemt</value>
+  </data>
+  <data name="OrderBookingStatus.Ok">
+    <value>OK</value>
+  </data>
+  <data name="OrderBookingStatus.Warning">
+    <value>Advarsel</value>
+  </data>
+  <data name="OrderBookingStatus.Error">
+    <value>Feil</value>
+  </data>
+  <data name="OrderOrgStatus.None">
+    <value>Ingen</value>
+  </data>
+  <data name="OrderOrgStatus.Template">
+    <value>Mal</value>
+  </data>
+  <data name="OrderOrgStatus.Open">
+    <value>Åpne</value>
+  </data>
+  <data name="OrderOrgStatus.Sent">
+    <value>Sendt</value>
+  </data>
+  <data name="OrderOrgStatus.Received">
+    <value>Mottatt</value>
+  </data>
+  <data name="OrderOrgStatus.Done">
+    <value>Utført</value>
+  </data>
+  <data name="OrderOrgStatus.Cancelled">
+    <value>Annullert</value>
+  </data>
+  <data name="OrderSuppPickPriority.Normal">
+    <value>Normal</value>
+  </data>
+  <data name="OrderSuppPickPriority.PickNow">
+    <value>Nå</value>
+  </data>
+  <data name="OrderSuppPickPriority.PickNowForced">
+    <value>Nå (tvunget)</value>
+  </data>
+  <data name="OrderSuppPriority.Normal">
+    <value>Normal</value>
+  </data>
+  <data name="OrderSuppPriority.FastTrack">
+    <value>Prioritert</value>
+  </data>
+  <data name="OrderSuppPriority.Emergency">
+    <value>Akutt</value>
+  </data>
+  <data name="OrderSuppStatus.None">
+    <value>Ingen</value>
+  </data>
+  <data name="OrderSuppStatus.Template">
+    <value>Mal</value>
+  </data>
+  <data name="OrderSuppStatus.Order">
+    <value>Ny</value>
+  </data>
+  <data name="OrderSuppStatus.Accepted">
+    <value>Mottatt</value>
+  </data>
+  <data name="OrderSuppStatus.Picked">
+    <value>Plukking begynt</value>
+  </data>
+  <data name="OrderSuppStatus.Delivered">
+    <value>Levert</value>
+  </data>
+  <data name="OrderSuppStatus.Cancelled">
+    <value>Annullert</value>
+  </data>
+  <data name="OrderType.None">
+    <value>Ingen</value>
+  </data>
+  <data name="OrderType.Order">
+    <value>Ordre</value>
+  </data>
+  <data name="OrderType.ReturnOrder">
+    <value>Returordre</value>
+  </data>
+  <data name="OrderType.OrderCorr">
+    <value>Lagerjustering</value>
+  </data>
+  <data name="PackingUsedFor.All">
+    <value>Alle instrument</value>
+  </data>
+  <data name="PackingUsedFor.Endoscopes">
+    <value>Endoskoper</value>
+  </data>
+  <data name="PatientAgeUsage.NotSet">
+    <value>Som spesifisert</value>
+  </data>
+  <data name="PatientAgeUsage.Needed">
+    <value>Bruk standard hvis uspesifisert</value>
+  </data>
+  <data name="PatientAgeUsage.Required">
+    <value>Må spesifiseres</value>
+  </data>
+  <data name="PatientGenderUsage.NotSet">
+    <value>Som spesifisert</value>
+  </data>
+  <data name="PatientGenderUsage.Needed">
+    <value>Bruk standard hvis uspesifisert</value>
+  </data>
+  <data name="PatientGenderUsage.Required">
+    <value>Må spesifiseres</value>
+  </data>
+  <data name="PIPLogEntrySubType.None">
+    <value>Ingen</value>
+  </data>
+  <data name="PIPLogEntrySubType.SystemData">
+    <value>Systemdata</value>
+  </data>
+  <data name="PIPLogEntrySubType.User">
+    <value>Bruker</value>
+  </data>
+  <data name="PIPLogEntrySubType.UserProfile">
+    <value>Bruker profil</value>
+  </data>
+  <data name="PIPLogEntrySubType.PatientLookup">
+    <value>Pasienter</value>
+  </data>
+  <data name="PIPLogEntrySubType.OperationLookup">
+    <value>Operasjonsdata</value>
+  </data>
+  <data name="PIPLogEntrySubType.Patients">
+    <value>Pasienter</value>
+  </data>
+  <data name="PIPLogEntrySubType.Operations">
+    <value>Operasjoner</value>
+  </data>
+  <data name="PIPLogEntrySubType.Units">
+    <value>Enheter</value>
+  </data>
+  <data name="PIPLogEntrySubType.Orders">
+    <value>Ordrer</value>
+  </data>
+  <data name="PIPLogEntrySubType.LOTLookup">
+    <value>Liste over LOT informasjon</value>
+  </data>
+  <data name="PIPLogEntryType.PIPSettings">
+    <value>Endring relatert til pasientsensitiv informasjon</value>
+  </data>
+  <data name="PIPLogEntryType.DirectLookup">
+    <value>Direkteoppslag</value>
+  </data>
+  <data name="PIPLogEntryType.SuccSearch">
+    <value>Vellykket søk</value>
+  </data>
+  <data name="PIPLogEntryType.UnSuccSearch">
+    <value>Mislykket søk</value>
+  </data>
+  <data name="PIPLogEntryType.PIPLogOpened">
+    <value>Pasientinformasjons-tilgangslogg åpnet</value>
+  </data>
+  <data name="PIPLogEntryType.PIPLogSearching">
+    <value>Søk i pasientinformasjons-tilgangslogg.</value>
+  </data>
+  <data name="PIPLogEntryType.SchedOperations">
+    <value>Planlagte operasjoner</value>
+  </data>
+  <data name="PrDrv.None">
+    <value>Ingen</value>
+  </data>
+  <data name="PrDrv.Windows">
+    <value>Windows</value>
+  </data>
+  <data name="PrDrv.Epson_Obsolete">
+    <value></value>
+  </data>
+  <data name="PrDrv.Zebra">
+    <value>Zebra</value>
+  </data>
+  <data name="PrefListOrderCreateMode.Immediate">
+    <value>Øyeblikkelig</value>
+  </data>
+  <data name="PrefListOrderCreateMode.TimeBased">
+    <value>Akkurat i tide</value>
+  </data>
+  <data name="PrefListOrderCreateMode.Manual">
+    <value>Manuell</value>
+  </data>
+  <data name="PrefLnModifier.None">
+    <value>Ingen</value>
+  </data>
+  <data name="PrefLnModifier.Absolute">
+    <value>Absolutt</value>
+  </data>
+  <data name="PrefLnModifier.Add">
+    <value>Legg til</value>
+  </data>
+  <data name="PrefLnModifier.Subtract">
+    <value>Trekk fra</value>
+  </data>
+  <data name="PrefLnModifier.Highest">
+    <value>Høyest</value>
+  </data>
+  <data name="PrefLnModifier.Lowest">
+    <value>Lavest</value>
+  </data>
+  <data name="ProcessStatus.Done">
+    <value>Utført</value>
+  </data>
+  <data name="ProcessStatus.Running">
+    <value>Kjører</value>
+  </data>
+  <data name="ProcessStatus.Initiated">
+    <value>Initialisert</value>
+  </data>
+  <data name="ProcessStatus.Ending">
+    <value>Avslutter</value>
+  </data>
+  <data name="ProcessType.None">
+    <value>Ingen</value>
+  </data>
+  <data name="ProcessType.Pack">
+    <value>Pakke</value>
+  </data>
+  <data name="ProcessType.SteriPostBatch">
+    <value>Post batch (Autoklave)</value>
+  </data>
+  <data name="ProcessType.Out">
+    <value>Utlever</value>
+  </data>
+  <data name="ProcessType.Return">
+    <value>Retur</value>
+  </data>
+  <data name="ProcessType.Prepare">
+    <value>Forberede</value>
+  </data>
+  <data name="ProcessType.Wrap">
+    <value>Pakk inn</value>
+  </data>
+  <data name="ProcessType.LitePro">
+    <value>Lite label</value>
+  </data>
+  <data name="ProcessType.SteriPreBatch">
+    <value>Pre batch (Autoklave)</value>
+  </data>
+  <data name="ProcessType.Flash">
+    <value>Lyn/Nød-batch</value>
+  </data>
+  <data name="ProcessType.Location">
+    <value>Plassering</value>
+  </data>
+  <data name="ProcessType.WashPreBatch">
+    <value>Pre batch (Vaskemaskine)</value>
+  </data>
+  <data name="ProcessType.WashPostBatch">
+    <value>Post batch (Vaskemaskine)</value>
+  </data>
+  <data name="ProcessType.OpenUsed">
+    <value>Åpne/brukt</value>
+  </data>
+  <data name="ProcessType.Operation">
+    <value>Operasjon</value>
+  </data>
+  <data name="ProcessType.Order">
+    <value>Ordre</value>
+  </data>
+  <data name="ProcessType.Inventory">
+    <value>Vareopptelling</value>
+  </data>
+  <data name="ProcessType.OrderPick">
+    <value>Ordreplukking</value>
+  </data>
+  <data name="ProcessType.Industry">
+    <value>Industri</value>
+  </data>
+  <data name="ProcessType.PreDisPreBatch">
+    <value>Pre batch (Predesinfeksjon)</value>
+  </data>
+  <data name="ProcessType.LoadQueue">
+    <value>Lastekø</value>
+  </data>
+  <data name="ProcessType.PurchaseOrder">
+    <value>Kjøpesordre</value>
+  </data>
+  <data name="ProcessType.EndoscopePreBatch">
+    <value>Pre batch (Endoskopvasker)</value>
+  </data>
+  <data name="ProcessType.WashCheck">
+    <value>Vaske sjekk</value>
+  </data>
+  <data name="ProcessType.ExtBatchInfo">
+    <value>Ekst. Batch-info</value>
+  </data>
+  <data name="ProcessType.EndoCleanAndTest">
+    <value>Endo vask og test</value>
+  </data>
+  <data name="ProcessType.Transport">
+    <value>Transport</value>
+  </data>
+  <data name="ProcessType.Workflow">
+    <value>Arbeidsflyt</value>
+  </data>
+  <data name="ProcessType.Incubator">
+    <value>Inkubasjon</value>
+  </data>
+  <data name="ProcessType.ReturnWF">
+    <value>Returner enheter</value>
+  </data>
+  <data name="ProcessType.WashPreBatchWF">
+    <value>Opprett vaskeparti</value>
+  </data>
+  <data name="ProcessType.SteriPreBatchWF">
+    <value>Opprette sterilisatorparti</value>
+  </data>
+  <data name="ProcessType.PackWF">
+    <value>Pakkeenheter</value>
+  </data>
+  <data name="ProcessType.OutWF">
+    <value>Utlever til kunde</value>
+  </data>
+  <data name="ProcessType.Last">
+    <value></value>
+  </data>
+  <data name="ProdDispatchRestriction.Default">
+    <value>Standard</value>
+  </data>
+  <data name="ProdDispatchRestriction.None">
+    <value>Ingen</value>
+  </data>
+  <data name="ProdDispatchRestriction.CustomerOrSite">
+    <value>Kunde eller sted</value>
+  </data>
+  <data name="ProdDispatchRestriction.CustomerElseSite">
+    <value>Kunde annet sted</value>
+  </data>
+  <data name="ProdDispatchRestriction.CustomerOnly">
+    <value>Kun kunder</value>
+  </data>
+  <data name="ProdReservationMode.NotRequired">
+    <value>Ikke nødvendig</value>
+  </data>
+  <data name="ProdReservationMode.Enabled">
+    <value>Aktivert</value>
+  </data>
+  <data name="ProductDifficultyMode.UseItemValue">
+    <value>Bruk vare verdi</value>
+  </data>
+  <data name="ProductDifficultyMode.Fixed">
+    <value>Fastsatt</value>
+  </data>
+  <data name="ProductReturnState.Normal">
+    <value>Normal</value>
+  </data>
+  <data name="ProductReturnState.PreProcessed">
+    <value>Pre-behandlet</value>
+  </data>
+  <data name="ProductReturnState.PrePacked">
+    <value>Pre-pakket</value>
+  </data>
+  <data name="ProductStockControlMode.Simple">
+    <value>Normal</value>
+  </data>
+  <data name="ProductStockControlMode.Basic">
+    <value>Avansert (Full)</value>
+  </data>
+  <data name="ProductStockControlMode.Advanced">
+    <value></value>
+  </data>
+  <data name="ProductStorageType.Factory">
+    <value>Fabrikk</value>
+  </data>
+  <data name="ProductStorageType.Transit">
+    <value>Transitt</value>
+  </data>
+  <data name="ProductTraceType.Product">
+    <value>Produktnummer</value>
+  </data>
+  <data name="ProductTraceType.ProductSerial">
+    <value>Serienummer</value>
+  </data>
+  <data name="ProductTraceType.Both">
+    <value>Både serie- og produktnummer</value>
+  </data>
+  <data name="ProductType.Trays">
+    <value>Brikke</value>
+  </data>
+  <data name="ProductType.SinglePacks">
+    <value>Enkeltpakket</value>
+  </data>
+  <data name="ProductType.Endoscopes">
+    <value>Endoskop</value>
+  </data>
+  <data name="ProgramCheckInitiated.Allowed">
+    <value>Tillatt</value>
+  </data>
+  <data name="ProgramCheckInitiated.Required">
+    <value>Nødvendig</value>
+  </data>
+  <data name="QuestionInputType.Boolean">
+    <value>Ja/nei</value>
+  </data>
+  <data name="QuestionInputType.Integer">
+    <value>Nummer</value>
+  </data>
+  <data name="QuestionInputType.Text">
+    <value>Tekst</value>
+  </data>
+  <data name="QuestionInputType.List">
+    <value>Liste</value>
+  </data>
+  <data name="RepairInvState.None">
+    <value>Ingen</value>
+  </data>
+  <data name="RepairInvState.Block">
+    <value>Blokkert</value>
+  </data>
+  <data name="RepairInvState.Done">
+    <value>Utført</value>
+  </data>
+  <data name="RepairMode.AskUser">
+    <value>Spør bruker</value>
+  </data>
+  <data name="RepairMode.UsingCust">
+    <value>Bruker kunde</value>
+  </data>
+  <data name="RepairMode.Owner">
+    <value>Eier</value>
+  </data>
+  <data name="RepairMode.Factory">
+    <value>Fabrikk</value>
+  </data>
+  <data name="RepairOrigin.Item">
+    <value>Vare</value>
+  </data>
+  <data name="RepairOrigin.Product">
+    <value>Produkt</value>
+  </data>
+  <data name="RepairOrigin.Serial">
+    <value>Serienummer</value>
+  </data>
+  <data name="RepairOrigin.Unit">
+    <value>Enhet</value>
+  </data>
+  <data name="RepairOrigin.Tag">
+    <value>Etikett</value>
+  </data>
+  <data name="RepairStatus.Sent">
+    <value>Sendt</value>
+  </data>
+  <data name="RepairStatus.Received">
+    <value>Mottatt</value>
+  </data>
+  <data name="RepairStatus.Done">
+    <value>Utført</value>
+  </data>
+  <data name="RepairStatus.Cancelled">
+    <value>Annullert</value>
+  </data>
+  <data name="RepairStatus.Requested">
+    <value>Bestilt</value>
+  </data>
+  <data name="RpTypCommentOption.NotAllowed">
+    <value>Ikke tillat</value>
+  </data>
+  <data name="RpTypCommentOption.Allowed">
+    <value>Tillatt</value>
+  </data>
+  <data name="RpTypCommentOption.Required">
+    <value>Nødvendig</value>
+  </data>
+  <data name="RpTypCustInvMode.NoInvoice">
+    <value>Ingen faktura</value>
+  </data>
+  <data name="RpTypCustInvMode.Invoice">
+    <value>Faktura</value>
+  </data>
+  <data name="RpTypCustInvMode.NoEdit">
+    <value>Faktura, ingen endring</value>
+  </data>
+  <data name="RpTypCustInvMode.Hidden">
+    <value>Faktura, ingen visning</value>
+  </data>
+  <data name="RpTypFacInvMode.NoInvoice">
+    <value>Ingen faktura</value>
+  </data>
+  <data name="RpTypFacInvMode.Invoice">
+    <value>Faktura</value>
+  </data>
+  <data name="RpTypFacInvMode.NoEdit">
+    <value>Faktura, ingen endring</value>
+  </data>
+  <data name="RpTypFacInvMode.Hidden">
+    <value>Faktura, ingen visning</value>
+  </data>
+  <data name="RpTypSuppMode.AllowChange">
+    <value>Tillat endring</value>
+  </data>
+  <data name="RpTypSuppMode.Fixed">
+    <value>Fastsatt</value>
+  </data>
+  <data name="RpTypType.Standard">
+    <value>Standard</value>
+  </data>
+  <data name="RpTypType.Quick">
+    <value>Rask reparasjon</value>
+  </data>
+  <data name="RpTypType.Discard">
+    <value>Kassèr</value>
+  </data>
+  <data name="ScanUIStartMode.Default">
+    <value>Standard</value>
+  </data>
+  <data name="ScanUIStartMode.Layers">
+    <value>Modus for stil</value>
+  </data>
+  <data name="ScanUIStartMode.Grid">
+    <value>Tabell/rutenett-modus</value>
+  </data>
+  <data name="SexType.None">
+    <value>Ukjent</value>
+  </data>
+  <data name="SexType.Male">
+    <value>Mann</value>
+  </data>
+  <data name="SexType.Female">
+    <value>Kvinne</value>
+  </data>
+  <data name="SexType.Other">
+    <value>Annen</value>
+  </data>
+  <data name="StdCommentFreeTextOption.NotAllowed">
+    <value>Ikke tillat</value>
+  </data>
+  <data name="StdCommentFreeTextOption.Allowed">
+    <value>Tillatt</value>
+  </data>
+  <data name="StdCommentFreeTextOption.Required">
+    <value>Nødvendig</value>
+  </data>
+  <data name="StockBackOrderMode.Never">
+    <value>Aldri</value>
+  </data>
+  <data name="StockBackOrderMode.Always">
+    <value>Alltid</value>
+  </data>
+  <data name="StockBackOrderMode.Ask">
+    <value>Spør</value>
+  </data>
+  <data name="StockBackOrderMode.WhenSet">
+    <value>Hvis anvist (Eksakt)</value>
+  </data>
+  <data name="StockBackOrderMode.WhenSetAuto">
+    <value>Hvis anvist (Alle)</value>
+  </data>
+  <data name="StockOrderInMode.Auto">
+    <value>Automatisk fullførelse</value>
+  </data>
+  <data name="StockOrderInMode.Receive">
+    <value>Automatisk mottakelse</value>
+  </data>
+  <data name="StockOrderInMode.Manual">
+    <value>Manuelt mottak</value>
+  </data>
+  <data name="StockPrnMode.Never">
+    <value>Aldri</value>
+  </data>
+  <data name="StockPrnMode.Always">
+    <value>Alltid</value>
+  </data>
+  <data name="StockPrnMode.Ask">
+    <value>Spør</value>
+  </data>
+  <data name="TagType.Basket">
+    <value>Kurv</value>
+  </data>
+  <data name="TagType.SteriLoad">
+    <value>Last</value>
+  </data>
+  <data name="TagType.PrepTag">
+    <value>Forberede</value>
+  </data>
+  <data name="TagType.Bundle">
+    <value>Bunt</value>
+  </data>
+  <data name="TagType.Wash">
+    <value>Vask</value>
+  </data>
+  <data name="TagType.WashLoad">
+    <value>Vaskelast</value>
+  </data>
+  <data name="TagType.Transport">
+    <value>Transport</value>
+  </data>
+  <data name="TagType.Split">
+    <value>Dele</value>
+  </data>
+  <data name="TagType.CaseCart">
+    <value>Prosedyrevogn</value>
+  </data>
+  <data name="TagType.TransportBox">
+    <value>Transport boks</value>
+  </data>
+  <data name="TagType.InstrumentContainer">
+    <value>Instrument beholder</value>
+  </data>
+  <data name="TransmitKind.SMS">
+    <value>Kort mal</value>
+  </data>
+  <data name="TransmitKind.Internal">
+    <value>Lang mal</value>
+  </data>
+  <data name="TrigBehaviour.RoundBased">
+    <value>Runder</value>
+  </data>
+  <data name="TrigBehaviour.Time">
+    <value>Intervaller</value>
+  </data>
+  <data name="TrigBehaviour.InitialDaysThenRounds">
+    <value>Intervaller deretter runder</value>
+  </data>
+  <data name="TrigBehaviour.RoundMaxTime">
+    <value>Runder eller intervaller</value>
+  </data>
+  <data name="TrigBehaviour.Everytime">
+    <value>Alltid</value>
+  </data>
+  <data name="TrigExecutionPhase.Before">
+    <value>Før</value>
+  </data>
+  <data name="TrigExecutionPhase.During">
+    <value>Under</value>
+  </data>
+  <data name="TrigExecutionPhase.After">
+    <value>Etter</value>
+  </data>
+  <data name="TrigPostponeAbility.No">
+    <value>Nei</value>
+  </data>
+  <data name="TrigPostponeAbility.YesAllUsers">
+    <value>Ja</value>
+  </data>
+  <data name="TrigPostponeAbility.UserDefined">
+    <value>Brukerdefinert</value>
+  </data>
+  <data name="UILocaAvailability.Default">
+    <value>Standard</value>
+  </data>
+  <data name="UILocaAvailability.Visible">
+    <value>Synlig</value>
+  </data>
+  <data name="UILocaAvailability.Advanced">
+    <value>Synlig (avansert)</value>
+  </data>
+  <data name="UILocaAvailability.Hidden">
+    <value>Skjult</value>
+  </data>
+  <data name="WellStatus.Unknown">
+    <value>Ukjent</value>
+  </data>
+  <data name="WellStatus.Empty">
+    <value>Tom</value>
+  </data>
+  <data name="WellStatus.Init">
+    <value>Initialisering</value>
+  </data>
+  <data name="WellStatus.Processing">
+    <value>Behandling</value>
+  </data>
+  <data name="WellStatus.Negative">
+    <value>Negativ</value>
+  </data>
+  <data name="WellStatus.Positive">
+    <value>Positiv</value>
+  </data>
+  <data name="WellStatus.Result">
+    <value>Feil</value>
+  </data>
+  <data name="WellStatus.Error">
+    <value>Advarsel</value>
+  </data>
+  <data name="WellStatus.Warning">
+    <value></value>
+  </data>
+  <data name="ReservationState.Undetermined">
+    <value>Ubestemt</value>
+  </data>
+  <data name="ReservationState.OKOriginal">
+    <value>OK</value>
+  </data>
+  <data name="ReservationState.OKIdentical">
+    <value>OK</value>
+  </data>
+  <data name="ReservationState.OKAlternative">
+    <value>OK</value>
+  </data>
+  <data name="ReservationState.OKIdenticalForAlternative">
+    <value>OK</value>
+  </data>
+  <data name="ReservationState.WarningOriginal">
+    <value>Advarsel</value>
+  </data>
+  <data name="ReservationState.WarningIdentical">
+    <value>Advarsel</value>
+  </data>
+  <data name="ReservationState.WarningAlternative">
+    <value>Advarsel</value>
+  </data>
+  <data name="ReservationState.WarningIdenticalForAlternative">
+    <value>Advarsel</value>
+  </data>
+  <data name="ReservationState.Error">
+    <value>Feil</value>
+  </data>
+  <data name="TriggerResult.RAccept">
+    <value>Godta</value>
+  </data>
+  <data name="TriggerResult.RReject">
+    <value>Avvis</value>
+  </data>
+  <data name="TriggerResult.ROverride">
+    <value>Overstyr</value>
+  </data>
+  <data name="TriggerResult.RPostpone">
+    <value>Utsett</value>
+  </data>
+  <data name="TriggerResult.RSilent">
+    <value>Stille</value>
+  </data>
+  <data name="FacDeductItemsFromStockInOpType.On">
+    <value>På</value>
+  </data>
+  <data name="FacDeductItemsFromStockInOpType.Off">
+    <value>Av</value>
+  </data>
+  <data name="OrderSuppPickMode.Normal">
+    <value>Normal</value>
+  </data>
+  <data name="OrderSuppPickMode.FullAuto">
+    <value>Fullstendig automatisert</value>
+  </data>
+  <data name="OrderSuppPickMode.EjectOnly">
+    <value>Trekk ut fra lager</value>
+  </data>
+  <data name="PickJobStatus.Forecast">
+    <value>Prognose</value>
+  </data>
+  <data name="PickJobStatus.Requested">
+    <value>Bestilt</value>
+  </data>
+  <data name="PickJobStatus.Attempted">
+    <value>Kontrollert/Forsøkt</value>
+  </data>
+  <data name="PickJobStatus.Committed">
+    <value>Dedikert</value>
+  </data>
+  <data name="PickJobStatus.Completed">
+    <value>Fullført</value>
+  </data>
+  <data name="PickJobStatus.Closed">
+    <value>Lukket</value>
+  </data>
+  <data name="PickJobStatus.Cancelled">
+    <value>Annullert</value>
+  </data>
+  <data name="PickJobActionType.NewForecast">
+    <value>Prognose</value>
+  </data>
+  <data name="PickJobActionType.Requested">
+    <value>Bestilt</value>
+  </data>
+  <data name="PickJobActionType.Attempted">
+    <value>Forsøkt</value>
+  </data>
+  <data name="PickJobActionType.Committed">
+    <value>Dedikert</value>
+  </data>
+  <data name="PickJobActionType.Completed">
+    <value>Fullført</value>
+  </data>
+  <data name="PickJobActionType.Closed">
+    <value>Lukket</value>
+  </data>
+  <data name="PickJobActionType.Cancelled">
+    <value>Annullert</value>
+  </data>
+  <data name="ItemSalesRestriction.None">
+    <value>Ingen</value>
+  </data>
+  <data name="ItemSalesRestriction.Blocked">
+    <value>Blokkert</value>
+  </data>
+  <data name="TrigActivity.None">
+    <value>Ingenting</value>
+  </data>
+  <data name="TrigActivity.Pack">
+    <value>Pakke</value>
+  </data>
+  <data name="TrigActivity.Return">
+    <value>Retur</value>
+  </data>
+  <data name="TrigActivity.Wrap">
+    <value>Pakk inn</value>
+  </data>
+  <data name="TrigActivity.WasherBatchRegistration">
+    <value>Vaskeparti registrering</value>
+  </data>
+  <data name="TrigActivity.WasherBatchApproval">
+    <value>Vaskepartigodkjenning</value>
+  </data>
+  <data name="TrigActivity.SterilizerBatchRegistration">
+    <value>Sterilisator partiregisitrering</value>
+  </data>
+  <data name="TrigActivity.SterilizerBatchApproval">
+    <value>Sterilisator partigodkjenning</value>
+  </data>
+  <data name="TrigActivity.RegisterLocation">
+    <value>Plassering</value>
+  </data>
+  <data name="TrigActivity.OperationRegistration">
+    <value>Operasjon</value>
+  </data>
+  <data name="TrigActivity.Pick">
+    <value>Plukk</value>
+  </data>
+  <data name="TrigActivity.Dispatch">
+    <value>Utlever</value>
+  </data>
+  <data name="TrigActivity.UpdateInventory">
+    <value>Vareopptelling</value>
+  </data>
+  <data name="TrigActivity.PredisinfectionBatchRegistration">
+    <value>Pre-desinfeksjons partiregistrering</value>
+  </data>
+  <data name="TrigActivity.EndoscopeWasherBatchRegistration">
+    <value>Endoskop vaskeparti-registrering</value>
+  </data>
+  <data name="TrigActivity.EndoCleanAndTest">
+    <value>Endo vask og test</value>
+  </data>
+  <data name="TrigActivity.EndoscopeWasherBatchApproval">
+    <value>Endoskopvasker parti-godkjenning</value>
+  </data>
+  <data name="TrigActivity.StartTransport">
+    <value>Transport</value>
+  </data>
+  <data name="TrigActivity.PatientRegistration">
+    <value>Pasientregistrering</value>
+  </data>
+  <data name="ReservationStatus.Active">
+    <value>Aktiv</value>
+  </data>
+  <data name="ReservationStatus.Completed">
+    <value>Fullført</value>
+  </data>
+  <data name="ReservationStatus.Failed">
+    <value>Mislyktes</value>
+  </data>
+  <data name="ReservationStatus.Cancelled">
+    <value>Annullert</value>
+  </data>
+  <data name="ProductLoanerType.NonLoaner">
+    <value></value>
+  </data>
+  <data name="ProductLoanerType.GenericLoaner">
+    <value></value>
+  </data>
+  <data name="ProductLoanerType.ExternalLoaner">
+    <value></value>
+  </data>
+  <data name="ProductLoanerType.LoanerTemplate">
+    <value></value>
+  </data>
+  <data name="LoanerSerialNameChangeMode.Always">
+    <value></value>
+  </data>
+  <data name="LoanerSerialNameChangeMode.AtFirst">
+    <value></value>
+  </data>
+  <data name="LoanerSerialNameChangeMode.Never">
+    <value></value>
+  </data>
+  <data name="LoanerAutoCheckOutMode.Off">
+    <value></value>
+  </data>
+  <data name="LoanerAutoCheckOutMode.AfterWash">
+    <value></value>
+  </data>
+  <data name="LoanerAutoCheckOutMode.AfterReturn">
+    <value></value>
+  </data>
+  <data name="UnitStatus.None">
+    <value></value>
+  </data>
+  <data name="UnitStatus.Init">
+    <value>Initialisert</value>
+  </data>
+  <data name="UnitStatus.Started">
+    <value>Startet</value>
+  </data>
+  <data name="UnitStatus.Rinsed">
+    <value>Skyllet</value>
+  </data>
+  <data name="UnitStatus.Washed">
+    <value>Vasket</value>
+  </data>
+  <data name="UnitStatus.Prep">
+    <value>Forberedt</value>
+  </data>
+  <data name="UnitStatus.Packed">
+    <value>Pakket</value>
+  </data>
+  <data name="UnitStatus.Stock">
+    <value>På lager</value>
+  </data>
+  <data name="UnitStatus.Dispatched">
+    <value>Utlevert</value>
+  </data>
+  <data name="UnitStatus.Opened">
+    <value>Åpnet</value>
+  </data>
+  <data name="UnitStatus.Used">
+    <value>Brukt</value>
+  </data>
+  <data name="UnitStatus.Precleaned">
+    <value>Forvasket</value>
+  </data>
+  <data name="UnitStatus.Returned">
+    <value>Returnert</value>
+  </data>
+  <data name="UnitStatus.ErrorReg">
+    <value>Annullert</value>
+  </data>
+  <data name="UnitStatus.Last">
+    <value></value>
+  </data>
+  <data name="EndoscopeUnitStatus.None">
+    <value></value>
+  </data>
+  <data name="EndoscopeUnitStatus.Init">
+    <value>Initialisert</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Started">
+    <value>Startet</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Rinsed">
+    <value>Skyllet</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Washed">
+    <value>Vasket</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Prep">
+    <value>Initialisert</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Packed">
+    <value>Vasket</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Stock">
+    <value>Gjenbehandlet</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Dispatched">
+    <value>Utlevert</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Opened">
+    <value>Åpnet</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Used">
+    <value>Brukt</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Precleaned">
+    <value>Forvasket</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Returned">
+    <value>Returnert</value>
+  </data>
+  <data name="EndoscopeUnitStatus.ErrorReg">
+    <value>Annullert</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Last">
+    <value></value>
+  </data>
+  <data name="OperationStatus.Planned">
+    <value>Planlagt</value>
+  </data>
+  <data name="OperationStatus.Accepted">
+    <value>Mottatt</value>
+  </data>
+  <data name="OperationStatus.Started">
+    <value>Startet</value>
+  </data>
+  <data name="OperationStatus.Done">
+    <value>Utført</value>
+  </data>
+  <data name="OperationStatus.Cancelled">
+    <value>Annullert</value>
+  </data>
+  <data name="ObjectStatus.Normal">
+    <value>Normal</value>
+  </data>
+  <data name="ObjectStatus.Dying">
+    <value>Skal utgå</value>
+  </data>
+  <data name="ObjectStatus.Dead">
+    <value>Utgått</value>
+  </data>
+  <data name="MachineType.FirstMachineType">
+    <value>Autoklave</value>
+  </data>
+  <data name="MachineType.Sterilizer">
+    <value>Autoklave</value>
+  </data>
+  <data name="MachineType.Washer">
+    <value>Vaskemaskin</value>
+  </data>
+  <data name="MachineType.PreDis">
+    <value>Predesinfektor</value>
+  </data>
+  <data name="MachineType.EndoWasher">
+    <value>Endoskop vaskemaskine</value>
+  </data>
+  <data name="MachineType.Incubator">
+    <value>Inkubator</value>
+  </data>
+  <data name="MachineType.EndoDryer">
+    <value>Endoskop tørkeskap</value>
+  </data>
+  <data name="MachineType.LastMachineType">
+    <value>Endoskop tørkeskap</value>
+  </data>
+</root>

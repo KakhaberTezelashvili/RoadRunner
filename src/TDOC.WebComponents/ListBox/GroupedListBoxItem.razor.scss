@@ -1,0 +1,14 @@
+﻿@import "../Scss/iws-variables";
+
+.list-box-header {
+  cursor: pointer;
+  height: 32px;
+  background: $color-mist;
+}
+
+.list-box-item {
+  cursor: pointer;
+  height: 60px;
+  border: 1px solid $color-mist;
+  border-width: 0 1px 1px 1px;
+}

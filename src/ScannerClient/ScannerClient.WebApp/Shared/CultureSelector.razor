@@ -1,0 +1,7 @@
+﻿<strong>Culture: </strong>
+<select @bind="Culture">
+  @foreach (var culture in SupportedCultures)
+  {
+    <option value="@culture">@culture.DisplayName</option>
+  }
+</select>

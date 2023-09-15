@@ -1,0 +1,49 @@
+﻿@using ScannerClient.WebApp.Scanners.ScannerSimulator
+@using TDOC.WebComponents.Auth
+@using TDOC.WebComponents.Header
+
+@inherits Fluxor.Blazor.Web.Components.FluxorLayout
+
+<CascadingValue Value="this">
+    <div class="d-block">
+        @if (!embeddedClient && showMainHeader)
+        {
+            <MainHeader @ref="refMainHeader"
+                        Identifier="@HtmlElementIdentifiers.MainHeader.FirstCharToLowerCase()"
+                        LogoIconUrl="@($"{ContentUrls.ResourceImg}logos/logoTD.svg")"
+                        NotificationType="notificationType"
+                        NavigationButtons="navigationButtons"
+                        CssClass="fixed-top">
+                <CenterFragment>
+                    <!--<CultureSelector />-->
+                    <AuthorizeView>
+                        <Authorized>
+                            @if (showScannerSimulator)
+                            {
+                                <ScannerSimulator />
+                            }
+                        </Authorized>
+                    </AuthorizeView>
+                </CenterFragment>
+                <RightFragment>
+                    <AuthorizeView>
+                        <Authorized>
+                            <UserLoginPanel UserInitials="@userInitials"
+                                            UserName="@userName"
+                                            UserIcon="@($"{ContentUrls.ResourceImg}users/userDefault.svg")"
+                                            LogoutButtonText="@TdSharedLocalizer["logOut"]"
+                                            UserLogout="UserLogout" />
+                        </Authorized>
+                    </AuthorizeView>
+                </RightFragment>
+            </MainHeader>
+        }
+        <div class="@(embeddedClient || !showMainHeader ? "embedded-main-content-block" : "main-content-block")">
+            <div class="row h-100">
+                <div class="col w-100">
+                    @Body
+                </div>
+            </div>
+        </div>
+    </div>
+</CascadingValue>

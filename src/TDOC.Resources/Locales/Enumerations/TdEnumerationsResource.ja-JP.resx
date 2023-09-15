@@ -1,0 +1,1847 @@
+<?xml version="1.0" encoding="utf-8"?><root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActualProgramCheck.Off">
+    <value>オフ</value>
+  </data>
+  <data name="ActualProgramCheck.WarningPrompt">
+    <value>警告と確認</value>
+  </data>
+  <data name="ActualProgramCheck.Error">
+    <value>エラー:承認ブロック</value>
+  </data>
+  <data name="ApprovalType.No">
+    <value>いいえ</value>
+  </data>
+  <data name="ApprovalType.Yes">
+    <value>はい</value>
+  </data>
+  <data name="ApprovalType.Visual">
+    <value>ビジュアル</value>
+  </data>
+  <data name="ApprovalType.Unit">
+    <value>ユニット</value>
+  </data>
+  <data name="ApprovalType.UnitVisual">
+    <value>ユニット毎＋ビジュアル</value>
+  </data>
+  <data name="BatchUnitStatus.OK">
+    <value>OK</value>
+  </data>
+  <data name="BatchUnitStatus.BatchFailed">
+    <value>バッチ失敗</value>
+  </data>
+  <data name="BatchUnitStatus.UnitFailed">
+    <value>失敗ユニット</value>
+  </data>
+  <data name="CountDatStatus.Open">
+    <value>未発注</value>
+  </data>
+  <data name="CountDatStatus.Completed">
+    <value>完了</value>
+  </data>
+  <data name="CountDatStatus.Suspended">
+    <value>一時停止</value>
+  </data>
+  <data name="CountDatUsersUserRole.EnteringData">
+    <value>データ入力</value>
+  </data>
+  <data name="CountDatUsersUserRole.Responsible">
+    <value>責任者</value>
+  </data>
+  <data name="CustNameDisplay.Name">
+    <value>名前</value>
+  </data>
+  <data name="CustNameDisplay.ShortName">
+    <value>省略名</value>
+  </data>
+  <data name="CustNameDisplay.Number">
+    <value>番号</value>
+  </data>
+  <data name="CustOrderBookingMode.Default">
+    <value>初期設定</value>
+  </data>
+  <data name="CustOrderBookingMode.Disabled">
+    <value>使用不可</value>
+  </data>
+  <data name="CustOrderBookingMode.Manual">
+    <value>マニュアル</value>
+  </data>
+  <data name="CustOrderBookingMode.Automation">
+    <value>自動</value>
+  </data>
+  <data name="CustPreDispatchMode.UseFacSetting">
+    <value>ファクトリー設定を使用</value>
+  </data>
+  <data name="CustPreDispatchMode.Always">
+    <value>常時</value>
+  </data>
+  <data name="CustPreDispatchMode.Never">
+    <value>なし</value>
+  </data>
+  <data name="DecNonDispItemStockOnPack.Off">
+    <value>オフ</value>
+  </data>
+  <data name="DecNonDispItemStockOnPack.Prompt">
+    <value>プロンプト</value>
+  </data>
+  <data name="DecNonDispItemStockOnPack.On">
+    <value>オン</value>
+  </data>
+  <data name="DeltaScanMode.Delta">
+    <value>デルタ</value>
+  </data>
+  <data name="DeltaScanMode.Total">
+    <value>合計</value>
+  </data>
+  <data name="DoctorUsage.NotSet">
+    <value>不要</value>
+  </data>
+  <data name="DoctorUsage.Needed">
+    <value>特定されていない場合、デフォルトを使用</value>
+  </data>
+  <data name="DoctorUsage.Required">
+    <value>指定してください</value>
+  </data>
+  <data name="DryerProcessStatus.Normal">
+    <value>正常</value>
+  </data>
+  <data name="DryerProcessStatus.OK">
+    <value>OK</value>
+  </data>
+  <data name="DryerProcessStatus.Error">
+    <value>エラー</value>
+  </data>
+  <data name="FacOrderBookingMode.Disabled">
+    <value>使用不可</value>
+  </data>
+  <data name="FacOrderBookingMode.Manual">
+    <value>マニュアル</value>
+  </data>
+  <data name="FacOrderBookingMode.Automation">
+    <value>自動</value>
+  </data>
+  <data name="FactoryDefProdTraceType.ProductSerial">
+    <value>シリアル番号</value>
+  </data>
+  <data name="FactoryDefProdTraceType.Product">
+    <value>プロダクト番号</value>
+  </data>
+  <data name="FactoryRestrictionMode.Default">
+    <value>初期設定</value>
+  </data>
+  <data name="FactoryRestrictionMode.On">
+    <value>オン</value>
+  </data>
+  <data name="FactoryRestrictionMode.Warning">
+    <value>警告</value>
+  </data>
+  <data name="FactoryRestrictionMode.Off">
+    <value>オフ</value>
+  </data>
+  <data name="FastTrackCodeType.General">
+    <value>一般</value>
+  </data>
+  <data name="FastTrackCodeType.AdHoc">
+    <value>Ad-hoc</value>
+  </data>
+  <data name="FastTrackCodeType.TemplateOnly">
+    <value>グループのみ</value>
+  </data>
+  <data name="FastTrackCreatorType.System">
+    <value>システム</value>
+  </data>
+  <data name="FastTrackCreatorType.JobServer">
+    <value>ジョブサーバー</value>
+  </data>
+  <data name="FastTrackCreatorType.FacUser">
+    <value>ファクトリーユーザー</value>
+  </data>
+  <data name="FastTrackCreatorType.CustUser">
+    <value>カスタマーユーザー</value>
+  </data>
+  <data name="FastTrackDisplayMode.UserSetting">
+    <value>ユーザー設定</value>
+  </data>
+  <data name="FastTrackDisplayMode.ForcePrompt">
+    <value>強制プロンプト</value>
+  </data>
+  <data name="FastTrackDisplayMode.ForceNoPrompt">
+    <value>強制プロンプトなし</value>
+  </data>
+  <data name="FastTrackDisplayMode.ForceNoPromptOrInfo">
+    <value>プロンプトと情報を強制しない</value>
+  </data>
+  <data name="FastTrackEndType.Normal">
+    <value>正常</value>
+  </data>
+  <data name="FastTrackEndType.NormalNewUnitHas">
+    <value>正常（新規ユニットは同じ）</value>
+  </data>
+  <data name="FastTrackEndType.ToRepair">
+    <value>修理に送付済</value>
+  </data>
+  <data name="FastTrackEndType.Expired">
+    <value>期限切れ</value>
+  </data>
+  <data name="FastTrackEndType.Cancelled">
+    <value>キャンセル済</value>
+  </data>
+  <data name="FastTrackInvoiceType.None">
+    <value>なし</value>
+  </data>
+  <data name="FastTrackInvoiceType.Factory">
+    <value>ファクトリー</value>
+  </data>
+  <data name="FastTrackInvoiceType.Customer">
+    <value>カスタマー</value>
+  </data>
+  <data name="FastTrackStatus.Assigned">
+    <value>割り当て済み</value>
+  </data>
+  <data name="FastTrackStatus.Started">
+    <value>開始</value>
+  </data>
+  <data name="FastTrackStatus.Ended">
+    <value>終了</value>
+  </data>
+  <data name="HandlingStepResult.OK">
+    <value>合格済み</value>
+  </data>
+  <data name="HandlingStepResult.FailedStop">
+    <value>失敗しました</value>
+  </data>
+  <data name="HandlingStepResult.OKCleared">
+    <value>合格済(クリア済)</value>
+  </data>
+  <data name="HandlingStepResult.FailedStartOver">
+    <value>失敗しました（再試行）</value>
+  </data>
+  <data name="IdentArticleLineUsage.Enabled">
+    <value>システム初期設定を使う</value>
+  </data>
+  <data name="IdentArticleLineUsage.Disabled">
+    <value>はい</value>
+  </data>
+  <data name="InActAction.Created">
+    <value>作成済</value>
+  </data>
+  <data name="InActAction.InBatch">
+    <value>バッチの中</value>
+  </data>
+  <data name="InActAction.Pending">
+    <value>保留</value>
+  </data>
+  <data name="InActAction.InIncubator">
+    <value>培養器の中</value>
+  </data>
+  <data name="InActAction.StepResult">
+    <value>結果をステップ</value>
+  </data>
+  <data name="InActAction.BatchUnblocked">
+    <value>バッチブロック解除</value>
+  </data>
+  <data name="InActAction.DispatchUnblocked">
+    <value>ブロック解除を払出し</value>
+  </data>
+  <data name="InActAction.Approved">
+    <value>承認済</value>
+  </data>
+  <data name="InActAction.Disapproved">
+    <value>承認却下</value>
+  </data>
+  <data name="InActAction.Cancelled">
+    <value>キャンセル済</value>
+  </data>
+  <data name="InActAction.InWell">
+    <value>スロット-IN</value>
+  </data>
+  <data name="InActAction.OutWell">
+    <value>スロット-OUT</value>
+  </data>
+  <data name="InActAction.BatchRemoved">
+    <value>バッチから除外する</value>
+  </data>
+  <data name="InActAction.BatchAssigned">
+    <value>割当て済バッチ</value>
+  </data>
+  <data name="InActResult.Unknown">
+    <value>不明</value>
+  </data>
+  <data name="InActResult.Approved">
+    <value>承認済</value>
+  </data>
+  <data name="InActResult.Disapproved">
+    <value>承認却下</value>
+  </data>
+  <data name="IncNonDispItemStockOnPack.Off">
+    <value>オフ</value>
+  </data>
+  <data name="IncNonDispItemStockOnPack.Prompt">
+    <value>プロンプト</value>
+  </data>
+  <data name="IncNonDispItemStockOnPack.On">
+    <value>オン</value>
+  </data>
+  <data name="IncuBatchLogResult.Pending">
+    <value>保留</value>
+  </data>
+  <data name="IncuBatchLogResult.Passed">
+    <value>合格済み</value>
+  </data>
+  <data name="IncuBatchLogResult.Failed">
+    <value>失敗しました</value>
+  </data>
+  <data name="IncuBatchLogResult.Warning">
+    <value>警告</value>
+  </data>
+  <data name="IncuBatchLogResult.Discontinued">
+    <value>中止</value>
+  </data>
+  <data name="IncuBatchLogResult.Error">
+    <value>エラー</value>
+  </data>
+  <data name="IncuBatchLogResult.DataError">
+    <value>データエラー</value>
+  </data>
+  <data name="IncuBatchLogStatus.Unknown">
+    <value>未取扱い</value>
+  </data>
+  <data name="IncuBatchLogStatus.Manual">
+    <value>データログなし</value>
+  </data>
+  <data name="IncuBatchLogStatus.Processing">
+    <value>処理工程</value>
+  </data>
+  <data name="IncuBatchLogStatus.Done">
+    <value>完了</value>
+  </data>
+  <data name="IndicStatus.Created">
+    <value>作成済</value>
+  </data>
+  <data name="IndicStatus.InBatch">
+    <value>バッチの中</value>
+  </data>
+  <data name="IndicStatus.Pending">
+    <value>保留</value>
+  </data>
+  <data name="IndicStatus.Approved">
+    <value>承認済</value>
+  </data>
+  <data name="IndicStatus.Disapproved">
+    <value>承認却下</value>
+  </data>
+  <data name="IndicStatus.Cancelled">
+    <value>キャンセル済</value>
+  </data>
+  <data name="InTypResultType.Immediate">
+    <value>即時</value>
+  </data>
+  <data name="InTypResultType.Delayed">
+    <value>遅延</value>
+  </data>
+  <data name="InTypResultType.Combined">
+    <value>結合</value>
+  </data>
+  <data name="ItemAltPricingMode.None">
+    <value>なし</value>
+  </data>
+  <data name="ItemAltPricingMode.SalesPrice">
+    <value>販売価格</value>
+  </data>
+  <data name="ItemAltPricingMode.UsagePrice">
+    <value>使用価格</value>
+  </data>
+  <data name="ItemAltPricingMode.CostPrice">
+    <value>原価</value>
+  </data>
+  <data name="ItemDifficultyMode.Default">
+    <value>初期設定</value>
+  </data>
+  <data name="ItemDifficultyMode.Fixed">
+    <value>固定</value>
+  </data>
+  <data name="ItemDifficultyMode.Sum">
+    <value>合計</value>
+  </data>
+  <data name="ItemDifficultyMode.Max">
+    <value>最大</value>
+  </data>
+  <data name="ItemDifficultyMode.Count">
+    <value>カウント</value>
+  </data>
+  <data name="ItemInstrumentType.Instrument">
+    <value>アイテム</value>
+  </data>
+  <data name="ItemInstrumentType.Endoscope">
+    <value>内視鏡</value>
+  </data>
+  <data name="ItemInstrumentType.ButtonValve">
+    <value>ボタンバルブ</value>
+  </data>
+  <data name="ItemPricingMode.SalesPrice">
+    <value>販売価格</value>
+  </data>
+  <data name="ItemPricingMode.UsagePrice">
+    <value>使用価格</value>
+  </data>
+  <data name="ItemPricingMode.CostPrice">
+    <value>原価</value>
+  </data>
+  <data name="ItemPricingType.Normal">
+    <value></value>
+  </data>
+  <data name="ItemPricingType.TimeBased">
+    <value></value>
+  </data>
+  <data name="ItemReservationMode.NotRequired">
+    <value>不要</value>
+  </data>
+  <data name="ItemReservationMode.Enabled">
+    <value>使用可</value>
+  </data>
+  <data name="ItemTraceType.Item">
+    <value>アイテム</value>
+  </data>
+  <data name="ItemTraceType.SerialItem">
+    <value>シリアル番号</value>
+  </data>
+  <data name="ItemTraceType.LOT">
+    <value>LOT番号</value>
+  </data>
+  <data name="LogEntryType.System">
+    <value>システム</value>
+  </data>
+  <data name="LogEntryType.Information">
+    <value>情報</value>
+  </data>
+  <data name="LogEntryType.Message">
+    <value>メッセージ</value>
+  </data>
+  <data name="LogEntryType.Warning">
+    <value>警告</value>
+  </data>
+  <data name="LogEntryType.Error">
+    <value>エラー</value>
+  </data>
+  <data name="LogEntryType.Debug">
+    <value>デバッグする</value>
+  </data>
+  <data name="LogBatchContent.Disabled">
+    <value>使用不可</value>
+  </data>
+  <data name="LogBatchContent.Enabled">
+    <value>使用可</value>
+  </data>
+  <data name="LogBatchRegMode.Off">
+    <value>オフ</value>
+  </data>
+  <data name="LogBatchRegMode.On">
+    <value>オン</value>
+  </data>
+  <data name="MachConsStatus.OnStock">
+    <value>在庫あり</value>
+  </data>
+  <data name="MachConsStatus.InUse">
+    <value>使用中</value>
+  </data>
+  <data name="MachConsStatus.Used">
+    <value>使用済</value>
+  </data>
+  <data name="MachConsStatus.Missing">
+    <value>紛失</value>
+  </data>
+  <data name="MachLogTypes.TDOC">
+    <value>T-DOC エラー</value>
+  </data>
+  <data name="MachLogTypes.MachineError">
+    <value>装置エラー</value>
+  </data>
+  <data name="MachLogTypes.MachineWarning">
+    <value>装置警告</value>
+  </data>
+  <data name="MachTypeRuleIntervalType.Day">
+    <value>毎 x 日ごと</value>
+  </data>
+  <data name="MachTypeRuleIntervalType.Batch">
+    <value>毎 x バッチごと</value>
+  </data>
+  <data name="MachTypeRuleIntervalType.FirstDailyRunAfter">
+    <value>毎日（稼働前）</value>
+  </data>
+  <data name="MachTypeRuleIntervalType.FirstWeeklyRunAfter">
+    <value>毎週1回（稼働前）</value>
+  </data>
+  <data name="MachTypeRuleIntervalType.FirstMonthlyRunAfter">
+    <value>毎月1回（稼働前）</value>
+  </data>
+  <data name="ManualEndoDryingMode.NotAllowed">
+    <value>許可されていません</value>
+  </data>
+  <data name="ManualEndoDryingMode.Allowed">
+    <value>許可済</value>
+  </data>
+  <data name="ManualEndoDryingMode.Assumed">
+    <value>仮定</value>
+  </data>
+  <data name="McRuleResult.OK">
+    <value>OK</value>
+  </data>
+  <data name="McRuleResult.Prevented">
+    <value>阻止されました</value>
+  </data>
+  <data name="McRuleResult.Forced">
+    <value>強制</value>
+  </data>
+  <data name="McRuleResult.Error">
+    <value>エラー</value>
+  </data>
+  <data name="OperationDataActionType.Created">
+    <value>作成済</value>
+  </data>
+  <data name="OperationDataActionType.Cancelled">
+    <value>キャンセル済</value>
+  </data>
+  <data name="OperationDataActionType.Planned">
+    <value>予定済</value>
+  </data>
+  <data name="OperationDataActionType.Accepted">
+    <value>承認</value>
+  </data>
+  <data name="OperationDataActionType.Started">
+    <value>開始</value>
+  </data>
+  <data name="OperationDataActionType.Done">
+    <value>完了</value>
+  </data>
+  <data name="OperationDataActionType.PrefListToOrderAuto">
+    <value>優先選択リストオーダー作成済み (自動)</value>
+  </data>
+  <data name="OperationDataActionType.PrefListToOrderManual">
+    <value>優先選択リストオーダー作成済み (手動)</value>
+  </data>
+  <data name="OperationDataActionType.PrefListOrderUpdated">
+    <value>優先選択リストオーダー更新</value>
+  </data>
+  <data name="OperationDataActionType.OrderCancelled">
+    <value>オーダーキャンセル</value>
+  </data>
+  <data name="OperationDataActionType.Exported">
+    <value>エクスポート済み</value>
+  </data>
+  <data name="OperationDataActionType.Imported">
+    <value>インポート済み</value>
+  </data>
+  <data name="OperationDataActionType.PickInfoImport">
+    <value>インポート済みピッキング選択情報</value>
+  </data>
+  <data name="OperationDataActionType.BookingForced">
+    <value>強制予約ON</value>
+  </data>
+  <data name="OperationDataActionType.BookingUnForced">
+    <value>強制予約OFF</value>
+  </data>
+  <data name="OperationDataActionType.ReservChangedDueToForce">
+    <value>強制処理による予約変更</value>
+  </data>
+  <data name="OperationDataActionType.PreCount">
+    <value>OPEカウント（前）</value>
+  </data>
+  <data name="OperationDataActionType.PerCount">
+    <value>OPEカウント（中）</value>
+  </data>
+  <data name="OperationDataActionType.PostCount">
+    <value>OPEカウント（後）</value>
+  </data>
+  <data name="OperationDataActionType.MergeRemove">
+    <value>手術に移動済みデータ</value>
+  </data>
+  <data name="OperationDataActionType.MergeReceive">
+    <value>手術からの受取情報</value>
+  </data>
+  <data name="OperationDataActionType.EmergencyCaseCartAdded">
+    <value>救急ケースカートバウンド</value>
+  </data>
+  <data name="OperationDataActionType.PatVeriOK">
+    <value>患者確認済み</value>
+  </data>
+  <data name="OperationDataActionType.PatVeriFailed">
+    <value>患者確認-失敗</value>
+  </data>
+  <data name="OperationDataActionType.PatVeriSkip">
+    <value>患者確認-スキップ</value>
+  </data>
+  <data name="OperationDataActionType.PatVeriPostpone">
+    <value>患者確認が延期されました</value>
+  </data>
+  <data name="OperationDataActionType.OrderReturnRequested">
+    <value>オーダー返却　依頼されました</value>
+  </data>
+  <data name="OperationDataActionType.OrderReordered">
+    <value>オーダー　再発注されました</value>
+  </data>
+  <data name="OperationDataActionType.OrderCopyCreatedAuto">
+    <value>オーダーコピーを作成(自動)</value>
+  </data>
+  <data name="OperationDataActionType.OrderCopyCreatedManual">
+    <value>オーダーコピーを作成(手動)</value>
+  </data>
+  <data name="OperationTypeType.Elective">
+    <value>作成済</value>
+  </data>
+  <data name="OperationTypeType.Emergency">
+    <value>キャンセル済</value>
+  </data>
+  <data name="OPProcedureTypeMode.Fixed">
+    <value>固定</value>
+  </data>
+  <data name="OPProcedureTypeMode.AutoOPType">
+    <value>術式より自動</value>
+  </data>
+  <data name="OPProcedureTypeMode.AutoDisabled">
+    <value></value>
+  </data>
+  <data name="OPStaffMode.Fixed">
+    <value>固定</value>
+  </data>
+  <data name="OPStaffMode.AutoProcType">
+    <value>キャンセル済</value>
+  </data>
+  <data name="OrderActionType.Created">
+    <value>作成済</value>
+  </data>
+  <data name="OrderActionType.Cancelled">
+    <value>キャンセル済</value>
+  </data>
+  <data name="OrderActionType.Sent">
+    <value>送信済</value>
+  </data>
+  <data name="OrderActionType.Accepted">
+    <value>承認</value>
+  </data>
+  <data name="OrderActionType.PickStart">
+    <value>ピッキングを開始</value>
+  </data>
+  <data name="OrderActionType.Delivered">
+    <value>配送済み</value>
+  </data>
+  <data name="OrderActionType.Received">
+    <value>受取済</value>
+  </data>
+  <data name="OrderActionType.Done">
+    <value>完了</value>
+  </data>
+  <data name="OrderActionType.PrintPicklist">
+    <value>ピックリスト印刷 or 参照済み</value>
+  </data>
+  <data name="OrderActionType.PrintDevNote">
+    <value>納品書印刷済み or 参照済み</value>
+  </data>
+  <data name="OrderActionType.PrintRetNote">
+    <value>返却リスト印刷済み or 参照済み</value>
+  </data>
+  <data name="OrderActionType.PrintPurchaseOrder">
+    <value>発注書印刷済み or 参照済み</value>
+  </data>
+  <data name="OrderActionType.Exported">
+    <value>エクスポート済み</value>
+  </data>
+  <data name="OrderActionType.Imported">
+    <value>インポート済み</value>
+  </data>
+  <data name="OrderActionType.ReqDevTimeChange">
+    <value>要望納品時間が変更されました</value>
+  </data>
+  <data name="OrderActionType.PickInfoImport">
+    <value></value>
+  </data>
+  <data name="OrderActionType.BookingModeActive">
+    <value>予約モード-有効</value>
+  </data>
+  <data name="OrderActionType.BookingModeInActive">
+    <value>予約モード-無効</value>
+  </data>
+  <data name="OrderActionType.BookingForced">
+    <value>強制予約ON</value>
+  </data>
+  <data name="OrderActionType.BookingUnForced">
+    <value>強制予約OFF</value>
+  </data>
+  <data name="OrderActionType.ReservChangedDueToForce">
+    <value>強制処理による予約変更</value>
+  </data>
+  <data name="OrderActionType.AttachToOperation">
+    <value>手術に紐づいています。</value>
+  </data>
+  <data name="OrderActionType.DetachFromOperation">
+    <value>手術から除外済</value>
+  </data>
+  <data name="OrderActionType.BindItemsToOperation">
+    <value>手術に結びついたアイテム</value>
+  </data>
+  <data name="OrderActionType.BindUnitsToOperation">
+    <value>手術に紐づいたユニット</value>
+  </data>
+  <data name="OrderActionType.UnbindItemsFromOperation">
+    <value>手術から切り離したアイテム</value>
+  </data>
+  <data name="OrderActionType.UnbindUnitsFromOperation">
+    <value>手術との結びつきが解除されたユニット</value>
+  </data>
+  <data name="OrderActionType.ReturnRequested">
+    <value>返却が要求されました</value>
+  </data>
+  <data name="OrderActionType.Reordered">
+    <value>再発注済み</value>
+  </data>
+  <data name="OrderBookingMode.Undetermined">
+    <value>未確定</value>
+  </data>
+  <data name="OrderBookingMode.Disabled">
+    <value>使用不可</value>
+  </data>
+  <data name="OrderBookingMode.Inactive">
+    <value>無効</value>
+  </data>
+  <data name="OrderBookingMode.Active">
+    <value>動作中</value>
+  </data>
+  <data name="OrderBookingStatus.Undetermined">
+    <value>未確定</value>
+  </data>
+  <data name="OrderBookingStatus.Ok">
+    <value>OK</value>
+  </data>
+  <data name="OrderBookingStatus.Warning">
+    <value>警告</value>
+  </data>
+  <data name="OrderBookingStatus.Error">
+    <value>エラー</value>
+  </data>
+  <data name="OrderOrgStatus.None">
+    <value>なし</value>
+  </data>
+  <data name="OrderOrgStatus.Template">
+    <value>テンプレート</value>
+  </data>
+  <data name="OrderOrgStatus.Open">
+    <value>未発注</value>
+  </data>
+  <data name="OrderOrgStatus.Sent">
+    <value>送信済</value>
+  </data>
+  <data name="OrderOrgStatus.Received">
+    <value>受取済</value>
+  </data>
+  <data name="OrderOrgStatus.Done">
+    <value>完了</value>
+  </data>
+  <data name="OrderOrgStatus.Cancelled">
+    <value>キャンセル済</value>
+  </data>
+  <data name="OrderSuppPickPriority.Normal">
+    <value>正常</value>
+  </data>
+  <data name="OrderSuppPickPriority.PickNow">
+    <value>現在</value>
+  </data>
+  <data name="OrderSuppPickPriority.PickNowForced">
+    <value>Now (forced)</value>
+  </data>
+  <data name="OrderSuppPriority.Normal">
+    <value>正常</value>
+  </data>
+  <data name="OrderSuppPriority.FastTrack">
+    <value>ファストトラック対象</value>
+  </data>
+  <data name="OrderSuppPriority.Emergency">
+    <value>緊急</value>
+  </data>
+  <data name="OrderSuppStatus.None">
+    <value>なし</value>
+  </data>
+  <data name="OrderSuppStatus.Template">
+    <value>テンプレート</value>
+  </data>
+  <data name="OrderSuppStatus.Order">
+    <value>新規</value>
+  </data>
+  <data name="OrderSuppStatus.Accepted">
+    <value>承認</value>
+  </data>
+  <data name="OrderSuppStatus.Picked">
+    <value>ピッキングを開始</value>
+  </data>
+  <data name="OrderSuppStatus.Delivered">
+    <value>配送済み</value>
+  </data>
+  <data name="OrderSuppStatus.Cancelled">
+    <value>キャンセル済</value>
+  </data>
+  <data name="OrderType.None">
+    <value>なし</value>
+  </data>
+  <data name="OrderType.Order">
+    <value>オーダー</value>
+  </data>
+  <data name="OrderType.ReturnOrder">
+    <value>返却オーダー</value>
+  </data>
+  <data name="OrderType.OrderCorr">
+    <value>在庫修正</value>
+  </data>
+  <data name="PackingUsedFor.All">
+    <value>すべての器材</value>
+  </data>
+  <data name="PackingUsedFor.Endoscopes">
+    <value>内視鏡</value>
+  </data>
+  <data name="PatientAgeUsage.NotSet">
+    <value>指定どおり</value>
+  </data>
+  <data name="PatientAgeUsage.Needed">
+    <value>特定されていない場合、デフォルトを使用</value>
+  </data>
+  <data name="PatientAgeUsage.Required">
+    <value>指定してください</value>
+  </data>
+  <data name="PatientGenderUsage.NotSet">
+    <value>指定どおり</value>
+  </data>
+  <data name="PatientGenderUsage.Needed">
+    <value>特定されていない場合、デフォルトを使用</value>
+  </data>
+  <data name="PatientGenderUsage.Required">
+    <value>指定してください</value>
+  </data>
+  <data name="PIPLogEntrySubType.None">
+    <value>なし</value>
+  </data>
+  <data name="PIPLogEntrySubType.SystemData">
+    <value>システム データ</value>
+  </data>
+  <data name="PIPLogEntrySubType.User">
+    <value>ユーザー</value>
+  </data>
+  <data name="PIPLogEntrySubType.UserProfile">
+    <value>ユーザープロファイル</value>
+  </data>
+  <data name="PIPLogEntrySubType.PatientLookup">
+    <value>患者</value>
+  </data>
+  <data name="PIPLogEntrySubType.OperationLookup">
+    <value>手術 データ</value>
+  </data>
+  <data name="PIPLogEntrySubType.Patients">
+    <value>患者</value>
+  </data>
+  <data name="PIPLogEntrySubType.Operations">
+    <value>手術</value>
+  </data>
+  <data name="PIPLogEntrySubType.Units">
+    <value>ユニット</value>
+  </data>
+  <data name="PIPLogEntrySubType.Orders">
+    <value>オーダー</value>
+  </data>
+  <data name="PIPLogEntrySubType.LOTLookup">
+    <value>List of LOT information</value>
+  </data>
+  <data name="PIPLogEntryType.PIPSettings">
+    <value>患者情報プライバシー設定変更</value>
+  </data>
+  <data name="PIPLogEntryType.DirectLookup">
+    <value>ダイレクト検索</value>
+  </data>
+  <data name="PIPLogEntryType.SuccSearch">
+    <value>成功した検索</value>
+  </data>
+  <data name="PIPLogEntryType.UnSuccSearch">
+    <value>検索に失敗しました</value>
+  </data>
+  <data name="PIPLogEntryType.PIPLogOpened">
+    <value>患者情報アクセスログが開きました</value>
+  </data>
+  <data name="PIPLogEntryType.PIPLogSearching">
+    <value>患者情報アクセスログを検索</value>
+  </data>
+  <data name="PIPLogEntryType.SchedOperations">
+    <value>予定手術</value>
+  </data>
+  <data name="PrDrv.None">
+    <value>なし</value>
+  </data>
+  <data name="PrDrv.Windows">
+    <value>Windows</value>
+  </data>
+  <data name="PrDrv.Epson_Obsolete">
+    <value></value>
+  </data>
+  <data name="PrDrv.Zebra">
+    <value>Zebra</value>
+  </data>
+  <data name="PrefListOrderCreateMode.Immediate">
+    <value>即時</value>
+  </data>
+  <data name="PrefListOrderCreateMode.TimeBased">
+    <value>ジャストインタイム</value>
+  </data>
+  <data name="PrefListOrderCreateMode.Manual">
+    <value>マニュアル</value>
+  </data>
+  <data name="PrefLnModifier.None">
+    <value>なし</value>
+  </data>
+  <data name="PrefLnModifier.Absolute">
+    <value>絶対値</value>
+  </data>
+  <data name="PrefLnModifier.Add">
+    <value>追加</value>
+  </data>
+  <data name="PrefLnModifier.Subtract">
+    <value>除外</value>
+  </data>
+  <data name="PrefLnModifier.Highest">
+    <value>最上</value>
+  </data>
+  <data name="PrefLnModifier.Lowest">
+    <value>最低</value>
+  </data>
+  <data name="ProcessStatus.Done">
+    <value>完了</value>
+  </data>
+  <data name="ProcessStatus.Running">
+    <value>実行中</value>
+  </data>
+  <data name="ProcessStatus.Initiated">
+    <value>バッチ起動</value>
+  </data>
+  <data name="ProcessStatus.Ending">
+    <value>終了しています</value>
+  </data>
+  <data name="ProcessType.None">
+    <value>なし</value>
+  </data>
+  <data name="ProcessType.Pack">
+    <value>包装</value>
+  </data>
+  <data name="ProcessType.SteriPostBatch">
+    <value>ポストバッチ（滅菌後）</value>
+  </data>
+  <data name="ProcessType.Out">
+    <value>払出し</value>
+  </data>
+  <data name="ProcessType.Return">
+    <value>返却</value>
+  </data>
+  <data name="ProcessType.Prepare">
+    <value>準備</value>
+  </data>
+  <data name="ProcessType.Wrap">
+    <value>ラッピング</value>
+  </data>
+  <data name="ProcessType.LitePro">
+    <value>ライト ラベル</value>
+  </data>
+  <data name="ProcessType.SteriPreBatch">
+    <value>プレバッチ（滅菌前）</value>
+  </data>
+  <data name="ProcessType.Flash">
+    <value>フラッシュバッチ</value>
+  </data>
+  <data name="ProcessType.Location">
+    <value>ロケーション</value>
+  </data>
+  <data name="ProcessType.WashPreBatch">
+    <value>プレバッチ（洗浄前）</value>
+  </data>
+  <data name="ProcessType.WashPostBatch">
+    <value>ポストバッチ（洗浄後）</value>
+  </data>
+  <data name="ProcessType.OpenUsed">
+    <value>開く/使用済</value>
+  </data>
+  <data name="ProcessType.Operation">
+    <value>手術</value>
+  </data>
+  <data name="ProcessType.Order">
+    <value>オーダー</value>
+  </data>
+  <data name="ProcessType.Inventory">
+    <value>在庫調整</value>
+  </data>
+  <data name="ProcessType.OrderPick">
+    <value>オーダー：ピッキング選択</value>
+  </data>
+  <data name="ProcessType.Industry">
+    <value>産業</value>
+  </data>
+  <data name="ProcessType.PreDisPreBatch">
+    <value>プレバッチ（事前消毒）</value>
+  </data>
+  <data name="ProcessType.LoadQueue">
+    <value>搬送台</value>
+  </data>
+  <data name="ProcessType.PurchaseOrder">
+    <value>発注書</value>
+  </data>
+  <data name="ProcessType.EndoscopePreBatch">
+    <value>プレバッチ (内視鏡洗浄前)</value>
+  </data>
+  <data name="ProcessType.WashCheck">
+    <value>洗浄チェック</value>
+  </data>
+  <data name="ProcessType.ExtBatchInfo">
+    <value>Ext. バッチ情報</value>
+  </data>
+  <data name="ProcessType.EndoCleanAndTest">
+    <value>内視鏡洗浄＆テスト</value>
+  </data>
+  <data name="ProcessType.Transport">
+    <value>搬送</value>
+  </data>
+  <data name="ProcessType.Workflow">
+    <value>ワークフロー</value>
+  </data>
+  <data name="ProcessType.Incubator">
+    <value>培養</value>
+  </data>
+  <data name="ProcessType.ReturnWF">
+    <value>返却ユニット</value>
+  </data>
+  <data name="ProcessType.WashPreBatchWF">
+    <value>Create wash batch</value>
+  </data>
+  <data name="ProcessType.SteriPreBatchWF">
+    <value>Create sterilizer batch</value>
+  </data>
+  <data name="ProcessType.PackWF">
+    <value>Pack units</value>
+  </data>
+  <data name="ProcessType.OutWF">
+    <value>カスタマーへ払出し</value>
+  </data>
+  <data name="ProcessType.Last">
+    <value></value>
+  </data>
+  <data name="ProdDispatchRestriction.Default">
+    <value>初期設定</value>
+  </data>
+  <data name="ProdDispatchRestriction.None">
+    <value>なし</value>
+  </data>
+  <data name="ProdDispatchRestriction.CustomerOrSite">
+    <value>カスタマーまたはサイト</value>
+  </data>
+  <data name="ProdDispatchRestriction.CustomerElseSite">
+    <value>カスタマーその他サイト</value>
+  </data>
+  <data name="ProdDispatchRestriction.CustomerOnly">
+    <value>カスタマーのみ</value>
+  </data>
+  <data name="ProdReservationMode.NotRequired">
+    <value>不要</value>
+  </data>
+  <data name="ProdReservationMode.Enabled">
+    <value>使用可</value>
+  </data>
+  <data name="ProductDifficultyMode.UseItemValue">
+    <value>アイテム値を使用</value>
+  </data>
+  <data name="ProductDifficultyMode.Fixed">
+    <value>固定</value>
+  </data>
+  <data name="ProductReturnState.Normal">
+    <value>正常</value>
+  </data>
+  <data name="ProductReturnState.PreProcessed">
+    <value>事前処理済</value>
+  </data>
+  <data name="ProductReturnState.PrePacked">
+    <value>事前包装済</value>
+  </data>
+  <data name="ProductStockControlMode.Simple">
+    <value>正常</value>
+  </data>
+  <data name="ProductStockControlMode.Basic">
+    <value>詳細 (完全)</value>
+  </data>
+  <data name="ProductStockControlMode.Advanced">
+    <value></value>
+  </data>
+  <data name="ProductStorageType.Factory">
+    <value>ファクトリー</value>
+  </data>
+  <data name="ProductStorageType.Transit">
+    <value>Transit</value>
+  </data>
+  <data name="ProductTraceType.Product">
+    <value>プロダクト番号</value>
+  </data>
+  <data name="ProductTraceType.ProductSerial">
+    <value>シリアル番号</value>
+  </data>
+  <data name="ProductTraceType.Both">
+    <value>シリアルとプロダクト番号の両方</value>
+  </data>
+  <data name="ProductType.Trays">
+    <value>トレー</value>
+  </data>
+  <data name="ProductType.SinglePacks">
+    <value>単品包装</value>
+  </data>
+  <data name="ProductType.Endoscopes">
+    <value>内視鏡</value>
+  </data>
+  <data name="ProgramCheckInitiated.Allowed">
+    <value>許可済</value>
+  </data>
+  <data name="ProgramCheckInitiated.Required">
+    <value>必須</value>
+  </data>
+  <data name="QuestionInputType.Boolean">
+    <value>Yes/No</value>
+  </data>
+  <data name="QuestionInputType.Integer">
+    <value>番号</value>
+  </data>
+  <data name="QuestionInputType.Text">
+    <value>テキスト</value>
+  </data>
+  <data name="QuestionInputType.List">
+    <value>リスト</value>
+  </data>
+  <data name="RepairInvState.None">
+    <value>なし</value>
+  </data>
+  <data name="RepairInvState.Block">
+    <value>ブロックされました</value>
+  </data>
+  <data name="RepairInvState.Done">
+    <value>完了</value>
+  </data>
+  <data name="RepairMode.AskUser">
+    <value>ユーザーに確認</value>
+  </data>
+  <data name="RepairMode.UsingCust">
+    <value>使用中のカスタマー</value>
+  </data>
+  <data name="RepairMode.Owner">
+    <value>所有者</value>
+  </data>
+  <data name="RepairMode.Factory">
+    <value>ファクトリー</value>
+  </data>
+  <data name="RepairOrigin.Item">
+    <value>アイテム</value>
+  </data>
+  <data name="RepairOrigin.Product">
+    <value>プロダクト</value>
+  </data>
+  <data name="RepairOrigin.Serial">
+    <value>シリアル</value>
+  </data>
+  <data name="RepairOrigin.Unit">
+    <value>ユニット</value>
+  </data>
+  <data name="RepairOrigin.Tag">
+    <value>タグ</value>
+  </data>
+  <data name="RepairStatus.Sent">
+    <value>送信済</value>
+  </data>
+  <data name="RepairStatus.Received">
+    <value>受取済</value>
+  </data>
+  <data name="RepairStatus.Done">
+    <value>完了</value>
+  </data>
+  <data name="RepairStatus.Cancelled">
+    <value>キャンセル済</value>
+  </data>
+  <data name="RepairStatus.Requested">
+    <value>依頼済み</value>
+  </data>
+  <data name="RpTypCommentOption.NotAllowed">
+    <value>許可されていません</value>
+  </data>
+  <data name="RpTypCommentOption.Allowed">
+    <value>許可済</value>
+  </data>
+  <data name="RpTypCommentOption.Required">
+    <value>必須</value>
+  </data>
+  <data name="RpTypCustInvMode.NoInvoice">
+    <value>請求なし</value>
+  </data>
+  <data name="RpTypCustInvMode.Invoice">
+    <value>請求</value>
+  </data>
+  <data name="RpTypCustInvMode.NoEdit">
+    <value>請求、編集なし</value>
+  </data>
+  <data name="RpTypCustInvMode.Hidden">
+    <value>請求、表示なし</value>
+  </data>
+  <data name="RpTypFacInvMode.NoInvoice">
+    <value>請求なし</value>
+  </data>
+  <data name="RpTypFacInvMode.Invoice">
+    <value>請求</value>
+  </data>
+  <data name="RpTypFacInvMode.NoEdit">
+    <value>請求、編集なし</value>
+  </data>
+  <data name="RpTypFacInvMode.Hidden">
+    <value>請求、表示なし</value>
+  </data>
+  <data name="RpTypSuppMode.AllowChange">
+    <value>変更を許可</value>
+  </data>
+  <data name="RpTypSuppMode.Fixed">
+    <value>固定</value>
+  </data>
+  <data name="RpTypType.Standard">
+    <value>標準</value>
+  </data>
+  <data name="RpTypType.Quick">
+    <value>スピード修理</value>
+  </data>
+  <data name="RpTypType.Discard">
+    <value>廃棄</value>
+  </data>
+  <data name="ScanUIStartMode.Default">
+    <value>初期設定</value>
+  </data>
+  <data name="ScanUIStartMode.Layers">
+    <value>レイヤーモード</value>
+  </data>
+  <data name="ScanUIStartMode.Grid">
+    <value>テーブル/罫線モード</value>
+  </data>
+  <data name="SexType.None">
+    <value>不明</value>
+  </data>
+  <data name="SexType.Male">
+    <value>男性</value>
+  </data>
+  <data name="SexType.Female">
+    <value>女性</value>
+  </data>
+  <data name="SexType.Other">
+    <value>その他</value>
+  </data>
+  <data name="StdCommentFreeTextOption.NotAllowed">
+    <value>許可されていません</value>
+  </data>
+  <data name="StdCommentFreeTextOption.Allowed">
+    <value>許可済</value>
+  </data>
+  <data name="StdCommentFreeTextOption.Required">
+    <value>必須</value>
+  </data>
+  <data name="StockBackOrderMode.Never">
+    <value>なし</value>
+  </data>
+  <data name="StockBackOrderMode.Always">
+    <value>常時</value>
+  </data>
+  <data name="StockBackOrderMode.Ask">
+    <value>確認</value>
+  </data>
+  <data name="StockBackOrderMode.WhenSet">
+    <value>表示時 (正確な)</value>
+  </data>
+  <data name="StockBackOrderMode.WhenSetAuto">
+    <value>表示時 (全て)</value>
+  </data>
+  <data name="StockOrderInMode.Auto">
+    <value>自動完了</value>
+  </data>
+  <data name="StockOrderInMode.Receive">
+    <value>自動受信</value>
+  </data>
+  <data name="StockOrderInMode.Manual">
+    <value>マニュアル受付</value>
+  </data>
+  <data name="StockPrnMode.Never">
+    <value>なし</value>
+  </data>
+  <data name="StockPrnMode.Always">
+    <value>常時</value>
+  </data>
+  <data name="StockPrnMode.Ask">
+    <value>確認</value>
+  </data>
+  <data name="TagType.Basket">
+    <value>バスケット</value>
+  </data>
+  <data name="TagType.SteriLoad">
+    <value>ロード</value>
+  </data>
+  <data name="TagType.PrepTag">
+    <value>準備</value>
+  </data>
+  <data name="TagType.Bundle">
+    <value>束</value>
+  </data>
+  <data name="TagType.Wash">
+    <value>洗浄</value>
+  </data>
+  <data name="TagType.WashLoad">
+    <value>洗浄ロード</value>
+  </data>
+  <data name="TagType.Transport">
+    <value>搬送</value>
+  </data>
+  <data name="TagType.Split">
+    <value>分割</value>
+  </data>
+  <data name="TagType.CaseCart">
+    <value>ケースカート</value>
+  </data>
+  <data name="TagType.TransportBox">
+    <value>搬送ボックス</value>
+  </data>
+  <data name="TagType.InstrumentContainer">
+    <value>器材コンテナ</value>
+  </data>
+  <data name="TransmitKind.SMS">
+    <value>省略テンプレート</value>
+  </data>
+  <data name="TransmitKind.Internal">
+    <value>テンプレート（長）</value>
+  </data>
+  <data name="TrigBehaviour.RoundBased">
+    <value>回数</value>
+  </data>
+  <data name="TrigBehaviour.Time">
+    <value>間隔</value>
+  </data>
+  <data name="TrigBehaviour.InitialDaysThenRounds">
+    <value>期間の後、回数</value>
+  </data>
+  <data name="TrigBehaviour.RoundMaxTime">
+    <value>回数または期間</value>
+  </data>
+  <data name="TrigBehaviour.Everytime">
+    <value>毎回</value>
+  </data>
+  <data name="TrigExecutionPhase.Before">
+    <value>前</value>
+  </data>
+  <data name="TrigExecutionPhase.During">
+    <value>間</value>
+  </data>
+  <data name="TrigExecutionPhase.After">
+    <value>後</value>
+  </data>
+  <data name="TrigPostponeAbility.No">
+    <value>いいえ</value>
+  </data>
+  <data name="TrigPostponeAbility.YesAllUsers">
+    <value>はい</value>
+  </data>
+  <data name="TrigPostponeAbility.UserDefined">
+    <value>ユーザー定義</value>
+  </data>
+  <data name="UILocaAvailability.Default">
+    <value>初期設定</value>
+  </data>
+  <data name="UILocaAvailability.Visible">
+    <value>表示</value>
+  </data>
+  <data name="UILocaAvailability.Advanced">
+    <value>表示 (アドバンス)</value>
+  </data>
+  <data name="UILocaAvailability.Hidden">
+    <value>隠す</value>
+  </data>
+  <data name="WellStatus.Unknown">
+    <value>不明</value>
+  </data>
+  <data name="WellStatus.Empty">
+    <value>空</value>
+  </data>
+  <data name="WellStatus.Init">
+    <value>起動中</value>
+  </data>
+  <data name="WellStatus.Processing">
+    <value>処理工程</value>
+  </data>
+  <data name="WellStatus.Negative">
+    <value>陰性</value>
+  </data>
+  <data name="WellStatus.Positive">
+    <value>陽性</value>
+  </data>
+  <data name="WellStatus.Result">
+    <value>エラー</value>
+  </data>
+  <data name="WellStatus.Error">
+    <value>警告</value>
+  </data>
+  <data name="WellStatus.Warning">
+    <value></value>
+  </data>
+  <data name="ReservationState.Undetermined">
+    <value>未確定</value>
+  </data>
+  <data name="ReservationState.OKOriginal">
+    <value>OK</value>
+  </data>
+  <data name="ReservationState.OKIdentical">
+    <value>OK</value>
+  </data>
+  <data name="ReservationState.OKAlternative">
+    <value>OK</value>
+  </data>
+  <data name="ReservationState.OKIdenticalForAlternative">
+    <value>OK</value>
+  </data>
+  <data name="ReservationState.WarningOriginal">
+    <value>警告</value>
+  </data>
+  <data name="ReservationState.WarningIdentical">
+    <value>警告</value>
+  </data>
+  <data name="ReservationState.WarningAlternative">
+    <value>警告</value>
+  </data>
+  <data name="ReservationState.WarningIdenticalForAlternative">
+    <value>警告</value>
+  </data>
+  <data name="ReservationState.Error">
+    <value>エラー</value>
+  </data>
+  <data name="TriggerResult.RAccept">
+    <value>承認</value>
+  </data>
+  <data name="TriggerResult.RReject">
+    <value>却下</value>
+  </data>
+  <data name="TriggerResult.ROverride">
+    <value>オーバーライド</value>
+  </data>
+  <data name="TriggerResult.RPostpone">
+    <value>延期</value>
+  </data>
+  <data name="TriggerResult.RSilent">
+    <value>サイレント</value>
+  </data>
+  <data name="FacDeductItemsFromStockInOpType.On">
+    <value>オン</value>
+  </data>
+  <data name="FacDeductItemsFromStockInOpType.Off">
+    <value>オフ</value>
+  </data>
+  <data name="OrderSuppPickMode.Normal">
+    <value>正常</value>
+  </data>
+  <data name="OrderSuppPickMode.FullAuto">
+    <value>フルオート</value>
+  </data>
+  <data name="OrderSuppPickMode.EjectOnly">
+    <value>Eject from stock</value>
+  </data>
+  <data name="PickJobStatus.Forecast">
+    <value>予測</value>
+  </data>
+  <data name="PickJobStatus.Requested">
+    <value>依頼済み</value>
+  </data>
+  <data name="PickJobStatus.Attempted">
+    <value>確認済み/試験済み</value>
+  </data>
+  <data name="PickJobStatus.Committed">
+    <value>Committed</value>
+  </data>
+  <data name="PickJobStatus.Completed">
+    <value>完了</value>
+  </data>
+  <data name="PickJobStatus.Closed">
+    <value>閉じました</value>
+  </data>
+  <data name="PickJobStatus.Cancelled">
+    <value>キャンセル済</value>
+  </data>
+  <data name="PickJobActionType.NewForecast">
+    <value>予測</value>
+  </data>
+  <data name="PickJobActionType.Requested">
+    <value>依頼済み</value>
+  </data>
+  <data name="PickJobActionType.Attempted">
+    <value>確認済み/試験済み</value>
+  </data>
+  <data name="PickJobActionType.Committed">
+    <value>Committed</value>
+  </data>
+  <data name="PickJobActionType.Completed">
+    <value>完了</value>
+  </data>
+  <data name="PickJobActionType.Closed">
+    <value>閉じました</value>
+  </data>
+  <data name="PickJobActionType.Cancelled">
+    <value>キャンセル済</value>
+  </data>
+  <data name="ItemSalesRestriction.None">
+    <value>なし</value>
+  </data>
+  <data name="ItemSalesRestriction.Blocked">
+    <value>ブロックされました</value>
+  </data>
+  <data name="TrigActivity.None">
+    <value>なし</value>
+  </data>
+  <data name="TrigActivity.Pack">
+    <value>包装</value>
+  </data>
+  <data name="TrigActivity.Return">
+    <value>返却</value>
+  </data>
+  <data name="TrigActivity.Wrap">
+    <value>ラッピング</value>
+  </data>
+  <data name="TrigActivity.WasherBatchRegistration">
+    <value>洗浄バッチ登録</value>
+  </data>
+  <data name="TrigActivity.WasherBatchApproval">
+    <value>洗浄バッチ承認</value>
+  </data>
+  <data name="TrigActivity.SterilizerBatchRegistration">
+    <value>滅菌バッチ登録</value>
+  </data>
+  <data name="TrigActivity.SterilizerBatchApproval">
+    <value>滅菌バッチ承認</value>
+  </data>
+  <data name="TrigActivity.RegisterLocation">
+    <value>ロケーション</value>
+  </data>
+  <data name="TrigActivity.OperationRegistration">
+    <value>手術</value>
+  </data>
+  <data name="TrigActivity.Pick">
+    <value>ピッキング</value>
+  </data>
+  <data name="TrigActivity.Dispatch">
+    <value>払出し</value>
+  </data>
+  <data name="TrigActivity.UpdateInventory">
+    <value>在庫調整</value>
+  </data>
+  <data name="TrigActivity.PredisinfectionBatchRegistration">
+    <value>事前消毒バッチ登録</value>
+  </data>
+  <data name="TrigActivity.EndoscopeWasherBatchRegistration">
+    <value>軟性内視鏡洗浄バッチ登録</value>
+  </data>
+  <data name="TrigActivity.EndoCleanAndTest">
+    <value>内視鏡洗浄＆テスト</value>
+  </data>
+  <data name="TrigActivity.EndoscopeWasherBatchApproval">
+    <value>軟性内視鏡洗浄バッチを承認済み</value>
+  </data>
+  <data name="TrigActivity.StartTransport">
+    <value>搬送</value>
+  </data>
+  <data name="TrigActivity.PatientRegistration">
+    <value>患者登録</value>
+  </data>
+  <data name="ReservationStatus.Active">
+    <value>動作中</value>
+  </data>
+  <data name="ReservationStatus.Completed">
+    <value>完了</value>
+  </data>
+  <data name="ReservationStatus.Failed">
+    <value>失敗しました</value>
+  </data>
+  <data name="ReservationStatus.Cancelled">
+    <value>キャンセル済</value>
+  </data>
+  <data name="ProductLoanerType.NonLoaner">
+    <value></value>
+  </data>
+  <data name="ProductLoanerType.GenericLoaner">
+    <value></value>
+  </data>
+  <data name="ProductLoanerType.ExternalLoaner">
+    <value></value>
+  </data>
+  <data name="ProductLoanerType.LoanerTemplate">
+    <value></value>
+  </data>
+  <data name="LoanerSerialNameChangeMode.Always">
+    <value></value>
+  </data>
+  <data name="LoanerSerialNameChangeMode.AtFirst">
+    <value></value>
+  </data>
+  <data name="LoanerSerialNameChangeMode.Never">
+    <value></value>
+  </data>
+  <data name="LoanerAutoCheckOutMode.Off">
+    <value></value>
+  </data>
+  <data name="LoanerAutoCheckOutMode.AfterWash">
+    <value></value>
+  </data>
+  <data name="LoanerAutoCheckOutMode.AfterReturn">
+    <value></value>
+  </data>
+  <data name="UnitStatus.None">
+    <value></value>
+  </data>
+  <data name="UnitStatus.Init">
+    <value>初期登録済み</value>
+  </data>
+  <data name="UnitStatus.Started">
+    <value>開始</value>
+  </data>
+  <data name="UnitStatus.Rinsed">
+    <value>すすぎ済</value>
+  </data>
+  <data name="UnitStatus.Washed">
+    <value>洗浄済み</value>
+  </data>
+  <data name="UnitStatus.Prep">
+    <value>準備済み</value>
+  </data>
+  <data name="UnitStatus.Packed">
+    <value>包装済</value>
+  </data>
+  <data name="UnitStatus.Stock">
+    <value>在庫あり</value>
+  </data>
+  <data name="UnitStatus.Dispatched">
+    <value>払出し済み</value>
+  </data>
+  <data name="UnitStatus.Opened">
+    <value>開済み</value>
+  </data>
+  <data name="UnitStatus.Used">
+    <value>使用済</value>
+  </data>
+  <data name="UnitStatus.Precleaned">
+    <value>事前洗浄済み</value>
+  </data>
+  <data name="UnitStatus.Returned">
+    <value>返却済</value>
+  </data>
+  <data name="UnitStatus.ErrorReg">
+    <value>キャンセル済</value>
+  </data>
+  <data name="UnitStatus.Last">
+    <value></value>
+  </data>
+  <data name="EndoscopeUnitStatus.None">
+    <value></value>
+  </data>
+  <data name="EndoscopeUnitStatus.Init">
+    <value>初期登録済み</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Started">
+    <value>開始</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Rinsed">
+    <value>すすぎ済</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Washed">
+    <value>洗浄済み</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Prep">
+    <value>バッチ起動</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Packed">
+    <value>洗浄済み</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Stock">
+    <value>再処理済み</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Dispatched">
+    <value>払出し済み</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Opened">
+    <value>開済み</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Used">
+    <value>使用済</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Precleaned">
+    <value>事前洗浄済み</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Returned">
+    <value>返却済</value>
+  </data>
+  <data name="EndoscopeUnitStatus.ErrorReg">
+    <value>キャンセル済</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Last">
+    <value></value>
+  </data>
+  <data name="OperationStatus.Planned">
+    <value>予定済</value>
+  </data>
+  <data name="OperationStatus.Accepted">
+    <value>承認</value>
+  </data>
+  <data name="OperationStatus.Started">
+    <value>開始</value>
+  </data>
+  <data name="OperationStatus.Done">
+    <value>完了</value>
+  </data>
+  <data name="OperationStatus.Cancelled">
+    <value>キャンセル済</value>
+  </data>
+  <data name="ObjectStatus.Normal">
+    <value>正常</value>
+  </data>
+  <data name="ObjectStatus.Dying">
+    <value>削除予定</value>
+  </data>
+  <data name="ObjectStatus.Dead">
+    <value>除外済み</value>
+  </data>
+  <data name="MachineType.FirstMachineType">
+    <value>滅菌器</value>
+  </data>
+  <data name="MachineType.Sterilizer">
+    <value>滅菌器</value>
+  </data>
+  <data name="MachineType.Washer">
+    <value>洗浄器</value>
+  </data>
+  <data name="MachineType.PreDis">
+    <value>事前消毒器</value>
+  </data>
+  <data name="MachineType.EndoWasher">
+    <value>内視鏡洗浄器</value>
+  </data>
+  <data name="MachineType.Incubator">
+    <value>培養器</value>
+  </data>
+  <data name="MachineType.EndoDryer">
+    <value>内視鏡乾燥キャビネット</value>
+  </data>
+  <data name="MachineType.LastMachineType">
+    <value>内視鏡乾燥キャビネット</value>
+  </data>
+</root>

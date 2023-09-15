@@ -1,0 +1,14 @@
+﻿@import "../../../../Scss/td-variables";
+
+@mixin workflow-scrollable-block-height($h-main-header: $height-main-header) {
+    height: calc(100vh - #{$h-main-header} - #{$height-workflow-header} - #{$height-workflow-last-action-panel} + #{$pack-additional-units-padding-top});
+}
+
+.workflow-scrollable-block {
+    @include workflow-scrollable-block-height();
+}
+
+.embedded-workflow-scrollable-block {
+    // MainHeader is hidden
+    @include workflow-scrollable-block-height(0%);
+}

@@ -1,0 +1,31 @@
+﻿@inherits InteractiveBaseComponent
+
+@using TDOC.WebComponents.Caption
+@using TDOC.WebComponents.Shared
+
+@typeparam TData
+@typeparam TValue
+
+<div>
+    @if (!string.IsNullOrEmpty(CaptionText))
+    {
+        <div class="row pb-2px">
+            <TdCaption Required="Required" Text="@CaptionText" />
+        </div>
+    }
+    <DxComboBox Id="@($"comboBox{Identifier}")"
+                CssClass="td-combobox"
+                InputCssClass="@($"td-combobox-input {inputCssClass}")"
+                ClearButtonDisplayMode="clearButtonDisplayMode"
+                NullText="@NullText"
+                TextFieldName="@TextFieldName"
+                ValueFieldName="@ValueFieldName"
+                TData="TData"
+                TValue="TValue"
+                Data="Data"
+                @bind-Value="Value"
+                Enabled="Enabled"
+                ReadOnly="ReadOnly"
+                @bind-DropDownVisible="dropDownVisible"
+                AllowUserInput="AllowUserInput" />
+</div>

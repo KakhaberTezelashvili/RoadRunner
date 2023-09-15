@@ -1,0 +1,19 @@
+﻿@using TDOC.WebComponents.ListBox.Models
+@using TDOC.WebComponents.LoadingIndicator
+
+@if (Items?.Count() > 0)
+{
+    <DxListBox @key="keySelectableListBox"
+               Id="@selectableListBoxId"
+               SelectionMode="SelectionMode"
+               ShowCheckboxes="ShowCheckboxes"
+               Data="Items"
+               SelectedItemsChanged="SelectedItemsChanged"
+               @bind-Values="selectedItems"
+               CssClass="td-listbox"
+               style="@GetStyle()" />
+}
+@if (Items == null)
+{
+    <LoadingGridSkeleton/>
+}

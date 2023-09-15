@@ -1,0 +1,148 @@
+﻿{
+  "Routes": [
+    // Production apis.
+    {
+      "DownstreamPathTemplate": "/production/api/{version}/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5100
+        }
+      ],
+      "UpstreamPathTemplate": "/production/api/{version}/{everything}",
+      "UpstreamHttpMethod": [ "POST", "PUT", "GET" ]
+    },
+    // Production swagger.
+    {
+      "DownstreamPathTemplate": "/production/swagger-api{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5100
+        }
+      ],
+      "UpstreamPathTemplate": "/production/swagger-api{everything}",
+      "UpstreamHttpMethod": [ "POST", "PUT", "GET" ]
+    },
+    // Production swagger json file.
+    {
+      "DownstreamPathTemplate": "/pswag{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5100
+        }
+      ],
+      "UpstreamPathTemplate": "/pswag{everything}",
+      "UpstreamHttpMethod": [ "POST", "PUT", "GET" ]
+    },
+    // Search apis.
+    {
+      "DownstreamPathTemplate": "/search/api/{version}/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5400
+        }
+      ],
+      "UpstreamPathTemplate": "/search/api/{version}/{everything}",
+      "UpstreamHttpMethod": [ "POST", "PUT", "GET" ]
+    },
+    // Search swagger.
+    {
+      "DownstreamPathTemplate": "/search/swagger-api{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5400
+        }
+      ],
+      "UpstreamPathTemplate": "/search/swagger-api{everything}",
+      "UpstreamHttpMethod": [ "POST", "PUT", "GET" ]
+    },
+    // Search swagger json file.
+    {
+      "DownstreamPathTemplate": "/sswag{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5400
+        }
+      ],
+      "UpstreamPathTemplate": "/sswag{everything}",
+      "UpstreamHttpMethod": [ "POST", "PUT", "GET" ]
+    },
+    // MasterData apis.
+    {
+      "DownstreamPathTemplate": "/master-data/api/{version}/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5500
+        }
+      ],
+      "UpstreamPathTemplate": "/master-data/api/{version}/{everything}",
+      "UpstreamHttpMethod": [ "POST", "PUT", "GET" ]
+    },
+    // MasterData swagger.
+    {
+      "DownstreamPathTemplate": "/master-data/swagger-api{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5400
+        }
+      ],
+      "UpstreamPathTemplate": "/master-data/swagger-api{everything}",
+      "UpstreamHttpMethod": [ "POST", "PUT", "GET" ]
+    },
+    // MasterData swagger json file.
+    {
+      "DownstreamPathTemplate": "/mdswag{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5500
+        }
+      ],
+      "UpstreamPathTemplate": "/mdswag{everything}",
+      "UpstreamHttpMethod": [ "POST", "PUT", "GET" ]
+    },
+    // Scanner Client web app.
+    {
+      "DownstreamPathTemplate": "/{url}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5200
+        }
+      ],
+      "UpstreamPathTemplate": "/scanner-client{url}",
+      "UpstreamHttpMethod": [ "POST", "PUT", "GET" ]
+    },
+    // Admin Client web app.
+    {
+      "DownstreamPathTemplate": "/{url}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5600
+        }
+      ],
+      "UpstreamPathTemplate": "/admin-client{url}",
+      "UpstreamHttpMethod": [ "POST", "PUT", "GET" ]
+    }
+  ],
+  "GlobalConfiguration": {}
+}

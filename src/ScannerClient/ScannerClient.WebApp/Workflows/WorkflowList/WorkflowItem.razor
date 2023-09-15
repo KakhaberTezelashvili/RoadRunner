@@ -1,0 +1,12 @@
+﻿@using TDOC.Common.Client.Translations
+
+<div id="workflowBlock@(Workflow.LocationKeyId)" class="workflow-block cursor-pointer d-flex align-items-center justify-content-center" @onclick="NavigateToWorkflow">
+  <div>
+    <div class="d-flex justify-content-center">
+      <img id="workflowIcon@(Workflow.LocationKeyId)" class="icon-size-124" src="@GetWorkflowBoardIcon()" />
+    </div>
+    <div id="workflowName@(Workflow.LocationKeyId)" class="pt-12px text-center font-size-21 font-color-granit font-weight-bold">
+      @(TranslationHelper.GetEnumValueName<ProcessType>(Workflow.Process, _tdSharedLocalizer, _tdEnumsLocalizer))
+    </div>
+  </div>
+</div>

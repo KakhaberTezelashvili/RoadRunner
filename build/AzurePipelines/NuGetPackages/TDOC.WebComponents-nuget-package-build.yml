@@ -1,0 +1,18 @@
+# Building, packaging and pushing into repository NuGet package for TDOC.WebComponents project.
+
+trigger:
+  batch: true
+  branches:
+    include:
+    - master
+  paths:
+    include:
+    - TDOC.WebComponents
+pool:
+  vmImage: 'windows-2022'
+extends:
+  template: /AzurePipelines/Templates/build-pack-push-nuget-template.yml
+  parameters:
+    nugetAlias: 'TDOC.WebComponents'
+    solution: 'TDOC.WebComponents/TDOC.WebComponents.csproj'
+    patchVersion: 3

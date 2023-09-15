@@ -1,0 +1,18 @@
+# Building, packaging and pushing into repository NuGet package for TDOC.Common project.
+
+trigger:
+  batch: true
+  branches:
+    include:
+    - master
+  paths:
+    include:
+    - Common/TDOC.Common   
+pool:
+  vmImage: 'windows-2022'
+extends:
+  template: /AzurePipelines/Templates/build-pack-push-nuget-template.yml
+  parameters:
+    nugetAlias: 'TDOC.Common'
+    solution: 'Common/TDOC.Common/TDOC.Common.csproj'
+    patchVersion: 4

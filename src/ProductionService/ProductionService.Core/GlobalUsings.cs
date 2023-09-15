@@ -1,0 +1,12 @@
+﻿global using ProductionService.Core.Repositories.Interfaces;
+global using ProductionService.Shared.Enumerations.Errors.Domain;
+global using ProductionService.Shared.Enumerations.Errors.InputArgument;
+global using TDOC.Common.Data.Enumerations.Errors;
+global using TDOC.Common.Data.Enumerations.Messages;
+global using TDOC.Common.Data.Models.Errors;
+global using TDOC.Common.Data.Models.Exceptions;
+global using TDOC.Common.Server.Repositories;
+global using TDOC.Common.Server.Validations;
+global using TDOC.Data.Constants;
+global using TDOC.Data.Enumerations;
+global using TDOC.Data.Models;

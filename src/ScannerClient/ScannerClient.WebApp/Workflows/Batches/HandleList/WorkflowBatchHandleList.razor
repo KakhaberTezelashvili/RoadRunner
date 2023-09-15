@@ -1,0 +1,31 @@
+﻿@layout WorkflowLayout
+@inherits WorkflowBaseComponent
+
+@using Newtonsoft.Json.Linq
+
+<div class="row p-24px">
+    <div class="col-sm-8 pr-24px">
+        <FlexibleGrid AllowSelectionMode="true"
+                      RequestDataAfterRowSelected="false"
+                      ScrollableHeight="-BusyContentHeight()"
+                      GridDetails="gridDetailsOfUnhandledBatches"
+                      GridStructureRequested="GetGridStructureAsync"
+                      DataRequested="SearchService.SelectAsync" />
+    </div>
+    <div class="col-sm-4 pl-24px">
+        <FlexibleGrid AllowSelectionMode="true"
+                      RequestDataAfterRowSelected="false"
+                      ScrollableHeight="-BusyContentHeight()"
+                      GridDetails="gridDetailsOfHandledBatches"
+                      GridStructureRequested="GetGridStructureAsync"
+                      DataRequested="SearchService.SelectAsync">
+            <ColumnTemplates>
+                <TdDataGridColumnTemplate TItem="object" Field="@CustomFieldNames.BatchStatus">
+                    <DisplayTemplate Context="item">
+                        @GetHandledBatchStatus((JObject)item)
+                    </DisplayTemplate>
+                </TdDataGridColumnTemplate>
+            </ColumnTemplates>
+        </FlexibleGrid>
+    </div>
+</div>

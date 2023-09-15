@@ -1,0 +1,1847 @@
+<?xml version="1.0" encoding="utf-8"?><root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActualProgramCheck.Off">
+    <value>关</value>
+  </data>
+  <data name="ActualProgramCheck.WarningPrompt">
+    <value>警告和确认</value>
+  </data>
+  <data name="ActualProgramCheck.Error">
+    <value>错误 - 批准阻止</value>
+  </data>
+  <data name="ApprovalType.No">
+    <value>否</value>
+  </data>
+  <data name="ApprovalType.Yes">
+    <value>是</value>
+  </data>
+  <data name="ApprovalType.Visual">
+    <value>可视</value>
+  </data>
+  <data name="ApprovalType.Unit">
+    <value>单元</value>
+  </data>
+  <data name="ApprovalType.UnitVisual">
+    <value>可视单元</value>
+  </data>
+  <data name="BatchUnitStatus.OK">
+    <value>确定</value>
+  </data>
+  <data name="BatchUnitStatus.BatchFailed">
+    <value>锅次失败</value>
+  </data>
+  <data name="BatchUnitStatus.UnitFailed">
+    <value>单元失败</value>
+  </data>
+  <data name="CountDatStatus.Open">
+    <value>打开</value>
+  </data>
+  <data name="CountDatStatus.Completed">
+    <value>Completed</value>
+  </data>
+  <data name="CountDatStatus.Suspended">
+    <value>Suspended</value>
+  </data>
+  <data name="CountDatUsersUserRole.EnteringData">
+    <value>输入数据</value>
+  </data>
+  <data name="CountDatUsersUserRole.Responsible">
+    <value>负责</value>
+  </data>
+  <data name="CustNameDisplay.Name">
+    <value>名称</value>
+  </data>
+  <data name="CustNameDisplay.ShortName">
+    <value>短名称</value>
+  </data>
+  <data name="CustNameDisplay.Number">
+    <value>编号</value>
+  </data>
+  <data name="CustOrderBookingMode.Default">
+    <value>默认值</value>
+  </data>
+  <data name="CustOrderBookingMode.Disabled">
+    <value>已禁用</value>
+  </data>
+  <data name="CustOrderBookingMode.Manual">
+    <value>手动</value>
+  </data>
+  <data name="CustOrderBookingMode.Automation">
+    <value>自动的</value>
+  </data>
+  <data name="CustPreDispatchMode.UseFacSetting">
+    <value>使用工厂设置</value>
+  </data>
+  <data name="CustPreDispatchMode.Always">
+    <value>始终</value>
+  </data>
+  <data name="CustPreDispatchMode.Never">
+    <value>从不</value>
+  </data>
+  <data name="DecNonDispItemStockOnPack.Off">
+    <value>关</value>
+  </data>
+  <data name="DecNonDispItemStockOnPack.Prompt">
+    <value>提示</value>
+  </data>
+  <data name="DecNonDispItemStockOnPack.On">
+    <value>开</value>
+  </data>
+  <data name="DeltaScanMode.Delta">
+    <value>增量</value>
+  </data>
+  <data name="DeltaScanMode.Total">
+    <value>总计</value>
+  </data>
+  <data name="DoctorUsage.NotSet">
+    <value>不需要的</value>
+  </data>
+  <data name="DoctorUsage.Needed">
+    <value>Use default if not specified</value>
+  </data>
+  <data name="DoctorUsage.Required">
+    <value>必须指定</value>
+  </data>
+  <data name="DryerProcessStatus.Normal">
+    <value>通常</value>
+  </data>
+  <data name="DryerProcessStatus.OK">
+    <value>确定</value>
+  </data>
+  <data name="DryerProcessStatus.Error">
+    <value>错误</value>
+  </data>
+  <data name="FacOrderBookingMode.Disabled">
+    <value>已禁用</value>
+  </data>
+  <data name="FacOrderBookingMode.Manual">
+    <value>手动</value>
+  </data>
+  <data name="FacOrderBookingMode.Automation">
+    <value>自动的</value>
+  </data>
+  <data name="FactoryDefProdTraceType.ProductSerial">
+    <value>序列号</value>
+  </data>
+  <data name="FactoryDefProdTraceType.Product">
+    <value>产品号</value>
+  </data>
+  <data name="FactoryRestrictionMode.Default">
+    <value>默认值</value>
+  </data>
+  <data name="FactoryRestrictionMode.On">
+    <value>开</value>
+  </data>
+  <data name="FactoryRestrictionMode.Warning">
+    <value>警告</value>
+  </data>
+  <data name="FactoryRestrictionMode.Off">
+    <value>关</value>
+  </data>
+  <data name="FastTrackCodeType.General">
+    <value>常规</value>
+  </data>
+  <data name="FastTrackCodeType.AdHoc">
+    <value>即时</value>
+  </data>
+  <data name="FastTrackCodeType.TemplateOnly">
+    <value>仅仅组</value>
+  </data>
+  <data name="FastTrackCreatorType.System">
+    <value>系统</value>
+  </data>
+  <data name="FastTrackCreatorType.JobServer">
+    <value>作业服务器</value>
+  </data>
+  <data name="FastTrackCreatorType.FacUser">
+    <value>工厂用户</value>
+  </data>
+  <data name="FastTrackCreatorType.CustUser">
+    <value>客户用户</value>
+  </data>
+  <data name="FastTrackDisplayMode.UserSetting">
+    <value>用户设置</value>
+  </data>
+  <data name="FastTrackDisplayMode.ForcePrompt">
+    <value>强制提示</value>
+  </data>
+  <data name="FastTrackDisplayMode.ForceNoPrompt">
+    <value>强制无提示</value>
+  </data>
+  <data name="FastTrackDisplayMode.ForceNoPromptOrInfo">
+    <value>Force no prompt or info</value>
+  </data>
+  <data name="FastTrackEndType.Normal">
+    <value>通常</value>
+  </data>
+  <data name="FastTrackEndType.NormalNewUnitHas">
+    <value>通常(新单元有名字)</value>
+  </data>
+  <data name="FastTrackEndType.ToRepair">
+    <value>发送到修理</value>
+  </data>
+  <data name="FastTrackEndType.Expired">
+    <value>过期的</value>
+  </data>
+  <data name="FastTrackEndType.Cancelled">
+    <value>已取消</value>
+  </data>
+  <data name="FastTrackInvoiceType.None">
+    <value>无</value>
+  </data>
+  <data name="FastTrackInvoiceType.Factory">
+    <value>工厂</value>
+  </data>
+  <data name="FastTrackInvoiceType.Customer">
+    <value>客户</value>
+  </data>
+  <data name="FastTrackStatus.Assigned">
+    <value>分配</value>
+  </data>
+  <data name="FastTrackStatus.Started">
+    <value>已启动</value>
+  </data>
+  <data name="FastTrackStatus.Ended">
+    <value>已结束</value>
+  </data>
+  <data name="HandlingStepResult.OK">
+    <value>Passed</value>
+  </data>
+  <data name="HandlingStepResult.FailedStop">
+    <value>失败</value>
+  </data>
+  <data name="HandlingStepResult.OKCleared">
+    <value>Passed (Cleared)</value>
+  </data>
+  <data name="HandlingStepResult.FailedStartOver">
+    <value>失败(重新开始)</value>
+  </data>
+  <data name="IdentArticleLineUsage.Enabled">
+    <value>使用系统默认</value>
+  </data>
+  <data name="IdentArticleLineUsage.Disabled">
+    <value>是</value>
+  </data>
+  <data name="InActAction.Created">
+    <value>已创建</value>
+  </data>
+  <data name="InActAction.InBatch">
+    <value>In batch</value>
+  </data>
+  <data name="InActAction.Pending">
+    <value>待定的</value>
+  </data>
+  <data name="InActAction.InIncubator">
+    <value>In incubator</value>
+  </data>
+  <data name="InActAction.StepResult">
+    <value>Step result</value>
+  </data>
+  <data name="InActAction.BatchUnblocked">
+    <value>Batch unblocked</value>
+  </data>
+  <data name="InActAction.DispatchUnblocked">
+    <value>Dispatch unblocked</value>
+  </data>
+  <data name="InActAction.Approved">
+    <value>已批准</value>
+  </data>
+  <data name="InActAction.Disapproved">
+    <value>已否决</value>
+  </data>
+  <data name="InActAction.Cancelled">
+    <value>已取消</value>
+  </data>
+  <data name="InActAction.InWell">
+    <value>In well</value>
+  </data>
+  <data name="InActAction.OutWell">
+    <value>Out well</value>
+  </data>
+  <data name="InActAction.BatchRemoved">
+    <value>Removed from batch</value>
+  </data>
+  <data name="InActAction.BatchAssigned">
+    <value>Batch assigned</value>
+  </data>
+  <data name="InActResult.Unknown">
+    <value>未知</value>
+  </data>
+  <data name="InActResult.Approved">
+    <value>已批准</value>
+  </data>
+  <data name="InActResult.Disapproved">
+    <value>已否决</value>
+  </data>
+  <data name="IncNonDispItemStockOnPack.Off">
+    <value>关</value>
+  </data>
+  <data name="IncNonDispItemStockOnPack.Prompt">
+    <value>提示</value>
+  </data>
+  <data name="IncNonDispItemStockOnPack.On">
+    <value>开</value>
+  </data>
+  <data name="IncuBatchLogResult.Pending">
+    <value>待定的</value>
+  </data>
+  <data name="IncuBatchLogResult.Passed">
+    <value>Passed</value>
+  </data>
+  <data name="IncuBatchLogResult.Failed">
+    <value>失败</value>
+  </data>
+  <data name="IncuBatchLogResult.Warning">
+    <value>警告</value>
+  </data>
+  <data name="IncuBatchLogResult.Discontinued">
+    <value>停止</value>
+  </data>
+  <data name="IncuBatchLogResult.Error">
+    <value>错误</value>
+  </data>
+  <data name="IncuBatchLogResult.DataError">
+    <value>Data error</value>
+  </data>
+  <data name="IncuBatchLogStatus.Unknown">
+    <value>Not yet available</value>
+  </data>
+  <data name="IncuBatchLogStatus.Manual">
+    <value>No data logging</value>
+  </data>
+  <data name="IncuBatchLogStatus.Processing">
+    <value>处理</value>
+  </data>
+  <data name="IncuBatchLogStatus.Done">
+    <value>已完成</value>
+  </data>
+  <data name="IndicStatus.Created">
+    <value>已创建</value>
+  </data>
+  <data name="IndicStatus.InBatch">
+    <value>In batch</value>
+  </data>
+  <data name="IndicStatus.Pending">
+    <value>待定的</value>
+  </data>
+  <data name="IndicStatus.Approved">
+    <value>已批准</value>
+  </data>
+  <data name="IndicStatus.Disapproved">
+    <value>已否决</value>
+  </data>
+  <data name="IndicStatus.Cancelled">
+    <value>已取消</value>
+  </data>
+  <data name="InTypResultType.Immediate">
+    <value>Immediate</value>
+  </data>
+  <data name="InTypResultType.Delayed">
+    <value>延时</value>
+  </data>
+  <data name="InTypResultType.Combined">
+    <value>Combined</value>
+  </data>
+  <data name="ItemAltPricingMode.None">
+    <value>无</value>
+  </data>
+  <data name="ItemAltPricingMode.SalesPrice">
+    <value>销售价格</value>
+  </data>
+  <data name="ItemAltPricingMode.UsagePrice">
+    <value>使用价格</value>
+  </data>
+  <data name="ItemAltPricingMode.CostPrice">
+    <value>成本价格</value>
+  </data>
+  <data name="ItemDifficultyMode.Default">
+    <value>默认值</value>
+  </data>
+  <data name="ItemDifficultyMode.Fixed">
+    <value>Fixed</value>
+  </data>
+  <data name="ItemDifficultyMode.Sum">
+    <value>总计</value>
+  </data>
+  <data name="ItemDifficultyMode.Max">
+    <value>最大</value>
+  </data>
+  <data name="ItemDifficultyMode.Count">
+    <value>计数</value>
+  </data>
+  <data name="ItemInstrumentType.Instrument">
+    <value>物品</value>
+  </data>
+  <data name="ItemInstrumentType.Endoscope">
+    <value>内窥镜</value>
+  </data>
+  <data name="ItemInstrumentType.ButtonValve">
+    <value>Button valve</value>
+  </data>
+  <data name="ItemPricingMode.SalesPrice">
+    <value>销售价格</value>
+  </data>
+  <data name="ItemPricingMode.UsagePrice">
+    <value>使用价格</value>
+  </data>
+  <data name="ItemPricingMode.CostPrice">
+    <value>成本价格</value>
+  </data>
+  <data name="ItemPricingType.Normal">
+    <value></value>
+  </data>
+  <data name="ItemPricingType.TimeBased">
+    <value></value>
+  </data>
+  <data name="ItemReservationMode.NotRequired">
+    <value>不需要的</value>
+  </data>
+  <data name="ItemReservationMode.Enabled">
+    <value>已启用</value>
+  </data>
+  <data name="ItemTraceType.Item">
+    <value>物品</value>
+  </data>
+  <data name="ItemTraceType.SerialItem">
+    <value>序列号</value>
+  </data>
+  <data name="ItemTraceType.LOT">
+    <value>批号</value>
+  </data>
+  <data name="LogEntryType.System">
+    <value>系统</value>
+  </data>
+  <data name="LogEntryType.Information">
+    <value>信息</value>
+  </data>
+  <data name="LogEntryType.Message">
+    <value>信息</value>
+  </data>
+  <data name="LogEntryType.Warning">
+    <value>警告</value>
+  </data>
+  <data name="LogEntryType.Error">
+    <value>错误</value>
+  </data>
+  <data name="LogEntryType.Debug">
+    <value>调试</value>
+  </data>
+  <data name="LogBatchContent.Disabled">
+    <value>已禁用</value>
+  </data>
+  <data name="LogBatchContent.Enabled">
+    <value>已启用</value>
+  </data>
+  <data name="LogBatchRegMode.Off">
+    <value>关</value>
+  </data>
+  <data name="LogBatchRegMode.On">
+    <value>开</value>
+  </data>
+  <data name="MachConsStatus.OnStock">
+    <value>在仓库</value>
+  </data>
+  <data name="MachConsStatus.InUse">
+    <value>在使用</value>
+  </data>
+  <data name="MachConsStatus.Used">
+    <value>已使用</value>
+  </data>
+  <data name="MachConsStatus.Missing">
+    <value>丢失</value>
+  </data>
+  <data name="MachLogTypes.TDOC">
+    <value>TDOC Error</value>
+  </data>
+  <data name="MachLogTypes.MachineError">
+    <value>机器错误</value>
+  </data>
+  <data name="MachLogTypes.MachineWarning">
+    <value>机器警告</value>
+  </data>
+  <data name="MachTypeRuleIntervalType.Day">
+    <value>Every x day</value>
+  </data>
+  <data name="MachTypeRuleIntervalType.Batch">
+    <value>Every x batch</value>
+  </data>
+  <data name="MachTypeRuleIntervalType.FirstDailyRunAfter">
+    <value>First daily run after</value>
+  </data>
+  <data name="MachTypeRuleIntervalType.FirstWeeklyRunAfter">
+    <value>First weekly run after</value>
+  </data>
+  <data name="MachTypeRuleIntervalType.FirstMonthlyRunAfter">
+    <value>First monthly run after</value>
+  </data>
+  <data name="ManualEndoDryingMode.NotAllowed">
+    <value>Not allowed</value>
+  </data>
+  <data name="ManualEndoDryingMode.Allowed">
+    <value>允许</value>
+  </data>
+  <data name="ManualEndoDryingMode.Assumed">
+    <value>Assumed</value>
+  </data>
+  <data name="McRuleResult.OK">
+    <value>确定</value>
+  </data>
+  <data name="McRuleResult.Prevented">
+    <value>Prevented</value>
+  </data>
+  <data name="McRuleResult.Forced">
+    <value>强制</value>
+  </data>
+  <data name="McRuleResult.Error">
+    <value>错误</value>
+  </data>
+  <data name="OperationDataActionType.Created">
+    <value>已创建</value>
+  </data>
+  <data name="OperationDataActionType.Cancelled">
+    <value>已取消</value>
+  </data>
+  <data name="OperationDataActionType.Planned">
+    <value>已计划</value>
+  </data>
+  <data name="OperationDataActionType.Accepted">
+    <value>已接受</value>
+  </data>
+  <data name="OperationDataActionType.Started">
+    <value>已启动</value>
+  </data>
+  <data name="OperationDataActionType.Done">
+    <value>已完成</value>
+  </data>
+  <data name="OperationDataActionType.PrefListToOrderAuto">
+    <value>Pref. list order created (auto)</value>
+  </data>
+  <data name="OperationDataActionType.PrefListToOrderManual">
+    <value>Pref. list order created (manual)</value>
+  </data>
+  <data name="OperationDataActionType.PrefListOrderUpdated">
+    <value>Pref. list order updated</value>
+  </data>
+  <data name="OperationDataActionType.OrderCancelled">
+    <value>Order cancelled</value>
+  </data>
+  <data name="OperationDataActionType.Exported">
+    <value>已导出</value>
+  </data>
+  <data name="OperationDataActionType.Imported">
+    <value>Imported</value>
+  </data>
+  <data name="OperationDataActionType.PickInfoImport">
+    <value>Picking information imported</value>
+  </data>
+  <data name="OperationDataActionType.BookingForced">
+    <value>Booking forced</value>
+  </data>
+  <data name="OperationDataActionType.BookingUnForced">
+    <value>Booking unforced</value>
+  </data>
+  <data name="OperationDataActionType.ReservChangedDueToForce">
+    <value>预留.强制更改</value>
+  </data>
+  <data name="OperationDataActionType.PreCount">
+    <value>Operation count (pre)</value>
+  </data>
+  <data name="OperationDataActionType.PerCount">
+    <value>Operation count (per)</value>
+  </data>
+  <data name="OperationDataActionType.PostCount">
+    <value>Operation count (post)</value>
+  </data>
+  <data name="OperationDataActionType.MergeRemove">
+    <value>Data moved to operation</value>
+  </data>
+  <data name="OperationDataActionType.MergeReceive">
+    <value>Data received from operation</value>
+  </data>
+  <data name="OperationDataActionType.EmergencyCaseCartAdded">
+    <value>Emergency case cart bound</value>
+  </data>
+  <data name="OperationDataActionType.PatVeriOK">
+    <value>Patient verified</value>
+  </data>
+  <data name="OperationDataActionType.PatVeriFailed">
+    <value>Patient verification failed</value>
+  </data>
+  <data name="OperationDataActionType.PatVeriSkip">
+    <value>Patient verification skipped</value>
+  </data>
+  <data name="OperationDataActionType.PatVeriPostpone">
+    <value>Patient verification postponed</value>
+  </data>
+  <data name="OperationDataActionType.OrderReturnRequested">
+    <value>Order return requested</value>
+  </data>
+  <data name="OperationDataActionType.OrderReordered">
+    <value>Order reordered</value>
+  </data>
+  <data name="OperationDataActionType.OrderCopyCreatedAuto">
+    <value>Order copy created (auto)</value>
+  </data>
+  <data name="OperationDataActionType.OrderCopyCreatedManual">
+    <value>Order copy created (manual)</value>
+  </data>
+  <data name="OperationTypeType.Elective">
+    <value>已创建</value>
+  </data>
+  <data name="OperationTypeType.Emergency">
+    <value>已取消</value>
+  </data>
+  <data name="OPProcedureTypeMode.Fixed">
+    <value>Fixed</value>
+  </data>
+  <data name="OPProcedureTypeMode.AutoOPType">
+    <value>Auto from Operation type</value>
+  </data>
+  <data name="OPProcedureTypeMode.AutoDisabled">
+    <value></value>
+  </data>
+  <data name="OPStaffMode.Fixed">
+    <value>Fixed</value>
+  </data>
+  <data name="OPStaffMode.AutoProcType">
+    <value>Auto from Procedure type</value>
+  </data>
+  <data name="OrderActionType.Created">
+    <value>已创建</value>
+  </data>
+  <data name="OrderActionType.Cancelled">
+    <value>已取消</value>
+  </data>
+  <data name="OrderActionType.Sent">
+    <value>已发送</value>
+  </data>
+  <data name="OrderActionType.Accepted">
+    <value>已接受</value>
+  </data>
+  <data name="OrderActionType.PickStart">
+    <value>Picking started</value>
+  </data>
+  <data name="OrderActionType.Delivered">
+    <value>已交付</value>
+  </data>
+  <data name="OrderActionType.Received">
+    <value>已接收</value>
+  </data>
+  <data name="OrderActionType.Done">
+    <value>已完成</value>
+  </data>
+  <data name="OrderActionType.PrintPicklist">
+    <value>Pick list printed or viewed</value>
+  </data>
+  <data name="OrderActionType.PrintDevNote">
+    <value>Delivery note printed or viewed</value>
+  </data>
+  <data name="OrderActionType.PrintRetNote">
+    <value>Return note printed or viewed</value>
+  </data>
+  <data name="OrderActionType.PrintPurchaseOrder">
+    <value>Purchase order printed or viewed</value>
+  </data>
+  <data name="OrderActionType.Exported">
+    <value>已导出</value>
+  </data>
+  <data name="OrderActionType.Imported">
+    <value>Imported</value>
+  </data>
+  <data name="OrderActionType.ReqDevTimeChange">
+    <value>Req. delivery time changed</value>
+  </data>
+  <data name="OrderActionType.PickInfoImport">
+    <value></value>
+  </data>
+  <data name="OrderActionType.BookingModeActive">
+    <value>Booking mode active</value>
+  </data>
+  <data name="OrderActionType.BookingModeInActive">
+    <value>Booking mode inactive</value>
+  </data>
+  <data name="OrderActionType.BookingForced">
+    <value>Booking forced</value>
+  </data>
+  <data name="OrderActionType.BookingUnForced">
+    <value>Booking unforced</value>
+  </data>
+  <data name="OrderActionType.ReservChangedDueToForce">
+    <value>预留.强制更改</value>
+  </data>
+  <data name="OrderActionType.AttachToOperation">
+    <value>Attached to operation</value>
+  </data>
+  <data name="OrderActionType.DetachFromOperation">
+    <value>Detached from operation</value>
+  </data>
+  <data name="OrderActionType.BindItemsToOperation">
+    <value>Items bound to operation</value>
+  </data>
+  <data name="OrderActionType.BindUnitsToOperation">
+    <value>Units bound to operation</value>
+  </data>
+  <data name="OrderActionType.UnbindItemsFromOperation">
+    <value>Items unbound from operation</value>
+  </data>
+  <data name="OrderActionType.UnbindUnitsFromOperation">
+    <value>Units unbound from operation</value>
+  </data>
+  <data name="OrderActionType.ReturnRequested">
+    <value>Return requested</value>
+  </data>
+  <data name="OrderActionType.Reordered">
+    <value>Reordered</value>
+  </data>
+  <data name="OrderBookingMode.Undetermined">
+    <value>Undetermined</value>
+  </data>
+  <data name="OrderBookingMode.Disabled">
+    <value>已禁用</value>
+  </data>
+  <data name="OrderBookingMode.Inactive">
+    <value>Inactive</value>
+  </data>
+  <data name="OrderBookingMode.Active">
+    <value>活动</value>
+  </data>
+  <data name="OrderBookingStatus.Undetermined">
+    <value>Undetermined</value>
+  </data>
+  <data name="OrderBookingStatus.Ok">
+    <value>确定</value>
+  </data>
+  <data name="OrderBookingStatus.Warning">
+    <value>警告</value>
+  </data>
+  <data name="OrderBookingStatus.Error">
+    <value>错误</value>
+  </data>
+  <data name="OrderOrgStatus.None">
+    <value>无</value>
+  </data>
+  <data name="OrderOrgStatus.Template">
+    <value>模板</value>
+  </data>
+  <data name="OrderOrgStatus.Open">
+    <value>打开</value>
+  </data>
+  <data name="OrderOrgStatus.Sent">
+    <value>已发送</value>
+  </data>
+  <data name="OrderOrgStatus.Received">
+    <value>已接收</value>
+  </data>
+  <data name="OrderOrgStatus.Done">
+    <value>已完成</value>
+  </data>
+  <data name="OrderOrgStatus.Cancelled">
+    <value>已取消</value>
+  </data>
+  <data name="OrderSuppPickPriority.Normal">
+    <value>通常</value>
+  </data>
+  <data name="OrderSuppPickPriority.PickNow">
+    <value>当前</value>
+  </data>
+  <data name="OrderSuppPickPriority.PickNowForced">
+    <value>Now (forced)</value>
+  </data>
+  <data name="OrderSuppPriority.Normal">
+    <value>通常</value>
+  </data>
+  <data name="OrderSuppPriority.FastTrack">
+    <value>Fast tracked</value>
+  </data>
+  <data name="OrderSuppPriority.Emergency">
+    <value>Acute</value>
+  </data>
+  <data name="OrderSuppStatus.None">
+    <value>无</value>
+  </data>
+  <data name="OrderSuppStatus.Template">
+    <value>模板</value>
+  </data>
+  <data name="OrderSuppStatus.Order">
+    <value>新建</value>
+  </data>
+  <data name="OrderSuppStatus.Accepted">
+    <value>已接受</value>
+  </data>
+  <data name="OrderSuppStatus.Picked">
+    <value>已开始提取</value>
+  </data>
+  <data name="OrderSuppStatus.Delivered">
+    <value>已交付</value>
+  </data>
+  <data name="OrderSuppStatus.Cancelled">
+    <value>已取消</value>
+  </data>
+  <data name="OrderType.None">
+    <value>无</value>
+  </data>
+  <data name="OrderType.Order">
+    <value>订单</value>
+  </data>
+  <data name="OrderType.ReturnOrder">
+    <value>返回订单</value>
+  </data>
+  <data name="OrderType.OrderCorr">
+    <value>库存更正</value>
+  </data>
+  <data name="PackingUsedFor.All">
+    <value>All instruments</value>
+  </data>
+  <data name="PackingUsedFor.Endoscopes">
+    <value>内窥镜</value>
+  </data>
+  <data name="PatientAgeUsage.NotSet">
+    <value>As specified</value>
+  </data>
+  <data name="PatientAgeUsage.Needed">
+    <value>Use default if not specified</value>
+  </data>
+  <data name="PatientAgeUsage.Required">
+    <value>必须指定</value>
+  </data>
+  <data name="PatientGenderUsage.NotSet">
+    <value>As specified</value>
+  </data>
+  <data name="PatientGenderUsage.Needed">
+    <value>Use default if not specified</value>
+  </data>
+  <data name="PatientGenderUsage.Required">
+    <value>必须指定</value>
+  </data>
+  <data name="PIPLogEntrySubType.None">
+    <value>无</value>
+  </data>
+  <data name="PIPLogEntrySubType.SystemData">
+    <value>系统数据</value>
+  </data>
+  <data name="PIPLogEntrySubType.User">
+    <value>用户</value>
+  </data>
+  <data name="PIPLogEntrySubType.UserProfile">
+    <value>用户配置文件</value>
+  </data>
+  <data name="PIPLogEntrySubType.PatientLookup">
+    <value>患者</value>
+  </data>
+  <data name="PIPLogEntrySubType.OperationLookup">
+    <value>手术数据</value>
+  </data>
+  <data name="PIPLogEntrySubType.Patients">
+    <value>患者</value>
+  </data>
+  <data name="PIPLogEntrySubType.Operations">
+    <value>Operations</value>
+  </data>
+  <data name="PIPLogEntrySubType.Units">
+    <value>单元</value>
+  </data>
+  <data name="PIPLogEntrySubType.Orders">
+    <value>订单</value>
+  </data>
+  <data name="PIPLogEntrySubType.LOTLookup">
+    <value>List of LOT information</value>
+  </data>
+  <data name="PIPLogEntryType.PIPSettings">
+    <value>Patient information privacy settings change</value>
+  </data>
+  <data name="PIPLogEntryType.DirectLookup">
+    <value>直接查找</value>
+  </data>
+  <data name="PIPLogEntryType.SuccSearch">
+    <value>Successful search</value>
+  </data>
+  <data name="PIPLogEntryType.UnSuccSearch">
+    <value>搜索失败</value>
+  </data>
+  <data name="PIPLogEntryType.PIPLogOpened">
+    <value>Patient information access log opened</value>
+  </data>
+  <data name="PIPLogEntryType.PIPLogSearching">
+    <value>Search in Patient information access log</value>
+  </data>
+  <data name="PIPLogEntryType.SchedOperations">
+    <value>手术计划</value>
+  </data>
+  <data name="PrDrv.None">
+    <value>无</value>
+  </data>
+  <data name="PrDrv.Windows">
+    <value>窗口</value>
+  </data>
+  <data name="PrDrv.Epson_Obsolete">
+    <value></value>
+  </data>
+  <data name="PrDrv.Zebra">
+    <value>Zebra</value>
+  </data>
+  <data name="PrefListOrderCreateMode.Immediate">
+    <value>Immediate</value>
+  </data>
+  <data name="PrefListOrderCreateMode.TimeBased">
+    <value>Just in time</value>
+  </data>
+  <data name="PrefListOrderCreateMode.Manual">
+    <value>手动</value>
+  </data>
+  <data name="PrefLnModifier.None">
+    <value>无</value>
+  </data>
+  <data name="PrefLnModifier.Absolute">
+    <value>Absolute</value>
+  </data>
+  <data name="PrefLnModifier.Add">
+    <value>添加</value>
+  </data>
+  <data name="PrefLnModifier.Subtract">
+    <value>Subtract</value>
+  </data>
+  <data name="PrefLnModifier.Highest">
+    <value>Highest</value>
+  </data>
+  <data name="PrefLnModifier.Lowest">
+    <value>Lowest</value>
+  </data>
+  <data name="ProcessStatus.Done">
+    <value>已完成</value>
+  </data>
+  <data name="ProcessStatus.Running">
+    <value>正在运行</value>
+  </data>
+  <data name="ProcessStatus.Initiated">
+    <value>已发起</value>
+  </data>
+  <data name="ProcessStatus.Ending">
+    <value>结束中</value>
+  </data>
+  <data name="ProcessType.None">
+    <value>无</value>
+  </data>
+  <data name="ProcessType.Pack">
+    <value>打包</value>
+  </data>
+  <data name="ProcessType.SteriPostBatch">
+    <value>后锅次(灭菌器)</value>
+  </data>
+  <data name="ProcessType.Out">
+    <value>发放</value>
+  </data>
+  <data name="ProcessType.Return">
+    <value>返回</value>
+  </data>
+  <data name="ProcessType.Prepare">
+    <value>准备</value>
+  </data>
+  <data name="ProcessType.Wrap">
+    <value>包装</value>
+  </data>
+  <data name="ProcessType.LitePro">
+    <value>Lite Label</value>
+  </data>
+  <data name="ProcessType.SteriPreBatch">
+    <value>前锅次(灭菌器)</value>
+  </data>
+  <data name="ProcessType.Flash">
+    <value>快速锅次</value>
+  </data>
+  <data name="ProcessType.Location">
+    <value>位置</value>
+  </data>
+  <data name="ProcessType.WashPreBatch">
+    <value>前期批次(清洗器)</value>
+  </data>
+  <data name="ProcessType.WashPostBatch">
+    <value>后锅次(清洗器)</value>
+  </data>
+  <data name="ProcessType.OpenUsed">
+    <value>打开/使用</value>
+  </data>
+  <data name="ProcessType.Operation">
+    <value>手术</value>
+  </data>
+  <data name="ProcessType.Order">
+    <value>订单</value>
+  </data>
+  <data name="ProcessType.Inventory">
+    <value>盘库</value>
+  </data>
+  <data name="ProcessType.OrderPick">
+    <value>订单提取</value>
+  </data>
+  <data name="ProcessType.Industry">
+    <value>工业</value>
+  </data>
+  <data name="ProcessType.PreDisPreBatch">
+    <value>前锅次(预消毒)</value>
+  </data>
+  <data name="ProcessType.LoadQueue">
+    <value>装载队列</value>
+  </data>
+  <data name="ProcessType.PurchaseOrder">
+    <value>采购订单</value>
+  </data>
+  <data name="ProcessType.EndoscopePreBatch">
+    <value>前锅次(内窥镜清洗器)</value>
+  </data>
+  <data name="ProcessType.WashCheck">
+    <value>清洗检查</value>
+  </data>
+  <data name="ProcessType.ExtBatchInfo">
+    <value>Ext. batch info</value>
+  </data>
+  <data name="ProcessType.EndoCleanAndTest">
+    <value>内窥镜清洗与测试</value>
+  </data>
+  <data name="ProcessType.Transport">
+    <value>运送</value>
+  </data>
+  <data name="ProcessType.Workflow">
+    <value>工作流程</value>
+  </data>
+  <data name="ProcessType.Incubator">
+    <value>细菌培养</value>
+  </data>
+  <data name="ProcessType.ReturnWF">
+    <value>回收单元</value>
+  </data>
+  <data name="ProcessType.WashPreBatchWF">
+    <value>Create wash batch</value>
+  </data>
+  <data name="ProcessType.SteriPreBatchWF">
+    <value>Create sterilizer batch</value>
+  </data>
+  <data name="ProcessType.PackWF">
+    <value>Pack units</value>
+  </data>
+  <data name="ProcessType.OutWF">
+    <value>发送到客户</value>
+  </data>
+  <data name="ProcessType.Last">
+    <value></value>
+  </data>
+  <data name="ProdDispatchRestriction.Default">
+    <value>默认值</value>
+  </data>
+  <data name="ProdDispatchRestriction.None">
+    <value>无</value>
+  </data>
+  <data name="ProdDispatchRestriction.CustomerOrSite">
+    <value>客户或场所</value>
+  </data>
+  <data name="ProdDispatchRestriction.CustomerElseSite">
+    <value>客户其他场所</value>
+  </data>
+  <data name="ProdDispatchRestriction.CustomerOnly">
+    <value>仅限客户</value>
+  </data>
+  <data name="ProdReservationMode.NotRequired">
+    <value>不需要的</value>
+  </data>
+  <data name="ProdReservationMode.Enabled">
+    <value>已启用</value>
+  </data>
+  <data name="ProductDifficultyMode.UseItemValue">
+    <value>Use item value</value>
+  </data>
+  <data name="ProductDifficultyMode.Fixed">
+    <value>Fixed</value>
+  </data>
+  <data name="ProductReturnState.Normal">
+    <value>通常</value>
+  </data>
+  <data name="ProductReturnState.PreProcessed">
+    <value>预处理</value>
+  </data>
+  <data name="ProductReturnState.PrePacked">
+    <value>预打包</value>
+  </data>
+  <data name="ProductStockControlMode.Simple">
+    <value>通常</value>
+  </data>
+  <data name="ProductStockControlMode.Basic">
+    <value>高级 (完整)</value>
+  </data>
+  <data name="ProductStockControlMode.Advanced">
+    <value></value>
+  </data>
+  <data name="ProductStorageType.Factory">
+    <value>工厂</value>
+  </data>
+  <data name="ProductStorageType.Transit">
+    <value>Transit</value>
+  </data>
+  <data name="ProductTraceType.Product">
+    <value>产品号</value>
+  </data>
+  <data name="ProductTraceType.ProductSerial">
+    <value>序列号</value>
+  </data>
+  <data name="ProductTraceType.Both">
+    <value>Both serial and product number</value>
+  </data>
+  <data name="ProductType.Trays">
+    <value>托盘</value>
+  </data>
+  <data name="ProductType.SinglePacks">
+    <value>单个打包</value>
+  </data>
+  <data name="ProductType.Endoscopes">
+    <value>内窥镜</value>
+  </data>
+  <data name="ProgramCheckInitiated.Allowed">
+    <value>允许</value>
+  </data>
+  <data name="ProgramCheckInitiated.Required">
+    <value>要求的</value>
+  </data>
+  <data name="QuestionInputType.Boolean">
+    <value>是/否</value>
+  </data>
+  <data name="QuestionInputType.Integer">
+    <value>编号</value>
+  </data>
+  <data name="QuestionInputType.Text">
+    <value>文本</value>
+  </data>
+  <data name="QuestionInputType.List">
+    <value>List</value>
+  </data>
+  <data name="RepairInvState.None">
+    <value>无</value>
+  </data>
+  <data name="RepairInvState.Block">
+    <value>阻止</value>
+  </data>
+  <data name="RepairInvState.Done">
+    <value>已完成</value>
+  </data>
+  <data name="RepairMode.AskUser">
+    <value>询问用户</value>
+  </data>
+  <data name="RepairMode.UsingCust">
+    <value>正在使用客户</value>
+  </data>
+  <data name="RepairMode.Owner">
+    <value>所有者</value>
+  </data>
+  <data name="RepairMode.Factory">
+    <value>工厂</value>
+  </data>
+  <data name="RepairOrigin.Item">
+    <value>物品</value>
+  </data>
+  <data name="RepairOrigin.Product">
+    <value>产品</value>
+  </data>
+  <data name="RepairOrigin.Serial">
+    <value>序列</value>
+  </data>
+  <data name="RepairOrigin.Unit">
+    <value>单元</value>
+  </data>
+  <data name="RepairOrigin.Tag">
+    <value>标记</value>
+  </data>
+  <data name="RepairStatus.Sent">
+    <value>已发送</value>
+  </data>
+  <data name="RepairStatus.Received">
+    <value>已接收</value>
+  </data>
+  <data name="RepairStatus.Done">
+    <value>已完成</value>
+  </data>
+  <data name="RepairStatus.Cancelled">
+    <value>已取消</value>
+  </data>
+  <data name="RepairStatus.Requested">
+    <value>Requested</value>
+  </data>
+  <data name="RpTypCommentOption.NotAllowed">
+    <value>不允许</value>
+  </data>
+  <data name="RpTypCommentOption.Allowed">
+    <value>允许</value>
+  </data>
+  <data name="RpTypCommentOption.Required">
+    <value>要求的</value>
+  </data>
+  <data name="RpTypCustInvMode.NoInvoice">
+    <value>无发票</value>
+  </data>
+  <data name="RpTypCustInvMode.Invoice">
+    <value>发票</value>
+  </data>
+  <data name="RpTypCustInvMode.NoEdit">
+    <value>发票,无编辑</value>
+  </data>
+  <data name="RpTypCustInvMode.Hidden">
+    <value>发票,无显示</value>
+  </data>
+  <data name="RpTypFacInvMode.NoInvoice">
+    <value>无发票</value>
+  </data>
+  <data name="RpTypFacInvMode.Invoice">
+    <value>发票</value>
+  </data>
+  <data name="RpTypFacInvMode.NoEdit">
+    <value>发票,无编辑</value>
+  </data>
+  <data name="RpTypFacInvMode.Hidden">
+    <value>发票,无显示</value>
+  </data>
+  <data name="RpTypSuppMode.AllowChange">
+    <value>允许更改</value>
+  </data>
+  <data name="RpTypSuppMode.Fixed">
+    <value>Fixed</value>
+  </data>
+  <data name="RpTypType.Standard">
+    <value>标准</value>
+  </data>
+  <data name="RpTypType.Quick">
+    <value>快速修理</value>
+  </data>
+  <data name="RpTypType.Discard">
+    <value>舍弃</value>
+  </data>
+  <data name="ScanUIStartMode.Default">
+    <value>默认值</value>
+  </data>
+  <data name="ScanUIStartMode.Layers">
+    <value>Layer mode</value>
+  </data>
+  <data name="ScanUIStartMode.Grid">
+    <value>Table/Grid mode</value>
+  </data>
+  <data name="SexType.None">
+    <value>未知</value>
+  </data>
+  <data name="SexType.Male">
+    <value>男</value>
+  </data>
+  <data name="SexType.Female">
+    <value>女</value>
+  </data>
+  <data name="SexType.Other">
+    <value>其他</value>
+  </data>
+  <data name="StdCommentFreeTextOption.NotAllowed">
+    <value>不允许</value>
+  </data>
+  <data name="StdCommentFreeTextOption.Allowed">
+    <value>允许</value>
+  </data>
+  <data name="StdCommentFreeTextOption.Required">
+    <value>要求的</value>
+  </data>
+  <data name="StockBackOrderMode.Never">
+    <value>从不</value>
+  </data>
+  <data name="StockBackOrderMode.Always">
+    <value>始终</value>
+  </data>
+  <data name="StockBackOrderMode.Ask">
+    <value>询问</value>
+  </data>
+  <data name="StockBackOrderMode.WhenSet">
+    <value>当被指示时(准确)</value>
+  </data>
+  <data name="StockBackOrderMode.WhenSetAuto">
+    <value>当被指示时(所有)</value>
+  </data>
+  <data name="StockOrderInMode.Auto">
+    <value>自动完成</value>
+  </data>
+  <data name="StockOrderInMode.Receive">
+    <value>自动接收</value>
+  </data>
+  <data name="StockOrderInMode.Manual">
+    <value>手动接收</value>
+  </data>
+  <data name="StockPrnMode.Never">
+    <value>从不</value>
+  </data>
+  <data name="StockPrnMode.Always">
+    <value>始终</value>
+  </data>
+  <data name="StockPrnMode.Ask">
+    <value>询问</value>
+  </data>
+  <data name="TagType.Basket">
+    <value>篮筐</value>
+  </data>
+  <data name="TagType.SteriLoad">
+    <value>装载</value>
+  </data>
+  <data name="TagType.PrepTag">
+    <value>准备</value>
+  </data>
+  <data name="TagType.Bundle">
+    <value>捆扎</value>
+  </data>
+  <data name="TagType.Wash">
+    <value>清洗</value>
+  </data>
+  <data name="TagType.WashLoad">
+    <value>清洗装载</value>
+  </data>
+  <data name="TagType.Transport">
+    <value>运送</value>
+  </data>
+  <data name="TagType.Split">
+    <value>拆分</value>
+  </data>
+  <data name="TagType.CaseCart">
+    <value>Case cart</value>
+  </data>
+  <data name="TagType.TransportBox">
+    <value>Transport box</value>
+  </data>
+  <data name="TagType.InstrumentContainer">
+    <value>Instrument container</value>
+  </data>
+  <data name="TransmitKind.SMS">
+    <value>Short Template</value>
+  </data>
+  <data name="TransmitKind.Internal">
+    <value>Long Template</value>
+  </data>
+  <data name="TrigBehaviour.RoundBased">
+    <value>Rounds</value>
+  </data>
+  <data name="TrigBehaviour.Time">
+    <value>Intervals</value>
+  </data>
+  <data name="TrigBehaviour.InitialDaysThenRounds">
+    <value>Interval then rounds</value>
+  </data>
+  <data name="TrigBehaviour.RoundMaxTime">
+    <value>Rounds or intervals</value>
+  </data>
+  <data name="TrigBehaviour.Everytime">
+    <value>Everytime</value>
+  </data>
+  <data name="TrigExecutionPhase.Before">
+    <value>Before</value>
+  </data>
+  <data name="TrigExecutionPhase.During">
+    <value>During</value>
+  </data>
+  <data name="TrigExecutionPhase.After">
+    <value>After</value>
+  </data>
+  <data name="TrigPostponeAbility.No">
+    <value>否</value>
+  </data>
+  <data name="TrigPostponeAbility.YesAllUsers">
+    <value>是</value>
+  </data>
+  <data name="TrigPostponeAbility.UserDefined">
+    <value>User-defined</value>
+  </data>
+  <data name="UILocaAvailability.Default">
+    <value>默认值</value>
+  </data>
+  <data name="UILocaAvailability.Visible">
+    <value>可见的</value>
+  </data>
+  <data name="UILocaAvailability.Advanced">
+    <value>可见的（高级）</value>
+  </data>
+  <data name="UILocaAvailability.Hidden">
+    <value>Hidden</value>
+  </data>
+  <data name="WellStatus.Unknown">
+    <value>未知</value>
+  </data>
+  <data name="WellStatus.Empty">
+    <value>空</value>
+  </data>
+  <data name="WellStatus.Init">
+    <value>正在初始化</value>
+  </data>
+  <data name="WellStatus.Processing">
+    <value>处理</value>
+  </data>
+  <data name="WellStatus.Negative">
+    <value>Negative</value>
+  </data>
+  <data name="WellStatus.Positive">
+    <value>积极的</value>
+  </data>
+  <data name="WellStatus.Result">
+    <value>错误</value>
+  </data>
+  <data name="WellStatus.Error">
+    <value>警告</value>
+  </data>
+  <data name="WellStatus.Warning">
+    <value></value>
+  </data>
+  <data name="ReservationState.Undetermined">
+    <value>Undetermined</value>
+  </data>
+  <data name="ReservationState.OKOriginal">
+    <value>确定</value>
+  </data>
+  <data name="ReservationState.OKIdentical">
+    <value>确定</value>
+  </data>
+  <data name="ReservationState.OKAlternative">
+    <value>确定</value>
+  </data>
+  <data name="ReservationState.OKIdenticalForAlternative">
+    <value>确定</value>
+  </data>
+  <data name="ReservationState.WarningOriginal">
+    <value>警告</value>
+  </data>
+  <data name="ReservationState.WarningIdentical">
+    <value>警告</value>
+  </data>
+  <data name="ReservationState.WarningAlternative">
+    <value>警告</value>
+  </data>
+  <data name="ReservationState.WarningIdenticalForAlternative">
+    <value>警告</value>
+  </data>
+  <data name="ReservationState.Error">
+    <value>错误</value>
+  </data>
+  <data name="TriggerResult.RAccept">
+    <value>接受</value>
+  </data>
+  <data name="TriggerResult.RReject">
+    <value>Reject</value>
+  </data>
+  <data name="TriggerResult.ROverride">
+    <value>Override</value>
+  </data>
+  <data name="TriggerResult.RPostpone">
+    <value>Postpone</value>
+  </data>
+  <data name="TriggerResult.RSilent">
+    <value>Silent</value>
+  </data>
+  <data name="FacDeductItemsFromStockInOpType.On">
+    <value>开</value>
+  </data>
+  <data name="FacDeductItemsFromStockInOpType.Off">
+    <value>关</value>
+  </data>
+  <data name="OrderSuppPickMode.Normal">
+    <value>通常</value>
+  </data>
+  <data name="OrderSuppPickMode.FullAuto">
+    <value>Fully automated</value>
+  </data>
+  <data name="OrderSuppPickMode.EjectOnly">
+    <value>Eject from stock</value>
+  </data>
+  <data name="PickJobStatus.Forecast">
+    <value>Forecast</value>
+  </data>
+  <data name="PickJobStatus.Requested">
+    <value>Requested</value>
+  </data>
+  <data name="PickJobStatus.Attempted">
+    <value>Checked/Attempted</value>
+  </data>
+  <data name="PickJobStatus.Committed">
+    <value>Committed</value>
+  </data>
+  <data name="PickJobStatus.Completed">
+    <value>Completed</value>
+  </data>
+  <data name="PickJobStatus.Closed">
+    <value>Closed</value>
+  </data>
+  <data name="PickJobStatus.Cancelled">
+    <value>已取消</value>
+  </data>
+  <data name="PickJobActionType.NewForecast">
+    <value>Forecast</value>
+  </data>
+  <data name="PickJobActionType.Requested">
+    <value>Requested</value>
+  </data>
+  <data name="PickJobActionType.Attempted">
+    <value>Checked/Attempted</value>
+  </data>
+  <data name="PickJobActionType.Committed">
+    <value>Committed</value>
+  </data>
+  <data name="PickJobActionType.Completed">
+    <value>Completed</value>
+  </data>
+  <data name="PickJobActionType.Closed">
+    <value>Closed</value>
+  </data>
+  <data name="PickJobActionType.Cancelled">
+    <value>已取消</value>
+  </data>
+  <data name="ItemSalesRestriction.None">
+    <value>无</value>
+  </data>
+  <data name="ItemSalesRestriction.Blocked">
+    <value>阻止</value>
+  </data>
+  <data name="TrigActivity.None">
+    <value>无</value>
+  </data>
+  <data name="TrigActivity.Pack">
+    <value>打包</value>
+  </data>
+  <data name="TrigActivity.Return">
+    <value>返回</value>
+  </data>
+  <data name="TrigActivity.Wrap">
+    <value>包装</value>
+  </data>
+  <data name="TrigActivity.WasherBatchRegistration">
+    <value>Washer batch registration</value>
+  </data>
+  <data name="TrigActivity.WasherBatchApproval">
+    <value>Washer batch approval</value>
+  </data>
+  <data name="TrigActivity.SterilizerBatchRegistration">
+    <value>Sterilizer batch registration</value>
+  </data>
+  <data name="TrigActivity.SterilizerBatchApproval">
+    <value>Sterilizer batch approval</value>
+  </data>
+  <data name="TrigActivity.RegisterLocation">
+    <value>位置</value>
+  </data>
+  <data name="TrigActivity.OperationRegistration">
+    <value>手术</value>
+  </data>
+  <data name="TrigActivity.Pick">
+    <value>提取</value>
+  </data>
+  <data name="TrigActivity.Dispatch">
+    <value>发放</value>
+  </data>
+  <data name="TrigActivity.UpdateInventory">
+    <value>盘库</value>
+  </data>
+  <data name="TrigActivity.PredisinfectionBatchRegistration">
+    <value>Pre-disinfection batch registration</value>
+  </data>
+  <data name="TrigActivity.EndoscopeWasherBatchRegistration">
+    <value>Endoscope washer batch registration</value>
+  </data>
+  <data name="TrigActivity.EndoCleanAndTest">
+    <value>内窥镜清洗与测试</value>
+  </data>
+  <data name="TrigActivity.EndoscopeWasherBatchApproval">
+    <value>Endoscope washer batch approval</value>
+  </data>
+  <data name="TrigActivity.StartTransport">
+    <value>运送</value>
+  </data>
+  <data name="TrigActivity.PatientRegistration">
+    <value>Patient registration</value>
+  </data>
+  <data name="ReservationStatus.Active">
+    <value>活动</value>
+  </data>
+  <data name="ReservationStatus.Completed">
+    <value>Completed</value>
+  </data>
+  <data name="ReservationStatus.Failed">
+    <value>失败</value>
+  </data>
+  <data name="ReservationStatus.Cancelled">
+    <value>已取消</value>
+  </data>
+  <data name="ProductLoanerType.NonLoaner">
+    <value></value>
+  </data>
+  <data name="ProductLoanerType.GenericLoaner">
+    <value></value>
+  </data>
+  <data name="ProductLoanerType.ExternalLoaner">
+    <value></value>
+  </data>
+  <data name="ProductLoanerType.LoanerTemplate">
+    <value></value>
+  </data>
+  <data name="LoanerSerialNameChangeMode.Always">
+    <value></value>
+  </data>
+  <data name="LoanerSerialNameChangeMode.AtFirst">
+    <value></value>
+  </data>
+  <data name="LoanerSerialNameChangeMode.Never">
+    <value></value>
+  </data>
+  <data name="LoanerAutoCheckOutMode.Off">
+    <value></value>
+  </data>
+  <data name="LoanerAutoCheckOutMode.AfterWash">
+    <value></value>
+  </data>
+  <data name="LoanerAutoCheckOutMode.AfterReturn">
+    <value></value>
+  </data>
+  <data name="UnitStatus.None">
+    <value></value>
+  </data>
+  <data name="UnitStatus.Init">
+    <value>已初始化</value>
+  </data>
+  <data name="UnitStatus.Started">
+    <value>已启动</value>
+  </data>
+  <data name="UnitStatus.Rinsed">
+    <value>Rinsed</value>
+  </data>
+  <data name="UnitStatus.Washed">
+    <value>已清洗</value>
+  </data>
+  <data name="UnitStatus.Prep">
+    <value>已准备</value>
+  </data>
+  <data name="UnitStatus.Packed">
+    <value>已打包</value>
+  </data>
+  <data name="UnitStatus.Stock">
+    <value>在仓库</value>
+  </data>
+  <data name="UnitStatus.Dispatched">
+    <value>已发放</value>
+  </data>
+  <data name="UnitStatus.Opened">
+    <value>已打开</value>
+  </data>
+  <data name="UnitStatus.Used">
+    <value>已使用</value>
+  </data>
+  <data name="UnitStatus.Precleaned">
+    <value>预清洗</value>
+  </data>
+  <data name="UnitStatus.Returned">
+    <value>已返回</value>
+  </data>
+  <data name="UnitStatus.ErrorReg">
+    <value>已取消</value>
+  </data>
+  <data name="UnitStatus.Last">
+    <value></value>
+  </data>
+  <data name="EndoscopeUnitStatus.None">
+    <value></value>
+  </data>
+  <data name="EndoscopeUnitStatus.Init">
+    <value>已初始化</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Started">
+    <value>已启动</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Rinsed">
+    <value>Rinsed</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Washed">
+    <value>已清洗</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Prep">
+    <value>已发起</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Packed">
+    <value>已清洗</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Stock">
+    <value>已再处理</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Dispatched">
+    <value>已发放</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Opened">
+    <value>已打开</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Used">
+    <value>已使用</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Precleaned">
+    <value>预清洗</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Returned">
+    <value>已返回</value>
+  </data>
+  <data name="EndoscopeUnitStatus.ErrorReg">
+    <value>已取消</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Last">
+    <value></value>
+  </data>
+  <data name="OperationStatus.Planned">
+    <value>已计划</value>
+  </data>
+  <data name="OperationStatus.Accepted">
+    <value>已接受</value>
+  </data>
+  <data name="OperationStatus.Started">
+    <value>已启动</value>
+  </data>
+  <data name="OperationStatus.Done">
+    <value>已完成</value>
+  </data>
+  <data name="OperationStatus.Cancelled">
+    <value>已取消</value>
+  </data>
+  <data name="ObjectStatus.Normal">
+    <value>通常</value>
+  </data>
+  <data name="ObjectStatus.Dying">
+    <value>待忽略</value>
+  </data>
+  <data name="ObjectStatus.Dead">
+    <value>忽略</value>
+  </data>
+  <data name="MachineType.FirstMachineType">
+    <value>灭菌器</value>
+  </data>
+  <data name="MachineType.Sterilizer">
+    <value>灭菌器</value>
+  </data>
+  <data name="MachineType.Washer">
+    <value>清洗器</value>
+  </data>
+  <data name="MachineType.PreDis">
+    <value>预消毒器</value>
+  </data>
+  <data name="MachineType.EndoWasher">
+    <value>内窥镜清洗器</value>
+  </data>
+  <data name="MachineType.Incubator">
+    <value>恒温箱</value>
+  </data>
+  <data name="MachineType.EndoDryer">
+    <value>Endoscope drying cabinet</value>
+  </data>
+  <data name="MachineType.LastMachineType">
+    <value>Endoscope drying cabinet</value>
+  </data>
+</root>

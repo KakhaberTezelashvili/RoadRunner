@@ -1,0 +1,16 @@
+{
+  "profiles": {
+    "Docker Compose": {
+      "commandName": "DockerCompose",
+      "serviceActions": {
+        "roadrunner.production": "StartWithoutDebugging",
+        "roadrunner.search": "StartWithoutDebugging",
+        "roadrunner.master-data": "StartWithoutDebugging",
+        "roadrunner.scanner-client": "StartWithoutDebugging",
+        "roadrunner.admin-client": "StartWithoutDebugging",
+        "roadrunner.gateway": "StartWithoutDebugging"
+      },
+      "commandVersion": "1.0"
+    }
+  }
+}

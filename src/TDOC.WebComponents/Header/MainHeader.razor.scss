@@ -1,0 +1,17 @@
+﻿@import "../Scss/td-variables";
+
+.header-block {
+    padding: 6px 12px;
+    height: $height-main-header;
+    z-index: $z-index-main-header;
+}
+
+.header-edge-column {
+    width: 180px;
+}
+
+.system-notifications-position {
+    top: calc(#{$height-main-header} - #{$height-notification});
+    right: $width-side-search-panel;
+    z-index: 2;
+}

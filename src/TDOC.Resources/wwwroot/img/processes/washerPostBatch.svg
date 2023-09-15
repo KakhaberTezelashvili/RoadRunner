@@ -1,0 +1,17 @@
+<svg width="124" height="126" viewBox="0 0 124 126" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23 124.5H101.909V0.5H23V124.5Z" fill="#D4CAC8"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M39.9092 124.5H85.0001V6.13672H39.9092V124.5Z" fill="#495A6B"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M90.6367 56.8641H96.2731V34.313H90.6367V56.8641Z" fill="#595857"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M45.5459 73.7726H79.3641V68.1362H45.5459V73.7726Z" fill="#AFDFF9"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23 39.9545H34.2727V23.0454H23V39.9545Z" fill="#595857"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M39.9092 79.4094H85.0001V28.6821H39.9092V79.4094Z" fill="#31B7BC"/>
+<mask id="mask0_1608_17182" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="39" y="41" width="46" height="39">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M39.9092 41.7295H85.0001V79.4086H39.9092V41.7295Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_1608_17182)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M37.1673 51.2268C38.3453 51.2268 37.1729 65.3177 55.9815 65.3177C74.7844 65.3177 66.4482 41.7295 104.308 41.7295C123.111 41.7295 83.1825 103.318 81.1253 104.496C79.068 105.674 44.1 94.4915 40.8422 93.9053C37.5787 93.3191 31.4238 59.7771 31.4238 59.7771L37.1673 51.2268Z" fill="#8ACED1"/>
+</g>
+<path d="M93 125.178C110.121 125.178 124 111.931 124 95.589C124 79.2475 110.121 66 93 66C75.8792 66 62 79.2475 62 95.589C62 111.931 75.8792 125.178 93 125.178Z" fill="#94B654"/>
+<path d="M77.5 95.5894C77.5 92.6634 78.4091 89.803 80.1122 87.3701C81.8154 84.9371 84.2362 83.0409 87.0684 81.9211C89.9007 80.8013 93.0172 80.5084 96.0239 81.0792C99.0306 81.6501 101.792 83.0591 103.96 85.1281C106.128 87.1972 107.604 89.8333 108.202 92.7032C108.8 95.573 108.493 98.5477 107.32 101.251C106.147 103.954 104.16 106.265 101.611 107.891C99.0624 109.516 96.0656 110.384 93 110.384" stroke="white" stroke-width="7" stroke-miterlimit="10"/>
+<path d="M65 95.5889L77.5 112.067L90 95.5889H65Z" fill="white"/>
+</svg>

@@ -1,0 +1,9 @@
+﻿@using TDOC.WebComponents.Auth
+
+<LoginPanel @ref="refLoginPanel" 
+            LogoIconUrl="@($"{ContentUrls.ResourceImg}logos/logoTD.svg")"
+            UserNameCaption="@_tdSharedLocalizer["userName"]"
+            PasswordCaption="@_tdTablesLocalizer[$"{nameof(UserModel)}.{nameof(UserModel.Password)}"]"
+            LoginButtonText="@_tdSharedLocalizer["logIn"]"
+            LoginUser="@(async (text, enterPressed) => await LoginUserAsync(text, enterPressed))"
+            FooterText="T-DOC - version 17 - Copyright 1992-2021 Getinge IT Solutions GmbH"></LoginPanel>

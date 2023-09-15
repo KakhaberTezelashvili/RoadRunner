@@ -1,0 +1,18 @@
+﻿<TdSwiper SwiperId="@SwiperId"
+          IsPopup="IsPopup"
+          DefaultImgSrc="@DefaultImgSrc"
+          ObtainMediaData="ObtainMediaData"
+          SlideClicked="SlideClicked" 
+          SlideDblClicked="SlideDblClicked" 
+          EntryDataList="entryDataList"
+          ContainerHeight="ContainerHeight" />
+
+@if (entryDataList.Count > 1) 
+{
+    var thumbnailsSwiperId = $"thumbnails-{SwiperId}";
+    <TdSwiper SwiperId="@thumbnailsSwiperId"
+              IsThumbnail="true"
+              DefaultImgSrc="@DefaultImgSrc"
+              ObtainMediaData="ObtainMediaData"
+              EntryDataList="entryDataList" />
+}

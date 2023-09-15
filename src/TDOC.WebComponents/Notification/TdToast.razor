@@ -1,0 +1,10 @@
+﻿@using TDOC.WebComponents.Notification.Enumerations
+
+<div id="toastContainer">
+    @foreach (NotificationStyle notificationStyle in Enum.GetValues(typeof(NotificationStyle)))
+    {
+        <div data-options="dxTemplate: { name: '@NotificationStyleKey(notificationStyle)' }">
+            <NotificationPanel Details="notificationDetails"></NotificationPanel>
+        </div>
+    }
+</div>

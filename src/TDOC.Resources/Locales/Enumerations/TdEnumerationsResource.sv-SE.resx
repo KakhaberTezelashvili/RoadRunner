@@ -1,0 +1,1847 @@
+<?xml version="1.0" encoding="utf-8"?><root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActualProgramCheck.Off">
+    <value>Av</value>
+  </data>
+  <data name="ActualProgramCheck.WarningPrompt">
+    <value>Varning och bekräftelse</value>
+  </data>
+  <data name="ActualProgramCheck.Error">
+    <value>Fel - Godkännande blockerad</value>
+  </data>
+  <data name="ApprovalType.No">
+    <value>Nej</value>
+  </data>
+  <data name="ApprovalType.Yes">
+    <value>Ja</value>
+  </data>
+  <data name="ApprovalType.Visual">
+    <value>Visuell</value>
+  </data>
+  <data name="ApprovalType.Unit">
+    <value>Enheter</value>
+  </data>
+  <data name="ApprovalType.UnitVisual">
+    <value>Visuell per enhet</value>
+  </data>
+  <data name="BatchUnitStatus.OK">
+    <value>OK</value>
+  </data>
+  <data name="BatchUnitStatus.BatchFailed">
+    <value>Batch felaktig</value>
+  </data>
+  <data name="BatchUnitStatus.UnitFailed">
+    <value>Enhet felaktig</value>
+  </data>
+  <data name="CountDatStatus.Open">
+    <value>Öppen</value>
+  </data>
+  <data name="CountDatStatus.Completed">
+    <value>Avslutad</value>
+  </data>
+  <data name="CountDatStatus.Suspended">
+    <value>Pausad</value>
+  </data>
+  <data name="CountDatUsersUserRole.EnteringData">
+    <value>Ange data</value>
+  </data>
+  <data name="CountDatUsersUserRole.Responsible">
+    <value>Ansvarig</value>
+  </data>
+  <data name="CustNameDisplay.Name">
+    <value>Namn</value>
+  </data>
+  <data name="CustNameDisplay.ShortName">
+    <value>Kortnamn</value>
+  </data>
+  <data name="CustNameDisplay.Number">
+    <value>Nummer</value>
+  </data>
+  <data name="CustOrderBookingMode.Default">
+    <value>Standard</value>
+  </data>
+  <data name="CustOrderBookingMode.Disabled">
+    <value>Inaktiv</value>
+  </data>
+  <data name="CustOrderBookingMode.Manual">
+    <value>Manuell</value>
+  </data>
+  <data name="CustOrderBookingMode.Automation">
+    <value>Automatik</value>
+  </data>
+  <data name="CustPreDispatchMode.UseFacSetting">
+    <value>Använd prod.enhetens inställning</value>
+  </data>
+  <data name="CustPreDispatchMode.Always">
+    <value>Alltid</value>
+  </data>
+  <data name="CustPreDispatchMode.Never">
+    <value>Aldrig</value>
+  </data>
+  <data name="DecNonDispItemStockOnPack.Off">
+    <value>Av</value>
+  </data>
+  <data name="DecNonDispItemStockOnPack.Prompt">
+    <value>Fråga</value>
+  </data>
+  <data name="DecNonDispItemStockOnPack.On">
+    <value>På</value>
+  </data>
+  <data name="DeltaScanMode.Delta">
+    <value>Delta</value>
+  </data>
+  <data name="DeltaScanMode.Total">
+    <value>Totalt</value>
+  </data>
+  <data name="DoctorUsage.NotSet">
+    <value>Krävs ej</value>
+  </data>
+  <data name="DoctorUsage.Needed">
+    <value>Använd standard om inget annat anges</value>
+  </data>
+  <data name="DoctorUsage.Required">
+    <value>Måste anges</value>
+  </data>
+  <data name="DryerProcessStatus.Normal">
+    <value>Normal</value>
+  </data>
+  <data name="DryerProcessStatus.OK">
+    <value>OK</value>
+  </data>
+  <data name="DryerProcessStatus.Error">
+    <value>Fel</value>
+  </data>
+  <data name="FacOrderBookingMode.Disabled">
+    <value>Inaktiv</value>
+  </data>
+  <data name="FacOrderBookingMode.Manual">
+    <value>Manuell</value>
+  </data>
+  <data name="FacOrderBookingMode.Automation">
+    <value>Automatik</value>
+  </data>
+  <data name="FactoryDefProdTraceType.ProductSerial">
+    <value>Serienummer</value>
+  </data>
+  <data name="FactoryDefProdTraceType.Product">
+    <value>Produktnummer</value>
+  </data>
+  <data name="FactoryRestrictionMode.Default">
+    <value>Standard</value>
+  </data>
+  <data name="FactoryRestrictionMode.On">
+    <value>På</value>
+  </data>
+  <data name="FactoryRestrictionMode.Warning">
+    <value>Varning</value>
+  </data>
+  <data name="FactoryRestrictionMode.Off">
+    <value>Av</value>
+  </data>
+  <data name="FastTrackCodeType.General">
+    <value>Allmänt</value>
+  </data>
+  <data name="FastTrackCodeType.AdHoc">
+    <value>Tillfällig</value>
+  </data>
+  <data name="FastTrackCodeType.TemplateOnly">
+    <value>Endast grupp</value>
+  </data>
+  <data name="FastTrackCreatorType.System">
+    <value>System</value>
+  </data>
+  <data name="FastTrackCreatorType.JobServer">
+    <value>Jobbserver</value>
+  </data>
+  <data name="FastTrackCreatorType.FacUser">
+    <value>Prod.enhetens användare</value>
+  </data>
+  <data name="FastTrackCreatorType.CustUser">
+    <value>Kundanvändare</value>
+  </data>
+  <data name="FastTrackDisplayMode.UserSetting">
+    <value>Användarinställning</value>
+  </data>
+  <data name="FastTrackDisplayMode.ForcePrompt">
+    <value>Visa dialogruta</value>
+  </data>
+  <data name="FastTrackDisplayMode.ForceNoPrompt">
+    <value>Visa ingen dialogruta</value>
+  </data>
+  <data name="FastTrackDisplayMode.ForceNoPromptOrInfo">
+    <value>Kräv ingen fråga eller information</value>
+  </data>
+  <data name="FastTrackEndType.Normal">
+    <value>Normal</value>
+  </data>
+  <data name="FastTrackEndType.NormalNewUnitHas">
+    <value>Normal (ny enhet har det samma)</value>
+  </data>
+  <data name="FastTrackEndType.ToRepair">
+    <value>Skickad till reparation</value>
+  </data>
+  <data name="FastTrackEndType.Expired">
+    <value>Utgått</value>
+  </data>
+  <data name="FastTrackEndType.Cancelled">
+    <value>Annullerad</value>
+  </data>
+  <data name="FastTrackInvoiceType.None">
+    <value>Ingen</value>
+  </data>
+  <data name="FastTrackInvoiceType.Factory">
+    <value>Produktionsenhet</value>
+  </data>
+  <data name="FastTrackInvoiceType.Customer">
+    <value>Kund</value>
+  </data>
+  <data name="FastTrackStatus.Assigned">
+    <value>Tilldelad</value>
+  </data>
+  <data name="FastTrackStatus.Started">
+    <value>Startad</value>
+  </data>
+  <data name="FastTrackStatus.Ended">
+    <value>Avslutad</value>
+  </data>
+  <data name="HandlingStepResult.OK">
+    <value>Godkänd</value>
+  </data>
+  <data name="HandlingStepResult.FailedStop">
+    <value>Misslyckades</value>
+  </data>
+  <data name="HandlingStepResult.OKCleared">
+    <value>Godkänd (Nollställd)</value>
+  </data>
+  <data name="HandlingStepResult.FailedStartOver">
+    <value>Misslyckades (Starta om)</value>
+  </data>
+  <data name="IdentArticleLineUsage.Enabled">
+    <value>Använd systemstandard</value>
+  </data>
+  <data name="IdentArticleLineUsage.Disabled">
+    <value>Ja</value>
+  </data>
+  <data name="InActAction.Created">
+    <value>Skapad</value>
+  </data>
+  <data name="InActAction.InBatch">
+    <value>I batch</value>
+  </data>
+  <data name="InActAction.Pending">
+    <value>Väntar</value>
+  </data>
+  <data name="InActAction.InIncubator">
+    <value>I inkubator</value>
+  </data>
+  <data name="InActAction.StepResult">
+    <value>Hanteringsstegsresultat</value>
+  </data>
+  <data name="InActAction.BatchUnblocked">
+    <value>Batch är inte blockerad</value>
+  </data>
+  <data name="InActAction.DispatchUnblocked">
+    <value>Utlämna ej blockerad</value>
+  </data>
+  <data name="InActAction.Approved">
+    <value>Godkänd</value>
+  </data>
+  <data name="InActAction.Disapproved">
+    <value>Underkänd</value>
+  </data>
+  <data name="InActAction.Cancelled">
+    <value>Annullerad</value>
+  </data>
+  <data name="InActAction.InWell">
+    <value>I brunn</value>
+  </data>
+  <data name="InActAction.OutWell">
+    <value>Ute ut inkubator</value>
+  </data>
+  <data name="InActAction.BatchRemoved">
+    <value>Ta bort från batch</value>
+  </data>
+  <data name="InActAction.BatchAssigned">
+    <value>Batch tilldelad</value>
+  </data>
+  <data name="InActResult.Unknown">
+    <value>Okänd</value>
+  </data>
+  <data name="InActResult.Approved">
+    <value>Godkänd</value>
+  </data>
+  <data name="InActResult.Disapproved">
+    <value>Underkänd</value>
+  </data>
+  <data name="IncNonDispItemStockOnPack.Off">
+    <value>Av</value>
+  </data>
+  <data name="IncNonDispItemStockOnPack.Prompt">
+    <value>Fråga</value>
+  </data>
+  <data name="IncNonDispItemStockOnPack.On">
+    <value>På</value>
+  </data>
+  <data name="IncuBatchLogResult.Pending">
+    <value>Väntar</value>
+  </data>
+  <data name="IncuBatchLogResult.Passed">
+    <value>Godkänd</value>
+  </data>
+  <data name="IncuBatchLogResult.Failed">
+    <value>Misslyckades</value>
+  </data>
+  <data name="IncuBatchLogResult.Warning">
+    <value>Varning</value>
+  </data>
+  <data name="IncuBatchLogResult.Discontinued">
+    <value>Avbruten</value>
+  </data>
+  <data name="IncuBatchLogResult.Error">
+    <value>Fel</value>
+  </data>
+  <data name="IncuBatchLogResult.DataError">
+    <value>Datafel</value>
+  </data>
+  <data name="IncuBatchLogStatus.Unknown">
+    <value>Inte tillgängliga ännu</value>
+  </data>
+  <data name="IncuBatchLogStatus.Manual">
+    <value>Ingen dataloggning</value>
+  </data>
+  <data name="IncuBatchLogStatus.Processing">
+    <value>Processer</value>
+  </data>
+  <data name="IncuBatchLogStatus.Done">
+    <value>Klar</value>
+  </data>
+  <data name="IndicStatus.Created">
+    <value>Skapad</value>
+  </data>
+  <data name="IndicStatus.InBatch">
+    <value>I batch</value>
+  </data>
+  <data name="IndicStatus.Pending">
+    <value>Väntar</value>
+  </data>
+  <data name="IndicStatus.Approved">
+    <value>Godkänd</value>
+  </data>
+  <data name="IndicStatus.Disapproved">
+    <value>Underkänd</value>
+  </data>
+  <data name="IndicStatus.Cancelled">
+    <value>Annullerad</value>
+  </data>
+  <data name="InTypResultType.Immediate">
+    <value>Omedelbar</value>
+  </data>
+  <data name="InTypResultType.Delayed">
+    <value>Fördröjd</value>
+  </data>
+  <data name="InTypResultType.Combined">
+    <value>Kombinerat</value>
+  </data>
+  <data name="ItemAltPricingMode.None">
+    <value>Ingen</value>
+  </data>
+  <data name="ItemAltPricingMode.SalesPrice">
+    <value>Försäljningspris</value>
+  </data>
+  <data name="ItemAltPricingMode.UsagePrice">
+    <value>Avskrivningspris</value>
+  </data>
+  <data name="ItemAltPricingMode.CostPrice">
+    <value>Inköpspris</value>
+  </data>
+  <data name="ItemDifficultyMode.Default">
+    <value>Standard</value>
+  </data>
+  <data name="ItemDifficultyMode.Fixed">
+    <value>Fast</value>
+  </data>
+  <data name="ItemDifficultyMode.Sum">
+    <value>Summa</value>
+  </data>
+  <data name="ItemDifficultyMode.Max">
+    <value>Max</value>
+  </data>
+  <data name="ItemDifficultyMode.Count">
+    <value>Antal</value>
+  </data>
+  <data name="ItemInstrumentType.Instrument">
+    <value>Artikel</value>
+  </data>
+  <data name="ItemInstrumentType.Endoscope">
+    <value>Endoskop</value>
+  </data>
+  <data name="ItemInstrumentType.ButtonValve">
+    <value>Endoskopventil</value>
+  </data>
+  <data name="ItemPricingMode.SalesPrice">
+    <value>Försäljningspris</value>
+  </data>
+  <data name="ItemPricingMode.UsagePrice">
+    <value>Avskrivningspris</value>
+  </data>
+  <data name="ItemPricingMode.CostPrice">
+    <value>Inköpspris</value>
+  </data>
+  <data name="ItemPricingType.Normal">
+    <value></value>
+  </data>
+  <data name="ItemPricingType.TimeBased">
+    <value></value>
+  </data>
+  <data name="ItemReservationMode.NotRequired">
+    <value>Krävs ej</value>
+  </data>
+  <data name="ItemReservationMode.Enabled">
+    <value>Aktiv</value>
+  </data>
+  <data name="ItemTraceType.Item">
+    <value>Artikel</value>
+  </data>
+  <data name="ItemTraceType.SerialItem">
+    <value>Serienummer</value>
+  </data>
+  <data name="ItemTraceType.LOT">
+    <value>LOT nummer</value>
+  </data>
+  <data name="LogEntryType.System">
+    <value>System</value>
+  </data>
+  <data name="LogEntryType.Information">
+    <value>Information</value>
+  </data>
+  <data name="LogEntryType.Message">
+    <value>Meddelande</value>
+  </data>
+  <data name="LogEntryType.Warning">
+    <value>Varning</value>
+  </data>
+  <data name="LogEntryType.Error">
+    <value>Fel</value>
+  </data>
+  <data name="LogEntryType.Debug">
+    <value>Felsök</value>
+  </data>
+  <data name="LogBatchContent.Disabled">
+    <value>Inaktiv</value>
+  </data>
+  <data name="LogBatchContent.Enabled">
+    <value>Aktiv</value>
+  </data>
+  <data name="LogBatchRegMode.Off">
+    <value>Av</value>
+  </data>
+  <data name="LogBatchRegMode.On">
+    <value>På</value>
+  </data>
+  <data name="MachConsStatus.OnStock">
+    <value>På lager</value>
+  </data>
+  <data name="MachConsStatus.InUse">
+    <value>Används</value>
+  </data>
+  <data name="MachConsStatus.Used">
+    <value>Använd</value>
+  </data>
+  <data name="MachConsStatus.Missing">
+    <value>Saknas</value>
+  </data>
+  <data name="MachLogTypes.TDOC">
+    <value>T-DOC Felkod</value>
+  </data>
+  <data name="MachLogTypes.MachineError">
+    <value>Maskinfel</value>
+  </data>
+  <data name="MachLogTypes.MachineWarning">
+    <value>Maskinvarning</value>
+  </data>
+  <data name="MachTypeRuleIntervalType.Day">
+    <value>Varje x dag</value>
+  </data>
+  <data name="MachTypeRuleIntervalType.Batch">
+    <value>Varje x batch</value>
+  </data>
+  <data name="MachTypeRuleIntervalType.FirstDailyRunAfter">
+    <value>Första dagliga körning efter</value>
+  </data>
+  <data name="MachTypeRuleIntervalType.FirstWeeklyRunAfter">
+    <value>Första veckovisa körning efter</value>
+  </data>
+  <data name="MachTypeRuleIntervalType.FirstMonthlyRunAfter">
+    <value>Första månatliga körning efter</value>
+  </data>
+  <data name="ManualEndoDryingMode.NotAllowed">
+    <value>Inte tillåtet</value>
+  </data>
+  <data name="ManualEndoDryingMode.Allowed">
+    <value>Tillåten</value>
+  </data>
+  <data name="ManualEndoDryingMode.Assumed">
+    <value>Antagna</value>
+  </data>
+  <data name="McRuleResult.OK">
+    <value>OK</value>
+  </data>
+  <data name="McRuleResult.Prevented">
+    <value>Förhindrad</value>
+  </data>
+  <data name="McRuleResult.Forced">
+    <value>Forcerad</value>
+  </data>
+  <data name="McRuleResult.Error">
+    <value>Fel</value>
+  </data>
+  <data name="OperationDataActionType.Created">
+    <value>Skapad</value>
+  </data>
+  <data name="OperationDataActionType.Cancelled">
+    <value>Annullerad</value>
+  </data>
+  <data name="OperationDataActionType.Planned">
+    <value>Planerad</value>
+  </data>
+  <data name="OperationDataActionType.Accepted">
+    <value>Godkänd</value>
+  </data>
+  <data name="OperationDataActionType.Started">
+    <value>Startad</value>
+  </data>
+  <data name="OperationDataActionType.Done">
+    <value>Klar</value>
+  </data>
+  <data name="OperationDataActionType.PrefListToOrderAuto">
+    <value>Utrustningslista skapad (auto)</value>
+  </data>
+  <data name="OperationDataActionType.PrefListToOrderManual">
+    <value>Utrustningslista skapad (manuell)</value>
+  </data>
+  <data name="OperationDataActionType.PrefListOrderUpdated">
+    <value>Utrustningslistans order uppdaterad</value>
+  </data>
+  <data name="OperationDataActionType.OrderCancelled">
+    <value>Order annullerad</value>
+  </data>
+  <data name="OperationDataActionType.Exported">
+    <value>Exporterad</value>
+  </data>
+  <data name="OperationDataActionType.Imported">
+    <value>Importerad</value>
+  </data>
+  <data name="OperationDataActionType.PickInfoImport">
+    <value>Plockinformation importerad</value>
+  </data>
+  <data name="OperationDataActionType.BookingForced">
+    <value>Forcerad bokning</value>
+  </data>
+  <data name="OperationDataActionType.BookingUnForced">
+    <value>Ej forcerad bokning</value>
+  </data>
+  <data name="OperationDataActionType.ReservChangedDueToForce">
+    <value>Reservation ändrad p.g.a. tvång</value>
+  </data>
+  <data name="OperationDataActionType.PreCount">
+    <value>Operationsräkning (före)</value>
+  </data>
+  <data name="OperationDataActionType.PerCount">
+    <value>Operationsräkning (under)</value>
+  </data>
+  <data name="OperationDataActionType.PostCount">
+    <value>Operationsräkning (efter)</value>
+  </data>
+  <data name="OperationDataActionType.MergeRemove">
+    <value>Data flyttad till operation</value>
+  </data>
+  <data name="OperationDataActionType.MergeReceive">
+    <value>Data mottagen från operation</value>
+  </data>
+  <data name="OperationDataActionType.EmergencyCaseCartAdded">
+    <value>Akut operationsvagn knuten</value>
+  </data>
+  <data name="OperationDataActionType.PatVeriOK">
+    <value>Patient verifierad</value>
+  </data>
+  <data name="OperationDataActionType.PatVeriFailed">
+    <value>Patientverifikation misslyckades</value>
+  </data>
+  <data name="OperationDataActionType.PatVeriSkip">
+    <value>Patientverifikation överhoppad</value>
+  </data>
+  <data name="OperationDataActionType.PatVeriPostpone">
+    <value>Patientverifikation uppskjuten</value>
+  </data>
+  <data name="OperationDataActionType.OrderReturnRequested">
+    <value>Returorder begärd</value>
+  </data>
+  <data name="OperationDataActionType.OrderReordered">
+    <value>Ordern beställd igen</value>
+  </data>
+  <data name="OperationDataActionType.OrderCopyCreatedAuto">
+    <value>Orderkopia skapad (auto)</value>
+  </data>
+  <data name="OperationDataActionType.OrderCopyCreatedManual">
+    <value>Orderkopia skapad (manuellt)</value>
+  </data>
+  <data name="OperationTypeType.Elective">
+    <value>Skapad</value>
+  </data>
+  <data name="OperationTypeType.Emergency">
+    <value>Annullerad</value>
+  </data>
+  <data name="OPProcedureTypeMode.Fixed">
+    <value>Fast</value>
+  </data>
+  <data name="OPProcedureTypeMode.AutoOPType">
+    <value>Autogenererat från operationstyp</value>
+  </data>
+  <data name="OPProcedureTypeMode.AutoDisabled">
+    <value></value>
+  </data>
+  <data name="OPStaffMode.Fixed">
+    <value>Fast</value>
+  </data>
+  <data name="OPStaffMode.AutoProcType">
+    <value>Autogenererat från ingreppstyp</value>
+  </data>
+  <data name="OrderActionType.Created">
+    <value>Skapad</value>
+  </data>
+  <data name="OrderActionType.Cancelled">
+    <value>Annullerad</value>
+  </data>
+  <data name="OrderActionType.Sent">
+    <value>Skickat</value>
+  </data>
+  <data name="OrderActionType.Accepted">
+    <value>Godkänd</value>
+  </data>
+  <data name="OrderActionType.PickStart">
+    <value>Plockning startad</value>
+  </data>
+  <data name="OrderActionType.Delivered">
+    <value>Levererad</value>
+  </data>
+  <data name="OrderActionType.Received">
+    <value>Mottagen</value>
+  </data>
+  <data name="OrderActionType.Done">
+    <value>Klar</value>
+  </data>
+  <data name="OrderActionType.PrintPicklist">
+    <value>Pick list printed or viewed</value>
+  </data>
+  <data name="OrderActionType.PrintDevNote">
+    <value>Delivery note printed or viewed</value>
+  </data>
+  <data name="OrderActionType.PrintRetNote">
+    <value>Return note printed or viewed</value>
+  </data>
+  <data name="OrderActionType.PrintPurchaseOrder">
+    <value>Purchase order printed or viewed</value>
+  </data>
+  <data name="OrderActionType.Exported">
+    <value>Exporterad</value>
+  </data>
+  <data name="OrderActionType.Imported">
+    <value>Importerad</value>
+  </data>
+  <data name="OrderActionType.ReqDevTimeChange">
+    <value>Önskad lev. tid ändrad</value>
+  </data>
+  <data name="OrderActionType.PickInfoImport">
+    <value></value>
+  </data>
+  <data name="OrderActionType.BookingModeActive">
+    <value>Bokningsläge aktivt</value>
+  </data>
+  <data name="OrderActionType.BookingModeInActive">
+    <value>Bokningsläge inaktivt</value>
+  </data>
+  <data name="OrderActionType.BookingForced">
+    <value>Forcerad bokning</value>
+  </data>
+  <data name="OrderActionType.BookingUnForced">
+    <value>Ej forcerad bokning</value>
+  </data>
+  <data name="OrderActionType.ReservChangedDueToForce">
+    <value>Reservation ändrad p.g.a. tvång</value>
+  </data>
+  <data name="OrderActionType.AttachToOperation">
+    <value>Kopplad till operation</value>
+  </data>
+  <data name="OrderActionType.DetachFromOperation">
+    <value>Borttagen från operation</value>
+  </data>
+  <data name="OrderActionType.BindItemsToOperation">
+    <value>Artiklar knutna till operation</value>
+  </data>
+  <data name="OrderActionType.BindUnitsToOperation">
+    <value>Enheter som är knutna till operation</value>
+  </data>
+  <data name="OrderActionType.UnbindItemsFromOperation">
+    <value>Artiklar borttagna från operation</value>
+  </data>
+  <data name="OrderActionType.UnbindUnitsFromOperation">
+    <value>Enheter borttagna från operation</value>
+  </data>
+  <data name="OrderActionType.ReturnRequested">
+    <value>Retur begärd</value>
+  </data>
+  <data name="OrderActionType.Reordered">
+    <value>Nybeställd</value>
+  </data>
+  <data name="OrderBookingMode.Undetermined">
+    <value>Obestämd</value>
+  </data>
+  <data name="OrderBookingMode.Disabled">
+    <value>Inaktiv</value>
+  </data>
+  <data name="OrderBookingMode.Inactive">
+    <value>Inaktiv</value>
+  </data>
+  <data name="OrderBookingMode.Active">
+    <value>Aktiv</value>
+  </data>
+  <data name="OrderBookingStatus.Undetermined">
+    <value>Obestämd</value>
+  </data>
+  <data name="OrderBookingStatus.Ok">
+    <value>OK</value>
+  </data>
+  <data name="OrderBookingStatus.Warning">
+    <value>Varning</value>
+  </data>
+  <data name="OrderBookingStatus.Error">
+    <value>Fel</value>
+  </data>
+  <data name="OrderOrgStatus.None">
+    <value>Ingen</value>
+  </data>
+  <data name="OrderOrgStatus.Template">
+    <value>Mall</value>
+  </data>
+  <data name="OrderOrgStatus.Open">
+    <value>Öppen</value>
+  </data>
+  <data name="OrderOrgStatus.Sent">
+    <value>Skickat</value>
+  </data>
+  <data name="OrderOrgStatus.Received">
+    <value>Mottagen</value>
+  </data>
+  <data name="OrderOrgStatus.Done">
+    <value>Klar</value>
+  </data>
+  <data name="OrderOrgStatus.Cancelled">
+    <value>Annullerad</value>
+  </data>
+  <data name="OrderSuppPickPriority.Normal">
+    <value>Normal</value>
+  </data>
+  <data name="OrderSuppPickPriority.PickNow">
+    <value>Nu</value>
+  </data>
+  <data name="OrderSuppPickPriority.PickNowForced">
+    <value>Nu (Forcerad)</value>
+  </data>
+  <data name="OrderSuppPriority.Normal">
+    <value>Normal</value>
+  </data>
+  <data name="OrderSuppPriority.FastTrack">
+    <value>Prioriterad</value>
+  </data>
+  <data name="OrderSuppPriority.Emergency">
+    <value>Akut</value>
+  </data>
+  <data name="OrderSuppStatus.None">
+    <value>Ingen</value>
+  </data>
+  <data name="OrderSuppStatus.Template">
+    <value>Mall</value>
+  </data>
+  <data name="OrderSuppStatus.Order">
+    <value>Ny</value>
+  </data>
+  <data name="OrderSuppStatus.Accepted">
+    <value>Godkänd</value>
+  </data>
+  <data name="OrderSuppStatus.Picked">
+    <value>Plockning startad</value>
+  </data>
+  <data name="OrderSuppStatus.Delivered">
+    <value>Levererad</value>
+  </data>
+  <data name="OrderSuppStatus.Cancelled">
+    <value>Annullerad</value>
+  </data>
+  <data name="OrderType.None">
+    <value>Ingen</value>
+  </data>
+  <data name="OrderType.Order">
+    <value>Order</value>
+  </data>
+  <data name="OrderType.ReturnOrder">
+    <value>Returorder</value>
+  </data>
+  <data name="OrderType.OrderCorr">
+    <value>Inventeringsdiff.</value>
+  </data>
+  <data name="PackingUsedFor.All">
+    <value>Alla instrument</value>
+  </data>
+  <data name="PackingUsedFor.Endoscopes">
+    <value>Endoskop</value>
+  </data>
+  <data name="PatientAgeUsage.NotSet">
+    <value>Som angivet</value>
+  </data>
+  <data name="PatientAgeUsage.Needed">
+    <value>Använd standard om inget annat anges</value>
+  </data>
+  <data name="PatientAgeUsage.Required">
+    <value>Måste anges</value>
+  </data>
+  <data name="PatientGenderUsage.NotSet">
+    <value>Som angivet</value>
+  </data>
+  <data name="PatientGenderUsage.Needed">
+    <value>Använd standard om inget annat anges</value>
+  </data>
+  <data name="PatientGenderUsage.Required">
+    <value>Måste anges</value>
+  </data>
+  <data name="PIPLogEntrySubType.None">
+    <value>Ingen</value>
+  </data>
+  <data name="PIPLogEntrySubType.SystemData">
+    <value>Systemdata</value>
+  </data>
+  <data name="PIPLogEntrySubType.User">
+    <value>Användare</value>
+  </data>
+  <data name="PIPLogEntrySubType.UserProfile">
+    <value>Användarprofil</value>
+  </data>
+  <data name="PIPLogEntrySubType.PatientLookup">
+    <value>Patienter</value>
+  </data>
+  <data name="PIPLogEntrySubType.OperationLookup">
+    <value>Operationsdata</value>
+  </data>
+  <data name="PIPLogEntrySubType.Patients">
+    <value>Patienter</value>
+  </data>
+  <data name="PIPLogEntrySubType.Operations">
+    <value>Operationer</value>
+  </data>
+  <data name="PIPLogEntrySubType.Units">
+    <value>Enheter</value>
+  </data>
+  <data name="PIPLogEntrySubType.Orders">
+    <value>Order</value>
+  </data>
+  <data name="PIPLogEntrySubType.LOTLookup">
+    <value>List of LOT information</value>
+  </data>
+  <data name="PIPLogEntryType.PIPSettings">
+    <value>Ändra sekretessinställningar för patientinformation</value>
+  </data>
+  <data name="PIPLogEntryType.DirectLookup">
+    <value>Direkt låsning</value>
+  </data>
+  <data name="PIPLogEntryType.SuccSearch">
+    <value>Lyckad sökning</value>
+  </data>
+  <data name="PIPLogEntryType.UnSuccSearch">
+    <value>Misslyckad sökning</value>
+  </data>
+  <data name="PIPLogEntryType.PIPLogOpened">
+    <value>Patientinformation tillgångslogg öppnad</value>
+  </data>
+  <data name="PIPLogEntryType.PIPLogSearching">
+    <value>Sök i logg för Patientinformationstillgänglighet</value>
+  </data>
+  <data name="PIPLogEntryType.SchedOperations">
+    <value>Schemalagda operationer</value>
+  </data>
+  <data name="PrDrv.None">
+    <value>Ingen</value>
+  </data>
+  <data name="PrDrv.Windows">
+    <value>Fönster</value>
+  </data>
+  <data name="PrDrv.Epson_Obsolete">
+    <value></value>
+  </data>
+  <data name="PrDrv.Zebra">
+    <value>Zebra</value>
+  </data>
+  <data name="PrefListOrderCreateMode.Immediate">
+    <value>Omedelbar</value>
+  </data>
+  <data name="PrefListOrderCreateMode.TimeBased">
+    <value>Precis i tid</value>
+  </data>
+  <data name="PrefListOrderCreateMode.Manual">
+    <value>Manuell</value>
+  </data>
+  <data name="PrefLnModifier.None">
+    <value>Ingen</value>
+  </data>
+  <data name="PrefLnModifier.Absolute">
+    <value>Totalt</value>
+  </data>
+  <data name="PrefLnModifier.Add">
+    <value>Lägg till</value>
+  </data>
+  <data name="PrefLnModifier.Subtract">
+    <value>Avdrag</value>
+  </data>
+  <data name="PrefLnModifier.Highest">
+    <value>Högsta</value>
+  </data>
+  <data name="PrefLnModifier.Lowest">
+    <value>Lägsta</value>
+  </data>
+  <data name="ProcessStatus.Done">
+    <value>Klar</value>
+  </data>
+  <data name="ProcessStatus.Running">
+    <value>Pågår</value>
+  </data>
+  <data name="ProcessStatus.Initiated">
+    <value>Initierad</value>
+  </data>
+  <data name="ProcessStatus.Ending">
+    <value>Avslutar</value>
+  </data>
+  <data name="ProcessType.None">
+    <value>Ingen</value>
+  </data>
+  <data name="ProcessType.Pack">
+    <value>Packa</value>
+  </data>
+  <data name="ProcessType.SteriPostBatch">
+    <value>Batchreg efter (Autoklav)</value>
+  </data>
+  <data name="ProcessType.Out">
+    <value>Utlämning</value>
+  </data>
+  <data name="ProcessType.Return">
+    <value>Retur</value>
+  </data>
+  <data name="ProcessType.Prepare">
+    <value>Förbered</value>
+  </data>
+  <data name="ProcessType.Wrap">
+    <value>Emballering</value>
+  </data>
+  <data name="ProcessType.LitePro">
+    <value>Lite/Label Etikett</value>
+  </data>
+  <data name="ProcessType.SteriPreBatch">
+    <value>Batchreg före (Autoklav)</value>
+  </data>
+  <data name="ProcessType.Flash">
+    <value>Akut batch</value>
+  </data>
+  <data name="ProcessType.Location">
+    <value>Arbetsområde</value>
+  </data>
+  <data name="ProcessType.WashPreBatch">
+    <value>Batchreg före (Diskmaskin)</value>
+  </data>
+  <data name="ProcessType.WashPostBatch">
+    <value>Batchreg efter (Diskmaskin)</value>
+  </data>
+  <data name="ProcessType.OpenUsed">
+    <value>Öppna/Använd</value>
+  </data>
+  <data name="ProcessType.Operation">
+    <value>Operation</value>
+  </data>
+  <data name="ProcessType.Order">
+    <value>Order</value>
+  </data>
+  <data name="ProcessType.Inventory">
+    <value>Inventering</value>
+  </data>
+  <data name="ProcessType.OrderPick">
+    <value>Orderplockning</value>
+  </data>
+  <data name="ProcessType.Industry">
+    <value>Industri</value>
+  </data>
+  <data name="ProcessType.PreDisPreBatch">
+    <value>Batchreg före (Predesinfektion)</value>
+  </data>
+  <data name="ProcessType.LoadQueue">
+    <value>Lastkö</value>
+  </data>
+  <data name="ProcessType.PurchaseOrder">
+    <value>Beställning</value>
+  </data>
+  <data name="ProcessType.EndoscopePreBatch">
+    <value>Batchreg före (Endoskopdiskmaskin)</value>
+  </data>
+  <data name="ProcessType.WashCheck">
+    <value>Diskkontroll</value>
+  </data>
+  <data name="ProcessType.ExtBatchInfo">
+    <value>Ext. batchinfo</value>
+  </data>
+  <data name="ProcessType.EndoCleanAndTest">
+    <value>Endo Rengöring och test</value>
+  </data>
+  <data name="ProcessType.Transport">
+    <value>Transport</value>
+  </data>
+  <data name="ProcessType.Workflow">
+    <value>Arbetsflöde</value>
+  </data>
+  <data name="ProcessType.Incubator">
+    <value>Inkubation</value>
+  </data>
+  <data name="ProcessType.ReturnWF">
+    <value>Returnera enhet</value>
+  </data>
+  <data name="ProcessType.WashPreBatchWF">
+    <value>Create wash batch</value>
+  </data>
+  <data name="ProcessType.SteriPreBatchWF">
+    <value>Create sterilizer batch</value>
+  </data>
+  <data name="ProcessType.PackWF">
+    <value>Pack units</value>
+  </data>
+  <data name="ProcessType.OutWF">
+    <value>Utlämna till kund</value>
+  </data>
+  <data name="ProcessType.Last">
+    <value></value>
+  </data>
+  <data name="ProdDispatchRestriction.Default">
+    <value>Standard</value>
+  </data>
+  <data name="ProdDispatchRestriction.None">
+    <value>Ingen</value>
+  </data>
+  <data name="ProdDispatchRestriction.CustomerOrSite">
+    <value>Kund eller plats</value>
+  </data>
+  <data name="ProdDispatchRestriction.CustomerElseSite">
+    <value>Kund, annars plats</value>
+  </data>
+  <data name="ProdDispatchRestriction.CustomerOnly">
+    <value>Endast kund</value>
+  </data>
+  <data name="ProdReservationMode.NotRequired">
+    <value>Krävs ej</value>
+  </data>
+  <data name="ProdReservationMode.Enabled">
+    <value>Aktiv</value>
+  </data>
+  <data name="ProductDifficultyMode.UseItemValue">
+    <value>Använd artikelvärde</value>
+  </data>
+  <data name="ProductDifficultyMode.Fixed">
+    <value>Fast</value>
+  </data>
+  <data name="ProductReturnState.Normal">
+    <value>Normal</value>
+  </data>
+  <data name="ProductReturnState.PreProcessed">
+    <value>Förbehandlad</value>
+  </data>
+  <data name="ProductReturnState.PrePacked">
+    <value>Förpackad</value>
+  </data>
+  <data name="ProductStockControlMode.Simple">
+    <value>Normal</value>
+  </data>
+  <data name="ProductStockControlMode.Basic">
+    <value>Avancerad (Full)</value>
+  </data>
+  <data name="ProductStockControlMode.Advanced">
+    <value></value>
+  </data>
+  <data name="ProductStorageType.Factory">
+    <value>Produktionsenhet</value>
+  </data>
+  <data name="ProductStorageType.Transit">
+    <value>Transit</value>
+  </data>
+  <data name="ProductTraceType.Product">
+    <value>Produktnummer</value>
+  </data>
+  <data name="ProductTraceType.ProductSerial">
+    <value>Serienummer</value>
+  </data>
+  <data name="ProductTraceType.Both">
+    <value>Både serie- och produktnummer</value>
+  </data>
+  <data name="ProductType.Trays">
+    <value>Galler/set</value>
+  </data>
+  <data name="ProductType.SinglePacks">
+    <value>Enstycksförpackad</value>
+  </data>
+  <data name="ProductType.Endoscopes">
+    <value>Endoskop</value>
+  </data>
+  <data name="ProgramCheckInitiated.Allowed">
+    <value>Tillåten</value>
+  </data>
+  <data name="ProgramCheckInitiated.Required">
+    <value>Obligatorisk</value>
+  </data>
+  <data name="QuestionInputType.Boolean">
+    <value>Ja/Nej</value>
+  </data>
+  <data name="QuestionInputType.Integer">
+    <value>Nummer</value>
+  </data>
+  <data name="QuestionInputType.Text">
+    <value>Text</value>
+  </data>
+  <data name="QuestionInputType.List">
+    <value>Lista</value>
+  </data>
+  <data name="RepairInvState.None">
+    <value>Ingen</value>
+  </data>
+  <data name="RepairInvState.Block">
+    <value>Blockerad</value>
+  </data>
+  <data name="RepairInvState.Done">
+    <value>Klar</value>
+  </data>
+  <data name="RepairMode.AskUser">
+    <value>Fråga användare</value>
+  </data>
+  <data name="RepairMode.UsingCust">
+    <value>Använder kund</value>
+  </data>
+  <data name="RepairMode.Owner">
+    <value>Ägare</value>
+  </data>
+  <data name="RepairMode.Factory">
+    <value>Produktionsenhet</value>
+  </data>
+  <data name="RepairOrigin.Item">
+    <value>Artikel</value>
+  </data>
+  <data name="RepairOrigin.Product">
+    <value>Produkt</value>
+  </data>
+  <data name="RepairOrigin.Serial">
+    <value>Serienummer</value>
+  </data>
+  <data name="RepairOrigin.Unit">
+    <value>Enhet</value>
+  </data>
+  <data name="RepairOrigin.Tag">
+    <value>Bricka</value>
+  </data>
+  <data name="RepairStatus.Sent">
+    <value>Skickat</value>
+  </data>
+  <data name="RepairStatus.Received">
+    <value>Mottagen</value>
+  </data>
+  <data name="RepairStatus.Done">
+    <value>Klar</value>
+  </data>
+  <data name="RepairStatus.Cancelled">
+    <value>Annullerad</value>
+  </data>
+  <data name="RepairStatus.Requested">
+    <value>Begärd</value>
+  </data>
+  <data name="RpTypCommentOption.NotAllowed">
+    <value>Inte tillåtet</value>
+  </data>
+  <data name="RpTypCommentOption.Allowed">
+    <value>Tillåten</value>
+  </data>
+  <data name="RpTypCommentOption.Required">
+    <value>Obligatorisk</value>
+  </data>
+  <data name="RpTypCustInvMode.NoInvoice">
+    <value>Ingen fakturering</value>
+  </data>
+  <data name="RpTypCustInvMode.Invoice">
+    <value>Faktura</value>
+  </data>
+  <data name="RpTypCustInvMode.NoEdit">
+    <value>Fakturera, ingen redigering</value>
+  </data>
+  <data name="RpTypCustInvMode.Hidden">
+    <value>Fakturera, ingen visning</value>
+  </data>
+  <data name="RpTypFacInvMode.NoInvoice">
+    <value>Ingen fakturering</value>
+  </data>
+  <data name="RpTypFacInvMode.Invoice">
+    <value>Faktura</value>
+  </data>
+  <data name="RpTypFacInvMode.NoEdit">
+    <value>Fakturera, ingen redigering</value>
+  </data>
+  <data name="RpTypFacInvMode.Hidden">
+    <value>Fakturera, ingen visning</value>
+  </data>
+  <data name="RpTypSuppMode.AllowChange">
+    <value>Tillåt ändringar</value>
+  </data>
+  <data name="RpTypSuppMode.Fixed">
+    <value>Fast</value>
+  </data>
+  <data name="RpTypType.Standard">
+    <value>Standard</value>
+  </data>
+  <data name="RpTypType.Quick">
+    <value>Enkel reparation</value>
+  </data>
+  <data name="RpTypType.Discard">
+    <value>Kassera</value>
+  </data>
+  <data name="ScanUIStartMode.Default">
+    <value>Standard</value>
+  </data>
+  <data name="ScanUIStartMode.Layers">
+    <value>Lagerläget</value>
+  </data>
+  <data name="ScanUIStartMode.Grid">
+    <value>Tabell/Rutmetod</value>
+  </data>
+  <data name="SexType.None">
+    <value>Okänd</value>
+  </data>
+  <data name="SexType.Male">
+    <value>Man</value>
+  </data>
+  <data name="SexType.Female">
+    <value>Kvinna</value>
+  </data>
+  <data name="SexType.Other">
+    <value>Övrigt</value>
+  </data>
+  <data name="StdCommentFreeTextOption.NotAllowed">
+    <value>Inte tillåtet</value>
+  </data>
+  <data name="StdCommentFreeTextOption.Allowed">
+    <value>Tillåten</value>
+  </data>
+  <data name="StdCommentFreeTextOption.Required">
+    <value>Obligatorisk</value>
+  </data>
+  <data name="StockBackOrderMode.Never">
+    <value>Aldrig</value>
+  </data>
+  <data name="StockBackOrderMode.Always">
+    <value>Alltid</value>
+  </data>
+  <data name="StockBackOrderMode.Ask">
+    <value>Fråga</value>
+  </data>
+  <data name="StockBackOrderMode.WhenSet">
+    <value>Vid indikering (Exakt)</value>
+  </data>
+  <data name="StockBackOrderMode.WhenSetAuto">
+    <value>Vid indikering (Alla)</value>
+  </data>
+  <data name="StockOrderInMode.Auto">
+    <value>Automatisk komplettering</value>
+  </data>
+  <data name="StockOrderInMode.Receive">
+    <value>Automatisk mottagning</value>
+  </data>
+  <data name="StockOrderInMode.Manual">
+    <value>Mottag manuellt</value>
+  </data>
+  <data name="StockPrnMode.Never">
+    <value>Aldrig</value>
+  </data>
+  <data name="StockPrnMode.Always">
+    <value>Alltid</value>
+  </data>
+  <data name="StockPrnMode.Ask">
+    <value>Fråga</value>
+  </data>
+  <data name="TagType.Basket">
+    <value>Korg</value>
+  </data>
+  <data name="TagType.SteriLoad">
+    <value>Last</value>
+  </data>
+  <data name="TagType.PrepTag">
+    <value>Förbered</value>
+  </data>
+  <data name="TagType.Bundle">
+    <value>Buntbricka</value>
+  </data>
+  <data name="TagType.Wash">
+    <value>Diskbricka</value>
+  </data>
+  <data name="TagType.WashLoad">
+    <value>Disklast</value>
+  </data>
+  <data name="TagType.Transport">
+    <value>Transport</value>
+  </data>
+  <data name="TagType.Split">
+    <value>Dela</value>
+  </data>
+  <data name="TagType.CaseCart">
+    <value>Operationsvagn</value>
+  </data>
+  <data name="TagType.TransportBox">
+    <value>Transportbox</value>
+  </data>
+  <data name="TagType.InstrumentContainer">
+    <value>Instrumentetcontainer</value>
+  </data>
+  <data name="TransmitKind.SMS">
+    <value>Kort mall</value>
+  </data>
+  <data name="TransmitKind.Internal">
+    <value>Lång mall</value>
+  </data>
+  <data name="TrigBehaviour.RoundBased">
+    <value>Intervall</value>
+  </data>
+  <data name="TrigBehaviour.Time">
+    <value>Tidsintervall</value>
+  </data>
+  <data name="TrigBehaviour.InitialDaysThenRounds">
+    <value>Tidsintervall därefter intervall</value>
+  </data>
+  <data name="TrigBehaviour.RoundMaxTime">
+    <value>Intervaller eller tidsintervaller</value>
+  </data>
+  <data name="TrigBehaviour.Everytime">
+    <value>Varje gång</value>
+  </data>
+  <data name="TrigExecutionPhase.Before">
+    <value>Före</value>
+  </data>
+  <data name="TrigExecutionPhase.During">
+    <value>Under</value>
+  </data>
+  <data name="TrigExecutionPhase.After">
+    <value>Efter</value>
+  </data>
+  <data name="TrigPostponeAbility.No">
+    <value>Nej</value>
+  </data>
+  <data name="TrigPostponeAbility.YesAllUsers">
+    <value>Ja</value>
+  </data>
+  <data name="TrigPostponeAbility.UserDefined">
+    <value>Användardefinierade</value>
+  </data>
+  <data name="UILocaAvailability.Default">
+    <value>Standard</value>
+  </data>
+  <data name="UILocaAvailability.Visible">
+    <value>Visuell</value>
+  </data>
+  <data name="UILocaAvailability.Advanced">
+    <value>Visuell (avancerad)</value>
+  </data>
+  <data name="UILocaAvailability.Hidden">
+    <value>Dold</value>
+  </data>
+  <data name="WellStatus.Unknown">
+    <value>Okänd</value>
+  </data>
+  <data name="WellStatus.Empty">
+    <value>Tom</value>
+  </data>
+  <data name="WellStatus.Init">
+    <value>Initierar</value>
+  </data>
+  <data name="WellStatus.Processing">
+    <value>Processer</value>
+  </data>
+  <data name="WellStatus.Negative">
+    <value>Negativ</value>
+  </data>
+  <data name="WellStatus.Positive">
+    <value>Positiv</value>
+  </data>
+  <data name="WellStatus.Result">
+    <value>Fel</value>
+  </data>
+  <data name="WellStatus.Error">
+    <value>Varning</value>
+  </data>
+  <data name="WellStatus.Warning">
+    <value></value>
+  </data>
+  <data name="ReservationState.Undetermined">
+    <value>Obestämd</value>
+  </data>
+  <data name="ReservationState.OKOriginal">
+    <value>OK</value>
+  </data>
+  <data name="ReservationState.OKIdentical">
+    <value>OK</value>
+  </data>
+  <data name="ReservationState.OKAlternative">
+    <value>OK</value>
+  </data>
+  <data name="ReservationState.OKIdenticalForAlternative">
+    <value>OK</value>
+  </data>
+  <data name="ReservationState.WarningOriginal">
+    <value>Varning</value>
+  </data>
+  <data name="ReservationState.WarningIdentical">
+    <value>Varning</value>
+  </data>
+  <data name="ReservationState.WarningAlternative">
+    <value>Varning</value>
+  </data>
+  <data name="ReservationState.WarningIdenticalForAlternative">
+    <value>Varning</value>
+  </data>
+  <data name="ReservationState.Error">
+    <value>Fel</value>
+  </data>
+  <data name="TriggerResult.RAccept">
+    <value>Acceptera</value>
+  </data>
+  <data name="TriggerResult.RReject">
+    <value>Avvisa</value>
+  </data>
+  <data name="TriggerResult.ROverride">
+    <value>Åsidosätta</value>
+  </data>
+  <data name="TriggerResult.RPostpone">
+    <value>Skjut upp</value>
+  </data>
+  <data name="TriggerResult.RSilent">
+    <value>Tyst</value>
+  </data>
+  <data name="FacDeductItemsFromStockInOpType.On">
+    <value>På</value>
+  </data>
+  <data name="FacDeductItemsFromStockInOpType.Off">
+    <value>Av</value>
+  </data>
+  <data name="OrderSuppPickMode.Normal">
+    <value>Normal</value>
+  </data>
+  <data name="OrderSuppPickMode.FullAuto">
+    <value>Helt automatiserad</value>
+  </data>
+  <data name="OrderSuppPickMode.EjectOnly">
+    <value>Mata ut från lager</value>
+  </data>
+  <data name="PickJobStatus.Forecast">
+    <value>Prognos</value>
+  </data>
+  <data name="PickJobStatus.Requested">
+    <value>Begärd</value>
+  </data>
+  <data name="PickJobStatus.Attempted">
+    <value>Markerad/försökt</value>
+  </data>
+  <data name="PickJobStatus.Committed">
+    <value>Engagerad</value>
+  </data>
+  <data name="PickJobStatus.Completed">
+    <value>Avslutad</value>
+  </data>
+  <data name="PickJobStatus.Closed">
+    <value>Stängd</value>
+  </data>
+  <data name="PickJobStatus.Cancelled">
+    <value>Annullerad</value>
+  </data>
+  <data name="PickJobActionType.NewForecast">
+    <value>Prognos skapad</value>
+  </data>
+  <data name="PickJobActionType.Requested">
+    <value>Begärd</value>
+  </data>
+  <data name="PickJobActionType.Attempted">
+    <value>Försökt</value>
+  </data>
+  <data name="PickJobActionType.Committed">
+    <value>Engagerad</value>
+  </data>
+  <data name="PickJobActionType.Completed">
+    <value>Avslutad</value>
+  </data>
+  <data name="PickJobActionType.Closed">
+    <value>Stängd</value>
+  </data>
+  <data name="PickJobActionType.Cancelled">
+    <value>Annullerad</value>
+  </data>
+  <data name="ItemSalesRestriction.None">
+    <value>Ingen</value>
+  </data>
+  <data name="ItemSalesRestriction.Blocked">
+    <value>Blockerad</value>
+  </data>
+  <data name="TrigActivity.None">
+    <value>Inget</value>
+  </data>
+  <data name="TrigActivity.Pack">
+    <value>Packa</value>
+  </data>
+  <data name="TrigActivity.Return">
+    <value>Retur</value>
+  </data>
+  <data name="TrigActivity.Wrap">
+    <value>Emballering</value>
+  </data>
+  <data name="TrigActivity.WasherBatchRegistration">
+    <value>Diskbatch registrering</value>
+  </data>
+  <data name="TrigActivity.WasherBatchApproval">
+    <value>Diskbatch godkännande</value>
+  </data>
+  <data name="TrigActivity.SterilizerBatchRegistration">
+    <value>Autoklav batchregistrering</value>
+  </data>
+  <data name="TrigActivity.SterilizerBatchApproval">
+    <value>Autoklav batchgodkännande</value>
+  </data>
+  <data name="TrigActivity.RegisterLocation">
+    <value>Arbetsområde</value>
+  </data>
+  <data name="TrigActivity.OperationRegistration">
+    <value>Operation</value>
+  </data>
+  <data name="TrigActivity.Pick">
+    <value>Plocka</value>
+  </data>
+  <data name="TrigActivity.Dispatch">
+    <value>Utlämning</value>
+  </data>
+  <data name="TrigActivity.UpdateInventory">
+    <value>Inventering</value>
+  </data>
+  <data name="TrigActivity.PredisinfectionBatchRegistration">
+    <value>Fördesinfektion batchregistrering</value>
+  </data>
+  <data name="TrigActivity.EndoscopeWasherBatchRegistration">
+    <value>Endoskop diskbatch registrering</value>
+  </data>
+  <data name="TrigActivity.EndoCleanAndTest">
+    <value>Endo Rengöring och test</value>
+  </data>
+  <data name="TrigActivity.EndoscopeWasherBatchApproval">
+    <value>Endoskop diskbatch godkännande</value>
+  </data>
+  <data name="TrigActivity.StartTransport">
+    <value>Transport</value>
+  </data>
+  <data name="TrigActivity.PatientRegistration">
+    <value>Patientregistrering</value>
+  </data>
+  <data name="ReservationStatus.Active">
+    <value>Aktiv</value>
+  </data>
+  <data name="ReservationStatus.Completed">
+    <value>Avslutad</value>
+  </data>
+  <data name="ReservationStatus.Failed">
+    <value>Misslyckades</value>
+  </data>
+  <data name="ReservationStatus.Cancelled">
+    <value>Annullerad</value>
+  </data>
+  <data name="ProductLoanerType.NonLoaner">
+    <value></value>
+  </data>
+  <data name="ProductLoanerType.GenericLoaner">
+    <value></value>
+  </data>
+  <data name="ProductLoanerType.ExternalLoaner">
+    <value></value>
+  </data>
+  <data name="ProductLoanerType.LoanerTemplate">
+    <value></value>
+  </data>
+  <data name="LoanerSerialNameChangeMode.Always">
+    <value></value>
+  </data>
+  <data name="LoanerSerialNameChangeMode.AtFirst">
+    <value></value>
+  </data>
+  <data name="LoanerSerialNameChangeMode.Never">
+    <value></value>
+  </data>
+  <data name="LoanerAutoCheckOutMode.Off">
+    <value></value>
+  </data>
+  <data name="LoanerAutoCheckOutMode.AfterWash">
+    <value></value>
+  </data>
+  <data name="LoanerAutoCheckOutMode.AfterReturn">
+    <value></value>
+  </data>
+  <data name="UnitStatus.None">
+    <value></value>
+  </data>
+  <data name="UnitStatus.Init">
+    <value>Initierad</value>
+  </data>
+  <data name="UnitStatus.Started">
+    <value>Startad</value>
+  </data>
+  <data name="UnitStatus.Rinsed">
+    <value>Sköljd</value>
+  </data>
+  <data name="UnitStatus.Washed">
+    <value>Diskad</value>
+  </data>
+  <data name="UnitStatus.Prep">
+    <value>Förberedd</value>
+  </data>
+  <data name="UnitStatus.Packed">
+    <value>Packad</value>
+  </data>
+  <data name="UnitStatus.Stock">
+    <value>På lager</value>
+  </data>
+  <data name="UnitStatus.Dispatched">
+    <value>Utlämnad</value>
+  </data>
+  <data name="UnitStatus.Opened">
+    <value>Öppnad</value>
+  </data>
+  <data name="UnitStatus.Used">
+    <value>Använd</value>
+  </data>
+  <data name="UnitStatus.Precleaned">
+    <value>Förtvättad</value>
+  </data>
+  <data name="UnitStatus.Returned">
+    <value>Returnerad</value>
+  </data>
+  <data name="UnitStatus.ErrorReg">
+    <value>Annullerad</value>
+  </data>
+  <data name="UnitStatus.Last">
+    <value></value>
+  </data>
+  <data name="EndoscopeUnitStatus.None">
+    <value></value>
+  </data>
+  <data name="EndoscopeUnitStatus.Init">
+    <value>Initierad</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Started">
+    <value>Startad</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Rinsed">
+    <value>Sköljd</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Washed">
+    <value>Diskad</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Prep">
+    <value>Initierad</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Packed">
+    <value>Diskad</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Stock">
+    <value>Omkörd</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Dispatched">
+    <value>Utlämnad</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Opened">
+    <value>Öppnad</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Used">
+    <value>Använd</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Precleaned">
+    <value>Förtvättad</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Returned">
+    <value>Returnerad</value>
+  </data>
+  <data name="EndoscopeUnitStatus.ErrorReg">
+    <value>Annullerad</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Last">
+    <value></value>
+  </data>
+  <data name="OperationStatus.Planned">
+    <value>Planerad</value>
+  </data>
+  <data name="OperationStatus.Accepted">
+    <value>Godkänd</value>
+  </data>
+  <data name="OperationStatus.Started">
+    <value>Startad</value>
+  </data>
+  <data name="OperationStatus.Done">
+    <value>Klar</value>
+  </data>
+  <data name="OperationStatus.Cancelled">
+    <value>Annullerad</value>
+  </data>
+  <data name="ObjectStatus.Normal">
+    <value>Normal</value>
+  </data>
+  <data name="ObjectStatus.Dying">
+    <value>Kommer att utgå</value>
+  </data>
+  <data name="ObjectStatus.Dead">
+    <value>Utgått</value>
+  </data>
+  <data name="MachineType.FirstMachineType">
+    <value>Autoklav</value>
+  </data>
+  <data name="MachineType.Sterilizer">
+    <value>Autoklav</value>
+  </data>
+  <data name="MachineType.Washer">
+    <value>Diskdesinfektor</value>
+  </data>
+  <data name="MachineType.PreDis">
+    <value>Predesinfektor</value>
+  </data>
+  <data name="MachineType.EndoWasher">
+    <value>Endoskopdiskmaskin</value>
+  </data>
+  <data name="MachineType.Incubator">
+    <value>Inkubator</value>
+  </data>
+  <data name="MachineType.EndoDryer">
+    <value>Endoskop torkskåp</value>
+  </data>
+  <data name="MachineType.LastMachineType">
+    <value>Endoskop torkskåp</value>
+  </data>
+</root>

@@ -1,0 +1,21 @@
+﻿@using TDOC.WebComponents.Slot;
+
+@if (Visible)
+{
+  <td-dx-popup @bind-Title="Title"
+               @bind-Width="Width"
+               @bind-Height="Height"
+               @ondxpopupshown="OnPopupShown"
+               @ondxpopupclosing="OnPopupClosing"
+               @ondxpopupresize="OnPopupResize">
+    <SlotRenderer @ref="@bodySlot" 
+                  Name="@nameof(BodyTemplate)" 
+                  SlotContent="@(() => BodyTemplate)"
+                  CssStyle="@bodyTemplateCssStyle"
+                  CssClass="px-24px pt-24px d-flex flex-column justify-content-between"/>
+    <SlotRenderer @ref="@footerSlot" 
+                  Name="@nameof(FooterTemplate)" 
+                  SlotContent="@(() => FooterTemplate)"
+                  CssClass="@FooterCssClass"/>
+  </td-dx-popup>
+}

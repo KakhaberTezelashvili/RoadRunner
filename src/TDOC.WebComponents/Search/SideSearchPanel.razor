@@ -1,0 +1,157 @@
+﻿@using Newtonsoft.Json.Linq
+@using TDOC.WebComponents.Button
+@using TDOC.WebComponents.Button.Enumerations
+@using TDOC.WebComponents.DataGrid
+@using TDOC.WebComponents.Media
+@using TDOC.WebComponents.Search.Enumerations
+@using TDOC.WebComponents.Shared.Enumerations
+@using TDOC.WebComponents.Tab
+
+@if (userOptions == null)
+    return;
+
+<div id="searchPanel" class="row h-100 @searchPanelCssClass">
+    <div id="@searchPanelExpandedIdentifier" class="col collapse @(userOptions.Expand ? "show" : "") h-100">
+        <div id="searchPanelHeader" class="row p-12px">
+            <div class="col">
+                <div class="row @(ShowMainSearchBox ? "pb-12px" : "pb-4px") align-items-center">
+                    <div class="font-size-@(SearchPanelTitleFontSize) font-weight-bold @(Whereabouts == PanelWhereabouts.Left ? "" : "d-none")">
+                        @SearchPanelTitle
+                    </div>
+                    <div class="@(Whereabouts == PanelWhereabouts.Left ? "col d-flex justify-content-end" : "")">
+                        <CollapseExpandButton Expanded="userOptions.Expand"
+                                              IdentifierToCollapse="@searchPanelExpandedIdentifier"
+                                              OnClick="async () => await CollapseExpandSearchPanelAsync()">
+                            <div class="p-3px">
+                                <img src="@($"{ContentUrls.ResourceImg}arrows/{(Whereabouts == PanelWhereabouts.Left ? "arrowLeftBlue.svg" : "arrowRightBlue.svg")}")" class="no-border" />
+                            </div>
+                        </CollapseExpandButton>
+                    </div>
+                    <div class="font-size-@(SearchPanelTitleFontSize) font-weight-bold pl-12px @(Whereabouts == PanelWhereabouts.Left ? "d-none" : "")">
+                        @SearchPanelTitle
+                    </div>
+                </div>
+                @if (ShowMainSearchBox)
+                {
+                    <SearchBoxPanel Identifier="SideSearchPanelInput"
+                            @bind-Text="@searchText"
+                            Enabled="Enabled"
+                            NullText="@SearchPanelNullText"
+                            ShowClearButton="true"
+                            SearchRequested="async (text, enterPressed) => await ExecuteSearchAsync(text, enterPressed)" />
+                    <div class="row d-flex justify-content-end @(Enabled ? "" : "content-disabled")">
+                        @searchCount&nbsp;<span>@SearchPanelTotalCountText</span>
+                    </div>
+                }
+            </div>
+        </div>
+        <!-- Component in which loader will be initiated -->
+        <div class="row search-panel-tabs @(Enabled ? "" : "content-disabled")">
+            <div class="col">
+                @if (GridDetailsList != null && GridDetailsList.Any())
+                {
+                    if (GridDetailsList.Count > 1)
+                    {
+                        <TdTabs ActiveTabIndex="userOptions.ActiveTabIndex" ActiveTabIndexChanged="TabChanged" Enabled="Enabled">
+                            @for (var i = 0; i < GridDetailsList.Count; i++)
+                            {
+                                var index = i;
+                                var gridDetails = GridDetailsList[index];
+                                <TdTabTemplate TabTitle="@gridDetails.Title" TabHeight="@SearchPanelTabsHeight">
+                                    <DisplayTemplate>
+                                        <FlexibleGrid @ref="refSearchGrids[gridDetails.GridIdentifier]"
+                                                        Enabled="Enabled"
+                                                        ShowSearchBox="gridDetails.ShowSearchBox"
+                                                        ShowSearchBoxClearButton="gridDetails.ShowSearchBoxClearButton"
+                                                        SearchBoxPanelNullText="@gridDetails.Title"
+                                                        SearchBoxPanelHeight="gridDetails.SearchBoxPanelHeight"
+                                                        AllowSelectionMode="true"
+                                                        RequestDataAfterRowSelected="ExecuteSearchAfterRowSelect"
+                                                        ShowTitle="false"
+                                                        RequestDataAfterClearSearchText="gridDetails.RequestDataAfterClearSearchText"
+                                                        HighlightAfterRowClicked="gridDetails.HighlightAfterRowClicked"
+                                                        SearchRequested="async (text, enterPressed) => await ExecuteSearchAsync(text, enterPressed)"
+                                                        AutomaticallyRequestData="index == userOptions.ActiveTabIndex && Enabled"
+                                                        AutomaticallyRequestGridStructure="index == userOptions.ActiveTabIndex && Enabled"
+                                                        ScrollableHeight="-BusyContentHeight"
+                                                        GridDetails="gridDetails"
+                                                        GridStructureRequested="GridStructureRequested"
+                                                        DataRequested="RequestSearchDataAsync"
+                                                        LocalizeEnum="LocalizeEnum"
+                                                        SearchText="@searchText">
+                                            <ColumnTemplates>
+                                                @if (@gridDetails.MediaFieldName != "" && MediaDetails != null)
+                                                {
+                                                    <TdDataGridColumnTemplate TItem="object" Field="@gridDetails.MediaFieldName">
+                                                        <DisplayTemplate Context="item">
+                                                            <MediaIconPopover MediaKeyId="MediaDetails.GetMediaKeyId((JObject)item, gridDetails.MediaFieldName)"
+                                                                                ArticleKeyId="MediaDetails.GetMainEntityKeyId((JObject)item)"
+                                                                                Details="MediaDetails" />
+                                                        </DisplayTemplate>
+                                                    </TdDataGridColumnTemplate>
+                                                }
+                                            </ColumnTemplates>
+                                        </FlexibleGrid>
+                                    </DisplayTemplate>
+                                </TdTabTemplate>
+                            }
+                        </TdTabs>
+                    }
+                    else if (GridDetailsList.Count == 1)
+                    {
+                        <FlexibleGrid @ref="refSearchGrids[GridDetailsList[0].GridIdentifier]"
+                                        Enabled="Enabled"
+                                        AllowSelectionMode="true"
+                                        RequestDataAfterRowSelected="ExecuteSearchAfterRowSelect"
+                                        ShowTitle="false"
+                                        ScrollableHeight="-BusyContentHeight"
+                                        GridDetails="GridDetailsList[0]"
+                                        AutomaticallyRequestData="Enabled"
+                                        AutomaticallyRequestGridStructure="Enabled"
+                                        GridStructureRequested="GridStructureRequested"
+                                        DataRequested="RequestSearchDataAsync"
+                                        LocalizeEnum="LocalizeEnum"
+                                        SearchText="@searchText" />
+                    }
+                }
+            </div>
+        </div>
+    </div>
+    @if (!userOptions.Expand)
+    {
+        <div id="searchPanelCollapsed" class="col d-flex justify-content-center align-items-center overflow-hidden">
+            @if (ExpandButtonType == SearchPanelExpandButtonType.Centered)
+            {
+                <CollapseExpandButton Expanded="userOptions.Expand"
+                                      IdentifierToCollapse="@searchPanelExpandedIdentifier"
+                                      OnClick="async () => await CollapseExpandSearchPanelAsync()">
+                    <TdButton Identifier="SideSearchPanelCollapse"
+                              Type="TdButtonType.Secondary"
+                              CssClass="no-border text-nowrap py-12px px-24px"
+                              IconUrl="@($"{ContentUrls.ResourceImg}arrows/arrowDownWhite.svg")"
+                              RotateDegrees="90"
+                              Text="@SearchPanelTitle"
+                              MinWidth="250"
+                              Height="51" />
+                </CollapseExpandButton>
+            }
+            @if (ExpandButtonType == SearchPanelExpandButtonType.Stretched)
+            {
+                <CollapseExpandButton Expanded="userOptions.Expand"
+                                      IdentifierToCollapse="@searchPanelExpandedIdentifier"
+                                      CssClass="col h-100"
+                                      OnClick="async () => await CollapseExpandSearchPanelAsync()">
+                    <div class="pt-16px d-flex justify-content-center">
+                        <img src="@($"{ContentUrls.ResourceImg}arrows/{(Whereabouts == PanelWhereabouts.Left ? "arrowRightBlue.svg" : "arrowLeftBlue.svg")}")" class="no-border" />
+                    </div>
+                    <div id="searchPanelExpandedButtonPanel" class="col d-flex justify-content-center align-items-center h-100 position-absolute">
+                        <TdButton Identifier="SideSearchPanelCollapse"
+                                  TextSize="CollapsedSearchPanelTitleFontSize"
+                                  CssClass="no-border text-nowrap py-12px px-24px"
+                                  Text="@SearchPanelTitle" />
+                    </div>
+                </CollapseExpandButton>
+            }
+        </div>
+    }
+</div>

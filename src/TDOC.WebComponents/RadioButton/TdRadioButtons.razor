@@ -1,0 +1,13 @@
+﻿@using TDOC.WebComponents.LoadingIndicator
+@using TDOC.WebComponents.RadioButton.Models
+
+@if (!DataList.Any())
+{
+    <LoadingDataSkeleton/>
+}
+@foreach(RadioButtonDetails radioButtonDetails in DataList)
+{
+    <div class="row pb-24px">
+        <TdRadioButton Details="radioButtonDetails" ButtonClicked="ChangeSelectedButton"/>
+    </div>
+}

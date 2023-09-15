@@ -1,0 +1,24 @@
+﻿@import "../Scss/iws-variables";
+
+::deep .td-combobox button.btn {
+    color: $color-black;
+    background-color: $color-transparent;
+    border: none;
+}
+
+::deep .td-combobox-input {
+    color: $color-black;
+    border: 1px solid $color-midnight;
+}
+
+::deep .td-combobox-input:disabled {
+    background-color: $color-snow;
+}
+
+::deep .td-combobox-input:read-only {
+    background-color: $color-transparent;
+}
+
+::deep .td-combobox-input:focus {
+    border: 2px solid $color-ocean;
+}

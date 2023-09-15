@@ -1,0 +1,36 @@
+﻿@using TDOC.WebComponents.Button
+@using TDOC.WebComponents.DataGrid
+@using TDOC.WebComponents.Popup
+
+<TdPopup @ref="refSearchPopup"
+         Title="@Title"
+         Visible="visible"
+         Width="popupDimensions.Width"
+         Height="popupDimensions.Height"
+         PopupResizing="PopupResizing">
+    <BodyTemplate>
+        <SearchBoxPanel Identifier="@($"{nameof(SearchPopup)}Input")"
+                        CssClass="font-size-16"
+                        @bind-Text="@searchText"
+                        CaptionText="@SearchPanelTitle"
+                        NullText="@SearchPanelNullText"
+                        ShowClearButton="true"
+                        SearchRequested="async (text, enterPressed) => await ExecuteSearchAsync(text, enterPressed)" />
+        <div class="row pt-12px">
+            <div class="col">
+                <FlexibleGrid @ref="refSearchGrid"
+                                AllowSelectionMode="true"
+                                RequestDataAfterRowSelected="false"
+                                ScrollableHeight="availableGridHeight"
+                                GridDetails="GridDetails"
+                                GridStructureRequested="GetGridStructureAsync"
+                                DataRequested="RequestSearchDataAsync"
+                                LocalizeEnum="LocalizeEnum"
+                                SearchText="@searchText" />
+            </div>
+        </div>
+    </BodyTemplate>
+    <FooterTemplate>
+        <ButtonsPanel Buttons="Buttons" />
+    </FooterTemplate>
+</TdPopup>

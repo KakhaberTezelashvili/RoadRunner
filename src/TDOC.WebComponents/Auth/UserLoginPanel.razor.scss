@@ -1,0 +1,31 @@
+﻿@import "../Scss/iws-variables";
+
+.dropdown-menu {
+    text-align: right;
+    border-radius: 0;
+    padding: 0;
+    transform: translate3d(-28px, 58px, 0px) !important;
+}
+
+.dropdown-menu:hover {
+    border: 0;
+}
+
+.dropdown-menu ::deep a:hover {
+    background-color: $color-midnight-light;
+    color: $color-white;
+}
+
+.dropdown-item {
+    padding: 10px 6px;
+}
+
+.user-profile-picture-container {
+    height: 40px;
+    width: 40px;
+}
+
+.user-profile-picture {
+    max-height: 40px;
+    max-width: 40px;
+}

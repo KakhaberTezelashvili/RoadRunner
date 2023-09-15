@@ -1,0 +1,16 @@
+﻿<div class="bg-white" style="@rotateCssStyle">
+    <DxButton 
+              Id="@($"button{Identifier}")" 
+              CssClass="@($"{extraCssClass} {CssClass}")"
+              Text="@Text" 
+              Enabled="Enabled"
+              TabIndex="@TabIndex"
+              Click="OnClick"
+              style="@($"{extraCssStyle} {CssStyle}")">
+        @if (!string.IsNullOrEmpty(IconUrl))
+        {
+            <img src="@IconUrl" class="@cssIconClass" />
+        }
+        @context
+    </DxButton>
+</div>

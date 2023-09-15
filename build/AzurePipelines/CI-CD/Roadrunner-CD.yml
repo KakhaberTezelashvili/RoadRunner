@@ -1,0 +1,137 @@
+resources:
+  repositories:
+    - repository: RoadrunnerDeployment 
+      name: TDOC/RoadrunnerDeployment
+      type: git
+      ref: feat_helmv2
+    - repository: RoadrunnerTesting
+      name: TDOC/RoadrunnerTesting
+      type: git
+      ref: fix_devops_integration
+  pipelines:
+    - pipeline: CI
+      source: Roadrunner-CI
+      trigger:
+        stages:
+        - triggerCD
+stages:
+####################
+# Azure SQL Deploy #
+####################
+  - stage: RestoreDB
+    jobs:
+    - deployment: AzureSQL
+      displayName: Delete and redeploy RoadrunnerTest DB
+      pool:
+        vmImage: 'windows-latest'
+      environment: 'sql-dhstdocdev-roadrunner-test-sqlserver'
+      strategy:
+        runOnce:
+          deploy:
+            steps:
+            - checkout: RoadrunnerTesting
+            - task: AzureCLI@2
+              displayName: Delete RoadrunnerTest Database
+              inputs:
+                azureSubscription: 'sp-dhs-t-doc-dev-roadrunner-integration'
+                scriptType: 'bash'
+                scriptLocation: 'inlineScript'
+                inlineScript: 'az sql db delete --name RoadrunnerTest --resource-group rg-DHSTDocDev-Roadrunner-Test --server sql-dhstdocdev-roadrunner-test-sqlserver --yes'
+            - task: SqlAzureDacpacDeployment@1
+              displayName: Deploy New RoadrunnerTest Database
+              inputs:
+                azureSubscription: 'sp-dhs-t-doc-dev-roadrunner-integration'
+                AuthenticationType: 'servicePrincipal'
+                ServerName: 'sql-dhstdocdev-roadrunner-test-sqlserver.database.windows.net'
+                DatabaseName: 'RoadrunnerTest'
+                DeploymentAction: 'Import'
+                bacpacFile: '$(System.DefaultWorkingDirectory)/Testing/RoadrunnerTest.bacpac'
+                IpDetectionMethod: 'AutoDetect'
+
+###################################  
+# Helm Deploy to test environment #
+###################################
+  - stage: CD
+    dependsOn: RestoreDB
+    jobs:
+    - deployment: AzureAKS
+      pool:
+        vmImage: ubuntu-latest
+      displayName: 'Deploy Build $(resources.pipeline.CI.runID) to Roadrunner Test environment (AKS)'
+      environment: Roadrunner-Test.roadrunner-app
+      strategy:
+        runOnce:
+          deploy:
+            steps:
+              - checkout: RoadrunnerDeployment
+              - task: HelmDeploy@0
+                displayName: Helmdeploy roadrunner-test
+                inputs:
+                  command: upgrade
+                  chartType: FilePath
+                  chartPath: '$(System.DefaultWorkingDirectory)/helm/roadrunner_aks'
+                  releaseName: 'roadrunner-aks'
+                  overrideValues: client.tag=$(resources.pipeline.CI.runID),productionservice.tag=$(resources.pipeline.CI.runID),search.tag=$(resources.pipeline.CI.runID)
+                  valueFile: '$(System.DefaultWorkingDirectory)/helm/roadrunner_aks/values.dev.yaml'
+#######################
+# API and E2E Testing #
+#######################
+  - stage: Testing  
+    dependsOn: CD
+    jobs:
+    - job:
+      pool:
+        vmImage: windows-latest
+      displayName: Running API and E2E Tests
+      variables:
+        - group: pipeline-secrets
+        - group: release-vars
+      steps:
+        - checkout: RoadrunnerDeployment
+        - checkout: RoadrunnerTesting
+        ##################      
+        # Connect to VPN #
+        ##################       
+        - template: /AzurePipelines/Templates/VPNconnections/roadrunner-test-vpn.yml
+        ###############
+        # NPM Install #
+        ###############
+        - template: /AzurePipelines/Templates/npm-install-steps.yml
+          parameters:
+            listOfPaths:
+            - name: Share
+              dir: /RoadrunnerTesting/Testing/Share
+            - name: Services
+              dir: /RoadrunnerTesting/Testing/Services
+            - name: E2E
+              dir: /RoadrunnerTesting/Testing/e2e
+        ############
+        # NPM test #
+        ############
+        - template: /AzurePipelines/Templates/npm-test-steps.yml
+          parameters:
+            listOfScripts:
+            - name: API-Tests
+              script: test-server
+              dir: /RoadrunnerTesting/Testing/Services
+            - name: E2E-Tests
+              script: test-server
+              dir: /RoadrunnerTesting/Testing/e2e
+#################
+# Tagging image #
+#################
+  - stage: Tagging
+    dependsOn: Testing
+    condition: eq(dependencies.Testing.result,'Succeeded')
+    jobs:
+      - job: Tag_images_demo
+        displayName: Tagging successfull images with demo
+        variables:
+        - group: roadrunner
+        steps:
+          - template: /AzurePipelines/Templates/docker-tag-steps.yml
+            parameters:
+              listOfImages:
+              - name: $(Roadrunner.Client.Image.Name)
+              - name: $(Roadrunner.Server.Image.Name)
+              - name: $(Roadrunner.Search.Image.Name)

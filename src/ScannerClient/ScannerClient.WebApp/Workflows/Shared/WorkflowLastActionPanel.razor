@@ -1,0 +1,16 @@
+﻿@using ScannerClient.WebApp.Workflows.Shared.FastTrack
+
+<div class="row pt-18px">
+  <HighlightContent @ref="refHighlightContent">
+    <div class="row">
+      <div class="pl-24px">
+        <span class="font-size-26">
+          @Text
+        </span>
+      </div>
+      <div class="pl-24px">
+        <FastTrackPanel FastTrackName="@FastTrackText"></FastTrackPanel>
+      </div>
+    </div>
+  </HighlightContent>
+</div>

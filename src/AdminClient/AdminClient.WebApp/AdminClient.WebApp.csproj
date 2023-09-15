@@ -1,0 +1,71 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+
+	<PropertyGroup Label="Globals">
+		<SccProjectName>SAK</SccProjectName>
+		<SccProvider>SAK</SccProvider>
+		<SccAuxPath>SAK</SccAuxPath>
+		<SccLocalPath>SAK</SccLocalPath>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<BlazorWebAssemblyLoadAllGlobalizationData>true</BlazorWebAssemblyLoadAllGlobalizationData>
+		<UserSecretsId>a9c46987-88ce-440e-a8c3-afa8357e0b90</UserSecretsId>
+		<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+		<DockerfileContext>..\..</DockerfileContext>
+		<DockerfileFile>Docker\Dockerfile.Development</DockerfileFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="DevExpress.Blazor" Version="21.2.6" />
+		<PackageReference Include="IdentityModel" Version="6.0.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.3" />
+		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.3" PrivateAssets="all" />
+		<PackageReference Include="Scrutor" Version="4.1.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\Common\TDOC.Common.Client\TDOC.Common.Client.csproj" />
+		<ProjectReference Include="..\..\MasterDataService\MasterDataService.Client\MasterDataService.Client.csproj" />
+		<ProjectReference Include="..\..\MasterDataService\MasterDataService.Shared\MasterDataService.Shared.csproj" />
+		<ProjectReference Include="..\..\SearchService\SearchService.Client\SearchService.Client.csproj" />
+		<ProjectReference Include="..\..\SearchService\SearchService.Shared\SearchService.Shared.csproj" />
+		<ProjectReference Include="..\..\TDOC.Resources\TDOC.Resources.csproj" />
+		<ProjectReference Include="..\..\TDOC.WebComponents\TDOC.WebComponents.csproj" />
+	</ItemGroup>
+
+	<!-- Visual Studio related part. -->
+	<Target Name="InstallWebCompiler" BeforeTargets="PreBuildEvent" Condition="'$(OS)' == 'Windows_NT'">
+		<Exec Command="call $(ProjectDir)..\..\..\build\webcompiler\InstallWebCompiler.bat" />
+	</Target>
+	<Target Name="CompileStaticAssets" AfterTargets="InstallWebCompiler" Condition="'$(OS)' == 'Windows_NT'">
+		<Exec Command="call $(ProjectDir)..\..\..\build\webcompiler\CompileStaticAssets.bat" StandardOutputImportance="high" />
+	</Target>
+	<Target Name="CopyStaticAssets" AfterTargets="CompileStaticAssets" Condition="'$(OS)' == 'Windows_NT'">
+		<Exec Command="call $(ProjectDir)..\..\..\build\webcompiler\MakeGeneratedDirectory.bat" />
+		<!-- Copying generated CSS files to 'wwwroot/css/generated' directory. -->
+		<Exec Command="xcopy /y Scss\*.css wwwroot\css\generated" />
+		<!-- Removing generated CSS files from origins. -->
+		<Exec Command="del Scss\*.css" />
+	</Target>
+
+	<!-- Docker related part. -->
+	<Target Name="InstallWebCompilerDocker" BeforeTargets="PreBuildEvent" Condition="'$(OS)' != 'Windows_NT'">
+		<Exec Command="chmod +rx $(ProjectDir)../../../build/webcompiler/InstallWebCompiler.sh" />
+		<Exec Command="$(ProjectDir)../../../build/webcompiler/InstallWebCompiler.sh" />
+	</Target>
+	<Target Name="CompileStaticAssetsDocker" AfterTargets="InstallWebCompilerDocker" Condition="'$(OS)' != 'Windows_NT'">
+		<Exec Command="chmod +rx $(ProjectDir)../../../build/webcompiler/CompileStaticAssets.sh" />
+		<Exec Command="$(ProjectDir)../../../build/webcompiler/CompileStaticAssets.sh" StandardOutputImportance="high" />
+	</Target>
+	<Target Name="CopyStaticAssetsDocker" AfterTargets="CompileStaticAssetsDocker" Condition="'$(OS)' != 'Windows_NT'">
+		<Exec Command="chmod +rx $(ProjectDir)../../../build/webcompiler/MakeGeneratedDirectory.sh" />
+		<Exec Command="$(ProjectDir)../../../build/webcompiler/MakeGeneratedDirectory.sh" />
+		<!-- Copying generated CSS files to 'wwwroot/css/generated' directory. -->
+		<Exec Command="cp -v Scss/*.css wwwroot/css/generated" />
+		<!-- Removing generated CSS files from origins. -->
+		<Exec Command="rm -f Scss/*.css" />
+	</Target>
+
+</Project>

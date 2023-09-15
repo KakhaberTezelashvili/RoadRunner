@@ -1,0 +1,26 @@
+jobs:
+  - job: Generate_Publish_Coverage_Report
+    displayName: Generate and publish coverage-report
+    steps:
+    - task: DownloadBuildArtifacts@0
+      inputs:
+        buildType: 'current'
+        downloadType: 'single'
+        artifactName: 'CodeCoverageFiles'
+        downloadPath: '$(System.ArtifactsDirectory)'
+
+    - task: DotNetCoreCLI@2
+      displayName: "Install reportgenerator"
+      inputs:
+        command: 'custom'
+        custom: 'tool'
+        arguments: 'install --global dotnet-reportgenerator-globaltool'
+
+    - script: reportgenerator -reports:$(System.ArtifactsDirectory)/CodeCoverageFiles/**/coverage.cobertura.xml -targetdir:$(System.ArtifactsDirectory)/reports -reporttypes:"Cobertura"
+      displayName: 'Generate coverage report'
+
+    - task: PublishCodeCoverageResults@1  
+      displayName: 'Publish code coverage'  
+      inputs:  
+        codeCoverageTool: Cobertura  
+        summaryFileLocation: '$(System.ArtifactsDirectory)/reports/Cobertura.xml'

@@ -1,0 +1,25 @@
+﻿@import "../Scss/iws-variables";
+@import "../Scss/td-variables";
+
+$notify-colors: ( 
+  "information": $color-ocean-pale, 
+  "message": $color-granit, 
+  "positive": $color-grass, 
+  "warning": $color-sun, 
+  "negative": $color-signal-red 
+);
+
+.notification-close-icon {
+    position: relative;
+    right: 0px;
+    top: -1px;
+}
+
+@each $name, $color in $notify-colors {
+  .notification-#{$name} {
+    height: $height-notification;
+    min-width: 280px;
+    max-width: 1080px;
+    background-color: $color;
+  }
+}

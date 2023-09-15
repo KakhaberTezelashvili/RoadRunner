@@ -1,0 +1,20 @@
+﻿@inherits Fluxor.Blazor.Web.Components.FluxorComponent
+
+<div id="@HtmlElementIdentifiers.WorkflowHeader.FirstCharToLowerCase()" class="row w-100 header-block position-fixed align-items-center background-color-snow px-24px">
+    <div class="font-size-30 font-weight-bold font-color-getinge-blue pr-24px">
+        @Title
+    </div>
+    @if (!string.IsNullOrEmpty(Description))
+    {
+        <div class="col font-size-19 font-color-granit pt-12px pr-24px">
+            @Description
+        </div>
+    }
+    @if (!string.IsNullOrEmpty(IconUrl))
+    {
+        <img class="icon-size-48" src="@IconUrl"/>
+    }
+    <div class="worflow-notifications-position position-absolute">
+        <TdSnackbar @ref="refNotifications" Type="notificationType" AfterExpand="NotificationAfterExpand" />
+    </div>
+</div>

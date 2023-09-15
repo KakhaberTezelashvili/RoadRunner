@@ -1,0 +1,51 @@
+@using AdminClient.WebApp.Core.Constants
+
+@inherits Fluxor.Blazor.Web.Components.FluxorComponent
+
+<PageTitle>@_customersLocalizer["customerDetails"]</PageTitle>
+
+<h1>@_customersLocalizer["customerDetails"]</h1>
+
+<div class="row form-group">
+    <div class="font-italic">
+        @_customersLocalizer["totalCountOfCustomers"]:
+    </div>
+    <div class="col pl-12px">
+        <NavLink class="nav-link p-0" href="@AdminUrls.CustomerList">
+            back to list (@_customerState.Value.Customers.Count)
+        </NavLink>
+    </div>
+</div>
+
+<div class="row form-group">
+    <div class="col">
+        <label for="customer" class="font-weight-bold">@_tdTablesLocalizer[$"{nameof(CustomerModel)}.{nameof(CustomerModel.Customer)}"]</label>
+        <div id="customer">
+            @currentCustomer?.Customer
+        </div>
+    </div>
+</div>
+<div class="row form-group">
+    <div class="col">
+        <label for="name" class="font-weight-bold">@_tdTablesLocalizer[$"{nameof(CustomerModel)}.{nameof(CustomerModel.Name)}"]</label>
+        <div id="name">
+            @currentCustomer?.Name
+        </div>
+    </div>
+</div>
+<div class="row form-group">
+    <div class="col">
+        <label for="shortName" class="font-weight-bold">@_tdTablesLocalizer[$"{nameof(CustomerModel)}.{nameof(CustomerModel.ShortName)}"]</label>
+        <div id="shortName">
+            @currentCustomer?.ShortName
+        </div>
+    </div>
+</div>
+<div class="row form-group">
+    <div class="col">
+        <label for="createdDate" class="font-weight-bold">@_customersLocalizer["createdDate"]</label>
+        <div id="createdDate">
+            @currentCustomer?.Created?.ToShortDateString()
+        </div>
+    </div>
+</div>

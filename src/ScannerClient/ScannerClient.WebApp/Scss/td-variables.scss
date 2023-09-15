@@ -1,0 +1,30 @@
+﻿@import "../../../TDOC.Resources/Scss/td-variables";
+
+// WorkflowHeader height
+$height-workflow-header: 78px;
+// WorkflowLastActionPanel height
+$height-workflow-last-action-panel: 87px;
+// OkCancelButtonsPanel height
+$height-ok-cancel-buttons-panel: 64px;
+// PackAdditionalUnits padding top:
+$pack-additional-units-padding-top: 6px;
+
+// Workflow block dimensions
+$workflow-block-size: 240px;
+
+// Grid header height
+$height-grid-header: 34px;
+// Grid title height
+$height-grid-title: 32px;
+
+// Machines & Programs panel on create batch page
+// 24px - "Machines & Programs" padding left
+// 360px - "Machines & Programs" width
+$width-machine-program-panel: 384px;
+
+// Batch handle details panel
+// 24px - "Batch details" padding left
+// 360px - "Registered units" Width
+$width-batch-handle-details-panel: 384px;
+
+$padding-top-24: 24px;

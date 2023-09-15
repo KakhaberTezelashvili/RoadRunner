@@ -1,0 +1,1847 @@
+<?xml version="1.0" encoding="utf-8"?><root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActualProgramCheck.Off">
+    <value>끄기</value>
+  </data>
+  <data name="ActualProgramCheck.WarningPrompt">
+    <value>경고 및 확인</value>
+  </data>
+  <data name="ActualProgramCheck.Error">
+    <value>오류-승인 차단</value>
+  </data>
+  <data name="ApprovalType.No">
+    <value>아니오</value>
+  </data>
+  <data name="ApprovalType.Yes">
+    <value>예</value>
+  </data>
+  <data name="ApprovalType.Visual">
+    <value>비주얼</value>
+  </data>
+  <data name="ApprovalType.Unit">
+    <value>Units</value>
+  </data>
+  <data name="ApprovalType.UnitVisual">
+    <value>단위 표시</value>
+  </data>
+  <data name="BatchUnitStatus.OK">
+    <value>OK</value>
+  </data>
+  <data name="BatchUnitStatus.BatchFailed">
+    <value>실패 한 일괄 처리</value>
+  </data>
+  <data name="BatchUnitStatus.UnitFailed">
+    <value>실패 하는 단위</value>
+  </data>
+  <data name="CountDatStatus.Open">
+    <value>오픈</value>
+  </data>
+  <data name="CountDatStatus.Completed">
+    <value>완료</value>
+  </data>
+  <data name="CountDatStatus.Suspended">
+    <value>Suspended</value>
+  </data>
+  <data name="CountDatUsersUserRole.EnteringData">
+    <value>Entering data</value>
+  </data>
+  <data name="CountDatUsersUserRole.Responsible">
+    <value>Responsible</value>
+  </data>
+  <data name="CustNameDisplay.Name">
+    <value>이름</value>
+  </data>
+  <data name="CustNameDisplay.ShortName">
+    <value>짧은 이름</value>
+  </data>
+  <data name="CustNameDisplay.Number">
+    <value>번호</value>
+  </data>
+  <data name="CustOrderBookingMode.Default">
+    <value>기본</value>
+  </data>
+  <data name="CustOrderBookingMode.Disabled">
+    <value>사용 안 함</value>
+  </data>
+  <data name="CustOrderBookingMode.Manual">
+    <value>수동</value>
+  </data>
+  <data name="CustOrderBookingMode.Automation">
+    <value>자동 번역</value>
+  </data>
+  <data name="CustPreDispatchMode.UseFacSetting">
+    <value>공장 설정 사용</value>
+  </data>
+  <data name="CustPreDispatchMode.Always">
+    <value>항상</value>
+  </data>
+  <data name="CustPreDispatchMode.Never">
+    <value>결코</value>
+  </data>
+  <data name="DecNonDispItemStockOnPack.Off">
+    <value>끄기</value>
+  </data>
+  <data name="DecNonDispItemStockOnPack.Prompt">
+    <value>프롬프트</value>
+  </data>
+  <data name="DecNonDispItemStockOnPack.On">
+    <value>에</value>
+  </data>
+  <data name="DeltaScanMode.Delta">
+    <value>델타</value>
+  </data>
+  <data name="DeltaScanMode.Total">
+    <value>총</value>
+  </data>
+  <data name="DoctorUsage.NotSet">
+    <value>필요 없음</value>
+  </data>
+  <data name="DoctorUsage.Needed">
+    <value>지정 하지 않은 경우 기본 사용</value>
+  </data>
+  <data name="DoctorUsage.Required">
+    <value>지정 해야 합니다.</value>
+  </data>
+  <data name="DryerProcessStatus.Normal">
+    <value>정상</value>
+  </data>
+  <data name="DryerProcessStatus.OK">
+    <value>OK</value>
+  </data>
+  <data name="DryerProcessStatus.Error">
+    <value>오류</value>
+  </data>
+  <data name="FacOrderBookingMode.Disabled">
+    <value>사용 안 함</value>
+  </data>
+  <data name="FacOrderBookingMode.Manual">
+    <value>수동</value>
+  </data>
+  <data name="FacOrderBookingMode.Automation">
+    <value>자동 번역</value>
+  </data>
+  <data name="FactoryDefProdTraceType.ProductSerial">
+    <value>일련 번호</value>
+  </data>
+  <data name="FactoryDefProdTraceType.Product">
+    <value>제품 번호</value>
+  </data>
+  <data name="FactoryRestrictionMode.Default">
+    <value>기본</value>
+  </data>
+  <data name="FactoryRestrictionMode.On">
+    <value>에</value>
+  </data>
+  <data name="FactoryRestrictionMode.Warning">
+    <value>경고</value>
+  </data>
+  <data name="FactoryRestrictionMode.Off">
+    <value>끄기</value>
+  </data>
+  <data name="FastTrackCodeType.General">
+    <value>일반</value>
+  </data>
+  <data name="FastTrackCodeType.AdHoc">
+    <value>임시</value>
+  </data>
+  <data name="FastTrackCodeType.TemplateOnly">
+    <value>그룹을만</value>
+  </data>
+  <data name="FastTrackCreatorType.System">
+    <value>시스템</value>
+  </data>
+  <data name="FastTrackCreatorType.JobServer">
+    <value>작업 서버</value>
+  </data>
+  <data name="FastTrackCreatorType.FacUser">
+    <value>공장 사용자</value>
+  </data>
+  <data name="FastTrackCreatorType.CustUser">
+    <value>고객 사용자</value>
+  </data>
+  <data name="FastTrackDisplayMode.UserSetting">
+    <value>사용자 설정</value>
+  </data>
+  <data name="FastTrackDisplayMode.ForcePrompt">
+    <value>힘 프롬프트</value>
+  </data>
+  <data name="FastTrackDisplayMode.ForceNoPrompt">
+    <value>없음 메시지가</value>
+  </data>
+  <data name="FastTrackDisplayMode.ForceNoPromptOrInfo">
+    <value>Force no prompt or info</value>
+  </data>
+  <data name="FastTrackEndType.Normal">
+    <value>정상</value>
+  </data>
+  <data name="FastTrackEndType.NormalNewUnitHas">
+    <value>일반 (새로운 단위는 동일)</value>
+  </data>
+  <data name="FastTrackEndType.ToRepair">
+    <value>수리 보낸</value>
+  </data>
+  <data name="FastTrackEndType.Expired">
+    <value>만료</value>
+  </data>
+  <data name="FastTrackEndType.Cancelled">
+    <value>취소</value>
+  </data>
+  <data name="FastTrackInvoiceType.None">
+    <value>없음</value>
+  </data>
+  <data name="FastTrackInvoiceType.Factory">
+    <value>공장</value>
+  </data>
+  <data name="FastTrackInvoiceType.Customer">
+    <value>고객</value>
+  </data>
+  <data name="FastTrackStatus.Assigned">
+    <value>할당</value>
+  </data>
+  <data name="FastTrackStatus.Started">
+    <value>시작</value>
+  </data>
+  <data name="FastTrackStatus.Ended">
+    <value>종료</value>
+  </data>
+  <data name="HandlingStepResult.OK">
+    <value>전달</value>
+  </data>
+  <data name="HandlingStepResult.FailedStop">
+    <value>실패</value>
+  </data>
+  <data name="HandlingStepResult.OKCleared">
+    <value>(선택 취소) 전달</value>
+  </data>
+  <data name="HandlingStepResult.FailedStartOver">
+    <value>실패 한 (시작)</value>
+  </data>
+  <data name="IdentArticleLineUsage.Enabled">
+    <value>Use system default</value>
+  </data>
+  <data name="IdentArticleLineUsage.Disabled">
+    <value>예</value>
+  </data>
+  <data name="InActAction.Created">
+    <value>만든</value>
+  </data>
+  <data name="InActAction.InBatch">
+    <value>일괄 처리에서</value>
+  </data>
+  <data name="InActAction.Pending">
+    <value>보류 중</value>
+  </data>
+  <data name="InActAction.InIncubator">
+    <value>인큐베이터에서</value>
+  </data>
+  <data name="InActAction.StepResult">
+    <value>단계 결과</value>
+  </data>
+  <data name="InActAction.BatchUnblocked">
+    <value>일괄 차단</value>
+  </data>
+  <data name="InActAction.DispatchUnblocked">
+    <value>디스패치 차단</value>
+  </data>
+  <data name="InActAction.Approved">
+    <value>승인</value>
+  </data>
+  <data name="InActAction.Disapproved">
+    <value>승인</value>
+  </data>
+  <data name="InActAction.Cancelled">
+    <value>취소</value>
+  </data>
+  <data name="InActAction.InWell">
+    <value>In well</value>
+  </data>
+  <data name="InActAction.OutWell">
+    <value>Out well</value>
+  </data>
+  <data name="InActAction.BatchRemoved">
+    <value>Removed from batch</value>
+  </data>
+  <data name="InActAction.BatchAssigned">
+    <value>Batch assigned</value>
+  </data>
+  <data name="InActResult.Unknown">
+    <value>알 수 없는</value>
+  </data>
+  <data name="InActResult.Approved">
+    <value>승인</value>
+  </data>
+  <data name="InActResult.Disapproved">
+    <value>승인</value>
+  </data>
+  <data name="IncNonDispItemStockOnPack.Off">
+    <value>끄기</value>
+  </data>
+  <data name="IncNonDispItemStockOnPack.Prompt">
+    <value>프롬프트</value>
+  </data>
+  <data name="IncNonDispItemStockOnPack.On">
+    <value>에</value>
+  </data>
+  <data name="IncuBatchLogResult.Pending">
+    <value>보류 중</value>
+  </data>
+  <data name="IncuBatchLogResult.Passed">
+    <value>전달</value>
+  </data>
+  <data name="IncuBatchLogResult.Failed">
+    <value>실패</value>
+  </data>
+  <data name="IncuBatchLogResult.Warning">
+    <value>경고</value>
+  </data>
+  <data name="IncuBatchLogResult.Discontinued">
+    <value>Discontinued</value>
+  </data>
+  <data name="IncuBatchLogResult.Error">
+    <value>오류</value>
+  </data>
+  <data name="IncuBatchLogResult.DataError">
+    <value>Data error</value>
+  </data>
+  <data name="IncuBatchLogStatus.Unknown">
+    <value>Not yet available</value>
+  </data>
+  <data name="IncuBatchLogStatus.Manual">
+    <value>No data logging</value>
+  </data>
+  <data name="IncuBatchLogStatus.Processing">
+    <value>처리</value>
+  </data>
+  <data name="IncuBatchLogStatus.Done">
+    <value>완료</value>
+  </data>
+  <data name="IndicStatus.Created">
+    <value>만든</value>
+  </data>
+  <data name="IndicStatus.InBatch">
+    <value>일괄 처리에서</value>
+  </data>
+  <data name="IndicStatus.Pending">
+    <value>보류 중</value>
+  </data>
+  <data name="IndicStatus.Approved">
+    <value>승인</value>
+  </data>
+  <data name="IndicStatus.Disapproved">
+    <value>승인</value>
+  </data>
+  <data name="IndicStatus.Cancelled">
+    <value>취소</value>
+  </data>
+  <data name="InTypResultType.Immediate">
+    <value>즉각적인</value>
+  </data>
+  <data name="InTypResultType.Delayed">
+    <value>지연</value>
+  </data>
+  <data name="InTypResultType.Combined">
+    <value>Combined</value>
+  </data>
+  <data name="ItemAltPricingMode.None">
+    <value>없음</value>
+  </data>
+  <data name="ItemAltPricingMode.SalesPrice">
+    <value>판매 가격</value>
+  </data>
+  <data name="ItemAltPricingMode.UsagePrice">
+    <value>사용 가격</value>
+  </data>
+  <data name="ItemAltPricingMode.CostPrice">
+    <value>비용 가격</value>
+  </data>
+  <data name="ItemDifficultyMode.Default">
+    <value>기본</value>
+  </data>
+  <data name="ItemDifficultyMode.Fixed">
+    <value>고정</value>
+  </data>
+  <data name="ItemDifficultyMode.Sum">
+    <value>합계</value>
+  </data>
+  <data name="ItemDifficultyMode.Max">
+    <value>최대</value>
+  </data>
+  <data name="ItemDifficultyMode.Count">
+    <value>개수</value>
+  </data>
+  <data name="ItemInstrumentType.Instrument">
+    <value>항목</value>
+  </data>
+  <data name="ItemInstrumentType.Endoscope">
+    <value>내 시경</value>
+  </data>
+  <data name="ItemInstrumentType.ButtonValve">
+    <value>버튼 밸브</value>
+  </data>
+  <data name="ItemPricingMode.SalesPrice">
+    <value>판매 가격</value>
+  </data>
+  <data name="ItemPricingMode.UsagePrice">
+    <value>사용 가격</value>
+  </data>
+  <data name="ItemPricingMode.CostPrice">
+    <value>비용 가격</value>
+  </data>
+  <data name="ItemPricingType.Normal">
+    <value></value>
+  </data>
+  <data name="ItemPricingType.TimeBased">
+    <value></value>
+  </data>
+  <data name="ItemReservationMode.NotRequired">
+    <value>필요 없음</value>
+  </data>
+  <data name="ItemReservationMode.Enabled">
+    <value>사용 가능</value>
+  </data>
+  <data name="ItemTraceType.Item">
+    <value>항목</value>
+  </data>
+  <data name="ItemTraceType.SerialItem">
+    <value>시리얼 넘버</value>
+  </data>
+  <data name="ItemTraceType.LOT">
+    <value>로트 번호</value>
+  </data>
+  <data name="LogEntryType.System">
+    <value>시스템</value>
+  </data>
+  <data name="LogEntryType.Information">
+    <value>정보</value>
+  </data>
+  <data name="LogEntryType.Message">
+    <value>메시지</value>
+  </data>
+  <data name="LogEntryType.Warning">
+    <value>경고</value>
+  </data>
+  <data name="LogEntryType.Error">
+    <value>오류</value>
+  </data>
+  <data name="LogEntryType.Debug">
+    <value>디버그</value>
+  </data>
+  <data name="LogBatchContent.Disabled">
+    <value>사용 안 함</value>
+  </data>
+  <data name="LogBatchContent.Enabled">
+    <value>사용 가능</value>
+  </data>
+  <data name="LogBatchRegMode.Off">
+    <value>끄기</value>
+  </data>
+  <data name="LogBatchRegMode.On">
+    <value>에</value>
+  </data>
+  <data name="MachConsStatus.OnStock">
+    <value>주식에</value>
+  </data>
+  <data name="MachConsStatus.InUse">
+    <value>사용</value>
+  </data>
+  <data name="MachConsStatus.Used">
+    <value>사용</value>
+  </data>
+  <data name="MachConsStatus.Missing">
+    <value>누락</value>
+  </data>
+  <data name="MachLogTypes.TDOC">
+    <value>TDOC 오류</value>
+  </data>
+  <data name="MachLogTypes.MachineError">
+    <value>컴퓨터 오류</value>
+  </data>
+  <data name="MachLogTypes.MachineWarning">
+    <value>시스템 경고</value>
+  </data>
+  <data name="MachTypeRuleIntervalType.Day">
+    <value>모든 x 일</value>
+  </data>
+  <data name="MachTypeRuleIntervalType.Batch">
+    <value>모든 x 배치</value>
+  </data>
+  <data name="MachTypeRuleIntervalType.FirstDailyRunAfter">
+    <value>매일 개봉</value>
+  </data>
+  <data name="MachTypeRuleIntervalType.FirstWeeklyRunAfter">
+    <value>매주 개봉</value>
+  </data>
+  <data name="MachTypeRuleIntervalType.FirstMonthlyRunAfter">
+    <value>월별 개봉</value>
+  </data>
+  <data name="ManualEndoDryingMode.NotAllowed">
+    <value>허용 되지 않습니다.</value>
+  </data>
+  <data name="ManualEndoDryingMode.Allowed">
+    <value>허용</value>
+  </data>
+  <data name="ManualEndoDryingMode.Assumed">
+    <value>가정</value>
+  </data>
+  <data name="McRuleResult.OK">
+    <value>OK</value>
+  </data>
+  <data name="McRuleResult.Prevented">
+    <value>방지</value>
+  </data>
+  <data name="McRuleResult.Forced">
+    <value>강제</value>
+  </data>
+  <data name="McRuleResult.Error">
+    <value>오류</value>
+  </data>
+  <data name="OperationDataActionType.Created">
+    <value>만든</value>
+  </data>
+  <data name="OperationDataActionType.Cancelled">
+    <value>취소</value>
+  </data>
+  <data name="OperationDataActionType.Planned">
+    <value>계획</value>
+  </data>
+  <data name="OperationDataActionType.Accepted">
+    <value>허용</value>
+  </data>
+  <data name="OperationDataActionType.Started">
+    <value>시작</value>
+  </data>
+  <data name="OperationDataActionType.Done">
+    <value>완료</value>
+  </data>
+  <data name="OperationDataActionType.PrefListToOrderAuto">
+    <value>현 목록 생성 순서 (자동)</value>
+  </data>
+  <data name="OperationDataActionType.PrefListToOrderManual">
+    <value>(수동) 생성 하는 현 목록 순서</value>
+  </data>
+  <data name="OperationDataActionType.PrefListOrderUpdated">
+    <value>현 목록 순서 업데이트</value>
+  </data>
+  <data name="OperationDataActionType.OrderCancelled">
+    <value>주문 취소</value>
+  </data>
+  <data name="OperationDataActionType.Exported">
+    <value>수출</value>
+  </data>
+  <data name="OperationDataActionType.Imported">
+    <value>가져온</value>
+  </data>
+  <data name="OperationDataActionType.PickInfoImport">
+    <value>가져온 따기 정보</value>
+  </data>
+  <data name="OperationDataActionType.BookingForced">
+    <value>강제로 예약</value>
+  </data>
+  <data name="OperationDataActionType.BookingUnForced">
+    <value>아쉽게 예약</value>
+  </data>
+  <data name="OperationDataActionType.ReservChangedDueToForce">
+    <value>Reserv입니다. 강제 변경</value>
+  </data>
+  <data name="OperationDataActionType.PreCount">
+    <value>Operation count (pre)</value>
+  </data>
+  <data name="OperationDataActionType.PerCount">
+    <value>Operation count (per)</value>
+  </data>
+  <data name="OperationDataActionType.PostCount">
+    <value>Operation count (post)</value>
+  </data>
+  <data name="OperationDataActionType.MergeRemove">
+    <value>Data moved to operation</value>
+  </data>
+  <data name="OperationDataActionType.MergeReceive">
+    <value>Data received from operation</value>
+  </data>
+  <data name="OperationDataActionType.EmergencyCaseCartAdded">
+    <value>Emergency case cart bound</value>
+  </data>
+  <data name="OperationDataActionType.PatVeriOK">
+    <value>Patient verified</value>
+  </data>
+  <data name="OperationDataActionType.PatVeriFailed">
+    <value>Patient verification failed</value>
+  </data>
+  <data name="OperationDataActionType.PatVeriSkip">
+    <value>Patient verification skipped</value>
+  </data>
+  <data name="OperationDataActionType.PatVeriPostpone">
+    <value>Patient verification postponed</value>
+  </data>
+  <data name="OperationDataActionType.OrderReturnRequested">
+    <value>Order return requested</value>
+  </data>
+  <data name="OperationDataActionType.OrderReordered">
+    <value>Order reordered</value>
+  </data>
+  <data name="OperationDataActionType.OrderCopyCreatedAuto">
+    <value>Order copy created (auto)</value>
+  </data>
+  <data name="OperationDataActionType.OrderCopyCreatedManual">
+    <value>Order copy created (manual)</value>
+  </data>
+  <data name="OperationTypeType.Elective">
+    <value>만든</value>
+  </data>
+  <data name="OperationTypeType.Emergency">
+    <value>취소</value>
+  </data>
+  <data name="OPProcedureTypeMode.Fixed">
+    <value>고정</value>
+  </data>
+  <data name="OPProcedureTypeMode.AutoOPType">
+    <value>작업 유형에서 자동</value>
+  </data>
+  <data name="OPProcedureTypeMode.AutoDisabled">
+    <value></value>
+  </data>
+  <data name="OPStaffMode.Fixed">
+    <value>고정</value>
+  </data>
+  <data name="OPStaffMode.AutoProcType">
+    <value>프로시저 유형에서 자동</value>
+  </data>
+  <data name="OrderActionType.Created">
+    <value>만든</value>
+  </data>
+  <data name="OrderActionType.Cancelled">
+    <value>취소</value>
+  </data>
+  <data name="OrderActionType.Sent">
+    <value>전송</value>
+  </data>
+  <data name="OrderActionType.Accepted">
+    <value>허용</value>
+  </data>
+  <data name="OrderActionType.PickStart">
+    <value>따기 시작</value>
+  </data>
+  <data name="OrderActionType.Delivered">
+    <value>배달</value>
+  </data>
+  <data name="OrderActionType.Received">
+    <value>받은</value>
+  </data>
+  <data name="OrderActionType.Done">
+    <value>완료</value>
+  </data>
+  <data name="OrderActionType.PrintPicklist">
+    <value>Pick list printed or viewed</value>
+  </data>
+  <data name="OrderActionType.PrintDevNote">
+    <value>Delivery note printed or viewed</value>
+  </data>
+  <data name="OrderActionType.PrintRetNote">
+    <value>Return note printed or viewed</value>
+  </data>
+  <data name="OrderActionType.PrintPurchaseOrder">
+    <value>Purchase order printed or viewed</value>
+  </data>
+  <data name="OrderActionType.Exported">
+    <value>수출</value>
+  </data>
+  <data name="OrderActionType.Imported">
+    <value>가져온</value>
+  </data>
+  <data name="OrderActionType.ReqDevTimeChange">
+    <value>요구 배달 시간 변경</value>
+  </data>
+  <data name="OrderActionType.PickInfoImport">
+    <value></value>
+  </data>
+  <data name="OrderActionType.BookingModeActive">
+    <value>예약 모드 활성</value>
+  </data>
+  <data name="OrderActionType.BookingModeInActive">
+    <value>예약 모드 비활성</value>
+  </data>
+  <data name="OrderActionType.BookingForced">
+    <value>강제로 예약</value>
+  </data>
+  <data name="OrderActionType.BookingUnForced">
+    <value>아쉽게 예약</value>
+  </data>
+  <data name="OrderActionType.ReservChangedDueToForce">
+    <value>Reserv입니다. 강제 변경</value>
+  </data>
+  <data name="OrderActionType.AttachToOperation">
+    <value>작업에 첨부</value>
+  </data>
+  <data name="OrderActionType.DetachFromOperation">
+    <value>작업에서 분리</value>
+  </data>
+  <data name="OrderActionType.BindItemsToOperation">
+    <value>작업에 바인딩된 항목</value>
+  </data>
+  <data name="OrderActionType.BindUnitsToOperation">
+    <value>단위 작업에 바인딩된</value>
+  </data>
+  <data name="OrderActionType.UnbindItemsFromOperation">
+    <value>작업에서 언바운드 항목</value>
+  </data>
+  <data name="OrderActionType.UnbindUnitsFromOperation">
+    <value>단위 작업에서 언바운드</value>
+  </data>
+  <data name="OrderActionType.ReturnRequested">
+    <value>Return requested</value>
+  </data>
+  <data name="OrderActionType.Reordered">
+    <value>Reordered</value>
+  </data>
+  <data name="OrderBookingMode.Undetermined">
+    <value>알 수 없는</value>
+  </data>
+  <data name="OrderBookingMode.Disabled">
+    <value>사용 안 함</value>
+  </data>
+  <data name="OrderBookingMode.Inactive">
+    <value>비활성</value>
+  </data>
+  <data name="OrderBookingMode.Active">
+    <value>활성</value>
+  </data>
+  <data name="OrderBookingStatus.Undetermined">
+    <value>알 수 없는</value>
+  </data>
+  <data name="OrderBookingStatus.Ok">
+    <value>OK</value>
+  </data>
+  <data name="OrderBookingStatus.Warning">
+    <value>경고</value>
+  </data>
+  <data name="OrderBookingStatus.Error">
+    <value>오류</value>
+  </data>
+  <data name="OrderOrgStatus.None">
+    <value>없음</value>
+  </data>
+  <data name="OrderOrgStatus.Template">
+    <value>서식 파일</value>
+  </data>
+  <data name="OrderOrgStatus.Open">
+    <value>오픈</value>
+  </data>
+  <data name="OrderOrgStatus.Sent">
+    <value>전송</value>
+  </data>
+  <data name="OrderOrgStatus.Received">
+    <value>받은</value>
+  </data>
+  <data name="OrderOrgStatus.Done">
+    <value>완료</value>
+  </data>
+  <data name="OrderOrgStatus.Cancelled">
+    <value>취소</value>
+  </data>
+  <data name="OrderSuppPickPriority.Normal">
+    <value>정상</value>
+  </data>
+  <data name="OrderSuppPickPriority.PickNow">
+    <value>지금</value>
+  </data>
+  <data name="OrderSuppPickPriority.PickNowForced">
+    <value>Now (forced)</value>
+  </data>
+  <data name="OrderSuppPriority.Normal">
+    <value>정상</value>
+  </data>
+  <data name="OrderSuppPriority.FastTrack">
+    <value>Fast tracked</value>
+  </data>
+  <data name="OrderSuppPriority.Emergency">
+    <value>Acute</value>
+  </data>
+  <data name="OrderSuppStatus.None">
+    <value>없음</value>
+  </data>
+  <data name="OrderSuppStatus.Template">
+    <value>서식 파일</value>
+  </data>
+  <data name="OrderSuppStatus.Order">
+    <value>새로운 내용</value>
+  </data>
+  <data name="OrderSuppStatus.Accepted">
+    <value>허용</value>
+  </data>
+  <data name="OrderSuppStatus.Picked">
+    <value>따기 시작</value>
+  </data>
+  <data name="OrderSuppStatus.Delivered">
+    <value>배달</value>
+  </data>
+  <data name="OrderSuppStatus.Cancelled">
+    <value>취소</value>
+  </data>
+  <data name="OrderType.None">
+    <value>없음</value>
+  </data>
+  <data name="OrderType.Order">
+    <value>순서</value>
+  </data>
+  <data name="OrderType.ReturnOrder">
+    <value>순서를 반환</value>
+  </data>
+  <data name="OrderType.OrderCorr">
+    <value>재고 corr.</value>
+  </data>
+  <data name="PackingUsedFor.All">
+    <value>모든 악기</value>
+  </data>
+  <data name="PackingUsedFor.Endoscopes">
+    <value>내시경</value>
+  </data>
+  <data name="PatientAgeUsage.NotSet">
+    <value>지정 된 대로</value>
+  </data>
+  <data name="PatientAgeUsage.Needed">
+    <value>지정 하지 않은 경우 기본 사용</value>
+  </data>
+  <data name="PatientAgeUsage.Required">
+    <value>지정 해야 합니다.</value>
+  </data>
+  <data name="PatientGenderUsage.NotSet">
+    <value>지정 된 대로</value>
+  </data>
+  <data name="PatientGenderUsage.Needed">
+    <value>지정 하지 않은 경우 기본 사용</value>
+  </data>
+  <data name="PatientGenderUsage.Required">
+    <value>지정 해야 합니다.</value>
+  </data>
+  <data name="PIPLogEntrySubType.None">
+    <value>없음</value>
+  </data>
+  <data name="PIPLogEntrySubType.SystemData">
+    <value>시스템 데이터</value>
+  </data>
+  <data name="PIPLogEntrySubType.User">
+    <value>사용자</value>
+  </data>
+  <data name="PIPLogEntrySubType.UserProfile">
+    <value>사용자 프로필</value>
+  </data>
+  <data name="PIPLogEntrySubType.PatientLookup">
+    <value>환자</value>
+  </data>
+  <data name="PIPLogEntrySubType.OperationLookup">
+    <value>수술 정보</value>
+  </data>
+  <data name="PIPLogEntrySubType.Patients">
+    <value>환자</value>
+  </data>
+  <data name="PIPLogEntrySubType.Operations">
+    <value>작업</value>
+  </data>
+  <data name="PIPLogEntrySubType.Units">
+    <value>Units</value>
+  </data>
+  <data name="PIPLogEntrySubType.Orders">
+    <value>Orders</value>
+  </data>
+  <data name="PIPLogEntrySubType.LOTLookup">
+    <value>List of LOT information</value>
+  </data>
+  <data name="PIPLogEntryType.PIPSettings">
+    <value>Patient information privacy settings change</value>
+  </data>
+  <data name="PIPLogEntryType.DirectLookup">
+    <value>Direct lookup</value>
+  </data>
+  <data name="PIPLogEntryType.SuccSearch">
+    <value>Successful search</value>
+  </data>
+  <data name="PIPLogEntryType.UnSuccSearch">
+    <value>Unsuccessful search</value>
+  </data>
+  <data name="PIPLogEntryType.PIPLogOpened">
+    <value>Patient information access log opened</value>
+  </data>
+  <data name="PIPLogEntryType.PIPLogSearching">
+    <value>Search in Patient information access log</value>
+  </data>
+  <data name="PIPLogEntryType.SchedOperations">
+    <value>Scheduled operations</value>
+  </data>
+  <data name="PrDrv.None">
+    <value>없음</value>
+  </data>
+  <data name="PrDrv.Windows">
+    <value>윈도우</value>
+  </data>
+  <data name="PrDrv.Epson_Obsolete">
+    <value></value>
+  </data>
+  <data name="PrDrv.Zebra">
+    <value>얼룩말</value>
+  </data>
+  <data name="PrefListOrderCreateMode.Immediate">
+    <value>즉각적인</value>
+  </data>
+  <data name="PrefListOrderCreateMode.TimeBased">
+    <value>시간에 맞춰</value>
+  </data>
+  <data name="PrefListOrderCreateMode.Manual">
+    <value>수동</value>
+  </data>
+  <data name="PrefLnModifier.None">
+    <value>없음</value>
+  </data>
+  <data name="PrefLnModifier.Absolute">
+    <value>절대</value>
+  </data>
+  <data name="PrefLnModifier.Add">
+    <value>추가</value>
+  </data>
+  <data name="PrefLnModifier.Subtract">
+    <value>빼기</value>
+  </data>
+  <data name="PrefLnModifier.Highest">
+    <value>최고</value>
+  </data>
+  <data name="PrefLnModifier.Lowest">
+    <value>최저</value>
+  </data>
+  <data name="ProcessStatus.Done">
+    <value>완료</value>
+  </data>
+  <data name="ProcessStatus.Running">
+    <value>실행</value>
+  </data>
+  <data name="ProcessStatus.Initiated">
+    <value>시작</value>
+  </data>
+  <data name="ProcessStatus.Ending">
+    <value>결말</value>
+  </data>
+  <data name="ProcessType.None">
+    <value>없음</value>
+  </data>
+  <data name="ProcessType.Pack">
+    <value>팩</value>
+  </data>
+  <data name="ProcessType.SteriPostBatch">
+    <value>게시물 일괄 처리 (소독 기)</value>
+  </data>
+  <data name="ProcessType.Out">
+    <value>전달</value>
+  </data>
+  <data name="ProcessType.Return">
+    <value>반환</value>
+  </data>
+  <data name="ProcessType.Prepare">
+    <value>준비</value>
+  </data>
+  <data name="ProcessType.Wrap">
+    <value>랩</value>
+  </data>
+  <data name="ProcessType.LitePro">
+    <value>라이트 레이블</value>
+  </data>
+  <data name="ProcessType.SteriPreBatch">
+    <value>사전 배치 (살 균 기)</value>
+  </data>
+  <data name="ProcessType.Flash">
+    <value>플래시 배치</value>
+  </data>
+  <data name="ProcessType.Location">
+    <value>위치</value>
+  </data>
+  <data name="ProcessType.WashPreBatch">
+    <value>사전 배치 (세탁기)</value>
+  </data>
+  <data name="ProcessType.WashPostBatch">
+    <value>게시물 일괄 (세탁기)</value>
+  </data>
+  <data name="ProcessType.OpenUsed">
+    <value>오픈/사용</value>
+  </data>
+  <data name="ProcessType.Operation">
+    <value>수술</value>
+  </data>
+  <data name="ProcessType.Order">
+    <value>순서</value>
+  </data>
+  <data name="ProcessType.Inventory">
+    <value>재고</value>
+  </data>
+  <data name="ProcessType.OrderPick">
+    <value>순서 따기</value>
+  </data>
+  <data name="ProcessType.Industry">
+    <value>산업</value>
+  </data>
+  <data name="ProcessType.PreDisPreBatch">
+    <value>사전 배치 (Predisinfection)</value>
+  </data>
+  <data name="ProcessType.LoadQueue">
+    <value>로드 큐</value>
+  </data>
+  <data name="ProcessType.PurchaseOrder">
+    <value>구매 주문</value>
+  </data>
+  <data name="ProcessType.EndoscopePreBatch">
+    <value>사전 배치 (내 시경 세탁기)</value>
+  </data>
+  <data name="ProcessType.WashCheck">
+    <value>워시 체크</value>
+  </data>
+  <data name="ProcessType.ExtBatchInfo">
+    <value>외부 일괄 처리 정보</value>
+  </data>
+  <data name="ProcessType.EndoCleanAndTest">
+    <value>엔도 청소 하 고 시험</value>
+  </data>
+  <data name="ProcessType.Transport">
+    <value>전송</value>
+  </data>
+  <data name="ProcessType.Workflow">
+    <value>Workflow</value>
+  </data>
+  <data name="ProcessType.Incubator">
+    <value>Incubation</value>
+  </data>
+  <data name="ProcessType.ReturnWF">
+    <value>단위를 반환</value>
+  </data>
+  <data name="ProcessType.WashPreBatchWF">
+    <value>Create wash batch</value>
+  </data>
+  <data name="ProcessType.SteriPreBatchWF">
+    <value>Create sterilizer batch</value>
+  </data>
+  <data name="ProcessType.PackWF">
+    <value>Pack units</value>
+  </data>
+  <data name="ProcessType.OutWF">
+    <value>고객에 게 발송</value>
+  </data>
+  <data name="ProcessType.Last">
+    <value></value>
+  </data>
+  <data name="ProdDispatchRestriction.Default">
+    <value>기본</value>
+  </data>
+  <data name="ProdDispatchRestriction.None">
+    <value>없음</value>
+  </data>
+  <data name="ProdDispatchRestriction.CustomerOrSite">
+    <value>고객 또는 사이트</value>
+  </data>
+  <data name="ProdDispatchRestriction.CustomerElseSite">
+    <value>고객 다른 사이트</value>
+  </data>
+  <data name="ProdDispatchRestriction.CustomerOnly">
+    <value>고객만</value>
+  </data>
+  <data name="ProdReservationMode.NotRequired">
+    <value>필요 없음</value>
+  </data>
+  <data name="ProdReservationMode.Enabled">
+    <value>사용 가능</value>
+  </data>
+  <data name="ProductDifficultyMode.UseItemValue">
+    <value>Use item value</value>
+  </data>
+  <data name="ProductDifficultyMode.Fixed">
+    <value>고정</value>
+  </data>
+  <data name="ProductReturnState.Normal">
+    <value>정상</value>
+  </data>
+  <data name="ProductReturnState.PreProcessed">
+    <value>사전 처리</value>
+  </data>
+  <data name="ProductReturnState.PrePacked">
+    <value>미리 포장</value>
+  </data>
+  <data name="ProductStockControlMode.Simple">
+    <value>정상</value>
+  </data>
+  <data name="ProductStockControlMode.Basic">
+    <value>(전체) 고급</value>
+  </data>
+  <data name="ProductStockControlMode.Advanced">
+    <value></value>
+  </data>
+  <data name="ProductStorageType.Factory">
+    <value>공장</value>
+  </data>
+  <data name="ProductStorageType.Transit">
+    <value>Transit</value>
+  </data>
+  <data name="ProductTraceType.Product">
+    <value>제품 번호</value>
+  </data>
+  <data name="ProductTraceType.ProductSerial">
+    <value>일련 번호</value>
+  </data>
+  <data name="ProductTraceType.Both">
+    <value>직렬 및 제품 번호</value>
+  </data>
+  <data name="ProductType.Trays">
+    <value>트레이</value>
+  </data>
+  <data name="ProductType.SinglePacks">
+    <value>단일 팩</value>
+  </data>
+  <data name="ProductType.Endoscopes">
+    <value>내 시경</value>
+  </data>
+  <data name="ProgramCheckInitiated.Allowed">
+    <value>허용</value>
+  </data>
+  <data name="ProgramCheckInitiated.Required">
+    <value>필수</value>
+  </data>
+  <data name="QuestionInputType.Boolean">
+    <value>예/아니요</value>
+  </data>
+  <data name="QuestionInputType.Integer">
+    <value>번호</value>
+  </data>
+  <data name="QuestionInputType.Text">
+    <value>텍스트</value>
+  </data>
+  <data name="QuestionInputType.List">
+    <value>목록</value>
+  </data>
+  <data name="RepairInvState.None">
+    <value>없음</value>
+  </data>
+  <data name="RepairInvState.Block">
+    <value>차단</value>
+  </data>
+  <data name="RepairInvState.Done">
+    <value>완료</value>
+  </data>
+  <data name="RepairMode.AskUser">
+    <value>사용자에 게</value>
+  </data>
+  <data name="RepairMode.UsingCust">
+    <value>고객을 사용 하 여</value>
+  </data>
+  <data name="RepairMode.Owner">
+    <value>소유자</value>
+  </data>
+  <data name="RepairMode.Factory">
+    <value>공장</value>
+  </data>
+  <data name="RepairOrigin.Item">
+    <value>항목</value>
+  </data>
+  <data name="RepairOrigin.Product">
+    <value>제품</value>
+  </data>
+  <data name="RepairOrigin.Serial">
+    <value>직렬</value>
+  </data>
+  <data name="RepairOrigin.Unit">
+    <value>단위</value>
+  </data>
+  <data name="RepairOrigin.Tag">
+    <value>태그</value>
+  </data>
+  <data name="RepairStatus.Sent">
+    <value>전송</value>
+  </data>
+  <data name="RepairStatus.Received">
+    <value>받은</value>
+  </data>
+  <data name="RepairStatus.Done">
+    <value>완료</value>
+  </data>
+  <data name="RepairStatus.Cancelled">
+    <value>취소</value>
+  </data>
+  <data name="RepairStatus.Requested">
+    <value>Requested</value>
+  </data>
+  <data name="RpTypCommentOption.NotAllowed">
+    <value>허용 되지 않습니다.</value>
+  </data>
+  <data name="RpTypCommentOption.Allowed">
+    <value>허용</value>
+  </data>
+  <data name="RpTypCommentOption.Required">
+    <value>필수</value>
+  </data>
+  <data name="RpTypCustInvMode.NoInvoice">
+    <value>아니 청구서</value>
+  </data>
+  <data name="RpTypCustInvMode.Invoice">
+    <value>송장</value>
+  </data>
+  <data name="RpTypCustInvMode.NoEdit">
+    <value>송장, 아니 편집</value>
+  </data>
+  <data name="RpTypCustInvMode.Hidden">
+    <value>송장, 디스플레이</value>
+  </data>
+  <data name="RpTypFacInvMode.NoInvoice">
+    <value>아니 청구서</value>
+  </data>
+  <data name="RpTypFacInvMode.Invoice">
+    <value>송장</value>
+  </data>
+  <data name="RpTypFacInvMode.NoEdit">
+    <value>송장, 아니 편집</value>
+  </data>
+  <data name="RpTypFacInvMode.Hidden">
+    <value>송장, 디스플레이</value>
+  </data>
+  <data name="RpTypSuppMode.AllowChange">
+    <value>변경 허용</value>
+  </data>
+  <data name="RpTypSuppMode.Fixed">
+    <value>고정</value>
+  </data>
+  <data name="RpTypType.Standard">
+    <value>표준</value>
+  </data>
+  <data name="RpTypType.Quick">
+    <value>빠른 복구</value>
+  </data>
+  <data name="RpTypType.Discard">
+    <value>Discard</value>
+  </data>
+  <data name="ScanUIStartMode.Default">
+    <value>기본</value>
+  </data>
+  <data name="ScanUIStartMode.Layers">
+    <value>Layer mode</value>
+  </data>
+  <data name="ScanUIStartMode.Grid">
+    <value>테이블/그리드 모드</value>
+  </data>
+  <data name="SexType.None">
+    <value>알 수 없는</value>
+  </data>
+  <data name="SexType.Male">
+    <value>남성</value>
+  </data>
+  <data name="SexType.Female">
+    <value>여성</value>
+  </data>
+  <data name="SexType.Other">
+    <value>다른</value>
+  </data>
+  <data name="StdCommentFreeTextOption.NotAllowed">
+    <value>허용 되지 않습니다.</value>
+  </data>
+  <data name="StdCommentFreeTextOption.Allowed">
+    <value>허용</value>
+  </data>
+  <data name="StdCommentFreeTextOption.Required">
+    <value>필수</value>
+  </data>
+  <data name="StockBackOrderMode.Never">
+    <value>결코</value>
+  </data>
+  <data name="StockBackOrderMode.Always">
+    <value>항상</value>
+  </data>
+  <data name="StockBackOrderMode.Ask">
+    <value>요청</value>
+  </data>
+  <data name="StockBackOrderMode.WhenSet">
+    <value>때 (Exact)을 표시</value>
+  </data>
+  <data name="StockBackOrderMode.WhenSetAuto">
+    <value>(모두)을 표시 하는 경우</value>
+  </data>
+  <data name="StockOrderInMode.Auto">
+    <value>자동 완성</value>
+  </data>
+  <data name="StockOrderInMode.Receive">
+    <value>자동 수신</value>
+  </data>
+  <data name="StockOrderInMode.Manual">
+    <value>수동 수신</value>
+  </data>
+  <data name="StockPrnMode.Never">
+    <value>결코</value>
+  </data>
+  <data name="StockPrnMode.Always">
+    <value>항상</value>
+  </data>
+  <data name="StockPrnMode.Ask">
+    <value>요청</value>
+  </data>
+  <data name="TagType.Basket">
+    <value>바구니</value>
+  </data>
+  <data name="TagType.SteriLoad">
+    <value>부하</value>
+  </data>
+  <data name="TagType.PrepTag">
+    <value>준비</value>
+  </data>
+  <data name="TagType.Bundle">
+    <value>번들</value>
+  </data>
+  <data name="TagType.Wash">
+    <value>워시</value>
+  </data>
+  <data name="TagType.WashLoad">
+    <value>워시 부하</value>
+  </data>
+  <data name="TagType.Transport">
+    <value>전송</value>
+  </data>
+  <data name="TagType.Split">
+    <value>분할</value>
+  </data>
+  <data name="TagType.CaseCart">
+    <value>케이스 카트</value>
+  </data>
+  <data name="TagType.TransportBox">
+    <value>Transport box</value>
+  </data>
+  <data name="TagType.InstrumentContainer">
+    <value>Instrument container</value>
+  </data>
+  <data name="TransmitKind.SMS">
+    <value>짧은 서식 파일</value>
+  </data>
+  <data name="TransmitKind.Internal">
+    <value>긴 서식 파일</value>
+  </data>
+  <data name="TrigBehaviour.RoundBased">
+    <value>Rounds</value>
+  </data>
+  <data name="TrigBehaviour.Time">
+    <value>Intervals</value>
+  </data>
+  <data name="TrigBehaviour.InitialDaysThenRounds">
+    <value>Interval then rounds</value>
+  </data>
+  <data name="TrigBehaviour.RoundMaxTime">
+    <value>Rounds or intervals</value>
+  </data>
+  <data name="TrigBehaviour.Everytime">
+    <value>Everytime</value>
+  </data>
+  <data name="TrigExecutionPhase.Before">
+    <value>Before</value>
+  </data>
+  <data name="TrigExecutionPhase.During">
+    <value>During</value>
+  </data>
+  <data name="TrigExecutionPhase.After">
+    <value>After</value>
+  </data>
+  <data name="TrigPostponeAbility.No">
+    <value>아니오</value>
+  </data>
+  <data name="TrigPostponeAbility.YesAllUsers">
+    <value>예</value>
+  </data>
+  <data name="TrigPostponeAbility.UserDefined">
+    <value>User-defined</value>
+  </data>
+  <data name="UILocaAvailability.Default">
+    <value>기본</value>
+  </data>
+  <data name="UILocaAvailability.Visible">
+    <value>표시</value>
+  </data>
+  <data name="UILocaAvailability.Advanced">
+    <value>표시 (고급)</value>
+  </data>
+  <data name="UILocaAvailability.Hidden">
+    <value>숨겨진</value>
+  </data>
+  <data name="WellStatus.Unknown">
+    <value>알 수 없는</value>
+  </data>
+  <data name="WellStatus.Empty">
+    <value>빈</value>
+  </data>
+  <data name="WellStatus.Init">
+    <value>초기화</value>
+  </data>
+  <data name="WellStatus.Processing">
+    <value>처리</value>
+  </data>
+  <data name="WellStatus.Negative">
+    <value>Negative</value>
+  </data>
+  <data name="WellStatus.Positive">
+    <value>Positive</value>
+  </data>
+  <data name="WellStatus.Result">
+    <value>오류</value>
+  </data>
+  <data name="WellStatus.Error">
+    <value>경고</value>
+  </data>
+  <data name="WellStatus.Warning">
+    <value></value>
+  </data>
+  <data name="ReservationState.Undetermined">
+    <value>알 수 없는</value>
+  </data>
+  <data name="ReservationState.OKOriginal">
+    <value>OK</value>
+  </data>
+  <data name="ReservationState.OKIdentical">
+    <value>OK</value>
+  </data>
+  <data name="ReservationState.OKAlternative">
+    <value>OK</value>
+  </data>
+  <data name="ReservationState.OKIdenticalForAlternative">
+    <value>OK</value>
+  </data>
+  <data name="ReservationState.WarningOriginal">
+    <value>경고</value>
+  </data>
+  <data name="ReservationState.WarningIdentical">
+    <value>경고</value>
+  </data>
+  <data name="ReservationState.WarningAlternative">
+    <value>경고</value>
+  </data>
+  <data name="ReservationState.WarningIdenticalForAlternative">
+    <value>경고</value>
+  </data>
+  <data name="ReservationState.Error">
+    <value>오류</value>
+  </data>
+  <data name="TriggerResult.RAccept">
+    <value>받아</value>
+  </data>
+  <data name="TriggerResult.RReject">
+    <value>Reject</value>
+  </data>
+  <data name="TriggerResult.ROverride">
+    <value>Override</value>
+  </data>
+  <data name="TriggerResult.RPostpone">
+    <value>Postpone</value>
+  </data>
+  <data name="TriggerResult.RSilent">
+    <value>Silent</value>
+  </data>
+  <data name="FacDeductItemsFromStockInOpType.On">
+    <value>에</value>
+  </data>
+  <data name="FacDeductItemsFromStockInOpType.Off">
+    <value>끄기</value>
+  </data>
+  <data name="OrderSuppPickMode.Normal">
+    <value>정상</value>
+  </data>
+  <data name="OrderSuppPickMode.FullAuto">
+    <value>Fully automated</value>
+  </data>
+  <data name="OrderSuppPickMode.EjectOnly">
+    <value>Eject from stock</value>
+  </data>
+  <data name="PickJobStatus.Forecast">
+    <value>Forecast</value>
+  </data>
+  <data name="PickJobStatus.Requested">
+    <value>Requested</value>
+  </data>
+  <data name="PickJobStatus.Attempted">
+    <value>Checked/Attempted</value>
+  </data>
+  <data name="PickJobStatus.Committed">
+    <value>Committed</value>
+  </data>
+  <data name="PickJobStatus.Completed">
+    <value>완료</value>
+  </data>
+  <data name="PickJobStatus.Closed">
+    <value>Closed</value>
+  </data>
+  <data name="PickJobStatus.Cancelled">
+    <value>취소</value>
+  </data>
+  <data name="PickJobActionType.NewForecast">
+    <value>Forecast created</value>
+  </data>
+  <data name="PickJobActionType.Requested">
+    <value>Requested</value>
+  </data>
+  <data name="PickJobActionType.Attempted">
+    <value>Checked/Attempted</value>
+  </data>
+  <data name="PickJobActionType.Committed">
+    <value>Committed</value>
+  </data>
+  <data name="PickJobActionType.Completed">
+    <value>완료</value>
+  </data>
+  <data name="PickJobActionType.Closed">
+    <value>Closed</value>
+  </data>
+  <data name="PickJobActionType.Cancelled">
+    <value>취소</value>
+  </data>
+  <data name="ItemSalesRestriction.None">
+    <value>없음</value>
+  </data>
+  <data name="ItemSalesRestriction.Blocked">
+    <value>차단</value>
+  </data>
+  <data name="TrigActivity.None">
+    <value>아무것도</value>
+  </data>
+  <data name="TrigActivity.Pack">
+    <value>팩</value>
+  </data>
+  <data name="TrigActivity.Return">
+    <value>반환</value>
+  </data>
+  <data name="TrigActivity.Wrap">
+    <value>랩</value>
+  </data>
+  <data name="TrigActivity.WasherBatchRegistration">
+    <value>Washer batch registration</value>
+  </data>
+  <data name="TrigActivity.WasherBatchApproval">
+    <value>Washer batch approval</value>
+  </data>
+  <data name="TrigActivity.SterilizerBatchRegistration">
+    <value>Sterilizer batch registration</value>
+  </data>
+  <data name="TrigActivity.SterilizerBatchApproval">
+    <value>Sterilizer batch approval</value>
+  </data>
+  <data name="TrigActivity.RegisterLocation">
+    <value>위치</value>
+  </data>
+  <data name="TrigActivity.OperationRegistration">
+    <value>수술</value>
+  </data>
+  <data name="TrigActivity.Pick">
+    <value>선택</value>
+  </data>
+  <data name="TrigActivity.Dispatch">
+    <value>전달</value>
+  </data>
+  <data name="TrigActivity.UpdateInventory">
+    <value>재고</value>
+  </data>
+  <data name="TrigActivity.PredisinfectionBatchRegistration">
+    <value>Pre-disinfection batch registration</value>
+  </data>
+  <data name="TrigActivity.EndoscopeWasherBatchRegistration">
+    <value>Endoscope washer batch registration</value>
+  </data>
+  <data name="TrigActivity.EndoCleanAndTest">
+    <value>엔도 청소 하 고 시험</value>
+  </data>
+  <data name="TrigActivity.EndoscopeWasherBatchApproval">
+    <value>Endoscope washer batch approval</value>
+  </data>
+  <data name="TrigActivity.StartTransport">
+    <value>전송</value>
+  </data>
+  <data name="TrigActivity.PatientRegistration">
+    <value>Patient registration</value>
+  </data>
+  <data name="ReservationStatus.Active">
+    <value>활성</value>
+  </data>
+  <data name="ReservationStatus.Completed">
+    <value>완료</value>
+  </data>
+  <data name="ReservationStatus.Failed">
+    <value>실패</value>
+  </data>
+  <data name="ReservationStatus.Cancelled">
+    <value>취소</value>
+  </data>
+  <data name="ProductLoanerType.NonLoaner">
+    <value></value>
+  </data>
+  <data name="ProductLoanerType.GenericLoaner">
+    <value></value>
+  </data>
+  <data name="ProductLoanerType.ExternalLoaner">
+    <value></value>
+  </data>
+  <data name="ProductLoanerType.LoanerTemplate">
+    <value></value>
+  </data>
+  <data name="LoanerSerialNameChangeMode.Always">
+    <value></value>
+  </data>
+  <data name="LoanerSerialNameChangeMode.AtFirst">
+    <value></value>
+  </data>
+  <data name="LoanerSerialNameChangeMode.Never">
+    <value></value>
+  </data>
+  <data name="LoanerAutoCheckOutMode.Off">
+    <value></value>
+  </data>
+  <data name="LoanerAutoCheckOutMode.AfterWash">
+    <value></value>
+  </data>
+  <data name="LoanerAutoCheckOutMode.AfterReturn">
+    <value></value>
+  </data>
+  <data name="UnitStatus.None">
+    <value></value>
+  </data>
+  <data name="UnitStatus.Init">
+    <value>초기화</value>
+  </data>
+  <data name="UnitStatus.Started">
+    <value>시작</value>
+  </data>
+  <data name="UnitStatus.Rinsed">
+    <value>Rinsed</value>
+  </data>
+  <data name="UnitStatus.Washed">
+    <value>씻어</value>
+  </data>
+  <data name="UnitStatus.Prep">
+    <value>준비</value>
+  </data>
+  <data name="UnitStatus.Packed">
+    <value>포장</value>
+  </data>
+  <data name="UnitStatus.Stock">
+    <value>주식에</value>
+  </data>
+  <data name="UnitStatus.Dispatched">
+    <value>파견</value>
+  </data>
+  <data name="UnitStatus.Opened">
+    <value>개설</value>
+  </data>
+  <data name="UnitStatus.Used">
+    <value>사용</value>
+  </data>
+  <data name="UnitStatus.Precleaned">
+    <value>Pre-cleaned</value>
+  </data>
+  <data name="UnitStatus.Returned">
+    <value>반환</value>
+  </data>
+  <data name="UnitStatus.ErrorReg">
+    <value>취소</value>
+  </data>
+  <data name="UnitStatus.Last">
+    <value></value>
+  </data>
+  <data name="EndoscopeUnitStatus.None">
+    <value></value>
+  </data>
+  <data name="EndoscopeUnitStatus.Init">
+    <value>초기화</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Started">
+    <value>시작</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Rinsed">
+    <value>Rinsed</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Washed">
+    <value>씻어</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Prep">
+    <value>시작</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Packed">
+    <value>씻어</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Stock">
+    <value>다시 처리</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Dispatched">
+    <value>파견</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Opened">
+    <value>개설</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Used">
+    <value>사용</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Precleaned">
+    <value>Pre-cleaned</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Returned">
+    <value>반환</value>
+  </data>
+  <data name="EndoscopeUnitStatus.ErrorReg">
+    <value>취소</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Last">
+    <value></value>
+  </data>
+  <data name="OperationStatus.Planned">
+    <value>계획</value>
+  </data>
+  <data name="OperationStatus.Accepted">
+    <value>허용</value>
+  </data>
+  <data name="OperationStatus.Started">
+    <value>시작</value>
+  </data>
+  <data name="OperationStatus.Done">
+    <value>완료</value>
+  </data>
+  <data name="OperationStatus.Cancelled">
+    <value>취소</value>
+  </data>
+  <data name="ObjectStatus.Normal">
+    <value>정상</value>
+  </data>
+  <data name="ObjectStatus.Dying">
+    <value>생략 하</value>
+  </data>
+  <data name="ObjectStatus.Dead">
+    <value>생략</value>
+  </data>
+  <data name="MachineType.FirstMachineType">
+    <value>소독 기</value>
+  </data>
+  <data name="MachineType.Sterilizer">
+    <value>소독 기</value>
+  </data>
+  <data name="MachineType.Washer">
+    <value>세탁기</value>
+  </data>
+  <data name="MachineType.PreDis">
+    <value>사전 소독 기</value>
+  </data>
+  <data name="MachineType.EndoWasher">
+    <value>내 시경 세척기</value>
+  </data>
+  <data name="MachineType.Incubator">
+    <value>인큐베이터</value>
+  </data>
+  <data name="MachineType.EndoDryer">
+    <value>내 시경 건조 캐비닛</value>
+  </data>
+  <data name="MachineType.LastMachineType">
+    <value>내 시경 건조 캐비닛</value>
+  </data>
+</root>

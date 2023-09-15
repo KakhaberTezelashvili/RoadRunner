@@ -1,0 +1,12 @@
+// Colors.
+@use "devextreme/scss/widgets/generic/colors" with ($color: "light");
+// Sizes.
+@use "devextreme/scss/widgets/generic/sizes" with ($size: "default");
+// Typography settings (fonts, background color).
+@use "devextreme/scss/widgets/generic/typography";
+// Toast.
+@use "devextreme/scss/widgets/generic/toast";
+// Popup.
+@use "devextreme/scss/widgets/generic/popup";
+// Toolbar.
+@use "devextreme/scss/widgets/generic/toolbar";

@@ -1,0 +1,14 @@
+﻿[
+  {
+    "outputFileName": "wwwroot/js/generated/bundle.min.js",
+    "inputFiles": [
+      /* Scanner simulator */
+      "wwwroot/js/scannerSimulator.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    "sourceMap": false
+  }
+]      

@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup Label="Globals">
+		<SccProjectName>SAK</SccProjectName>
+		<SccProvider>SAK</SccProvider>
+		<SccAuxPath>SAK</SccAuxPath>
+		<SccLocalPath>SAK</SccLocalPath>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Serialize.Linq" Version="2.0.0" />
+		<PackageReference Include="System.Linq.Dynamic.Core" Version="1.2.14" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\Common\TDOC.Common.Server\TDOC.Common.Server.csproj" />
+		<ProjectReference Include="..\SearchService.Core\SearchService.Core.csproj" />
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,39 @@
+﻿@import "../td-variables";
+@import "../Bootstrap/Custom/variables";
+
+/* begin: dxToast */
+.dx-toast-content {
+    line-height: $line-height-base; 
+    padding: 0;
+    border-radius: 0;
+}
+/* end: dxToast */
+
+/* begin: dxPopup */
+.dx-popup-wrapper > .dx-overlay-content {
+    border-radius: 0;
+    min-height: 350px;
+    min-width: 500px;
+}
+
+.dx-popup-title.dx-toolbar {
+    padding-left: 24px;
+}
+
+.dx-popup-title {
+    min-height: $popup-title-height;
+    font-size: $font-size;
+    font-weight: bold;
+    color: $color-white;
+    background-color: $color-getinge-blue;
+}
+
+.dx-popup-content {
+    padding: 0;
+    font-size: $font-size;
+}
+
+.dx-popup-title.dx-toolbar .dx-toolbar-label {
+    font-size: $font-size;
+}
+/* end: dxPopup */

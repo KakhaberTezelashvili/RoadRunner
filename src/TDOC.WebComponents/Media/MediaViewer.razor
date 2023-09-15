@@ -1,0 +1,22 @@
+﻿<div class="w-100 media-viewer-wrapper-@SwiperId" style="height: @(ContainerHeight)px;">
+    <MediaSwiper @ref="refMediaSwiper"
+                 SwiperId="@SwiperId"
+                 ActiveIndex="ActiveIndex"
+                 DefaultImgSrc="@($"{ContentUrls.ResourceImg}media/mediaDefaultGray.svg")"
+                 ObtainMediaData="ObtainMediaData"
+                 SlideClicked="AllowPopup ? MediaSlideClicked : null"
+                 IsPopup="IsPopup"
+                 ContainerHeight="ContainerHeight" />
+    @if (AllowPopup)
+    {
+      <MediaPopup @ref="refMediaPopup"
+                  SwiperId="@PopupSwiperId"
+                  KeyId="KeyId"
+                  LinkType="@LinkType"
+                  Title="@PopupTitle"
+                  ButtonCancelText="@PopupButtonCancelText"
+                  ObtainMediaData="ObtainMediaData"
+                  GetEntryList="GetEntryList"
+                  AfterCancel="() => { }" />
+    }
+</div>

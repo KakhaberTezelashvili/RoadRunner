@@ -1,0 +1,30 @@
+@import "../../scss/functions";
+@import "../../Custom/variables";
+@import "../../scss/variables";
+@import "../../scss/mixins/gradients";
+@import "../../scss/mixins/box-shadow";
+@import "../../scss/mixins/hover";
+@import "../../scss/mixins/buttons";
+
+@mixin td-button-variant($background, $border, $hover-background, $hover-border: $hover-background, $active-background: $white) {
+  @include button-variant($background, $border, $hover-background, $hover-border, $active-background, $border);
+  height: 40px;
+  // override bootstrap "button:focus" styles
+  &:focus,
+  &.focus {
+    background-color: $background;
+    border-color: $border;
+    outline: dotted 1px $color-granit !important;
+  }
+  // override bootstrap "button:disabled" styles
+  &.disabled,
+  &:disabled {
+    opacity: 0.3;
+  }
+  // override bootstrap "button:active" styles
+  &:not(:disabled):not(.disabled):active,
+  &:not(:disabled):not(.disabled).active,
+  .show > &.dropdown-toggle {
+    color: $background;
+  }
+}

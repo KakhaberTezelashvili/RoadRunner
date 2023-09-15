@@ -1,0 +1,80 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<Authors>Getinge</Authors>
+		<PackageId>TDOC.WebComponents</PackageId>
+		<Product>TDOC.WebComponents</Product>
+		<Description>Web components library.</Description>
+		<Version>1.0.2</Version>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<SupportedPlatform Include="browser" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="BuildBundlerMinifier" Version="3.2.449" />
+		<PackageReference Include="DevExpress.Blazor" Version="21.2.6" />
+		<PackageReference Include="Fluxor" Version="4.2.1" />
+		<PackageReference Include="Fluxor.Blazor.Web" Version="4.2.1" />
+		<PackageReference Include="Fluxor.Blazor.Web.ReduxDevTools" Version="4.2.1" />
+		<PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="6.0.3" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Common\TDOC.Common.Data\TDOC.Common.Data.csproj" />
+	</ItemGroup>
+
+	<!-- Visual Studio related part. -->
+	<Target Name="InstallWebCompiler" BeforeTargets="PreBuildEvent" Condition="'$(OS)' == 'Windows_NT'">
+		<Exec Command="call $(ProjectDir)..\..\build\webcompiler\InstallWebCompiler.bat" />
+	</Target>
+	<Target Name="CompileStaticAssets" AfterTargets="InstallWebCompiler" Condition="'$(OS)' == 'Windows_NT'">
+		<Exec Command="call $(ProjectDir)..\..\build\webcompiler\CompileStaticAssets.bat" StandardOutputImportance="high" />
+	</Target>
+	<Target Name="CopyStaticAssets" AfterTargets="CompileStaticAssets" Condition="'$(OS)' == 'Windows_NT'">
+		<Exec Command="call $(ProjectDir)..\..\build\webcompiler\MakeGeneratedDirectory.bat" />
+		<!-- Copying generated CSS files to 'wwwroot/css/generated' directory. -->
+		<Exec Command="xcopy /y Scss\*.css wwwroot\css\generated" />
+		<Exec Command="xcopy /y Scss\Bootstrap\*.css wwwroot\css\generated" />
+		<Exec Command="xcopy /y Scss\DevExpress\*.css wwwroot\css\generated" />
+		<Exec Command="xcopy /y Scss\DevExtreme\*.css wwwroot\css\generated" />
+		<Exec Command="xcopy /y Scss\Skeleton\*.css wwwroot\css\generated" />
+		<!-- Removing generated CSS files from origins. -->
+		<Exec Command="del Scss\*.css" />
+		<Exec Command="del Scss\Bootstrap\*.css" />
+		<Exec Command="del Scss\DevExpress\*.css" />
+		<Exec Command="del Scss\DevExtreme\*.css" />
+		<Exec Command="del Scss\Skeleton\*.css" />
+	</Target>
+
+	<!-- Docker related part. -->
+	<Target Name="InstallWebCompilerDocker" BeforeTargets="PreBuildEvent" Condition="'$(OS)' != 'Windows_NT'">
+		<Exec Command="chmod +rx $(ProjectDir)../../build/webcompiler/InstallWebCompiler.sh" />
+		<Exec Command="$(ProjectDir)../../build/webcompiler/InstallWebCompiler.sh" />
+	</Target>
+	<Target Name="CompileStaticAssetsDocker" AfterTargets="InstallWebCompilerDocker" Condition="'$(OS)' != 'Windows_NT'">
+		<Exec Command="chmod +rx $(ProjectDir)../../build/webcompiler/CompileStaticAssets.sh" />
+		<Exec Command="$(ProjectDir)../../build/webcompiler/CompileStaticAssets.sh" StandardOutputImportance="high" />
+	</Target>
+	<Target Name="CopyStaticAssetsDocker" AfterTargets="CompileStaticAssetsDocker" Condition="'$(OS)' != 'Windows_NT'">
+		<Exec Command="chmod +rx $(ProjectDir)../../build/webcompiler/MakeGeneratedDirectory.sh" />
+		<Exec Command="$(ProjectDir)../../build/webcompiler/MakeGeneratedDirectory.sh" />
+		<!-- Copying generated CSS files to 'wwwroot/css/generated' directory. -->
+		<Exec Command="cp -v Scss/*.css wwwroot/css/generated" />
+		<Exec Command="cp -v Scss/Bootstrap/*.css wwwroot/css/generated" />
+		<Exec Command="cp -v Scss/DevExpress/*.css wwwroot/css/generated" />
+		<Exec Command="cp -v Scss/DevExtreme/*.css wwwroot/css/generated" />
+		<Exec Command="cp -v Scss/Skeleton/*.css wwwroot/css/generated" />
+		<!-- Removing generated CSS files from origins. -->
+		<Exec Command="rm -f Scss/*.css" />
+		<Exec Command="rm -f Scss/Bootstrap/*.css" />
+		<Exec Command="rm -f Scss/DevExpress/*.css" />
+		<Exec Command="rm -f Scss/DevExtreme/*.css" />
+		<Exec Command="rm -f Scss/Skeleton/*.css" />
+	</Target>
+</Project>

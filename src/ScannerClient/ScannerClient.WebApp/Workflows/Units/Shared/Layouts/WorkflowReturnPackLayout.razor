@@ -1,0 +1,105 @@
+﻿@layout WorkflowLayout
+@inherits WorkflowLayout
+
+@using MasterDataService.Shared.Constants.Media
+@using Newtonsoft.Json.Linq
+@using ScannerClient.WebApp.Workflows.Services
+@using TDOC.Common.Client.Translations
+@using TDOC.WebComponents.Shared.Enumerations
+
+<CascadingValue Value="this">
+    @if (IsReturnProcess())
+    {
+        // This has been disabled for now according to UX design in Figma - We might need it in the future, which is why it's not deleted completely
+        @*<RegisterUnitsToPatient Search="SearchPatient" />*@
+    }
+    <div class="row @WorkflowHelper.GetWorkflowMainBlockHeight(Navigation, _workflowState.Value.CurrentWorkflow?.Process)">
+        <TdSplitter Identifier="@splitterIdentifier"
+                    ObtainComponentState="_desktopDataService.GetComponentStateAsync"
+                    SaveComponentState="_desktopDataService.SetComponentStateAsync">
+            <LeftSideFragment>
+                @if (detailIsLoading)
+                {
+                    <LoadingDataSkeleton />
+                }
+                else if (unitKeyId == 0)
+                {
+                    <NoDataPanel Details="noDataDetails" />
+                }
+                <div class="row" hidden="@(unitKeyId == 0 || detailIsLoading)">
+                    <div class="col">
+                        <WorkflowLastActionPanel Text="@lastActionText" Highlight="@lastActionHighlight" FastTrackText="@lastActionFastTrackText" />
+                        <div id="@scrollableBlockIdentifier" class="row px-24px pb-12px overflow-auto @GetWorkflowScrollableBlock()" >
+                            <div class="@cssClassBasedOnDisplayContentGrid">
+                                @Body
+                                <div class="row pt-12px" style="@mediaSwiperContainerCssStyle">
+                                    <MediaViewer SwiperId="packSwiper" 
+                                                 PopupSwiperId="packPopupSwiper" 
+                                                 KeyId="unitKeyId" 
+                                                 LinkType="@MediaSeriesLinks.Unit" 
+                                                 AllowPopup="true"
+                                                 PopupTitle="@TdSharedLocalizer["media"]"
+                                                 PopupButtonCancelText="@TdSharedLocalizer["cancel"]"
+                                                 ObtainMediaData="_mediaService.ObtainMediaDataAsync"
+                                                 GetEntryList="GetMediaEntryListAsync" 
+                                                 ContainerHeight="mediaSwiperContainerHeight" />
+                                </div>
+                            </div>
+                            @if (displayContentsGrid)
+                            {
+                                <div class="col-sm-5 pl-24px">
+                                    <FlexibleGrid RequestDataAfterRowSelected="false"
+                                                  GridDetails="gridDetailsContentsList"
+                                                  GridStructureRequested="GetGridStructureAsync"
+                                                  DataRequested="RequestSearchDataAsync"
+                                                  ScrollableHeight="-BusyContentHeight()">
+                                        <ColumnTemplates>
+                                            <TdDataGridColumnTemplate TItem="object" Field="@($"{nameof(UnitListModel.RefItem)}.{nameof(ItemModel.Item)}")">
+                                                <DisplayTemplate Context="item">
+                                                    @GetItem((JObject)item)
+                                                </DisplayTemplate>
+                                            </TdDataGridColumnTemplate>
+                                            <TdDataGridColumnTemplate TItem="object" Field="@($"{nameof(UnitListModel.RefItem)}.{nameof(ItemModel.Text)}")">
+                                                <DisplayTemplate Context="item">
+                                                    @GetText((JObject)item)
+                                                </DisplayTemplate>
+                                            </TdDataGridColumnTemplate>
+                                            <TdDataGridColumnTemplate TItem="object" Field="@CustomFieldNames.PicsKeyId">
+                                                <DisplayTemplate Context="item">
+                                                    <MediaIconPopover MediaKeyId="mediaDetails.GetMediaKeyId((JObject)item, CustomFieldNames.PicsKeyId)"
+                                                                      ArticleKeyId="mediaDetails.GetMainEntityKeyId((JObject)item)"
+                                                                      Details="mediaDetails" />
+                                                </DisplayTemplate>
+                                            </TdDataGridColumnTemplate>
+                                            <TdDataGridColumnTemplate TItem="object" Field="@nameof(UnitListModel.StdCount)">
+                                                <DisplayTemplate Context="item">
+                                                    @GetCount((JObject)item)
+                                                </DisplayTemplate>
+                                            </TdDataGridColumnTemplate>
+                                        </ColumnTemplates>
+                                    </FlexibleGrid>
+                                </div>
+                            }                        
+                        </div>
+                    </div>
+                </div>
+            </LeftSideFragment>
+            <RightSideFragment>
+                <SideSearchPanel @ref="refSearchPanel" 
+                                 Whereabouts="PanelWhereabouts.Right"
+                                 SearchPanelTitle="@searchPanelTitle" 
+                                 GridDetailsList="gridDetailsList"
+                                 Identifier="@searchPanelIdentifier" 
+                                 SearchPanelNullText="@SharedLocalizer["filterList"]" 
+                                 SearchPanelTotalCountText="@TdSharedLocalizer["results"]"
+                                 GridStructureRequested="@(async (string identifier, string mainTable) => 
+                                                         await _gridService.GetGridStructureAsync(identifier, mainTable, TdTablesLocalizer, TdExceptionalColumnsLocalizer))"
+                                 DataRequested="_searchService.SearchAsync"
+                                 ObtainComponentState="_desktopDataService.GetComponentStateAsync"
+                                 SaveComponentState="_desktopDataService.SetComponentStateAsync"
+                                 BusyContentHeight="WorkflowHelper.CalcHeightOfWorkflowHeaders(Navigation)"
+                                 LocalizeEnum="(type, value) => TranslationHelper.GetEnumValueNameFromString(type, value, TdSharedLocalizer, TdEnumsLocalizer)"/>
+            </RightSideFragment>
+        </TdSplitter>
+    </div>
+</CascadingValue>

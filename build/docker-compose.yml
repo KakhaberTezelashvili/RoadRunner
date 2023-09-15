@@ -1,0 +1,113 @@
+version: "3.8"
+
+services:
+  roadrunner.production:
+    image: roadrunner-production
+    container_name: roadrunner-production
+    hostname: roadrunner.production
+    build:
+      context: ./../
+      dockerfile: src/ProductionService/ProductionService.API/Docker/Dockerfile.Development
+    ports:
+      - 5100:80
+      - 5101:443
+    environment:
+      #set [ASPNETCORE_ENVIRONMENT=Development] is required to run swagger in docker.
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=https://+:443;http://+:80
+      - ASPNETCORE_Kestrel__Certificates__Default__Password=qwer1234
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=/ssl/localhost.pfx
+      - ConnectionStrings__TDocContext=data source=${DB_SERVER};initial catalog=${DB_CATALOG};integrated security=False;User ID=${DB_USER};Password=${DB_PASSWORD};MultipleActiveResultSets=true
+    volumes:
+      - /M//Roadrunner/build/ssl:/ssl:ro
+
+  roadrunner.search:
+    image: roadrunner-search
+    container_name: roadrunner-search
+    hostname: roadrunner.search
+    build:
+      context: ./../
+      dockerfile: src/SearchService/SearchService.API/Docker/Dockerfile.Development
+    ports:
+      - 5400:80
+      - 5401:443
+    environment:
+      #set [ASPNETCORE_ENVIRONMENT=Development] is required to run swagger in docker.
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=https://+:443;http://+:80
+      - ASPNETCORE_Kestrel__Certificates__Default__Password=qwer1234
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=/ssl/localhost.pfx
+      - ConnectionStrings__TDocContext=data source=${DB_SERVER};initial catalog=${DB_CATALOG};integrated security=False;User ID=${DB_USER};Password=${DB_PASSWORD};MultipleActiveResultSets=true
+    volumes:
+      - /M//Roadrunner/build/ssl:/ssl:ro
+
+  roadrunner.master-data:
+    image: roadrunner-master-data
+    container_name: roadrunner-master-data
+    hostname: roadrunner.master-data
+    build:
+      context: ./../
+      dockerfile: src/MasterDataService/MasterDataService.API/Docker/Dockerfile.Development
+    ports:
+      - 5500:80
+      - 5501:443
+    environment:
+      #set [ASPNETCORE_ENVIRONMENT=Development] is required to run swagger in docker.
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=https://+:443;http://+:80
+      - ASPNETCORE_Kestrel__Certificates__Default__Password=qwer1234
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=/ssl/localhost.pfx
+      - ConnectionStrings__TDocContext=data source=${DB_SERVER};initial catalog=${DB_CATALOG};integrated security=False;User ID=${DB_USER};Password=${DB_PASSWORD};MultipleActiveResultSets=true
+    volumes:
+      - /M//Roadrunner/build/ssl:/ssl:ro
+
+  roadrunner.scanner-client:
+    image: roadrunner-scanner-client
+    container_name: roadrunner-scanner-client
+    hostname: roadrunner.scanner-client
+    build:
+      context: ./../
+      dockerfile: src/ScannerClient/ScannerClient.WebApp/Docker/Dockerfile.Development
+    ports:
+      - 5200:80
+      - 5201:443
+    depends_on:
+      - roadrunner.production
+      - roadrunner.search
+      - roadrunner.master-data
+
+  roadrunner.admin-client:
+    image: roadrunner-admin-client
+    container_name: roadrunner-admin-client
+    hostname: roadrunner.admin-client
+    build:
+      context: ./../
+      dockerfile: src/AdminClient/AdminClient.WebApp/Docker/Dockerfile.Development
+    ports:
+      - 5600:80
+      - 5601:443
+    depends_on:
+      - roadrunner.master-data
+
+  roadrunner.gateway:
+    image: roadrunner-gateway
+    container_name: roadrunner-gateway
+    hostname: roadrunner.gateway
+    build:
+      context: ./../
+      dockerfile: src/APIGateway/Docker/Dockerfile.Development
+    ports:
+      - 5000:80
+      - 5001:443
+    environment:
+      - ASPNETCORE_URLS=https://+:443;http://+:80
+      - ASPNETCORE_Kestrel__Certificates__Default__Password=qwer1234
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=/ssl/localhost.pfx
+    volumes:
+      - /M//Roadrunner/build/ssl:/ssl:ro
+    depends_on:
+      - roadrunner.production
+      - roadrunner.search
+      - roadrunner.master-data
+      - roadrunner.scanner-client
+      - roadrunner.admin-client

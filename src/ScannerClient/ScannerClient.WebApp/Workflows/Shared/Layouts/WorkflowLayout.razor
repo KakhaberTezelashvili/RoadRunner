@@ -1,0 +1,12 @@
+﻿@layout MainLayout
+@inherits MainLayout
+
+<CascadingValue Value="this">
+    @if (showHeader)
+    {
+        <WorkflowHeader Description="@headerDescription" Title="@headerTitle" IconUrl="@headerIconUrl"></WorkflowHeader>
+    }
+    <div id="@HtmlElementIdentifiers.WorkflowMainBlock.FirstCharToLowerCase()" class="h-100">
+        @Body
+    </div>
+</CascadingValue>

@@ -1,0 +1,16 @@
+﻿@if (Details != null)
+{
+    <div class="@Details.CssClass align-items-center d-flex justify-content-center w-100" style="@Details.CssStyle">
+        <div class="text-center">
+            <div class="pb-6px">
+                <img class="icon-size-64" src="@Details.IconUrl" />
+            </div>
+            <div class="font-weight-bold @($"font-size-{Details.HeaderFontSize}")">
+                @Details.Header
+            </div>
+            <div class="font-color-granit @($"font-size-{Details.TextFontSize}")">
+                @((MarkupString)Details.Text())
+            </div>
+        </div>
+    </div>
+}

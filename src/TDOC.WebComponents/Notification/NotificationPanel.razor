@@ -1,0 +1,32 @@
+﻿@if (Details != null)
+{
+    <div id="@Details.Identifier" class="row d-flex justify-content-center">
+        <div class="@mainCssClass">
+            <div class="row h-100">
+                <div class="align-items-center pl-12px @mainIconBlockCssClass">
+                    <img class="icon-size-48" src="@mainIcon" />
+                </div>
+                <div class="col align-items-center pl-12px text-nowrap text-truncate @textBlockCssClass">
+                    <div class="@textCssClass">
+                        <div class="font-weight-bold">
+                            @((MarkupString)Details.Title)
+                        </div>
+                        <div class="font-weight-normal" hidden="@string.IsNullOrEmpty(Details.Description)">
+                            @((MarkupString)Details.Description)
+                        </div>
+                    </div>
+                </div>
+                <div class="align-items-center pl-12px @shortcutBlockCssClass">
+                    <a class="font-weight-bold cursor-pointer @textCssClass" onclick="notificationHelper.shortcutClick('@Details.Identifier')">
+                        <u>@((MarkupString)Details.ShortcutText)</u>
+                    </a>
+                </div>
+                <div hidden="@(!Details.ShowCloseIcon)" class="pl-12px notification-close-icon">
+                    <img class="icon-size-24 cursor-pointer" 
+                         src="@($"{ContentUrls.ResourceImg}others/{closeIcon}")" 
+                         onclick="notificationHelper.closeClick('@Details.Identifier')"/>
+                </div>
+            </div>
+        </div>
+    </div>
+}

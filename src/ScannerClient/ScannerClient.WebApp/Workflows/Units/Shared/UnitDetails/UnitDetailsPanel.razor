@@ -1,0 +1,50 @@
+﻿@using TDOC.Common.Client.Translations
+@using TDOC.Common.Data.Constants.Translations
+
+@if (Data != null)
+{
+  <div class="row">
+    <div class="col pr-12px pb-12px">
+      <div class="row pb-12px">
+        <div class="font-weight-bold" style="@column1ExtraCssStyle">@_tdTablesLocalizer[ExceptionalColumns.UnitKeyIdColumn]</div>
+        @Fragment1Value
+      </div>
+      <div class="row pb-12px">
+        <div class="font-weight-bold" style="@column1ExtraCssStyle">@_tdTablesLocalizer[$"{nameof(UnitModel)}.{nameof(UnitModel.Status)}"]</div>
+        <div class="col text-truncate">
+          <HighlightContent @ref="refHighlightContentStatus">
+            @(TranslationHelper.GetEnumValueName<UnitStatus>(Data.UnitStatus, _tdSharedLocalizer, _tdEnumsLocalizer))
+          </HighlightContent>
+        </div>
+      </div>
+      <div class="row">
+        <div class="font-weight-bold" style="@column1ExtraCssStyle">@Fragment2Caption</div>
+        @Fragment2Value
+      </div>
+    </div>
+    <div class="col pr-12px pb-12px">
+      <div class="row pb-12px">
+        <div class="font-weight-bold" style="@column2ExtraCssStyle">@_tdTablesLocalizer[$"{nameof(SerialModel)}.{nameof(SerialModel.SerialNo)}"]</div>
+        <div class="col text-truncate">@Data.ProductSerialNumber</div>
+      </div>
+      <div class="row pb-12px">
+        <div class="font-weight-bold" style="@column2ExtraCssStyle">@_tdTablesLocalizer[$"{nameof(UnitModel)}.{nameof(UnitModel.ProdKeyId)}"]</div>
+        <div class="col text-truncate">@Data.Product</div>
+      </div>
+      <div class="row">
+        <div class="font-weight-bold" style="@column2ExtraCssStyle">@_tdTablesLocalizer[$"{nameof(ItemModel)}.{nameof(ItemModel.Text)}"]</div>
+        <div class="col text-truncate">@Data.ProductName</div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row pb-12px">
+        <div class="font-weight-bold" style="@column3ExtraCssStyle">@_tdTablesLocalizer[$"{nameof(UnitModel)}.{nameof(UnitModel.CustKeyId)}"]</div>
+        <div class="col text-truncate">@Data.CustomerName</div>
+      </div>
+      <div class="row">
+        <div class="font-weight-bold" style="@column3ExtraCssStyle">@Fragment3Caption</div>
+        @Fragment3Value
+      </div>
+    </div>
+  </div>
+}

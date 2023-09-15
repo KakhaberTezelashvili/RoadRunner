@@ -1,0 +1,5216 @@
+<?xml version="1.0" encoding="utf-8"?><root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ProductModel.Created">
+    <value></value>
+  </data>
+  <data name="ProductModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="ProductModel.Modified">
+    <value></value>
+  </data>
+  <data name="ProductModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="ProductModel.AltNumber">
+    <value>備用編號</value>
+  </data>
+  <data name="ProductModel.AvgOnSiteStoreTime">
+    <value>平均現場儲存時間</value>
+  </data>
+  <data name="ProductModel.AvgOpDuration">
+    <value>平均手術時間</value>
+  </data>
+  <data name="ProductModel.Barcode">
+    <value>條形碼</value>
+  </data>
+  <data name="ProductModel.BillingNum">
+    <value>帳單編號</value>
+  </data>
+  <data name="ProductModel.CntpsKeyId">
+    <value>計數點組 </value>
+  </data>
+  <data name="ProductModel.Color">
+    <value>顏色</value>
+  </data>
+  <data name="ProductModel.Contamination">
+    <value>污染風險</value>
+  </data>
+  <data name="ProductModel.CuSiteKeyId">
+    <value>客戶場所</value>
+  </data>
+  <data name="ProductModel.CustKeyId">
+    <value>客戶</value>
+  </data>
+  <data name="ProductModel.Difficulty">
+    <value>複雜性</value>
+  </data>
+  <data name="ProductModel.DifficultyMode">
+    <value>Complexity mode</value>
+  </data>
+  <data name="ProductModel.DispatchRestrict">
+    <value>發放限制</value>
+  </data>
+  <data name="ProductModel.Endodryingmethod">
+    <value>內窺鏡乾燥方式</value>
+  </data>
+  <data name="ProductModel.EndoWashPrGrKeyId">
+    <value>內窺鏡清洗器程序</value>
+  </data>
+  <data name="ProductModel.ExternalType">
+    <value>外部類型</value>
+  </data>
+  <data name="ProductModel.ExtLoanerId">
+    <value>External loaner ID</value>
+  </data>
+  <data name="ProductModel.FacKeyId">
+    <value>工廠</value>
+  </data>
+  <data name="ProductModel.FactorySterilized">
+    <value>已滅菌的工廠</value>
+  </data>
+  <data name="ProductModel.FixedPrice">
+    <value>固定價格</value>
+  </data>
+  <data name="ProductModel.FTCoKeyId">
+    <value>快速追踪代碼</value>
+  </data>
+  <data name="ProductModel.FTPlKeyId">
+    <value>快速追踪計劃</value>
+  </data>
+  <data name="ProductModel.FTTmpKeyId">
+    <value>快速追踪組</value>
+  </data>
+  <data name="ProductModel.GTIN">
+    <value>GTIN</value>
+  </data>
+  <data name="ProductModel.HandlingTime">
+    <value>處理時間</value>
+  </data>
+  <data name="ProductModel.HaTKeyId">
+    <value>處理類型</value>
+  </data>
+  <data name="ProductModel.InArtKeyId">
+    <value>相同</value>
+  </data>
+  <data name="ProductModel.ItemKeyId">
+    <value>物品</value>
+  </data>
+  <data name="ProductModel.KeyId">
+    <value>產品 ID</value>
+  </data>
+  <data name="ProductModel.LMProKeyId">
+    <value>Loaner management profile</value>
+  </data>
+  <data name="ProductModel.Loaner">
+    <value>借出產品</value>
+  </data>
+  <data name="ProductModel.LoanerType">
+    <value>Loaner type</value>
+  </data>
+  <data name="ProductModel.PackKeyId">
+    <value>打包材料</value>
+  </data>
+  <data name="ProductModel.PackOnScreen">
+    <value>屏幕打包</value>
+  </data>
+  <data name="ProductModel.Predis">
+    <value>預消毒</value>
+  </data>
+  <data name="ProductModel.PricingType">
+    <value>價格類型</value>
+  </data>
+  <data name="ProductModel.PriGrKeyId">
+    <value>價格組</value>
+  </data>
+  <data name="ProductModel.PrintLabel">
+    <value>打印標籤</value>
+  </data>
+  <data name="ProductModel.PrintList">
+    <value>打印列表</value>
+  </data>
+  <data name="ProductModel.Product">
+    <value>產品</value>
+  </data>
+  <data name="ProductModel.Remark">
+    <value>備註</value>
+  </data>
+  <data name="ProductModel.ReqStockCount">
+    <value>所需物品。 庫存數量</value>
+  </data>
+  <data name="ProductModel.ReservationMode">
+    <value>預留模式</value>
+  </data>
+  <data name="ProductModel.Serialmask">
+    <value>序列號掩碼</value>
+  </data>
+  <data name="ProductModel.Status">
+    <value>狀態</value>
+  </data>
+  <data name="ProductModel.SteriPrgrKeyId">
+    <value>滅菌器程序組</value>
+  </data>
+  <data name="ProductModel.SteriVolume">
+    <value>滅菌器容量</value>
+  </data>
+  <data name="ProductModel.StockPlacement">
+    <value>倉庫位置</value>
+  </data>
+  <data name="ProductModel.StorageType">
+    <value>Storage</value>
+  </data>
+  <data name="ProductModel.TotalCount">
+    <value>總計數</value>
+  </data>
+  <data name="ProductModel.Traceability">
+    <value>可追踪性</value>
+  </data>
+  <data name="ProductModel.TraceType">
+    <value>追踪類型</value>
+  </data>
+  <data name="ProductModel.TRGrpKeyId">
+    <value>到期時間組</value>
+  </data>
+  <data name="ProductModel.Type">
+    <value>類型</value>
+  </data>
+  <data name="ProductModel.UserField01">
+    <value>用戶字段 1</value>
+  </data>
+  <data name="ProductModel.UserField02">
+    <value>用戶字段 2</value>
+  </data>
+  <data name="ProductModel.UserField03">
+    <value>用戶字段 3</value>
+  </data>
+  <data name="ProductModel.UserField04">
+    <value>用戶字段 4</value>
+  </data>
+  <data name="ProductModel.UserField05">
+    <value>用戶字段 5</value>
+  </data>
+  <data name="ProductModel.UserField06">
+    <value>用戶字段 6</value>
+  </data>
+  <data name="ProductModel.UserField07">
+    <value>用戶字段 7</value>
+  </data>
+  <data name="ProductModel.UserField08">
+    <value>用戶字段 8</value>
+  </data>
+  <data name="ProductModel.UserField09">
+    <value>用戶字段 9</value>
+  </data>
+  <data name="ProductModel.UserField10">
+    <value>用戶字段 10</value>
+  </data>
+  <data name="ProductModel.UserField11">
+    <value>用戶字段11</value>
+  </data>
+  <data name="ProductModel.UserField12">
+    <value>用戶字段12</value>
+  </data>
+  <data name="ProductModel.UserField13">
+    <value>用戶字段13</value>
+  </data>
+  <data name="ProductModel.UserField14">
+    <value>用戶字段14</value>
+  </data>
+  <data name="ProductModel.UserField15">
+    <value>用戶字段15</value>
+  </data>
+  <data name="ProductModel.UserField16">
+    <value>用戶字段16</value>
+  </data>
+  <data name="ProductModel.UserField17">
+    <value>用戶字段17</value>
+  </data>
+  <data name="ProductModel.UserField18">
+    <value>用戶字段18</value>
+  </data>
+  <data name="ProductModel.UserField19">
+    <value>用戶字段19</value>
+  </data>
+  <data name="ProductModel.UserField20">
+    <value>用戶字段20</value>
+  </data>
+  <data name="ProductModel.WasherVolume">
+    <value>清洗器容量</value>
+  </data>
+  <data name="ProductModel.WashPrgrKeyId">
+    <value>清洗程序組</value>
+  </data>
+  <data name="ProductModel.Weight">
+    <value>重量</value>
+  </data>
+  <data name="ProductModel.WeightDeltaCalcMode">
+    <value>重量變化計算模式</value>
+  </data>
+  <data name="ProductModel.Weightdeltaunit">
+    <value>重量變化單位</value>
+  </data>
+  <data name="ProductModel.WeightDeltaValue">
+    <value>重量變化值</value>
+  </data>
+  <data name="ProductModel.WeightDisposable">
+    <value>一次性物品重量</value>
+  </data>
+  <data name="ProductModel.WeightMode">
+    <value>重量模式</value>
+  </data>
+  <data name="ProductModel.WeightNonDisposable">
+    <value>非一次性物品重量</value>
+  </data>
+  <data name="ProductModel.WeightUsageEnabled">
+    <value>使用重量</value>
+  </data>
+  <data name="ProductModel.WPlanKeyId">
+    <value>重量計劃</value>
+  </data>
+  <data name="UserModel.Created">
+    <value></value>
+  </data>
+  <data name="UserModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="UserModel.Modified">
+    <value></value>
+  </data>
+  <data name="UserModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="UserModel.Barcode">
+    <value>條形碼</value>
+  </data>
+  <data name="UserModel.ChangePassword">
+    <value>必須更改密碼</value>
+  </data>
+  <data name="UserModel.Email">
+    <value>電子郵件</value>
+  </data>
+  <data name="UserModel.FacKeyId">
+    <value>工廠</value>
+  </data>
+  <data name="UserModel.FailedLogins">
+    <value>無法登錄</value>
+  </data>
+  <data name="UserModel.Initials">
+    <value>操作人員</value>
+  </data>
+  <data name="UserModel.KeyId">
+    <value>用戶 ID</value>
+  </data>
+  <data name="UserModel.MobileNumber">
+    <value>移動電話</value>
+  </data>
+  <data name="UserModel.Name">
+    <value>名稱</value>
+  </data>
+  <data name="UserModel.Password">
+    <value>密碼</value>
+  </data>
+  <data name="UserModel.PasswordChanged">
+    <value>上次密碼更改</value>
+  </data>
+  <data name="UserModel.PasswordHistory">
+    <value>密碼歷史記錄</value>
+  </data>
+  <data name="UserModel.PasswordSettings">
+    <value>密碼設置</value>
+  </data>
+  <data name="UserModel.ProfileKeyId">
+    <value>組</value>
+  </data>
+  <data name="UserModel.PublicPWSalt">
+    <value>公開</value>
+  </data>
+  <data name="UserModel.Status">
+    <value>狀態</value>
+  </data>
+  <data name="UserModel.UserField01">
+    <value>用戶字段 1</value>
+  </data>
+  <data name="UserModel.UserField02">
+    <value>用戶字段 2</value>
+  </data>
+  <data name="UserModel.UserField03">
+    <value>用戶字段 3</value>
+  </data>
+  <data name="UserModel.UserField04">
+    <value>用戶字段 4</value>
+  </data>
+  <data name="UserModel.UserField05">
+    <value>用戶字段 5</value>
+  </data>
+  <data name="UserModel.UserField06">
+    <value>用戶字段 6</value>
+  </data>
+  <data name="UserModel.UserField07">
+    <value>用戶字段 7</value>
+  </data>
+  <data name="UserModel.UserField08">
+    <value>用戶字段 8</value>
+  </data>
+  <data name="UserModel.UserField09">
+    <value>用戶字段 9</value>
+  </data>
+  <data name="UserModel.UserField10">
+    <value>用戶字段 10</value>
+  </data>
+  <data name="UserModel.UserField11">
+    <value>用戶字段11</value>
+  </data>
+  <data name="UserModel.UserField12">
+    <value>用戶字段12</value>
+  </data>
+  <data name="UserModel.UserField13">
+    <value>用戶字段13</value>
+  </data>
+  <data name="UserModel.UserField14">
+    <value>用戶字段14</value>
+  </data>
+  <data name="UserModel.UserField15">
+    <value>用戶字段15</value>
+  </data>
+  <data name="UserModel.UserField16">
+    <value>用戶字段16</value>
+  </data>
+  <data name="UserModel.UserField17">
+    <value>用戶字段17</value>
+  </data>
+  <data name="UserModel.UserField18">
+    <value>用戶字段18</value>
+  </data>
+  <data name="UserModel.UserField19">
+    <value>用戶字段19</value>
+  </data>
+  <data name="UserModel.UserField20">
+    <value>用戶字段20</value>
+  </data>
+  <data name="CountingPointSetModel.Created">
+    <value></value>
+  </data>
+  <data name="CountingPointSetModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="CountingPointSetModel.Modified">
+    <value></value>
+  </data>
+  <data name="CountingPointSetModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="CountingPointSetModel.Id">
+    <value>ID</value>
+  </data>
+  <data name="CountingPointSetModel.KeyId">
+    <value>計數點組 ID</value>
+  </data>
+  <data name="CountingPointSetModel.Name">
+    <value>名稱</value>
+  </data>
+  <data name="CountingPointSetModel.Remark">
+    <value>備註</value>
+  </data>
+  <data name="CountingPointSetModel.Status">
+    <value>狀態</value>
+  </data>
+  <data name="CustSiteModel.Created">
+    <value></value>
+  </data>
+  <data name="CustSiteModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="CustSiteModel.Modified">
+    <value></value>
+  </data>
+  <data name="CustSiteModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="CustSiteModel.AvgOnSiteStoreTime">
+    <value>平均現場儲存時間</value>
+  </data>
+  <data name="CustSiteModel.AvgOpDuration">
+    <value>平均手術時間</value>
+  </data>
+  <data name="CustSiteModel.CntpsKeyId">
+    <value>計數點組 </value>
+  </data>
+  <data name="CustSiteModel.DelGLN">
+    <value>Delivery GLN</value>
+  </data>
+  <data name="CustSiteModel.DelPKeyId">
+    <value>Transit product delivery plan</value>
+  </data>
+  <data name="CustSiteModel.Descr">
+    <value>描述</value>
+  </data>
+  <data name="CustSiteModel.GLN">
+    <value>Customer site GLN</value>
+  </data>
+  <data name="CustSiteModel.IntPickTime">
+    <value>當地採摘時間</value>
+  </data>
+  <data name="CustSiteModel.IntTransTimeArrive">
+    <value>本地到達運輸時間</value>
+  </data>
+  <data name="CustSiteModel.IntTransTimeDepart">
+    <value>當地出發時間</value>
+  </data>
+  <data name="CustSiteModel.KeyId">
+    <value>客戶網站ID</value>
+  </data>
+  <data name="CustSiteModel.MinOrderLeadTime">
+    <value>最小。 訂貨時間</value>
+  </data>
+  <data name="CustSiteModel.Name">
+    <value>名稱</value>
+  </data>
+  <data name="CustSiteModel.Site">
+    <value>客戶場所</value>
+  </data>
+  <data name="CustSiteModel.UserField01">
+    <value>用戶字段 1</value>
+  </data>
+  <data name="CustSiteModel.UserField02">
+    <value>用戶字段 2</value>
+  </data>
+  <data name="CustSiteModel.UserField03">
+    <value>用戶字段 3</value>
+  </data>
+  <data name="CustSiteModel.UserField04">
+    <value>用戶字段 4</value>
+  </data>
+  <data name="CustSiteModel.UserField05">
+    <value>用戶字段 5</value>
+  </data>
+  <data name="CustSiteModel.UserField06">
+    <value>用戶字段 6</value>
+  </data>
+  <data name="CustSiteModel.UserField07">
+    <value>用戶字段 7</value>
+  </data>
+  <data name="CustSiteModel.UserField08">
+    <value>用戶字段 8</value>
+  </data>
+  <data name="CustSiteModel.UserField09">
+    <value>用戶字段 9</value>
+  </data>
+  <data name="CustSiteModel.UserField10">
+    <value>用戶字段 10</value>
+  </data>
+  <data name="CustSiteModel.UserField11">
+    <value>用戶字段11</value>
+  </data>
+  <data name="CustSiteModel.UserField12">
+    <value>用戶字段12</value>
+  </data>
+  <data name="CustSiteModel.UserField13">
+    <value>用戶字段13</value>
+  </data>
+  <data name="CustSiteModel.UserField14">
+    <value>用戶字段14</value>
+  </data>
+  <data name="CustSiteModel.UserField15">
+    <value>用戶字段15</value>
+  </data>
+  <data name="CustSiteModel.UserField16">
+    <value>用戶字段16</value>
+  </data>
+  <data name="CustSiteModel.UserField17">
+    <value>用戶字段17</value>
+  </data>
+  <data name="CustSiteModel.UserField18">
+    <value>用戶字段18</value>
+  </data>
+  <data name="CustSiteModel.UserField19">
+    <value>用戶字段19</value>
+  </data>
+  <data name="CustSiteModel.UserField20">
+    <value>用戶字段20</value>
+  </data>
+  <data name="CustomerModel.Created">
+    <value></value>
+  </data>
+  <data name="CustomerModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="CustomerModel.Modified">
+    <value></value>
+  </data>
+  <data name="CustomerModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="CustomerModel.Account">
+    <value>帳戶</value>
+  </data>
+  <data name="CustomerModel.Address1">
+    <value>街道</value>
+  </data>
+  <data name="CustomerModel.Address2">
+    <value>街道(2)</value>
+  </data>
+  <data name="CustomerModel.AllowNonECCContent">
+    <value>Delivery of other goods in emergency case carts</value>
+  </data>
+  <data name="CustomerModel.ArrivedLGrpKeyId">
+    <value>Arrived location group</value>
+  </data>
+  <data name="CustomerModel.AvailablelgrpKeyId">
+    <value>Available location group</value>
+  </data>
+  <data name="CustomerModel.AvgOnSiteStoreTime">
+    <value>平均現場儲存時間</value>
+  </data>
+  <data name="CustomerModel.AvgOpDuration">
+    <value>平均手術時間</value>
+  </data>
+  <data name="CustomerModel.Barcode">
+    <value>條形碼</value>
+  </data>
+  <data name="CustomerModel.CalKeyId">
+    <value>日曆</value>
+  </data>
+  <data name="CustomerModel.CanOrder">
+    <value>能夠發送訂單</value>
+  </data>
+  <data name="CustomerModel.ChargeOptions">
+    <value>發票選項</value>
+  </data>
+  <data name="CustomerModel.City">
+    <value>郵編/城市</value>
+  </data>
+  <data name="CustomerModel.CntpsKeyId">
+    <value>計數點組 </value>
+  </data>
+  <data name="CustomerModel.Color">
+    <value>顏色</value>
+  </data>
+  <data name="CustomerModel.Country">
+    <value>國家(地區)</value>
+  </data>
+  <data name="CustomerModel.CuSiteKeyId">
+    <value>客戶場所</value>
+  </data>
+  <data name="CustomerModel.Customer">
+    <value>客戶</value>
+  </data>
+  <data name="CustomerModel.DefStokKeyId">
+    <value>默認倉庫</value>
+  </data>
+  <data name="CustomerModel.DelAddress1">
+    <value>Del。街道</value>
+  </data>
+  <data name="CustomerModel.DelAddress2">
+    <value>街道（2）</value>
+  </data>
+  <data name="CustomerModel.DelCity">
+    <value>郵政編碼/城市</value>
+  </data>
+  <data name="CustomerModel.DelCountry">
+    <value>德國國家（地區）</value>
+  </data>
+  <data name="CustomerModel.DelEmail">
+    <value>德爾電話</value>
+  </data>
+  <data name="CustomerModel.DelFax">
+    <value>Del。傳真</value>
+  </data>
+  <data name="CustomerModel.DelGln">
+    <value>Delivery GLN</value>
+  </data>
+  <data name="CustomerModel.DeliveryNote">
+    <value>提貨單</value>
+  </data>
+  <data name="CustomerModel.DelPKeyId">
+    <value>Transit product delivery plan</value>
+  </data>
+  <data name="CustomerModel.DelTelephone">
+    <value>德爾電話</value>
+  </data>
+  <data name="CustomerModel.Email">
+    <value>電子郵件</value>
+  </data>
+  <data name="CustomerModel.EndoSETime">
+    <value>標準。 Endo到期時間</value>
+  </data>
+  <data name="CustomerModel.External">
+    <value>外部的</value>
+  </data>
+  <data name="CustomerModel.FacKeyId">
+    <value>工廠</value>
+  </data>
+  <data name="CustomerModel.Fax">
+    <value>傳真</value>
+  </data>
+  <data name="CustomerModel.Flags1">
+    <value>選項</value>
+  </data>
+  <data name="CustomerModel.Gln">
+    <value>GLN</value>
+  </data>
+  <data name="CustomerModel.IntPickTime">
+    <value>當地採摘時間</value>
+  </data>
+  <data name="CustomerModel.IntTransTimeArrive">
+    <value>本地到達運輸時間</value>
+  </data>
+  <data name="CustomerModel.IntTransTimeDepart">
+    <value>當地出發時間</value>
+  </data>
+  <data name="CustomerModel.InvoiceCustKeyId">
+    <value>開票給另外客戶</value>
+  </data>
+  <data name="CustomerModel.InvoiceRebate">
+    <value>發票調整(%)</value>
+  </data>
+  <data name="CustomerModel.KeyId">
+    <value>客戶 ID</value>
+  </data>
+  <data name="CustomerModel.LineRebate">
+    <value>價格調整(%)</value>
+  </data>
+  <data name="CustomerModel.MinOrderLeadTime">
+    <value>最小。 訂貨時間</value>
+  </data>
+  <data name="CustomerModel.Name">
+    <value>名稱</value>
+  </data>
+  <data name="CustomerModel.OrderBookingMode">
+    <value>訂單預訂模式</value>
+  </data>
+  <data name="CustomerModel.PreDispatchMode">
+    <value>預調度</value>
+  </data>
+  <data name="CustomerModel.Remark">
+    <value>備註</value>
+  </data>
+  <data name="CustomerModel.Reordermode">
+    <value>回收時再預定</value>
+  </data>
+  <data name="CustomerModel.ShortName">
+    <value>簡稱</value>
+  </data>
+  <data name="CustomerModel.Status">
+    <value>狀態</value>
+  </data>
+  <data name="CustomerModel.StGrKeyId">
+    <value>倉庫組</value>
+  </data>
+  <data name="CustomerModel.TagsSurvive">
+    <value>標籤續存</value>
+  </data>
+  <data name="CustomerModel.Telephone">
+    <value>電話</value>
+  </data>
+  <data name="CustomerModel.Traceability">
+    <value>可追踪性</value>
+  </data>
+  <data name="CustomerModel.UserField01">
+    <value>用戶字段 1</value>
+  </data>
+  <data name="CustomerModel.UserField02">
+    <value>用戶字段 2</value>
+  </data>
+  <data name="CustomerModel.UserField03">
+    <value>用戶字段 3</value>
+  </data>
+  <data name="CustomerModel.UserField04">
+    <value>用戶字段 4</value>
+  </data>
+  <data name="CustomerModel.UserField05">
+    <value>用戶字段 5</value>
+  </data>
+  <data name="CustomerModel.UserField06">
+    <value>用戶字段 6</value>
+  </data>
+  <data name="CustomerModel.UserField07">
+    <value>用戶字段 7</value>
+  </data>
+  <data name="CustomerModel.UserField08">
+    <value>用戶字段 8</value>
+  </data>
+  <data name="CustomerModel.UserField09">
+    <value>用戶字段 9</value>
+  </data>
+  <data name="CustomerModel.UserField10">
+    <value>用戶字段 10</value>
+  </data>
+  <data name="CustomerModel.UserField11">
+    <value>用戶字段11</value>
+  </data>
+  <data name="CustomerModel.UserField12">
+    <value>用戶字段12</value>
+  </data>
+  <data name="CustomerModel.UserField13">
+    <value>用戶字段13</value>
+  </data>
+  <data name="CustomerModel.UserField14">
+    <value>用戶字段14</value>
+  </data>
+  <data name="CustomerModel.UserField15">
+    <value>用戶字段15</value>
+  </data>
+  <data name="CustomerModel.UserField16">
+    <value>用戶字段16</value>
+  </data>
+  <data name="CustomerModel.UserField17">
+    <value>用戶字段17</value>
+  </data>
+  <data name="CustomerModel.UserField18">
+    <value>用戶字段18</value>
+  </data>
+  <data name="CustomerModel.UserField19">
+    <value>用戶字段19</value>
+  </data>
+  <data name="CustomerModel.UserField20">
+    <value>用戶字段20</value>
+  </data>
+  <data name="CustomerModel.WebPassword">
+    <value>Web / FTP密碼</value>
+  </data>
+  <data name="CustomerModel.WebSite">
+    <value>網站</value>
+  </data>
+  <data name="CustomerModel.WebUser">
+    <value>Web / FTP用戶</value>
+  </data>
+  <data name="EndoDryingMethodsModel.KeyId">
+    <value>內窺鏡乾燥方式 ID</value>
+  </data>
+  <data name="EndoDryingMethodsModel.Method">
+    <value>方法</value>
+  </data>
+  <data name="EndoDryingMethodsModel.Name">
+    <value>名稱</value>
+  </data>
+  <data name="ProgramGroupModel.Color">
+    <value>顏色</value>
+  </data>
+  <data name="ProgramGroupModel.KeyId">
+    <value>程序組 ID</value>
+  </data>
+  <data name="ProgramGroupModel.Name">
+    <value>名稱</value>
+  </data>
+  <data name="ProgramGroupModel.Remark">
+    <value>備註</value>
+  </data>
+  <data name="ProgramGroupModel.Type">
+    <value>類型</value>
+  </data>
+  <data name="FactoryModel.Created">
+    <value></value>
+  </data>
+  <data name="FactoryModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="FactoryModel.Modified">
+    <value></value>
+  </data>
+  <data name="FactoryModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="FactoryModel.Address1">
+    <value>街道</value>
+  </data>
+  <data name="FactoryModel.Address2">
+    <value>街道(2)</value>
+  </data>
+  <data name="FactoryModel.AllowSkipCleanAndTest">
+    <value>允許跳過清潔和測試</value>
+  </data>
+  <data name="FactoryModel.AllowSkipDispatch">
+    <value>允許跳過發送</value>
+  </data>
+  <data name="FactoryModel.AllowSkipReturn">
+    <value>允許跳過返回</value>
+  </data>
+  <data name="FactoryModel.AutoPlayVideos">
+    <value>Autoplay videos</value>
+  </data>
+  <data name="FactoryModel.Bioid">
+    <value>生物識別</value>
+  </data>
+  <data name="FactoryModel.CalKeyId">
+    <value>日曆</value>
+  </data>
+  <data name="FactoryModel.ChargeUsage">
+    <value>當回收發現錯誤時，全額收取使用費用</value>
+  </data>
+  <data name="FactoryModel.City">
+    <value>郵編/城市</value>
+  </data>
+  <data name="FactoryModel.CntpsKeyId">
+    <value>計數點組 </value>
+  </data>
+  <data name="FactoryModel.Country">
+    <value>國家(地區)</value>
+  </data>
+  <data name="FactoryModel.CrossRefVendorKeyId">
+    <value>首選供應商</value>
+  </data>
+  <data name="FactoryModel.CustNameDisplay">
+    <value>使用客戶短名稱</value>
+  </data>
+  <data name="FactoryModel.CustOrdAcceptMode">
+    <value>Customer order acceptance handling</value>
+  </data>
+  <data name="FactoryModel.DecItemStockOnPack">
+    <value>打包時減少物品倉庫</value>
+  </data>
+  <data name="FactoryModel.DeductItemsFromStock">
+    <value>Deduct items from stock in Operation</value>
+  </data>
+  <data name="FactoryModel.DefAdminLocaKeyId">
+    <value>Default Admin location</value>
+  </data>
+  <data name="FactoryModel.DefAvgOnSiteStoreTime">
+    <value>默認平均 現場存儲時間</value>
+  </data>
+  <data name="FactoryModel.DefAvgOpDuration">
+    <value>默認平均 操作時間</value>
+  </data>
+  <data name="FactoryModel.DefDispatchRestrict">
+    <value>默認調度限制</value>
+  </data>
+  <data name="FactoryModel.DefItemShelvingTime">
+    <value>默認項目擱置時間</value>
+  </data>
+  <data name="FactoryModel.DefItemStokKeyId">
+    <value>默認物品倉庫</value>
+  </data>
+  <data name="FactoryModel.DefMESPickingCapacity">
+    <value>Hourly picking capacity</value>
+  </data>
+  <data name="FactoryModel.DefMESResvStokKeyId">
+    <value>Automated reserved stock</value>
+  </data>
+  <data name="FactoryModel.DefMESStokKeyId">
+    <value>Automated picking stock</value>
+  </data>
+  <data name="FactoryModel.DefOrdSuppStokKeyId">
+    <value>Default customer order stock</value>
+  </data>
+  <data name="FactoryModel.DefProdTraceType">
+    <value>默認產品追踪類型</value>
+  </data>
+  <data name="FactoryModel.DefProductStokKeyId">
+    <value>默認產品倉庫</value>
+  </data>
+  <data name="FactoryModel.DefSerialDispRestrict">
+    <value>默認串行調度限制</value>
+  </data>
+  <data name="FactoryModel.DefSuppCalKeyId">
+    <value>默認供應商日曆</value>
+  </data>
+  <data name="FactoryModel.DefSuppOrderDelTime">
+    <value>默認供應商訂單交貨時間</value>
+  </data>
+  <data name="FactoryModel.DefSuppOrderHandlTime">
+    <value>默認供應商訂單處理時間</value>
+  </data>
+  <data name="FactoryModel.DefSuppOrderRampTime">
+    <value>默認供應商訂單斜坡時間</value>
+  </data>
+  <data name="FactoryModel.DefSuppOrderTransTime">
+    <value>默認供應商訂單傳輸時間</value>
+  </data>
+  <data name="FactoryModel.DefWPlanKeyId">
+    <value>默認重量計劃</value>
+  </data>
+  <data name="FactoryModel.DelAddress1">
+    <value>Del。街道</value>
+  </data>
+  <data name="FactoryModel.DelAddress2">
+    <value>街道（2）</value>
+  </data>
+  <data name="FactoryModel.DelCity">
+    <value>郵政編碼/城市</value>
+  </data>
+  <data name="FactoryModel.DelCountry">
+    <value>德國國家（地區）</value>
+  </data>
+  <data name="FactoryModel.DelEmail">
+    <value>德爾電話</value>
+  </data>
+  <data name="FactoryModel.DelFax">
+    <value>Del。傳真</value>
+  </data>
+  <data name="FactoryModel.DelPKeyId">
+    <value>Transit product delivery plan</value>
+  </data>
+  <data name="FactoryModel.DeltaScanMode">
+    <value>增量掃描模式</value>
+  </data>
+  <data name="FactoryModel.DelTelephone">
+    <value>德爾電話</value>
+  </data>
+  <data name="FactoryModel.DropItemSuppOpOrders">
+    <value>在OP訂單下降供應商</value>
+  </data>
+  <data name="FactoryModel.Email">
+    <value>電子郵件</value>
+  </data>
+  <data name="FactoryModel.EndoCycleToCab">
+    <value>循環到櫃子時間</value>
+  </data>
+  <data name="FactoryModel.EndoDefCabKeyId">
+    <value>默認機櫃</value>
+  </data>
+  <data name="FactoryModel.EndoDefFSPlKeyId">
+    <value>默認倉庫位置</value>
+  </data>
+  <data name="FactoryModel.Endodryingmode">
+    <value>手動干燥</value>
+  </data>
+  <data name="FactoryModel.EndoHaTKeyId">
+    <value>處理類型</value>
+  </data>
+  <data name="FactoryModel.EndoSETime">
+    <value>標準。 Endo到期時間</value>
+  </data>
+  <data name="FactoryModel.EndoShelfDelay">
+    <value>內部貨架延遲時間</value>
+  </data>
+  <data name="FactoryModel.EndoShelfRelTime">
+    <value>內部貨架延遲相關 時間</value>
+  </data>
+  <data name="FactoryModel.EquipmentUsage">
+    <value>使用設備</value>
+  </data>
+  <data name="FactoryModel.Expiretype">
+    <value>過期類型</value>
+  </data>
+  <data name="FactoryModel.Facrestrictmode">
+    <value>工廠約束模式</value>
+  </data>
+  <data name="FactoryModel.Factory">
+    <value>工廠</value>
+  </data>
+  <data name="FactoryModel.Fax">
+    <value>傳真</value>
+  </data>
+  <data name="FactoryModel.FixedPrices">
+    <value>使用固定價格</value>
+  </data>
+  <data name="FactoryModel.Flags1">
+    <value>選項1</value>
+  </data>
+  <data name="FactoryModel.Flags2">
+    <value>選項2</value>
+  </data>
+  <data name="FactoryModel.FTMaxCodeDuration">
+    <value>快速追踪代碼終結</value>
+  </data>
+  <data name="FactoryModel.FTMaxPlanDuration">
+    <value>快速追踪計劃終結</value>
+  </data>
+  <data name="FactoryModel.FTPlKeyId">
+    <value>快速追踪計劃</value>
+  </data>
+  <data name="FactoryModel.GuestprofKeyId">
+    <value>客用戶信息</value>
+  </data>
+  <data name="FactoryModel.HourCosts">
+    <value>每小時成本</value>
+  </data>
+  <data name="FactoryModel.IncItemStockOnPack">
+    <value>打包時增加物品倉庫數</value>
+  </data>
+  <data name="FactoryModel.IndicApproveLocaKeyId">
+    <value>指示燈批准位置</value>
+  </data>
+  <data name="FactoryModel.IndicDisappLocaKeyId">
+    <value>指標被拒絕的位置</value>
+  </data>
+  <data name="FactoryModel.IndicPendingLocaKeyId">
+    <value>指標待定位置</value>
+  </data>
+  <data name="FactoryModel.InvoiceLocktime">
+    <value>發票鎖定日期</value>
+  </data>
+  <data name="FactoryModel.ItemAltPriceMode">
+    <value>Alt鍵。 物品定價模式</value>
+  </data>
+  <data name="FactoryModel.ItemDispAltPriceMode">
+    <value>Alt鍵。 一次性物品定價模式</value>
+  </data>
+  <data name="FactoryModel.ItemDispPriceMode">
+    <value>一次性物品定價模式</value>
+  </data>
+  <data name="FactoryModel.ItemPriceMode">
+    <value>物品定價模式</value>
+  </data>
+  <data name="FactoryModel.KeyId">
+    <value>工廠 ID</value>
+  </data>
+  <data name="FactoryModel.LoadnumberUsage">
+    <value>裝載編號使用</value>
+  </data>
+  <data name="FactoryModel.MinOrderLeadTime">
+    <value>最小。 訂貨時間</value>
+  </data>
+  <data name="FactoryModel.MinOrderLeadTimeMode">
+    <value>時間模式</value>
+  </data>
+  <data name="FactoryModel.MoneyRounding">
+    <value>正在完成</value>
+  </data>
+  <data name="FactoryModel.Name">
+    <value>名稱</value>
+  </data>
+  <data name="FactoryModel.OrderBookingMode">
+    <value>訂單預訂模式</value>
+  </data>
+  <data name="FactoryModel.PreDispatch">
+    <value>預設發放</value>
+  </data>
+  <data name="FactoryModel.RefNo">
+    <value>參考。 編號</value>
+  </data>
+  <data name="FactoryModel.Remark">
+    <value>備註</value>
+  </data>
+  <data name="FactoryModel.RepairError">
+    <value>修理錯誤</value>
+  </data>
+  <data name="FactoryModel.Repairmode">
+    <value>修理模式</value>
+  </data>
+  <data name="FactoryModel.SBFTAllStocks">
+    <value>所有股票</value>
+  </data>
+  <data name="FactoryModel.SBFTBlockStartedOp">
+    <value>排除已啟動的操作</value>
+  </data>
+  <data name="FactoryModel.SBFTDispatchedLGrpKeyId">
+    <value>Limit locations for dispatched units</value>
+  </data>
+  <data name="FactoryModel.SBFTEscFTCoKeyId">
+    <value>2nd Fast Track code</value>
+  </data>
+  <data name="FactoryModel.SBFTEscTime">
+    <value>Assign 2nd FT code after</value>
+  </data>
+  <data name="FactoryModel.SBFTFTCoKeyId">
+    <value>1st Fast Track code</value>
+  </data>
+  <data name="FactoryModel.SBFTMaxDelTime">
+    <value>最大時間</value>
+  </data>
+  <data name="FactoryModel.SBFTMinDelTime">
+    <value>最小時間</value>
+  </data>
+  <data name="FactoryModel.SBFTMode">
+    <value>Enable Stock based fast tracking</value>
+  </data>
+  <data name="FactoryModel.SBFTOrdersFilter">
+    <value>包括</value>
+  </data>
+  <data name="FactoryModel.SealCount">
+    <value>封口數</value>
+  </data>
+  <data name="FactoryModel.SealPrint">
+    <value>封口機打印輸出</value>
+  </data>
+  <data name="FactoryModel.Setweightusage">
+    <value>重量使用</value>
+  </data>
+  <data name="FactoryModel.Shortname">
+    <value>短名稱</value>
+  </data>
+  <data name="FactoryModel.Status">
+    <value>狀態</value>
+  </data>
+  <data name="FactoryModel.StgrKeyId">
+    <value>倉庫組</value>
+  </data>
+  <data name="FactoryModel.SUAMatchConditions">
+    <value>Match conditions</value>
+  </data>
+  <data name="FactoryModel.SUAMaxUserComplexity">
+    <value>Max. User complexity</value>
+  </data>
+  <data name="FactoryModel.SUAMinProdComplexity">
+    <value>Min. Product complexity</value>
+  </data>
+  <data name="FactoryModel.SUAReqProdType">
+    <value>Required for products</value>
+  </data>
+  <data name="FactoryModel.Telephone">
+    <value>電話</value>
+  </data>
+  <data name="FactoryModel.TraceStokKeyId">
+    <value>可追踪的倉庫</value>
+  </data>
+  <data name="FactoryModel.TransitStokKeyId">
+    <value>運送倉庫</value>
+  </data>
+  <data name="FactoryModel.TRGrpKeyId">
+    <value>到期時間組</value>
+  </data>
+  <data name="FactoryModel.Type">
+    <value>類型</value>
+  </data>
+  <data name="FactoryModel.UserField01">
+    <value>用戶字段 1</value>
+  </data>
+  <data name="FactoryModel.UserField02">
+    <value>用戶字段 2</value>
+  </data>
+  <data name="FactoryModel.UserField03">
+    <value>用戶字段 3</value>
+  </data>
+  <data name="FactoryModel.UserField04">
+    <value>用戶字段 4</value>
+  </data>
+  <data name="FactoryModel.UserField05">
+    <value>用戶字段 5</value>
+  </data>
+  <data name="FactoryModel.UserField06">
+    <value>用戶字段 6</value>
+  </data>
+  <data name="FactoryModel.UserField07">
+    <value>用戶字段 7</value>
+  </data>
+  <data name="FactoryModel.UserField08">
+    <value>用戶字段 8</value>
+  </data>
+  <data name="FactoryModel.UserField09">
+    <value>用戶字段 9</value>
+  </data>
+  <data name="FactoryModel.UserField10">
+    <value>用戶字段 10</value>
+  </data>
+  <data name="FactoryModel.UserField11">
+    <value>用戶字段11</value>
+  </data>
+  <data name="FactoryModel.UserField12">
+    <value>用戶字段12</value>
+  </data>
+  <data name="FactoryModel.UserField13">
+    <value>用戶字段13</value>
+  </data>
+  <data name="FactoryModel.UserField14">
+    <value>用戶字段14</value>
+  </data>
+  <data name="FactoryModel.UserField15">
+    <value>用戶字段15</value>
+  </data>
+  <data name="FactoryModel.UserField16">
+    <value>用戶字段16</value>
+  </data>
+  <data name="FactoryModel.UserField17">
+    <value>用戶字段17</value>
+  </data>
+  <data name="FactoryModel.UserField18">
+    <value>用戶字段18</value>
+  </data>
+  <data name="FactoryModel.UserField19">
+    <value>用戶字段19</value>
+  </data>
+  <data name="FactoryModel.UserField20">
+    <value>用戶字段20</value>
+  </data>
+  <data name="FactoryModel.UIStartMode">
+    <value>掃描儀UI啟動模式</value>
+  </data>
+  <data name="FactoryModel.UseColorFields">
+    <value>使用顏色字段</value>
+  </data>
+  <data name="FactoryModel.Usedispstockonpack">
+    <value>打包時使用一次性物品倉庫</value>
+  </data>
+  <data name="FactoryModel.UseNTLogin">
+    <value>使用 NT 登錄</value>
+  </data>
+  <data name="FactoryModel.Webitemlocatorcolumns">
+    <value>Item locator display fields</value>
+  </data>
+  <data name="FactoryModel.WebLocaKeyId">
+    <value>Operation location</value>
+  </data>
+  <data name="FactoryModel.WebOrderInitStatus">
+    <value>從Web接收的訂單的初始狀態</value>
+  </data>
+  <data name="FactoryModel.Webprodlocatorcolumns">
+    <value>Product locator display fields</value>
+  </data>
+  <data name="FactoryModel.Website">
+    <value>網站</value>
+  </data>
+  <data name="FastTrackCodeModel.Created">
+    <value></value>
+  </data>
+  <data name="FastTrackCodeModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="FastTrackCodeModel.Modified">
+    <value></value>
+  </data>
+  <data name="FastTrackCodeModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="FastTrackCodeModel.Code">
+    <value>代碼</value>
+  </data>
+  <data name="FastTrackCodeModel.Descr">
+    <value>描述</value>
+  </data>
+  <data name="FastTrackCodeModel.DisplayMode">
+    <value>顯示模式</value>
+  </data>
+  <data name="FastTrackCodeModel.EndLoGrpKeyId">
+    <value>結束位置組</value>
+  </data>
+  <data name="FastTrackCodeModel.EndStatus">
+    <value>結束狀態</value>
+  </data>
+  <data name="FastTrackCodeModel.EndTime">
+    <value>結束時間</value>
+  </data>
+  <data name="FastTrackCodeModel.InvoiceItemKeyId">
+    <value>對物品開票</value>
+  </data>
+  <data name="FastTrackCodeModel.InvoicePrice">
+    <value>發票價格</value>
+  </data>
+  <data name="FastTrackCodeModel.InvoiceTo">
+    <value>開票給</value>
+  </data>
+  <data name="FastTrackCodeModel.InvoiceWithUnit">
+    <value>單元開票</value>
+  </data>
+  <data name="FastTrackCodeModel.KeyId">
+    <value>快速追踪代碼ID</value>
+  </data>
+  <data name="FastTrackCodeModel.Name">
+    <value>名稱</value>
+  </data>
+  <data name="FastTrackCodeModel.Priority">
+    <value>優先級</value>
+  </data>
+  <data name="FastTrackCodeModel.StartLoGrpKeyId">
+    <value>開始位置組</value>
+  </data>
+  <data name="FastTrackCodeModel.StartStatus">
+    <value>開始狀態</value>
+  </data>
+  <data name="FastTrackCodeModel.StartTime">
+    <value>開始時間</value>
+  </data>
+  <data name="FastTrackCodeModel.Status">
+    <value>狀態</value>
+  </data>
+  <data name="FastTrackCodeModel.Type">
+    <value>類型</value>
+  </data>
+  <data name="FastTrackCodeModel.Weekdays">
+    <value>工作日</value>
+  </data>
+  <data name="FastTrackPlanModel.Created">
+    <value></value>
+  </data>
+  <data name="FastTrackPlanModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="FastTrackPlanModel.Modified">
+    <value></value>
+  </data>
+  <data name="FastTrackPlanModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="FastTrackPlanModel.Descr">
+    <value>描述</value>
+  </data>
+  <data name="FastTrackPlanModel.DisplayMode">
+    <value>顯示模式</value>
+  </data>
+  <data name="FastTrackPlanModel.InvoiceItemKeyId">
+    <value>對物品開票</value>
+  </data>
+  <data name="FastTrackPlanModel.InvoicePrice">
+    <value>價格</value>
+  </data>
+  <data name="FastTrackPlanModel.InvoiceTo">
+    <value>開票給</value>
+  </data>
+  <data name="FastTrackPlanModel.InvoiceWithUnit">
+    <value>單元開票</value>
+  </data>
+  <data name="FastTrackPlanModel.KeyId">
+    <value>快速追踪計劃 ID</value>
+  </data>
+  <data name="FastTrackPlanModel.Name">
+    <value>名稱</value>
+  </data>
+  <data name="FastTrackPlanModel.Plan">
+    <value>計劃的</value>
+  </data>
+  <data name="FastTrackPlanModel.Priority">
+    <value>優先級</value>
+  </data>
+  <data name="FastTrackPlanModel.Status">
+    <value>狀態</value>
+  </data>
+  <data name="FastTrackPlanModel.WorkhourMode">
+    <value>工作時間模式</value>
+  </data>
+  <data name="FastTrackTemplateModel.Created">
+    <value></value>
+  </data>
+  <data name="FastTrackTemplateModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="FastTrackTemplateModel.Modified">
+    <value></value>
+  </data>
+  <data name="FastTrackTemplateModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="FastTrackTemplateModel.Descr">
+    <value>描述</value>
+  </data>
+  <data name="FastTrackTemplateModel.KeyId">
+    <value>快速追踪模板 ID</value>
+  </data>
+  <data name="FastTrackTemplateModel.Name">
+    <value>名稱</value>
+  </data>
+  <data name="FastTrackTemplateModel.Template">
+    <value>模板</value>
+  </data>
+  <data name="HandlingTypesModel.Created">
+    <value></value>
+  </data>
+  <data name="HandlingTypesModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="HandlingTypesModel.Modified">
+    <value></value>
+  </data>
+  <data name="HandlingTypesModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="HandlingTypesModel.Id">
+    <value>處理類型</value>
+  </data>
+  <data name="HandlingTypesModel.KeyId">
+    <value>處理類型ID</value>
+  </data>
+  <data name="HandlingTypesModel.Name">
+    <value>名稱</value>
+  </data>
+  <data name="HandlingTypesModel.Remark">
+    <value>備註</value>
+  </data>
+  <data name="IdenticalArticleGroupModel.Forcealtarticles">
+    <value>Force all articles</value>
+  </data>
+  <data name="IdenticalArticleGroupModel.KeyId">
+    <value>Identical article group ID</value>
+  </data>
+  <data name="IdenticalArticleGroupModel.Name">
+    <value>通用名</value>
+  </data>
+  <data name="IdenticalArticleGroupModel.Type">
+    <value>類型</value>
+  </data>
+  <data name="ItemModel.Created">
+    <value></value>
+  </data>
+  <data name="ItemModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="ItemModel.Modified">
+    <value></value>
+  </data>
+  <data name="ItemModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="ItemModel.Barcode">
+    <value>條形碼</value>
+  </data>
+  <data name="ItemModel.CatKeyId">
+    <value>目錄 ID</value>
+  </data>
+  <data name="ItemModel.Color">
+    <value>顏色</value>
+  </data>
+  <data name="ItemModel.Composite">
+    <value>合成</value>
+  </data>
+  <data name="ItemModel.Contamination">
+    <value>污染概率</value>
+  </data>
+  <data name="ItemModel.Costprice">
+    <value>成本價格</value>
+  </data>
+  <data name="ItemModel.Difficulty">
+    <value>複雜性</value>
+  </data>
+  <data name="ItemModel.DifficultyMode">
+    <value>Complexity mode</value>
+  </data>
+  <data name="ItemModel.DiscardLevel">
+    <value>捨棄等級</value>
+  </data>
+  <data name="ItemModel.Disposable">
+    <value>一次性物品</value>
+  </data>
+  <data name="ItemModel.DispPrice">
+    <value>一次性物品價格</value>
+  </data>
+  <data name="ItemModel.ExternalText">
+    <value>外部文本</value>
+  </data>
+  <data name="ItemModel.ExternalType">
+    <value>外部類型</value>
+  </data>
+  <data name="ItemModel.FacKeyId">
+    <value>工廠</value>
+  </data>
+  <data name="ItemModel.HospitalDescription">
+    <value>本地名稱</value>
+  </data>
+  <data name="ItemModel.InArtKeyId">
+    <value>相同</value>
+  </data>
+  <data name="ItemModel.Info">
+    <value>備註</value>
+  </data>
+  <data name="ItemModel.Item">
+    <value>物品</value>
+  </data>
+  <data name="ItemModel.ItGrpKeyId">
+    <value>組</value>
+  </data>
+  <data name="ItemModel.ItspcKeyId">
+    <value>科別</value>
+  </data>
+  <data name="ItemModel.KeyId">
+    <value>物品 ID</value>
+  </data>
+  <data name="ItemModel.Length">
+    <value>長度</value>
+  </data>
+  <data name="ItemModel.Lifespan">
+    <value>使用壽命</value>
+  </data>
+  <data name="ItemModel.ManufactorNo">
+    <value>製造商編號</value>
+  </data>
+  <data name="ItemModel.ManuKeyId">
+    <value>製造商</value>
+  </data>
+  <data name="ItemModel.Material">
+    <value>材料</value>
+  </data>
+  <data name="ItemModel.MaterialsNum">
+    <value>材料編號</value>
+  </data>
+  <data name="ItemModel.MaxPressure">
+    <value>最大壓力</value>
+  </data>
+  <data name="ItemModel.MaxTemp">
+    <value>最高溫度</value>
+  </data>
+  <data name="ItemModel.OrderLeadTime">
+    <value>Order lead time</value>
+  </data>
+  <data name="ItemModel.OrderMinCount">
+    <value>最小訂貨數</value>
+  </data>
+  <data name="ItemModel.OrderStdCount">
+    <value>訂貨包裝容量</value>
+  </data>
+  <data name="ItemModel.OrderstduomKeyId">
+    <value>訂貨包裝單位</value>
+  </data>
+  <data name="ItemModel.OtherMinCount">
+    <value>最小內部訂貨數</value>
+  </data>
+  <data name="ItemModel.OtherUnitCount">
+    <value>內部訂貨包裝容量</value>
+  </data>
+  <data name="ItemModel.OtheruomKeyId">
+    <value>內部訂單包裝單位</value>
+  </data>
+  <data name="ItemModel.RepairVendorKeyId">
+    <value>修理供應商</value>
+  </data>
+  <data name="ItemModel.ReservationMode">
+    <value>預留模式</value>
+  </data>
+  <data name="ItemModel.SalesMinCount">
+    <value>最小銷售數</value>
+  </data>
+  <data name="ItemModel.SalesPrCode">
+    <value>銷售價格代碼</value>
+  </data>
+  <data name="ItemModel.SalesPrice">
+    <value>銷售價格</value>
+  </data>
+  <data name="ItemModel.SalesRestriction">
+    <value>Sales restriction</value>
+  </data>
+  <data name="ItemModel.SalesUnitCount">
+    <value>銷售包裝容量</value>
+  </data>
+  <data name="ItemModel.SalesuomKeyId">
+    <value>銷售包裝單位</value>
+  </data>
+  <data name="ItemModel.Serialmask">
+    <value>序列號掩碼</value>
+  </data>
+  <data name="ItemModel.ShelvingTime">
+    <value>擱置時間</value>
+  </data>
+  <data name="ItemModel.SplitCount">
+    <value>清洗器標記拆分計數</value>
+  </data>
+  <data name="ItemModel.Status">
+    <value>狀態</value>
+  </data>
+  <data name="ItemModel.SterilizationType">
+    <value>滅菌類型</value>
+  </data>
+  <data name="ItemModel.SuppKeyId">
+    <value>供應商</value>
+  </data>
+  <data name="ItemModel.SupplierNo">
+    <value>供應商編號</value>
+  </data>
+  <data name="ItemModel.TagTKeyId">
+    <value>標記類型</value>
+  </data>
+  <data name="ItemModel.Text">
+    <value>名稱</value>
+  </data>
+  <data name="ItemModel.Tip">
+    <value>提示</value>
+  </data>
+  <data name="ItemModel.Totalcostprice">
+    <value>總成本價格</value>
+  </data>
+  <data name="ItemModel.Totalsalesprice">
+    <value>總銷售價格</value>
+  </data>
+  <data name="ItemModel.Totalusageprice">
+    <value>總使用價格</value>
+  </data>
+  <data name="ItemModel.TraceType">
+    <value>追踪者</value>
+  </data>
+  <data name="ItemModel.Type">
+    <value>類型</value>
+  </data>
+  <data name="ItemModel.UserField01">
+    <value>用戶字段 1</value>
+  </data>
+  <data name="ItemModel.UserField02">
+    <value>用戶字段 2</value>
+  </data>
+  <data name="ItemModel.UserField03">
+    <value>用戶字段 3</value>
+  </data>
+  <data name="ItemModel.UserField04">
+    <value>用戶字段 4</value>
+  </data>
+  <data name="ItemModel.UserField05">
+    <value>用戶字段 5</value>
+  </data>
+  <data name="ItemModel.UserField06">
+    <value>用戶字段 6</value>
+  </data>
+  <data name="ItemModel.UserField07">
+    <value>用戶字段 7</value>
+  </data>
+  <data name="ItemModel.UserField08">
+    <value>用戶字段 8</value>
+  </data>
+  <data name="ItemModel.UserField09">
+    <value>用戶字段 9</value>
+  </data>
+  <data name="ItemModel.UserField10">
+    <value>用戶字段 10</value>
+  </data>
+  <data name="ItemModel.UserField11">
+    <value>用戶字段11</value>
+  </data>
+  <data name="ItemModel.UserField12">
+    <value>用戶字段12</value>
+  </data>
+  <data name="ItemModel.UserField13">
+    <value>用戶字段13</value>
+  </data>
+  <data name="ItemModel.UserField14">
+    <value>用戶字段14</value>
+  </data>
+  <data name="ItemModel.UserField15">
+    <value>用戶字段15</value>
+  </data>
+  <data name="ItemModel.UserField16">
+    <value>用戶字段16</value>
+  </data>
+  <data name="ItemModel.UserField17">
+    <value>用戶字段17</value>
+  </data>
+  <data name="ItemModel.UserField18">
+    <value>用戶字段18</value>
+  </data>
+  <data name="ItemModel.UserField19">
+    <value>用戶字段19</value>
+  </data>
+  <data name="ItemModel.UserField20">
+    <value>用戶字段20</value>
+  </data>
+  <data name="ItemModel.Unitcount">
+    <value>單元計數</value>
+  </data>
+  <data name="ItemModel.UomKeyId">
+    <value>單元測量</value>
+  </data>
+  <data name="ItemModel.UsagePrCode">
+    <value>使用價格代碼</value>
+  </data>
+  <data name="ItemModel.UsagePrice">
+    <value>使用價格</value>
+  </data>
+  <data name="ItemModel.Warrenty">
+    <value>保修</value>
+  </data>
+  <data name="ItemModel.Weight">
+    <value>重量</value>
+  </data>
+  <data name="ItemModel.WeightMode">
+    <value>重量模式</value>
+  </data>
+  <data name="ItemModel.Width">
+    <value>寬度</value>
+  </data>
+  <data name="PackingModel.Created">
+    <value></value>
+  </data>
+  <data name="PackingModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="PackingModel.Modified">
+    <value></value>
+  </data>
+  <data name="PackingModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="PackingModel.Color">
+    <value>顏色</value>
+  </data>
+  <data name="PackingModel.Description">
+    <value>描述</value>
+  </data>
+  <data name="PackingModel.FacKeyId">
+    <value>工廠</value>
+  </data>
+  <data name="PackingModel.FixedTime">
+    <value>固定時間</value>
+  </data>
+  <data name="PackingModel.ItemKeyId">
+    <value>物品</value>
+  </data>
+  <data name="PackingModel.KeyId">
+    <value>打包 ID</value>
+  </data>
+  <data name="PackingModel.Packing">
+    <value>打包</value>
+  </data>
+  <data name="PackingModel.RelativeTime">
+    <value>相對時間</value>
+  </data>
+  <data name="PackingModel.SealCount">
+    <value>封口數</value>
+  </data>
+  <data name="PackingModel.SealPrint">
+    <value>封口機打印輸出</value>
+  </data>
+  <data name="PackingModel.SeprgKeyId">
+    <value>封口機程序</value>
+  </data>
+  <data name="PackingModel.ShelfLife">
+    <value>保存期限</value>
+  </data>
+  <data name="PackingModel.Status">
+    <value>狀態</value>
+  </data>
+  <data name="PackingModel.TagTKeyId">
+    <value>標記類型</value>
+  </data>
+  <data name="PackingModel.Tracetype">
+    <value>包括在包列表中</value>
+  </data>
+  <data name="PackingModel.UsedFor">
+    <value>用於</value>
+  </data>
+  <data name="PackingModel.Volume">
+    <value>音量</value>
+  </data>
+  <data name="PackingModel.Weight">
+    <value>重量</value>
+  </data>
+  <data name="PackingModel.WeightDisposable">
+    <value>一次性物品重量</value>
+  </data>
+  <data name="PackingModel.WeightMode">
+    <value>重量模式</value>
+  </data>
+  <data name="PackingModel.WeightNonDisposable">
+    <value>非一次性物品重量</value>
+  </data>
+  <data name="PriceGroupModel.Created">
+    <value></value>
+  </data>
+  <data name="PriceGroupModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="PriceGroupModel.Modified">
+    <value></value>
+  </data>
+  <data name="PriceGroupModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="PriceGroupModel.Descr">
+    <value>備註</value>
+  </data>
+  <data name="PriceGroupModel.KeyId">
+    <value>價格組ID</value>
+  </data>
+  <data name="PriceGroupModel.Name">
+    <value>名稱</value>
+  </data>
+  <data name="PriceGroupModel.Price">
+    <value>價格</value>
+  </data>
+  <data name="PriceGroupModel.PriceGroup">
+    <value>價格組</value>
+  </data>
+  <data name="TimeRuleGroupModel.Created">
+    <value></value>
+  </data>
+  <data name="TimeRuleGroupModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="TimeRuleGroupModel.Modified">
+    <value></value>
+  </data>
+  <data name="TimeRuleGroupModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="TimeRuleGroupModel.FacKeyId">
+    <value>工廠</value>
+  </data>
+  <data name="TimeRuleGroupModel.Id">
+    <value>ID</value>
+  </data>
+  <data name="TimeRuleGroupModel.KeyId">
+    <value>到期時間組ID</value>
+  </data>
+  <data name="TimeRuleGroupModel.Name">
+    <value>名稱</value>
+  </data>
+  <data name="TimeRuleGroupModel.Remark">
+    <value>備註</value>
+  </data>
+  <data name="WeightPlanModel.Created">
+    <value></value>
+  </data>
+  <data name="WeightPlanModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="WeightPlanModel.Modified">
+    <value></value>
+  </data>
+  <data name="WeightPlanModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="WeightPlanModel.Descr">
+    <value>描述</value>
+  </data>
+  <data name="WeightPlanModel.KeyId">
+    <value>重量計劃</value>
+  </data>
+  <data name="WeightPlanModel.Name">
+    <value>名稱</value>
+  </data>
+  <data name="WeightPlanModel.WeightPlan">
+    <value>重量計劃</value>
+  </data>
+  <data name="ProfileModel.Created">
+    <value></value>
+  </data>
+  <data name="ProfileModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="ProfileModel.Modified">
+    <value></value>
+  </data>
+  <data name="ProfileModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="ProfileModel.AncestorKeyId">
+    <value>用戶組</value>
+  </data>
+  <data name="ProfileModel.KeyId">
+    <value>配置文件 ID</value>
+  </data>
+  <data name="ProfileModel.Name">
+    <value>名稱</value>
+  </data>
+  <data name="ProfileModel.Profile">
+    <value>配置文件</value>
+  </data>
+  <data name="ProfileModel.Type">
+    <value>類型</value>
+  </data>
+  <data name="ProfileModel.UpdateRequired">
+    <value>需要更新</value>
+  </data>
+  <data name="CalendarModel.Created">
+    <value></value>
+  </data>
+  <data name="CalendarModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="CalendarModel.Modified">
+    <value></value>
+  </data>
+  <data name="CalendarModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="CalendarModel.KeyId">
+    <value>日曆ID</value>
+  </data>
+  <data name="CalendarModel.Name">
+    <value>名稱</value>
+  </data>
+  <data name="CalendarModel.ParentCalKeyId">
+    <value>上一級</value>
+  </data>
+  <data name="StocksModel.AllowItems">
+    <value>允許的物品</value>
+  </data>
+  <data name="StocksModel.AllowNegCount">
+    <value>允許的 Neg. 倉庫計數</value>
+  </data>
+  <data name="StocksModel.AllowProducts">
+    <value>允許的產品</value>
+  </data>
+  <data name="StocksModel.AutomationMode">
+    <value>Automation mode</value>
+  </data>
+  <data name="StocksModel.AutoReorder">
+    <value>自動重新排序</value>
+  </data>
+  <data name="StocksModel.Barcode">
+    <value>條形碼</value>
+  </data>
+  <data name="StocksModel.BOInMode">
+    <value>存在延期訂單</value>
+  </data>
+  <data name="StocksModel.BOOutMode">
+    <value>不存在延期訂單</value>
+  </data>
+  <data name="StocksModel.DefIdentLineUsage">
+    <value>使用相同的文章</value>
+  </data>
+  <data name="StocksModel.Descr">
+    <value>描述</value>
+  </data>
+  <data name="StocksModel.DropItemSuppOnSugg">
+    <value>根據建議減少物品支持</value>
+  </data>
+  <data name="StocksModel.EmgCTKeyId">
+    <value>緊急情況車型</value>
+  </data>
+  <data name="StocksModel.FacKeyId">
+    <value>工廠</value>
+  </data>
+  <data name="StocksModel.IsTracestock">
+    <value>工廠追踪倉庫</value>
+  </data>
+  <data name="StocksModel.IsTransitStock">
+    <value>工廠運送倉庫</value>
+  </data>
+  <data name="StocksModel.KeyId">
+    <value>倉庫 ID</value>
+  </data>
+  <data name="StocksModel.LocaKeyId">
+    <value>位置</value>
+  </data>
+  <data name="StocksModel.Name">
+    <value>名稱</value>
+  </data>
+  <data name="StocksModel.OpTKeyId">
+    <value>手術類型</value>
+  </data>
+  <data name="StocksModel.OrderInMode">
+    <value>採購訂單接收</value>
+  </data>
+  <data name="StocksModel.PlacementMask">
+    <value>需要的位置</value>
+  </data>
+  <data name="StocksModel.PrnBackOrder">
+    <value>延期訂單</value>
+  </data>
+  <data name="StocksModel.PrnCompletedOrder">
+    <value>完成的訂單</value>
+  </data>
+  <data name="StocksModel.PrnConfirmation">
+    <value>訂單確認</value>
+  </data>
+  <data name="StocksModel.PrnDelivery">
+    <value>提貨單</value>
+  </data>
+  <data name="StocksModel.PrnPicklist">
+    <value>提取列表</value>
+  </data>
+  <data name="StocksModel.PrnReceivedOrder">
+    <value>收到的訂單</value>
+  </data>
+  <data name="StocksModel.PrnSentOrder">
+    <value>已發送訂單</value>
+  </data>
+  <data name="StocksModel.RefCustKeyId">
+    <value>所有者(客戶)</value>
+  </data>
+  <data name="StocksModel.RefFacKeyId">
+    <value>所有者(工廠)</value>
+  </data>
+  <data name="StocksModel.RefSuppKeyId">
+    <value>所有者(供應商)</value>
+  </data>
+  <data name="StocksModel.Status">
+    <value>狀態</value>
+  </data>
+  <data name="StocksModel.Stock">
+    <value>倉庫</value>
+  </data>
+  <data name="StocksModel.SuppRefFacKeyId">
+    <value>供應商 (工廠)</value>
+  </data>
+  <data name="StocksModel.SuppRefSuppKeyId">
+    <value>供應商 (供應商)</value>
+  </data>
+  <data name="StocksModel.Type">
+    <value>類型</value>
+  </data>
+  <data name="StocksModel.UserField01">
+    <value>用戶字段 1</value>
+  </data>
+  <data name="StocksModel.UserField02">
+    <value>用戶字段 2</value>
+  </data>
+  <data name="StocksModel.UserField03">
+    <value>用戶字段 3</value>
+  </data>
+  <data name="StocksModel.UserField04">
+    <value>用戶字段 4</value>
+  </data>
+  <data name="StocksModel.UserField05">
+    <value>用戶字段 5</value>
+  </data>
+  <data name="StocksModel.UserField06">
+    <value>用戶字段 6</value>
+  </data>
+  <data name="StocksModel.UserField07">
+    <value>用戶字段 7</value>
+  </data>
+  <data name="StocksModel.UserField08">
+    <value>用戶字段 8</value>
+  </data>
+  <data name="StocksModel.UserField09">
+    <value>用戶字段 9</value>
+  </data>
+  <data name="StocksModel.UserField10">
+    <value>用戶字段 10</value>
+  </data>
+  <data name="StocksModel.UserField11">
+    <value>用戶字段11</value>
+  </data>
+  <data name="StocksModel.UserField12">
+    <value>用戶字段12</value>
+  </data>
+  <data name="StocksModel.UserField13">
+    <value>用戶字段13</value>
+  </data>
+  <data name="StocksModel.UserField14">
+    <value>用戶字段14</value>
+  </data>
+  <data name="StocksModel.UserField15">
+    <value>用戶字段15</value>
+  </data>
+  <data name="StocksModel.UserField16">
+    <value>用戶字段16</value>
+  </data>
+  <data name="StocksModel.UserField17">
+    <value>用戶字段17</value>
+  </data>
+  <data name="StocksModel.UserField18">
+    <value>用戶字段18</value>
+  </data>
+  <data name="StocksModel.UserField19">
+    <value>用戶字段19</value>
+  </data>
+  <data name="StocksModel.UserField20">
+    <value>用戶字段20</value>
+  </data>
+  <data name="StockGroupModel.Created">
+    <value></value>
+  </data>
+  <data name="StockGroupModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="StockGroupModel.Modified">
+    <value></value>
+  </data>
+  <data name="StockGroupModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="StockGroupModel.Descr">
+    <value>描述</value>
+  </data>
+  <data name="StockGroupModel.KeyId">
+    <value>倉庫組ID</value>
+  </data>
+  <data name="StockGroupModel.Name">
+    <value>名稱</value>
+  </data>
+  <data name="StockGroupModel.StockGroup">
+    <value>倉庫組</value>
+  </data>
+  <data name="ProcessModel.ApproveTime">
+    <value>已批准</value>
+  </data>
+  <data name="ProcessModel.ApproveUserKeyId">
+    <value>批准人</value>
+  </data>
+  <data name="ProcessModel.Batch">
+    <value>鍋次</value>
+  </data>
+  <data name="ProcessModel.Charge">
+    <value>週期</value>
+  </data>
+  <data name="ProcessModel.DisapproveUserKeyId">
+    <value>否決人</value>
+  </data>
+  <data name="ProcessModel.EndTime">
+    <value>已結束</value>
+  </data>
+  <data name="ProcessModel.Envhumidity">
+    <value>環境濕度</value>
+  </data>
+  <data name="ProcessModel.Envpressure">
+    <value>環境壓力</value>
+  </data>
+  <data name="ProcessModel.Envtemp">
+    <value>環境溫度</value>
+  </data>
+  <data name="ProcessModel.Error">
+    <value>T-DOC錯誤</value>
+  </data>
+  <data name="ProcessModel.ExternalBatchNo">
+    <value>外部鍋次號</value>
+  </data>
+  <data name="ProcessModel.InitiateTime">
+    <value>已發起</value>
+  </data>
+  <data name="ProcessModel.InitiatorUserKeyId">
+    <value>創建人</value>
+  </data>
+  <data name="ProcessModel.LoadNumber">
+    <value>裝載編號</value>
+  </data>
+  <data name="ProcessModel.MachKeyId">
+    <value>機器</value>
+  </data>
+  <data name="ProcessModel.NativeError">
+    <value>機器錯誤</value>
+  </data>
+  <data name="ProcessModel.NativeErrortext">
+    <value>機器文本</value>
+  </data>
+  <data name="ProcessModel.ProgKeyId">
+    <value>程序</value>
+  </data>
+  <data name="ProcessModel.ScanRefPreKeyId">
+    <value>掃描的方法</value>
+  </data>
+  <data name="ProcessModel.ScanRefProgKeyId">
+    <value>掃描的程序</value>
+  </data>
+  <data name="ProcessModel.SecondApproveComment">
+    <value>註釋</value>
+  </data>
+  <data name="ProcessModel.SecondApproveUserKeyId">
+    <value>Second approval</value>
+  </data>
+  <data name="ProcessModel.StartTime">
+    <value>已啟動</value>
+  </data>
+  <data name="ProcessModel.StartTime2">
+    <value>已啟動2</value>
+  </data>
+  <data name="ProcessModel.Status">
+    <value>狀態</value>
+  </data>
+  <data name="ProcessModel.Type">
+    <value>類型</value>
+  </data>
+  <data name="SupplierModel.Created">
+    <value></value>
+  </data>
+  <data name="SupplierModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="SupplierModel.Modified">
+    <value></value>
+  </data>
+  <data name="SupplierModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="SupplierModel.Acceptorders">
+    <value>接受購買訂單</value>
+  </data>
+  <data name="SupplierModel.Address1">
+    <value>地址</value>
+  </data>
+  <data name="SupplierModel.Address2">
+    <value>地點(2)</value>
+  </data>
+  <data name="SupplierModel.Barcode">
+    <value>條形碼</value>
+  </data>
+  <data name="SupplierModel.CalKeyId">
+    <value>日曆</value>
+  </data>
+  <data name="SupplierModel.City">
+    <value>郵編/城市</value>
+  </data>
+  <data name="SupplierModel.Country">
+    <value>國家(地區)</value>
+  </data>
+  <data name="SupplierModel.Email">
+    <value>電子郵件</value>
+  </data>
+  <data name="SupplierModel.FacKeyId">
+    <value>工廠</value>
+  </data>
+  <data name="SupplierModel.Fax">
+    <value>傳真</value>
+  </data>
+  <data name="SupplierModel.Flags1">
+    <value>選項</value>
+  </data>
+  <data name="SupplierModel.Internal">
+    <value>內部</value>
+  </data>
+  <data name="SupplierModel.KeyId">
+    <value>供應商 ID</value>
+  </data>
+  <data name="SupplierModel.Name">
+    <value>名稱</value>
+  </data>
+  <data name="SupplierModel.OrderDelTime">
+    <value>訂單發送時間</value>
+  </data>
+  <data name="SupplierModel.OrderHandlingTime">
+    <value>訂單處理時間</value>
+  </data>
+  <data name="SupplierModel.OrderRampTime">
+    <value>訂購斜坡時間</value>
+  </data>
+  <data name="SupplierModel.OrderTransmitTime">
+    <value>訂單傳輸時間</value>
+  </data>
+  <data name="SupplierModel.OwnCustNumber">
+    <value>專有編號</value>
+  </data>
+  <data name="SupplierModel.Remark">
+    <value>備註</value>
+  </data>
+  <data name="SupplierModel.RepairVendorKeyId">
+    <value>修理供應商</value>
+  </data>
+  <data name="SupplierModel.Status">
+    <value>狀態</value>
+  </data>
+  <data name="SupplierModel.Supplier">
+    <value>供應商</value>
+  </data>
+  <data name="SupplierModel.Telephone">
+    <value>電話</value>
+  </data>
+  <data name="SupplierModel.Type">
+    <value>類型</value>
+  </data>
+  <data name="SupplierModel.UserField01">
+    <value>用戶字段 1</value>
+  </data>
+  <data name="SupplierModel.UserField02">
+    <value>用戶字段 2</value>
+  </data>
+  <data name="SupplierModel.UserField03">
+    <value>用戶字段 3</value>
+  </data>
+  <data name="SupplierModel.UserField04">
+    <value>用戶字段 4</value>
+  </data>
+  <data name="SupplierModel.UserField05">
+    <value>用戶字段 5</value>
+  </data>
+  <data name="SupplierModel.UserField06">
+    <value>用戶字段 6</value>
+  </data>
+  <data name="SupplierModel.UserField07">
+    <value>用戶字段 7</value>
+  </data>
+  <data name="SupplierModel.UserField08">
+    <value>用戶字段 8</value>
+  </data>
+  <data name="SupplierModel.UserField09">
+    <value>用戶字段 9</value>
+  </data>
+  <data name="SupplierModel.UserField10">
+    <value>用戶字段 10</value>
+  </data>
+  <data name="SupplierModel.UserField11">
+    <value>用戶字段11</value>
+  </data>
+  <data name="SupplierModel.UserField12">
+    <value>用戶字段12</value>
+  </data>
+  <data name="SupplierModel.UserField13">
+    <value>用戶字段13</value>
+  </data>
+  <data name="SupplierModel.UserField14">
+    <value>用戶字段14</value>
+  </data>
+  <data name="SupplierModel.UserField15">
+    <value>用戶字段15</value>
+  </data>
+  <data name="SupplierModel.UserField16">
+    <value>用戶字段16</value>
+  </data>
+  <data name="SupplierModel.UserField17">
+    <value>用戶字段17</value>
+  </data>
+  <data name="SupplierModel.UserField18">
+    <value>用戶字段18</value>
+  </data>
+  <data name="SupplierModel.UserField19">
+    <value>用戶字段19</value>
+  </data>
+  <data name="SupplierModel.UserField20">
+    <value>用戶字段20</value>
+  </data>
+  <data name="SupplierModel.WebPassword">
+    <value>Web / FTP密碼</value>
+  </data>
+  <data name="SupplierModel.WebSite">
+    <value>網站</value>
+  </data>
+  <data name="SupplierModel.WebUser">
+    <value>Web / FTP用戶</value>
+  </data>
+  <data name="LocationModel.Created">
+    <value></value>
+  </data>
+  <data name="LocationModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="LocationModel.Modified">
+    <value></value>
+  </data>
+  <data name="LocationModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="LocationModel.AutoStokKeyId">
+    <value>耗材倉庫</value>
+  </data>
+  <data name="LocationModel.Barcode">
+    <value>條形碼</value>
+  </data>
+  <data name="LocationModel.DefUserKeyId">
+    <value>默認用戶</value>
+  </data>
+  <data name="LocationModel.Descr">
+    <value>描述</value>
+  </data>
+  <data name="LocationModel.Direction">
+    <value>方向</value>
+  </data>
+  <data name="LocationModel.FacKeyId">
+    <value>工廠</value>
+  </data>
+  <data name="LocationModel.Flags">
+    <value>標記</value>
+  </data>
+  <data name="LocationModel.IdlemacroKeyId">
+    <value>空閒宏</value>
+  </data>
+  <data name="LocationModel.Idlemacrotime">
+    <value>空閒宏時間</value>
+  </data>
+  <data name="LocationModel.Info">
+    <value>信息</value>
+  </data>
+  <data name="LocationModel.IsMaster">
+    <value>是否為主位置</value>
+  </data>
+  <data name="LocationModel.KeyId">
+    <value>位置 ID</value>
+  </data>
+  <data name="LocationModel.MacroKeyId">
+    <value>宏</value>
+  </data>
+  <data name="LocationModel.MasterLocaKeyId">
+    <value>主位置</value>
+  </data>
+  <data name="LocationModel.MesConfig">
+    <value>MES configuration</value>
+  </data>
+  <data name="LocationModel.Name">
+    <value>名稱</value>
+  </data>
+  <data name="LocationModel.Process">
+    <value>處理</value>
+  </data>
+  <data name="LocationModel.ProcessOpt">
+    <value>處理選項</value>
+  </data>
+  <data name="LocationModel.Status">
+    <value>狀態</value>
+  </data>
+  <data name="LocationModel.StokKeyId">
+    <value>倉庫</value>
+  </data>
+  <data name="LocationModel.SubProcess">
+    <value>Subprocess</value>
+  </data>
+  <data name="LocationModel.Tag">
+    <value>標記</value>
+  </data>
+  <data name="LocationModel.UIAvailability">
+    <value>可用性</value>
+  </data>
+  <data name="LocationModel.UiLdKeyId">
+    <value>UI層</value>
+  </data>
+  <data name="LocationModel.UIStartMode">
+    <value>掃描儀UI啟動模式</value>
+  </data>
+  <data name="FixedStockPlacementsModel.KeyId">
+    <value>固定倉庫位置ID</value>
+  </data>
+  <data name="FixedStockPlacementsModel.Name">
+    <value>名稱</value>
+  </data>
+  <data name="FixedStockPlacementsModel.Placement">
+    <value>位置</value>
+  </data>
+  <data name="FixedStockPlacementsModel.StokKeyId">
+    <value>倉庫</value>
+  </data>
+  <data name="TextModel.Created">
+    <value></value>
+  </data>
+  <data name="TextModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="TextModel.Modified">
+    <value></value>
+  </data>
+  <data name="TextModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="TextModel.Data">
+    <value>數據</value>
+  </data>
+  <data name="TextModel.FloatOption">
+    <value>值</value>
+  </data>
+  <data name="TextModel.KeyId">
+    <value>文本ID</value>
+  </data>
+  <data name="TextModel.Memo">
+    <value>描述</value>
+  </data>
+  <data name="TextModel.Number">
+    <value>編號</value>
+  </data>
+  <data name="TextModel.Option">
+    <value>選項</value>
+  </data>
+  <data name="TextModel.SysOption">
+    <value>系統選項</value>
+  </data>
+  <data name="TextModel.Text">
+    <value>文本</value>
+  </data>
+  <data name="TextModel.Type">
+    <value>類型</value>
+  </data>
+  <data name="LocationGroupModel.Created">
+    <value></value>
+  </data>
+  <data name="LocationGroupModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="LocationGroupModel.Modified">
+    <value></value>
+  </data>
+  <data name="LocationGroupModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="LocationGroupModel.Descr">
+    <value>描述</value>
+  </data>
+  <data name="LocationGroupModel.KeyId">
+    <value>位置組 ID</value>
+  </data>
+  <data name="LocationGroupModel.LocationGroup">
+    <value>位置組</value>
+  </data>
+  <data name="LocationGroupModel.Name">
+    <value>名稱</value>
+  </data>
+  <data name="LocationGroupModel.Vicinity">
+    <value>Vicinity</value>
+  </data>
+  <data name="CatalogModel.Created">
+    <value></value>
+  </data>
+  <data name="CatalogModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="CatalogModel.Modified">
+    <value></value>
+  </data>
+  <data name="CatalogModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="CatalogModel.CatalogNo">
+    <value>目錄編號</value>
+  </data>
+  <data name="CatalogModel.CostPrice">
+    <value>成本價格</value>
+  </data>
+  <data name="CatalogModel.Disposable">
+    <value>一次性物品</value>
+  </data>
+  <data name="CatalogModel.ItGrpKeyId">
+    <value>物品組</value>
+  </data>
+  <data name="CatalogModel.ItspcKeyId">
+    <value>科別</value>
+  </data>
+  <data name="CatalogModel.KeyId">
+    <value>目錄 ID</value>
+  </data>
+  <data name="CatalogModel.Length">
+    <value>長度</value>
+  </data>
+  <data name="CatalogModel.LifeSpan">
+    <value>使用壽命</value>
+  </data>
+  <data name="CatalogModel.ManufactorNo">
+    <value>製造商編號</value>
+  </data>
+  <data name="CatalogModel.ManuKeyId">
+    <value>製造商</value>
+  </data>
+  <data name="CatalogModel.Material">
+    <value>材料</value>
+  </data>
+  <data name="CatalogModel.MaterialsNum">
+    <value>材料編號</value>
+  </data>
+  <data name="CatalogModel.MaxPressure">
+    <value>最大壓力</value>
+  </data>
+  <data name="CatalogModel.MaxTemp">
+    <value>最高溫度</value>
+  </data>
+  <data name="CatalogModel.OrderMinCount">
+    <value>最小訂貨數</value>
+  </data>
+  <data name="CatalogModel.OrderStdCount">
+    <value>訂貨包裝容量</value>
+  </data>
+  <data name="CatalogModel.OrderstduomKeyId">
+    <value>訂貨包裝單位</value>
+  </data>
+  <data name="CatalogModel.OtherUnitCount">
+    <value>備用單元計數</value>
+  </data>
+  <data name="CatalogModel.OtheruomKeyId">
+    <value>備用單元測量</value>
+  </data>
+  <data name="CatalogModel.RepairVendorKeyId">
+    <value>修理供應商</value>
+  </data>
+  <data name="CatalogModel.SterilizationType">
+    <value>滅菌類型</value>
+  </data>
+  <data name="CatalogModel.SuppKeyId">
+    <value>供應商</value>
+  </data>
+  <data name="CatalogModel.Text">
+    <value>名稱</value>
+  </data>
+  <data name="CatalogModel.Tip">
+    <value>提示</value>
+  </data>
+  <data name="CatalogModel.UnitCount">
+    <value>單元計數</value>
+  </data>
+  <data name="CatalogModel.UomKeyId">
+    <value>單元測量</value>
+  </data>
+  <data name="CatalogModel.Warranty">
+    <value>保修</value>
+  </data>
+  <data name="CatalogModel.Weight">
+    <value>重量</value>
+  </data>
+  <data name="CatalogModel.Width">
+    <value>寬度</value>
+  </data>
+  <data name="ItemGroupModel.Descr">
+    <value>描述</value>
+  </data>
+  <data name="ItemGroupModel.FacKeyId">
+    <value>工廠</value>
+  </data>
+  <data name="ItemGroupModel.ItemGroup">
+    <value>物品組</value>
+  </data>
+  <data name="ItemGroupModel.KeyId">
+    <value>物品組 ID</value>
+  </data>
+  <data name="ItemGroupModel.Name">
+    <value>名稱</value>
+  </data>
+  <data name="ItemGroupModel.PricingType">
+    <value>價格類型</value>
+  </data>
+  <data name="ItemSpecialtyModel.Descr">
+    <value>描述</value>
+  </data>
+  <data name="ItemSpecialtyModel.FacKeyId">
+    <value>工廠</value>
+  </data>
+  <data name="ItemSpecialtyModel.KeyId">
+    <value>科別 ID</value>
+  </data>
+  <data name="ItemSpecialtyModel.Name">
+    <value>名稱</value>
+  </data>
+  <data name="ItemSpecialtyModel.Specialty">
+    <value>科別</value>
+  </data>
+  <data name="ItemUOMModel.Descr">
+    <value>描述</value>
+  </data>
+  <data name="ItemUOMModel.KeyId">
+    <value>測量單元 ID</value>
+  </data>
+  <data name="ItemUOMModel.Name">
+    <value>名稱</value>
+  </data>
+  <data name="ItemUOMModel.Uom">
+    <value>測量單元</value>
+  </data>
+  <data name="TagTypeModel.Created">
+    <value></value>
+  </data>
+  <data name="TagTypeModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="TagTypeModel.Modified">
+    <value></value>
+  </data>
+  <data name="TagTypeModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="TagTypeModel.Descr">
+    <value>備註</value>
+  </data>
+  <data name="TagTypeModel.Height">
+    <value>高度</value>
+  </data>
+  <data name="TagTypeModel.HeightCapacity">
+    <value>Height capacity</value>
+  </data>
+  <data name="TagTypeModel.HoldsItems">
+    <value>Holds items</value>
+  </data>
+  <data name="TagTypeModel.InTTGKeyId">
+    <value>Identical tag type group</value>
+  </data>
+  <data name="TagTypeModel.KeyId">
+    <value>Tag type ID</value>
+  </data>
+  <data name="TagTypeModel.Name">
+    <value>名稱</value>
+  </data>
+  <data name="TagTypeModel.SuppKeyId">
+    <value>修理供應商</value>
+  </data>
+  <data name="TagTypeModel.SysType">
+    <value>系統類型</value>
+  </data>
+  <data name="TagTypeModel.Type">
+    <value>類型</value>
+  </data>
+  <data name="TagTypeModel.UserField01">
+    <value>用戶字段 1</value>
+  </data>
+  <data name="TagTypeModel.UserField02">
+    <value>用戶字段 2</value>
+  </data>
+  <data name="TagTypeModel.UserField03">
+    <value>用戶字段 3</value>
+  </data>
+  <data name="TagTypeModel.UserField04">
+    <value>用戶字段 4</value>
+  </data>
+  <data name="TagTypeModel.UserField05">
+    <value>用戶字段 5</value>
+  </data>
+  <data name="TagTypeModel.UserField06">
+    <value>用戶字段 6</value>
+  </data>
+  <data name="TagTypeModel.UserField07">
+    <value>用戶字段 7</value>
+  </data>
+  <data name="TagTypeModel.UserField08">
+    <value>用戶字段 8</value>
+  </data>
+  <data name="TagTypeModel.UserField09">
+    <value>用戶字段 9</value>
+  </data>
+  <data name="TagTypeModel.UserField10">
+    <value>用戶字段 10</value>
+  </data>
+  <data name="TagTypeModel.UserField11">
+    <value>用戶字段11</value>
+  </data>
+  <data name="TagTypeModel.UserField12">
+    <value>用戶字段12</value>
+  </data>
+  <data name="TagTypeModel.UserField13">
+    <value>用戶字段13</value>
+  </data>
+  <data name="TagTypeModel.UserField14">
+    <value>用戶字段14</value>
+  </data>
+  <data name="TagTypeModel.UserField15">
+    <value>用戶字段15</value>
+  </data>
+  <data name="TagTypeModel.UserField16">
+    <value>用戶字段16</value>
+  </data>
+  <data name="TagTypeModel.UserField17">
+    <value>用戶字段17</value>
+  </data>
+  <data name="TagTypeModel.UserField18">
+    <value>用戶字段18</value>
+  </data>
+  <data name="TagTypeModel.UserField19">
+    <value>用戶字段19</value>
+  </data>
+  <data name="TagTypeModel.UserField20">
+    <value>用戶字段20</value>
+  </data>
+  <data name="TagTypeModel.Width">
+    <value>寬度</value>
+  </data>
+  <data name="TagTypeModel.WidthCapacity">
+    <value>Width capacity</value>
+  </data>
+  <data name="SealerProgramModel.Created">
+    <value></value>
+  </data>
+  <data name="SealerProgramModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="SealerProgramModel.Modified">
+    <value></value>
+  </data>
+  <data name="SealerProgramModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="SealerProgramModel.KeyId">
+    <value>封口機程序ID</value>
+  </data>
+  <data name="SealerProgramModel.Name">
+    <value>名稱</value>
+  </data>
+  <data name="SealerProgramModel.Pres">
+    <value>壓力</value>
+  </data>
+  <data name="SealerProgramModel.Program">
+    <value>程序</value>
+  </data>
+  <data name="SealerProgramModel.Temp">
+    <value>溫度</value>
+  </data>
+  <data name="EmgCaseCartTypeModel.Created">
+    <value></value>
+  </data>
+  <data name="EmgCaseCartTypeModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="EmgCaseCartTypeModel.Modified">
+    <value></value>
+  </data>
+  <data name="EmgCaseCartTypeModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="EmgCaseCartTypeModel.CuSiteKeyId">
+    <value>客戶場所</value>
+  </data>
+  <data name="EmgCaseCartTypeModel.Descr">
+    <value>備註</value>
+  </data>
+  <data name="EmgCaseCartTypeModel.Id">
+    <value>類型</value>
+  </data>
+  <data name="EmgCaseCartTypeModel.KeyId">
+    <value>鍵ID</value>
+  </data>
+  <data name="EmgCaseCartTypeModel.Name">
+    <value>名稱</value>
+  </data>
+  <data name="EmgCaseCartTypeModel.OptKeyId">
+    <value>手術類型</value>
+  </data>
+  <data name="OperationTypeModel.Created">
+    <value></value>
+  </data>
+  <data name="OperationTypeModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="OperationTypeModel.Modified">
+    <value></value>
+  </data>
+  <data name="OperationTypeModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="OperationTypeModel.AssDoctorCount">
+    <value>協助醫生計數</value>
+  </data>
+  <data name="OperationTypeModel.Cleanup">
+    <value>清理</value>
+  </data>
+  <data name="OperationTypeModel.CntpsKeyId">
+    <value>計數點組 </value>
+  </data>
+  <data name="OperationTypeModel.Code">
+    <value>代碼</value>
+  </data>
+  <data name="OperationTypeModel.DefcustKeyId">
+    <value>標準客戶</value>
+  </data>
+  <data name="OperationTypeModel.DefcuststokKeyId">
+    <value>標準客戶倉庫</value>
+  </data>
+  <data name="OperationTypeModel.DefroomKeyId">
+    <value>房間</value>
+  </data>
+  <data name="OperationTypeModel.Desc">
+    <value>描述</value>
+  </data>
+  <data name="OperationTypeModel.Duration">
+    <value>持續時間:</value>
+  </data>
+  <data name="OperationTypeModel.KeyId">
+    <value>手術類型 ID</value>
+  </data>
+  <data name="OperationTypeModel.MinOrderLeadTime">
+    <value>最小。 訂貨時間</value>
+  </data>
+  <data name="OperationTypeModel.Name">
+    <value>名稱</value>
+  </data>
+  <data name="OperationTypeModel.PatAgeUsage">
+    <value>患者年齡使用</value>
+  </data>
+  <data name="OperationTypeModel.PatGenderUsage">
+    <value>患者性別使用</value>
+  </data>
+  <data name="OperationTypeModel.Prepare">
+    <value>準備</value>
+  </data>
+  <data name="OperationTypeModel.Status">
+    <value>狀態</value>
+  </data>
+  <data name="OperationTypeModel.Type">
+    <value>模板類型</value>
+  </data>
+  <data name="OperationTypeModel.UserField01">
+    <value>用戶字段 1</value>
+  </data>
+  <data name="OperationTypeModel.UserField02">
+    <value>用戶字段 2</value>
+  </data>
+  <data name="OperationTypeModel.UserField03">
+    <value>用戶字段 3</value>
+  </data>
+  <data name="OperationTypeModel.UserField04">
+    <value>用戶字段 4</value>
+  </data>
+  <data name="OperationTypeModel.UserField05">
+    <value>用戶字段 5</value>
+  </data>
+  <data name="OperationTypeModel.UserField06">
+    <value>用戶字段 6</value>
+  </data>
+  <data name="OperationTypeModel.UserField07">
+    <value>用戶字段 7</value>
+  </data>
+  <data name="OperationTypeModel.UserField08">
+    <value>用戶字段 8</value>
+  </data>
+  <data name="OperationTypeModel.UserField09">
+    <value>用戶字段 9</value>
+  </data>
+  <data name="OperationTypeModel.UserField10">
+    <value>用戶字段 10</value>
+  </data>
+  <data name="OperationTypeModel.UserField11">
+    <value>用戶字段11</value>
+  </data>
+  <data name="OperationTypeModel.UserField12">
+    <value>用戶字段12</value>
+  </data>
+  <data name="OperationTypeModel.UserField13">
+    <value>用戶字段13</value>
+  </data>
+  <data name="OperationTypeModel.UserField14">
+    <value>用戶字段14</value>
+  </data>
+  <data name="OperationTypeModel.UserField15">
+    <value>用戶字段15</value>
+  </data>
+  <data name="OperationTypeModel.UserField16">
+    <value>用戶字段16</value>
+  </data>
+  <data name="OperationTypeModel.UserField17">
+    <value>用戶字段17</value>
+  </data>
+  <data name="OperationTypeModel.UserField18">
+    <value>用戶字段18</value>
+  </data>
+  <data name="OperationTypeModel.UserField19">
+    <value>用戶字段19</value>
+  </data>
+  <data name="OperationTypeModel.UserField20">
+    <value>用戶字段20</value>
+  </data>
+  <data name="MachineModel.Created">
+    <value></value>
+  </data>
+  <data name="MachineModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="MachineModel.Modified">
+    <value></value>
+  </data>
+  <data name="MachineModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="MachineModel.ActualProgramCheck">
+    <value>檢查掃描的/實際的程序</value>
+  </data>
+  <data name="MachineModel.AgsKeyId">
+    <value>AGS </value>
+  </data>
+  <data name="MachineModel.Alertdelay">
+    <value>警告延遲</value>
+  </data>
+  <data name="MachineModel.AllowBatch">
+    <value>允許鍋次登記</value>
+  </data>
+  <data name="MachineModel.AllowDataExport">
+    <value>允許數據導出</value>
+  </data>
+  <data name="MachineModel.AllowLog">
+    <value>允許數據記錄</value>
+  </data>
+  <data name="MachineModel.Barcode">
+    <value>條形碼</value>
+  </data>
+  <data name="MachineModel.Chargenummode">
+    <value>收費編號</value>
+  </data>
+  <data name="MachineModel.ConfData">
+    <value>配置數據</value>
+  </data>
+  <data name="MachineModel.CycleCount">
+    <value>循環計數</value>
+  </data>
+  <data name="MachineModel.DefProgFromModel">
+    <value>Use Machine model setting</value>
+  </data>
+  <data name="MachineModel.DefProgKeyId">
+    <value>程序</value>
+  </data>
+  <data name="MachineModel.DestApproveLocaKeyId">
+    <value>Approval destination</value>
+  </data>
+  <data name="MachineModel.DestDisapproveLocaKeyId">
+    <value>Disapproval destination</value>
+  </data>
+  <data name="MachineModel.DestEndErrorLocaKeyId">
+    <value>Process end error destination</value>
+  </data>
+  <data name="MachineModel.DestEndLocaKeyId">
+    <value>Process end destination</value>
+  </data>
+  <data name="MachineModel.Info">
+    <value>信息</value>
+  </data>
+  <data name="MachineModel.InitBatchCount">
+    <value>最多啟動鍋次</value>
+  </data>
+  <data name="MachineModel.KeyId">
+    <value>機器 ID</value>
+  </data>
+  <data name="MachineModel.LastCycleCount">
+    <value>最後一個Cycle計數</value>
+  </data>
+  <data name="MachineModel.LastMinutesOn">
+    <value>最近啟動分鐘數</value>
+  </data>
+  <data name="MachineModel.LastMinutesRun">
+    <value>最近運行分鐘數</value>
+  </data>
+  <data name="MachineModel.LoadOnStart">
+    <value>Use Load tag</value>
+  </data>
+  <data name="MachineModel.LogBatchContent">
+    <value>記錄批量內容</value>
+  </data>
+  <data name="MachineModel.McTypKeyId">
+    <value>型號</value>
+  </data>
+  <data name="MachineModel.MinutesOn">
+    <value>開始時間</value>
+  </data>
+  <data name="MachineModel.MinutesRun">
+    <value>運行時間</value>
+  </data>
+  <data name="MachineModel.Name">
+    <value>名稱</value>
+  </data>
+  <data name="MachineModel.Prescan">
+    <value>前期掃描</value>
+  </data>
+  <data name="MachineModel.PrintLabelApprove">
+    <value>已批准打印標籤</value>
+  </data>
+  <data name="MachineModel.PrintLabelDisappr">
+    <value>未批准打印標籤</value>
+  </data>
+  <data name="MachineModel.PrintLabelEnd">
+    <value>打印標籤已結束</value>
+  </data>
+  <data name="MachineModel.PrintLabelInit">
+    <value>打印標籤已開始</value>
+  </data>
+  <data name="MachineModel.PrintLabelStart">
+    <value>打印標籤已開始</value>
+  </data>
+  <data name="MachineModel.PrintLabelStickers">
+    <value>打印多個標籤</value>
+  </data>
+  <data name="MachineModel.PrintListApprove">
+    <value>已批准打印列表</value>
+  </data>
+  <data name="MachineModel.PrintListDisappr">
+    <value>未批准打印列表</value>
+  </data>
+  <data name="MachineModel.PrintListEnd">
+    <value>打印列表已結束</value>
+  </data>
+  <data name="MachineModel.PrintListInit">
+    <value>打印列表已開始</value>
+  </data>
+  <data name="MachineModel.PrintListStart">
+    <value>打印列表已開始</value>
+  </data>
+  <data name="MachineModel.PrintNativePdf">
+    <value>Print native PDF</value>
+  </data>
+  <data name="MachineModel.RefNum">
+    <value>參考編號</value>
+  </data>
+  <data name="MachineModel.SerialNo">
+    <value>序列號</value>
+  </data>
+  <data name="MachineModel.ShiftToHours">
+    <value>Internal data</value>
+  </data>
+  <data name="MachineModel.Text">
+    <value>文本</value>
+  </data>
+  <data name="MachineModel.Updateinterval">
+    <value>數據更新間隔</value>
+  </data>
+  <data name="MachineModel.Warnemptybatch">
+    <value>空鍋次警告</value>
+  </data>
+  <data name="ProgramModel.Created">
+    <value></value>
+  </data>
+  <data name="ProgramModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="ProgramModel.Modified">
+    <value></value>
+  </data>
+  <data name="ProgramModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="ProgramModel.Approval">
+    <value>批准</value>
+  </data>
+  <data name="ProgramModel.Barcode">
+    <value>條形碼</value>
+  </data>
+  <data name="ProgramModel.CheckInitiated">
+    <value>手動初始</value>
+  </data>
+  <data name="ProgramModel.ConsumCost">
+    <value>消費</value>
+  </data>
+  <data name="ProgramModel.DeprecCost">
+    <value>折舊</value>
+  </data>
+  <data name="ProgramModel.Description">
+    <value>描述</value>
+  </data>
+  <data name="ProgramModel.Duration">
+    <value>週期持續時間</value>
+  </data>
+  <data name="ProgramModel.ExtLogRequired">
+    <value>需外部日誌</value>
+  </data>
+  <data name="ProgramModel.FilterDeltaP">
+    <value>過濾器變化壓力</value>
+  </data>
+  <data name="ProgramModel.FilterDeltaT">
+    <value>過濾器變化溫度</value>
+  </data>
+  <data name="ProgramModel.FilterTime1">
+    <value>過濾時間 1</value>
+  </data>
+  <data name="ProgramModel.FilterTime2">
+    <value>過濾時間 2</value>
+  </data>
+  <data name="ProgramModel.InternalParams">
+    <value>內部參數</value>
+  </data>
+  <data name="ProgramModel.KeyId">
+    <value>程序 ID</value>
+  </data>
+  <data name="ProgramModel.LogRef">
+    <value>參考日誌</value>
+  </data>
+  <data name="ProgramModel.MaxTemp">
+    <value>最高溫度</value>
+  </data>
+  <data name="ProgramModel.McTypKeyId">
+    <value>機器型號</value>
+  </data>
+  <data name="ProgramModel.Name">
+    <value>名稱</value>
+  </data>
+  <data name="ProgramModel.Password">
+    <value>密碼</value>
+  </data>
+  <data name="ProgramModel.PreHiPres">
+    <value>前期高壓力</value>
+  </data>
+  <data name="ProgramModel.PreHiTemp">
+    <value>前期高溫度</value>
+  </data>
+  <data name="ProgramModel.PreLowPres">
+    <value>前期低壓力</value>
+  </data>
+  <data name="ProgramModel.PreLowTemp">
+    <value>前期低溫度</value>
+  </data>
+  <data name="ProgramModel.PrePulses">
+    <value>前脈衝</value>
+  </data>
+  <data name="ProgramModel.Price">
+    <value>價格</value>
+  </data>
+  <data name="ProgramModel.Program">
+    <value>程序</value>
+  </data>
+  <data name="ProgramModel.QSetKeyId">
+    <value>問題集</value>
+  </data>
+  <data name="ProgramModel.ReportName">
+    <value>報告名稱</value>
+  </data>
+  <data name="ProgramModel.ScanNum">
+    <value>內部編號</value>
+  </data>
+  <data name="ProgramModel.SecondUserApproval">
+    <value>Second approval required</value>
+  </data>
+  <data name="ProgramModel.SterilePres">
+    <value>暴露壓力</value>
+  </data>
+  <data name="ProgramModel.SterileSeconds">
+    <value>暴露時間</value>
+  </data>
+  <data name="ProgramModel.SterileTemp">
+    <value>暴露溫度</value>
+  </data>
+  <data name="ProgramModel.Type">
+    <value>類型</value>
+  </data>
+  <data name="ProgramModel.UtilityCost">
+    <value>工具</value>
+  </data>
+  <data name="ProgramModel.Validate">
+    <value>驗證</value>
+  </data>
+  <data name="ProgramRecipeModel.Created">
+    <value></value>
+  </data>
+  <data name="ProgramRecipeModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="ProgramRecipeModel.Modified">
+    <value></value>
+  </data>
+  <data name="ProgramRecipeModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="ProgramRecipeModel.Approval">
+    <value>批准</value>
+  </data>
+  <data name="ProgramRecipeModel.Description">
+    <value>描述</value>
+  </data>
+  <data name="ProgramRecipeModel.Duration">
+    <value>持續時間:</value>
+  </data>
+  <data name="ProgramRecipeModel.KeyId">
+    <value>程序方法 ID</value>
+  </data>
+  <data name="ProgramRecipeModel.Leqfilling">
+    <value>填寫</value>
+  </data>
+  <data name="ProgramRecipeModel.LeqKeyId">
+    <value>裝載設備</value>
+  </data>
+  <data name="ProgramRecipeModel.LogRef">
+    <value>參考日誌</value>
+  </data>
+  <data name="ProgramRecipeModel.Maxgravity">
+    <value>最大重量</value>
+  </data>
+  <data name="ProgramRecipeModel.MaxTemp">
+    <value>最高溫度</value>
+  </data>
+  <data name="ProgramRecipeModel.Mingravity">
+    <value>最小重量</value>
+  </data>
+  <data name="ProgramRecipeModel.Name">
+    <value>名稱</value>
+  </data>
+  <data name="ProgramRecipeModel.Origin">
+    <value>來源</value>
+  </data>
+  <data name="ProgramRecipeModel.Original">
+    <value>最初的</value>
+  </data>
+  <data name="ProgramRecipeModel.Posttreat">
+    <value>後期處理</value>
+  </data>
+  <data name="ProgramRecipeModel.PreHiPres">
+    <value>前期高壓力</value>
+  </data>
+  <data name="ProgramRecipeModel.PreHiTemp">
+    <value>前期高溫度</value>
+  </data>
+  <data name="ProgramRecipeModel.PreLowPres">
+    <value>前期低壓力</value>
+  </data>
+  <data name="ProgramRecipeModel.PreLowTemp">
+    <value>前期低溫度</value>
+  </data>
+  <data name="ProgramRecipeModel.PrePulses">
+    <value>前脈衝</value>
+  </data>
+  <data name="ProgramRecipeModel.Pretreat">
+    <value>前期處理</value>
+  </data>
+  <data name="ProgramRecipeModel.ProgKeyId">
+    <value>程序</value>
+  </data>
+  <data name="ProgramRecipeModel.Reloadtime">
+    <value>重新加載時間</value>
+  </data>
+  <data name="ProgramRecipeModel.Runcount">
+    <value>運行計數器</value>
+  </data>
+  <data name="ProgramRecipeModel.SterilePres">
+    <value>暴露壓力</value>
+  </data>
+  <data name="ProgramRecipeModel.SterileSeconds">
+    <value>暴露時間</value>
+  </data>
+  <data name="ProgramRecipeModel.SterileTemp">
+    <value>暴露溫度</value>
+  </data>
+  <data name="ProgramRecipeModel.Validate">
+    <value>驗證</value>
+  </data>
+  <data name="MacroModel.Created">
+    <value></value>
+  </data>
+  <data name="MacroModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="MacroModel.Modified">
+    <value></value>
+  </data>
+  <data name="MacroModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="MacroModel.Barcode">
+    <value>條形碼</value>
+  </data>
+  <data name="MacroModel.Data">
+    <value>數據</value>
+  </data>
+  <data name="MacroModel.KeyId">
+    <value>Macro ID</value>
+  </data>
+  <data name="MacroModel.Macro">
+    <value>宏</value>
+  </data>
+  <data name="MacroModel.Name">
+    <value>名稱</value>
+  </data>
+  <data name="MacroModel.Remark">
+    <value>備註</value>
+  </data>
+  <data name="UILayerDefModel.Created">
+    <value></value>
+  </data>
+  <data name="UILayerDefModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="UILayerDefModel.Modified">
+    <value></value>
+  </data>
+  <data name="UILayerDefModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="UILayerDefModel.Classname">
+    <value>級別名稱</value>
+  </data>
+  <data name="UILayerDefModel.Default">
+    <value>默認值</value>
+  </data>
+  <data name="UILayerDefModel.DefSys">
+    <value>系統定義</value>
+  </data>
+  <data name="UILayerDefModel.DefUsr">
+    <value>用戶定義</value>
+  </data>
+  <data name="UILayerDefModel.Descr">
+    <value>描述</value>
+  </data>
+  <data name="UILayerDefModel.Enabled">
+    <value>已啟用</value>
+  </data>
+  <data name="UILayerDefModel.KeyId">
+    <value>UI層ID</value>
+  </data>
+  <data name="UILayerDefModel.Name">
+    <value>名稱</value>
+  </data>
+  <data name="UILayerDefModel.SysId">
+    <value>系統 ID</value>
+  </data>
+  <data name="UILayerDefModel.SysType">
+    <value>系統類型</value>
+  </data>
+  <data name="UILayerDefModel.VCLDefSys">
+    <value>系統VCL定義</value>
+  </data>
+  <data name="UILayerDefModel.VCLDefUsr">
+    <value>用戶VCL定義</value>
+  </data>
+  <data name="UILayerDefModel.Version">
+    <value>版本</value>
+  </data>
+  <data name="IdenticalTagTypeGroupModel.KeyId">
+    <value>ID</value>
+  </data>
+  <data name="IdenticalTagTypeGroupModel.TagType">
+    <value>標記類型</value>
+  </data>
+  <data name="RoomModel.ArrivedLGrpKeyId">
+    <value>Arrived location group</value>
+  </data>
+  <data name="RoomModel.AvailableLGrpKeyId">
+    <value>Available location group</value>
+  </data>
+  <data name="RoomModel.Barcode">
+    <value>條形碼</value>
+  </data>
+  <data name="RoomModel.BlockOrderCreation">
+    <value>Block operation-based orders</value>
+  </data>
+  <data name="RoomModel.CalKeyId">
+    <value>日曆</value>
+  </data>
+  <data name="RoomModel.DelGln">
+    <value>Delivery GLN</value>
+  </data>
+  <data name="RoomModel.Desc">
+    <value>描述</value>
+  </data>
+  <data name="RoomModel.Gln">
+    <value>GLN</value>
+  </data>
+  <data name="RoomModel.Id">
+    <value>ID</value>
+  </data>
+  <data name="RoomModel.KeyId">
+    <value>房間 ID</value>
+  </data>
+  <data name="RoomModel.Name">
+    <value>名稱</value>
+  </data>
+  <data name="RoomModel.Status">
+    <value>狀態</value>
+  </data>
+  <data name="RoomModel.StGrKeyId">
+    <value>倉庫組</value>
+  </data>
+  <data name="RoomModel.StokKeyId">
+    <value>倉庫</value>
+  </data>
+  <data name="RoomModel.UserField01">
+    <value>用戶字段 1</value>
+  </data>
+  <data name="RoomModel.UserField02">
+    <value>用戶字段 2</value>
+  </data>
+  <data name="RoomModel.UserField03">
+    <value>用戶字段 3</value>
+  </data>
+  <data name="RoomModel.UserField04">
+    <value>用戶字段 4</value>
+  </data>
+  <data name="RoomModel.UserField05">
+    <value>用戶字段 5</value>
+  </data>
+  <data name="RoomModel.UserField06">
+    <value>用戶字段 6</value>
+  </data>
+  <data name="RoomModel.UserField07">
+    <value>用戶字段 7</value>
+  </data>
+  <data name="RoomModel.UserField08">
+    <value>用戶字段 8</value>
+  </data>
+  <data name="RoomModel.UserField09">
+    <value>用戶字段 9</value>
+  </data>
+  <data name="RoomModel.UserField10">
+    <value>用戶字段 10</value>
+  </data>
+  <data name="RoomModel.UserField11">
+    <value>用戶字段11</value>
+  </data>
+  <data name="RoomModel.UserField12">
+    <value>用戶字段12</value>
+  </data>
+  <data name="RoomModel.UserField13">
+    <value>用戶字段13</value>
+  </data>
+  <data name="RoomModel.UserField14">
+    <value>用戶字段14</value>
+  </data>
+  <data name="RoomModel.UserField15">
+    <value>用戶字段15</value>
+  </data>
+  <data name="RoomModel.UserField16">
+    <value>用戶字段16</value>
+  </data>
+  <data name="RoomModel.UserField17">
+    <value>用戶字段17</value>
+  </data>
+  <data name="RoomModel.UserField18">
+    <value>用戶字段18</value>
+  </data>
+  <data name="RoomModel.UserField19">
+    <value>用戶字段19</value>
+  </data>
+  <data name="RoomModel.UserField20">
+    <value>用戶字段20</value>
+  </data>
+  <data name="AGSModel.Created">
+    <value></value>
+  </data>
+  <data name="AGSModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="AGSModel.Modified">
+    <value></value>
+  </data>
+  <data name="AGSModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="AGSModel.Barcode">
+    <value>條形碼</value>
+  </data>
+  <data name="AGSModel.Info">
+    <value>信息</value>
+  </data>
+  <data name="AGSModel.KeyId">
+    <value>AGS ID</value>
+  </data>
+  <data name="AGSModel.MasterQueueKeyId">
+    <value>主隊列</value>
+  </data>
+  <data name="AGSModel.Maxloads">
+    <value>最大裝載數量</value>
+  </data>
+  <data name="AGSModel.Name">
+    <value>名稱</value>
+  </data>
+  <data name="AGSModel.RefNum">
+    <value>參考號 (ini文件)</value>
+  </data>
+  <data name="AGSModel.Text">
+    <value>文本</value>
+  </data>
+  <data name="MachineTypeModel.Created">
+    <value></value>
+  </data>
+  <data name="MachineTypeModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="MachineTypeModel.Modified">
+    <value></value>
+  </data>
+  <data name="MachineTypeModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="MachineTypeModel.AbsolutePressure">
+    <value>絕對壓力</value>
+  </data>
+  <data name="MachineTypeModel.AutoCreatedIndic">
+    <value>Auto created indicators</value>
+  </data>
+  <data name="MachineTypeModel.BasketDepth">
+    <value>籃筐深度</value>
+  </data>
+  <data name="MachineTypeModel.BasketFits">
+    <value>籃筐計數</value>
+  </data>
+  <data name="MachineTypeModel.BasketHeight">
+    <value>籃筐高度</value>
+  </data>
+  <data name="MachineTypeModel.BasketWidth">
+    <value>籃筐寬度</value>
+  </data>
+  <data name="MachineTypeModel.CanAutoCreateBI">
+    <value>Can auto create biological indicators</value>
+  </data>
+  <data name="MachineTypeModel.CBIUsageMode">
+    <value>需要控制指示</value>
+  </data>
+  <data name="MachineTypeModel.DefProgKeyId">
+    <value>Default program selection</value>
+  </data>
+  <data name="MachineTypeModel.FixedTime">
+    <value>固定時間</value>
+  </data>
+  <data name="MachineTypeModel.IncubatorType">
+    <value>Batch data incubator</value>
+  </data>
+  <data name="MachineTypeModel.KeyId">
+    <value>機器類型 ID</value>
+  </data>
+  <data name="MachineTypeModel.LoadOnStart">
+    <value>Use Load tag</value>
+  </data>
+  <data name="MachineTypeModel.LogBatchRegError">
+    <value>鍋次登記錯誤</value>
+  </data>
+  <data name="MachineTypeModel.LogBatchRegMode">
+    <value>批量註冊模式</value>
+  </data>
+  <data name="MachineTypeModel.ManuKeyId">
+    <value>製造商</value>
+  </data>
+  <data name="MachineTypeModel.MaxEndo">
+    <value>最大內窺鏡</value>
+  </data>
+  <data name="MachineTypeModel.MaxLoadCount">
+    <value>最大裝載計數</value>
+  </data>
+  <data name="MachineTypeModel.MaxPerPlacement">
+    <value>最大。 每個展示位置的範圍</value>
+  </data>
+  <data name="MachineTypeModel.MaxPres">
+    <value>最大壓力</value>
+  </data>
+  <data name="MachineTypeModel.MaxTemp">
+    <value>最高溫度</value>
+  </data>
+  <data name="MachineTypeModel.MinPres">
+    <value>最小壓力</value>
+  </data>
+  <data name="MachineTypeModel.MinTemp">
+    <value>最低溫度</value>
+  </data>
+  <data name="MachineTypeModel.Name">
+    <value>名稱</value>
+  </data>
+  <data name="MachineTypeModel.NonEndo">
+    <value>非內窺鏡</value>
+  </data>
+  <data name="MachineTypeModel.PlacementCount">
+    <value>展示位置數</value>
+  </data>
+  <data name="MachineTypeModel.PlacementMode">
+    <value>放置配置</value>
+  </data>
+  <data name="MachineTypeModel.PlacementUsgMode">
+    <value>展示位置使用模式</value>
+  </data>
+  <data name="MachineTypeModel.PressureDecimals">
+    <value>P.小數</value>
+  </data>
+  <data name="MachineTypeModel.PressureLogarithmic">
+    <value>Logarithmic scale</value>
+  </data>
+  <data name="MachineTypeModel.PressureType">
+    <value>壓力</value>
+  </data>
+  <data name="MachineTypeModel.Queuelength">
+    <value>隊列長度</value>
+  </data>
+  <data name="MachineTypeModel.RelativeTime">
+    <value>相對時間</value>
+  </data>
+  <data name="MachineTypeModel.RepairVendorKeyId">
+    <value>修理供應商</value>
+  </data>
+  <data name="MachineTypeModel.Reportflags">
+    <value>報告選項</value>
+  </data>
+  <data name="MachineTypeModel.StandardError">
+    <value>標準錯誤</value>
+  </data>
+  <data name="MachineTypeModel.SuppKeyId">
+    <value>供應商</value>
+  </data>
+  <data name="MachineTypeModel.TechError">
+    <value>技術錯誤</value>
+  </data>
+  <data name="MachineTypeModel.TempDecimals">
+    <value>T.小數</value>
+  </data>
+  <data name="MachineTypeModel.TempType">
+    <value>溫度</value>
+  </data>
+  <data name="MachineTypeModel.Text">
+    <value>文本</value>
+  </data>
+  <data name="MachineTypeModel.Type">
+    <value>類型</value>
+  </data>
+  <data name="MachineTypeModel.UseMAP">
+    <value>使用平均測量壓力</value>
+  </data>
+  <data name="MachineTypeModel.UseRecipe">
+    <value>使用方法</value>
+  </data>
+  <data name="MachineTypeModel.Volume">
+    <value>音量</value>
+  </data>
+  <data name="QuestionSetModel.Created">
+    <value></value>
+  </data>
+  <data name="QuestionSetModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="QuestionSetModel.Modified">
+    <value></value>
+  </data>
+  <data name="QuestionSetModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="QuestionSetModel.KeyId">
+    <value>問題集ID</value>
+  </data>
+  <data name="QuestionSetModel.Name">
+    <value>名稱</value>
+  </data>
+  <data name="QuestionSetModel.Remark">
+    <value>備註</value>
+  </data>
+  <data name="QuestionSetModel.Set">
+    <value>問題集</value>
+  </data>
+  <data name="LoadingEquipmentModel.Created">
+    <value></value>
+  </data>
+  <data name="LoadingEquipmentModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="LoadingEquipmentModel.Modified">
+    <value></value>
+  </data>
+  <data name="LoadingEquipmentModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="LoadingEquipmentModel.Area">
+    <value>區域</value>
+  </data>
+  <data name="LoadingEquipmentModel.Depth">
+    <value>深度</value>
+  </data>
+  <data name="LoadingEquipmentModel.Descr">
+    <value>描述</value>
+  </data>
+  <data name="LoadingEquipmentModel.Height">
+    <value>高度</value>
+  </data>
+  <data name="LoadingEquipmentModel.KeyId">
+    <value>裝載設備 ID</value>
+  </data>
+  <data name="LoadingEquipmentModel.Name">
+    <value>名稱</value>
+  </data>
+  <data name="LoadingEquipmentModel.Width">
+    <value>寬度</value>
+  </data>
+  <data name="UnitModel.Basket">
+    <value>籃筐</value>
+  </data>
+  <data name="UnitModel.Batch">
+    <value>鍋次</value>
+  </data>
+  <data name="UnitModel.Created">
+    <value>已創建</value>
+  </data>
+  <data name="UnitModel.CustKeyId">
+    <value>客戶</value>
+  </data>
+  <data name="UnitModel.DryingStokKeyId">
+    <value>乾燥倉庫</value>
+  </data>
+  <data name="UnitModel.Error">
+    <value>錯誤</value>
+  </data>
+  <data name="UnitModel.Expire">
+    <value>過期時間</value>
+  </data>
+  <data name="UnitModel.FacKeyId">
+    <value>工廠</value>
+  </data>
+  <data name="UnitModel.LMProKeyId">
+    <value>Loaner management profile</value>
+  </data>
+  <data name="UnitModel.LocaKeyId">
+    <value>位置</value>
+  </data>
+  <data name="UnitModel.LocaTime">
+    <value>位置時間</value>
+  </data>
+  <data name="UnitModel.NextUnit">
+    <value>下一個單元</value>
+  </data>
+  <data name="UnitModel.OpDKeyId">
+    <value>手術</value>
+  </data>
+  <data name="UnitModel.PackUserKeyId">
+    <value>打包者</value>
+  </data>
+  <data name="UnitModel.PrevUnit">
+    <value>上一單元</value>
+  </data>
+  <data name="UnitModel.Price">
+    <value>價格</value>
+  </data>
+  <data name="UnitModel.PriceHandling">
+    <value>處理時間</value>
+  </data>
+  <data name="UnitModel.PricePack">
+    <value>打包價格</value>
+  </data>
+  <data name="UnitModel.PriceSteri">
+    <value>滅菌價格</value>
+  </data>
+  <data name="UnitModel.PriceUsage">
+    <value>使用價格</value>
+  </data>
+  <data name="UnitModel.PriceWash">
+    <value>清洗/消毒價格</value>
+  </data>
+  <data name="UnitModel.PriGrKeyId">
+    <value>價格組</value>
+  </data>
+  <data name="UnitModel.ProdKeyId">
+    <value>產品</value>
+  </data>
+  <data name="UnitModel.ReqReturnReg">
+    <value>需要退貨</value>
+  </data>
+  <data name="UnitModel.RoomKeyId">
+    <value>房間</value>
+  </data>
+  <data name="UnitModel.SeriKeyId">
+    <value>序列號</value>
+  </data>
+  <data name="UnitModel.Status">
+    <value>狀態</value>
+  </data>
+  <data name="UnitModel.StokKeyId">
+    <value>倉庫</value>
+  </data>
+  <data name="UnitModel.Unit">
+    <value>單元</value>
+  </data>
+  <data name="UnitModel.UsageCounter">
+    <value>使用計數</value>
+  </data>
+  <data name="UnitModel.WorkingTime">
+    <value>打包用時</value>
+  </data>
+  <data name="TagsModel.Created">
+    <value></value>
+  </data>
+  <data name="TagsModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="TagsModel.Auto">
+    <value>自動標籤</value>
+  </data>
+  <data name="TagsModel.Barcode">
+    <value>條形碼</value>
+  </data>
+  <data name="TagsModel.KeyId">
+    <value>標籤ID</value>
+  </data>
+  <data name="TagsModel.LocaKeyId">
+    <value>當前地點</value>
+  </data>
+  <data name="TagsModel.LocaTime">
+    <value>當前時間</value>
+  </data>
+  <data name="TagsModel.Name">
+    <value>名稱</value>
+  </data>
+  <data name="TagsModel.No">
+    <value>編號</value>
+  </data>
+  <data name="TagsModel.ProcBatch">
+    <value>分配批次</value>
+  </data>
+  <data name="TagsModel.Status">
+    <value>狀態</value>
+  </data>
+  <data name="TagsModel.StokKeyId">
+    <value>倉庫</value>
+  </data>
+  <data name="TagsModel.TagTKeyId">
+    <value>標記類型</value>
+  </data>
+  <data name="TagsModel.Type">
+    <value>類型</value>
+  </data>
+  <data name="OperationDataModel.Created">
+    <value></value>
+  </data>
+  <data name="OperationDataModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="OperationDataModel.Modified">
+    <value></value>
+  </data>
+  <data name="OperationDataModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="OperationDataModel.ActualEndTime">
+    <value>實際結束時間</value>
+  </data>
+  <data name="OperationDataModel.ActualStartTime">
+    <value>實際開始時間</value>
+  </data>
+  <data name="OperationDataModel.BookingForce">
+    <value>預訂強制</value>
+  </data>
+  <data name="OperationDataModel.BookingStatus">
+    <value>預約狀態</value>
+  </data>
+  <data name="OperationDataModel.CustKeyId">
+    <value>客戶</value>
+  </data>
+  <data name="OperationDataModel.CustStokKeyId">
+    <value>客戶倉庫</value>
+  </data>
+  <data name="OperationDataModel.DoctKeyId">
+    <value>醫生</value>
+  </data>
+  <data name="OperationDataModel.EndTime">
+    <value>結束時間</value>
+  </data>
+  <data name="OperationDataModel.Ident">
+    <value>手術</value>
+  </data>
+  <data name="OperationDataModel.IncompleteOrder">
+    <value>Incomplete order</value>
+  </data>
+  <data name="OperationDataModel.KeyId">
+    <value>操作 ID</value>
+  </data>
+  <data name="OperationDataModel.Name">
+    <value>名稱</value>
+  </data>
+  <data name="OperationDataModel.OptKeyId">
+    <value>手術類型</value>
+  </data>
+  <data name="OperationDataModel.OrdersNeedUpdate">
+    <value>Order update pending</value>
+  </data>
+  <data name="OperationDataModel.PatAge">
+    <value>病人年齡</value>
+  </data>
+  <data name="OperationDataModel.PatGender">
+    <value>患者性別</value>
+  </data>
+  <data name="OperationDataModel.PatKeyId">
+    <value>患者</value>
+  </data>
+  <data name="OperationDataModel.PatWeight">
+    <value>重量</value>
+  </data>
+  <data name="OperationDataModel.PrefListDelShortage">
+    <value>Preference list delievered shortage</value>
+  </data>
+  <data name="OperationDataModel.PrefListOrderMode">
+    <value>訂單模式</value>
+  </data>
+  <data name="OperationDataModel.Remark">
+    <value>備註</value>
+  </data>
+  <data name="OperationDataModel.RoomKeyId">
+    <value>房間</value>
+  </data>
+  <data name="OperationDataModel.StartTime">
+    <value>開始時間</value>
+  </data>
+  <data name="OperationDataModel.StartTimeModified">
+    <value>Start time modified</value>
+  </data>
+  <data name="OperationDataModel.Status">
+    <value>狀態</value>
+  </data>
+  <data name="OperationDataModel.SuppFacKeyId">
+    <value>供應廠房</value>
+  </data>
+  <data name="SerialModel.Created">
+    <value></value>
+  </data>
+  <data name="SerialModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="SerialModel.Modified">
+    <value></value>
+  </data>
+  <data name="SerialModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="SerialModel.Barcode">
+    <value>條形碼</value>
+  </data>
+  <data name="SerialModel.DispatchRestrict">
+    <value>發放限制</value>
+  </data>
+  <data name="SerialModel.ExtLoanerId">
+    <value>External loaner ID</value>
+  </data>
+  <data name="SerialModel.ExtName">
+    <value>External name</value>
+  </data>
+  <data name="SerialModel.FTCoKeyId">
+    <value>快速追踪代碼</value>
+  </data>
+  <data name="SerialModel.FTPlKeyId">
+    <value>快速追踪計劃</value>
+  </data>
+  <data name="SerialModel.FTTmpKeyId">
+    <value>快速追踪組</value>
+  </data>
+  <data name="SerialModel.HatKeyId">
+    <value>處理類型</value>
+  </data>
+  <data name="SerialModel.KeyId">
+    <value>序列號 ID</value>
+  </data>
+  <data name="SerialModel.LMProKeyId">
+    <value>Loaner management profile</value>
+  </data>
+  <data name="SerialModel.LocaKeyId">
+    <value>位置</value>
+  </data>
+  <data name="SerialModel.Manufactserialnumber">
+    <value>手動序列號</value>
+  </data>
+  <data name="SerialModel.Name">
+    <value>名稱</value>
+  </data>
+  <data name="SerialModel.OwnerCuSiteKeyId">
+    <value>業主（客戶網站）</value>
+  </data>
+  <data name="SerialModel.OwnerCustKeyId">
+    <value>所有者(客戶)</value>
+  </data>
+  <data name="SerialModel.OwnerFacKeyId">
+    <value>所有者(工廠)</value>
+  </data>
+  <data name="SerialModel.OwnerSuppKeyId">
+    <value>所有者(供應商)</value>
+  </data>
+  <data name="SerialModel.PackKeyId">
+    <value>打包材料</value>
+  </data>
+  <data name="SerialModel.PurchaseDate">
+    <value>採購日期</value>
+  </data>
+  <data name="SerialModel.PurchaseOrdNo">
+    <value>採購訂單編號</value>
+  </data>
+  <data name="SerialModel.PurchasePrice">
+    <value>採購價格</value>
+  </data>
+  <data name="SerialModel.PurchaseTime">
+    <value>採購日期</value>
+  </data>
+  <data name="SerialModel.RefItemKeyId">
+    <value>物品</value>
+  </data>
+  <data name="SerialModel.RefPReKeyId">
+    <value>程序方法</value>
+  </data>
+  <data name="SerialModel.RefProdKeyId">
+    <value>產品</value>
+  </data>
+  <data name="SerialModel.RefProgKeyId">
+    <value>程序</value>
+  </data>
+  <data name="SerialModel.Remark">
+    <value>備註</value>
+  </data>
+  <data name="SerialModel.SerialNo">
+    <value>序列號</value>
+  </data>
+  <data name="SerialModel.Status">
+    <value>狀態</value>
+  </data>
+  <data name="SerialModel.Stockplacement">
+    <value>位置</value>
+  </data>
+  <data name="SerialModel.StokKeyId">
+    <value>倉庫</value>
+  </data>
+  <data name="SerialModel.SuppKeyId">
+    <value>供應商</value>
+  </data>
+  <data name="SerialModel.TRGrpKeyId">
+    <value>到期時間組</value>
+  </data>
+  <data name="SerialModel.UserField01">
+    <value>用戶字段 1</value>
+  </data>
+  <data name="SerialModel.UserField02">
+    <value>用戶字段 2</value>
+  </data>
+  <data name="SerialModel.UserField03">
+    <value>用戶字段 3</value>
+  </data>
+  <data name="SerialModel.UserField04">
+    <value>用戶字段 4</value>
+  </data>
+  <data name="SerialModel.UserField05">
+    <value>用戶字段 5</value>
+  </data>
+  <data name="SerialModel.UserField06">
+    <value>用戶字段 6</value>
+  </data>
+  <data name="SerialModel.UserField07">
+    <value>用戶字段 7</value>
+  </data>
+  <data name="SerialModel.UserField08">
+    <value>用戶字段 8</value>
+  </data>
+  <data name="SerialModel.UserField09">
+    <value>用戶字段 9</value>
+  </data>
+  <data name="SerialModel.UserField10">
+    <value>用戶字段 10</value>
+  </data>
+  <data name="SerialModel.UserField11">
+    <value>用戶字段11</value>
+  </data>
+  <data name="SerialModel.UserField12">
+    <value>用戶字段12</value>
+  </data>
+  <data name="SerialModel.UserField13">
+    <value>用戶字段13</value>
+  </data>
+  <data name="SerialModel.UserField14">
+    <value>用戶字段14</value>
+  </data>
+  <data name="SerialModel.UserField15">
+    <value>用戶字段15</value>
+  </data>
+  <data name="SerialModel.UserField16">
+    <value>用戶字段16</value>
+  </data>
+  <data name="SerialModel.UserField17">
+    <value>用戶字段17</value>
+  </data>
+  <data name="SerialModel.UserField18">
+    <value>用戶字段18</value>
+  </data>
+  <data name="SerialModel.UserField19">
+    <value>用戶字段19</value>
+  </data>
+  <data name="SerialModel.UserField20">
+    <value>用戶字段20</value>
+  </data>
+  <data name="SerialModel.UnitUnit">
+    <value>單元</value>
+  </data>
+  <data name="SerialModel.UsageCount">
+    <value>使用情況計數</value>
+  </data>
+  <data name="SerialModel.Weight">
+    <value>重量</value>
+  </data>
+  <data name="DoctorModel.Created">
+    <value></value>
+  </data>
+  <data name="DoctorModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="DoctorModel.Modified">
+    <value></value>
+  </data>
+  <data name="DoctorModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="DoctorModel.Barcode">
+    <value>條形碼</value>
+  </data>
+  <data name="DoctorModel.CalKeyId">
+    <value>日曆</value>
+  </data>
+  <data name="DoctorModel.Initials">
+    <value>縮寫</value>
+  </data>
+  <data name="DoctorModel.KeyId">
+    <value>醫生 ID</value>
+  </data>
+  <data name="DoctorModel.Name">
+    <value>名稱</value>
+  </data>
+  <data name="DoctorModel.Status">
+    <value>狀態</value>
+  </data>
+  <data name="DoctorModel.UserField01">
+    <value>用戶字段 1</value>
+  </data>
+  <data name="DoctorModel.UserField02">
+    <value>用戶字段 2</value>
+  </data>
+  <data name="DoctorModel.UserField03">
+    <value>用戶字段 3</value>
+  </data>
+  <data name="DoctorModel.UserField04">
+    <value>用戶字段 4</value>
+  </data>
+  <data name="DoctorModel.UserField05">
+    <value>用戶字段 5</value>
+  </data>
+  <data name="DoctorModel.UserField06">
+    <value>用戶字段 6</value>
+  </data>
+  <data name="DoctorModel.UserField07">
+    <value>用戶字段 7</value>
+  </data>
+  <data name="DoctorModel.UserField08">
+    <value>用戶字段 8</value>
+  </data>
+  <data name="DoctorModel.UserField09">
+    <value>用戶字段 9</value>
+  </data>
+  <data name="DoctorModel.UserField10">
+    <value>用戶字段 10</value>
+  </data>
+  <data name="DoctorModel.UserField11">
+    <value>用戶字段11</value>
+  </data>
+  <data name="DoctorModel.UserField12">
+    <value>用戶字段12</value>
+  </data>
+  <data name="DoctorModel.UserField13">
+    <value>用戶字段13</value>
+  </data>
+  <data name="DoctorModel.UserField14">
+    <value>用戶字段14</value>
+  </data>
+  <data name="DoctorModel.UserField15">
+    <value>用戶字段15</value>
+  </data>
+  <data name="DoctorModel.UserField16">
+    <value>用戶字段16</value>
+  </data>
+  <data name="DoctorModel.UserField17">
+    <value>用戶字段17</value>
+  </data>
+  <data name="DoctorModel.UserField18">
+    <value>用戶字段18</value>
+  </data>
+  <data name="DoctorModel.UserField19">
+    <value>用戶字段19</value>
+  </data>
+  <data name="DoctorModel.UserField20">
+    <value>用戶字段20</value>
+  </data>
+  <data name="PatientModel.Created">
+    <value></value>
+  </data>
+  <data name="PatientModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="PatientModel.Modified">
+    <value></value>
+  </data>
+  <data name="PatientModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="PatientModel.BarCode">
+    <value>條形碼</value>
+  </data>
+  <data name="PatientModel.Birthday">
+    <value>生日</value>
+  </data>
+  <data name="PatientModel.Code1">
+    <value>代碼 1</value>
+  </data>
+  <data name="PatientModel.Code2">
+    <value>代碼 2</value>
+  </data>
+  <data name="PatientModel.Code3">
+    <value>代碼 3</value>
+  </data>
+  <data name="PatientModel.Id">
+    <value>ID</value>
+  </data>
+  <data name="PatientModel.KeyId">
+    <value>患者 ID</value>
+  </data>
+  <data name="PatientModel.Name">
+    <value>名稱</value>
+  </data>
+  <data name="PatientModel.Sex">
+    <value>Gender</value>
+  </data>
+  <data name="PatientModel.Status">
+    <value>狀態</value>
+  </data>
+  <data name="PatientModel.UserField01">
+    <value>用戶字段 1</value>
+  </data>
+  <data name="PatientModel.UserField02">
+    <value>用戶字段 2</value>
+  </data>
+  <data name="PatientModel.UserField03">
+    <value>用戶字段 3</value>
+  </data>
+  <data name="PatientModel.UserField04">
+    <value>用戶字段 4</value>
+  </data>
+  <data name="PatientModel.UserField05">
+    <value>用戶字段 5</value>
+  </data>
+  <data name="PatientModel.UserField06">
+    <value>用戶字段 6</value>
+  </data>
+  <data name="PatientModel.UserField07">
+    <value>用戶字段 7</value>
+  </data>
+  <data name="PatientModel.UserField08">
+    <value>用戶字段 8</value>
+  </data>
+  <data name="PatientModel.UserField09">
+    <value>用戶字段 9</value>
+  </data>
+  <data name="PatientModel.UserField10">
+    <value>用戶字段 10</value>
+  </data>
+  <data name="PatientModel.UserField11">
+    <value>用戶字段11</value>
+  </data>
+  <data name="PatientModel.UserField12">
+    <value>用戶字段12</value>
+  </data>
+  <data name="PatientModel.UserField13">
+    <value>用戶字段13</value>
+  </data>
+  <data name="PatientModel.UserField14">
+    <value>用戶字段14</value>
+  </data>
+  <data name="PatientModel.UserField15">
+    <value>用戶字段15</value>
+  </data>
+  <data name="PatientModel.UserField16">
+    <value>用戶字段16</value>
+  </data>
+  <data name="PatientModel.UserField17">
+    <value>用戶字段17</value>
+  </data>
+  <data name="PatientModel.UserField18">
+    <value>用戶字段18</value>
+  </data>
+  <data name="PatientModel.UserField19">
+    <value>用戶字段19</value>
+  </data>
+  <data name="PatientModel.UserField20">
+    <value>用戶字段20</value>
+  </data>
+  <data name="PatientModel.Weight">
+    <value>重量</value>
+  </data>
+  <data name="OrderModel.AutoCreated">
+    <value>自動創建</value>
+  </data>
+  <data name="OrderModel.BookingFirstOk">
+    <value>首先預訂OK</value>
+  </data>
+  <data name="OrderModel.BookingMode">
+    <value>預訂模式</value>
+  </data>
+  <data name="OrderModel.BookingPriority">
+    <value>預約優先</value>
+  </data>
+  <data name="OrderModel.BookingStatus">
+    <value>預約狀態</value>
+  </data>
+  <data name="OrderModel.CreatedAppType">
+    <value>原產地應用</value>
+  </data>
+  <data name="OrderModel.CreatedForOpDPrefList">
+    <value>創建為OP偏好列表</value>
+  </data>
+  <data name="OrderModel.CreatedJobKeyId">
+    <value>原產地</value>
+  </data>
+  <data name="OrderModel.CreatedLocaKeyId">
+    <value>原產地</value>
+  </data>
+  <data name="OrderModel.CreatedLSId">
+    <value>起源電腦</value>
+  </data>
+  <data name="OrderModel.CreatedUserKeyId">
+    <value>創建者</value>
+  </data>
+  <data name="OrderModel.DelIncomplete">
+    <value>Delivery incomplete</value>
+  </data>
+  <data name="OrderModel.ExpDelTime">
+    <value>期望交貨時間</value>
+  </data>
+  <data name="OrderModel.Flags">
+    <value>選項</value>
+  </data>
+  <data name="OrderModel.KeyId">
+    <value>訂單 ID</value>
+  </data>
+  <data name="OrderModel.LockMode">
+    <value>Lock mode</value>
+  </data>
+  <data name="OrderModel.NextOrdKeyId">
+    <value>下一個訂單</value>
+  </data>
+  <data name="OrderModel.OrdTpKeyId">
+    <value>訂單模板</value>
+  </data>
+  <data name="OrderModel.OrgAccount">
+    <value>單位帳戶</value>
+  </data>
+  <data name="OrderModel.OrgExternalId">
+    <value>單位客戶</value>
+  </data>
+  <data name="OrderModel.OrgInvoiceDirect">
+    <value>單位發票管理</value>
+  </data>
+  <data name="OrderModel.OrgInvRefCustKeyId">
+    <value>給客戶開票</value>
+  </data>
+  <data name="OrderModel.OrgInvRefFacKeyId">
+    <value>給工廠開票</value>
+  </data>
+  <data name="OrderModel.OrgInvRefSuppKeyId">
+    <value>開票供應商</value>
+  </data>
+  <data name="OrderModel.OrgRefCustKeyId">
+    <value>單位客戶</value>
+  </data>
+  <data name="OrderModel.OrgRefFacKeyId">
+    <value>單位工廠</value>
+  </data>
+  <data name="OrderModel.OrgRefNo">
+    <value>單位參考</value>
+  </data>
+  <data name="OrderModel.OrgRefSuppKeyId">
+    <value>單位供應商</value>
+  </data>
+  <data name="OrderModel.OrgRefText">
+    <value>單位參考文本 </value>
+  </data>
+  <data name="OrderModel.OrgRefText2">
+    <value>單位參考文本 2</value>
+  </data>
+  <data name="OrderModel.OrgRemark">
+    <value>單位註釋</value>
+  </data>
+  <data name="OrderModel.OrgStatus">
+    <value>單位狀態</value>
+  </data>
+  <data name="OrderModel.OrgStokKeyId">
+    <value>單位倉庫</value>
+  </data>
+  <data name="OrderModel.OrgTime">
+    <value>單位時間</value>
+  </data>
+  <data name="OrderModel.OrgUserKeyId">
+    <value>單位用戶</value>
+  </data>
+  <data name="OrderModel.PrevOrdKeyId">
+    <value>上一張訂單</value>
+  </data>
+  <data name="OrderModel.RefOpDKeyId">
+    <value>創建者(手術)</value>
+  </data>
+  <data name="OrderModel.RefOpTKeyId">
+    <value>手術類型</value>
+  </data>
+  <data name="OrderModel.Reordered">
+    <value>Reordered</value>
+  </data>
+  <data name="OrderModel.ReqDelTime">
+    <value>所需物品。德爾。 時間</value>
+  </data>
+  <data name="OrderModel.ReqDelTimeEstimated">
+    <value></value>
+  </data>
+  <data name="OrderModel.ReturnReq">
+    <value>Return requested</value>
+  </data>
+  <data name="OrderModel.SplitOrdKeyId">
+    <value>拆分順序</value>
+  </data>
+  <data name="OrderModel.SuppPickMode">
+    <value>Supp. pick mode</value>
+  </data>
+  <data name="OrderModel.SuppPickPriority">
+    <value>Picking priority</value>
+  </data>
+  <data name="OrderModel.SuppPriority">
+    <value>Supplier priority</value>
+  </data>
+  <data name="OrderModel.SuppRefCustKeyId">
+    <value>增刊。客戶</value>
+  </data>
+  <data name="OrderModel.SuppRefFacKeyId">
+    <value>增刊。工廠</value>
+  </data>
+  <data name="OrderModel.SuppRefNo">
+    <value>供應商參考</value>
+  </data>
+  <data name="OrderModel.SuppRefSuppKeyId">
+    <value>增刊。供應商</value>
+  </data>
+  <data name="OrderModel.SuppRefText">
+    <value>供應商參考文本 </value>
+  </data>
+  <data name="OrderModel.SuppRefText2">
+    <value>供應商參考文本 2</value>
+  </data>
+  <data name="OrderModel.SuppRemark">
+    <value>供應商註釋</value>
+  </data>
+  <data name="OrderModel.SuppStatus">
+    <value>供應商狀態</value>
+  </data>
+  <data name="OrderModel.SuppStokKeyId">
+    <value>供應商倉庫</value>
+  </data>
+  <data name="OrderModel.SuppTime">
+    <value>供應時間</value>
+  </data>
+  <data name="OrderModel.SuppUserKeyId">
+    <value>供應商用戶</value>
+  </data>
+  <data name="OrderModel.SyncToOperation">
+    <value>與操作同步</value>
+  </data>
+  <data name="OrderModel.Tag">
+    <value>運送標記</value>
+  </data>
+  <data name="OrderModel.Type">
+    <value>類型</value>
+  </data>
+  <data name="OrderModel.UnlockStokKeyId">
+    <value>Unlock destination stock</value>
+  </data>
+  <data name="JobModel.ConfigData">
+    <value>配置數據</value>
+  </data>
+  <data name="JobModel.Description">
+    <value>描述</value>
+  </data>
+  <data name="JobModel.Disabled">
+    <value>已禁用</value>
+  </data>
+  <data name="JobModel.DisplayIndex">
+    <value>顯示索引</value>
+  </data>
+  <data name="JobModel.IESysKeyId">
+    <value>接口系統</value>
+  </data>
+  <data name="JobModel.JGrpKeyId">
+    <value>作業組</value>
+  </data>
+  <data name="JobModel.KeyId">
+    <value>作業 ID</value>
+  </data>
+  <data name="JobModel.LastPackageId">
+    <value>最後包ID</value>
+  </data>
+  <data name="JobModel.MasterjobKeyId">
+    <value>主作業</value>
+  </data>
+  <data name="JobModel.Moveable">
+    <value>Movable</value>
+  </data>
+  <data name="JobModel.Name">
+    <value>名稱</value>
+  </data>
+  <data name="JobModel.Schedule">
+    <value>計劃</value>
+  </data>
+  <data name="JobModel.SysConfigData">
+    <value>系統配置數據</value>
+  </data>
+  <data name="JobModel.SysName">
+    <value>系統名</value>
+  </data>
+  <data name="JobModel.TypeId">
+    <value>類型 ID</value>
+  </data>
+  <data name="OrderTemplateModel.Created">
+    <value></value>
+  </data>
+  <data name="OrderTemplateModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="OrderTemplateModel.Modified">
+    <value></value>
+  </data>
+  <data name="OrderTemplateModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="OrderTemplateModel.KeyId">
+    <value>訂單模板 ID</value>
+  </data>
+  <data name="OrderTemplateModel.Name">
+    <value>名稱</value>
+  </data>
+  <data name="OrderTemplateModel.OrgInvoiceDirect">
+    <value>發票指示</value>
+  </data>
+  <data name="OrderTemplateModel.OrgRefCustKeyId">
+    <value>單位外部ID</value>
+  </data>
+  <data name="OrderTemplateModel.OrgRefFacKeyId">
+    <value>單位工廠</value>
+  </data>
+  <data name="OrderTemplateModel.OrgRefSuppKeyId">
+    <value>單位供應商</value>
+  </data>
+  <data name="OrderTemplateModel.OrgRefText">
+    <value>單位參考文本 </value>
+  </data>
+  <data name="OrderTemplateModel.OrgRefText2">
+    <value>單位參考文本 2</value>
+  </data>
+  <data name="OrderTemplateModel.OrgRemark">
+    <value>組織。 備註</value>
+  </data>
+  <data name="OrderTemplateModel.OrgStokKeyId">
+    <value>單位倉庫</value>
+  </data>
+  <data name="OrderTemplateModel.OTpTKeyId">
+    <value>類型</value>
+  </data>
+  <data name="OrderTemplateModel.RefOpTKeyId">
+    <value>所有者(手術類型)</value>
+  </data>
+  <data name="OrderTemplateModel.RefProTKeyId">
+    <value>所有者(手術類型)</value>
+  </data>
+  <data name="OrderTemplateModel.SuppRefFacKeyId">
+    <value>增刊。工廠</value>
+  </data>
+  <data name="OrderTemplateModel.SuppRefSuppKeyId">
+    <value>增刊。供應商</value>
+  </data>
+  <data name="OrderTemplateModel.SuppRefText">
+    <value>供應商參考文本 </value>
+  </data>
+  <data name="OrderTemplateModel.SuppRefText2">
+    <value>供應商參考文本 2</value>
+  </data>
+  <data name="OrderTemplateModel.SuppRemark">
+    <value>供應商註釋</value>
+  </data>
+  <data name="OrderTemplateModel.SuppStokKeyId">
+    <value>供應商倉庫</value>
+  </data>
+  <data name="OrderTemplateModel.Template">
+    <value>模板</value>
+  </data>
+  <data name="InterfaceSystemsModel.Description">
+    <value>描述</value>
+  </data>
+  <data name="InterfaceSystemsModel.Id">
+    <value>系統 ID</value>
+  </data>
+  <data name="InterfaceSystemsModel.KeyId">
+    <value>接口系統ID</value>
+  </data>
+  <data name="InterfaceSystemsModel.Name">
+    <value>名稱</value>
+  </data>
+  <data name="JobGroupModel.Description">
+    <value>描述</value>
+  </data>
+  <data name="JobGroupModel.Disabled">
+    <value>已禁用</value>
+  </data>
+  <data name="JobGroupModel.DisplayIndex">
+    <value>顯示索引</value>
+  </data>
+  <data name="JobGroupModel.FoJSrvKeyId">
+    <value>Fail over Job server</value>
+  </data>
+  <data name="JobGroupModel.FoStop">
+    <value>停止</value>
+  </data>
+  <data name="JobGroupModel.JobType">
+    <value>Job type</value>
+  </data>
+  <data name="JobGroupModel.JSrvKeyId">
+    <value>作業服務器</value>
+  </data>
+  <data name="JobGroupModel.KeyId">
+    <value>Job group ID</value>
+  </data>
+  <data name="JobGroupModel.Name">
+    <value>名稱</value>
+  </data>
+  <data name="JobGroupModel.SysId">
+    <value>系統 ID</value>
+  </data>
+  <data name="JobGroupModel.SysName">
+    <value>系統名</value>
+  </data>
+  <data name="JobGroupModel.Type">
+    <value>類型</value>
+  </data>
+  <data name="OrderTemplateTypeModel.Created">
+    <value></value>
+  </data>
+  <data name="OrderTemplateTypeModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="OrderTemplateTypeModel.Modified">
+    <value></value>
+  </data>
+  <data name="OrderTemplateTypeModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="OrderTemplateTypeModel.KeyId">
+    <value>模板類型 ID</value>
+  </data>
+  <data name="OrderTemplateTypeModel.Name">
+    <value>名稱</value>
+  </data>
+  <data name="OrderTemplateTypeModel.Remark">
+    <value>備註</value>
+  </data>
+  <data name="OrderTemplateTypeModel.Type">
+    <value>類型</value>
+  </data>
+  <data name="JobServerModel.ConfigData">
+    <value>配置數據</value>
+  </data>
+  <data name="JobServerModel.Description">
+    <value>描述</value>
+  </data>
+  <data name="JobServerModel.HeartBeat">
+    <value>Last heartbeat</value>
+  </data>
+  <data name="JobServerModel.KeyId">
+    <value>作業服務器ID</value>
+  </data>
+  <data name="JobServerModel.LinkStatId">
+    <value>鏈接站 ID</value>
+  </data>
+  <data name="JobServerModel.Name">
+    <value>名稱</value>
+  </data>
+  <data name="CompositeModel.AltRefKeyId">
+    <value>備用物品</value>
+  </data>
+  <data name="CompositeModel.CompItemKeyId">
+    <value>複合物品</value>
+  </data>
+  <data name="CompositeModel.Count">
+    <value>計數</value>
+  </data>
+  <data name="CompositeModel.CriticalCount">
+    <value>臨界</value>
+  </data>
+  <data name="CompositeModel.HasAlternative">
+    <value>有替代</value>
+  </data>
+  <data name="CompositeModel.IdentLineUsage">
+    <value>相同的線路使用</value>
+  </data>
+  <data name="CompositeModel.Key">
+    <value>鍵</value>
+  </data>
+  <data name="CompositeModel.Placement">
+    <value>位置</value>
+  </data>
+  <data name="CompositeModel.Position">
+    <value>職責</value>
+  </data>
+  <data name="CompositeModel.RefItemKeyId">
+    <value>物品</value>
+  </data>
+  <data name="CompositeModel.RefTextKeyId">
+    <value>文本</value>
+  </data>
+  <data name="CompositeModel.SplitTagNo">
+    <value>標記組</value>
+  </data>
+  <data name="CompositeModel.Text">
+    <value>文本</value>
+  </data>
+  <data name="TagContentModel.AutoInc">
+    <value>鍵</value>
+  </data>
+  <data name="TagContentModel.ChildTagsKeyId">
+    <value>兒童標籤</value>
+  </data>
+  <data name="TagContentModel.ChPlKeyId">
+    <value>房間放置</value>
+  </data>
+  <data name="TagContentModel.IndicIndicator">
+    <value>指示器</value>
+  </data>
+  <data name="TagContentModel.ItemCount">
+    <value>物品計數</value>
+  </data>
+  <data name="TagContentModel.ItemKeyId">
+    <value>物品</value>
+  </data>
+  <data name="TagContentModel.LocaKeyId">
+    <value>位置</value>
+  </data>
+  <data name="TagContentModel.LotInKeyId">
+    <value>LOT信息</value>
+  </data>
+  <data name="TagContentModel.OLnKey">
+    <value>訂單行</value>
+  </data>
+  <data name="TagContentModel.SeriKeyId">
+    <value>序列號</value>
+  </data>
+  <data name="TagContentModel.SplitUnit">
+    <value>拆分單元</value>
+  </data>
+  <data name="TagContentModel.TagsKeyId">
+    <value>標記</value>
+  </data>
+  <data name="TagContentModel.Time">
+    <value>時間</value>
+  </data>
+  <data name="TagContentModel.UnitUnit">
+    <value>單元</value>
+  </data>
+  <data name="EventModel.Created">
+    <value></value>
+  </data>
+  <data name="EventModel.CreatedKeyId">
+    <value></value>
+  </data>
+  <data name="EventModel.Modified">
+    <value></value>
+  </data>
+  <data name="EventModel.ModifiedKeyId">
+    <value></value>
+  </data>
+  <data name="EventModel.Event">
+    <value>事件</value>
+  </data>
+  <data name="EventModel.Eventsystype">
+    <value>系統類型</value>
+  </data>
+  <data name="EventModel.Eventtype">
+    <value>事件類型</value>
+  </data>
+  <data name="EventModel.Info">
+    <value>信息</value>
+  </data>
+  <data name="EventModel.KeyId">
+    <value>事件 ID</value>
+  </data>
+  <data name="EventModel.PloKeyId">
+    <value>職責/位置</value>
+  </data>
+  <data name="EventModel.RefKeyId">
+    <value>基於</value>
+  </data>
+  <data name="EventModel.Sysdata">
+    <value>系統數據</value>
+  </data>
+  <data name="EventModel.System">
+    <value>系統</value>
+  </data>
+  <data name="EventModel.Time">
+    <value>Event time</value>
+  </data>
+  <data name="EventModel.Type">
+    <value>類型</value>
+  </data>
+  <data name="StockModel.AutoCreated">
+    <value>自動創建</value>
+  </data>
+  <data name="StockModel.DesiredCount">
+    <value>通常</value>
+  </data>
+  <data name="StockModel.Identlineusage">
+    <value>相同的線路使用</value>
+  </data>
+  <data name="StockModel.InventoryActive">
+    <value>盤庫.有效</value>
+  </data>
+  <data name="StockModel.InventoryCount">
+    <value>盤庫.記數</value>
+  </data>
+  <data name="StockModel.InventoryPhysCount">
+    <value>實際的</value>
+  </data>
+  <data name="StockModel.InventoryPhysTime">
+    <value>實際時間</value>
+  </data>
+  <data name="StockModel.InventoryPhysUserKeyId">
+    <value>用戶</value>
+  </data>
+  <data name="StockModel.InventoryTime">
+    <value>最後倉庫</value>
+  </data>
+  <data name="StockModel.InventoryUserKeyId">
+    <value>Inv. user</value>
+  </data>
+  <data name="StockModel.MaxCount">
+    <value>最大</value>
+  </data>
+  <data name="StockModel.MinCount">
+    <value>最小</value>
+  </data>
+  <data name="StockModel.MonthUsage">
+    <value>月使用情況</value>
+  </data>
+  <data name="StockModel.OnStock">
+    <value>在倉庫</value>
+  </data>
+  <data name="StockModel.OrderedCount">
+    <value>訂單</value>
+  </data>
+  <data name="StockModel.Pickhere">
+    <value>提取</value>
+  </data>
+  <data name="StockModel.Placement">
+    <value>位置</value>
+  </data>
+  <data name="StockModel.ProductionCount">
+    <value>產品計數</value>
+  </data>
+  <data name="StockModel.RefItemKeyId">
+    <value>物品 (物品)</value>
+  </data>
+  <data name="StockModel.RefProdKeyId">
+    <value>物品 (產品)</value>
+  </data>
+  <data name="StockModel.ReservedCount">
+    <value>保留的</value>
+  </data>
+  <data name="StockModel.StokKeyId">
+    <value>倉庫</value>
+  </data>
+  <data name="StockModel.SuppOrderMinCount">
+    <value>最小訂單大小</value>
+  </data>
+  <data name="StockModel.SuppOrderStdCount">
+    <value>訂貨包裝容量</value>
+  </data>
+  <data name="StockModel.SuppRefFacKeyId">
+    <value>增刊。工廠</value>
+  </data>
+  <data name="StockModel.SuppRefSuppKeyId">
+    <value>增刊。供應商</value>
+  </data>
+  <data name="ProductModel">
+    <value>產品</value>
+  </data>
+  <data name="UserModel">
+    <value>用戶</value>
+  </data>
+  <data name="CountingPointSetModel">
+    <value>計數點組 </value>
+  </data>
+  <data name="CustSiteModel">
+    <value>客戶場所</value>
+  </data>
+  <data name="CustomerModel">
+    <value>客戶</value>
+  </data>
+  <data name="EndoDryingMethodsModel">
+    <value>內窺鏡乾燥方式</value>
+  </data>
+  <data name="ProgramGroupModel">
+    <value>程序組</value>
+  </data>
+  <data name="FactoryModel">
+    <value>工廠</value>
+  </data>
+  <data name="FastTrackCodeModel">
+    <value>快速追踪代碼</value>
+  </data>
+  <data name="FastTrackPlanModel">
+    <value>快速追踪計劃</value>
+  </data>
+  <data name="FastTrackTemplateModel">
+    <value>快速追踪組</value>
+  </data>
+  <data name="HandlingTypesModel">
+    <value>處理類型</value>
+  </data>
+  <data name="IdenticalArticleGroupModel">
+    <value>Identical article groups</value>
+  </data>
+  <data name="ItemModel">
+    <value>物品</value>
+  </data>
+  <data name="PackingModel">
+    <value>打包</value>
+  </data>
+  <data name="PriceGroupModel">
+    <value>價格組</value>
+  </data>
+  <data name="TimeRuleGroupModel">
+    <value>到期時間組</value>
+  </data>
+  <data name="WeightPlanModel">
+    <value>重量計劃</value>
+  </data>
+  <data name="ProfileModel">
+    <value>用戶配置文件</value>
+  </data>
+  <data name="CalendarModel">
+    <value>日曆</value>
+  </data>
+  <data name="StocksModel">
+    <value>倉庫</value>
+  </data>
+  <data name="StockGroupModel">
+    <value>倉庫組</value>
+  </data>
+  <data name="ProcessModel">
+    <value>處理</value>
+  </data>
+  <data name="SupplierModel">
+    <value>供應商</value>
+  </data>
+  <data name="LocationModel">
+    <value>位置</value>
+  </data>
+  <data name="FixedStockPlacementsModel">
+    <value>固定倉庫位置</value>
+  </data>
+  <data name="TextModel">
+    <value>文本</value>
+  </data>
+  <data name="LocationGroupModel">
+    <value>位置組</value>
+  </data>
+  <data name="CatalogModel">
+    <value>目錄</value>
+  </data>
+  <data name="ItemGroupModel">
+    <value>物品組</value>
+  </data>
+  <data name="ItemSpecialtyModel">
+    <value>物品科別</value>
+  </data>
+  <data name="ItemUOMModel">
+    <value>測量單元</value>
+  </data>
+  <data name="TagTypeModel">
+    <value>Tag types</value>
+  </data>
+  <data name="SealerProgramModel">
+    <value>封口機程序</value>
+  </data>
+  <data name="EmgCaseCartTypeModel">
+    <value>緊急情況車型</value>
+  </data>
+  <data name="OperationTypeModel">
+    <value>手術類型</value>
+  </data>
+  <data name="MachineModel">
+    <value>機器</value>
+  </data>
+  <data name="ProgramModel">
+    <value>程序</value>
+  </data>
+  <data name="ProgramRecipeModel">
+    <value>程序方法</value>
+  </data>
+  <data name="MacroModel">
+    <value>掃描槍宏</value>
+  </data>
+  <data name="UILayerDefModel">
+    <value>UI層定義</value>
+  </data>
+  <data name="IdenticalTagTypeGroupModel">
+    <value>Identical tag type group</value>
+  </data>
+  <data name="RoomModel">
+    <value>房間</value>
+  </data>
+  <data name="AGSModel">
+    <value>AGS </value>
+  </data>
+  <data name="MachineTypeModel">
+    <value>機器型號</value>
+  </data>
+  <data name="QuestionSetModel">
+    <value>問題集</value>
+  </data>
+  <data name="LoadingEquipmentModel">
+    <value>正在加載設備</value>
+  </data>
+  <data name="UnitModel">
+    <value>單元</value>
+  </data>
+  <data name="TagsModel">
+    <value>標記</value>
+  </data>
+  <data name="OperationDataModel">
+    <value>手術數據</value>
+  </data>
+  <data name="SerialModel">
+    <value>序列號</value>
+  </data>
+  <data name="DoctorModel">
+    <value>醫生</value>
+  </data>
+  <data name="PatientModel">
+    <value>患者</value>
+  </data>
+  <data name="OrderModel">
+    <value>Orders</value>
+  </data>
+  <data name="JobModel">
+    <value>作業</value>
+  </data>
+  <data name="OrderTemplateModel">
+    <value>訂單模板</value>
+  </data>
+  <data name="InterfaceSystemsModel">
+    <value>接口系統</value>
+  </data>
+  <data name="JobGroupModel">
+    <value>作業組</value>
+  </data>
+  <data name="OrderTemplateTypeModel">
+    <value>訂單模板類型</value>
+  </data>
+  <data name="JobServerModel">
+    <value>作業服務器</value>
+  </data>
+  <data name="CompositeModel">
+    <value>合成列表</value>
+  </data>
+  <data name="TagContentModel">
+    <value>標籤內容</value>
+  </data>
+  <data name="EventModel">
+    <value>事件</value>
+  </data>
+  <data name="StockModel">
+    <value>倉庫定義</value>
+  </data>
+</root>

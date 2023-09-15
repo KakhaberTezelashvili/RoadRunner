@@ -1,0 +1,88 @@
+﻿@layout WorkflowLayout
+@inherits WorkflowBaseComponent
+
+@using Newtonsoft.Json.Linq
+@using ScannerClient.WebApp.Core
+@using ScannerClient.WebApp.Workflows.Services
+@using TDOC.WebComponents.DataGrid.Constants
+@using TDOC.WebComponents.Shared.Enumerations
+
+<TdSplitter Identifier="@splitterIdentifier"
+            ObtainComponentState="DesktopDataService.GetComponentStateAsync"
+            SaveComponentState="DesktopDataService.SetComponentStateAsync">
+    <LeftSideFragment>
+        <div class="row">
+            <div class="col-md-auto">
+                @*Wash/Sterilzer left panel.*@
+                <div class="wash-sterilize-left-panel pt-24px px-24px">
+                    <TdGroupedListBox @ref="refMachines"
+                                      Identifier="Machines"
+                                      GroupTitle="@TdTablesLocalizer[$"{nameof(ProcessModel)}.{nameof(ProcessModel.MachKeyId)}"]"
+                                      Items="machines"
+                                      ExpandItems="true"
+                                      SelectedItemChanged="async (machine) => await SelectedMachineChangedAsync(machine)" />
+                    <div class="pt-24px">
+                        <TdGroupedListBox @ref="refPrograms"
+                                          Identifier="Programs"
+                                          GroupTitle="@TdTablesLocalizer[$"{nameof(ProcessModel)}.{nameof(ProcessModel.ProgKeyId)}"]"
+                                          Items="programs"
+                                          Disabled="programsDisabled"
+                                          ExpandItems="programsExpanded"
+                                          SelectedItemChanged="SelectedProgramChanged" />
+                    </div>
+                </div>
+            </div>
+            <div class="col pt-24px">
+                <div class="row px-24px">
+                    <div class="col" style="@CssStyleMainContentHeight">
+                        @*Batch list grid.*@
+                        <FlexibleGrid @ref="refBatchGrid"
+                                      AutomaticallyRequestData="false"
+                                      RequestDataAfterRowSelected="false"
+                                      AllowSelectionMode="false"
+                                      ScrollableHeight="-BusyContentHeight()"
+                                      GridDetails="batchGridDetails"
+                                      GridStructureRequested="GetBatchGridStructureAsync"
+                                      DataRequested="SearchService.SelectAsync">
+                            <ColumnTemplates>
+                                <TdDataGridColumnTemplate TItem="object" Field="@TdActionColumns.DeleteColumn">
+                                    <DisplayTemplate Context="item">
+                                        <img class="icon-size-24 cursor-pointer"
+                                             src="@($"{ContentUrls.ResourceImg}others/clear.svg")"
+                                             @onclick="() => RemoveUnitConfirmationAsync((JObject)item)" />
+                                    </DisplayTemplate>
+                                </TdDataGridColumnTemplate>
+                            </ColumnTemplates>
+                        </FlexibleGrid>
+                        <OkCancelButtonsPanel ButtonOkIdentifier="@($"{nameof(WorkflowBatchCreate)}Create")"
+                                              ButtonCancelIdentifier="@($"{nameof(WorkflowBatchCreate)}Cancel")"
+                                              ButtonOkText="@TdSharedLocalizer["create"]"
+                                              ButtonCancelText="@TdSharedLocalizer["cancel"]"
+                                              ButtonOkClicked="CreateBatchConfirmationAsync"
+                                              ButtonCancelClicked="ClearBatchPreparations"
+                                              ButtonOkEnabled="MachineSelected() && ProgramSelected()"
+                                              ButtonCancelEnabled="IsCancelButtonEnabled()"
+                                              CssClass="p-24px" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </LeftSideFragment>
+    <RightSideFragment>
+        <SideSearchPanel @ref="refSearchPanel"
+                         Whereabouts="PanelWhereabouts.Right"
+                         ExecuteSearchAfterRowSelect="false"
+                         SearchPanelTitle="@searchPanelTitle"
+                         GridDetailsList="searchGridDetailsList"
+                         Enabled="MachineSelected()"
+                         Identifier="@searchPanelIdentifier"
+                         SearchPanelNullText="@SharedLocalizer["filterList"]"
+                         SearchPanelTotalCountText="@TdSharedLocalizer["results"]"
+                         GridStructureRequested="GetSideSearchGridStructureAsync"
+                         DataRequested="SearchService.SearchAsync"
+                         ObtainComponentState="DesktopDataService.GetComponentStateAsync"
+                         SaveComponentState="DesktopDataService.SetComponentStateAsync"
+                         BusyContentHeight="WorkflowHelper.CalcHeightOfWorkflowHeaders(Navigation)"
+                         AfterSearchPanelExpanded="RefreshBatchGridAsync" />
+    </RightSideFragment>
+</TdSplitter>

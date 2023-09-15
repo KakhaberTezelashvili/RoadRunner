@@ -1,0 +1,47 @@
+﻿@using TDOC.WebComponents.Button
+@using TDOC.WebComponents.Button.Enumerations
+@using TDOC.WebComponents.TextBox
+
+<div class="row login-page flex-column text-white h-100">
+    <div class="login-panel">
+        <div class="row row-t-doc-brand">
+            <div class="d-flex">
+                <img src="@LogoIconUrl" class="t-doc-logo"><span class="t-doc-brand-name font-weight-lighter">T-DOC</span>
+            </div>
+        </div>
+        <div class="row flex-column align-items-center">
+            <div class="flex-column login-panel-input">
+                <div class="row">
+                    <div class="col">
+                        <div class="control-caption">@UserNameCaption</div>
+                        <TdTextBox Identifier="@usernameTextBoxIdentifier"
+                                   @bind-Text="@userName"
+                                   OnKeyUp="@(eventArgs => CredentialsEntered(eventArgs.Key))"/>
+                    </div>
+                </div>
+                <div class="row pt-12px">
+                    <div class="col">
+                        <div class="control-caption">@PasswordCaption</div>
+                        <TdTextBox Identifier="LoginPassword"
+                                   @bind-Text="@password"
+                                   Password="true"
+                                   OnKeyUp="@(eventArgs => CredentialsEntered(eventArgs.Key))"
+                                   BindValueMode = "BindValueMode.OnLostFocus"/>
+                    </div>
+                </div>                            
+                <div class="row pt-24px">
+                    <TdButton Identifier="LoginButton" 
+                              Text="@LoginButtonText" 
+                              Type="TdButtonType.Positive" 
+                              Height="50" 
+                              MinWidth="320" 
+                              OnClick="() => LoginUser(userName, password)" 
+                              Enabled="!string.IsNullOrEmpty(userName)" />
+                </div>
+            </div>                
+        </div>        
+    </div>
+    <div class="d-flex justify-content-center align-self-end w-100">
+        <p class="font-size-12">@FooterText</p>
+    </div>
+</div>

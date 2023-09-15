@@ -1,0 +1,43 @@
+parameters:
+- name: listOfScripts
+  type: object
+  default:
+  - name: unknown
+    script: unknown
+    dir: unknown
+
+steps:
+  - ${{ each script in parameters.listOfScripts }}:
+    - task: PowerShell@2
+      displayName: Set ${{ script.name }} Report Name Variables
+      inputs:
+        targetType: 'inline'
+        script: |
+          $minDate = (Get-Date -Format "yyyy-MM-dd")
+          $maxDate =((Get-Date).AddDays(1) | Get-Date -Format "yyyy-MM-dd")
+          $testRunTitle = "JUnit_" + $minDate + "-${{ script.name }}-Build-" + $env:resources_pipeline_CI_runID + ".xml"
+          Write-Host "##vso[task.setvariable variable=minDate;]$minDate"
+          Write-Host "##vso[task.setvariable variable=maxDate;]$maxDate"
+          Write-Host "##vso[task.setvariable variable=testRunTitle;]$testRunTitle"
+ 
+    - task: Npm@1
+      displayName: NPM Test (${{ script.name }})
+      inputs:
+        command: custom
+        workingDir: $(System.DefaultWorkingDirectory)${{ script.dir }}
+        verbose: true
+        customCommand: 'run ${{script.script}}'
+      continueOnError: true
+
+    - task: PublishTestResults@2
+      displayName: 'Publish ${{ script.name }} Results'
+      inputs:
+        testResultsFiles: '*.xml'
+        searchFolder: '$(System.DefaultWorkingDirectory)${{ script.dir }}/testResult/'
+        testRunTitle: $(testRunTitle)
+        
+    - task: PowerShell@2
+      displayName: 'Update ${{ script.name }} Report'
+      inputs:
+        targetType: filePath
+        filePath: '$(System.DefaultWorkingDirectory)/RoadrunnerTesting/PowerShellScripts/updateTestRun.ps1'

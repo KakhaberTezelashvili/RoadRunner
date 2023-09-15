@@ -1,0 +1,11 @@
+﻿@using TDOC.WebComponents.Button
+
+<TdButton 
+          Identifier="@($"radioButton{Details.KeyId}")" 
+          CssClass="@($"text-truncate font-weight-bold td-btn-tertiary-ocean {Details.CssClass}{(Details.Selected ? " active" : "")}")" 
+          Text="@Details.Text" 
+          Enabled="@Details.Enabled" 
+          MinWidth="@Details.Width" 
+          OnClick="ChangeSelectedButton" 
+          CssStyle="@Details.CssStyle">
+</TdButton>

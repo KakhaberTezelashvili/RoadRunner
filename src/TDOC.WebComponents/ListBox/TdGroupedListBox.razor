@@ -1,0 +1,33 @@
+﻿@using TDOC.WebComponents.ListBox.Models
+@using TDOC.WebComponents.LoadingIndicator
+
+@if (displayedItems.Count > 0)
+{
+    <DxTreeView @ref="refTreeView"
+                @key="keyTreeView"
+                Id="@groupedListBoxId"
+                Data="displayedItems"
+                CssClass="td-snackbar"
+                ChildrenExpression="dataItem => ((GroupedListBoxItemDetails)dataItem).Items"
+                BeforeExpand="ItemsBeforeExpand"
+                BeforeCollapse="ItemsBeforeCollapse"
+                AfterExpand="ItemsAfterExpand"
+                AfterCollapse="ItemsAfterCollapse">
+        <NodeTemplate>
+            <GroupedListBoxItem Identifier="@groupedListBoxId" 
+                         Details="(GroupedListBoxItemDetails)context.DataItem" 
+                         ItemClicked="SelectionChanged" />
+        </NodeTemplate>
+    </DxTreeView>
+
+    if (selectedItem != null && !itemsExpanded)
+    {
+        <GroupedListBoxItem Identifier="@($"{groupedListBoxId}Selected")" 
+                     Details="selectedItem" 
+                     ItemClicked="ClearSelection" />
+    }
+}
+@if (Items == null)
+{
+    <LoadingGridSkeleton/>
+}

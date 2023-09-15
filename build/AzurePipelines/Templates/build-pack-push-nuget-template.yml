@@ -1,0 +1,69 @@
+parameters:
+- name: nugetAlias
+  type: string
+  default: unknown
+
+- name: solution
+  type: string
+  default: unknown
+
+- name: majorVersion
+  type: number
+  default: 1
+
+- name: minorVersion
+  type: number
+  default: 0
+
+- name: patchVersion
+  type: number
+  default: 0
+
+variables:
+  buildConfiguration: 'Release'
+
+steps:
+
+# Install nuget.exe
+- task: NuGetToolInstaller@1
+  displayName: Install nuget.exe
+  inputs:
+    versionSpec: '5.10.0'
+    checkLatest: true
+
+# Restore a solution
+- task: NuGetCommand@2
+  displayName: Restore solution for ${{ parameters.nugetAlias }}
+  inputs:
+    restoreSolution: ${{ parameters.solution }}
+
+# Build a project
+- task: VSBuild@1
+  displayName: Build project (${{ parameters.nugetAlias }})
+  inputs:
+    solution: ${{ parameters.solution }}
+    configuration: '$(buildConfiguration)'
+
+# Package a project
+# The nobuild means the project will not be compiled before running pack, because its already built in above step
+- task: DotNetCoreCLI@2
+  displayName: Pack project (${{ parameters.nugetAlias }})
+  inputs:
+    command: 'pack'
+    arguments: '--configuration $(buildConfiguration)'
+    packagesToPack: ${{ parameters.solution }}
+    nobuild: true
+    versioningScheme: 'byPrereleaseNumber'
+    majorVersion: '${{ parameters.majorVersion }}'
+    minorVersion: '${{ parameters.minorVersion }}'
+    patchVersion: '${{ parameters.patchVersion }}'
+
+# Push a package
+- task: NuGetCommand@2
+  displayName: Push project (${{ parameters.nugetAlias }})
+  inputs:
+    command: 'push'
+    packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg;!$(Build.ArtifactStagingDirectory)/**/*.symbols.nupkg'
+    nuGetFeedType: 'internal'
+    publishVstsFeed: '2bfbf305-47e7-4ebd-942d-0ca71b2d53c1'
+    

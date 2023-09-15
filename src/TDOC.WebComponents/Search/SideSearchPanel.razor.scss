@@ -1,0 +1,50 @@
+﻿@import "../Scss/iws-variables";
+@import "../Scss/td-variables";
+
+.side-search-panel-expanded-left {
+    border-right: 4px solid $color-mist;
+}
+
+.side-search-panel-expanded-right {
+    border-left: 4px solid $color-mist;
+}
+
+.side-search-panel-collapsed-left,
+.side-search-panel-collapsed-right {
+    width: $width-side-search-panel-collapsed;
+    border-left: 0;
+    border-right: 0;
+}
+
+.side-search-panel-collapsed-stretched-left {
+    border-right: 1px solid $color-cliff;
+    width: $width-side-search-panel-collapsed-stretched;
+}
+
+.side-search-panel-collapsed-stretched-right {
+    border-left: 1px solid $color-cliff;
+    width: $width-side-search-panel-collapsed-stretched;
+}
+
+#searchPanelExpandedButtonPanel {
+    top: 0;
+}
+
+.side-search-panel-collapsed-stretched-left ::deep .bg-white,
+.side-search-panel-collapsed-stretched-right ::deep .bg-white {
+    transform: rotate(270deg) !important;
+    background-color: $color-transparent;
+}
+
+.side-search-panel-collapsed-stretched-left ::deep .btn,
+.side-search-panel-collapsed-stretched-right ::deep .btn {
+    height: $width-side-search-panel-collapsed-stretched !important;
+    min-width: 100%;
+    background-color: $color-transparent;
+    color: $color-black
+}
+
+.side-search-panel-collapsed-stretched-left ::deep .btn:focus,
+.side-search-panel-collapsed-stretched-right ::deep .btn:focus {
+    outline: none !important;
+}

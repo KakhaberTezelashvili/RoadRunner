@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="approveBatch" xml:space="preserve">
+    <value>Approve batch</value>
+  </data>
+  <data name="batchApproved" xml:space="preserve">
+    <value>Batch approved</value>
+  </data>
+  <data name="batchCreated" xml:space="preserve">
+    <value>Batch created</value>
+  </data>
+  <data name="batchDisapproved" xml:space="preserve">
+    <value>Batch disapproved</value>
+  </data>
+  <data name="batchDisapprovedDescription" xml:space="preserve">
+    <value>Error {0} {1}</value>
+  </data>
+  <data name="disapproveBatch" xml:space="preserve">
+    <value>Disapprove batch</value>
+  </data>
+  <data name="disapproved" xml:space="preserve">
+    <value>Disapproved</value>
+  </data>
+  <data name="dispatchTo" xml:space="preserve">
+    <value>Dispatch to</value>
+  </data>
+  <data name="dispatchUnits" xml:space="preserve">
+    <value>Dispatch units</value>
+  </data>
+  <data name="handleSterilizerBatch" xml:space="preserve">
+    <value>Handle sterilizer batch</value>
+  </data>
+  <data name="handleWashBatch" xml:space="preserve">
+    <value>Handle wash batch</value>
+  </data>
+  <data name="noBatchesHandledWithin24Hours" xml:space="preserve">
+    <value>No batches handled within the last 24 hours</value>
+  </data>
+  <data name="noUnhandledBatches" xml:space="preserve">
+    <value>No unhandled batches</value>
+  </data>
+  <data name="recentlyHandledBatches" xml:space="preserve">
+    <value>Recently handled batches</value>
+  </data>
+  <data name="registeredUnits" xml:space="preserve">
+    <value>Registered units</value>
+  </data>
+  <data name="selectBatchApproveDisapprove" xml:space="preserve">
+    <value>Select a batch to approve or disapprove it</value>
+  </data>
+  <data name="selectErrorForBatchDisapprove" xml:space="preserve">
+    <value>Select a disapproval error for batch</value>
+  </data>
+  <data name="selectPackedUnitsToRegister" xml:space="preserve">
+    <value>Select packed units to register</value>
+  </data>
+  <data name="selectUnitsToRegister" xml:space="preserve">
+    <value>Select units to register</value>
+  </data>
+  <data name="selectForPacking" xml:space="preserve">
+    <value>Select for packing</value>
+  </data>
+  <data name="selectUnitsToDispatch" xml:space="preserve">
+    <value>Select units to dispatch</value>
+  </data>
+  <data name="selectUnitsToPack" xml:space="preserve">
+    <value>Select units to pack</value>
+  </data>
+  <data name="selectUnitsToReturn" xml:space="preserve">
+    <value>Select units to return</value>
+  </data>
+  <data name="unhandledBatches" xml:space="preserve">
+    <value>Unhandled batches</value>
+  </data>
+  <data name="workflowBatchHandleDetailsStartText" xml:space="preserve">
+    <value>There are no units registered to the batch</value>
+  </data>
+  <data name="workflowDispatchHeaderText" xml:space="preserve">
+    <value>Select a customer and then scan or select the units to be dispatch</value>
+  </data>
+  <data name="workflowDispatchScanText" xml:space="preserve">
+    <value>Scan a unit to dispatch it to the selected customer&lt;br&gt; or search and select the unit to dispatch</value>
+  </data>
+  <data name="workflowDispatchStartHeader" xml:space="preserve">
+    <value>Dispatch units</value>
+  </data>
+  <data name="workflowDispatchStartText" xml:space="preserve">
+    <value>First select the customer to dispatch the units to&lt;br&gt; or select to Return to stock</value>
+  </data>
+  <data name="workflowPackHeaderText" xml:space="preserve">
+    <value>Scan or select a product or unit to pack it</value>
+  </data>
+  <data name="workflowPackStartText" xml:space="preserve">
+    <value>To pack a unit scan a unit or product&lt;br&gt;or search and select what to pack</value>
+  </data>
+  <data name="workflowReturnHeaderText" xml:space="preserve">
+    <value>Scan or select a unit to return it</value>
+  </data>
+  <data name="workflowReturnStartText" xml:space="preserve">
+    <value>To return a unit scan the unit&lt;br&gt;or search and select what to return</value>
+  </data>
+  <data name="workflows" xml:space="preserve">
+    <value>Workflows</value>
+  </data>
+  <data name="workflowSelectMachine" xml:space="preserve">
+    <value>First select a machine for the batch</value>
+  </data>
+  <data name="workflowSterilizeHeaderText" xml:space="preserve">
+    <value>Select a machine and a program and register packed units</value>
+  </data>
+  <data name="workflowSterilizeStartText" xml:space="preserve">
+    <value>To register a packed unit to the batch scan the unit&lt;br&gt;or search and select the unit to register</value>
+  </data>
+  <data name="workflowSterilizeWashStartHeader" xml:space="preserve">
+    <value>Register units</value>
+  </data>
+  <data name="workflowWashHeaderText" xml:space="preserve">
+    <value>Select a machine and a program and register returned units</value>
+  </data>
+  <data name="workflowWashStartText" xml:space="preserve">
+    <value>To register a returned unit to the batch scan the unit&lt;br&gt; or search and select the unit to register</value>
+  </data>
+  <data name="wrongBarcodeScanned" xml:space="preserve">
+    <value>Wrong barcode type scanned</value>
+  </data>
+  <data name="packAdditionalUnitsHeader" xml:space="preserve">
+    <value>Pack additional units</value>
+  </data>
+  <data name="packAdditionalUnitsText" xml:space="preserve">
+    <value>To pack additional units from this product, enter the amount and select Pack.</value>
+  </data>
+  <data name="processingMultiPack" xml:space="preserve">
+    <value>Creating {0} of {1} units</value>
+  </data>
+  <data name="removeUnit" xml:space="preserve">
+    <value>Remove unit</value>
+  </data>
+  <data name="removeUnitFromBatch" xml:space="preserve">
+    <value>Remove this unit from the batch?</value>
+  </data>
+  <data name="removeUnitFromDispatch" xml:space="preserve">
+    <value>Remove this unit from the dispatch list?</value>
+  </data>
+  <data name="createEmptyBatch" xml:space="preserve">
+    <value>Create empty batch</value>
+  </data>
+  <data name="noUnitsAreRegisteredToBatch" xml:space="preserve">
+    <value>No units are registered to the batch for:</value>
+  </data>
+  <data name="createThisEmptyBatch" xml:space="preserve">
+    <value>Create this empty batch?</value>
+  </data>
+</root>

@@ -1,0 +1,47 @@
+﻿@using TDOC.WebComponents.Search
+
+@if (GridDetails != null)
+{
+    if (ShowTitle)
+    {
+        <div class="row font-size-19 font-weight-bold pb-6px">
+            @GridDetails.Title
+        </div>
+    }
+    if (ShowSearchBox)
+    {
+        <div class="p-12px">
+            <SearchBoxPanel NullText="@SearchBoxPanelNullText"
+                            Height="SearchBoxPanelHeight"
+                            SearchRequested="SearchRequested"
+                            ShowClearButton="ShowSearchBoxClearButton"
+                            @bind-Text="@SearchText"
+                            ShowSearchButton="true" />
+        </div>
+    }
+    <TdDataGrid @ref="refGrid"
+                TItem="object"
+                DataIsJObject="true"
+                Enabled="Enabled"
+                AllowSelectionMode="AllowSelectionMode"
+                DataLoading="DataLoading()"
+                PageSize="0"
+                ScrollableHeight="ScrollableHeight"
+                Identifier="@GridDetails.GridIdentifier"
+                NoDataText="@GridDetails.NoDataText"
+                NoDataDetails="GridDetails.NoDataDetails"
+                Summary="GridDetails.Summary"
+                GridStructure="gridStructure"
+                Data="data?.DataSet"
+                CheckDataStatusOmitted="GridDetails.CheckDataStatusOmitted"
+                StatusFieldName="@GridDetails.MainEntityStatusFieldName"
+                GridOptionsChanged="GridOptionsChangedAsync"
+                RowDoubleClick="RowDoubleClicked"
+                RowSingleClick="RowSingleClicked"
+                ShowNoDataWhenSearchTextIsEmpty="RequestDataAfterClearSearchText"
+                SingleSelectedDataRow="singleSelectedDataRow"
+                LocalizeEnum="LocalizeEnum"
+                SearchText="@SearchText">
+        @ColumnTemplates
+    </TdDataGrid>
+}

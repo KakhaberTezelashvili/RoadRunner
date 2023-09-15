@@ -1,0 +1,34 @@
+﻿<CascadingValue Value="this">
+  @ChildContent
+  <DxTabs
+      ActiveTabIndex="activeTabIndex"
+      ActiveTabIndexChanged="OnActiveTabIndexChanged">
+      
+      @for (var i = 0; i < tabTemplates.Count; i++)
+      {
+          var index = i;
+          var tab = tabTemplates[index];
+          <DxTab CssClass="@(Enabled ? "" : "action-disabled")">
+              <TabTemplate>
+                  <div class="row nav-link cursor-pointer @(index == activeTabIndex ? "active" : "") @(tab.TabTitleIsBold ? "font-weight-bold" : "")" style="@tab.ExtraCssStyle">
+                      <div class="col d-flex align-items-center px-12px">
+                          @tab.TabTitle
+                      </div>
+                      <div hidden="@(!tab.AllowClose)" class="lh-0">
+                          <img class="icon-size-16" 
+                               src="@($"{ContentUrls.ResourceImg}others/closeBlack.svg")" 
+                               @onclick="() => CloseTab(tab)"/>
+                      </div>
+                  </div>
+              </TabTemplate>
+          </DxTab>
+      }
+  </DxTabs>
+  @for (var i = 0; i < tabTemplates.Count; i++)
+  {
+    var tab = tabTemplates[i];
+    <div hidden="@(tab.TabId != activeTabId)">
+      @tab.DisplayTemplate
+    </div>
+  }
+</CascadingValue>

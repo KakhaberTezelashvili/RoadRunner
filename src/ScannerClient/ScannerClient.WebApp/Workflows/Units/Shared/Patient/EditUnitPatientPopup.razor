@@ -1,0 +1,42 @@
+﻿@using ProductionService.Shared.Dtos.Patients
+
+@if (RegisterAsCommonPatient || Arguments != null)
+{
+    <TdPopup @ref="refEditPatientPopup"
+             Title="@(RegisterAsCommonPatient ? _sharedLocalizer["selectPatient"] : string.Concat(_sharedLocalizer["selectUnitPatient"], " ", UnitKeyId))"  
+             Visible="visible"
+             Width="popupDimensions.Width"
+             Height="popupDimensions.Height" 
+             PopupResizing="OnPopupResizing">
+        <BodyTemplate>
+            <SearchBoxPanel />
+            <TdDataGrid Identifier="@GridIdentifiers.EditUnitPatientsGrid.ToString()" 
+                        TItem="PatientDetailsBaseDto" 
+                        Data="data" 
+                        GridStructure="gridStructure" 
+                        PageSize="0"
+                        ScrollableHeight="availableGridHeight" 
+                        RowSingleClick="OnRowClick">
+                <TdDataGridColumnTemplate TItem="PatientDetailsBaseDto" Field="@nameof(PatientDetailsBaseDto.Id)">
+                    <DisplayTemplate Context="item">
+                        @item.Id
+                    </DisplayTemplate>
+                </TdDataGridColumnTemplate>
+                <TdDataGridColumnTemplate TItem="PatientDetailsBaseDto" Field="@nameof(PatientDetailsBaseDto.Name)">
+                    <DisplayTemplate Context="item">
+                        @item.Name
+                    </DisplayTemplate>
+                </TdDataGridColumnTemplate>
+            </TdDataGrid>
+        </BodyTemplate>
+        <FooterTemplate>
+            <OkCancelButtonsPanel ButtonOkIdentifier="@($"{nameof(EditUnitPatientPopup)}Use")"
+                                  ButtonCancelIdentifier="@($"{nameof(EditUnitPatientPopup)}Cancel")"
+                                  ButtonOkText="@_tdSharedLocalizer["use"]"
+                                  ButtonCancelText="@_tdSharedLocalizer["cancel"]"
+                                  ButtonOkClicked="UpdateUnitPatientAsync"
+                                  ButtonCancelClicked="CancelEditingUnitPatientAsync"
+                                  ButtonOkEnabled="dataChanged" />
+        </FooterTemplate>
+    </TdPopup>
+}

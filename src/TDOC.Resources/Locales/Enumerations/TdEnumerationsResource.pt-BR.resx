@@ -1,0 +1,1847 @@
+<?xml version="1.0" encoding="utf-8"?><root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActualProgramCheck.Off">
+    <value>Desligado</value>
+  </data>
+  <data name="ActualProgramCheck.WarningPrompt">
+    <value>Aviso e confirmaçao</value>
+  </data>
+  <data name="ActualProgramCheck.Error">
+    <value>Erro - Aprovaçao bloqueada</value>
+  </data>
+  <data name="ApprovalType.No">
+    <value>Nº</value>
+  </data>
+  <data name="ApprovalType.Yes">
+    <value>Sim</value>
+  </data>
+  <data name="ApprovalType.Visual">
+    <value>Visual</value>
+  </data>
+  <data name="ApprovalType.Unit">
+    <value>Unidades</value>
+  </data>
+  <data name="ApprovalType.UnitVisual">
+    <value>Visual das Unidades</value>
+  </data>
+  <data name="BatchUnitStatus.OK">
+    <value>OK</value>
+  </data>
+  <data name="BatchUnitStatus.BatchFailed">
+    <value>Falha no lote</value>
+  </data>
+  <data name="BatchUnitStatus.UnitFailed">
+    <value>Unidade falhou</value>
+  </data>
+  <data name="CountDatStatus.Open">
+    <value>Abrir</value>
+  </data>
+  <data name="CountDatStatus.Completed">
+    <value>Completed</value>
+  </data>
+  <data name="CountDatStatus.Suspended">
+    <value>Suspenso</value>
+  </data>
+  <data name="CountDatUsersUserRole.EnteringData">
+    <value>Inserção de dados</value>
+  </data>
+  <data name="CountDatUsersUserRole.Responsible">
+    <value>Responsável</value>
+  </data>
+  <data name="CustNameDisplay.Name">
+    <value>Nome</value>
+  </data>
+  <data name="CustNameDisplay.ShortName">
+    <value>Nome abreviado</value>
+  </data>
+  <data name="CustNameDisplay.Number">
+    <value>Número</value>
+  </data>
+  <data name="CustOrderBookingMode.Default">
+    <value>Padrao</value>
+  </data>
+  <data name="CustOrderBookingMode.Disabled">
+    <value>Desabilitado</value>
+  </data>
+  <data name="CustOrderBookingMode.Manual">
+    <value>Manual</value>
+  </data>
+  <data name="CustOrderBookingMode.Automation">
+    <value>Automático</value>
+  </data>
+  <data name="CustPreDispatchMode.UseFacSetting">
+    <value>Usar configuraçao de fábrica</value>
+  </data>
+  <data name="CustPreDispatchMode.Always">
+    <value>Sempre</value>
+  </data>
+  <data name="CustPreDispatchMode.Never">
+    <value>Nunca</value>
+  </data>
+  <data name="DecNonDispItemStockOnPack.Off">
+    <value>Desligado</value>
+  </data>
+  <data name="DecNonDispItemStockOnPack.Prompt">
+    <value>Prompt</value>
+  </data>
+  <data name="DecNonDispItemStockOnPack.On">
+    <value>Ligado</value>
+  </data>
+  <data name="DeltaScanMode.Delta">
+    <value>Delta</value>
+  </data>
+  <data name="DeltaScanMode.Total">
+    <value>Total</value>
+  </data>
+  <data name="DoctorUsage.NotSet">
+    <value>Nao é necessário</value>
+  </data>
+  <data name="DoctorUsage.Needed">
+    <value>Utilizaçao padrao se nao especificado</value>
+  </data>
+  <data name="DoctorUsage.Required">
+    <value>Deve ser especificado</value>
+  </data>
+  <data name="DryerProcessStatus.Normal">
+    <value>Normal</value>
+  </data>
+  <data name="DryerProcessStatus.OK">
+    <value>OK</value>
+  </data>
+  <data name="DryerProcessStatus.Error">
+    <value>Erro</value>
+  </data>
+  <data name="FacOrderBookingMode.Disabled">
+    <value>Desabilitado</value>
+  </data>
+  <data name="FacOrderBookingMode.Manual">
+    <value>Manual</value>
+  </data>
+  <data name="FacOrderBookingMode.Automation">
+    <value>Automático</value>
+  </data>
+  <data name="FactoryDefProdTraceType.ProductSerial">
+    <value>Número de série</value>
+  </data>
+  <data name="FactoryDefProdTraceType.Product">
+    <value>Número do produto</value>
+  </data>
+  <data name="FactoryRestrictionMode.Default">
+    <value>Padrao</value>
+  </data>
+  <data name="FactoryRestrictionMode.On">
+    <value>Ligado</value>
+  </data>
+  <data name="FactoryRestrictionMode.Warning">
+    <value>Aviso</value>
+  </data>
+  <data name="FactoryRestrictionMode.Off">
+    <value>Desligado</value>
+  </data>
+  <data name="FastTrackCodeType.General">
+    <value>Geral</value>
+  </data>
+  <data name="FastTrackCodeType.AdHoc">
+    <value>Ad-hoc</value>
+  </data>
+  <data name="FastTrackCodeType.TemplateOnly">
+    <value>Somente grupo</value>
+  </data>
+  <data name="FastTrackCreatorType.System">
+    <value>Sistema</value>
+  </data>
+  <data name="FastTrackCreatorType.JobServer">
+    <value>Servidor de Tarefas</value>
+  </data>
+  <data name="FastTrackCreatorType.FacUser">
+    <value>Usuário do Factory</value>
+  </data>
+  <data name="FastTrackCreatorType.CustUser">
+    <value>Usuário do cliente</value>
+  </data>
+  <data name="FastTrackDisplayMode.UserSetting">
+    <value>Configuraçao do usuário</value>
+  </data>
+  <data name="FastTrackDisplayMode.ForcePrompt">
+    <value>Forçar prompt</value>
+  </data>
+  <data name="FastTrackDisplayMode.ForceNoPrompt">
+    <value>Nao forçar prompt</value>
+  </data>
+  <data name="FastTrackDisplayMode.ForceNoPromptOrInfo">
+    <value>Force no prompt or info</value>
+  </data>
+  <data name="FastTrackEndType.Normal">
+    <value>Normal</value>
+  </data>
+  <data name="FastTrackEndType.NormalNewUnitHas">
+    <value>Normal (nova unidade possui o mesmo)</value>
+  </data>
+  <data name="FastTrackEndType.ToRepair">
+    <value>Enviado para reparo</value>
+  </data>
+  <data name="FastTrackEndType.Expired">
+    <value>Expirado</value>
+  </data>
+  <data name="FastTrackEndType.Cancelled">
+    <value>Cancelado</value>
+  </data>
+  <data name="FastTrackInvoiceType.None">
+    <value>Nenhum</value>
+  </data>
+  <data name="FastTrackInvoiceType.Factory">
+    <value>Fábrica</value>
+  </data>
+  <data name="FastTrackInvoiceType.Customer">
+    <value>Cliente</value>
+  </data>
+  <data name="FastTrackStatus.Assigned">
+    <value>Atribuído</value>
+  </data>
+  <data name="FastTrackStatus.Started">
+    <value>Iniciado</value>
+  </data>
+  <data name="FastTrackStatus.Ended">
+    <value>Finalizado</value>
+  </data>
+  <data name="HandlingStepResult.OK">
+    <value>Passado</value>
+  </data>
+  <data name="HandlingStepResult.FailedStop">
+    <value>Falou</value>
+  </data>
+  <data name="HandlingStepResult.OKCleared">
+    <value>Passado (Limpo)</value>
+  </data>
+  <data name="HandlingStepResult.FailedStartOver">
+    <value>Falou (Recomeçar)</value>
+  </data>
+  <data name="IdentArticleLineUsage.Enabled">
+    <value>Usar padrão do sistema</value>
+  </data>
+  <data name="IdentArticleLineUsage.Disabled">
+    <value>Sim</value>
+  </data>
+  <data name="InActAction.Created">
+    <value>Criado</value>
+  </data>
+  <data name="InActAction.InBatch">
+    <value>Em lote</value>
+  </data>
+  <data name="InActAction.Pending">
+    <value>Pendente</value>
+  </data>
+  <data name="InActAction.InIncubator">
+    <value>Na incubadora</value>
+  </data>
+  <data name="InActAction.StepResult">
+    <value>Resultado da etapa</value>
+  </data>
+  <data name="InActAction.BatchUnblocked">
+    <value>Lote desbloqueado</value>
+  </data>
+  <data name="InActAction.DispatchUnblocked">
+    <value>Despacho desbloqueado</value>
+  </data>
+  <data name="InActAction.Approved">
+    <value>Aprovado</value>
+  </data>
+  <data name="InActAction.Disapproved">
+    <value>Desaprovado</value>
+  </data>
+  <data name="InActAction.Cancelled">
+    <value>Cancelado</value>
+  </data>
+  <data name="InActAction.InWell">
+    <value>Dentro do slot/posição</value>
+  </data>
+  <data name="InActAction.OutWell">
+    <value>Fora do slot/posição</value>
+  </data>
+  <data name="InActAction.BatchRemoved">
+    <value>Retirado do batch/Lote</value>
+  </data>
+  <data name="InActAction.BatchAssigned">
+    <value>Lote atribuído</value>
+  </data>
+  <data name="InActResult.Unknown">
+    <value>Desconhecido</value>
+  </data>
+  <data name="InActResult.Approved">
+    <value>Aprovado</value>
+  </data>
+  <data name="InActResult.Disapproved">
+    <value>Desaprovado</value>
+  </data>
+  <data name="IncNonDispItemStockOnPack.Off">
+    <value>Desligado</value>
+  </data>
+  <data name="IncNonDispItemStockOnPack.Prompt">
+    <value>Prompt</value>
+  </data>
+  <data name="IncNonDispItemStockOnPack.On">
+    <value>Ligado</value>
+  </data>
+  <data name="IncuBatchLogResult.Pending">
+    <value>Pendente</value>
+  </data>
+  <data name="IncuBatchLogResult.Passed">
+    <value>Passado</value>
+  </data>
+  <data name="IncuBatchLogResult.Failed">
+    <value>Falou</value>
+  </data>
+  <data name="IncuBatchLogResult.Warning">
+    <value>Aviso</value>
+  </data>
+  <data name="IncuBatchLogResult.Discontinued">
+    <value>Interrompido</value>
+  </data>
+  <data name="IncuBatchLogResult.Error">
+    <value>Erro</value>
+  </data>
+  <data name="IncuBatchLogResult.DataError">
+    <value>Erro de dados</value>
+  </data>
+  <data name="IncuBatchLogStatus.Unknown">
+    <value>Ainda não disponível</value>
+  </data>
+  <data name="IncuBatchLogStatus.Manual">
+    <value>Sem registro de dados</value>
+  </data>
+  <data name="IncuBatchLogStatus.Processing">
+    <value>Processando</value>
+  </data>
+  <data name="IncuBatchLogStatus.Done">
+    <value>Pronto</value>
+  </data>
+  <data name="IndicStatus.Created">
+    <value>Criado</value>
+  </data>
+  <data name="IndicStatus.InBatch">
+    <value>Em lote</value>
+  </data>
+  <data name="IndicStatus.Pending">
+    <value>Pendente</value>
+  </data>
+  <data name="IndicStatus.Approved">
+    <value>Aprovado</value>
+  </data>
+  <data name="IndicStatus.Disapproved">
+    <value>Desaprovado</value>
+  </data>
+  <data name="IndicStatus.Cancelled">
+    <value>Cancelado</value>
+  </data>
+  <data name="InTypResultType.Immediate">
+    <value>Imediato</value>
+  </data>
+  <data name="InTypResultType.Delayed">
+    <value>Atrasado</value>
+  </data>
+  <data name="InTypResultType.Combined">
+    <value>Combinado</value>
+  </data>
+  <data name="ItemAltPricingMode.None">
+    <value>Nenhum</value>
+  </data>
+  <data name="ItemAltPricingMode.SalesPrice">
+    <value>Preço de venda</value>
+  </data>
+  <data name="ItemAltPricingMode.UsagePrice">
+    <value>Preço de uso</value>
+  </data>
+  <data name="ItemAltPricingMode.CostPrice">
+    <value>Preço de custo</value>
+  </data>
+  <data name="ItemDifficultyMode.Default">
+    <value>Padrao</value>
+  </data>
+  <data name="ItemDifficultyMode.Fixed">
+    <value>Corrigido</value>
+  </data>
+  <data name="ItemDifficultyMode.Sum">
+    <value>Soma</value>
+  </data>
+  <data name="ItemDifficultyMode.Max">
+    <value>Máx.</value>
+  </data>
+  <data name="ItemDifficultyMode.Count">
+    <value>Contagem</value>
+  </data>
+  <data name="ItemInstrumentType.Instrument">
+    <value>Item</value>
+  </data>
+  <data name="ItemInstrumentType.Endoscope">
+    <value>Endoscópio</value>
+  </data>
+  <data name="ItemInstrumentType.ButtonValve">
+    <value>Botão válvula</value>
+  </data>
+  <data name="ItemPricingMode.SalesPrice">
+    <value>Preço de venda</value>
+  </data>
+  <data name="ItemPricingMode.UsagePrice">
+    <value>Preço de uso</value>
+  </data>
+  <data name="ItemPricingMode.CostPrice">
+    <value>Preço de custo</value>
+  </data>
+  <data name="ItemPricingType.Normal">
+    <value></value>
+  </data>
+  <data name="ItemPricingType.TimeBased">
+    <value></value>
+  </data>
+  <data name="ItemReservationMode.NotRequired">
+    <value>Nao é necessário</value>
+  </data>
+  <data name="ItemReservationMode.Enabled">
+    <value>Habilitado</value>
+  </data>
+  <data name="ItemTraceType.Item">
+    <value>Item</value>
+  </data>
+  <data name="ItemTraceType.SerialItem">
+    <value>Números de série</value>
+  </data>
+  <data name="ItemTraceType.LOT">
+    <value>Números dos LOTES</value>
+  </data>
+  <data name="LogEntryType.System">
+    <value>Sistema</value>
+  </data>
+  <data name="LogEntryType.Information">
+    <value>Informaçoes</value>
+  </data>
+  <data name="LogEntryType.Message">
+    <value>Mensagem</value>
+  </data>
+  <data name="LogEntryType.Warning">
+    <value>Aviso</value>
+  </data>
+  <data name="LogEntryType.Error">
+    <value>Erro</value>
+  </data>
+  <data name="LogEntryType.Debug">
+    <value>Depurar</value>
+  </data>
+  <data name="LogBatchContent.Disabled">
+    <value>Desabilitado</value>
+  </data>
+  <data name="LogBatchContent.Enabled">
+    <value>Habilitado</value>
+  </data>
+  <data name="LogBatchRegMode.Off">
+    <value>Desligado</value>
+  </data>
+  <data name="LogBatchRegMode.On">
+    <value>Ligado</value>
+  </data>
+  <data name="MachConsStatus.OnStock">
+    <value>Em estoque</value>
+  </data>
+  <data name="MachConsStatus.InUse">
+    <value>Em uso</value>
+  </data>
+  <data name="MachConsStatus.Used">
+    <value>Usado</value>
+  </data>
+  <data name="MachConsStatus.Missing">
+    <value>Ausente</value>
+  </data>
+  <data name="MachLogTypes.TDOC">
+    <value>Erro do T-DOC</value>
+  </data>
+  <data name="MachLogTypes.MachineError">
+    <value>Erro na Máquina</value>
+  </data>
+  <data name="MachLogTypes.MachineWarning">
+    <value>Aviso da Máquina</value>
+  </data>
+  <data name="MachTypeRuleIntervalType.Day">
+    <value>Todo x dia</value>
+  </data>
+  <data name="MachTypeRuleIntervalType.Batch">
+    <value>Todo x lote</value>
+  </data>
+  <data name="MachTypeRuleIntervalType.FirstDailyRunAfter">
+    <value>Primeira execuçao diária</value>
+  </data>
+  <data name="MachTypeRuleIntervalType.FirstWeeklyRunAfter">
+    <value>Primeira execuçao semanal</value>
+  </data>
+  <data name="MachTypeRuleIntervalType.FirstMonthlyRunAfter">
+    <value>Primeira execuçao mensal</value>
+  </data>
+  <data name="ManualEndoDryingMode.NotAllowed">
+    <value>Nao é permitido</value>
+  </data>
+  <data name="ManualEndoDryingMode.Allowed">
+    <value>Permitido</value>
+  </data>
+  <data name="ManualEndoDryingMode.Assumed">
+    <value>Assumido</value>
+  </data>
+  <data name="McRuleResult.OK">
+    <value>OK</value>
+  </data>
+  <data name="McRuleResult.Prevented">
+    <value>Evitado</value>
+  </data>
+  <data name="McRuleResult.Forced">
+    <value>Forçado</value>
+  </data>
+  <data name="McRuleResult.Error">
+    <value>Erro</value>
+  </data>
+  <data name="OperationDataActionType.Created">
+    <value>Criado</value>
+  </data>
+  <data name="OperationDataActionType.Cancelled">
+    <value>Cancelado</value>
+  </data>
+  <data name="OperationDataActionType.Planned">
+    <value>Planejado</value>
+  </data>
+  <data name="OperationDataActionType.Accepted">
+    <value>Aceito</value>
+  </data>
+  <data name="OperationDataActionType.Started">
+    <value>Iniciado</value>
+  </data>
+  <data name="OperationDataActionType.Done">
+    <value>Pronto</value>
+  </data>
+  <data name="OperationDataActionType.PrefListToOrderAuto">
+    <value>Lista de pref. de pedido criada (auto)</value>
+  </data>
+  <data name="OperationDataActionType.PrefListToOrderManual">
+    <value>Lista de pref. de pedido criada (manual)</value>
+  </data>
+  <data name="OperationDataActionType.PrefListOrderUpdated">
+    <value>Lista de pref. de pedido atualizada</value>
+  </data>
+  <data name="OperationDataActionType.OrderCancelled">
+    <value>Pedido cancelado</value>
+  </data>
+  <data name="OperationDataActionType.Exported">
+    <value>Exportado</value>
+  </data>
+  <data name="OperationDataActionType.Imported">
+    <value>Importado</value>
+  </data>
+  <data name="OperationDataActionType.PickInfoImport">
+    <value>Informaçao de coleta importada</value>
+  </data>
+  <data name="OperationDataActionType.BookingForced">
+    <value>Reserva forçada</value>
+  </data>
+  <data name="OperationDataActionType.BookingUnForced">
+    <value>Reserva nao forçada</value>
+  </data>
+  <data name="OperationDataActionType.ReservChangedDueToForce">
+    <value>Reserv. changed due to force</value>
+  </data>
+  <data name="OperationDataActionType.PreCount">
+    <value>Contagem de operações (pré)</value>
+  </data>
+  <data name="OperationDataActionType.PerCount">
+    <value>Contagem de operações (por)</value>
+  </data>
+  <data name="OperationDataActionType.PostCount">
+    <value>Contagem de operações (pós)</value>
+  </data>
+  <data name="OperationDataActionType.MergeRemove">
+    <value>Dados movidos para a operação</value>
+  </data>
+  <data name="OperationDataActionType.MergeReceive">
+    <value>Dados recebidos da operação</value>
+  </data>
+  <data name="OperationDataActionType.EmergencyCaseCartAdded">
+    <value>Caixa de emergência vinculado</value>
+  </data>
+  <data name="OperationDataActionType.PatVeriOK">
+    <value>Patient verified</value>
+  </data>
+  <data name="OperationDataActionType.PatVeriFailed">
+    <value>Patient verification failed</value>
+  </data>
+  <data name="OperationDataActionType.PatVeriSkip">
+    <value>Patient verification skipped</value>
+  </data>
+  <data name="OperationDataActionType.PatVeriPostpone">
+    <value>Patient verification postponed</value>
+  </data>
+  <data name="OperationDataActionType.OrderReturnRequested">
+    <value>Order return requested</value>
+  </data>
+  <data name="OperationDataActionType.OrderReordered">
+    <value>Order reordered</value>
+  </data>
+  <data name="OperationDataActionType.OrderCopyCreatedAuto">
+    <value>Order copy created (auto)</value>
+  </data>
+  <data name="OperationDataActionType.OrderCopyCreatedManual">
+    <value>Order copy created (manual)</value>
+  </data>
+  <data name="OperationTypeType.Elective">
+    <value>Criado</value>
+  </data>
+  <data name="OperationTypeType.Emergency">
+    <value>Cancelado</value>
+  </data>
+  <data name="OPProcedureTypeMode.Fixed">
+    <value>Corrigido</value>
+  </data>
+  <data name="OPProcedureTypeMode.AutoOPType">
+    <value>Automático a partir do Tipo de Operaçao</value>
+  </data>
+  <data name="OPProcedureTypeMode.AutoDisabled">
+    <value></value>
+  </data>
+  <data name="OPStaffMode.Fixed">
+    <value>Corrigido</value>
+  </data>
+  <data name="OPStaffMode.AutoProcType">
+    <value>Automático a partir do Tipo de Procedimento</value>
+  </data>
+  <data name="OrderActionType.Created">
+    <value>Criado</value>
+  </data>
+  <data name="OrderActionType.Cancelled">
+    <value>Cancelado</value>
+  </data>
+  <data name="OrderActionType.Sent">
+    <value>Enviado</value>
+  </data>
+  <data name="OrderActionType.Accepted">
+    <value>Aceito</value>
+  </data>
+  <data name="OrderActionType.PickStart">
+    <value>Seleçao iniciada</value>
+  </data>
+  <data name="OrderActionType.Delivered">
+    <value>Entregue</value>
+  </data>
+  <data name="OrderActionType.Received">
+    <value>Recebido</value>
+  </data>
+  <data name="OrderActionType.Done">
+    <value>Pronto</value>
+  </data>
+  <data name="OrderActionType.PrintPicklist">
+    <value>Pick list printed or viewed</value>
+  </data>
+  <data name="OrderActionType.PrintDevNote">
+    <value>Delivery note printed or viewed</value>
+  </data>
+  <data name="OrderActionType.PrintRetNote">
+    <value>Return note printed or viewed</value>
+  </data>
+  <data name="OrderActionType.PrintPurchaseOrder">
+    <value>Purchase order printed or viewed</value>
+  </data>
+  <data name="OrderActionType.Exported">
+    <value>Exportado</value>
+  </data>
+  <data name="OrderActionType.Imported">
+    <value>Importado</value>
+  </data>
+  <data name="OrderActionType.ReqDevTimeChange">
+    <value>Req. delivery time changed</value>
+  </data>
+  <data name="OrderActionType.PickInfoImport">
+    <value></value>
+  </data>
+  <data name="OrderActionType.BookingModeActive">
+    <value>Modo de reserva ativo</value>
+  </data>
+  <data name="OrderActionType.BookingModeInActive">
+    <value>Modo de reserva inativo</value>
+  </data>
+  <data name="OrderActionType.BookingForced">
+    <value>Reserva forçada</value>
+  </data>
+  <data name="OrderActionType.BookingUnForced">
+    <value>Reserva nao forçada</value>
+  </data>
+  <data name="OrderActionType.ReservChangedDueToForce">
+    <value>Reserv. changed due to force</value>
+  </data>
+  <data name="OrderActionType.AttachToOperation">
+    <value>Anexar à operação</value>
+  </data>
+  <data name="OrderActionType.DetachFromOperation">
+    <value>Separado da operação</value>
+  </data>
+  <data name="OrderActionType.BindItemsToOperation">
+    <value>Itens vinculados à operação</value>
+  </data>
+  <data name="OrderActionType.BindUnitsToOperation">
+    <value>Unidades vinculadas à operação</value>
+  </data>
+  <data name="OrderActionType.UnbindItemsFromOperation">
+    <value>Itens não vinculados da operação</value>
+  </data>
+  <data name="OrderActionType.UnbindUnitsFromOperation">
+    <value>Unidades desvinculadas da operção</value>
+  </data>
+  <data name="OrderActionType.ReturnRequested">
+    <value>Return requested</value>
+  </data>
+  <data name="OrderActionType.Reordered">
+    <value>Reordered</value>
+  </data>
+  <data name="OrderBookingMode.Undetermined">
+    <value>Indeterminado</value>
+  </data>
+  <data name="OrderBookingMode.Disabled">
+    <value>Desabilitado</value>
+  </data>
+  <data name="OrderBookingMode.Inactive">
+    <value>Inativo</value>
+  </data>
+  <data name="OrderBookingMode.Active">
+    <value>Ativo</value>
+  </data>
+  <data name="OrderBookingStatus.Undetermined">
+    <value>Indeterminado</value>
+  </data>
+  <data name="OrderBookingStatus.Ok">
+    <value>OK</value>
+  </data>
+  <data name="OrderBookingStatus.Warning">
+    <value>Aviso</value>
+  </data>
+  <data name="OrderBookingStatus.Error">
+    <value>Erro</value>
+  </data>
+  <data name="OrderOrgStatus.None">
+    <value>Nenhum</value>
+  </data>
+  <data name="OrderOrgStatus.Template">
+    <value>Modelo</value>
+  </data>
+  <data name="OrderOrgStatus.Open">
+    <value>Abrir</value>
+  </data>
+  <data name="OrderOrgStatus.Sent">
+    <value>Enviado</value>
+  </data>
+  <data name="OrderOrgStatus.Received">
+    <value>Recebido</value>
+  </data>
+  <data name="OrderOrgStatus.Done">
+    <value>Pronto</value>
+  </data>
+  <data name="OrderOrgStatus.Cancelled">
+    <value>Cancelado</value>
+  </data>
+  <data name="OrderSuppPickPriority.Normal">
+    <value>Normal</value>
+  </data>
+  <data name="OrderSuppPickPriority.PickNow">
+    <value>Agora</value>
+  </data>
+  <data name="OrderSuppPickPriority.PickNowForced">
+    <value>Now (forced)</value>
+  </data>
+  <data name="OrderSuppPriority.Normal">
+    <value>Normal</value>
+  </data>
+  <data name="OrderSuppPriority.FastTrack">
+    <value>Fast tracked</value>
+  </data>
+  <data name="OrderSuppPriority.Emergency">
+    <value>Acute</value>
+  </data>
+  <data name="OrderSuppStatus.None">
+    <value>Nenhum</value>
+  </data>
+  <data name="OrderSuppStatus.Template">
+    <value>Modelo</value>
+  </data>
+  <data name="OrderSuppStatus.Order">
+    <value>Novo</value>
+  </data>
+  <data name="OrderSuppStatus.Accepted">
+    <value>Aceito</value>
+  </data>
+  <data name="OrderSuppStatus.Picked">
+    <value>Seleçao iniciada</value>
+  </data>
+  <data name="OrderSuppStatus.Delivered">
+    <value>Entregue</value>
+  </data>
+  <data name="OrderSuppStatus.Cancelled">
+    <value>Cancelado</value>
+  </data>
+  <data name="OrderType.None">
+    <value>Nenhum</value>
+  </data>
+  <data name="OrderType.Order">
+    <value>Pedido</value>
+  </data>
+  <data name="OrderType.ReturnOrder">
+    <value>Pedido de retorno</value>
+  </data>
+  <data name="OrderType.OrderCorr">
+    <value>Corr. do inventário</value>
+  </data>
+  <data name="PackingUsedFor.All">
+    <value>Todos os instrumentos</value>
+  </data>
+  <data name="PackingUsedFor.Endoscopes">
+    <value>Endoscópios</value>
+  </data>
+  <data name="PatientAgeUsage.NotSet">
+    <value>Conforme especificado</value>
+  </data>
+  <data name="PatientAgeUsage.Needed">
+    <value>Utilizaçao padrao se nao especificado</value>
+  </data>
+  <data name="PatientAgeUsage.Required">
+    <value>Deve ser especificado</value>
+  </data>
+  <data name="PatientGenderUsage.NotSet">
+    <value>Conforme especificado</value>
+  </data>
+  <data name="PatientGenderUsage.Needed">
+    <value>Utilizaçao padrao se nao especificado</value>
+  </data>
+  <data name="PatientGenderUsage.Required">
+    <value>Deve ser especificado</value>
+  </data>
+  <data name="PIPLogEntrySubType.None">
+    <value>Nenhum</value>
+  </data>
+  <data name="PIPLogEntrySubType.SystemData">
+    <value>Dados do sistema</value>
+  </data>
+  <data name="PIPLogEntrySubType.User">
+    <value>Usuário</value>
+  </data>
+  <data name="PIPLogEntrySubType.UserProfile">
+    <value>Perfil do usuário</value>
+  </data>
+  <data name="PIPLogEntrySubType.PatientLookup">
+    <value>Pacientes</value>
+  </data>
+  <data name="PIPLogEntrySubType.OperationLookup">
+    <value>Dados da operação</value>
+  </data>
+  <data name="PIPLogEntrySubType.Patients">
+    <value>Pacientes</value>
+  </data>
+  <data name="PIPLogEntrySubType.Operations">
+    <value>Operaçoes</value>
+  </data>
+  <data name="PIPLogEntrySubType.Units">
+    <value>Unidades</value>
+  </data>
+  <data name="PIPLogEntrySubType.Orders">
+    <value>Pedidos</value>
+  </data>
+  <data name="PIPLogEntrySubType.LOTLookup">
+    <value>List of LOT information</value>
+  </data>
+  <data name="PIPLogEntryType.PIPSettings">
+    <value>Mudança das configurações de privacidade das informações do paciente </value>
+  </data>
+  <data name="PIPLogEntryType.DirectLookup">
+    <value>Pesquisa direta</value>
+  </data>
+  <data name="PIPLogEntryType.SuccSearch">
+    <value>Busca bem sucedida</value>
+  </data>
+  <data name="PIPLogEntryType.UnSuccSearch">
+    <value>Busca mal sucedida</value>
+  </data>
+  <data name="PIPLogEntryType.PIPLogOpened">
+    <value>Registro de acesso à informação do paciente aberto</value>
+  </data>
+  <data name="PIPLogEntryType.PIPLogSearching">
+    <value>Pesquisar no registro de acesso à informação do paciente</value>
+  </data>
+  <data name="PIPLogEntryType.SchedOperations">
+    <value>Operações agendadas</value>
+  </data>
+  <data name="PrDrv.None">
+    <value>Nenhum</value>
+  </data>
+  <data name="PrDrv.Windows">
+    <value>Windows</value>
+  </data>
+  <data name="PrDrv.Epson_Obsolete">
+    <value></value>
+  </data>
+  <data name="PrDrv.Zebra">
+    <value>Zebra</value>
+  </data>
+  <data name="PrefListOrderCreateMode.Immediate">
+    <value>Imediato</value>
+  </data>
+  <data name="PrefListOrderCreateMode.TimeBased">
+    <value>Just in time</value>
+  </data>
+  <data name="PrefListOrderCreateMode.Manual">
+    <value>Manual</value>
+  </data>
+  <data name="PrefLnModifier.None">
+    <value>Nenhum</value>
+  </data>
+  <data name="PrefLnModifier.Absolute">
+    <value>Absolute</value>
+  </data>
+  <data name="PrefLnModifier.Add">
+    <value>Adicionar</value>
+  </data>
+  <data name="PrefLnModifier.Subtract">
+    <value>Subtrair</value>
+  </data>
+  <data name="PrefLnModifier.Highest">
+    <value>O Mais alto</value>
+  </data>
+  <data name="PrefLnModifier.Lowest">
+    <value>O mais baixo</value>
+  </data>
+  <data name="ProcessStatus.Done">
+    <value>Pronto</value>
+  </data>
+  <data name="ProcessStatus.Running">
+    <value>Executando</value>
+  </data>
+  <data name="ProcessStatus.Initiated">
+    <value>Iniciado</value>
+  </data>
+  <data name="ProcessStatus.Ending">
+    <value>Finalizando</value>
+  </data>
+  <data name="ProcessType.None">
+    <value>Nenhum</value>
+  </data>
+  <data name="ProcessType.Pack">
+    <value>Embalar</value>
+  </data>
+  <data name="ProcessType.SteriPostBatch">
+    <value>Pós-lote (esterilizador)</value>
+  </data>
+  <data name="ProcessType.Out">
+    <value>Despacho</value>
+  </data>
+  <data name="ProcessType.Return">
+    <value>Retorno</value>
+  </data>
+  <data name="ProcessType.Prepare">
+    <value>Preparar</value>
+  </data>
+  <data name="ProcessType.Wrap">
+    <value>Quebrar</value>
+  </data>
+  <data name="ProcessType.LitePro">
+    <value>Etiqueta Lite</value>
+  </data>
+  <data name="ProcessType.SteriPreBatch">
+    <value>Pré-lote (esterilizador)</value>
+  </data>
+  <data name="ProcessType.Flash">
+    <value>Atualizar lote</value>
+  </data>
+  <data name="ProcessType.Location">
+    <value>Localidade</value>
+  </data>
+  <data name="ProcessType.WashPreBatch">
+    <value>Pré-lote (lavador)</value>
+  </data>
+  <data name="ProcessType.WashPostBatch">
+    <value>Pós-lote (lavador)</value>
+  </data>
+  <data name="ProcessType.OpenUsed">
+    <value>Abrir/Usado</value>
+  </data>
+  <data name="ProcessType.Operation">
+    <value>Operaçao</value>
+  </data>
+  <data name="ProcessType.Order">
+    <value>Pedido</value>
+  </data>
+  <data name="ProcessType.Inventory">
+    <value>Inventário</value>
+  </data>
+  <data name="ProcessType.OrderPick">
+    <value>Seleçao do pedido</value>
+  </data>
+  <data name="ProcessType.Industry">
+    <value>Industria</value>
+  </data>
+  <data name="ProcessType.PreDisPreBatch">
+    <value>Pré-lote (pré-desinfecçao)</value>
+  </data>
+  <data name="ProcessType.LoadQueue">
+    <value>Carregar Fila</value>
+  </data>
+  <data name="ProcessType.PurchaseOrder">
+    <value>Ordem de compra</value>
+  </data>
+  <data name="ProcessType.EndoscopePreBatch">
+    <value>Pré-lote (lavador de endoscópio)</value>
+  </data>
+  <data name="ProcessType.WashCheck">
+    <value>Verificaçao de lavagem</value>
+  </data>
+  <data name="ProcessType.ExtBatchInfo">
+    <value>Informaçoes de lote ext.</value>
+  </data>
+  <data name="ProcessType.EndoCleanAndTest">
+    <value>Endo limpeza e teste</value>
+  </data>
+  <data name="ProcessType.Transport">
+    <value>Transporte</value>
+  </data>
+  <data name="ProcessType.Workflow">
+    <value>Fluxo de trabalho</value>
+  </data>
+  <data name="ProcessType.Incubator">
+    <value>Incubação</value>
+  </data>
+  <data name="ProcessType.ReturnWF">
+    <value>Retornar unidades</value>
+  </data>
+  <data name="ProcessType.WashPreBatchWF">
+    <value>Create wash batch</value>
+  </data>
+  <data name="ProcessType.SteriPreBatchWF">
+    <value>Create sterilizer batch</value>
+  </data>
+  <data name="ProcessType.PackWF">
+    <value>Pack units</value>
+  </data>
+  <data name="ProcessType.OutWF">
+    <value>Despachado para o cliente</value>
+  </data>
+  <data name="ProcessType.Last">
+    <value></value>
+  </data>
+  <data name="ProdDispatchRestriction.Default">
+    <value>Padrao</value>
+  </data>
+  <data name="ProdDispatchRestriction.None">
+    <value>Nenhum</value>
+  </data>
+  <data name="ProdDispatchRestriction.CustomerOrSite">
+    <value>Cliente ou Localidade</value>
+  </data>
+  <data name="ProdDispatchRestriction.CustomerElseSite">
+    <value>Cliente outra Localidade</value>
+  </data>
+  <data name="ProdDispatchRestriction.CustomerOnly">
+    <value>Apenas Cliente</value>
+  </data>
+  <data name="ProdReservationMode.NotRequired">
+    <value>Nao é necessário</value>
+  </data>
+  <data name="ProdReservationMode.Enabled">
+    <value>Habilitado</value>
+  </data>
+  <data name="ProductDifficultyMode.UseItemValue">
+    <value>Use item value</value>
+  </data>
+  <data name="ProductDifficultyMode.Fixed">
+    <value>Corrigido</value>
+  </data>
+  <data name="ProductReturnState.Normal">
+    <value>Normal</value>
+  </data>
+  <data name="ProductReturnState.PreProcessed">
+    <value>Pré-processado</value>
+  </data>
+  <data name="ProductReturnState.PrePacked">
+    <value>Pré-embalado</value>
+  </data>
+  <data name="ProductStockControlMode.Simple">
+    <value>Normal</value>
+  </data>
+  <data name="ProductStockControlMode.Basic">
+    <value>Avançado (Completo)</value>
+  </data>
+  <data name="ProductStockControlMode.Advanced">
+    <value></value>
+  </data>
+  <data name="ProductStorageType.Factory">
+    <value>Fábrica</value>
+  </data>
+  <data name="ProductStorageType.Transit">
+    <value>Transit</value>
+  </data>
+  <data name="ProductTraceType.Product">
+    <value>Número do produto</value>
+  </data>
+  <data name="ProductTraceType.ProductSerial">
+    <value>Número de série</value>
+  </data>
+  <data name="ProductTraceType.Both">
+    <value>Ambos serial e numero do produto</value>
+  </data>
+  <data name="ProductType.Trays">
+    <value>Bandeja</value>
+  </data>
+  <data name="ProductType.SinglePacks">
+    <value>Embalagem única</value>
+  </data>
+  <data name="ProductType.Endoscopes">
+    <value>Endoscópio</value>
+  </data>
+  <data name="ProgramCheckInitiated.Allowed">
+    <value>Permitido</value>
+  </data>
+  <data name="ProgramCheckInitiated.Required">
+    <value>Necessário</value>
+  </data>
+  <data name="QuestionInputType.Boolean">
+    <value>Sim/Nao</value>
+  </data>
+  <data name="QuestionInputType.Integer">
+    <value>Número</value>
+  </data>
+  <data name="QuestionInputType.Text">
+    <value>Texto</value>
+  </data>
+  <data name="QuestionInputType.List">
+    <value>List</value>
+  </data>
+  <data name="RepairInvState.None">
+    <value>Nenhum</value>
+  </data>
+  <data name="RepairInvState.Block">
+    <value>Bloqueado</value>
+  </data>
+  <data name="RepairInvState.Done">
+    <value>Pronto</value>
+  </data>
+  <data name="RepairMode.AskUser">
+    <value>Perguntar ao usuário</value>
+  </data>
+  <data name="RepairMode.UsingCust">
+    <value>Usando cliente</value>
+  </data>
+  <data name="RepairMode.Owner">
+    <value>Proprietário</value>
+  </data>
+  <data name="RepairMode.Factory">
+    <value>Fábrica</value>
+  </data>
+  <data name="RepairOrigin.Item">
+    <value>Item</value>
+  </data>
+  <data name="RepairOrigin.Product">
+    <value>Produto</value>
+  </data>
+  <data name="RepairOrigin.Serial">
+    <value>Serial</value>
+  </data>
+  <data name="RepairOrigin.Unit">
+    <value>Unidade</value>
+  </data>
+  <data name="RepairOrigin.Tag">
+    <value>Tags/Etiquetas</value>
+  </data>
+  <data name="RepairStatus.Sent">
+    <value>Enviado</value>
+  </data>
+  <data name="RepairStatus.Received">
+    <value>Recebido</value>
+  </data>
+  <data name="RepairStatus.Done">
+    <value>Pronto</value>
+  </data>
+  <data name="RepairStatus.Cancelled">
+    <value>Cancelado</value>
+  </data>
+  <data name="RepairStatus.Requested">
+    <value>Requested</value>
+  </data>
+  <data name="RpTypCommentOption.NotAllowed">
+    <value>Nao é permitido</value>
+  </data>
+  <data name="RpTypCommentOption.Allowed">
+    <value>Permitido</value>
+  </data>
+  <data name="RpTypCommentOption.Required">
+    <value>Necessário</value>
+  </data>
+  <data name="RpTypCustInvMode.NoInvoice">
+    <value>Sem nota fiscal</value>
+  </data>
+  <data name="RpTypCustInvMode.Invoice">
+    <value>Fatura</value>
+  </data>
+  <data name="RpTypCustInvMode.NoEdit">
+    <value>Fatura, nao editar</value>
+  </data>
+  <data name="RpTypCustInvMode.Hidden">
+    <value>Fatura, sem exibiçao</value>
+  </data>
+  <data name="RpTypFacInvMode.NoInvoice">
+    <value>Sem nota fiscal</value>
+  </data>
+  <data name="RpTypFacInvMode.Invoice">
+    <value>Fatura</value>
+  </data>
+  <data name="RpTypFacInvMode.NoEdit">
+    <value>Fatura, nao editar</value>
+  </data>
+  <data name="RpTypFacInvMode.Hidden">
+    <value>Fatura, sem exibiçao</value>
+  </data>
+  <data name="RpTypSuppMode.AllowChange">
+    <value>Permitir alteraçao</value>
+  </data>
+  <data name="RpTypSuppMode.Fixed">
+    <value>Corrigido</value>
+  </data>
+  <data name="RpTypType.Standard">
+    <value>Padrao</value>
+  </data>
+  <data name="RpTypType.Quick">
+    <value>Reparo rápido</value>
+  </data>
+  <data name="RpTypType.Discard">
+    <value>Descartar</value>
+  </data>
+  <data name="ScanUIStartMode.Default">
+    <value>Padrao</value>
+  </data>
+  <data name="ScanUIStartMode.Layers">
+    <value> Modo de camada</value>
+  </data>
+  <data name="ScanUIStartMode.Grid">
+    <value>Tabela/Grid modo</value>
+  </data>
+  <data name="SexType.None">
+    <value>Desconhecido</value>
+  </data>
+  <data name="SexType.Male">
+    <value>Macho</value>
+  </data>
+  <data name="SexType.Female">
+    <value>Fêmea</value>
+  </data>
+  <data name="SexType.Other">
+    <value>Outro</value>
+  </data>
+  <data name="StdCommentFreeTextOption.NotAllowed">
+    <value>Nao é permitido</value>
+  </data>
+  <data name="StdCommentFreeTextOption.Allowed">
+    <value>Permitido</value>
+  </data>
+  <data name="StdCommentFreeTextOption.Required">
+    <value>Necessário</value>
+  </data>
+  <data name="StockBackOrderMode.Never">
+    <value>Nunca</value>
+  </data>
+  <data name="StockBackOrderMode.Always">
+    <value>Sempre</value>
+  </data>
+  <data name="StockBackOrderMode.Ask">
+    <value>Perguntar</value>
+  </data>
+  <data name="StockBackOrderMode.WhenSet">
+    <value>Quando indicado (Exato)</value>
+  </data>
+  <data name="StockBackOrderMode.WhenSetAuto">
+    <value>Quando indicado (Todos)</value>
+  </data>
+  <data name="StockOrderInMode.Auto">
+    <value>Conclusao automática</value>
+  </data>
+  <data name="StockOrderInMode.Receive">
+    <value>Recepçao automática</value>
+  </data>
+  <data name="StockOrderInMode.Manual">
+    <value>Recepçao manual</value>
+  </data>
+  <data name="StockPrnMode.Never">
+    <value>Nunca</value>
+  </data>
+  <data name="StockPrnMode.Always">
+    <value>Sempre</value>
+  </data>
+  <data name="StockPrnMode.Ask">
+    <value>Perguntar</value>
+  </data>
+  <data name="TagType.Basket">
+    <value>Cesta</value>
+  </data>
+  <data name="TagType.SteriLoad">
+    <value>Carga</value>
+  </data>
+  <data name="TagType.PrepTag">
+    <value>Preparar</value>
+  </data>
+  <data name="TagType.Bundle">
+    <value>Pacote</value>
+  </data>
+  <data name="TagType.Wash">
+    <value>Lavagem</value>
+  </data>
+  <data name="TagType.WashLoad">
+    <value>Carga de lavagem</value>
+  </data>
+  <data name="TagType.Transport">
+    <value>Transporte</value>
+  </data>
+  <data name="TagType.Split">
+    <value>Dividir</value>
+  </data>
+  <data name="TagType.CaseCart">
+    <value>Case Cart</value>
+  </data>
+  <data name="TagType.TransportBox">
+    <value>Transport box</value>
+  </data>
+  <data name="TagType.InstrumentContainer">
+    <value>Instrument container</value>
+  </data>
+  <data name="TransmitKind.SMS">
+    <value>Modelo abreviado</value>
+  </data>
+  <data name="TransmitKind.Internal">
+    <value>Modelo longo</value>
+  </data>
+  <data name="TrigBehaviour.RoundBased">
+    <value>Rounds</value>
+  </data>
+  <data name="TrigBehaviour.Time">
+    <value>Intervals</value>
+  </data>
+  <data name="TrigBehaviour.InitialDaysThenRounds">
+    <value>Interval then rounds</value>
+  </data>
+  <data name="TrigBehaviour.RoundMaxTime">
+    <value>Rounds or intervals</value>
+  </data>
+  <data name="TrigBehaviour.Everytime">
+    <value>Everytime</value>
+  </data>
+  <data name="TrigExecutionPhase.Before">
+    <value>Before</value>
+  </data>
+  <data name="TrigExecutionPhase.During">
+    <value>During</value>
+  </data>
+  <data name="TrigExecutionPhase.After">
+    <value>After</value>
+  </data>
+  <data name="TrigPostponeAbility.No">
+    <value>Nº</value>
+  </data>
+  <data name="TrigPostponeAbility.YesAllUsers">
+    <value>Sim</value>
+  </data>
+  <data name="TrigPostponeAbility.UserDefined">
+    <value>User-defined</value>
+  </data>
+  <data name="UILocaAvailability.Default">
+    <value>Padrao</value>
+  </data>
+  <data name="UILocaAvailability.Visible">
+    <value>Visível</value>
+  </data>
+  <data name="UILocaAvailability.Advanced">
+    <value>Visível (avançado)</value>
+  </data>
+  <data name="UILocaAvailability.Hidden">
+    <value>Escondigo</value>
+  </data>
+  <data name="WellStatus.Unknown">
+    <value>Desconhecido</value>
+  </data>
+  <data name="WellStatus.Empty">
+    <value>Vazio</value>
+  </data>
+  <data name="WellStatus.Init">
+    <value>Inicializando</value>
+  </data>
+  <data name="WellStatus.Processing">
+    <value>Processando</value>
+  </data>
+  <data name="WellStatus.Negative">
+    <value>Negativo</value>
+  </data>
+  <data name="WellStatus.Positive">
+    <value>Positivo</value>
+  </data>
+  <data name="WellStatus.Result">
+    <value>Erro</value>
+  </data>
+  <data name="WellStatus.Error">
+    <value>Aviso</value>
+  </data>
+  <data name="WellStatus.Warning">
+    <value></value>
+  </data>
+  <data name="ReservationState.Undetermined">
+    <value>Indeterminado</value>
+  </data>
+  <data name="ReservationState.OKOriginal">
+    <value>OK</value>
+  </data>
+  <data name="ReservationState.OKIdentical">
+    <value>OK</value>
+  </data>
+  <data name="ReservationState.OKAlternative">
+    <value>OK</value>
+  </data>
+  <data name="ReservationState.OKIdenticalForAlternative">
+    <value>OK</value>
+  </data>
+  <data name="ReservationState.WarningOriginal">
+    <value>Aviso</value>
+  </data>
+  <data name="ReservationState.WarningIdentical">
+    <value>Aviso</value>
+  </data>
+  <data name="ReservationState.WarningAlternative">
+    <value>Aviso</value>
+  </data>
+  <data name="ReservationState.WarningIdenticalForAlternative">
+    <value>Aviso</value>
+  </data>
+  <data name="ReservationState.Error">
+    <value>Erro</value>
+  </data>
+  <data name="TriggerResult.RAccept">
+    <value>Aceitar</value>
+  </data>
+  <data name="TriggerResult.RReject">
+    <value>Reject</value>
+  </data>
+  <data name="TriggerResult.ROverride">
+    <value>Override</value>
+  </data>
+  <data name="TriggerResult.RPostpone">
+    <value>Postpone</value>
+  </data>
+  <data name="TriggerResult.RSilent">
+    <value>Silent</value>
+  </data>
+  <data name="FacDeductItemsFromStockInOpType.On">
+    <value>Ligado</value>
+  </data>
+  <data name="FacDeductItemsFromStockInOpType.Off">
+    <value>Desligado</value>
+  </data>
+  <data name="OrderSuppPickMode.Normal">
+    <value>Normal</value>
+  </data>
+  <data name="OrderSuppPickMode.FullAuto">
+    <value>Fully automated</value>
+  </data>
+  <data name="OrderSuppPickMode.EjectOnly">
+    <value>Eject from stock</value>
+  </data>
+  <data name="PickJobStatus.Forecast">
+    <value>Forecast</value>
+  </data>
+  <data name="PickJobStatus.Requested">
+    <value>Requested</value>
+  </data>
+  <data name="PickJobStatus.Attempted">
+    <value>Checked/Attempted</value>
+  </data>
+  <data name="PickJobStatus.Committed">
+    <value>Committed</value>
+  </data>
+  <data name="PickJobStatus.Completed">
+    <value>Completed</value>
+  </data>
+  <data name="PickJobStatus.Closed">
+    <value>Closed</value>
+  </data>
+  <data name="PickJobStatus.Cancelled">
+    <value>Cancelado</value>
+  </data>
+  <data name="PickJobActionType.NewForecast">
+    <value>Forecast</value>
+  </data>
+  <data name="PickJobActionType.Requested">
+    <value>Requested</value>
+  </data>
+  <data name="PickJobActionType.Attempted">
+    <value>Checked/Attempted</value>
+  </data>
+  <data name="PickJobActionType.Committed">
+    <value>Committed</value>
+  </data>
+  <data name="PickJobActionType.Completed">
+    <value>Completed</value>
+  </data>
+  <data name="PickJobActionType.Closed">
+    <value>Closed</value>
+  </data>
+  <data name="PickJobActionType.Cancelled">
+    <value>Cancelado</value>
+  </data>
+  <data name="ItemSalesRestriction.None">
+    <value>Nenhum</value>
+  </data>
+  <data name="ItemSalesRestriction.Blocked">
+    <value>Bloqueado</value>
+  </data>
+  <data name="TrigActivity.None">
+    <value>Nada</value>
+  </data>
+  <data name="TrigActivity.Pack">
+    <value>Embalar</value>
+  </data>
+  <data name="TrigActivity.Return">
+    <value>Retorno</value>
+  </data>
+  <data name="TrigActivity.Wrap">
+    <value>Quebrar</value>
+  </data>
+  <data name="TrigActivity.WasherBatchRegistration">
+    <value>Washer batch registration</value>
+  </data>
+  <data name="TrigActivity.WasherBatchApproval">
+    <value>Washer batch approval</value>
+  </data>
+  <data name="TrigActivity.SterilizerBatchRegistration">
+    <value>Sterilizer batch registration</value>
+  </data>
+  <data name="TrigActivity.SterilizerBatchApproval">
+    <value>Sterilizer batch approval</value>
+  </data>
+  <data name="TrigActivity.RegisterLocation">
+    <value>Localidade</value>
+  </data>
+  <data name="TrigActivity.OperationRegistration">
+    <value>Operaçao</value>
+  </data>
+  <data name="TrigActivity.Pick">
+    <value>Selecionar</value>
+  </data>
+  <data name="TrigActivity.Dispatch">
+    <value>Despacho</value>
+  </data>
+  <data name="TrigActivity.UpdateInventory">
+    <value>Inventário</value>
+  </data>
+  <data name="TrigActivity.PredisinfectionBatchRegistration">
+    <value>Pre-disinfection batch registration</value>
+  </data>
+  <data name="TrigActivity.EndoscopeWasherBatchRegistration">
+    <value>Endoscope washer batch registration</value>
+  </data>
+  <data name="TrigActivity.EndoCleanAndTest">
+    <value>Endo limpeza e teste</value>
+  </data>
+  <data name="TrigActivity.EndoscopeWasherBatchApproval">
+    <value>Endoscope washer batch approval</value>
+  </data>
+  <data name="TrigActivity.StartTransport">
+    <value>Transporte</value>
+  </data>
+  <data name="TrigActivity.PatientRegistration">
+    <value>Patient registration</value>
+  </data>
+  <data name="ReservationStatus.Active">
+    <value>Ativo</value>
+  </data>
+  <data name="ReservationStatus.Completed">
+    <value>Completed</value>
+  </data>
+  <data name="ReservationStatus.Failed">
+    <value>Falou</value>
+  </data>
+  <data name="ReservationStatus.Cancelled">
+    <value>Cancelado</value>
+  </data>
+  <data name="ProductLoanerType.NonLoaner">
+    <value></value>
+  </data>
+  <data name="ProductLoanerType.GenericLoaner">
+    <value></value>
+  </data>
+  <data name="ProductLoanerType.ExternalLoaner">
+    <value></value>
+  </data>
+  <data name="ProductLoanerType.LoanerTemplate">
+    <value></value>
+  </data>
+  <data name="LoanerSerialNameChangeMode.Always">
+    <value></value>
+  </data>
+  <data name="LoanerSerialNameChangeMode.AtFirst">
+    <value></value>
+  </data>
+  <data name="LoanerSerialNameChangeMode.Never">
+    <value></value>
+  </data>
+  <data name="LoanerAutoCheckOutMode.Off">
+    <value></value>
+  </data>
+  <data name="LoanerAutoCheckOutMode.AfterWash">
+    <value></value>
+  </data>
+  <data name="LoanerAutoCheckOutMode.AfterReturn">
+    <value></value>
+  </data>
+  <data name="UnitStatus.None">
+    <value></value>
+  </data>
+  <data name="UnitStatus.Init">
+    <value>Inicializado</value>
+  </data>
+  <data name="UnitStatus.Started">
+    <value>Iniciado</value>
+  </data>
+  <data name="UnitStatus.Rinsed">
+    <value>Enxaguado</value>
+  </data>
+  <data name="UnitStatus.Washed">
+    <value>Lavado</value>
+  </data>
+  <data name="UnitStatus.Prep">
+    <value>Preparado</value>
+  </data>
+  <data name="UnitStatus.Packed">
+    <value>Embalado</value>
+  </data>
+  <data name="UnitStatus.Stock">
+    <value>Em estoque</value>
+  </data>
+  <data name="UnitStatus.Dispatched">
+    <value>Despachado</value>
+  </data>
+  <data name="UnitStatus.Opened">
+    <value>Aberto</value>
+  </data>
+  <data name="UnitStatus.Used">
+    <value>Usado</value>
+  </data>
+  <data name="UnitStatus.Precleaned">
+    <value>Pré lavado</value>
+  </data>
+  <data name="UnitStatus.Returned">
+    <value>Retornado</value>
+  </data>
+  <data name="UnitStatus.ErrorReg">
+    <value>Cancelado</value>
+  </data>
+  <data name="UnitStatus.Last">
+    <value></value>
+  </data>
+  <data name="EndoscopeUnitStatus.None">
+    <value></value>
+  </data>
+  <data name="EndoscopeUnitStatus.Init">
+    <value>Inicializado</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Started">
+    <value>Iniciado</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Rinsed">
+    <value>Enxaguado</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Washed">
+    <value>Lavado</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Prep">
+    <value>Iniciado</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Packed">
+    <value>Lavado</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Stock">
+    <value>Reprocessado</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Dispatched">
+    <value>Despachado</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Opened">
+    <value>Aberto</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Used">
+    <value>Usado</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Precleaned">
+    <value>Pré lavado</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Returned">
+    <value>Retornado</value>
+  </data>
+  <data name="EndoscopeUnitStatus.ErrorReg">
+    <value>Cancelado</value>
+  </data>
+  <data name="EndoscopeUnitStatus.Last">
+    <value></value>
+  </data>
+  <data name="OperationStatus.Planned">
+    <value>Planejado</value>
+  </data>
+  <data name="OperationStatus.Accepted">
+    <value>Aceito</value>
+  </data>
+  <data name="OperationStatus.Started">
+    <value>Iniciado</value>
+  </data>
+  <data name="OperationStatus.Done">
+    <value>Pronto</value>
+  </data>
+  <data name="OperationStatus.Cancelled">
+    <value>Cancelado</value>
+  </data>
+  <data name="ObjectStatus.Normal">
+    <value>Normal</value>
+  </data>
+  <data name="ObjectStatus.Dying">
+    <value>A ser omitido</value>
+  </data>
+  <data name="ObjectStatus.Dead">
+    <value>Omitido</value>
+  </data>
+  <data name="MachineType.FirstMachineType">
+    <value>Esterilizador</value>
+  </data>
+  <data name="MachineType.Sterilizer">
+    <value>Esterilizador</value>
+  </data>
+  <data name="MachineType.Washer">
+    <value>Lavador</value>
+  </data>
+  <data name="MachineType.PreDis">
+    <value>Pré-desinfectador</value>
+  </data>
+  <data name="MachineType.EndoWasher">
+    <value>Lavador de endoscópio</value>
+  </data>
+  <data name="MachineType.Incubator">
+    <value>Incubadora</value>
+  </data>
+  <data name="MachineType.EndoDryer">
+    <value>Cabine de secagem do Endoscópio</value>
+  </data>
+  <data name="MachineType.LastMachineType">
+    <value>Cabine de secagem do Endoscópio</value>
+  </data>
+</root>

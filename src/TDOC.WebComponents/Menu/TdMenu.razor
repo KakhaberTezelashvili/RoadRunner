@@ -1,0 +1,27 @@
+﻿@using TDOC.WebComponents.Menu.Models
+@using TDOC.WebComponents.Menu
+
+<div id="@Identifier" class="menu-block">
+    <DxMenu>
+        <Items>
+            @foreach (MenuItemDetails item in Items)
+            {
+                <DxMenuItem>
+                    <TextTemplate>
+                        <MenuItem Details="item"/>
+                    </TextTemplate>
+                    <Items>
+                        @foreach (MenuItemDetails subItem in item.Items)
+                        {
+                            <DxMenuItem>
+                                <TextTemplate>
+                                    <MenuItem Details="subItem"/>
+                                </TextTemplate>
+                            </DxMenuItem>
+                        }
+                    </Items>
+                </DxMenuItem>
+            }
+        </Items>
+    </DxMenu>
+</div>

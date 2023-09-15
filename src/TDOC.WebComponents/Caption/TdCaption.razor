@@ -1,0 +1,12 @@
+﻿<div>
+    @if (IsHyperlink)
+    {
+        <a onclick="@AfterHyperlinkClicked">
+            <u class="@(Required ? "required" : "")  @(Enabled ? "cursor-pointer" : "content-disabled")">@Text</u>
+        </a>
+    }
+    else
+    {
+        <span class="@(Required ? "required" : "")  @(Enabled ? "" : "content-disabled")">@Text</span>      
+    }
+</div>
